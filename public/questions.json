@@ -49,7 +49,8 @@
       "competition",
       "b2b"
     ],
-    "source": "CON 3910 themed generator"
+    "source": "CON 3910 themed generator",
+    "scenarioContext": "Scenario #2: You are a contracting specialist at a USAF installation preparing a competitive acquisition for construction support services. Program leadership wants award speed, but market research shows multiple capable vendors and differing technical approaches. The requiring activity has not finalized all performance outcomes, and stakeholders are pushing to limit communication with industry. Your team must balance urgency, fairness, and documentation while preserving full-and-open competition expectations under FAR 6."
   },
   {
     "id": "Q003",
@@ -257,7 +258,8 @@
       "competition",
       "b2b"
     ],
-    "source": "CON 3910 themed generator"
+    "source": "CON 3910 themed generator",
+    "scenarioContext": "Scenario #10: A wing-level office needs recurring commercial supplies for sustainment operations before quarter end. Funding is available now, but requirements documentation is incomplete and the customer asks to proceed with minimal file documentation. Recent audits cited the office for weak market research and unsupported quotes. You must structure the acquisition using FAR 13 principles, maintain an adequate record, and avoid shortcuts that could invalidate the buy."
   },
   {
     "id": "Q011",
@@ -387,7 +389,8 @@
       "commercial-items",
       "b2b"
     ],
-    "source": "CON 3910 themed generator"
+    "source": "CON 3910 themed generator",
+    "scenarioContext": "Scenario #15: You are supporting a negotiated procurement for specialized technical services tied to mission readiness. The source selection team has draft evaluation factors, but internal reviewers disagree on how discussions should be handled and what must be documented in the negotiation memorandum. One senior leader suggests making an immediate best-value determination without clarifications to save time. You need to apply FAR 15 methods that preserve transparency, defensibility, and meaningful evaluation tradeoff support."
   },
   {
     "id": "Q016",
@@ -881,7 +884,8 @@
       "competition",
       "b2b"
     ],
-    "source": "CON 3910 themed generator"
+    "source": "CON 3910 themed generator",
+    "scenarioContext": "Scenario #34: During a competitive requirement, the requiring activity requests a change after solicitation release that affects delivery timelines and labor mix. Contractors have already prepared proposals, and legal counsel warns that an unclear amendment could trigger protest risk. The team debates whether to issue a quick informal update or a fully documented change with updated timelines for responses. You must choose the path that aligns with FAR-based fairness and amendment discipline."
   },
   {
     "id": "Q035",
@@ -1505,7 +1509,8 @@
       "competition",
       "b2b"
     ],
-    "source": "CON 3910 themed generator"
+    "source": "CON 3910 themed generator",
+    "scenarioContext": "Scenario #58: A program office is considering a sole-source approach because of schedule pressure, but prior buys and current market intelligence indicate more than one capable vendor may exist. The competition advocate asks your office to document rationale with specific facts, not assumptions, before limiting sources. Leadership needs a recommendation today that can survive review and potential challenge. Your decision should reflect proper competition analysis and required FAR documentation standards."
   },
   {
     "id": "Q059",

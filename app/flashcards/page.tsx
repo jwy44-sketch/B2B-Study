@@ -3,6 +3,7 @@
 import { useEffect, useMemo, useState } from 'react';
 import { loadQuestions } from '@/lib/questions';
 import type { Question } from '@/lib/types';
+import { ScenarioBlock } from '@/components/ScenarioBlock';
 import { useBookmarks } from '@/components/useBookmarks';
 
 export default function FlashcardsPage() {
@@ -42,6 +43,7 @@ export default function FlashcardsPage() {
         <label><input type="checkbox" checked={onlyBookmarked} onChange={(e) => setOnlyBookmarked(e.target.checked)} className="mr-2" />only bookmarked</label>
       </div>
       <div className="card space-y-2" onClick={() => setShowAnswer(true)}>
+        <ScenarioBlock scenarioContext={q.scenarioContext} />
         <p>{q.prompt}</p>
         {showAnswer && <p className="text-brand">Answer: {q.choices[q.correctIndex]}</p>}
         {showExplanation && <p className="text-slate-300">{q.explanation.whyCorrect}</p>}

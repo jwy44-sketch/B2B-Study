@@ -1,6 +1,7 @@
 export type Question = {
   id: string;
   prompt: string;
+  scenarioContext?: string | null;
   choices: [string, string, string, string];
   correctIndex: number;
   topic: string;

@@ -3,6 +3,7 @@
 import { useEffect, useMemo, useState } from 'react';
 import { loadQuestions } from '@/lib/questions';
 import type { Question } from '@/lib/types';
+import { ScenarioBlock } from '@/components/ScenarioBlock';
 import { useBookmarks } from '@/components/useBookmarks';
 
 export default function BankPage() {
@@ -36,6 +37,7 @@ export default function BankPage() {
           <details key={q.id} className="card">
             <summary className="cursor-pointer">{q.prompt}</summary>
             <button onClick={() => toggle(q.id)}>{lookup.has(q.id) ? '★' : '☆'}</button>
+            <ScenarioBlock scenarioContext={q.scenarioContext} />
             <ul className="list-disc pl-5">{q.choices.map((c) => <li key={c}>{c}</li>)}</ul>
             <p>Answer: {q.choices[q.correctIndex]}</p>
             <p>{q.explanation.whyCorrect}</p>

@@ -6,6 +6,7 @@ import { loadQuestions } from '@/lib/questions';
 import { presentQuestion } from '@/lib/presentQuestion';
 import type { Question } from '@/lib/types';
 import { ProgressHeader } from './ProgressHeader';
+import { ScenarioBlock } from './ScenarioBlock';
 
 type Mode = 'LOADING' | 'IN_BATCH' | 'FEEDBACK' | 'BATCH_SUMMARY' | 'SESSION_COMPLETE';
 
@@ -100,6 +101,7 @@ export default function LearnClient() {
           transition={{ duration: 0.24 }}
           className="card space-y-3"
         >
+          <ScenarioBlock scenarioContext={presented.question.scenarioContext} />
           <h2 className="text-xl font-semibold">{presented.question.prompt}</h2>
           <div className="grid gap-2">
             {presented.presentedChoices.map((choice, i) => (
