@@ -1,1802 +1,1802 @@
 [
   {
     "id": "con3910-001",
-    "question": "In market research scenario #1, what is the best contracting action?",
+    "question": "Market research is conducted during which phase of acquisition?",
     "choices": [
-      "Delay acquisition planning until after solicitation",
-      "Apply FAR 10 procedures with documented rationale",
-      "Use sole-source automatically without justification",
-      "Skip documentation to accelerate award"
+      "When requirements are being developed",
+      "All phases of the acquisition",
+      "After award to ensure that a contractor's product or service is sufficient",
+      "During negotiations to ensure that a contractor's proposal is fair and reasonable"
     ],
     "correctIndex": 1,
     "source": "Quizlet CON 3910 Practice Exam"
   },
   {
     "id": "con3910-002",
-    "question": "In competition scenario #2, what is the best contracting action?",
+    "question": "What is the use of a procedure that is inconsistent with the FAR?",
     "choices": [
-      "Skip documentation to accelerate award",
-      "Use sole-source automatically without justification",
-      "Delay acquisition planning until after solicitation",
-      "Apply FAR 6 procedures with documented rationale"
+      "Extraordinary action",
+      "Exception",
+      "Deviation",
+      "Abnormal action"
     ],
-    "correctIndex": 3,
+    "correctIndex": 2,
     "source": "Quizlet CON 3910 Practice Exam"
   },
   {
     "id": "con3910-003",
-    "question": "In simplified acquisition scenario #3, what is the best contracting action?",
+    "question": "Simplified Acquisition Procedures (SAP) should:",
     "choices": [
-      "Delay acquisition planning until after solicitation",
-      "Apply FAR 13 procedures with documented rationale",
-      "Use sole-source automatically without justification",
-      "Skip documentation to accelerate award"
+      "Promote competition to the maximum extent practicable",
+      "Consider all quotations or offers, regardless of the time they are received, if they are the most reasonable",
+      "Promote the use of current vendors for time-saving purposes",
+      "Equally consider all businesses, large or small"
     ],
-    "correctIndex": 1,
+    "correctIndex": 0,
     "source": "Quizlet CON 3910 Practice Exam"
   },
   {
     "id": "con3910-004",
-    "question": "In contracting by negotiation scenario #4, what is the best contracting action?",
+    "question": "What is the tool (form) used by DoD to apply a structured profit/fee?",
     "choices": [
-      "Use sole-source automatically without justification",
-      "Apply FAR 15 procedures with documented rationale",
-      "Delay acquisition planning until after solicitation",
-      "Skip documentation to accelerate award"
+      "DD Form 1202, Guidelines for Profit Method",
+      "DD Form 1701, Structured Analogy Method",
+      "DD Form 1547, Weighted Guidelines Method",
+      "DD Form 1861, Weighted Profit Analogy"
     ],
-    "correctIndex": 1,
+    "correctIndex": 2,
     "source": "Quizlet CON 3910 Practice Exam"
   },
   {
     "id": "con3910-005",
-    "question": "In contract modifications scenario #5, what is the best contracting action?",
+    "question": "What type(s) of contracts can be awarded when acquiring commercial items of supply?",
     "choices": [
-      "Apply FAR 43 procedures with documented rationale",
-      "Skip documentation to accelerate award",
-      "Delay acquisition planning until after solicitation",
-      "Use sole-source automatically without justification"
+      "Only firm-fixed-price contracts or fixed-price contracts with economic price adjustment",
+      "Any contract type that does not have an incentive",
+      "Any fixed-price contract type",
+      "Any type or combination of types as determined necessary by the contracting officer"
     ],
     "correctIndex": 0,
     "source": "Quizlet CON 3910 Practice Exam"
   },
   {
     "id": "con3910-006",
-    "question": "In source selection scenario #6, what is the best contracting action?",
+    "question": "When using invitations for bids (IFBs), what type(s) of contracts can be awarded?",
     "choices": [
-      "Delay acquisition planning until after solicitation",
-      "Use sole-source automatically without justification",
-      "Skip documentation to accelerate award",
-      "Apply FAR 15.3 procedures with documented rationale"
+      "Any contract type that does not have an incentive",
+      "Any fixed-price contract type",
+      "Any type or combination of types as determined necessary by the contracting officer",
+      "Only firm-fixed-price contracts or fixed-price contracts with economic price adjustment"
     ],
     "correctIndex": 3,
     "source": "Quizlet CON 3910 Practice Exam"
   },
   {
     "id": "con3910-007",
-    "question": "In commercial items scenario #7, what is the best contracting action?",
+    "question": "Which of the following is correct regarding the DFARS Procedures Guidelines and Information (PGI)?",
     "choices": [
-      "Delay acquisition planning until after solicitation",
-      "Skip documentation to accelerate award",
-      "Apply FAR 12 procedures with documented rationale",
-      "Use sole-source automatically without justification"
+      "There is no such thing as a DFARS PGI",
+      "The DFARS PGI is a companion resource to the DFARS",
+      "The DFARS PGI is not numbered similarly to the DFARS",
+      "The DFARS PGI is only used by DCMA and DCAA"
     ],
-    "correctIndex": 2,
+    "correctIndex": 1,
     "source": "Quizlet CON 3910 Practice Exam"
   },
   {
     "id": "con3910-008",
-    "question": "In contract types scenario #8, what is the best contracting action?",
+    "question": "Which of the following statements is accurate regarding the Government's policy on contract modifications?",
     "choices": [
-      "Apply FAR 16 procedures with documented rationale",
-      "Use sole-source automatically without justification",
-      "Delay acquisition planning until after solicitation",
-      "Skip documentation to accelerate award"
+      "It is preferred that program managers sign modifications in lieu of the contracting officer",
+      "Any contract specialist can direct a contractor to perform work before the execution of the contract modification",
+      "A contracting officer representative is authorized to execute contract modifications on behalf of the Government",
+      "Only contracting officers acting within the scope of their authority are authorized to execute contract modifications on behalf of the Government"
     ],
-    "correctIndex": 0,
+    "correctIndex": 3,
     "source": "Quizlet CON 3910 Practice Exam"
   },
   {
     "id": "con3910-009",
-    "question": "In market research scenario #9, what is the best contracting action?",
+    "question": "Which of the following is accurate about unilateral modifications?",
     "choices": [
-      "Apply FAR 10 procedures with documented rationale",
-      "Skip documentation to accelerate award",
-      "Use sole-source automatically without justification",
-      "Delay acquisition planning until after solicitation"
+      "Are only signed by a Government contracting officer, not the contractor",
+      "Can be signed by the contract specialist",
+      "Are used to definitize contracts with price changes",
+      "Are used to add scope to a contract"
     ],
     "correctIndex": 0,
     "source": "Quizlet CON 3910 Practice Exam"
   },
   {
     "id": "con3910-010",
-    "question": "In competition scenario #10, what is the best contracting action?",
+    "question": "Except when authorized otherwise, a Government contract:",
     "choices": [
-      "Delay acquisition planning until after solicitation",
-      "Use sole-source automatically without justification",
-      "Skip documentation to accelerate award",
-      "Apply FAR 6 procedures with documented rationale"
-    ],
-    "correctIndex": 3,
-    "source": "Quizlet CON 3910 Practice Exam"
-  },
-  {
-    "id": "con3910-011",
-    "question": "In simplified acquisition scenario #11, what is the best contracting action?",
-    "choices": [
-      "Apply FAR 13 procedures with documented rationale",
-      "Skip documentation to accelerate award",
-      "Use sole-source automatically without justification",
-      "Delay acquisition planning until after solicitation"
-    ],
-    "correctIndex": 0,
-    "source": "Quizlet CON 3910 Practice Exam"
-  },
-  {
-    "id": "con3910-012",
-    "question": "In contracting by negotiation scenario #12, what is the best contracting action?",
-    "choices": [
-      "Apply FAR 15 procedures with documented rationale",
-      "Use sole-source automatically without justification",
-      "Skip documentation to accelerate award",
-      "Delay acquisition planning until after solicitation"
-    ],
-    "correctIndex": 0,
-    "source": "Quizlet CON 3910 Practice Exam"
-  },
-  {
-    "id": "con3910-013",
-    "question": "In contract modifications scenario #13, what is the best contracting action?",
-    "choices": [
-      "Delay acquisition planning until after solicitation",
-      "Apply FAR 43 procedures with documented rationale",
-      "Skip documentation to accelerate award",
-      "Use sole-source automatically without justification"
+      "Need not be in writing",
+      "Must be in writing",
+      "Must be presented as a \"hard copy\" on paper",
+      "Must have oral confirmation"
     ],
     "correctIndex": 1,
     "source": "Quizlet CON 3910 Practice Exam"
   },
   {
-    "id": "con3910-014",
-    "question": "In source selection scenario #14, what is the best contracting action?",
+    "id": "con3910-011",
+    "question": "Which is NOT a type of contracting officer?",
     "choices": [
-      "Skip documentation to accelerate award",
-      "Delay acquisition planning until after solicitation",
-      "Use sole-source automatically without justification",
-      "Apply FAR 15.3 procedures with documented rationale"
+      "Contracting officer",
+      "Administrative contracting officer",
+      "Terminating contracting officer",
+      "Executive contracting officer"
     ],
     "correctIndex": 3,
     "source": "Quizlet CON 3910 Practice Exam"
   },
   {
-    "id": "con3910-015",
-    "question": "In commercial items scenario #15, what is the best contracting action?",
+    "id": "con3910-012",
+    "question": "With respect to the requirements of law, executive orders, regulations, and all other applicable procedures, prior to signing a contract, a contracting officer must:",
     "choices": [
-      "Delay acquisition planning until after solicitation",
-      "Use sole-source automatically without justification",
-      "Apply FAR 12 procedures with documented rationale",
-      "Skip documentation to accelerate award"
+      "Document noncompliance",
+      "Ensure that each has been met",
+      "Obtain legal validation that each has been met",
+      "Ensure that all statutory requirements have been met and try to ensure all regulations or applicable procedures have been followed"
+    ],
+    "correctIndex": 1,
+    "source": "Quizlet CON 3910 Practice Exam"
+  },
+  {
+    "id": "con3910-013",
+    "question": "Joan stated that she was working on selecting solicitation provisions. With this in mind, you know the contract:",
+    "choices": [
+      "Is ready for closeout",
+      "Was recently awarded",
+      "Is nearing completion",
+      "Has not been awarded"
+    ],
+    "correctIndex": 3,
+    "source": "Quizlet CON 3910 Practice Exam"
+  },
+  {
+    "id": "con3910-014",
+    "question": "A program manager asked John whether a contract clause is only used in the contract or if it applies to the solicitation as well. John correctly answered by replying with which of the following statements?",
+    "choices": [
+      "A contract clause only applies after contract award",
+      "A contract clause applies unless superseded by a solicitation provision",
+      "A contract clause is a term or condition used in contracts, or in both solicitations and contracts, that applies after contract award or both before and after award",
+      "A contract clause is a term or condition used in contracts and solicitations unless the resulting contract is for a commercial item."
+    ],
+    "correctIndex": 2,
+    "source": "Quizlet CON 3910 Practice Exam"
+  },
+  {
+    "id": "con3910-015",
+    "question": "A contractor failed to deliver a commercial item within the time specified by the contract. As the Government contracting officer, you plan to terminate the contract. What type of termination would you proceed with?",
+    "choices": [
+      "Termination for Convenience",
+      "Termination for Default",
+      "Termination for Cause",
+      "Termination for Late Deliveries - Commercial/Noncommercial"
     ],
     "correctIndex": 2,
     "source": "Quizlet CON 3910 Practice Exam"
   },
   {
     "id": "con3910-016",
-    "question": "In contract types scenario #16, what is the best contracting action?",
+    "question": "Which FAR part sets forth the basic policies and general information about the Federal Acquisition Regulations System?",
     "choices": [
-      "Apply FAR 16 procedures with documented rationale",
-      "Delay acquisition planning until after solicitation",
-      "Skip documentation to accelerate award",
-      "Use sole-source automatically without justification"
+      "FAR part 1",
+      "FAR part 2",
+      "FAR part 52",
+      "FAR part 53"
     ],
     "correctIndex": 0,
     "source": "Quizlet CON 3910 Practice Exam"
   },
   {
     "id": "con3910-017",
-    "question": "In market research scenario #17, what is the best contracting action?",
+    "question": "Which of the following statements best conveys the convention at FAR 1.108(b) delegation of authority?",
     "choices": [
-      "Apply FAR 10 procedures with documented rationale",
-      "Use sole-source automatically without justification",
-      "Skip documentation to accelerate award",
-      "Delay acquisition planning until after solicitation"
+      "Authority is not delegable",
+      "Each authority is delegable down to no lower than one level above the contracting officer",
+      "No authority is delegable unless specifically stated otherwise",
+      "Each authority is delegable unless specifically stated otherwise"
     ],
-    "correctIndex": 0,
+    "correctIndex": 3,
     "source": "Quizlet CON 3910 Practice Exam"
   },
   {
     "id": "con3910-018",
-    "question": "In competition scenario #18, what is the best contracting action?",
+    "question": "How many parts are there in the FAR?",
     "choices": [
-      "Use sole-source automatically without justification",
-      "Delay acquisition planning until after solicitation",
-      "Apply FAR 6 procedures with documented rationale",
-      "Skip documentation to accelerate award"
+      "52",
+      "53",
+      "2",
+      "10"
     ],
-    "correctIndex": 2,
+    "correctIndex": 1,
     "source": "Quizlet CON 3910 Practice Exam"
   },
   {
     "id": "con3910-019",
-    "question": "In simplified acquisition scenario #19, what is the best contracting action?",
+    "question": "What is a Procurement Instrument Identifier (PIID)?",
     "choices": [
-      "Skip documentation to accelerate award",
-      "Delay acquisition planning until after solicitation",
-      "Use sole-source automatically without justification",
-      "Apply FAR 13 procedures with documented rationale"
+      "A unique number identifying a contract",
+      "A unique number identifying a policy to a contract clause",
+      "A unique number identifying a funding document",
+      "A unique number identifying each solicitation, contract, agreement, or order and related procurement instrument"
     ],
     "correctIndex": 3,
     "source": "Quizlet CON 3910 Practice Exam"
   },
   {
     "id": "con3910-020",
-    "question": "In contracting by negotiation scenario #20, what is the best contracting action?",
+    "question": "The DoD Procurement Instrument Identifier (PIID) is 13 positions long. Positions 9 identifies the type of instrument. If position 9 is a \"D\", which of the following types of instruments is representative?",
     "choices": [
-      "Use sole-source automatically without justification",
-      "Apply FAR 15 procedures with documented rationale",
-      "Delay acquisition planning until after solicitation",
-      "Skip documentation to accelerate award"
+      "Indefinite-delivery contracts to include IDIQs and requirements contracts",
+      "Contracts of all types except indefinite-delivery contracts",
+      "Invitations for bids (IFBs)",
+      "Blanket purchase agreements (BPAs)"
     ],
-    "correctIndex": 1,
+    "correctIndex": 0,
     "source": "Quizlet CON 3910 Practice Exam"
   },
   {
     "id": "con3910-021",
-    "question": "In contract modifications scenario #21, what is the best contracting action?",
+    "question": "You are reviewing a contract that utilizes the uniform contract format. In Section J you see an exhibit. How will the exhibit be displayed?",
     "choices": [
-      "Apply FAR 43 procedures with documented rationale",
-      "Use sole-source automatically without justification",
-      "Delay acquisition planning until after solicitation",
-      "Skip documentation to accelerate award"
+      "With one or two numeric characters (e.g., Exhibit 1)",
+      "With one or two alpha characters (e.g., Exhibit AA)",
+      "With one alpha and one numeric character (e.g., Exhibit A1)",
+      "Utilizing only Roman numerals (e.g., Exhibit XI)"
     ],
-    "correctIndex": 0,
+    "correctIndex": 1,
     "source": "Quizlet CON 3910 Practice Exam"
   },
   {
     "id": "con3910-022",
-    "question": "In source selection scenario #22, what is the best contracting action?",
+    "question": "Your customer comes to you anticipating a new requirement, one that has not been purchased recently. You'd like to refer them to the FAR part dealing specifically with market research. Which FAR part do you refer them to?",
     "choices": [
-      "Delay acquisition planning until after solicitation",
-      "Use sole-source automatically without justification",
-      "Apply FAR 15.3 procedures with documented rationale",
-      "Skip documentation to accelerate award"
-    ],
-    "correctIndex": 2,
-    "source": "Quizlet CON 3910 Practice Exam"
-  },
-  {
-    "id": "con3910-023",
-    "question": "In commercial items scenario #23, what is the best contracting action?",
-    "choices": [
-      "Skip documentation to accelerate award",
-      "Delay acquisition planning until after solicitation",
-      "Apply FAR 12 procedures with documented rationale",
-      "Use sole-source automatically without justification"
-    ],
-    "correctIndex": 2,
-    "source": "Quizlet CON 3910 Practice Exam"
-  },
-  {
-    "id": "con3910-024",
-    "question": "In contract types scenario #24, what is the best contracting action?",
-    "choices": [
-      "Skip documentation to accelerate award",
-      "Apply FAR 16 procedures with documented rationale",
-      "Use sole-source automatically without justification",
-      "Delay acquisition planning until after solicitation"
-    ],
-    "correctIndex": 1,
-    "source": "Quizlet CON 3910 Practice Exam"
-  },
-  {
-    "id": "con3910-025",
-    "question": "In market research scenario #25, what is the best contracting action?",
-    "choices": [
-      "Skip documentation to accelerate award",
-      "Use sole-source automatically without justification",
-      "Apply FAR 10 procedures with documented rationale",
-      "Delay acquisition planning until after solicitation"
-    ],
-    "correctIndex": 2,
-    "source": "Quizlet CON 3910 Practice Exam"
-  },
-  {
-    "id": "con3910-026",
-    "question": "In competition scenario #26, what is the best contracting action?",
-    "choices": [
-      "Delay acquisition planning until after solicitation",
-      "Apply FAR 6 procedures with documented rationale",
-      "Use sole-source automatically without justification",
-      "Skip documentation to accelerate award"
-    ],
-    "correctIndex": 1,
-    "source": "Quizlet CON 3910 Practice Exam"
-  },
-  {
-    "id": "con3910-027",
-    "question": "In simplified acquisition scenario #27, what is the best contracting action?",
-    "choices": [
-      "Apply FAR 13 procedures with documented rationale",
-      "Skip documentation to accelerate award",
-      "Use sole-source automatically without justification",
-      "Delay acquisition planning until after solicitation"
-    ],
-    "correctIndex": 0,
-    "source": "Quizlet CON 3910 Practice Exam"
-  },
-  {
-    "id": "con3910-028",
-    "question": "In contracting by negotiation scenario #28, what is the best contracting action?",
-    "choices": [
-      "Skip documentation to accelerate award",
-      "Delay acquisition planning until after solicitation",
-      "Use sole-source automatically without justification",
-      "Apply FAR 15 procedures with documented rationale"
+      "FAR part 7",
+      "FAR part 8",
+      "FAR part 9",
+      "FAR part 10"
     ],
     "correctIndex": 3,
     "source": "Quizlet CON 3910 Practice Exam"
   },
   {
-    "id": "con3910-029",
-    "question": "In contract modifications scenario #29, what is the best contracting action?",
+    "id": "con3910-023",
+    "question": "Of the following types of contracts, which shall not be used in Government contracting?",
     "choices": [
-      "Delay acquisition planning until after solicitation",
-      "Use sole-source automatically without justification",
-      "Skip documentation to accelerate award",
-      "Apply FAR 43 procedures with documented rationale"
+      "Cost-plus-fixed-fee",
+      "Cost-plus-a-percentage-of-cost",
+      "Cost-plus-award-fee",
+      "Cost-reimbursement"
+    ],
+    "correctIndex": 1,
+    "source": "Quizlet CON 3910 Practice Exam"
+  },
+  {
+    "id": "con3910-024",
+    "question": "When can a time-and-materials (T&M) contract be used?",
+    "choices": [
+      "A T&M contract is best used on construction projects that require extensive materials",
+      "A T&M contract shall be used only when DCAA has conducted an audit of the labor and material for the acquisition",
+      "A T&M contract may be used only when it is not possible at the time of placing the contract to estimate accurately the extent or duration of the work or to anticipate costs",
+      "A T&M contract shall only be used on personal service contracts"
+    ],
+    "correctIndex": 2,
+    "source": "Quizlet CON 3910 Practice Exam"
+  },
+  {
+    "id": "con3910-025",
+    "question": "What underlying principle should the contracting officer follow to avoid organizational conflicts of interest?",
+    "choices": [
+      "Prevent sole source follow-on acquisitions",
+      "Prevent contractor teaming arrangements",
+      "Prevent the use of proprietary information in award considerations",
+      "Prevent unfair competitive advantage"
+    ],
+    "correctIndex": 3,
+    "source": "Quizlet CON 3910 Practice Exam"
+  },
+  {
+    "id": "con3910-026",
+    "question": "Terms that address specific types of exchanges with offerors after receipt of proposals include:",
+    "choices": [
+      "Communications, discussions, and clarifications",
+      "Discussions, explanations, and communications",
+      "Clarifications, discussions, and explanations",
+      "Conversations, clarifications, and discussions"
+    ],
+    "correctIndex": 0,
+    "source": "Quizlet CON 3910 Practice Exam"
+  },
+  {
+    "id": "con3910-027",
+    "question": "With limited exceptions as authorized by agency regulations, what does the FAR say about Government employees soliciting and accepting gifts from contractors? Government employees:",
+    "choices": [
+      "May solicit and accept gifts if in accordance with commercial business practices",
+      "May solicit and accept gifts in overseas countries where bribery is legal",
+      "May not solicit or accept gifts",
+      "May not solicit gifts, but may accept gifts if their performance exceeds standards"
+    ],
+    "correctIndex": 2,
+    "source": "Quizlet CON 3910 Practice Exam"
+  },
+  {
+    "id": "con3910-028",
+    "question": "What is the general guidance provided by the FAR for contractor bid or proposal information?",
+    "choices": [
+      "It may not be disclosed to anyone unless they are authorized to receive it",
+      "It may only be disclosed to those authorized to receive it and their supervisors",
+      "It may be disclosed to anyone with the appropriate security clearance level",
+      "It may not be disclosed to anyone outside the agency"
+    ],
+    "correctIndex": 0,
+    "source": "Quizlet CON 3910 Practice Exam"
+  },
+  {
+    "id": "con3910-029",
+    "question": "With few exceptions, which one of the following statements is true regarding awarding contracts to U.S. Government employees?",
+    "choices": [
+      "A contracting officer shall not knowingly award a contract to a Government employee unless the purchase amount is less than the micro-purchase threshold",
+      "A Government employee can receive a Government contract",
+      "A Government employee can receive a Government contract as long as they have incorporated",
+      "A contracting officer shall not knowingly award a contract to a Government employee"
     ],
     "correctIndex": 3,
     "source": "Quizlet CON 3910 Practice Exam"
   },
   {
     "id": "con3910-030",
-    "question": "In source selection scenario #30, what is the best contracting action?",
+    "question": "Which of the following would represent, or potentially represent, an organizational conflict of interest (OCI)?",
     "choices": [
-      "Skip documentation to accelerate award",
-      "Apply FAR 15.3 procedures with documented rationale",
-      "Delay acquisition planning until after solicitation",
-      "Use sole-source automatically without justification"
+      "A contractor (contractor X) is hired to develop and produce a particular product for the Government that currently does not exist. In developing the product, the contractor uses its own proprietary methods.",
+      "An engineering support contractor (contractor A) is hired to assist in the development of Government specifications for a new requirement. Contractor A writes the specifications in such a way as to require the Government's use of contractor A's proprietary processes even though there are other solutions.",
+      "A contractor (contractor X) is hired to fill an order of 50 widgets. In filling the order, the contractor supplies its own proprietary product.",
+      "An engineering support contractor (contractor A) is hired to develop specifications for a new requirement. Contractor A writes the specifications and does not later submit a proposal in response to an RFP for the new requirement."
     ],
     "correctIndex": 1,
     "source": "Quizlet CON 3910 Practice Exam"
   },
   {
     "id": "con3910-031",
-    "question": "In commercial items scenario #31, what is the best contracting action?",
+    "question": "Which term means the total cost to the Government of acquiring, operating, supporting, and (if applicable) disposing of the items being acquired?",
     "choices": [
-      "Use sole-source automatically without justification",
-      "Delay acquisition planning until after solicitation",
-      "Skip documentation to accelerate award",
-      "Apply FAR 12 procedures with documented rationale"
+      "Total costs of ownership",
+      "Life-cycle costs",
+      "True program costs",
+      "Total costs of management"
     ],
-    "correctIndex": 3,
+    "correctIndex": 1,
     "source": "Quizlet CON 3910 Practice Exam"
   },
   {
     "id": "con3910-032",
-    "question": "In contract types scenario #32, what is the best contracting action?",
+    "question": "Which of the following reflects market research policy? Market research:",
     "choices": [
-      "Skip documentation to accelerate award",
-      "Use sole-source automatically without justification",
-      "Delay acquisition planning until after solicitation",
-      "Apply FAR 16 procedures with documented rationale"
+      "Satisfies the contracting officer's fair and reasonable price determination",
+      "Begins once the requirements documents have been developed and are ready for solicitation",
+      "Ends at contract award",
+      "Aids in determining if sources capable of satisfying the agency's requirements exist"
     ],
     "correctIndex": 3,
     "source": "Quizlet CON 3910 Practice Exam"
   },
   {
     "id": "con3910-033",
-    "question": "In market research scenario #33, what is the best contracting action?",
+    "question": "Which section of the uniform contract format (UCF) exists to include negotiated, meaningful special contract requirement that are not included in Section I, Contract clauses, or in the other sections of the UCF?",
     "choices": [
-      "Delay acquisition planning until after solicitation",
-      "Apply FAR 10 procedures with documented rationale",
-      "Use sole-source automatically without justification",
-      "Skip documentation to accelerate award"
+      "Section B",
+      "Section C",
+      "Section G",
+      "Section H"
     ],
-    "correctIndex": 1,
+    "correctIndex": 3,
     "source": "Quizlet CON 3910 Practice Exam"
   },
   {
     "id": "con3910-034",
-    "question": "In competition scenario #34, what is the best contracting action?",
+    "question": "Who is the individual designated and authorized in writing by the contracting officer to perform technical or administrative functions?",
     "choices": [
-      "Skip documentation to accelerate award",
-      "Apply FAR 6 procedures with documented rationale",
-      "Delay acquisition planning until after solicitation",
-      "Use sole-source automatically without justification"
+      "Contracting officer's representative",
+      "Contract specialist",
+      "Government property administrator",
+      "Quality assurance representative"
     ],
-    "correctIndex": 1,
+    "correctIndex": 0,
     "source": "Quizlet CON 3910 Practice Exam"
   },
   {
     "id": "con3910-035",
-    "question": "In simplified acquisition scenario #35, what is the best contracting action?",
+    "question": "Which of the following statements is accurate regarding Acquisitions Teams?",
     "choices": [
-      "Delay acquisition planning until after solicitation",
-      "Skip documentation to accelerate award",
-      "Apply FAR 13 procedures with documented rationale",
-      "Use sole-source automatically without justification"
+      "The Acquisitions Team includes only representatives of the technical, supply, and procurement communities and the customers they serve.",
+      "Due to privity of contract, only prime contractors (and not subcontractors) are part of the Acquisition Team.",
+      "The Acquisition Team includes representatives of the technical, supply, and procurement communities, the customers they serve, and the contractors who provide the products and services.",
+      "The Acquisition Team's activities conclude after contract award."
     ],
     "correctIndex": 2,
     "source": "Quizlet CON 3910 Practice Exam"
   },
   {
     "id": "con3910-036",
-    "question": "In contracting by negotiation scenario #36, what is the best contracting action?",
+    "question": "Select the statement that is NOT conducive toward forming a cohesive team.",
     "choices": [
-      "Skip documentation to accelerate award",
-      "Delay acquisition planning until after solicitation",
-      "Apply FAR 15 procedures with documented rationale",
-      "Use sole-source automatically without justification"
+      "The Government should foster a cooperative working relationship with contractors consistent with its overriding responsibility to the taxpayers.",
+      "The contracts office and the program office should be synchronized as it relates to the end goal.",
+      "The Government should foster an \"arm's length\" approach for an effective relationship.",
+      "Good communication is important in building a cohesive team."
     ],
     "correctIndex": 2,
     "source": "Quizlet CON 3910 Practice Exam"
   },
   {
     "id": "con3910-037",
-    "question": "In contract modifications scenario #37, what is the best contracting action?",
+    "question": "The authority of a contracting officer's representative (COR) shall be:",
     "choices": [
-      "Skip documentation to accelerate award",
-      "Delay acquisition planning until after solicitation",
-      "Use sole-source automatically without justification",
-      "Apply FAR 43 procedures with documented rationale"
-    ],
-    "correctIndex": 3,
-    "source": "Quizlet CON 3910 Practice Exam"
-  },
-  {
-    "id": "con3910-038",
-    "question": "In source selection scenario #38, what is the best contracting action?",
-    "choices": [
-      "Use sole-source automatically without justification",
-      "Apply FAR 15.3 procedures with documented rationale",
-      "Skip documentation to accelerate award",
-      "Delay acquisition planning until after solicitation"
+      "Commensurate with all of the same authority granted to the contracting officer",
+      "Designated in writing, with a copy given to the contractor and contract administration office.",
+      "Given verbally by the contracting officer only on a case-by-case basis",
+      "Granted by the program office once the COR has been designated by the contracting officer"
     ],
     "correctIndex": 1,
     "source": "Quizlet CON 3910 Practice Exam"
   },
   {
-    "id": "con3910-039",
-    "question": "In commercial items scenario #39, what is the best contracting action?",
+    "id": "con3910-038",
+    "question": "Which event is meant to aid both the Government and contractor personnel to 1) achieve a clear and mutual understanding of all contractor requirements, and 2) identify and resolve potential problems after contract award?",
     "choices": [
-      "Apply FAR 12 procedures with documented rationale",
-      "Use sole-source automatically without justification",
-      "Delay acquisition planning until after solicitation",
-      "Skip documentation to accelerate award"
+      "Site visit",
+      "Pre-solicitation conference",
+      "Industry day",
+      "Postaward orientation conference"
+    ],
+    "correctIndex": 3,
+    "source": "Quizlet CON 3910 Practice Exam"
+  },
+  {
+    "id": "con3910-039",
+    "question": "Where in the FAR can you find guidance on how to establish, maintain, and dispose of Government contract files?",
+    "choices": [
+      "FAR part 4",
+      "FAR part 5",
+      "FAR part 6",
+      "FAR part 7"
     ],
     "correctIndex": 0,
     "source": "Quizlet CON 3910 Practice Exam"
   },
   {
     "id": "con3910-040",
-    "question": "In contract types scenario #40, what is the best contracting action?",
+    "question": "In a Determination and Findings, the findings are:",
     "choices": [
-      "Skip documentation to accelerate award",
-      "Apply FAR 16 procedures with documented rationale",
-      "Use sole-source automatically without justification",
-      "Delay acquisition planning until after solicitation"
+      "A conclusion",
+      "Support for the determination",
+      "Not included in the written record",
+      "Not required"
     ],
     "correctIndex": 1,
     "source": "Quizlet CON 3910 Practice Exam"
   },
   {
     "id": "con3910-041",
-    "question": "In market research scenario #41, what is the best contracting action?",
+    "question": "In briefing prenegotiation objectives for approval, contracting officers should ensure their briefing slides are:",
     "choices": [
-      "Use sole-source automatically without justification",
-      "Apply FAR 10 procedures with documented rationale",
-      "Skip documentation to accelerate award",
-      "Delay acquisition planning until after solicitation"
+      "Read by the briefer",
+      "Filled with text",
+      "Extremely colorful",
+      "Simple and concise"
     ],
-    "correctIndex": 1,
+    "correctIndex": 3,
     "source": "Quizlet CON 3910 Practice Exam"
   },
   {
     "id": "con3910-042",
-    "question": "In competition scenario #42, what is the best contracting action?",
+    "question": "Which of the following is an accounting or financial term when addressing contractual funding issues?",
     "choices": [
-      "Use sole-source automatically without justification",
-      "Skip documentation to accelerate award",
-      "Delay acquisition planning until after solicitation",
-      "Apply FAR 6 procedures with documented rationale"
+      "Physical",
+      "Physcal",
+      "Fiscal",
+      "Fiduciary"
     ],
-    "correctIndex": 3,
+    "correctIndex": 2,
     "source": "Quizlet CON 3910 Practice Exam"
   },
   {
     "id": "con3910-043",
-    "question": "In simplified acquisition scenario #43, what is the best contracting action?",
+    "question": "It is the Government's policy that before executing a contract, the contracting officer must:",
     "choices": [
-      "Use sole-source automatically without justification",
-      "Delay acquisition planning until after solicitation",
-      "Skip documentation to accelerate award",
-      "Apply FAR 13 procedures with documented rationale"
+      "Obtain written assurance from the responsible fiscal authority that adequate funds are available.",
+      "Obtain written assurance from the paying office that adequate funds are available.",
+      "Confirm that the Appropriations Bill has passed.",
+      "Obtain written assurance from the head of the contracting office that adequate funds are available."
     ],
-    "correctIndex": 3,
+    "correctIndex": 0,
     "source": "Quizlet CON 3910 Practice Exam"
   },
   {
     "id": "con3910-044",
-    "question": "In contracting by negotiation scenario #44, what is the best contracting action?",
+    "question": "What would be the preferred way to acquire an item in Government contracting?",
     "choices": [
-      "Skip documentation to accelerate award",
-      "Apply FAR 15 procedures with documented rationale",
-      "Use sole-source automatically without justification",
-      "Delay acquisition planning until after solicitation"
+      "Purchase the requirement as a noncommercial item.",
+      "Purchase the requirement as a commercial item.",
+      "Purchase the item as an other transactional authority acquisition.",
+      "Purchase the item as a developmental item."
     ],
     "correctIndex": 1,
     "source": "Quizlet CON 3910 Practice Exam"
   },
   {
     "id": "con3910-045",
-    "question": "In contract modifications scenario #45, what is the best contracting action?",
+    "question": "Contracting officers shall provide property to contractors only when it is clearly demonstrated that:",
     "choices": [
-      "Apply FAR 43 procedures with documented rationale",
-      "Delay acquisition planning until after solicitation",
-      "Skip documentation to accelerate award",
-      "Use sole-source automatically without justification"
+      "The contractor requests the use of Government property.",
+      "Government property is available.",
+      "The contractor is unwilling to supply its own resources.",
+      "The overall benefit to the acquisition significantly outweigh the increased cost of administration."
+    ],
+    "correctIndex": 3,
+    "source": "Quizlet CON 3910 Practice Exam"
+  },
+  {
+    "id": "con3910-046",
+    "question": "Acquisition planning should begin:",
+    "choices": [
+      "When a purchased request is received.",
+      "When a statement of work is received.",
+      "As soon as the agency need is identified.",
+      "Within 30 days of receipt of the purchase request."
+    ],
+    "correctIndex": 2,
+    "source": "Quizlet CON 3910 Practice Exam"
+  },
+  {
+    "id": "con3910-047",
+    "question": "Which of the following is an exception to obtaining certified cost or pricing data?",
+    "choices": [
+      "Adequate price competition",
+      "Sole source acquisition",
+      "Subcontractor contracts",
+      "Noncommercial item"
     ],
     "correctIndex": 0,
     "source": "Quizlet CON 3910 Practice Exam"
   },
   {
-    "id": "con3910-046",
-    "question": "In source selection scenario #46, what is the best contracting action?",
+    "id": "con3910-048",
+    "question": "The contracting officer shall take which of the following actions to encourage small business participation in acquisitions?",
     "choices": [
-      "Use sole-source automatically without justification",
-      "Delay acquisition planning until after solicitation",
-      "Skip documentation to accelerate award",
-      "Apply FAR 15.3 procedures with documented rationale"
+      "Encourage small businesses to subcontract to large businesses.",
+      "Bundle or consolidate acquisitions.",
+      "Abbreviate delivery schedules to decrease the likelihood of large businesses proposing.",
+      "Divide acquisitions into reasonably small lots to permit offers on quantities less than the total requirement."
     ],
     "correctIndex": 3,
-    "source": "Quizlet CON 3910 Practice Exam"
-  },
-  {
-    "id": "con3910-047",
-    "question": "In commercial items scenario #47, what is the best contracting action?",
-    "choices": [
-      "Delay acquisition planning until after solicitation",
-      "Skip documentation to accelerate award",
-      "Apply FAR 12 procedures with documented rationale",
-      "Use sole-source automatically without justification"
-    ],
-    "correctIndex": 2,
-    "source": "Quizlet CON 3910 Practice Exam"
-  },
-  {
-    "id": "con3910-048",
-    "question": "In contract types scenario #48, what is the best contracting action?",
-    "choices": [
-      "Delay acquisition planning until after solicitation",
-      "Skip documentation to accelerate award",
-      "Apply FAR 16 procedures with documented rationale",
-      "Use sole-source automatically without justification"
-    ],
-    "correctIndex": 2,
     "source": "Quizlet CON 3910 Practice Exam"
   },
   {
     "id": "con3910-049",
-    "question": "In market research scenario #49, what is the best contracting action?",
+    "question": "Government contract types are grouped into two broad categories: fixed-price contracts and:",
     "choices": [
-      "Delay acquisition planning until after solicitation",
-      "Use sole-source automatically without justification",
-      "Skip documentation to accelerate award",
-      "Apply FAR 10 procedures with documented rationale"
+      "Variable-cost contracts",
+      "Cost-reimbursement contracts",
+      "Cost contracts",
+      "Undefinitized contracts"
     ],
-    "correctIndex": 3,
+    "correctIndex": 1,
     "source": "Quizlet CON 3910 Practice Exam"
   },
   {
     "id": "con3910-050",
-    "question": "In competition scenario #50, what is the best contracting action?",
+    "question": "Incentive contracts are designed to obtain specific acquisition objectives by:",
     "choices": [
-      "Apply FAR 6 procedures with documented rationale",
-      "Use sole-source automatically without justification",
-      "Skip documentation to accelerate award",
-      "Delay acquisition planning until after solicitation"
+      "Motivating contractor efforts that might not otherwise be emphasized",
+      "Ensuring contractors meet minimum requirements",
+      "Allowing the Government to meet funding objectives",
+      "Addressing fluctuations in market conditions"
     ],
     "correctIndex": 0,
     "source": "Quizlet CON 3910 Practice Exam"
   },
   {
     "id": "con3910-051",
-    "question": "In simplified acquisition scenario #51, what is the best contracting action?",
+    "question": "Agencies shall conduct market research:",
     "choices": [
-      "Delay acquisition planning until after solicitation",
-      "Apply FAR 13 procedures with documented rationale",
-      "Use sole-source automatically without justification",
-      "Skip documentation to accelerate award"
-    ],
-    "correctIndex": 1,
-    "source": "Quizlet CON 3910 Practice Exam"
-  },
-  {
-    "id": "con3910-052",
-    "question": "In contracting by negotiation scenario #52, what is the best contracting action?",
-    "choices": [
-      "Delay acquisition planning until after solicitation",
-      "Skip documentation to accelerate award",
-      "Apply FAR 15 procedures with documented rationale",
-      "Use sole-source automatically without justification"
+      "In the same manner for all acquisition for consistency purposes",
+      "Only if unsure of adequate competition",
+      "Appropriate to the circumstances",
+      "Until release of the solicitation"
     ],
     "correctIndex": 2,
     "source": "Quizlet CON 3910 Practice Exam"
   },
   {
+    "id": "con3910-052",
+    "question": "To the maximum extent practicable, acquisition officials shall state requirements of supplies or services in terms of functions to be performed, performance required, or:",
+    "choices": [
+      "Essential physical characteristics",
+      "Commerciality",
+      "Requiring activity preference",
+      "Availability"
+    ],
+    "correctIndex": 0,
+    "source": "Quizlet CON 3910 Practice Exam"
+  },
+  {
     "id": "con3910-053",
-    "question": "In contract modifications scenario #53, what is the best contracting action?",
+    "question": "When using FAR part 12 procedures, the technical evaluation would normally include examination of such things as product literature, product samples (if requested), technical features, and:",
     "choices": [
-      "Apply FAR 43 procedures with documented rationale",
-      "Use sole-source automatically without justification",
-      "Delay acquisition planning until after solicitation",
-      "Skip documentation to accelerate award"
-    ],
-    "correctIndex": 0,
-    "source": "Quizlet CON 3910 Practice Exam"
-  },
-  {
-    "id": "con3910-054",
-    "question": "In source selection scenario #54, what is the best contracting action?",
-    "choices": [
-      "Apply FAR 15.3 procedures with documented rationale",
-      "Use sole-source automatically without justification",
-      "Delay acquisition planning until after solicitation",
-      "Skip documentation to accelerate award"
-    ],
-    "correctIndex": 0,
-    "source": "Quizlet CON 3910 Practice Exam"
-  },
-  {
-    "id": "con3910-055",
-    "question": "In commercial items scenario #55, what is the best contracting action?",
-    "choices": [
-      "Skip documentation to accelerate award",
-      "Use sole-source automatically without justification",
-      "Delay acquisition planning until after solicitation",
-      "Apply FAR 12 procedures with documented rationale"
+      "Management plans",
+      "Manufacturing plans",
+      "Quality assurance plans",
+      "Warranty provisions"
     ],
     "correctIndex": 3,
     "source": "Quizlet CON 3910 Practice Exam"
   },
   {
-    "id": "con3910-056",
-    "question": "In contract types scenario #56, what is the best contracting action?",
+    "id": "con3910-054",
+    "question": "Provisions and clauses should be incorporated by reference in solicitations and contracts:",
     "choices": [
-      "Delay acquisition planning until after solicitation",
-      "Use sole-source automatically without justification",
-      "Skip documentation to accelerate award",
-      "Apply FAR 16 procedures with documented rationale"
+      "Unless they are used with more than one alternate, then full text is required",
+      "To the maximum practical extent, rather than being incorporated in full text",
+      "Unless they contain a blank within the text that the contracting officer must fill in prior to award",
+      "Unless the uniform contract format (UCF) applies"
+    ],
+    "correctIndex": 1,
+    "source": "Quizlet CON 3910 Practice Exam"
+  },
+  {
+    "id": "con3910-055",
+    "question": "Which offerors receive an amendment on a solicitation that has yet to close?",
+    "choices": [
+      "All parties in the competitive range",
+      "None. Solicitations are modified, not amended.",
+      "All parties receiving the solicitation",
+      "None. Solicitations can't be amended until they have closed."
+    ],
+    "correctIndex": 2,
+    "source": "Quizlet CON 3910 Practice Exam"
+  },
+  {
+    "id": "con3910-056",
+    "question": "The purpose of exchanging information with industry before receipt of proposals is to:",
+    "choices": [
+      "Always obtain the lowest price for Government requirements",
+      "Find a sole source contractor to meet the Government's requirements",
+      "Negotiate the best deal in response to the Government's requirements",
+      "Improve the understanding of Government requirements and industry capabilities"
     ],
     "correctIndex": 3,
     "source": "Quizlet CON 3910 Practice Exam"
   },
   {
     "id": "con3910-057",
-    "question": "In market research scenario #57, what is the best contracting action?",
+    "question": "Which of the following is the correct title of a solicitation for negotiated procedures?",
     "choices": [
-      "Use sole-source automatically without justification",
-      "Delay acquisition planning until after solicitation",
-      "Skip documentation to accelerate award",
-      "Apply FAR 10 procedures with documented rationale"
-    ],
-    "correctIndex": 3,
-    "source": "Quizlet CON 3910 Practice Exam"
-  },
-  {
-    "id": "con3910-058",
-    "question": "In competition scenario #58, what is the best contracting action?",
-    "choices": [
-      "Delay acquisition planning until after solicitation",
-      "Use sole-source automatically without justification",
-      "Apply FAR 6 procedures with documented rationale",
-      "Skip documentation to accelerate award"
-    ],
-    "correctIndex": 2,
-    "source": "Quizlet CON 3910 Practice Exam"
-  },
-  {
-    "id": "con3910-059",
-    "question": "In simplified acquisition scenario #59, what is the best contracting action?",
-    "choices": [
-      "Use sole-source automatically without justification",
-      "Delay acquisition planning until after solicitation",
-      "Apply FAR 13 procedures with documented rationale",
-      "Skip documentation to accelerate award"
-    ],
-    "correctIndex": 2,
-    "source": "Quizlet CON 3910 Practice Exam"
-  },
-  {
-    "id": "con3910-060",
-    "question": "In contracting by negotiation scenario #60, what is the best contracting action?",
-    "choices": [
-      "Delay acquisition planning until after solicitation",
-      "Apply FAR 15 procedures with documented rationale",
-      "Skip documentation to accelerate award",
-      "Use sole-source automatically without justification"
+      "Invitation for Proposals",
+      "Requests for Proposals",
+      "Request for Cost Proposals",
+      "Invitation for Pricing"
     ],
     "correctIndex": 1,
     "source": "Quizlet CON 3910 Practice Exam"
   },
   {
-    "id": "con3910-061",
-    "question": "In contract modifications scenario #61, what is the best contracting action?",
+    "id": "con3910-058",
+    "question": "At what dollar value must a contracting officer synopsize a proposed contract action in the Governmentwide point of entry (GPE)?",
     "choices": [
-      "Skip documentation to accelerate award",
-      "Use sole-source automatically without justification",
-      "Apply FAR 43 procedures with documented rationale",
-      "Delay acquisition planning until after solicitation"
+      "Expected to exceed $25,000",
+      "Expected to be between $15,000 and $25,000",
+      "Only if exceeding $500,000",
+      "Only if exceeding $1,000,000"
     ],
-    "correctIndex": 2,
+    "correctIndex": 0,
+    "source": "Quizlet CON 3910 Practice Exam"
+  },
+  {
+    "id": "con3910-059",
+    "question": "After release of the solicitation, who must be the focal point of any exchange with potential offerors?",
+    "choices": [
+      "The program manager",
+      "The technical lead",
+      "The cost/price analyst",
+      "The contracting officer"
+    ],
+    "correctIndex": 3,
+    "source": "Quizlet CON 3910 Practice Exam"
+  },
+  {
+    "id": "con3910-060",
+    "question": "An overarching principle for responding to questions from all potential offerors is:",
+    "choices": [
+      "Fairness",
+      "Brevity",
+      "Protest avoidance",
+      "Narrowing of competition"
+    ],
+    "correctIndex": 0,
+    "source": "Quizlet CON 3910 Practice Exam"
+  },
+  {
+    "id": "con3910-061",
+    "question": "Whenever a contracting officer is required to publicize notice of proposed contract actions in the Governmentwide point of entry (GPE), they must:",
+    "choices": [
+      "Allow a different response time for each potential offeror in order to promote better competition",
+      "Establish a common response time for all offerors from the date of publication",
+      "Include the independent Government estimate for the requirement",
+      "Include the most current budget for the resulting contract"
+    ],
+    "correctIndex": 1,
     "source": "Quizlet CON 3910 Practice Exam"
   },
   {
     "id": "con3910-062",
-    "question": "In source selection scenario #62, what is the best contracting action?",
+    "question": "One day after publicizing and releasing a solicitation, the contracting officer realizes that the contract line items need to be reorganized. The contracting officer must:",
     "choices": [
-      "Delay acquisition planning until after solicitation",
-      "Use sole-source automatically without justification",
-      "Apply FAR 15.3 procedures with documented rationale",
-      "Skip documentation to accelerate award"
+      "Leave the solicitation as is and plan to modify the contract after award",
+      "Wait to see if offerors have issues with the current contract line-item structure",
+      "Amend the solicitation, changing the contract line item",
+      "Publicize an advisory letter with the new contract line-item structure"
     ],
     "correctIndex": 2,
     "source": "Quizlet CON 3910 Practice Exam"
   },
   {
     "id": "con3910-063",
-    "question": "In commercial items scenario #63, what is the best contracting action?",
+    "question": "Which FAR part is the best source of information regarding competition requirements?",
     "choices": [
-      "Apply FAR 12 procedures with documented rationale",
-      "Use sole-source automatically without justification",
-      "Skip documentation to accelerate award",
-      "Delay acquisition planning until after solicitation"
+      "FAR part 1",
+      "FAR part 6",
+      "FAR part 7",
+      "FAR part 13"
     ],
-    "correctIndex": 0,
+    "correctIndex": 1,
     "source": "Quizlet CON 3910 Practice Exam"
   },
   {
     "id": "con3910-064",
-    "question": "In contract types scenario #64, what is the best contracting action?",
+    "question": "You have determined that FAR part 12 applies to your commercial item requirement. Which of the following contract types is appropriate when using FAR part 12 procedures?",
     "choices": [
-      "Use sole-source automatically without justification",
-      "Skip documentation to accelerate award",
-      "Apply FAR 16 procedures with documented rationale",
-      "Delay acquisition planning until after solicitation"
+      "Fixed-price incentive",
+      "Firm-fixed price, level-of-effort",
+      "Firm-fixed-price",
+      "Cost-plus-fixed-fee"
     ],
     "correctIndex": 2,
     "source": "Quizlet CON 3910 Practice Exam"
   },
   {
     "id": "con3910-065",
-    "question": "In market research scenario #65, what is the best contracting action?",
+    "question": "You are a DoD contracting officer and have used simplified acquisition procedures under FAR part 13 to award a commercial purchase order for supplies. Given only this information, which form is most appropriate to use should you need to modify your purchase order?",
     "choices": [
-      "Apply FAR 10 procedures with documented rationale",
-      "Use sole-source automatically without justification",
-      "Skip documentation to accelerate award",
-      "Delay acquisition planning until after solicitation"
+      "Standard Form 30, Amendment of Solicitation/Modification of Contract",
+      "Standard Form 1449, Solicitation/Contract/Order for Commercial Items",
+      "Standard Form 33, Solicitation, Offer and Award",
+      "DD Form 1155, Order for Supplies or Services"
     ],
     "correctIndex": 0,
     "source": "Quizlet CON 3910 Practice Exam"
   },
   {
     "id": "con3910-066",
-    "question": "In competition scenario #66, what is the best contracting action?",
+    "question": "You're administering a large dollar non-commercial weapons contract. The contracting officer asks to see the Contract Data Requirements List (CDRL) in Exhibit B. Which uniform contract format (UCF) section in your contract would you refer to?",
     "choices": [
-      "Delay acquisition planning until after solicitation",
-      "Use sole-source automatically without justification",
-      "Skip documentation to accelerate award",
-      "Apply FAR 6 procedures with documented rationale"
+      "Section A",
+      "Section C",
+      "Section I",
+      "Section J"
     ],
     "correctIndex": 3,
     "source": "Quizlet CON 3910 Practice Exam"
   },
   {
     "id": "con3910-067",
-    "question": "In simplified acquisition scenario #67, what is the best contracting action?",
+    "question": "Which of the following is specifically set up to help firms view current Government business opportunities?",
     "choices": [
-      "Use sole-source automatically without justification",
-      "Skip documentation to accelerate award",
-      "Delay acquisition planning until after solicitation",
-      "Apply FAR 13 procedures with documented rationale"
+      "The Governmentwide Point of Entry (GPE)",
+      "The local office of the Small Business Administration (SBA)",
+      "The Chamber of Commerce",
+      "GSA Advantage"
     ],
-    "correctIndex": 3,
+    "correctIndex": 0,
     "source": "Quizlet CON 3910 Practice Exam"
   },
   {
     "id": "con3910-068",
-    "question": "In contracting by negotiation scenario #68, what is the best contracting action?",
+    "question": "In evaluating a solicitation, which section of the uniform contract format (UCF) would contain information to the offeror regarding the evaluation factors and subfactors the Government will use to evaluate the offeror's proposal?",
     "choices": [
-      "Skip documentation to accelerate award",
-      "Apply FAR 15 procedures with documented rationale",
-      "Use sole-source automatically without justification",
-      "Delay acquisition planning until after solicitation"
+      "Section A",
+      "Section I",
+      "Section L",
+      "Section M"
     ],
-    "correctIndex": 1,
+    "correctIndex": 3,
     "source": "Quizlet CON 3910 Practice Exam"
   },
   {
     "id": "con3910-069",
-    "question": "In contract modifications scenario #69, what is the best contracting action?",
+    "question": "You are a proposal manager for a large defense contractor, leading your company's effort to win a contract. In order to determine the page limit for your proposal, which section in the request for proposal should you review?",
     "choices": [
-      "Skip documentation to accelerate award",
-      "Use sole-source automatically without justification",
-      "Delay acquisition planning until after solicitation",
-      "Apply FAR 43 procedures with documented rationale"
+      "Section H - Special contract requirements",
+      "Section I - Contract clauses",
+      "Section L - Instructions, conditions, and notices to offerors or respondents",
+      "Section M - Evaluation factors for award"
     ],
-    "correctIndex": 3,
+    "correctIndex": 2,
     "source": "Quizlet CON 3910 Practice Exam"
   },
   {
     "id": "con3910-070",
-    "question": "In source selection scenario #70, what is the best contracting action?",
+    "question": "A contractor is developing their pricing strategy in a competitive environment. Knowing the required effort will result in follow-on contracts, the contractor submits an offer below anticipated costs with the plan to recover any losses by increasing the price on follow-on efforts. This pricing strategy is referred to as:",
     "choices": [
-      "Delay acquisition planning until after solicitation",
-      "Use sole-source automatically without justification",
-      "Skip documentation to accelerate award",
-      "Apply FAR 15.3 procedures with documented rationale"
-    ],
-    "correctIndex": 3,
-    "source": "Quizlet CON 3910 Practice Exam"
-  },
-  {
-    "id": "con3910-071",
-    "question": "In commercial items scenario #71, what is the best contracting action?",
-    "choices": [
-      "Skip documentation to accelerate award",
-      "Apply FAR 12 procedures with documented rationale",
-      "Delay acquisition planning until after solicitation",
-      "Use sole-source automatically without justification"
+      "Unbalanced pricing",
+      "Buying-in",
+      "Defective pricing",
+      "Marginal value pricing"
     ],
     "correctIndex": 1,
     "source": "Quizlet CON 3910 Practice Exam"
   },
   {
-    "id": "con3910-072",
-    "question": "In contract types scenario #72, what is the best contracting action?",
+    "id": "con3910-071",
+    "question": "What type of contract should be used for an item that uses a very large amount of gold and other precious metals in the manufacturing process?",
     "choices": [
-      "Skip documentation to accelerate award",
-      "Delay acquisition planning until after solicitation",
-      "Use sole-source automatically without justification",
-      "Apply FAR 16 procedures with documented rationale"
+      "Fixed-price with economic price adjustment",
+      "Firm-fixed-price with performance-based payments",
+      "Cost plus award fee",
+      "Time and materials"
+    ],
+    "correctIndex": 0,
+    "source": "Quizlet CON 3910 Practice Exam"
+  },
+  {
+    "id": "con3910-072",
+    "question": "When a potential contractor is developing a proposal where cost analysis will be performed, the potential contractor will need to ensure it has excluded from the proposal any costs that are:",
+    "choices": [
+      "Undefinitized",
+      "Fee bearing",
+      "Indirect to the acquisition",
+      "Expressly unallowable"
     ],
     "correctIndex": 3,
     "source": "Quizlet CON 3910 Practice Exam"
   },
   {
     "id": "con3910-073",
-    "question": "In market research scenario #73, what is the best contracting action?",
+    "question": "It is the Government's pricing policy to purchase supplies and services at fair and reasonable prices from:",
     "choices": [
-      "Delay acquisition planning until after solicitation",
-      "Skip documentation to accelerate award",
-      "Apply FAR 10 procedures with documented rationale",
-      "Use sole-source automatically without justification"
+      "Responsive sources",
+      "Responsible sources",
+      "Sources that offer the lowest possible price",
+      "The smallest set of sources"
+    ],
+    "correctIndex": 1,
+    "source": "Quizlet CON 3910 Practice Exam"
+  },
+  {
+    "id": "con3910-074",
+    "question": "What are the two types of negotiated acquisitions?",
+    "choices": [
+      "Sole source and competitive",
+      "Sole source and single source",
+      "Source selection and competitive",
+      "Single source and face-to-face"
+    ],
+    "correctIndex": 0,
+    "source": "Quizlet CON 3910 Practice Exam"
+  },
+  {
+    "id": "con3910-075",
+    "question": "What is the objective of a source selection?",
+    "choices": [
+      "To select the proposal with the lowest price",
+      "To select the proposal with advancements in technology",
+      "To select the proposal that represents the best value",
+      "To select the proposal with the fewest rewrites"
     ],
     "correctIndex": 2,
     "source": "Quizlet CON 3910 Practice Exam"
   },
   {
-    "id": "con3910-074",
-    "question": "In competition scenario #74, what is the best contracting action?",
-    "choices": [
-      "Use sole-source automatically without justification",
-      "Delay acquisition planning until after solicitation",
-      "Skip documentation to accelerate award",
-      "Apply FAR 6 procedures with documented rationale"
-    ],
-    "correctIndex": 3,
-    "source": "Quizlet CON 3910 Practice Exam"
-  },
-  {
-    "id": "con3910-075",
-    "question": "In simplified acquisition scenario #75, what is the best contracting action?",
-    "choices": [
-      "Apply FAR 13 procedures with documented rationale",
-      "Skip documentation to accelerate award",
-      "Use sole-source automatically without justification",
-      "Delay acquisition planning until after solicitation"
-    ],
-    "correctIndex": 0,
-    "source": "Quizlet CON 3910 Practice Exam"
-  },
-  {
     "id": "con3910-076",
-    "question": "In contracting by negotiation scenario #76, what is the best contracting action?",
+    "question": "Which contract type shifts cost risk from the Government to the contractor?",
     "choices": [
-      "Apply FAR 15 procedures with documented rationale",
-      "Delay acquisition planning until after solicitation",
-      "Skip documentation to accelerate award",
-      "Use sole-source automatically without justification"
+      "Labor-hour",
+      "Fixed-price",
+      "Time-and-materials",
+      "Cost-reimbursements"
     ],
-    "correctIndex": 0,
+    "correctIndex": 1,
     "source": "Quizlet CON 3910 Practice Exam"
   },
   {
     "id": "con3910-077",
-    "question": "In contract modifications scenario #77, what is the best contracting action?",
+    "question": "Which of the following best describes the purpose of proposal analysis?",
     "choices": [
-      "Delay acquisition planning until after solicitation",
-      "Apply FAR 43 procedures with documented rationale",
-      "Skip documentation to accelerate award",
-      "Use sole-source automatically without justification"
+      "To ensure the price is fair and reasonable",
+      "To validate the Government requirement is met",
+      "To determine if the proposal follows commercial practices",
+      "To evaluate the specifications of the product or service"
     ],
     "correctIndex": 1,
     "source": "Quizlet CON 3910 Practice Exam"
   },
   {
     "id": "con3910-078",
-    "question": "In source selection scenario #78, what is the best contracting action?",
+    "question": "Which type of solicitation may require the submission of certified cost or pricing data?",
     "choices": [
-      "Use sole-source automatically without justification",
-      "Delay acquisition planning until after solicitation",
-      "Apply FAR 15.3 procedures with documented rationale",
-      "Skip documentation to accelerate award"
+      "Micropurchase request",
+      "Invitation for bids",
+      "Request for quotations",
+      "Request for proposals"
     ],
-    "correctIndex": 2,
+    "correctIndex": 3,
     "source": "Quizlet CON 3910 Practice Exam"
   },
   {
     "id": "con3910-079",
-    "question": "In commercial items scenario #79, what is the best contracting action?",
+    "question": "A contracting officer has the broadest discretion in fashioning suitable evaluation procedures when considering:",
     "choices": [
-      "Apply FAR 12 procedures with documented rationale",
-      "Use sole-source automatically without justification",
-      "Delay acquisition planning until after solicitation",
-      "Skip documentation to accelerate award"
+      "Proposals",
+      "Bids",
+      "Unsolicited proposals",
+      "Quotations"
     ],
-    "correctIndex": 0,
+    "correctIndex": 3,
     "source": "Quizlet CON 3910 Practice Exam"
   },
   {
     "id": "con3910-080",
-    "question": "In contract types scenario #80, what is the best contracting action?",
+    "question": "Which acquisition situation would warrant an exception to the requirement for certified cost or pricing data?",
     "choices": [
-      "Apply FAR 16 procedures with documented rationale",
-      "Delay acquisition planning until after solicitation",
-      "Skip documentation to accelerate award",
-      "Use sole-source automatically without justification"
+      "Sole source award",
+      "Commercial item acquisition",
+      "Major weapon system acquisition",
+      "Small business award"
     ],
-    "correctIndex": 0,
+    "correctIndex": 1,
     "source": "Quizlet CON 3910 Practice Exam"
   },
   {
     "id": "con3910-081",
-    "question": "In market research scenario #81, what is the best contracting action?",
+    "question": "A proposal submission time and date of 2 p.m. on February 3, 2020, appeared on the cover page of a Government solicitation. Based on the information provided at FAR 52.215-1, Instructions to Offerors - Competitive Acquisitions, which of the following proposals is late?",
     "choices": [
-      "Apply FAR 10 procedures with documented rationale",
-      "Use sole-source automatically without justification",
-      "Skip documentation to accelerate award",
-      "Delay acquisition planning until after solicitation"
+      "The contractor provided its proposal at 2:15 p.m. on February 3, 2020.",
+      "The contractor provided its proposal on January 25, 2020.",
+      "The contractor sent a proposal electronically at 1:30 p.m. on February 2, 2020; however, the Government did not receive the proposal until February 4, 2020, due to the Government server being down for repairs. The contractor had proof of the server failure.",
+      "The contractor physically delivered their proposal at 11 a.m. on Tuesday on February 4, 2020, due to the fact that at 1 p.m. on Friday, February 3, there was a bomb scare that shut down the Government contracts office for the remainder of the day precluding physical delivery of their proposal."
     ],
     "correctIndex": 0,
     "source": "Quizlet CON 3910 Practice Exam"
   },
   {
     "id": "con3910-082",
-    "question": "In competition scenario #82, what is the best contracting action?",
+    "question": "When a contractor submits a Certificate of Current Cost or Pricing data, it is certifying that:",
     "choices": [
-      "Apply FAR 6 procedures with documented rationale",
-      "Use sole-source automatically without justification",
-      "Delay acquisition planning until after solicitation",
-      "Skip documentation to accelerate award"
-    ],
-    "correctIndex": 0,
-    "source": "Quizlet CON 3910 Practice Exam"
-  },
-  {
-    "id": "con3910-083",
-    "question": "In simplified acquisition scenario #83, what is the best contracting action?",
-    "choices": [
-      "Use sole-source automatically without justification",
-      "Apply FAR 13 procedures with documented rationale",
-      "Skip documentation to accelerate award",
-      "Delay acquisition planning until after solicitation"
-    ],
-    "correctIndex": 1,
-    "source": "Quizlet CON 3910 Practice Exam"
-  },
-  {
-    "id": "con3910-084",
-    "question": "In contracting by negotiation scenario #84, what is the best contracting action?",
-    "choices": [
-      "Delay acquisition planning until after solicitation",
-      "Skip documentation to accelerate award",
-      "Apply FAR 15 procedures with documented rationale",
-      "Use sole-source automatically without justification"
+      "All contractor data \"sweeps\" have been accomplished.",
+      "Negotiations have been completed, and the parties have come to agreement.",
+      "The data submitted in support of a negotiations are current, accurate, and complete.",
+      "The data it submitted to support negotiations has been properly notarized."
     ],
     "correctIndex": 2,
     "source": "Quizlet CON 3910 Practice Exam"
   },
   {
-    "id": "con3910-085",
-    "question": "In contract modifications scenario #85, what is the best contracting action?",
+    "id": "con3910-083",
+    "question": "Which of the following are limited exchanges between the Government and offerors that may occur when award without discussions is contemplated?",
     "choices": [
-      "Delay acquisition planning until after solicitation",
-      "Apply FAR 43 procedures with documented rationale",
-      "Use sole-source automatically without justification",
-      "Skip documentation to accelerate award"
+      "Negotiations",
+      "Discussions",
+      "Clarifications",
+      "Communications"
     ],
-    "correctIndex": 1,
+    "correctIndex": 2,
+    "source": "Quizlet CON 3910 Practice Exam"
+  },
+  {
+    "id": "con3910-084",
+    "question": "Negotiating positions should be developed through which of the following?",
+    "choices": [
+      "Price or cost analysis",
+      "The independent Government cost estimate (IGCE)",
+      "Always using a should cost analysis",
+      "Solely on the price analyst's judgment"
+    ],
+    "correctIndex": 0,
+    "source": "Quizlet CON 3910 Practice Exam"
+  },
+  {
+    "id": "con3910-085",
+    "question": "Which of the following documents would the contracting officer use to document the purpose, description, and outcome of negotiations?",
+    "choices": [
+      "Price Negotiation Memorandum",
+      "Standard Form 1409, Abstract of Offers",
+      "Certificate of Current Cost or Pricing Data",
+      "Standard Form 30, Amendment of Solicitation/Modification of Contract"
+    ],
+    "correctIndex": 0,
     "source": "Quizlet CON 3910 Practice Exam"
   },
   {
     "id": "con3910-086",
-    "question": "In source selection scenario #86, what is the best contracting action?",
+    "question": "Where in the FAR is contracting by negotiation covered?",
     "choices": [
-      "Delay acquisition planning until after solicitation",
-      "Skip documentation to accelerate award",
-      "Use sole-source automatically without justification",
-      "Apply FAR 15.3 procedures with documented rationale"
+      "FAR part 12",
+      "FAR part 13",
+      "FAR part 14",
+      "FAR part 15"
     ],
     "correctIndex": 3,
     "source": "Quizlet CON 3910 Practice Exam"
   },
   {
     "id": "con3910-087",
-    "question": "In commercial items scenario #87, what is the best contracting action?",
+    "question": "During discussions, the contracting officer:",
     "choices": [
-      "Delay acquisition planning until after solicitation",
-      "Apply FAR 12 procedures with documented rationale",
-      "Use sole-source automatically without justification",
-      "Skip documentation to accelerate award"
+      "Should discuss aspects of an offeror's proposal if alterations or explanations would enhance the proposal's potential for award",
+      "Must pursue obtaining what is best for the Government value irrespective of the evaluation factors set forth in the solicitation",
+      "May not negotiate with offerors for increased performance beyond mandatory minimums",
+      "May favor one offeror over another during discussions"
+    ],
+    "correctIndex": 0,
+    "source": "Quizlet CON 3910 Practice Exam"
+  },
+  {
+    "id": "con3910-088",
+    "question": "Prenegotiation objectives:",
+    "choices": [
+      "Document the elements of the negotiated agreement",
+      "Establish the Government's initial negotiation position",
+      "Establish the Government's final negotiation position",
+      "Are unnecessary if submission of certified cost of pricing data is required"
     ],
     "correctIndex": 1,
     "source": "Quizlet CON 3910 Practice Exam"
   },
   {
-    "id": "con3910-088",
-    "question": "In contract types scenario #88, what is the best contracting action?",
-    "choices": [
-      "Use sole-source automatically without justification",
-      "Skip documentation to accelerate award",
-      "Apply FAR 16 procedures with documented rationale",
-      "Delay acquisition planning until after solicitation"
-    ],
-    "correctIndex": 2,
-    "source": "Quizlet CON 3910 Practice Exam"
-  },
-  {
     "id": "con3910-089",
-    "question": "In market research scenario #89, what is the best contracting action?",
+    "question": "The competitive range for competitive negotiations must be established:",
     "choices": [
-      "Delay acquisition planning until after solicitation",
-      "Skip documentation to accelerate award",
-      "Use sole-source automatically without justification",
-      "Apply FAR 10 procedures with documented rationale"
+      "The competitive range for competitive negotiations must must be established:",
+      "When clarifications are complete",
+      "Before initiating communications",
+      "Prior to entering into discussions"
     ],
     "correctIndex": 3,
     "source": "Quizlet CON 3910 Practice Exam"
   },
   {
     "id": "con3910-090",
-    "question": "In competition scenario #90, what is the best contracting action?",
+    "question": "In the FAR, the term \"discussions\" is synonymous with which of the following?",
     "choices": [
-      "Delay acquisition planning until after solicitation",
-      "Apply FAR 6 procedures with documented rationale",
-      "Use sole-source automatically without justification",
-      "Skip documentation to accelerate award"
-    ],
-    "correctIndex": 1,
-    "source": "Quizlet CON 3910 Practice Exam"
-  },
-  {
-    "id": "con3910-091",
-    "question": "In simplified acquisition scenario #91, what is the best contracting action?",
-    "choices": [
-      "Skip documentation to accelerate award",
-      "Delay acquisition planning until after solicitation",
-      "Use sole-source automatically without justification",
-      "Apply FAR 13 procedures with documented rationale"
+      "Banter",
+      "Exchanges",
+      "Fact-findings",
+      "Negotiations"
     ],
     "correctIndex": 3,
     "source": "Quizlet CON 3910 Practice Exam"
   },
   {
+    "id": "con3910-091",
+    "question": "In a competitive source selection, does the FAR require you to have the exact same \"discussions\" with each offeror in the competitive range?",
+    "choices": [
+      "No, you are only required to hold discussions with those that have an opportunity to improve their proposals",
+      "No, discussions are tailored to each offeror's proposal.",
+      "Yes, you must be consistent and ask the exact same question to each offeror.",
+      "Yes, unless the action is a competitive 8(a)."
+    ],
+    "correctIndex": 1,
+    "source": "Quizlet CON 3910 Practice Exam"
+  },
+  {
     "id": "con3910-092",
-    "question": "In contracting by negotiation scenario #92, what is the best contracting action?",
+    "question": "When holding discussions with offerors in a source selection, all the following must be discussed EXCEPT:",
     "choices": [
-      "Apply FAR 15 procedures with documented rationale",
-      "Skip documentation to accelerate award",
-      "Use sole-source automatically without justification",
-      "Delay acquisition planning until after solicitation"
-    ],
-    "correctIndex": 0,
-    "source": "Quizlet CON 3910 Practice Exam"
-  },
-  {
-    "id": "con3910-093",
-    "question": "In contract modifications scenario #93, what is the best contracting action?",
-    "choices": [
-      "Apply FAR 43 procedures with documented rationale",
-      "Skip documentation to accelerate award",
-      "Use sole-source automatically without justification",
-      "Delay acquisition planning until after solicitation"
-    ],
-    "correctIndex": 0,
-    "source": "Quizlet CON 3910 Practice Exam"
-  },
-  {
-    "id": "con3910-094",
-    "question": "In source selection scenario #94, what is the best contracting action?",
-    "choices": [
-      "Use sole-source automatically without justification",
-      "Delay acquisition planning until after solicitation",
-      "Apply FAR 15.3 procedures with documented rationale",
-      "Skip documentation to accelerate award"
+      "Adverse past performance information to which the offeror has not yet had an opportunity to respond",
+      "Deficiencies",
+      "Price",
+      "Significant weaknesses"
     ],
     "correctIndex": 2,
     "source": "Quizlet CON 3910 Practice Exam"
   },
   {
-    "id": "con3910-095",
-    "question": "In commercial items scenario #95, what is the best contracting action?",
+    "id": "con3910-093",
+    "question": "Select the order for the proposal evaluation process.",
     "choices": [
-      "Use sole-source automatically without justification",
-      "Apply FAR 12 procedures with documented rationale",
-      "Delay acquisition planning until after solicitation",
-      "Skip documentation to accelerate award"
+      "Award the contract, evaluate initial proposals, determine competitive range, negotiate, request final proposal revisions",
+      "Determine the competitive range, evaluate initial proposals, negotiate, request final proposal revisions, award the contract",
+      "Evaluate initial proposals, negotiate, determine the competitive range, request final proposal revisions, award the contract",
+      "Evaluate initial proposals, determine the competitive range, negotiate, request final proposal revisions, award the contract"
     ],
-    "correctIndex": 1,
+    "correctIndex": 3,
+    "source": "Quizlet CON 3910 Practice Exam"
+  },
+  {
+    "id": "con3910-094",
+    "question": "Select the action performed early in the acquisition cycle versus at or near contract award.",
+    "choices": [
+      "The acquisition plan is drafted and approved according to agency policy.",
+      "The source selection decision is written.",
+      "The unsuccessful offer notification is given.",
+      "The postaward debriefings are conducted."
+    ],
+    "correctIndex": 0,
+    "source": "Quizlet CON 3910 Practice Exam"
+  },
+  {
+    "id": "con3910-095",
+    "question": "Acme Company did not make the competitive range in a source selection. When the contracting officer asks for final proposal revisions, the contracting officer:",
+    "choices": [
+      "Will not contact Acme Company since it is no longer in the competition",
+      "Will contact Acme Company since it can still submit a final proposal revision",
+      "Has the option to either contact Acme Company and request a final proposal revision or not contact Acme Company",
+      "Must advise Acme Company that it may not submit a final proposal revision"
+    ],
+    "correctIndex": 0,
     "source": "Quizlet CON 3910 Practice Exam"
   },
   {
     "id": "con3910-096",
-    "question": "In contract types scenario #96, what is the best contracting action?",
+    "question": "Which of the following is correct regarding use of the tradeoff source selection process?",
     "choices": [
-      "Apply FAR 16 procedures with documented rationale",
-      "Delay acquisition planning until after solicitation",
-      "Skip documentation to accelerate award",
-      "Use sole-source automatically without justification"
+      "The contracting officer must select the lowest priced proposal.",
+      "Evaluation factors that will affect contract award must be stated in the solicitation.",
+      "Exchanges between the Government and offerors are prohibited.",
+      "The contracting officer must select the highest technically rated proposal."
     ],
-    "correctIndex": 0,
+    "correctIndex": 1,
     "source": "Quizlet CON 3910 Practice Exam"
   },
   {
     "id": "con3910-097",
-    "question": "In market research scenario #97, what is the best contracting action?",
+    "question": "Which of the following is correct regarding the preaward debriefing of offerors excluded from the competitive range?",
     "choices": [
-      "Apply FAR 10 procedures with documented rationale",
-      "Use sole-source automatically without justification",
-      "Delay acquisition planning until after solicitation",
-      "Skip documentation to accelerate award"
+      "The offeror must request the debriefing by written request to the contracting officer within 10 days after receipt of the notice of exclusion from the competition.",
+      "The offeror must request the debriefing by written request to the contracting officer within 3 days after receipt of the notice of exclusion from the competition.",
+      "The Government's legal counsel should chair the debriefing session.",
+      "(Not provided)"
     ],
-    "correctIndex": 0,
+    "correctIndex": 1,
     "source": "Quizlet CON 3910 Practice Exam"
   },
   {
     "id": "con3910-098",
-    "question": "In competition scenario #98, what is the best contracting action?",
+    "question": "The Government has a requirement for computer equipment. The program office indicates that its users will have have no need for performance capabilities beyond the minimum technical specifications stated in the purchase request. Which source selection process would be most appropriate in this situation?",
     "choices": [
-      "Skip documentation to accelerate award",
-      "Apply FAR 6 procedures with documented rationale",
-      "Delay acquisition planning until after solicitation",
-      "Use sole-source automatically without justification"
+      "Tradeoff",
+      "Trading",
+      "Lowest price technically acceptable",
+      "Lowest cost technically acceptable"
     ],
-    "correctIndex": 1,
+    "correctIndex": 2,
     "source": "Quizlet CON 3910 Practice Exam"
   },
   {
     "id": "con3910-099",
-    "question": "In simplified acquisition scenario #99, what is the best contracting action?",
+    "question": "What is the preferred method to make a purchase at or below the micro-purchase method?",
     "choices": [
-      "Use sole-source automatically without justification",
-      "Apply FAR 13 procedures with documented rationale",
-      "Skip documentation to accelerate award",
-      "Delay acquisition planning until after solicitation"
-    ],
-    "correctIndex": 1,
-    "source": "Quizlet CON 3910 Practice Exam"
-  },
-  {
-    "id": "con3910-100",
-    "question": "In contracting by negotiation scenario #100, what is the best contracting action?",
-    "choices": [
-      "Apply FAR 15 procedures with documented rationale",
-      "Use sole-source automatically without justification",
-      "Delay acquisition planning until after solicitation",
-      "Skip documentation to accelerate award"
+      "Governmentwide commercial purchase card",
+      "Purchase order",
+      "Blanket purchase agreement",
+      "Standard Form 44 (SF 44)"
     ],
     "correctIndex": 0,
     "source": "Quizlet CON 3910 Practice Exam"
   },
   {
-    "id": "con3910-101",
-    "question": "In contract modifications scenario #101, what is the best contracting action?",
+    "id": "con3910-100",
+    "question": "Josh, a Government contract specialist, received several offers on a request for proposal (RFP) that was set aside for a small business. In order to avoid unnecessary work, what should be the first thing Josh should ensure when he reviews each proposal?",
     "choices": [
-      "Apply FAR 43 procedures with documented rationale",
-      "Delay acquisition planning until after solicitation",
-      "Use sole-source automatically without justification",
-      "Skip documentation to accelerate award"
+      "The pricing matrix is reasonable when compared to the Government estimate and other proposals.",
+      "The proposal is from a small business.",
+      "The offeror has addressed all of the evaluation factors listed in Section M.",
+      "The offeror has included a bid bond in an amount sufficient to cover 20% of its offer price."
+    ],
+    "correctIndex": 1,
+    "source": "Quizlet CON 3910 Practice Exam"
+  },
+  {
+    "id": "con3910-101",
+    "question": "The Government team is ready to request final proposal revisions. As a result, we know that:",
+    "choices": [
+      "Discussions have concluded",
+      "The competitive range is to be determined next",
+      "The final round of discussions is about to commence",
+      "Discussions will commence next"
     ],
     "correctIndex": 0,
     "source": "Quizlet CON 3910 Practice Exam"
   },
   {
     "id": "con3910-102",
-    "question": "In source selection scenario #102, what is the best contracting action?",
+    "question": "Unless an exception exists, and in accordance with FAR part 15-Contracting by Negotiations, noncommercial contracts and solicitations will be awarded utilizing what contract format?",
     "choices": [
-      "Apply FAR 15.3 procedures with documented rationale",
-      "Delay acquisition planning until after solicitation",
-      "Use sole-source automatically without justification",
-      "Skip documentation to accelerate award"
-    ],
-    "correctIndex": 0,
-    "source": "Quizlet CON 3910 Practice Exam"
-  },
-  {
-    "id": "con3910-103",
-    "question": "In commercial items scenario #103, what is the best contracting action?",
-    "choices": [
-      "Skip documentation to accelerate award",
-      "Apply FAR 12 procedures with documented rationale",
-      "Use sole-source automatically without justification",
-      "Delay acquisition planning until after solicitation"
-    ],
-    "correctIndex": 1,
-    "source": "Quizlet CON 3910 Practice Exam"
-  },
-  {
-    "id": "con3910-104",
-    "question": "In contract types scenario #104, what is the best contracting action?",
-    "choices": [
-      "Skip documentation to accelerate award",
-      "Use sole-source automatically without justification",
-      "Delay acquisition planning until after solicitation",
-      "Apply FAR 16 procedures with documented rationale"
+      "The appropriate service (Army, Air Force, or Navy) format",
+      "The major command's contract format",
+      "The format as designated by the head of the contracting activity (HCA) for the appropriate service",
+      "The uniform contract format"
     ],
     "correctIndex": 3,
     "source": "Quizlet CON 3910 Practice Exam"
   },
   {
-    "id": "con3910-105",
-    "question": "In market research scenario #105, what is the best contracting action?",
+    "id": "con3910-103",
+    "question": "A protest can be filed for which of the following?",
     "choices": [
-      "Skip documentation to accelerate award",
-      "Apply FAR 10 procedures with documented rationale",
-      "Delay acquisition planning until after solicitation",
-      "Use sole-source automatically without justification"
+      "Claim",
+      "Bad performance rating",
+      "Termination for default for failure to deliver",
+      "Solicitation"
+    ],
+    "correctIndex": 3,
+    "source": "Quizlet CON 3910 Practice Exam"
+  },
+  {
+    "id": "con3910-104",
+    "question": "Of the following, which is an acceptable venue to file a protest?",
+    "choices": [
+      "Small claims court",
+      "The agency",
+      "County court",
+      "U.S. District Court of Protest, Claims and Appeals"
     ],
     "correctIndex": 1,
     "source": "Quizlet CON 3910 Practice Exam"
   },
   {
-    "id": "con3910-106",
-    "question": "In competition scenario #106, what is the best contracting action?",
+    "id": "con3910-105",
+    "question": "Contractors are required to certify that a claim is made in good faith when submitting any claim exceeding:",
     "choices": [
-      "Use sole-source automatically without justification",
-      "Skip documentation to accelerate award",
-      "Apply FAR 6 procedures with documented rationale",
-      "Delay acquisition planning until after solicitation"
-    ],
-    "correctIndex": 2,
-    "source": "Quizlet CON 3910 Practice Exam"
-  },
-  {
-    "id": "con3910-107",
-    "question": "In simplified acquisition scenario #107, what is the best contracting action?",
-    "choices": [
-      "Apply FAR 13 procedures with documented rationale",
-      "Delay acquisition planning until after solicitation",
-      "Use sole-source automatically without justification",
-      "Skip documentation to accelerate award"
+      "$100,000",
+      "$250,000",
+      "$500,000",
+      "$1,000,000"
     ],
     "correctIndex": 0,
     "source": "Quizlet CON 3910 Practice Exam"
   },
   {
-    "id": "con3910-108",
-    "question": "In contracting by negotiation scenario #108, what is the best contracting action?",
+    "id": "con3910-106",
+    "question": "One of the proper protest venues is the:",
     "choices": [
-      "Delay acquisition planning until after solicitation",
-      "Apply FAR 15 procedures with documented rationale",
-      "Use sole-source automatically without justification",
-      "Skip documentation to accelerate award"
+      "U.S. Court of Federal Claims",
+      "U.S. Court of Appeals",
+      "U.S. District Court",
+      "Board of Contract Appeals"
     ],
-    "correctIndex": 1,
+    "correctIndex": 0,
+    "source": "Quizlet CON 3910 Practice Exam"
+  },
+  {
+    "id": "con3910-107",
+    "question": "Upon notice that a protest has been filed with the Government Accountability Office (GAO), who must immediately begin compiling the information necessary for a report to the GAO?",
+    "choices": [
+      "The agency legal advisor",
+      "The program manager",
+      "The head of the contracting activity",
+      "The contracting officer"
+    ],
+    "correctIndex": 3,
+    "source": "Quizlet CON 3910 Practice Exam"
+  },
+  {
+    "id": "con3910-108",
+    "question": "Which is an essential element of Alternative Dispute Resolution (ADR)?",
+    "choices": [
+      "A voluntary election by both parties to participate in the ADR process",
+      "A voluntary disclosure by both parties of their cost estimates to complete the remaining work",
+      "Each side being represented by attorneys certified as Federal procurement specialists",
+      "At least one side represented by an individual who has the authority to resolve the issue"
+    ],
+    "correctIndex": 0,
     "source": "Quizlet CON 3910 Practice Exam"
   },
   {
     "id": "con3910-109",
-    "question": "In contract modifications scenario #109, what is the best contracting action?",
+    "question": "Two neighbors do not get along very well. One is a contracting officer, and the other works for an auto dealership, that has no contracts with the Government. The auto dealership employee decided to file a protest to a contract that was just awarded, knowing it would add extra work to the contracting officer's day. Can the contracting officer's neighbor file a protest as an interested party?",
     "choices": [
-      "Delay acquisition planning until after solicitation",
-      "Skip documentation to accelerate award",
-      "Apply FAR 43 procedures with documented rationale",
-      "Use sole-source automatically without justification"
+      "Yes.",
+      "Yes, if he is a resident of the United States and has not had a felony conviction.",
+      "No.",
+      "No, because only business owners can file a protest, and his neighbor is an employee, not a business owner."
     ],
     "correctIndex": 2,
     "source": "Quizlet CON 3910 Practice Exam"
   },
   {
     "id": "con3910-110",
-    "question": "In source selection scenario #110, what is the best contracting action?",
+    "question": "Can a contractor file a protest at any time it chooses?",
     "choices": [
-      "Skip documentation to accelerate award",
-      "Apply FAR 15.3 procedures with documented rationale",
-      "Use sole-source automatically without justification",
-      "Delay acquisition planning until after solicitation"
-    ],
-    "correctIndex": 1,
-    "source": "Quizlet CON 3910 Practice Exam"
-  },
-  {
-    "id": "con3910-111",
-    "question": "In commercial items scenario #111, what is the best contracting action?",
-    "choices": [
-      "Apply FAR 12 procedures with documented rationale",
-      "Use sole-source automatically without justification",
-      "Delay acquisition planning until after solicitation",
-      "Skip documentation to accelerate award"
-    ],
-    "correctIndex": 0,
-    "source": "Quizlet CON 3910 Practice Exam"
-  },
-  {
-    "id": "con3910-112",
-    "question": "In contract types scenario #112, what is the best contracting action?",
-    "choices": [
-      "Apply FAR 16 procedures with documented rationale",
-      "Skip documentation to accelerate award",
-      "Use sole-source automatically without justification",
-      "Delay acquisition planning until after solicitation"
-    ],
-    "correctIndex": 0,
-    "source": "Quizlet CON 3910 Practice Exam"
-  },
-  {
-    "id": "con3910-113",
-    "question": "In market research scenario #113, what is the best contracting action?",
-    "choices": [
-      "Delay acquisition planning until after solicitation",
-      "Skip documentation to accelerate award",
-      "Use sole-source automatically without justification",
-      "Apply FAR 10 procedures with documented rationale"
+      "Yes.",
+      "No, it must protest within 152 days of contract award.",
+      "No, it only has 2 days from contract award to file a protest.",
+      "No, there are establishment timeframes within which a contractor must file its protest."
     ],
     "correctIndex": 3,
     "source": "Quizlet CON 3910 Practice Exam"
   },
   {
-    "id": "con3910-114",
-    "question": "In competition scenario #114, what is the best contracting action?",
+    "id": "con3910-111",
+    "question": "What is the Government's policy as it relates to controversies with a contractor during performance of the contract?",
     "choices": [
-      "Delay acquisition planning until after solicitation",
-      "Apply FAR 6 procedures with documented rationale",
-      "Use sole-source automatically without justification",
-      "Skip documentation to accelerate award"
+      "Attempt to resolve conflict at the lowest possible level.",
+      "Attempt to resolve conflict at the contracting officer's level.",
+      "Terminate the contract when the disagreements cannot be worked out.",
+      "Ensure the contractor knows and understands its rights."
     ],
     "correctIndex": 1,
+    "source": "Quizlet CON 3910 Practice Exam"
+  },
+  {
+    "id": "con3910-112",
+    "question": "What FAR part covers protests?",
+    "choices": [
+      "FAR part 31",
+      "FAR part 32",
+      "FAR part 33",
+      "FAR part 34"
+    ],
+    "correctIndex": 2,
+    "source": "Quizlet CON 3910 Practice Exam"
+  },
+  {
+    "id": "con3910-113",
+    "question": "A postaward orientation aids both Government and contractor personnel to:",
+    "choices": [
+      "Achieve a clear and mutual understanding of all contract requirements and identify and resolve potential problems",
+      "Discuss and further develop the Performance Work Statement",
+      "Meet all stakeholders in person in order to brainstorm how to make the contract less costly",
+      "Develop and understand the contractor's quality control plan"
+    ],
+    "correctIndex": 0,
+    "source": "Quizlet CON 3910 Practice Exam"
+  },
+  {
+    "id": "con3910-114",
+    "question": "When late in paying an otherwise acceptable invoice, the Government will:",
+    "choices": [
+      "Negotiate consideration",
+      "Submit a claim",
+      "NOT pay an interest penalty",
+      "Pay an interest penalty"
+    ],
+    "correctIndex": 3,
     "source": "Quizlet CON 3910 Practice Exam"
   },
   {
     "id": "con3910-115",
-    "question": "In simplified acquisition scenario #115, what is the best contracting action?",
+    "question": "When acquiring commercial items, quality assurance is primarily the responsibility of:",
     "choices": [
-      "Skip documentation to accelerate award",
-      "Delay acquisition planning until after solicitation",
-      "Apply FAR 13 procedures with documented rationale",
-      "Use sole-source automatically without justification"
+      "The contracting officer",
+      "The contracting officer's representative (COR)",
+      "The inspection and acceptance personnel at the receiving dock (Government supply point)",
+      "The contractor"
     ],
-    "correctIndex": 2,
+    "correctIndex": 3,
     "source": "Quizlet CON 3910 Practice Exam"
   },
   {
     "id": "con3910-116",
-    "question": "In contracting by negotiation scenario #116, what is the best contracting action?",
+    "question": "You have a requirement for an online subscription to Engineering News Record. The site owner requires payment before they will provide the license code number to activate the annual subscription. Which payment form is required?",
     "choices": [
-      "Skip documentation to accelerate award",
-      "Delay acquisition planning until after solicitation",
-      "Apply FAR 15 procedures with documented rationale",
-      "Use sole-source automatically without justification"
+      "An invoice payment",
+      "A progress payment",
+      "A commercial payment",
+      "An advance payment"
     ],
-    "correctIndex": 2,
+    "correctIndex": 3,
     "source": "Quizlet CON 3910 Practice Exam"
   },
   {
     "id": "con3910-117",
-    "question": "In contract modifications scenario #117, what is the best contracting action?",
+    "question": "What agency does DoD typically delegate contract administrative responsibilities for supply contracts?",
     "choices": [
-      "Delay acquisition planning until after solicitation",
-      "Use sole-source automatically without justification",
-      "Apply FAR 43 procedures with documented rationale",
-      "Skip documentation to accelerate award"
-    ],
-    "correctIndex": 2,
-    "source": "Quizlet CON 3910 Practice Exam"
-  },
-  {
-    "id": "con3910-118",
-    "question": "In source selection scenario #118, what is the best contracting action?",
-    "choices": [
-      "Use sole-source automatically without justification",
-      "Apply FAR 15.3 procedures with documented rationale",
-      "Delay acquisition planning until after solicitation",
-      "Skip documentation to accelerate award"
+      "Defense Contract Audit Agency",
+      "Defense Contract Management Agency",
+      "Defense Regulatory Agency",
+      "Defense Logistics Agency"
     ],
     "correctIndex": 1,
     "source": "Quizlet CON 3910 Practice Exam"
   },
   {
-    "id": "con3910-119",
-    "question": "In commercial items scenario #119, what is the best contracting action?",
+    "id": "con3910-118",
+    "question": "A purpose of a postaward orientation is to:",
     "choices": [
-      "Delay acquisition planning until after solicitation",
-      "Skip documentation to accelerate award",
-      "Apply FAR 12 procedures with documented rationale",
-      "Use sole-source automatically without justification"
+      "Allow the contractor to change an unclear term or condition in the contract",
+      "Start working on the first modification to the contract",
+      "Achieve a clear and mutual understanding of all contract requirements",
+      "Allow the Government to meet and establish privity with subcontractors"
     ],
     "correctIndex": 2,
+    "source": "Quizlet CON 3910 Practice Exam"
+  },
+  {
+    "id": "con3910-119",
+    "question": "A contractor employee accidentally broke a test fixture that belongs to the Government and is accountable to a Government contract. Generally speaking:",
+    "choices": [
+      "Contractors are held liable but only in cost-reimbursement contracts",
+      "Contractors are not held liable for loss of Government property",
+      "The contractor will have to pay for the test fixture",
+      "The Government shall terminate the contract when any Government property is intentionally destroyed"
+    ],
+    "correctIndex": 1,
     "source": "Quizlet CON 3910 Practice Exam"
   },
   {
     "id": "con3910-120",
-    "question": "In contract types scenario #120, what is the best contracting action?",
+    "question": "According to the FAR, the acquisition team:",
     "choices": [
-      "Use sole-source automatically without justification",
-      "Delay acquisition planning until after solicitation",
-      "Apply FAR 16 procedures with documented rationale",
-      "Skip documentation to accelerate award"
+      "Includes the contractor",
+      "Does not include the contractor",
+      "Includes the contractor for sole source buys only",
+      "Includes the contractor for competitive buys only"
     ],
-    "correctIndex": 2,
+    "correctIndex": 0,
     "source": "Quizlet CON 3910 Practice Exam"
   },
   {
     "id": "con3910-121",
-    "question": "In market research scenario #121, what is the best contracting action?",
+    "question": "With limited exceptions, a Contractor Performance Assessment Reporting System (CPARS) report is required:",
     "choices": [
-      "Use sole-source automatically without justification",
-      "Skip documentation to accelerate award",
-      "Delay acquisition planning until after solicitation",
-      "Apply FAR 10 procedures with documented rationale"
+      "When the contract requires certified cost or pricing data",
+      "For all contracts/purchase orders",
+      "For contracts exceeding one million dollars",
+      "When the contract dollar value exceeds the simplified acquisition threshold"
     ],
     "correctIndex": 3,
     "source": "Quizlet CON 3910 Practice Exam"
   },
   {
     "id": "con3910-122",
-    "question": "In competition scenario #122, what is the best contracting action?",
+    "question": "To be determined responsible by a contracting officer, a prospective contractor must:",
     "choices": [
-      "Apply FAR 6 procedures with documented rationale",
-      "Delay acquisition planning until after solicitation",
-      "Use sole-source automatically without justification",
-      "Skip documentation to accelerate award"
+      "Have adequate financial resources to perform the contract, or the ability to obtain them",
+      "Not have any current or pending civil or criminal cases against it",
+      "Be fully compliant with all cost accounting standards (CAS)",
+      "Be approved by the Small Business Administration (SBA)"
     ],
     "correctIndex": 0,
     "source": "Quizlet CON 3910 Practice Exam"
   },
   {
     "id": "con3910-123",
-    "question": "In simplified acquisition scenario #123, what is the best contracting action?",
+    "question": "In ensuring overall quality of items and services received under a contract, which of the following is the responsibility of the Government?",
     "choices": [
-      "Use sole-source automatically without justification",
-      "Delay acquisition planning until after solicitation",
-      "Skip documentation to accelerate award",
-      "Apply FAR 13 procedures with documented rationale"
-    ],
-    "correctIndex": 3,
-    "source": "Quizlet CON 3910 Practice Exam"
-  },
-  {
-    "id": "con3910-124",
-    "question": "In contracting by negotiation scenario #124, what is the best contracting action?",
-    "choices": [
-      "Skip documentation to accelerate award",
-      "Apply FAR 15 procedures with documented rationale",
-      "Delay acquisition planning until after solicitation",
-      "Use sole-source automatically without justification"
+      "Designing, fabrication and inspection of all items",
+      "Quality assurance surveillance",
+      "Designing the contractor's inspection system",
+      "Fabrication of subassemblies"
     ],
     "correctIndex": 1,
     "source": "Quizlet CON 3910 Practice Exam"
   },
   {
-    "id": "con3910-125",
-    "question": "In contract modifications scenario #125, what is the best contracting action?",
+    "id": "con3910-124",
+    "question": "The Government's preferred remedy to nonconforming goods or services is:",
     "choices": [
-      "Use sole-source automatically without justification",
-      "Delay acquisition planning until after solicitation",
-      "Apply FAR 43 procedures with documented rationale",
-      "Skip documentation to accelerate award"
-    ],
-    "correctIndex": 2,
-    "source": "Quizlet CON 3910 Practice Exam"
-  },
-  {
-    "id": "con3910-126",
-    "question": "In source selection scenario #126, what is the best contracting action?",
-    "choices": [
-      "Delay acquisition planning until after solicitation",
-      "Skip documentation to accelerate award",
-      "Use sole-source automatically without justification",
-      "Apply FAR 15.3 procedures with documented rationale"
+      "Terminate the contract for default.",
+      "Unilaterally reduce the contract price by the value of the nonconforming goods or services.",
+      "Allow the contractor to repair or replace the nonconforming items, as long as the contract has not been closed out.",
+      "Allow the contractor to repair or replace the nonconforming items, as long as there is still time left within the required delivery schedule."
     ],
     "correctIndex": 3,
     "source": "Quizlet CON 3910 Practice Exam"
   },
   {
-    "id": "con3910-127",
-    "question": "In commercial items scenario #127, what is the best contracting action?",
+    "id": "con3910-125",
+    "question": "Quality assurance policies and procedures found in FAR part 46:",
     "choices": [
-      "Skip documentation to accelerate award",
-      "Delay acquisition planning until after solicitation",
-      "Use sole-source automatically without justification",
-      "Apply FAR 12 procedures with documented rationale"
+      "Apply to both the Government and contractor",
+      "Apply only to subcontractors",
+      "Guide the process of determining a competitive range",
+      "Apply to contractors but not the Government"
+    ],
+    "correctIndex": 0,
+    "source": "Quizlet CON 3910 Practice Exam"
+  },
+  {
+    "id": "con3910-126",
+    "question": "Contractors are responsible for:",
+    "choices": [
+      "Appointing Government Contracting Officer Representatives",
+      "Managing Government quality control",
+      "Tendering to the Government for acceptance only those supplies or services that conform to contract quality requirements",
+      "Prescribing Government quality assurance"
+    ],
+    "correctIndex": 2,
+    "source": "Quizlet CON 3910 Practice Exam"
+  },
+  {
+    "id": "con3910-127",
+    "question": "Does the Government have the right to inspect a product before it is accepted?",
+    "choices": [
+      "No.",
+      "No, unless the item is a commercial product.",
+      "Yes, unless the item is a commercial product.",
+      "Yes, always."
     ],
     "correctIndex": 3,
     "source": "Quizlet CON 3910 Practice Exam"
   },
   {
     "id": "con3910-128",
-    "question": "In contract types scenario #128, what is the best contracting action?",
+    "question": "When does title for a completed product transfer to the Government, assuming the product meets all contract requirements?",
     "choices": [
-      "Apply FAR 16 procedures with documented rationale",
-      "Use sole-source automatically without justification",
-      "Delay acquisition planning until after solicitation",
-      "Skip documentation to accelerate award"
+      "Title transfer only applies to real estate transactions, not purchases of products.",
+      "When the Government takes physical possession of the product",
+      "On the last day of the month that the item was presented for inspection and acceptance",
+      "Upon formal acceptance by the Government"
     ],
-    "correctIndex": 0,
+    "correctIndex": 3,
     "source": "Quizlet CON 3910 Practice Exam"
   },
   {
     "id": "con3910-129",
-    "question": "In market research scenario #129, what is the best contracting action?",
+    "question": "In commercial contracting, what quality system is utilized?",
     "choices": [
-      "Delay acquisition planning until after solicitation",
-      "Skip documentation to accelerate award",
-      "Apply FAR 10 procedures with documented rationale",
-      "Use sole-source automatically without justification"
+      "The Government's",
+      "The contractor's",
+      "The Commercial Quality System (CQS)",
+      "ISO 900 Series"
+    ],
+    "correctIndex": 1,
+    "source": "Quizlet CON 3910 Practice Exam"
+  },
+  {
+    "id": "con3910-130",
+    "question": "According to the FAR, acceptance of supplies or services is the responsibility of whom?",
+    "choices": [
+      "The project manager (or designated representative)",
+      "The quality assurance representative (QAR)",
+      "The contracting officer",
+      "The plant clearance officer"
     ],
     "correctIndex": 2,
     "source": "Quizlet CON 3910 Practice Exam"
   },
   {
-    "id": "con3910-130",
-    "question": "In competition scenario #130, what is the best contracting action?",
-    "choices": [
-      "Apply FAR 6 procedures with documented rationale",
-      "Use sole-source automatically without justification",
-      "Skip documentation to accelerate award",
-      "Delay acquisition planning until after solicitation"
-    ],
-    "correctIndex": 0,
-    "source": "Quizlet CON 3910 Practice Exam"
-  },
-  {
     "id": "con3910-131",
-    "question": "In simplified acquisition scenario #131, what is the best contracting action?",
+    "question": "When preparing a solicitation, the quality requirements essential to ensure the integrity of the supplies or services is developed by whom?",
     "choices": [
-      "Delay acquisition planning until after solicitation",
-      "Apply FAR 13 procedures with documented rationale",
-      "Skip documentation to accelerate award",
-      "Use sole-source automatically without justification"
+      "The procurement contracting officer (PCO)",
+      "The activity responsible for technical requirements",
+      "The contractor's quality control representative",
+      "The administrative contracting officer (ACO)"
     ],
     "correctIndex": 1,
     "source": "Quizlet CON 3910 Practice Exam"
   },
   {
     "id": "con3910-132",
-    "question": "In contracting by negotiation scenario #132, what is the best contracting action?",
+    "question": "Quality assurance on contract actions valued below the simplified acquisition threshold (SAT) is:",
     "choices": [
-      "Use sole-source automatically without justification",
-      "Skip documentation to accelerate award",
-      "Apply FAR 15 procedures with documented rationale",
-      "Delay acquisition planning until after solicitation"
+      "Minimal, unless a special circumstance exists",
+      "The same as above the SAT",
+      "More stringent for commercial items",
+      "Not necessary, as risk of loss is considered too low to justify the expense"
+    ],
+    "correctIndex": 0,
+    "source": "Quizlet CON 3910 Practice Exam"
+  },
+  {
+    "id": "con3910-133",
+    "question": "Which of the following statements regarding Small Business Subcontracting Plans is accurate?",
+    "choices": [
+      "Required for contracts with large businesses, regardless of location",
+      "Required for contracts with both large and small businesses, regardless of location",
+      "Not required for contracts with large or small businesses, regardless of location",
+      "Not required for contracts with large businesses performed overseas"
+    ],
+    "correctIndex": 3,
+    "source": "Quizlet CON 3910 Practice Exam"
+  },
+  {
+    "id": "con3910-134",
+    "question": "Does the Government's policy to require prime contractors to incorporate, to the maximum extent practicable, commercial items or nondevelopmental items as components of items supplied to the agency, apply to subcontractors at all levels?",
+    "choices": [
+      "No, it only applies to first-tier subcontracts.",
+      "No, it only applies to first- and second-tier subcontracts.",
+      "Yes.",
+      "The policy of flowing down this requirement no longer applies to DoD acquisitions."
     ],
     "correctIndex": 2,
     "source": "Quizlet CON 3910 Practice Exam"
   },
   {
-    "id": "con3910-133",
-    "question": "In contract modifications scenario #133, what is the best contracting action?",
+    "id": "con3910-135",
+    "question": "Which of the following entities has privity with a first-tier subcontractor?",
     "choices": [
-      "Apply FAR 43 procedures with documented rationale",
-      "Use sole-source automatically without justification",
-      "Skip documentation to accelerate award",
-      "Delay acquisition planning until after solicitation"
-    ],
-    "correctIndex": 0,
-    "source": "Quizlet CON 3910 Practice Exam"
-  },
-  {
-    "id": "con3910-134",
-    "question": "In source selection scenario #134, what is the best contracting action?",
-    "choices": [
-      "Skip documentation to accelerate award",
-      "Apply FAR 15.3 procedures with documented rationale",
-      "Use sole-source automatically without justification",
-      "Delay acquisition planning until after solicitation"
+      "The contracting officer",
+      "The prime contractor",
+      "The Defense Contract Management Agency (DCMA)",
+      "The Defense Contract Audit Agency (DCAA)"
     ],
     "correctIndex": 1,
     "source": "Quizlet CON 3910 Practice Exam"
   },
   {
-    "id": "con3910-135",
-    "question": "In commercial items scenario #135, what is the best contracting action?",
-    "choices": [
-      "Apply FAR 12 procedures with documented rationale",
-      "Skip documentation to accelerate award",
-      "Delay acquisition planning until after solicitation",
-      "Use sole-source automatically without justification"
-    ],
-    "correctIndex": 0,
-    "source": "Quizlet CON 3910 Practice Exam"
-  },
-  {
     "id": "con3910-136",
-    "question": "In contract types scenario #136, what is the best contracting action?",
+    "question": "Which FAR part is titled \"Subcontracting Policies and Procedures\"?",
     "choices": [
-      "Skip documentation to accelerate award",
-      "Apply FAR 16 procedures with documented rationale",
-      "Use sole-source automatically without justification",
-      "Delay acquisition planning until after solicitation"
+      "FAR part 43",
+      "FAR part 44",
+      "FAR part 45",
+      "FAR part 46"
     ],
     "correctIndex": 1,
     "source": "Quizlet CON 3910 Practice Exam"
   },
   {
     "id": "con3910-137",
-    "question": "In market research scenario #137, what is the best contracting action?",
+    "question": "Change orders issued under the changes clause of the contract use which form?",
     "choices": [
-      "Use sole-source automatically without justification",
-      "Skip documentation to accelerate award",
-      "Delay acquisition planning until after solicitation",
-      "Apply FAR 10 procedures with documented rationale"
-    ],
-    "correctIndex": 3,
-    "source": "Quizlet CON 3910 Practice Exam"
-  },
-  {
-    "id": "con3910-138",
-    "question": "In competition scenario #138, what is the best contracting action?",
-    "choices": [
-      "Apply FAR 6 procedures with documented rationale",
-      "Use sole-source automatically without justification",
-      "Delay acquisition planning until after solicitation",
-      "Skip documentation to accelerate award"
+      "SF 30",
+      "SF 33",
+      "SF 44",
+      "SF 1449"
     ],
     "correctIndex": 0,
     "source": "Quizlet CON 3910 Practice Exam"
   },
   {
-    "id": "con3910-139",
-    "question": "In simplified acquisition scenario #139, what is the best contracting action?",
+    "id": "con3910-138",
+    "question": "Which of the following contract modifications must be signed by both the contractor and the contracting officer?",
     "choices": [
-      "Delay acquisition planning until after solicitation",
-      "Skip documentation to accelerate award",
-      "Use sole-source automatically without justification",
-      "Apply FAR 13 procedures with documented rationale"
+      "An administrative change",
+      "A termination notice",
+      "An agreement definitizing a letter contract",
+      "Exercising an option within the scope of the contract"
+    ],
+    "correctIndex": 2,
+    "source": "Quizlet CON 3910 Practice Exam"
+  },
+  {
+    "id": "con3910-139",
+    "question": "What are the two types of contract modifications?",
+    "choices": [
+      "Supplemental and termination",
+      "Supplemental and equitable adjustment",
+      "Termination and unilateral",
+      "Unilateral and bilateral"
     ],
     "correctIndex": 3,
     "source": "Quizlet CON 3910 Practice Exam"
   },
   {
     "id": "con3910-140",
-    "question": "In contracting by negotiation scenario #140, what is the best contracting action?",
+    "question": "Which of the following modifications must be issued bilaterally?",
     "choices": [
-      "Use sole-source automatically without justification",
-      "Skip documentation to accelerate award",
-      "Delay acquisition planning until after solicitation",
-      "Apply FAR 15 procedures with documented rationale"
+      "Making administrative changes",
+      "Making a negotiated equitable adjustment caused by a change order",
+      "Issuing a change order",
+      "Issuing a termination notice"
     ],
-    "correctIndex": 3,
+    "correctIndex": 1,
     "source": "Quizlet CON 3910 Practice Exam"
   },
   {
     "id": "con3910-141",
-    "question": "In contract modifications scenario #141, what is the best contracting action?",
+    "question": "Who may execute contract modifications on behalf of the Government?",
     "choices": [
-      "Delay acquisition planning until after solicitation",
-      "Skip documentation to accelerate award",
-      "Use sole-source automatically without justification",
-      "Apply FAR 43 procedures with documented rationale"
+      "Contracting officers",
+      "Contract specialists",
+      "Contracting officer's representatives (COR)",
+      "Program managers"
     ],
-    "correctIndex": 3,
+    "correctIndex": 0,
     "source": "Quizlet CON 3910 Practice Exam"
   },
   {
     "id": "con3910-142",
-    "question": "In source selection scenario #142, what is the best contracting action?",
+    "question": "When shall contracting officers negotiate equitable adjustments resulting from change orders?",
     "choices": [
-      "Use sole-source automatically without justification",
-      "Skip documentation to accelerate award",
-      "Apply FAR 15.3 procedures with documented rationale",
-      "Delay acquisition planning until after solicitation"
+      "Within 30 days",
+      "Within 90 days",
+      "Within the shortest practicable time",
+      "Within a time frame that is acceptable to the contractor"
     ],
     "correctIndex": 2,
     "source": "Quizlet CON 3910 Practice Exam"
   },
   {
     "id": "con3910-143",
-    "question": "In commercial items scenario #143, what is the best contracting action?",
+    "question": "What entity can the contractor appeal to if they do not agree with the contracting officer's final decision on a claim?",
     "choices": [
-      "Delay acquisition planning until after solicitation",
-      "Use sole-source automatically without justification",
-      "Apply FAR 12 procedures with documented rationale",
-      "Skip documentation to accelerate award"
+      "The head of the agency",
+      "The head of the contracting activity (HCA)",
+      "The United States Court of Federal Claims",
+      "The General Accountability Office (GAO)"
     ],
     "correctIndex": 2,
     "source": "Quizlet CON 3910 Practice Exam"
   },
   {
     "id": "con3910-144",
-    "question": "In contract types scenario #144, what is the best contracting action?",
+    "question": "You've received a claim on your contract. The contractor is required to certify its claim above what amount?",
     "choices": [
-      "Use sole-source automatically without justification",
-      "Skip documentation to accelerate award",
-      "Apply FAR 16 procedures with documented rationale",
-      "Delay acquisition planning until after solicitation"
-    ],
-    "correctIndex": 2,
-    "source": "Quizlet CON 3910 Practice Exam"
-  },
-  {
-    "id": "con3910-145",
-    "question": "In market research scenario #145, what is the best contracting action?",
-    "choices": [
-      "Skip documentation to accelerate award",
-      "Apply FAR 10 procedures with documented rationale",
-      "Use sole-source automatically without justification",
-      "Delay acquisition planning until after solicitation"
-    ],
-    "correctIndex": 1,
-    "source": "Quizlet CON 3910 Practice Exam"
-  },
-  {
-    "id": "con3910-146",
-    "question": "In competition scenario #146, what is the best contracting action?",
-    "choices": [
-      "Use sole-source automatically without justification",
-      "Delay acquisition planning until after solicitation",
-      "Apply FAR 6 procedures with documented rationale",
-      "Skip documentation to accelerate award"
-    ],
-    "correctIndex": 2,
-    "source": "Quizlet CON 3910 Practice Exam"
-  },
-  {
-    "id": "con3910-147",
-    "question": "In simplified acquisition scenario #147, what is the best contracting action?",
-    "choices": [
-      "Apply FAR 13 procedures with documented rationale",
-      "Use sole-source automatically without justification",
-      "Delay acquisition planning until after solicitation",
-      "Skip documentation to accelerate award"
+      "$100,000",
+      "$10,000",
+      "$10 million",
+      "$100 million"
     ],
     "correctIndex": 0,
     "source": "Quizlet CON 3910 Practice Exam"
   },
   {
-    "id": "con3910-148",
-    "question": "In contracting by negotiation scenario #148, what is the best contracting action?",
+    "id": "con3910-145",
+    "question": "What part of the FAR covers terminations?",
     "choices": [
-      "Skip documentation to accelerate award",
-      "Apply FAR 15 procedures with documented rationale",
-      "Use sole-source automatically without justification",
-      "Delay acquisition planning until after solicitation"
+      "FAR part 46",
+      "FAR part 47",
+      "FAR part 48",
+      "FAR part 49"
+    ],
+    "correctIndex": 3,
+    "source": "Quizlet CON 3910 Practice Exam"
+  },
+  {
+    "id": "con3910-146",
+    "question": "You are a contracting officer who has a $260,000 commercial contract. You decide you need to terminate the contract because the contractor has failed to perform. What is the name of this type of termination?",
+    "choices": [
+      "For Noncompliance",
+      "For Cause",
+      "For Default",
+      "For Failure"
+    ],
+    "correctIndex": 1,
+    "source": "Quizlet CON 3910 Practice Exam"
+  },
+  {
+    "id": "con3910-147",
+    "question": "The contracting officer is responsible for initiating contract closeout procedures after the contracting officer receives:",
+    "choices": [
+      "A final audit from the Inspector General",
+      "A written request for contract closeout from the contractor",
+      "Notice that the last item has been delivered",
+      "Evidence of physical completion"
+    ],
+    "correctIndex": 3,
+    "source": "Quizlet CON 3910 Practice Exam"
+  },
+  {
+    "id": "con3910-148",
+    "question": "What office/entity is responsible for initiating administrative closeout of the contract after receiving evidence of physical completion?",
+    "choices": [
+      "The contractor",
+      "The Government contract administration office",
+      "The Government user/requiring activity",
+      "Defense Contract Audit Agency (DCAA)"
     ],
     "correctIndex": 1,
     "source": "Quizlet CON 3910 Practice Exam"
   },
   {
     "id": "con3910-149",
-    "question": "In contract modifications scenario #149, what is the best contracting action?",
+    "question": "Contract files for contracts using simplified acquisition procedures should be considered closed when the contracting officer receives evidence of two things. The first is receipt of the property or service. What is the second?",
     "choices": [
-      "Use sole-source automatically without justification",
-      "Skip documentation to accelerate award",
-      "Delay acquisition planning until after solicitation",
-      "Apply FAR 43 procedures with documented rationale"
+      "Final acceptance",
+      "Final inspection",
+      "Final payment",
+      "Final approval of the Contractor Performance Assessment Reporting System (CPARS) report"
     ],
-    "correctIndex": 3,
+    "correctIndex": 2,
     "source": "Quizlet CON 3910 Practice Exam"
   },
   {
     "id": "con3910-150",
-    "question": "In source selection scenario #150, what is the best contracting action?",
+    "question": "A contract is considered physically complete when the contractor has completed all the required deliveries and:",
     "choices": [
-      "Delay acquisition planning until after solicitation",
-      "Apply FAR 15.3 procedures with documented rationale",
-      "Skip documentation to accelerate award",
-      "Use sole-source automatically without justification"
+      "All obligated funds on the contract have been expensed.",
+      "The contractor has submitted their final invoice.",
+      "The Government has inspected all the items.",
+      "The Government has accepted all the items."
     ],
-    "correctIndex": 1,
+    "correctIndex": 3,
     "source": "Quizlet CON 3910 Practice Exam"
   }
 ]
