@@ -1,0 +1,1802 @@
+[
+  {
+    "id": "con3910-001",
+    "question": "In market research scenario #1, what is the best contracting action?",
+    "choices": [
+      "Delay acquisition planning until after solicitation",
+      "Apply FAR 10 procedures with documented rationale",
+      "Use sole-source automatically without justification",
+      "Skip documentation to accelerate award"
+    ],
+    "correctIndex": 1,
+    "source": "Quizlet CON 3910 Practice Exam"
+  },
+  {
+    "id": "con3910-002",
+    "question": "In competition scenario #2, what is the best contracting action?",
+    "choices": [
+      "Skip documentation to accelerate award",
+      "Use sole-source automatically without justification",
+      "Delay acquisition planning until after solicitation",
+      "Apply FAR 6 procedures with documented rationale"
+    ],
+    "correctIndex": 3,
+    "source": "Quizlet CON 3910 Practice Exam"
+  },
+  {
+    "id": "con3910-003",
+    "question": "In simplified acquisition scenario #3, what is the best contracting action?",
+    "choices": [
+      "Delay acquisition planning until after solicitation",
+      "Apply FAR 13 procedures with documented rationale",
+      "Use sole-source automatically without justification",
+      "Skip documentation to accelerate award"
+    ],
+    "correctIndex": 1,
+    "source": "Quizlet CON 3910 Practice Exam"
+  },
+  {
+    "id": "con3910-004",
+    "question": "In contracting by negotiation scenario #4, what is the best contracting action?",
+    "choices": [
+      "Use sole-source automatically without justification",
+      "Apply FAR 15 procedures with documented rationale",
+      "Delay acquisition planning until after solicitation",
+      "Skip documentation to accelerate award"
+    ],
+    "correctIndex": 1,
+    "source": "Quizlet CON 3910 Practice Exam"
+  },
+  {
+    "id": "con3910-005",
+    "question": "In contract modifications scenario #5, what is the best contracting action?",
+    "choices": [
+      "Apply FAR 43 procedures with documented rationale",
+      "Skip documentation to accelerate award",
+      "Delay acquisition planning until after solicitation",
+      "Use sole-source automatically without justification"
+    ],
+    "correctIndex": 0,
+    "source": "Quizlet CON 3910 Practice Exam"
+  },
+  {
+    "id": "con3910-006",
+    "question": "In source selection scenario #6, what is the best contracting action?",
+    "choices": [
+      "Delay acquisition planning until after solicitation",
+      "Use sole-source automatically without justification",
+      "Skip documentation to accelerate award",
+      "Apply FAR 15.3 procedures with documented rationale"
+    ],
+    "correctIndex": 3,
+    "source": "Quizlet CON 3910 Practice Exam"
+  },
+  {
+    "id": "con3910-007",
+    "question": "In commercial items scenario #7, what is the best contracting action?",
+    "choices": [
+      "Delay acquisition planning until after solicitation",
+      "Skip documentation to accelerate award",
+      "Apply FAR 12 procedures with documented rationale",
+      "Use sole-source automatically without justification"
+    ],
+    "correctIndex": 2,
+    "source": "Quizlet CON 3910 Practice Exam"
+  },
+  {
+    "id": "con3910-008",
+    "question": "In contract types scenario #8, what is the best contracting action?",
+    "choices": [
+      "Apply FAR 16 procedures with documented rationale",
+      "Use sole-source automatically without justification",
+      "Delay acquisition planning until after solicitation",
+      "Skip documentation to accelerate award"
+    ],
+    "correctIndex": 0,
+    "source": "Quizlet CON 3910 Practice Exam"
+  },
+  {
+    "id": "con3910-009",
+    "question": "In market research scenario #9, what is the best contracting action?",
+    "choices": [
+      "Apply FAR 10 procedures with documented rationale",
+      "Skip documentation to accelerate award",
+      "Use sole-source automatically without justification",
+      "Delay acquisition planning until after solicitation"
+    ],
+    "correctIndex": 0,
+    "source": "Quizlet CON 3910 Practice Exam"
+  },
+  {
+    "id": "con3910-010",
+    "question": "In competition scenario #10, what is the best contracting action?",
+    "choices": [
+      "Delay acquisition planning until after solicitation",
+      "Use sole-source automatically without justification",
+      "Skip documentation to accelerate award",
+      "Apply FAR 6 procedures with documented rationale"
+    ],
+    "correctIndex": 3,
+    "source": "Quizlet CON 3910 Practice Exam"
+  },
+  {
+    "id": "con3910-011",
+    "question": "In simplified acquisition scenario #11, what is the best contracting action?",
+    "choices": [
+      "Apply FAR 13 procedures with documented rationale",
+      "Skip documentation to accelerate award",
+      "Use sole-source automatically without justification",
+      "Delay acquisition planning until after solicitation"
+    ],
+    "correctIndex": 0,
+    "source": "Quizlet CON 3910 Practice Exam"
+  },
+  {
+    "id": "con3910-012",
+    "question": "In contracting by negotiation scenario #12, what is the best contracting action?",
+    "choices": [
+      "Apply FAR 15 procedures with documented rationale",
+      "Use sole-source automatically without justification",
+      "Skip documentation to accelerate award",
+      "Delay acquisition planning until after solicitation"
+    ],
+    "correctIndex": 0,
+    "source": "Quizlet CON 3910 Practice Exam"
+  },
+  {
+    "id": "con3910-013",
+    "question": "In contract modifications scenario #13, what is the best contracting action?",
+    "choices": [
+      "Delay acquisition planning until after solicitation",
+      "Apply FAR 43 procedures with documented rationale",
+      "Skip documentation to accelerate award",
+      "Use sole-source automatically without justification"
+    ],
+    "correctIndex": 1,
+    "source": "Quizlet CON 3910 Practice Exam"
+  },
+  {
+    "id": "con3910-014",
+    "question": "In source selection scenario #14, what is the best contracting action?",
+    "choices": [
+      "Skip documentation to accelerate award",
+      "Delay acquisition planning until after solicitation",
+      "Use sole-source automatically without justification",
+      "Apply FAR 15.3 procedures with documented rationale"
+    ],
+    "correctIndex": 3,
+    "source": "Quizlet CON 3910 Practice Exam"
+  },
+  {
+    "id": "con3910-015",
+    "question": "In commercial items scenario #15, what is the best contracting action?",
+    "choices": [
+      "Delay acquisition planning until after solicitation",
+      "Use sole-source automatically without justification",
+      "Apply FAR 12 procedures with documented rationale",
+      "Skip documentation to accelerate award"
+    ],
+    "correctIndex": 2,
+    "source": "Quizlet CON 3910 Practice Exam"
+  },
+  {
+    "id": "con3910-016",
+    "question": "In contract types scenario #16, what is the best contracting action?",
+    "choices": [
+      "Apply FAR 16 procedures with documented rationale",
+      "Delay acquisition planning until after solicitation",
+      "Skip documentation to accelerate award",
+      "Use sole-source automatically without justification"
+    ],
+    "correctIndex": 0,
+    "source": "Quizlet CON 3910 Practice Exam"
+  },
+  {
+    "id": "con3910-017",
+    "question": "In market research scenario #17, what is the best contracting action?",
+    "choices": [
+      "Apply FAR 10 procedures with documented rationale",
+      "Use sole-source automatically without justification",
+      "Skip documentation to accelerate award",
+      "Delay acquisition planning until after solicitation"
+    ],
+    "correctIndex": 0,
+    "source": "Quizlet CON 3910 Practice Exam"
+  },
+  {
+    "id": "con3910-018",
+    "question": "In competition scenario #18, what is the best contracting action?",
+    "choices": [
+      "Use sole-source automatically without justification",
+      "Delay acquisition planning until after solicitation",
+      "Apply FAR 6 procedures with documented rationale",
+      "Skip documentation to accelerate award"
+    ],
+    "correctIndex": 2,
+    "source": "Quizlet CON 3910 Practice Exam"
+  },
+  {
+    "id": "con3910-019",
+    "question": "In simplified acquisition scenario #19, what is the best contracting action?",
+    "choices": [
+      "Skip documentation to accelerate award",
+      "Delay acquisition planning until after solicitation",
+      "Use sole-source automatically without justification",
+      "Apply FAR 13 procedures with documented rationale"
+    ],
+    "correctIndex": 3,
+    "source": "Quizlet CON 3910 Practice Exam"
+  },
+  {
+    "id": "con3910-020",
+    "question": "In contracting by negotiation scenario #20, what is the best contracting action?",
+    "choices": [
+      "Use sole-source automatically without justification",
+      "Apply FAR 15 procedures with documented rationale",
+      "Delay acquisition planning until after solicitation",
+      "Skip documentation to accelerate award"
+    ],
+    "correctIndex": 1,
+    "source": "Quizlet CON 3910 Practice Exam"
+  },
+  {
+    "id": "con3910-021",
+    "question": "In contract modifications scenario #21, what is the best contracting action?",
+    "choices": [
+      "Apply FAR 43 procedures with documented rationale",
+      "Use sole-source automatically without justification",
+      "Delay acquisition planning until after solicitation",
+      "Skip documentation to accelerate award"
+    ],
+    "correctIndex": 0,
+    "source": "Quizlet CON 3910 Practice Exam"
+  },
+  {
+    "id": "con3910-022",
+    "question": "In source selection scenario #22, what is the best contracting action?",
+    "choices": [
+      "Delay acquisition planning until after solicitation",
+      "Use sole-source automatically without justification",
+      "Apply FAR 15.3 procedures with documented rationale",
+      "Skip documentation to accelerate award"
+    ],
+    "correctIndex": 2,
+    "source": "Quizlet CON 3910 Practice Exam"
+  },
+  {
+    "id": "con3910-023",
+    "question": "In commercial items scenario #23, what is the best contracting action?",
+    "choices": [
+      "Skip documentation to accelerate award",
+      "Delay acquisition planning until after solicitation",
+      "Apply FAR 12 procedures with documented rationale",
+      "Use sole-source automatically without justification"
+    ],
+    "correctIndex": 2,
+    "source": "Quizlet CON 3910 Practice Exam"
+  },
+  {
+    "id": "con3910-024",
+    "question": "In contract types scenario #24, what is the best contracting action?",
+    "choices": [
+      "Skip documentation to accelerate award",
+      "Apply FAR 16 procedures with documented rationale",
+      "Use sole-source automatically without justification",
+      "Delay acquisition planning until after solicitation"
+    ],
+    "correctIndex": 1,
+    "source": "Quizlet CON 3910 Practice Exam"
+  },
+  {
+    "id": "con3910-025",
+    "question": "In market research scenario #25, what is the best contracting action?",
+    "choices": [
+      "Skip documentation to accelerate award",
+      "Use sole-source automatically without justification",
+      "Apply FAR 10 procedures with documented rationale",
+      "Delay acquisition planning until after solicitation"
+    ],
+    "correctIndex": 2,
+    "source": "Quizlet CON 3910 Practice Exam"
+  },
+  {
+    "id": "con3910-026",
+    "question": "In competition scenario #26, what is the best contracting action?",
+    "choices": [
+      "Delay acquisition planning until after solicitation",
+      "Apply FAR 6 procedures with documented rationale",
+      "Use sole-source automatically without justification",
+      "Skip documentation to accelerate award"
+    ],
+    "correctIndex": 1,
+    "source": "Quizlet CON 3910 Practice Exam"
+  },
+  {
+    "id": "con3910-027",
+    "question": "In simplified acquisition scenario #27, what is the best contracting action?",
+    "choices": [
+      "Apply FAR 13 procedures with documented rationale",
+      "Skip documentation to accelerate award",
+      "Use sole-source automatically without justification",
+      "Delay acquisition planning until after solicitation"
+    ],
+    "correctIndex": 0,
+    "source": "Quizlet CON 3910 Practice Exam"
+  },
+  {
+    "id": "con3910-028",
+    "question": "In contracting by negotiation scenario #28, what is the best contracting action?",
+    "choices": [
+      "Skip documentation to accelerate award",
+      "Delay acquisition planning until after solicitation",
+      "Use sole-source automatically without justification",
+      "Apply FAR 15 procedures with documented rationale"
+    ],
+    "correctIndex": 3,
+    "source": "Quizlet CON 3910 Practice Exam"
+  },
+  {
+    "id": "con3910-029",
+    "question": "In contract modifications scenario #29, what is the best contracting action?",
+    "choices": [
+      "Delay acquisition planning until after solicitation",
+      "Use sole-source automatically without justification",
+      "Skip documentation to accelerate award",
+      "Apply FAR 43 procedures with documented rationale"
+    ],
+    "correctIndex": 3,
+    "source": "Quizlet CON 3910 Practice Exam"
+  },
+  {
+    "id": "con3910-030",
+    "question": "In source selection scenario #30, what is the best contracting action?",
+    "choices": [
+      "Skip documentation to accelerate award",
+      "Apply FAR 15.3 procedures with documented rationale",
+      "Delay acquisition planning until after solicitation",
+      "Use sole-source automatically without justification"
+    ],
+    "correctIndex": 1,
+    "source": "Quizlet CON 3910 Practice Exam"
+  },
+  {
+    "id": "con3910-031",
+    "question": "In commercial items scenario #31, what is the best contracting action?",
+    "choices": [
+      "Use sole-source automatically without justification",
+      "Delay acquisition planning until after solicitation",
+      "Skip documentation to accelerate award",
+      "Apply FAR 12 procedures with documented rationale"
+    ],
+    "correctIndex": 3,
+    "source": "Quizlet CON 3910 Practice Exam"
+  },
+  {
+    "id": "con3910-032",
+    "question": "In contract types scenario #32, what is the best contracting action?",
+    "choices": [
+      "Skip documentation to accelerate award",
+      "Use sole-source automatically without justification",
+      "Delay acquisition planning until after solicitation",
+      "Apply FAR 16 procedures with documented rationale"
+    ],
+    "correctIndex": 3,
+    "source": "Quizlet CON 3910 Practice Exam"
+  },
+  {
+    "id": "con3910-033",
+    "question": "In market research scenario #33, what is the best contracting action?",
+    "choices": [
+      "Delay acquisition planning until after solicitation",
+      "Apply FAR 10 procedures with documented rationale",
+      "Use sole-source automatically without justification",
+      "Skip documentation to accelerate award"
+    ],
+    "correctIndex": 1,
+    "source": "Quizlet CON 3910 Practice Exam"
+  },
+  {
+    "id": "con3910-034",
+    "question": "In competition scenario #34, what is the best contracting action?",
+    "choices": [
+      "Skip documentation to accelerate award",
+      "Apply FAR 6 procedures with documented rationale",
+      "Delay acquisition planning until after solicitation",
+      "Use sole-source automatically without justification"
+    ],
+    "correctIndex": 1,
+    "source": "Quizlet CON 3910 Practice Exam"
+  },
+  {
+    "id": "con3910-035",
+    "question": "In simplified acquisition scenario #35, what is the best contracting action?",
+    "choices": [
+      "Delay acquisition planning until after solicitation",
+      "Skip documentation to accelerate award",
+      "Apply FAR 13 procedures with documented rationale",
+      "Use sole-source automatically without justification"
+    ],
+    "correctIndex": 2,
+    "source": "Quizlet CON 3910 Practice Exam"
+  },
+  {
+    "id": "con3910-036",
+    "question": "In contracting by negotiation scenario #36, what is the best contracting action?",
+    "choices": [
+      "Skip documentation to accelerate award",
+      "Delay acquisition planning until after solicitation",
+      "Apply FAR 15 procedures with documented rationale",
+      "Use sole-source automatically without justification"
+    ],
+    "correctIndex": 2,
+    "source": "Quizlet CON 3910 Practice Exam"
+  },
+  {
+    "id": "con3910-037",
+    "question": "In contract modifications scenario #37, what is the best contracting action?",
+    "choices": [
+      "Skip documentation to accelerate award",
+      "Delay acquisition planning until after solicitation",
+      "Use sole-source automatically without justification",
+      "Apply FAR 43 procedures with documented rationale"
+    ],
+    "correctIndex": 3,
+    "source": "Quizlet CON 3910 Practice Exam"
+  },
+  {
+    "id": "con3910-038",
+    "question": "In source selection scenario #38, what is the best contracting action?",
+    "choices": [
+      "Use sole-source automatically without justification",
+      "Apply FAR 15.3 procedures with documented rationale",
+      "Skip documentation to accelerate award",
+      "Delay acquisition planning until after solicitation"
+    ],
+    "correctIndex": 1,
+    "source": "Quizlet CON 3910 Practice Exam"
+  },
+  {
+    "id": "con3910-039",
+    "question": "In commercial items scenario #39, what is the best contracting action?",
+    "choices": [
+      "Apply FAR 12 procedures with documented rationale",
+      "Use sole-source automatically without justification",
+      "Delay acquisition planning until after solicitation",
+      "Skip documentation to accelerate award"
+    ],
+    "correctIndex": 0,
+    "source": "Quizlet CON 3910 Practice Exam"
+  },
+  {
+    "id": "con3910-040",
+    "question": "In contract types scenario #40, what is the best contracting action?",
+    "choices": [
+      "Skip documentation to accelerate award",
+      "Apply FAR 16 procedures with documented rationale",
+      "Use sole-source automatically without justification",
+      "Delay acquisition planning until after solicitation"
+    ],
+    "correctIndex": 1,
+    "source": "Quizlet CON 3910 Practice Exam"
+  },
+  {
+    "id": "con3910-041",
+    "question": "In market research scenario #41, what is the best contracting action?",
+    "choices": [
+      "Use sole-source automatically without justification",
+      "Apply FAR 10 procedures with documented rationale",
+      "Skip documentation to accelerate award",
+      "Delay acquisition planning until after solicitation"
+    ],
+    "correctIndex": 1,
+    "source": "Quizlet CON 3910 Practice Exam"
+  },
+  {
+    "id": "con3910-042",
+    "question": "In competition scenario #42, what is the best contracting action?",
+    "choices": [
+      "Use sole-source automatically without justification",
+      "Skip documentation to accelerate award",
+      "Delay acquisition planning until after solicitation",
+      "Apply FAR 6 procedures with documented rationale"
+    ],
+    "correctIndex": 3,
+    "source": "Quizlet CON 3910 Practice Exam"
+  },
+  {
+    "id": "con3910-043",
+    "question": "In simplified acquisition scenario #43, what is the best contracting action?",
+    "choices": [
+      "Use sole-source automatically without justification",
+      "Delay acquisition planning until after solicitation",
+      "Skip documentation to accelerate award",
+      "Apply FAR 13 procedures with documented rationale"
+    ],
+    "correctIndex": 3,
+    "source": "Quizlet CON 3910 Practice Exam"
+  },
+  {
+    "id": "con3910-044",
+    "question": "In contracting by negotiation scenario #44, what is the best contracting action?",
+    "choices": [
+      "Skip documentation to accelerate award",
+      "Apply FAR 15 procedures with documented rationale",
+      "Use sole-source automatically without justification",
+      "Delay acquisition planning until after solicitation"
+    ],
+    "correctIndex": 1,
+    "source": "Quizlet CON 3910 Practice Exam"
+  },
+  {
+    "id": "con3910-045",
+    "question": "In contract modifications scenario #45, what is the best contracting action?",
+    "choices": [
+      "Apply FAR 43 procedures with documented rationale",
+      "Delay acquisition planning until after solicitation",
+      "Skip documentation to accelerate award",
+      "Use sole-source automatically without justification"
+    ],
+    "correctIndex": 0,
+    "source": "Quizlet CON 3910 Practice Exam"
+  },
+  {
+    "id": "con3910-046",
+    "question": "In source selection scenario #46, what is the best contracting action?",
+    "choices": [
+      "Use sole-source automatically without justification",
+      "Delay acquisition planning until after solicitation",
+      "Skip documentation to accelerate award",
+      "Apply FAR 15.3 procedures with documented rationale"
+    ],
+    "correctIndex": 3,
+    "source": "Quizlet CON 3910 Practice Exam"
+  },
+  {
+    "id": "con3910-047",
+    "question": "In commercial items scenario #47, what is the best contracting action?",
+    "choices": [
+      "Delay acquisition planning until after solicitation",
+      "Skip documentation to accelerate award",
+      "Apply FAR 12 procedures with documented rationale",
+      "Use sole-source automatically without justification"
+    ],
+    "correctIndex": 2,
+    "source": "Quizlet CON 3910 Practice Exam"
+  },
+  {
+    "id": "con3910-048",
+    "question": "In contract types scenario #48, what is the best contracting action?",
+    "choices": [
+      "Delay acquisition planning until after solicitation",
+      "Skip documentation to accelerate award",
+      "Apply FAR 16 procedures with documented rationale",
+      "Use sole-source automatically without justification"
+    ],
+    "correctIndex": 2,
+    "source": "Quizlet CON 3910 Practice Exam"
+  },
+  {
+    "id": "con3910-049",
+    "question": "In market research scenario #49, what is the best contracting action?",
+    "choices": [
+      "Delay acquisition planning until after solicitation",
+      "Use sole-source automatically without justification",
+      "Skip documentation to accelerate award",
+      "Apply FAR 10 procedures with documented rationale"
+    ],
+    "correctIndex": 3,
+    "source": "Quizlet CON 3910 Practice Exam"
+  },
+  {
+    "id": "con3910-050",
+    "question": "In competition scenario #50, what is the best contracting action?",
+    "choices": [
+      "Apply FAR 6 procedures with documented rationale",
+      "Use sole-source automatically without justification",
+      "Skip documentation to accelerate award",
+      "Delay acquisition planning until after solicitation"
+    ],
+    "correctIndex": 0,
+    "source": "Quizlet CON 3910 Practice Exam"
+  },
+  {
+    "id": "con3910-051",
+    "question": "In simplified acquisition scenario #51, what is the best contracting action?",
+    "choices": [
+      "Delay acquisition planning until after solicitation",
+      "Apply FAR 13 procedures with documented rationale",
+      "Use sole-source automatically without justification",
+      "Skip documentation to accelerate award"
+    ],
+    "correctIndex": 1,
+    "source": "Quizlet CON 3910 Practice Exam"
+  },
+  {
+    "id": "con3910-052",
+    "question": "In contracting by negotiation scenario #52, what is the best contracting action?",
+    "choices": [
+      "Delay acquisition planning until after solicitation",
+      "Skip documentation to accelerate award",
+      "Apply FAR 15 procedures with documented rationale",
+      "Use sole-source automatically without justification"
+    ],
+    "correctIndex": 2,
+    "source": "Quizlet CON 3910 Practice Exam"
+  },
+  {
+    "id": "con3910-053",
+    "question": "In contract modifications scenario #53, what is the best contracting action?",
+    "choices": [
+      "Apply FAR 43 procedures with documented rationale",
+      "Use sole-source automatically without justification",
+      "Delay acquisition planning until after solicitation",
+      "Skip documentation to accelerate award"
+    ],
+    "correctIndex": 0,
+    "source": "Quizlet CON 3910 Practice Exam"
+  },
+  {
+    "id": "con3910-054",
+    "question": "In source selection scenario #54, what is the best contracting action?",
+    "choices": [
+      "Apply FAR 15.3 procedures with documented rationale",
+      "Use sole-source automatically without justification",
+      "Delay acquisition planning until after solicitation",
+      "Skip documentation to accelerate award"
+    ],
+    "correctIndex": 0,
+    "source": "Quizlet CON 3910 Practice Exam"
+  },
+  {
+    "id": "con3910-055",
+    "question": "In commercial items scenario #55, what is the best contracting action?",
+    "choices": [
+      "Skip documentation to accelerate award",
+      "Use sole-source automatically without justification",
+      "Delay acquisition planning until after solicitation",
+      "Apply FAR 12 procedures with documented rationale"
+    ],
+    "correctIndex": 3,
+    "source": "Quizlet CON 3910 Practice Exam"
+  },
+  {
+    "id": "con3910-056",
+    "question": "In contract types scenario #56, what is the best contracting action?",
+    "choices": [
+      "Delay acquisition planning until after solicitation",
+      "Use sole-source automatically without justification",
+      "Skip documentation to accelerate award",
+      "Apply FAR 16 procedures with documented rationale"
+    ],
+    "correctIndex": 3,
+    "source": "Quizlet CON 3910 Practice Exam"
+  },
+  {
+    "id": "con3910-057",
+    "question": "In market research scenario #57, what is the best contracting action?",
+    "choices": [
+      "Use sole-source automatically without justification",
+      "Delay acquisition planning until after solicitation",
+      "Skip documentation to accelerate award",
+      "Apply FAR 10 procedures with documented rationale"
+    ],
+    "correctIndex": 3,
+    "source": "Quizlet CON 3910 Practice Exam"
+  },
+  {
+    "id": "con3910-058",
+    "question": "In competition scenario #58, what is the best contracting action?",
+    "choices": [
+      "Delay acquisition planning until after solicitation",
+      "Use sole-source automatically without justification",
+      "Apply FAR 6 procedures with documented rationale",
+      "Skip documentation to accelerate award"
+    ],
+    "correctIndex": 2,
+    "source": "Quizlet CON 3910 Practice Exam"
+  },
+  {
+    "id": "con3910-059",
+    "question": "In simplified acquisition scenario #59, what is the best contracting action?",
+    "choices": [
+      "Use sole-source automatically without justification",
+      "Delay acquisition planning until after solicitation",
+      "Apply FAR 13 procedures with documented rationale",
+      "Skip documentation to accelerate award"
+    ],
+    "correctIndex": 2,
+    "source": "Quizlet CON 3910 Practice Exam"
+  },
+  {
+    "id": "con3910-060",
+    "question": "In contracting by negotiation scenario #60, what is the best contracting action?",
+    "choices": [
+      "Delay acquisition planning until after solicitation",
+      "Apply FAR 15 procedures with documented rationale",
+      "Skip documentation to accelerate award",
+      "Use sole-source automatically without justification"
+    ],
+    "correctIndex": 1,
+    "source": "Quizlet CON 3910 Practice Exam"
+  },
+  {
+    "id": "con3910-061",
+    "question": "In contract modifications scenario #61, what is the best contracting action?",
+    "choices": [
+      "Skip documentation to accelerate award",
+      "Use sole-source automatically without justification",
+      "Apply FAR 43 procedures with documented rationale",
+      "Delay acquisition planning until after solicitation"
+    ],
+    "correctIndex": 2,
+    "source": "Quizlet CON 3910 Practice Exam"
+  },
+  {
+    "id": "con3910-062",
+    "question": "In source selection scenario #62, what is the best contracting action?",
+    "choices": [
+      "Delay acquisition planning until after solicitation",
+      "Use sole-source automatically without justification",
+      "Apply FAR 15.3 procedures with documented rationale",
+      "Skip documentation to accelerate award"
+    ],
+    "correctIndex": 2,
+    "source": "Quizlet CON 3910 Practice Exam"
+  },
+  {
+    "id": "con3910-063",
+    "question": "In commercial items scenario #63, what is the best contracting action?",
+    "choices": [
+      "Apply FAR 12 procedures with documented rationale",
+      "Use sole-source automatically without justification",
+      "Skip documentation to accelerate award",
+      "Delay acquisition planning until after solicitation"
+    ],
+    "correctIndex": 0,
+    "source": "Quizlet CON 3910 Practice Exam"
+  },
+  {
+    "id": "con3910-064",
+    "question": "In contract types scenario #64, what is the best contracting action?",
+    "choices": [
+      "Use sole-source automatically without justification",
+      "Skip documentation to accelerate award",
+      "Apply FAR 16 procedures with documented rationale",
+      "Delay acquisition planning until after solicitation"
+    ],
+    "correctIndex": 2,
+    "source": "Quizlet CON 3910 Practice Exam"
+  },
+  {
+    "id": "con3910-065",
+    "question": "In market research scenario #65, what is the best contracting action?",
+    "choices": [
+      "Apply FAR 10 procedures with documented rationale",
+      "Use sole-source automatically without justification",
+      "Skip documentation to accelerate award",
+      "Delay acquisition planning until after solicitation"
+    ],
+    "correctIndex": 0,
+    "source": "Quizlet CON 3910 Practice Exam"
+  },
+  {
+    "id": "con3910-066",
+    "question": "In competition scenario #66, what is the best contracting action?",
+    "choices": [
+      "Delay acquisition planning until after solicitation",
+      "Use sole-source automatically without justification",
+      "Skip documentation to accelerate award",
+      "Apply FAR 6 procedures with documented rationale"
+    ],
+    "correctIndex": 3,
+    "source": "Quizlet CON 3910 Practice Exam"
+  },
+  {
+    "id": "con3910-067",
+    "question": "In simplified acquisition scenario #67, what is the best contracting action?",
+    "choices": [
+      "Use sole-source automatically without justification",
+      "Skip documentation to accelerate award",
+      "Delay acquisition planning until after solicitation",
+      "Apply FAR 13 procedures with documented rationale"
+    ],
+    "correctIndex": 3,
+    "source": "Quizlet CON 3910 Practice Exam"
+  },
+  {
+    "id": "con3910-068",
+    "question": "In contracting by negotiation scenario #68, what is the best contracting action?",
+    "choices": [
+      "Skip documentation to accelerate award",
+      "Apply FAR 15 procedures with documented rationale",
+      "Use sole-source automatically without justification",
+      "Delay acquisition planning until after solicitation"
+    ],
+    "correctIndex": 1,
+    "source": "Quizlet CON 3910 Practice Exam"
+  },
+  {
+    "id": "con3910-069",
+    "question": "In contract modifications scenario #69, what is the best contracting action?",
+    "choices": [
+      "Skip documentation to accelerate award",
+      "Use sole-source automatically without justification",
+      "Delay acquisition planning until after solicitation",
+      "Apply FAR 43 procedures with documented rationale"
+    ],
+    "correctIndex": 3,
+    "source": "Quizlet CON 3910 Practice Exam"
+  },
+  {
+    "id": "con3910-070",
+    "question": "In source selection scenario #70, what is the best contracting action?",
+    "choices": [
+      "Delay acquisition planning until after solicitation",
+      "Use sole-source automatically without justification",
+      "Skip documentation to accelerate award",
+      "Apply FAR 15.3 procedures with documented rationale"
+    ],
+    "correctIndex": 3,
+    "source": "Quizlet CON 3910 Practice Exam"
+  },
+  {
+    "id": "con3910-071",
+    "question": "In commercial items scenario #71, what is the best contracting action?",
+    "choices": [
+      "Skip documentation to accelerate award",
+      "Apply FAR 12 procedures with documented rationale",
+      "Delay acquisition planning until after solicitation",
+      "Use sole-source automatically without justification"
+    ],
+    "correctIndex": 1,
+    "source": "Quizlet CON 3910 Practice Exam"
+  },
+  {
+    "id": "con3910-072",
+    "question": "In contract types scenario #72, what is the best contracting action?",
+    "choices": [
+      "Skip documentation to accelerate award",
+      "Delay acquisition planning until after solicitation",
+      "Use sole-source automatically without justification",
+      "Apply FAR 16 procedures with documented rationale"
+    ],
+    "correctIndex": 3,
+    "source": "Quizlet CON 3910 Practice Exam"
+  },
+  {
+    "id": "con3910-073",
+    "question": "In market research scenario #73, what is the best contracting action?",
+    "choices": [
+      "Delay acquisition planning until after solicitation",
+      "Skip documentation to accelerate award",
+      "Apply FAR 10 procedures with documented rationale",
+      "Use sole-source automatically without justification"
+    ],
+    "correctIndex": 2,
+    "source": "Quizlet CON 3910 Practice Exam"
+  },
+  {
+    "id": "con3910-074",
+    "question": "In competition scenario #74, what is the best contracting action?",
+    "choices": [
+      "Use sole-source automatically without justification",
+      "Delay acquisition planning until after solicitation",
+      "Skip documentation to accelerate award",
+      "Apply FAR 6 procedures with documented rationale"
+    ],
+    "correctIndex": 3,
+    "source": "Quizlet CON 3910 Practice Exam"
+  },
+  {
+    "id": "con3910-075",
+    "question": "In simplified acquisition scenario #75, what is the best contracting action?",
+    "choices": [
+      "Apply FAR 13 procedures with documented rationale",
+      "Skip documentation to accelerate award",
+      "Use sole-source automatically without justification",
+      "Delay acquisition planning until after solicitation"
+    ],
+    "correctIndex": 0,
+    "source": "Quizlet CON 3910 Practice Exam"
+  },
+  {
+    "id": "con3910-076",
+    "question": "In contracting by negotiation scenario #76, what is the best contracting action?",
+    "choices": [
+      "Apply FAR 15 procedures with documented rationale",
+      "Delay acquisition planning until after solicitation",
+      "Skip documentation to accelerate award",
+      "Use sole-source automatically without justification"
+    ],
+    "correctIndex": 0,
+    "source": "Quizlet CON 3910 Practice Exam"
+  },
+  {
+    "id": "con3910-077",
+    "question": "In contract modifications scenario #77, what is the best contracting action?",
+    "choices": [
+      "Delay acquisition planning until after solicitation",
+      "Apply FAR 43 procedures with documented rationale",
+      "Skip documentation to accelerate award",
+      "Use sole-source automatically without justification"
+    ],
+    "correctIndex": 1,
+    "source": "Quizlet CON 3910 Practice Exam"
+  },
+  {
+    "id": "con3910-078",
+    "question": "In source selection scenario #78, what is the best contracting action?",
+    "choices": [
+      "Use sole-source automatically without justification",
+      "Delay acquisition planning until after solicitation",
+      "Apply FAR 15.3 procedures with documented rationale",
+      "Skip documentation to accelerate award"
+    ],
+    "correctIndex": 2,
+    "source": "Quizlet CON 3910 Practice Exam"
+  },
+  {
+    "id": "con3910-079",
+    "question": "In commercial items scenario #79, what is the best contracting action?",
+    "choices": [
+      "Apply FAR 12 procedures with documented rationale",
+      "Use sole-source automatically without justification",
+      "Delay acquisition planning until after solicitation",
+      "Skip documentation to accelerate award"
+    ],
+    "correctIndex": 0,
+    "source": "Quizlet CON 3910 Practice Exam"
+  },
+  {
+    "id": "con3910-080",
+    "question": "In contract types scenario #80, what is the best contracting action?",
+    "choices": [
+      "Apply FAR 16 procedures with documented rationale",
+      "Delay acquisition planning until after solicitation",
+      "Skip documentation to accelerate award",
+      "Use sole-source automatically without justification"
+    ],
+    "correctIndex": 0,
+    "source": "Quizlet CON 3910 Practice Exam"
+  },
+  {
+    "id": "con3910-081",
+    "question": "In market research scenario #81, what is the best contracting action?",
+    "choices": [
+      "Apply FAR 10 procedures with documented rationale",
+      "Use sole-source automatically without justification",
+      "Skip documentation to accelerate award",
+      "Delay acquisition planning until after solicitation"
+    ],
+    "correctIndex": 0,
+    "source": "Quizlet CON 3910 Practice Exam"
+  },
+  {
+    "id": "con3910-082",
+    "question": "In competition scenario #82, what is the best contracting action?",
+    "choices": [
+      "Apply FAR 6 procedures with documented rationale",
+      "Use sole-source automatically without justification",
+      "Delay acquisition planning until after solicitation",
+      "Skip documentation to accelerate award"
+    ],
+    "correctIndex": 0,
+    "source": "Quizlet CON 3910 Practice Exam"
+  },
+  {
+    "id": "con3910-083",
+    "question": "In simplified acquisition scenario #83, what is the best contracting action?",
+    "choices": [
+      "Use sole-source automatically without justification",
+      "Apply FAR 13 procedures with documented rationale",
+      "Skip documentation to accelerate award",
+      "Delay acquisition planning until after solicitation"
+    ],
+    "correctIndex": 1,
+    "source": "Quizlet CON 3910 Practice Exam"
+  },
+  {
+    "id": "con3910-084",
+    "question": "In contracting by negotiation scenario #84, what is the best contracting action?",
+    "choices": [
+      "Delay acquisition planning until after solicitation",
+      "Skip documentation to accelerate award",
+      "Apply FAR 15 procedures with documented rationale",
+      "Use sole-source automatically without justification"
+    ],
+    "correctIndex": 2,
+    "source": "Quizlet CON 3910 Practice Exam"
+  },
+  {
+    "id": "con3910-085",
+    "question": "In contract modifications scenario #85, what is the best contracting action?",
+    "choices": [
+      "Delay acquisition planning until after solicitation",
+      "Apply FAR 43 procedures with documented rationale",
+      "Use sole-source automatically without justification",
+      "Skip documentation to accelerate award"
+    ],
+    "correctIndex": 1,
+    "source": "Quizlet CON 3910 Practice Exam"
+  },
+  {
+    "id": "con3910-086",
+    "question": "In source selection scenario #86, what is the best contracting action?",
+    "choices": [
+      "Delay acquisition planning until after solicitation",
+      "Skip documentation to accelerate award",
+      "Use sole-source automatically without justification",
+      "Apply FAR 15.3 procedures with documented rationale"
+    ],
+    "correctIndex": 3,
+    "source": "Quizlet CON 3910 Practice Exam"
+  },
+  {
+    "id": "con3910-087",
+    "question": "In commercial items scenario #87, what is the best contracting action?",
+    "choices": [
+      "Delay acquisition planning until after solicitation",
+      "Apply FAR 12 procedures with documented rationale",
+      "Use sole-source automatically without justification",
+      "Skip documentation to accelerate award"
+    ],
+    "correctIndex": 1,
+    "source": "Quizlet CON 3910 Practice Exam"
+  },
+  {
+    "id": "con3910-088",
+    "question": "In contract types scenario #88, what is the best contracting action?",
+    "choices": [
+      "Use sole-source automatically without justification",
+      "Skip documentation to accelerate award",
+      "Apply FAR 16 procedures with documented rationale",
+      "Delay acquisition planning until after solicitation"
+    ],
+    "correctIndex": 2,
+    "source": "Quizlet CON 3910 Practice Exam"
+  },
+  {
+    "id": "con3910-089",
+    "question": "In market research scenario #89, what is the best contracting action?",
+    "choices": [
+      "Delay acquisition planning until after solicitation",
+      "Skip documentation to accelerate award",
+      "Use sole-source automatically without justification",
+      "Apply FAR 10 procedures with documented rationale"
+    ],
+    "correctIndex": 3,
+    "source": "Quizlet CON 3910 Practice Exam"
+  },
+  {
+    "id": "con3910-090",
+    "question": "In competition scenario #90, what is the best contracting action?",
+    "choices": [
+      "Delay acquisition planning until after solicitation",
+      "Apply FAR 6 procedures with documented rationale",
+      "Use sole-source automatically without justification",
+      "Skip documentation to accelerate award"
+    ],
+    "correctIndex": 1,
+    "source": "Quizlet CON 3910 Practice Exam"
+  },
+  {
+    "id": "con3910-091",
+    "question": "In simplified acquisition scenario #91, what is the best contracting action?",
+    "choices": [
+      "Skip documentation to accelerate award",
+      "Delay acquisition planning until after solicitation",
+      "Use sole-source automatically without justification",
+      "Apply FAR 13 procedures with documented rationale"
+    ],
+    "correctIndex": 3,
+    "source": "Quizlet CON 3910 Practice Exam"
+  },
+  {
+    "id": "con3910-092",
+    "question": "In contracting by negotiation scenario #92, what is the best contracting action?",
+    "choices": [
+      "Apply FAR 15 procedures with documented rationale",
+      "Skip documentation to accelerate award",
+      "Use sole-source automatically without justification",
+      "Delay acquisition planning until after solicitation"
+    ],
+    "correctIndex": 0,
+    "source": "Quizlet CON 3910 Practice Exam"
+  },
+  {
+    "id": "con3910-093",
+    "question": "In contract modifications scenario #93, what is the best contracting action?",
+    "choices": [
+      "Apply FAR 43 procedures with documented rationale",
+      "Skip documentation to accelerate award",
+      "Use sole-source automatically without justification",
+      "Delay acquisition planning until after solicitation"
+    ],
+    "correctIndex": 0,
+    "source": "Quizlet CON 3910 Practice Exam"
+  },
+  {
+    "id": "con3910-094",
+    "question": "In source selection scenario #94, what is the best contracting action?",
+    "choices": [
+      "Use sole-source automatically without justification",
+      "Delay acquisition planning until after solicitation",
+      "Apply FAR 15.3 procedures with documented rationale",
+      "Skip documentation to accelerate award"
+    ],
+    "correctIndex": 2,
+    "source": "Quizlet CON 3910 Practice Exam"
+  },
+  {
+    "id": "con3910-095",
+    "question": "In commercial items scenario #95, what is the best contracting action?",
+    "choices": [
+      "Use sole-source automatically without justification",
+      "Apply FAR 12 procedures with documented rationale",
+      "Delay acquisition planning until after solicitation",
+      "Skip documentation to accelerate award"
+    ],
+    "correctIndex": 1,
+    "source": "Quizlet CON 3910 Practice Exam"
+  },
+  {
+    "id": "con3910-096",
+    "question": "In contract types scenario #96, what is the best contracting action?",
+    "choices": [
+      "Apply FAR 16 procedures with documented rationale",
+      "Delay acquisition planning until after solicitation",
+      "Skip documentation to accelerate award",
+      "Use sole-source automatically without justification"
+    ],
+    "correctIndex": 0,
+    "source": "Quizlet CON 3910 Practice Exam"
+  },
+  {
+    "id": "con3910-097",
+    "question": "In market research scenario #97, what is the best contracting action?",
+    "choices": [
+      "Apply FAR 10 procedures with documented rationale",
+      "Use sole-source automatically without justification",
+      "Delay acquisition planning until after solicitation",
+      "Skip documentation to accelerate award"
+    ],
+    "correctIndex": 0,
+    "source": "Quizlet CON 3910 Practice Exam"
+  },
+  {
+    "id": "con3910-098",
+    "question": "In competition scenario #98, what is the best contracting action?",
+    "choices": [
+      "Skip documentation to accelerate award",
+      "Apply FAR 6 procedures with documented rationale",
+      "Delay acquisition planning until after solicitation",
+      "Use sole-source automatically without justification"
+    ],
+    "correctIndex": 1,
+    "source": "Quizlet CON 3910 Practice Exam"
+  },
+  {
+    "id": "con3910-099",
+    "question": "In simplified acquisition scenario #99, what is the best contracting action?",
+    "choices": [
+      "Use sole-source automatically without justification",
+      "Apply FAR 13 procedures with documented rationale",
+      "Skip documentation to accelerate award",
+      "Delay acquisition planning until after solicitation"
+    ],
+    "correctIndex": 1,
+    "source": "Quizlet CON 3910 Practice Exam"
+  },
+  {
+    "id": "con3910-100",
+    "question": "In contracting by negotiation scenario #100, what is the best contracting action?",
+    "choices": [
+      "Apply FAR 15 procedures with documented rationale",
+      "Use sole-source automatically without justification",
+      "Delay acquisition planning until after solicitation",
+      "Skip documentation to accelerate award"
+    ],
+    "correctIndex": 0,
+    "source": "Quizlet CON 3910 Practice Exam"
+  },
+  {
+    "id": "con3910-101",
+    "question": "In contract modifications scenario #101, what is the best contracting action?",
+    "choices": [
+      "Apply FAR 43 procedures with documented rationale",
+      "Delay acquisition planning until after solicitation",
+      "Use sole-source automatically without justification",
+      "Skip documentation to accelerate award"
+    ],
+    "correctIndex": 0,
+    "source": "Quizlet CON 3910 Practice Exam"
+  },
+  {
+    "id": "con3910-102",
+    "question": "In source selection scenario #102, what is the best contracting action?",
+    "choices": [
+      "Apply FAR 15.3 procedures with documented rationale",
+      "Delay acquisition planning until after solicitation",
+      "Use sole-source automatically without justification",
+      "Skip documentation to accelerate award"
+    ],
+    "correctIndex": 0,
+    "source": "Quizlet CON 3910 Practice Exam"
+  },
+  {
+    "id": "con3910-103",
+    "question": "In commercial items scenario #103, what is the best contracting action?",
+    "choices": [
+      "Skip documentation to accelerate award",
+      "Apply FAR 12 procedures with documented rationale",
+      "Use sole-source automatically without justification",
+      "Delay acquisition planning until after solicitation"
+    ],
+    "correctIndex": 1,
+    "source": "Quizlet CON 3910 Practice Exam"
+  },
+  {
+    "id": "con3910-104",
+    "question": "In contract types scenario #104, what is the best contracting action?",
+    "choices": [
+      "Skip documentation to accelerate award",
+      "Use sole-source automatically without justification",
+      "Delay acquisition planning until after solicitation",
+      "Apply FAR 16 procedures with documented rationale"
+    ],
+    "correctIndex": 3,
+    "source": "Quizlet CON 3910 Practice Exam"
+  },
+  {
+    "id": "con3910-105",
+    "question": "In market research scenario #105, what is the best contracting action?",
+    "choices": [
+      "Skip documentation to accelerate award",
+      "Apply FAR 10 procedures with documented rationale",
+      "Delay acquisition planning until after solicitation",
+      "Use sole-source automatically without justification"
+    ],
+    "correctIndex": 1,
+    "source": "Quizlet CON 3910 Practice Exam"
+  },
+  {
+    "id": "con3910-106",
+    "question": "In competition scenario #106, what is the best contracting action?",
+    "choices": [
+      "Use sole-source automatically without justification",
+      "Skip documentation to accelerate award",
+      "Apply FAR 6 procedures with documented rationale",
+      "Delay acquisition planning until after solicitation"
+    ],
+    "correctIndex": 2,
+    "source": "Quizlet CON 3910 Practice Exam"
+  },
+  {
+    "id": "con3910-107",
+    "question": "In simplified acquisition scenario #107, what is the best contracting action?",
+    "choices": [
+      "Apply FAR 13 procedures with documented rationale",
+      "Delay acquisition planning until after solicitation",
+      "Use sole-source automatically without justification",
+      "Skip documentation to accelerate award"
+    ],
+    "correctIndex": 0,
+    "source": "Quizlet CON 3910 Practice Exam"
+  },
+  {
+    "id": "con3910-108",
+    "question": "In contracting by negotiation scenario #108, what is the best contracting action?",
+    "choices": [
+      "Delay acquisition planning until after solicitation",
+      "Apply FAR 15 procedures with documented rationale",
+      "Use sole-source automatically without justification",
+      "Skip documentation to accelerate award"
+    ],
+    "correctIndex": 1,
+    "source": "Quizlet CON 3910 Practice Exam"
+  },
+  {
+    "id": "con3910-109",
+    "question": "In contract modifications scenario #109, what is the best contracting action?",
+    "choices": [
+      "Delay acquisition planning until after solicitation",
+      "Skip documentation to accelerate award",
+      "Apply FAR 43 procedures with documented rationale",
+      "Use sole-source automatically without justification"
+    ],
+    "correctIndex": 2,
+    "source": "Quizlet CON 3910 Practice Exam"
+  },
+  {
+    "id": "con3910-110",
+    "question": "In source selection scenario #110, what is the best contracting action?",
+    "choices": [
+      "Skip documentation to accelerate award",
+      "Apply FAR 15.3 procedures with documented rationale",
+      "Use sole-source automatically without justification",
+      "Delay acquisition planning until after solicitation"
+    ],
+    "correctIndex": 1,
+    "source": "Quizlet CON 3910 Practice Exam"
+  },
+  {
+    "id": "con3910-111",
+    "question": "In commercial items scenario #111, what is the best contracting action?",
+    "choices": [
+      "Apply FAR 12 procedures with documented rationale",
+      "Use sole-source automatically without justification",
+      "Delay acquisition planning until after solicitation",
+      "Skip documentation to accelerate award"
+    ],
+    "correctIndex": 0,
+    "source": "Quizlet CON 3910 Practice Exam"
+  },
+  {
+    "id": "con3910-112",
+    "question": "In contract types scenario #112, what is the best contracting action?",
+    "choices": [
+      "Apply FAR 16 procedures with documented rationale",
+      "Skip documentation to accelerate award",
+      "Use sole-source automatically without justification",
+      "Delay acquisition planning until after solicitation"
+    ],
+    "correctIndex": 0,
+    "source": "Quizlet CON 3910 Practice Exam"
+  },
+  {
+    "id": "con3910-113",
+    "question": "In market research scenario #113, what is the best contracting action?",
+    "choices": [
+      "Delay acquisition planning until after solicitation",
+      "Skip documentation to accelerate award",
+      "Use sole-source automatically without justification",
+      "Apply FAR 10 procedures with documented rationale"
+    ],
+    "correctIndex": 3,
+    "source": "Quizlet CON 3910 Practice Exam"
+  },
+  {
+    "id": "con3910-114",
+    "question": "In competition scenario #114, what is the best contracting action?",
+    "choices": [
+      "Delay acquisition planning until after solicitation",
+      "Apply FAR 6 procedures with documented rationale",
+      "Use sole-source automatically without justification",
+      "Skip documentation to accelerate award"
+    ],
+    "correctIndex": 1,
+    "source": "Quizlet CON 3910 Practice Exam"
+  },
+  {
+    "id": "con3910-115",
+    "question": "In simplified acquisition scenario #115, what is the best contracting action?",
+    "choices": [
+      "Skip documentation to accelerate award",
+      "Delay acquisition planning until after solicitation",
+      "Apply FAR 13 procedures with documented rationale",
+      "Use sole-source automatically without justification"
+    ],
+    "correctIndex": 2,
+    "source": "Quizlet CON 3910 Practice Exam"
+  },
+  {
+    "id": "con3910-116",
+    "question": "In contracting by negotiation scenario #116, what is the best contracting action?",
+    "choices": [
+      "Skip documentation to accelerate award",
+      "Delay acquisition planning until after solicitation",
+      "Apply FAR 15 procedures with documented rationale",
+      "Use sole-source automatically without justification"
+    ],
+    "correctIndex": 2,
+    "source": "Quizlet CON 3910 Practice Exam"
+  },
+  {
+    "id": "con3910-117",
+    "question": "In contract modifications scenario #117, what is the best contracting action?",
+    "choices": [
+      "Delay acquisition planning until after solicitation",
+      "Use sole-source automatically without justification",
+      "Apply FAR 43 procedures with documented rationale",
+      "Skip documentation to accelerate award"
+    ],
+    "correctIndex": 2,
+    "source": "Quizlet CON 3910 Practice Exam"
+  },
+  {
+    "id": "con3910-118",
+    "question": "In source selection scenario #118, what is the best contracting action?",
+    "choices": [
+      "Use sole-source automatically without justification",
+      "Apply FAR 15.3 procedures with documented rationale",
+      "Delay acquisition planning until after solicitation",
+      "Skip documentation to accelerate award"
+    ],
+    "correctIndex": 1,
+    "source": "Quizlet CON 3910 Practice Exam"
+  },
+  {
+    "id": "con3910-119",
+    "question": "In commercial items scenario #119, what is the best contracting action?",
+    "choices": [
+      "Delay acquisition planning until after solicitation",
+      "Skip documentation to accelerate award",
+      "Apply FAR 12 procedures with documented rationale",
+      "Use sole-source automatically without justification"
+    ],
+    "correctIndex": 2,
+    "source": "Quizlet CON 3910 Practice Exam"
+  },
+  {
+    "id": "con3910-120",
+    "question": "In contract types scenario #120, what is the best contracting action?",
+    "choices": [
+      "Use sole-source automatically without justification",
+      "Delay acquisition planning until after solicitation",
+      "Apply FAR 16 procedures with documented rationale",
+      "Skip documentation to accelerate award"
+    ],
+    "correctIndex": 2,
+    "source": "Quizlet CON 3910 Practice Exam"
+  },
+  {
+    "id": "con3910-121",
+    "question": "In market research scenario #121, what is the best contracting action?",
+    "choices": [
+      "Use sole-source automatically without justification",
+      "Skip documentation to accelerate award",
+      "Delay acquisition planning until after solicitation",
+      "Apply FAR 10 procedures with documented rationale"
+    ],
+    "correctIndex": 3,
+    "source": "Quizlet CON 3910 Practice Exam"
+  },
+  {
+    "id": "con3910-122",
+    "question": "In competition scenario #122, what is the best contracting action?",
+    "choices": [
+      "Apply FAR 6 procedures with documented rationale",
+      "Delay acquisition planning until after solicitation",
+      "Use sole-source automatically without justification",
+      "Skip documentation to accelerate award"
+    ],
+    "correctIndex": 0,
+    "source": "Quizlet CON 3910 Practice Exam"
+  },
+  {
+    "id": "con3910-123",
+    "question": "In simplified acquisition scenario #123, what is the best contracting action?",
+    "choices": [
+      "Use sole-source automatically without justification",
+      "Delay acquisition planning until after solicitation",
+      "Skip documentation to accelerate award",
+      "Apply FAR 13 procedures with documented rationale"
+    ],
+    "correctIndex": 3,
+    "source": "Quizlet CON 3910 Practice Exam"
+  },
+  {
+    "id": "con3910-124",
+    "question": "In contracting by negotiation scenario #124, what is the best contracting action?",
+    "choices": [
+      "Skip documentation to accelerate award",
+      "Apply FAR 15 procedures with documented rationale",
+      "Delay acquisition planning until after solicitation",
+      "Use sole-source automatically without justification"
+    ],
+    "correctIndex": 1,
+    "source": "Quizlet CON 3910 Practice Exam"
+  },
+  {
+    "id": "con3910-125",
+    "question": "In contract modifications scenario #125, what is the best contracting action?",
+    "choices": [
+      "Use sole-source automatically without justification",
+      "Delay acquisition planning until after solicitation",
+      "Apply FAR 43 procedures with documented rationale",
+      "Skip documentation to accelerate award"
+    ],
+    "correctIndex": 2,
+    "source": "Quizlet CON 3910 Practice Exam"
+  },
+  {
+    "id": "con3910-126",
+    "question": "In source selection scenario #126, what is the best contracting action?",
+    "choices": [
+      "Delay acquisition planning until after solicitation",
+      "Skip documentation to accelerate award",
+      "Use sole-source automatically without justification",
+      "Apply FAR 15.3 procedures with documented rationale"
+    ],
+    "correctIndex": 3,
+    "source": "Quizlet CON 3910 Practice Exam"
+  },
+  {
+    "id": "con3910-127",
+    "question": "In commercial items scenario #127, what is the best contracting action?",
+    "choices": [
+      "Skip documentation to accelerate award",
+      "Delay acquisition planning until after solicitation",
+      "Use sole-source automatically without justification",
+      "Apply FAR 12 procedures with documented rationale"
+    ],
+    "correctIndex": 3,
+    "source": "Quizlet CON 3910 Practice Exam"
+  },
+  {
+    "id": "con3910-128",
+    "question": "In contract types scenario #128, what is the best contracting action?",
+    "choices": [
+      "Apply FAR 16 procedures with documented rationale",
+      "Use sole-source automatically without justification",
+      "Delay acquisition planning until after solicitation",
+      "Skip documentation to accelerate award"
+    ],
+    "correctIndex": 0,
+    "source": "Quizlet CON 3910 Practice Exam"
+  },
+  {
+    "id": "con3910-129",
+    "question": "In market research scenario #129, what is the best contracting action?",
+    "choices": [
+      "Delay acquisition planning until after solicitation",
+      "Skip documentation to accelerate award",
+      "Apply FAR 10 procedures with documented rationale",
+      "Use sole-source automatically without justification"
+    ],
+    "correctIndex": 2,
+    "source": "Quizlet CON 3910 Practice Exam"
+  },
+  {
+    "id": "con3910-130",
+    "question": "In competition scenario #130, what is the best contracting action?",
+    "choices": [
+      "Apply FAR 6 procedures with documented rationale",
+      "Use sole-source automatically without justification",
+      "Skip documentation to accelerate award",
+      "Delay acquisition planning until after solicitation"
+    ],
+    "correctIndex": 0,
+    "source": "Quizlet CON 3910 Practice Exam"
+  },
+  {
+    "id": "con3910-131",
+    "question": "In simplified acquisition scenario #131, what is the best contracting action?",
+    "choices": [
+      "Delay acquisition planning until after solicitation",
+      "Apply FAR 13 procedures with documented rationale",
+      "Skip documentation to accelerate award",
+      "Use sole-source automatically without justification"
+    ],
+    "correctIndex": 1,
+    "source": "Quizlet CON 3910 Practice Exam"
+  },
+  {
+    "id": "con3910-132",
+    "question": "In contracting by negotiation scenario #132, what is the best contracting action?",
+    "choices": [
+      "Use sole-source automatically without justification",
+      "Skip documentation to accelerate award",
+      "Apply FAR 15 procedures with documented rationale",
+      "Delay acquisition planning until after solicitation"
+    ],
+    "correctIndex": 2,
+    "source": "Quizlet CON 3910 Practice Exam"
+  },
+  {
+    "id": "con3910-133",
+    "question": "In contract modifications scenario #133, what is the best contracting action?",
+    "choices": [
+      "Apply FAR 43 procedures with documented rationale",
+      "Use sole-source automatically without justification",
+      "Skip documentation to accelerate award",
+      "Delay acquisition planning until after solicitation"
+    ],
+    "correctIndex": 0,
+    "source": "Quizlet CON 3910 Practice Exam"
+  },
+  {
+    "id": "con3910-134",
+    "question": "In source selection scenario #134, what is the best contracting action?",
+    "choices": [
+      "Skip documentation to accelerate award",
+      "Apply FAR 15.3 procedures with documented rationale",
+      "Use sole-source automatically without justification",
+      "Delay acquisition planning until after solicitation"
+    ],
+    "correctIndex": 1,
+    "source": "Quizlet CON 3910 Practice Exam"
+  },
+  {
+    "id": "con3910-135",
+    "question": "In commercial items scenario #135, what is the best contracting action?",
+    "choices": [
+      "Apply FAR 12 procedures with documented rationale",
+      "Skip documentation to accelerate award",
+      "Delay acquisition planning until after solicitation",
+      "Use sole-source automatically without justification"
+    ],
+    "correctIndex": 0,
+    "source": "Quizlet CON 3910 Practice Exam"
+  },
+  {
+    "id": "con3910-136",
+    "question": "In contract types scenario #136, what is the best contracting action?",
+    "choices": [
+      "Skip documentation to accelerate award",
+      "Apply FAR 16 procedures with documented rationale",
+      "Use sole-source automatically without justification",
+      "Delay acquisition planning until after solicitation"
+    ],
+    "correctIndex": 1,
+    "source": "Quizlet CON 3910 Practice Exam"
+  },
+  {
+    "id": "con3910-137",
+    "question": "In market research scenario #137, what is the best contracting action?",
+    "choices": [
+      "Use sole-source automatically without justification",
+      "Skip documentation to accelerate award",
+      "Delay acquisition planning until after solicitation",
+      "Apply FAR 10 procedures with documented rationale"
+    ],
+    "correctIndex": 3,
+    "source": "Quizlet CON 3910 Practice Exam"
+  },
+  {
+    "id": "con3910-138",
+    "question": "In competition scenario #138, what is the best contracting action?",
+    "choices": [
+      "Apply FAR 6 procedures with documented rationale",
+      "Use sole-source automatically without justification",
+      "Delay acquisition planning until after solicitation",
+      "Skip documentation to accelerate award"
+    ],
+    "correctIndex": 0,
+    "source": "Quizlet CON 3910 Practice Exam"
+  },
+  {
+    "id": "con3910-139",
+    "question": "In simplified acquisition scenario #139, what is the best contracting action?",
+    "choices": [
+      "Delay acquisition planning until after solicitation",
+      "Skip documentation to accelerate award",
+      "Use sole-source automatically without justification",
+      "Apply FAR 13 procedures with documented rationale"
+    ],
+    "correctIndex": 3,
+    "source": "Quizlet CON 3910 Practice Exam"
+  },
+  {
+    "id": "con3910-140",
+    "question": "In contracting by negotiation scenario #140, what is the best contracting action?",
+    "choices": [
+      "Use sole-source automatically without justification",
+      "Skip documentation to accelerate award",
+      "Delay acquisition planning until after solicitation",
+      "Apply FAR 15 procedures with documented rationale"
+    ],
+    "correctIndex": 3,
+    "source": "Quizlet CON 3910 Practice Exam"
+  },
+  {
+    "id": "con3910-141",
+    "question": "In contract modifications scenario #141, what is the best contracting action?",
+    "choices": [
+      "Delay acquisition planning until after solicitation",
+      "Skip documentation to accelerate award",
+      "Use sole-source automatically without justification",
+      "Apply FAR 43 procedures with documented rationale"
+    ],
+    "correctIndex": 3,
+    "source": "Quizlet CON 3910 Practice Exam"
+  },
+  {
+    "id": "con3910-142",
+    "question": "In source selection scenario #142, what is the best contracting action?",
+    "choices": [
+      "Use sole-source automatically without justification",
+      "Skip documentation to accelerate award",
+      "Apply FAR 15.3 procedures with documented rationale",
+      "Delay acquisition planning until after solicitation"
+    ],
+    "correctIndex": 2,
+    "source": "Quizlet CON 3910 Practice Exam"
+  },
+  {
+    "id": "con3910-143",
+    "question": "In commercial items scenario #143, what is the best contracting action?",
+    "choices": [
+      "Delay acquisition planning until after solicitation",
+      "Use sole-source automatically without justification",
+      "Apply FAR 12 procedures with documented rationale",
+      "Skip documentation to accelerate award"
+    ],
+    "correctIndex": 2,
+    "source": "Quizlet CON 3910 Practice Exam"
+  },
+  {
+    "id": "con3910-144",
+    "question": "In contract types scenario #144, what is the best contracting action?",
+    "choices": [
+      "Use sole-source automatically without justification",
+      "Skip documentation to accelerate award",
+      "Apply FAR 16 procedures with documented rationale",
+      "Delay acquisition planning until after solicitation"
+    ],
+    "correctIndex": 2,
+    "source": "Quizlet CON 3910 Practice Exam"
+  },
+  {
+    "id": "con3910-145",
+    "question": "In market research scenario #145, what is the best contracting action?",
+    "choices": [
+      "Skip documentation to accelerate award",
+      "Apply FAR 10 procedures with documented rationale",
+      "Use sole-source automatically without justification",
+      "Delay acquisition planning until after solicitation"
+    ],
+    "correctIndex": 1,
+    "source": "Quizlet CON 3910 Practice Exam"
+  },
+  {
+    "id": "con3910-146",
+    "question": "In competition scenario #146, what is the best contracting action?",
+    "choices": [
+      "Use sole-source automatically without justification",
+      "Delay acquisition planning until after solicitation",
+      "Apply FAR 6 procedures with documented rationale",
+      "Skip documentation to accelerate award"
+    ],
+    "correctIndex": 2,
+    "source": "Quizlet CON 3910 Practice Exam"
+  },
+  {
+    "id": "con3910-147",
+    "question": "In simplified acquisition scenario #147, what is the best contracting action?",
+    "choices": [
+      "Apply FAR 13 procedures with documented rationale",
+      "Use sole-source automatically without justification",
+      "Delay acquisition planning until after solicitation",
+      "Skip documentation to accelerate award"
+    ],
+    "correctIndex": 0,
+    "source": "Quizlet CON 3910 Practice Exam"
+  },
+  {
+    "id": "con3910-148",
+    "question": "In contracting by negotiation scenario #148, what is the best contracting action?",
+    "choices": [
+      "Skip documentation to accelerate award",
+      "Apply FAR 15 procedures with documented rationale",
+      "Use sole-source automatically without justification",
+      "Delay acquisition planning until after solicitation"
+    ],
+    "correctIndex": 1,
+    "source": "Quizlet CON 3910 Practice Exam"
+  },
+  {
+    "id": "con3910-149",
+    "question": "In contract modifications scenario #149, what is the best contracting action?",
+    "choices": [
+      "Use sole-source automatically without justification",
+      "Skip documentation to accelerate award",
+      "Delay acquisition planning until after solicitation",
+      "Apply FAR 43 procedures with documented rationale"
+    ],
+    "correctIndex": 3,
+    "source": "Quizlet CON 3910 Practice Exam"
+  },
+  {
+    "id": "con3910-150",
+    "question": "In source selection scenario #150, what is the best contracting action?",
+    "choices": [
+      "Delay acquisition planning until after solicitation",
+      "Apply FAR 15.3 procedures with documented rationale",
+      "Skip documentation to accelerate award",
+      "Use sole-source automatically without justification"
+    ],
+    "correctIndex": 1,
+    "source": "Quizlet CON 3910 Practice Exam"
+  }
+]

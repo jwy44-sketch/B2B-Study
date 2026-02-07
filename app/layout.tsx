@@ -15,7 +15,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <header className="sticky top-0 z-40 border-b border-slate-800 bg-slate-950/90 backdrop-blur">
           <nav className="mx-auto flex max-w-6xl gap-3 overflow-auto p-3 text-sm">
             {links.map((href) => (
-              <Link key={href} href={href} className="rounded px-2 py-1 hover:bg-slate-800">
+              <Link key={href} href={{ pathname: href }} className="rounded px-2 py-1 hover:bg-slate-800">
                 {href === '/' ? 'home' : href.slice(1)}
               </Link>
             ))}

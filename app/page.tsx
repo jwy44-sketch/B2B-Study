@@ -16,7 +16,7 @@ export default function HomePage() {
       <p className="text-slate-300">No-login USAF contracting study companion.</p>
       <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
         {cards.map((card) => (
-          <Link key={card.href} href={card.href} className="card transition hover:scale-[1.01] hover:border-brand">
+          <Link key={card.href} href={{ pathname: card.href }} className="card transition hover:scale-[1.01] hover:border-brand">
             <h2 className="text-xl font-semibold">{card.title}</h2>
             <p className="text-slate-300">{card.desc}</p>
           </Link>
