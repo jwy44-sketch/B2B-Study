@@ -2,6 +2,7 @@
 
 import { AnimatePresence, motion, useReducedMotion } from 'framer-motion';
 import { useEffect, useMemo, useState } from 'react';
+import { getFarReference } from '@/lib/farReferences';
 import { loadQuestions } from '@/lib/questions';
 import { presentQuestion } from '@/lib/presentQuestion';
 import type { Question } from '@/lib/types';
@@ -36,6 +37,8 @@ export default function LearnClient() {
   }, []);
 
   const presented = useMemo(() => (queue[index] ? presentQuestion(queue[index], { shuffleChoices: true }) : null), [queue, index]);
+
+  const farReference = useMemo(() => (presented ? getFarReference(presented.question) : null), [presented]);
 
   const optionStateFor = (choiceIndex: number): OptionVisualState => {
     if (!isSubmitted || !presented) return 'default';
@@ -118,9 +121,13 @@ export default function LearnClient() {
     return () => window.removeEventListener('keydown', onKey);
   });
 
-  if (mode === 'LOADING' || !presented) return <div>Loading...</div>;
+  if (mode === 'LOADING' || !presented || !farReference) return <div>Loading...</div>;
 
   const correctAnswerText = presented.presentedChoices[presented.presentedCorrectIndex];
+  const selectedAnswerText = selectedIndex === null ? "I don't know" : presented.presentedChoices[selectedIndex];
+  const commonTrapText = selectedIndex !== null && selectedIndex !== presented.presentedCorrectIndex
+    ? selectedAnswerText
+    : presented.presentedChoices.find((choice, idx) => idx !== presented.presentedCorrectIndex) ?? 'the noncompliant option';
 
   return (
     <div>
@@ -193,9 +200,23 @@ export default function LearnClient() {
         {mode === 'FEEDBACK' && (
           <motion.div initial={reduceMotion ? false : { y: 60, opacity: 0 }} animate={{ y: 0, opacity: 1 }} className="fixed inset-x-0 bottom-0 mx-auto max-w-4xl rounded-t-xl border border-slate-700 bg-slate-900 p-4">
             <p className="font-semibold">{isCorrect ? 'Correct' : 'Incorrect'}</p>
-            <p className="text-sm text-slate-300">{presented.question.explanation.whyCorrect}</p>
-            <p className="text-sm text-slate-300">Key takeaway: {presented.question.explanation.keyTakeaway}</p>
-            <p className="text-sm text-slate-300">Common trap: {presented.question.explanation.commonTrap}</p>
+            <p className="text-sm text-slate-300">
+              FAR reference: FAR Part {farReference.partNumber} — {farReference.partTitle}
+            </p>
+            <a href={farReference.url} target="_blank" rel="noreferrer" className="text-sm text-sky-300 underline">
+              Open FAR Part {farReference.partNumber} on Acquisition.gov
+            </a>
+            <p className="mt-2 text-sm text-slate-200">
+              <span className="font-semibold">Why this is correct:</span> The best answer is <span className="font-semibold">{correctAnswerText}</span> because it aligns with the governing policy in FAR Part {farReference.partNumber} for this scenario and matches what the Government must do procedurally before award or administration action.
+            </p>
+            <ul className="mt-1 list-disc pl-5 text-sm text-slate-300">
+              <li>
+                <span className="font-semibold">Why the other options are wrong:</span> <span className="font-semibold">{commonTrapText}</span> is a common distractor because it sounds practical, but it skips or conflicts with the FAR Part {farReference.partNumber} requirement the question is testing.
+              </li>
+            </ul>
+            <p className="mt-1 text-sm text-slate-300">
+              <span className="font-semibold">Key takeaway:</span> Tie your answer to the controlling FAR part first, then choose the option that preserves compliance, documentation, and fair process.
+            </p>
             <button className="btn mt-3" onClick={next}>Next (N / Enter)</button>
           </motion.div>
         )}
