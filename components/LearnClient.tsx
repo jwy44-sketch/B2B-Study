@@ -9,6 +9,7 @@ import { ProgressHeader } from './ProgressHeader';
 import { ScenarioBlock } from './ScenarioBlock';
 
 type Mode = 'LOADING' | 'IN_BATCH' | 'FEEDBACK' | 'BATCH_SUMMARY' | 'SESSION_COMPLETE';
+type OptionVisualState = 'default' | 'selectedCorrect' | 'selectedWrong' | 'revealCorrect';
 
 const BATCH_SIZE = 10;
 
@@ -17,7 +18,9 @@ export default function LearnClient() {
   const [allQuestions, setAllQuestions] = useState<Question[]>([]);
   const [queue, setQueue] = useState<Question[]>([]);
   const [index, setIndex] = useState(0);
-  const [selected, setSelected] = useState<number | null>(null);
+  const [selectedIndex, setSelectedIndex] = useState<number | null>(null);
+  const [isSubmitted, setIsSubmitted] = useState(false);
+  const [isCorrect, setIsCorrect] = useState<boolean | null>(null);
   const [correct, setCorrect] = useState(0);
   const [streak, setStreak] = useState(0);
   const [missed, setMissed] = useState<Question[]>([]);
@@ -34,10 +37,38 @@ export default function LearnClient() {
 
   const presented = useMemo(() => (queue[index] ? presentQuestion(queue[index], { shuffleChoices: true }) : null), [queue, index]);
 
+  const optionStateFor = (choiceIndex: number): OptionVisualState => {
+    if (!isSubmitted || !presented) return 'default';
+    const isSelected = choiceIndex === selectedIndex;
+    const isActualCorrect = choiceIndex === presented.presentedCorrectIndex;
+
+    if (isSelected && isActualCorrect) return 'selectedCorrect';
+    if (isSelected && !isActualCorrect) return 'selectedWrong';
+    if (!isSelected && isActualCorrect) return 'revealCorrect';
+    return 'default';
+  };
+
+  const optionClassFor = (visualState: OptionVisualState): string => {
+    if (visualState === 'selectedCorrect') {
+      return 'border-green-500 bg-green-900/30 text-green-100 ring-2 ring-green-400 shadow-[0_0_18px_rgba(34,197,94,0.35)]';
+    }
+    if (visualState === 'selectedWrong') {
+      return 'border-red-500 bg-red-900/30 text-red-100 ring-2 ring-red-400';
+    }
+    if (visualState === 'revealCorrect') {
+      return 'border-green-500 bg-green-950/20 text-green-100 ring-1 ring-green-400';
+    }
+    return 'border-slate-700 text-slate-100 hover:border-brand';
+  };
+
   const onAnswer = (idx: number | null) => {
-    if (!presented) return;
-    setSelected(idx);
+    if (!presented || isSubmitted) return;
+
+    setSelectedIndex(idx);
     const ok = idx === presented.presentedCorrectIndex;
+    setIsCorrect(ok);
+    setIsSubmitted(true);
+
     if (ok) {
       setCorrect((c) => c + 1);
       setStreak((s) => s + 1);
@@ -53,7 +84,9 @@ export default function LearnClient() {
   };
 
   const next = () => {
-    setSelected(null);
+    setSelectedIndex(null);
+    setIsCorrect(null);
+    setIsSubmitted(false);
     if (index + 1 >= BATCH_SIZE) {
       setMode('BATCH_SUMMARY');
       return;
@@ -69,6 +102,9 @@ export default function LearnClient() {
     setIndex(0);
     setCorrect(0);
     setMissed([]);
+    setSelectedIndex(null);
+    setIsCorrect(null);
+    setIsSubmitted(false);
     setMode('IN_BATCH');
   };
 
@@ -83,6 +119,8 @@ export default function LearnClient() {
   });
 
   if (mode === 'LOADING' || !presented) return <div>Loading...</div>;
+
+  const correctAnswerText = presented.presentedChoices[presented.presentedCorrectIndex];
 
   return (
     <div>
@@ -104,13 +142,48 @@ export default function LearnClient() {
           <ScenarioBlock scenarioContext={presented.question.scenarioContext} />
           <h2 className="text-xl font-semibold">{presented.question.prompt}</h2>
           <div className="grid gap-2">
-            {presented.presentedChoices.map((choice, i) => (
-              <button key={choice} disabled={mode === 'FEEDBACK'} onClick={() => onAnswer(i)} className="rounded-lg border border-slate-700 p-3 text-left hover:border-brand">
-                {i + 1}. {choice}
-              </button>
-            ))}
+            {presented.presentedChoices.map((choice, i) => {
+              const visualState = optionStateFor(i);
+              const isSelected = i === selectedIndex;
+              const isActualCorrect = i === presented.presentedCorrectIndex;
+
+              return (
+                <motion.button
+                  key={`${presented.question.id}-${i}`}
+                  disabled={isSubmitted}
+                  onClick={() => onAnswer(i)}
+                  className={`rounded-lg border p-3 text-left transition-colors duration-200 ${optionClassFor(visualState)}`}
+                  animate={
+                    reduceMotion
+                      ? {}
+                      : visualState === 'selectedCorrect'
+                        ? { scale: [1, 1.02, 1] }
+                        : visualState === 'selectedWrong'
+                          ? { x: [0, -6, 6, -4, 4, 0] }
+                          : { x: 0, scale: 1 }
+                  }
+                  transition={{ duration: visualState === 'selectedWrong' ? 0.34 : 0.24 }}
+                >
+                  <div className="flex items-center justify-between gap-3">
+                    <span>
+                      {i + 1}. {choice}
+                    </span>
+                    {isSubmitted && isSelected && isCorrect && <span aria-hidden>✓</span>}
+                    {isSubmitted && isSelected && isCorrect === false && <span aria-hidden>✕</span>}
+                    {isSubmitted && !isSelected && isActualCorrect && <span aria-hidden>✓</span>}
+                  </div>
+                </motion.button>
+              );
+            })}
           </div>
-          <button className="rounded border border-amber-400 px-3 py-2 text-amber-300" onClick={() => onAnswer(null)}>
+
+          {isSubmitted && (
+            <p className={`text-sm font-semibold ${isCorrect ? 'text-green-300' : 'text-red-300'}`}>
+              {isCorrect ? 'Correct' : `Incorrect — correct answer: ${correctAnswerText}`}
+            </p>
+          )}
+
+          <button className="rounded border border-amber-400 px-3 py-2 text-amber-300" onClick={() => onAnswer(null)} disabled={isSubmitted}>
             I don't know
           </button>
         </motion.div>
@@ -119,7 +192,7 @@ export default function LearnClient() {
       <AnimatePresence>
         {mode === 'FEEDBACK' && (
           <motion.div initial={reduceMotion ? false : { y: 60, opacity: 0 }} animate={{ y: 0, opacity: 1 }} className="fixed inset-x-0 bottom-0 mx-auto max-w-4xl rounded-t-xl border border-slate-700 bg-slate-900 p-4">
-            <p className="font-semibold">{selected === presented.presentedCorrectIndex ? 'Correct' : 'Incorrect'}</p>
+            <p className="font-semibold">{isCorrect ? 'Correct' : 'Incorrect'}</p>
             <p className="text-sm text-slate-300">{presented.question.explanation.whyCorrect}</p>
             <p className="text-sm text-slate-300">Key takeaway: {presented.question.explanation.keyTakeaway}</p>
             <p className="text-sm text-slate-300">Common trap: {presented.question.explanation.commonTrap}</p>
