@@ -39,6 +39,24 @@ export default function LearnClient() {
   const farReference = useMemo(() => (presented ? getFarReference(presented.question) : null), [presented]);
   const batchProgress = useMemo(() => (engine ? getBatchMastery(engine) : null), [engine]);
 
+  const displayedBatchProgress = useMemo(() => {
+    if (!engine || !batchProgress) return batchProgress;
+    if (!isSubmitted || isCorrect !== true || !engine.currentQuestionId) return batchProgress;
+
+    const currentStats = engine.stats[engine.currentQuestionId];
+    if (!currentStats || currentStats.mastered) return batchProgress;
+
+    const nextStreak = currentStats.correctStreak + 1;
+    if (nextStreak < engine.masteryTarget) return batchProgress;
+
+    const masteredCount = Math.min(batchProgress.batchSize, batchProgress.masteredCount + 1);
+    return {
+      ...batchProgress,
+      masteredCount,
+      remainingInBatch: Math.max(0, batchProgress.batchSize - masteredCount)
+    };
+  }, [engine, batchProgress, isSubmitted, isCorrect]);
+
   useEffect(() => {
     if (engine?.sessionComplete) setMode('SESSION_COMPLETE');
   }, [engine]);
@@ -119,9 +137,9 @@ export default function LearnClient() {
     return () => window.removeEventListener('keydown', onKey);
   });
 
-  if (mode === 'LOADING' || !engine || !presented || !farReference || !batchProgress) return <div>Loading...</div>;
+  if (mode === 'LOADING' || !engine || !presented || !farReference || !displayedBatchProgress) return <div>Loading...</div>;
 
-  const batchPct = batchProgress.batchSize ? Math.round((batchProgress.masteredCount / batchProgress.batchSize) * 100) : 0;
+  const batchPct = displayedBatchProgress.batchSize ? Math.round((displayedBatchProgress.masteredCount / displayedBatchProgress.batchSize) * 100) : 0;
   const correctAnswerText = presented.presentedChoices[presented.presentedCorrectIndex];
   const selectedAnswerText = selectedIndex === null ? "I don't know" : presented.presentedChoices[selectedIndex];
   const commonTrapText = selectedIndex !== null && selectedIndex !== presented.presentedCorrectIndex
@@ -132,15 +150,15 @@ export default function LearnClient() {
     <div>
       <div className="mb-3 rounded-lg border border-slate-700 bg-slate-900/90 p-3">
         <div className="mb-1 flex justify-between text-sm">
-          <span>Batch {batchProgress.batchNumber}</span>
-          <span>Mastered {batchProgress.masteredCount}/{batchProgress.batchSize}</span>
+          <span>Batch {displayedBatchProgress.batchNumber}</span>
+          <span>Mastered {displayedBatchProgress.masteredCount}/{displayedBatchProgress.batchSize}</span>
         </div>
         <div className="h-2 overflow-hidden rounded bg-slate-700">
           <motion.div className="h-full bg-brand" animate={{ width: `${batchPct}%` }} transition={{ duration: 0.25 }} />
         </div>
         <div className="mt-2 flex items-center justify-between text-xs text-slate-300">
           <span>{engine.reviewingMissed ? 'Reviewing missed questions' : 'Learning new questions'}</span>
-          <span>Remaining: {batchProgress.remainingInBatch}</span>
+          <span>Remaining: {displayedBatchProgress.remainingInBatch}</span>
         </div>
       </div>
 
