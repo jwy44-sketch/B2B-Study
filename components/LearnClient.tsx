@@ -4,6 +4,7 @@ import { AnimatePresence, motion, useReducedMotion } from 'framer-motion';
 import { useEffect, useMemo, useState } from 'react';
 import { getFarReference } from '@/lib/farReferences';
 import { getBatchMastery, initializeLearnEngine, restartLearnEngine, submitLearnAnswer, type LearnEngineState } from '@/lib/learnEngine';
+import { clearLearnSession, computeDatasetVersion, restoreOrInitializeLearnEngine, saveLearnSession } from '@/lib/learnPersistence';
 import { loadQuestions } from '@/lib/questions';
 import { presentQuestion } from '@/lib/presentQuestion';
 import type { Question } from '@/lib/types';
@@ -19,19 +20,48 @@ export default function LearnClient() {
   const [mode, setMode] = useState<Mode>('LOADING');
   const [allQuestions, setAllQuestions] = useState<Question[]>([]);
   const [engine, setEngine] = useState<LearnEngineState | null>(null);
+  const [datasetVersion, setDatasetVersion] = useState('');
   const [selectedIndex, setSelectedIndex] = useState<number | null>(null);
   const [isSubmitted, setIsSubmitted] = useState(false);
   const [isCorrect, setIsCorrect] = useState<boolean | null>(null);
   const [transitionMessage, setTransitionMessage] = useState<string | null>(null);
+  const [resumeNotice, setResumeNotice] = useState<string | null>(null);
   const reduceMotion = useReducedMotion();
 
   useEffect(() => {
     loadQuestions().then((data) => {
+      const ids = data.map((q) => q.id);
+      const version = computeDatasetVersion(ids);
+      const restored = restoreOrInitializeLearnEngine({
+        allIds: ids,
+        batchSize: BATCH_SIZE,
+        masteryTarget: MASTERY_TARGET,
+        datasetVersion: version
+      });
+
       setAllQuestions(data);
-      setEngine(initializeLearnEngine(data.map((q) => q.id), BATCH_SIZE, MASTERY_TARGET));
-      setMode('IN_BATCH');
+      setDatasetVersion(version);
+      setEngine(restored.engine);
+
+      if (restored.resetReason === 'version_mismatch') {
+        setResumeNotice('Saved Learn progress was reset because the question set changed.');
+      } else if (restored.resetReason === 'corrupt') {
+        setResumeNotice('Saved Learn progress was corrupted and has been reset safely.');
+      } else {
+        setResumeNotice('Continuing where you left off.');
+      }
+
+      setMode(restored.engine.sessionComplete ? 'SESSION_COMPLETE' : 'IN_BATCH');
     });
   }, []);
+
+  useEffect(() => {
+    if (!engine || !datasetVersion) return;
+    const timer = window.setTimeout(() => {
+      saveLearnSession({ datasetVersion, engine });
+    }, 300);
+    return () => window.clearTimeout(timer);
+  }, [engine, datasetVersion]);
 
   const questionsById = useMemo(() => new Map(allQuestions.map((q) => [q.id, q])), [allQuestions]);
   const currentQuestion = engine?.currentQuestionId ? questionsById.get(engine.currentQuestionId) ?? null : null;
@@ -119,11 +149,16 @@ export default function LearnClient() {
 
   const restartLearn = () => {
     if (!engine) return;
-    setEngine(restartLearnEngine(engine));
+    if (!window.confirm('This will erase saved Learn progress. Continue?')) return;
+
+    clearLearnSession();
+    const fresh = restartLearnEngine(engine);
+    setEngine(fresh);
     setSelectedIndex(null);
     setIsCorrect(null);
     setIsSubmitted(false);
     setTransitionMessage(null);
+    setResumeNotice('Learn progress reset. Starting from batch 1.');
     setMode('IN_BATCH');
   };
 
@@ -148,6 +183,8 @@ export default function LearnClient() {
 
   return (
     <div>
+      {resumeNotice && <div className="mb-3 rounded border border-sky-500/50 bg-sky-950/30 p-2 text-sm text-sky-200">{resumeNotice}</div>}
+
       <div className="mb-3 rounded-lg border border-slate-700 bg-slate-900/90 p-3">
         <div className="mb-1 flex justify-between text-sm">
           <span>Batch {displayedBatchProgress.batchNumber}</span>
@@ -234,7 +271,7 @@ export default function LearnClient() {
             <p className="mt-1 text-sm text-slate-300"><span className="font-semibold">Key takeaway:</span> Anchor your answer to the governing FAR part, then pick the option that keeps the action compliant.</p>
             <div className="mt-3 flex gap-2">
               <button className="btn" onClick={next}>Next (N / Enter)</button>
-              <button className="rounded border border-slate-600 px-3 py-2 text-sm" onClick={restartLearn}>Restart Learn</button>
+              <button className="rounded border border-slate-600 px-3 py-2 text-sm" onClick={restartLearn}>Reset Progress</button>
             </div>
           </motion.div>
         )}
@@ -244,7 +281,7 @@ export default function LearnClient() {
         <div className="card mt-4 space-y-2">
           <h3 className="text-lg font-semibold">Session complete</h3>
           <p>You mastered all available batches in this run.</p>
-          <button className="btn" onClick={restartLearn}>Restart Learn</button>
+          <button className="btn" onClick={restartLearn}>Reset Progress</button>
         </div>
       )}
     </div>
