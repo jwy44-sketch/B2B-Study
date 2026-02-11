@@ -1,13 +1,16 @@
 'use client';
 
 import { AnimatePresence, motion, useReducedMotion } from 'framer-motion';
+import { useSearchParams } from 'next/navigation';
 import { useCallback, useEffect, useMemo, useState } from 'react';
 import { buildExplanation } from '@/lib/explanations';
 import { inferFarRef } from '@/lib/farReferences';
 import { getBatchMetrics, restartLearnEngine, submitLearnAnswer, type LearnEngineState } from '@/lib/learnEngine';
+import { getModuleById } from '@/lib/modules';
 import { clearLearnSession, restoreOrInitializeLearnEngine, saveLearnSession } from '@/lib/learnPersistence';
 import { loadQuestions } from '@/lib/questions';
 import { presentQuestion } from '@/lib/presentQuestion';
+import { applySrsResult } from '@/lib/srsEngine';
 import type { Question } from '@/lib/types';
 import { computeDatasetVersion } from '@/lib/datasetVersion';
 import { LearnProgress } from './LearnProgress';
@@ -20,6 +23,7 @@ const BATCH_SIZE = 10;
 const MASTERY_TARGET = 2;
 
 export default function LearnClient() {
+  const params = useSearchParams();
   const [mode, setMode] = useState<Mode>('LOADING');
   const [allQuestions, setAllQuestions] = useState<Question[]>([]);
   const [engine, setEngine] = useState<LearnEngineState | null>(null);
@@ -29,12 +33,16 @@ export default function LearnClient() {
   const [isCorrect, setIsCorrect] = useState<boolean | null>(null);
   const [transitionMessage, setTransitionMessage] = useState<string | null>(null);
   const [resumeNotice, setResumeNotice] = useState<string | null>(null);
+  const [srsMode, setSrsMode] = useState(false);
   const reduceMotion = useReducedMotion();
+  const moduleId = params.get('module');
 
   useEffect(() => {
     loadQuestions().then((data) => {
-      const version = computeDatasetVersion(data);
-      const ids = data.map((q) => q.id);
+      const moduleInfo = moduleId ? getModuleById(moduleId, data) : null;
+      const scoped = moduleInfo ? data.filter((question) => moduleInfo.questionIds.includes(question.id)) : data;
+      const version = computeDatasetVersion(scoped);
+      const ids = scoped.map((q) => q.id);
       const restored = restoreOrInitializeLearnEngine({
         allIds: ids,
         batchSize: BATCH_SIZE,
@@ -42,7 +50,7 @@ export default function LearnClient() {
         datasetVersion: version
       });
 
-      setAllQuestions(data);
+      setAllQuestions(scoped);
       setDatasetVersion(version);
       setEngine(restored.engine);
 
@@ -56,7 +64,7 @@ export default function LearnClient() {
 
       setMode(restored.engine.sessionComplete ? 'SESSION_COMPLETE' : 'IN_BATCH');
     });
-  }, []);
+  }, [moduleId]);
 
   useEffect(() => {
     if (!engine || !datasetVersion) return;
@@ -121,7 +129,11 @@ export default function LearnClient() {
   const next = useCallback(() => {
     if (!engine || mode !== 'FEEDBACK') return;
     const prevBatchStart = engine.batchStartIndex;
-    const nextState: LearnEngineState = submitLearnAnswer(engine, isCorrect === true);
+    const answeredId = engine.currentQuestionId;
+    let nextState: LearnEngineState = submitLearnAnswer(engine, isCorrect === true);
+    if (srsMode && answeredId) {
+      nextState = applySrsResult(nextState, answeredId, isCorrect === true);
+    }
 
     setEngine(nextState);
 
@@ -140,7 +152,7 @@ export default function LearnClient() {
     }
 
     setMode('IN_BATCH');
-  }, [engine, isCorrect, mode]);
+  }, [engine, isCorrect, mode, srsMode]);
 
   const resetProgress = useCallback(() => {
     if (!engine) return;
@@ -188,6 +200,17 @@ export default function LearnClient() {
         modeLabel={engine.reviewingMissed ? 'Reviewing missed questions' : 'Learning new questions'}
         remaining={displayedMetrics.remaining}
       />
+
+      <div className="mb-3 flex items-center justify-between rounded border border-slate-700 bg-slate-900/70 p-2 text-sm">
+        <span>{moduleId ? `Module session: ${moduleId}` : 'Full-deck session'}</span>
+        <button
+          className={`rounded border px-3 py-1 ${srsMode ? 'border-brand text-brand' : 'border-slate-600 text-slate-200'}`}
+          onClick={() => setSrsMode((prev) => !prev)}
+          type="button"
+        >
+          {srsMode ? 'Spaced Repetition' : 'Standard Learn'}
+        </button>
+      </div>
 
       {transitionMessage && <div className="mb-3 rounded border border-green-500/60 bg-green-950/40 p-2 text-sm text-green-200">{transitionMessage}</div>}
 

@@ -4,6 +4,9 @@ export type LearnStats = {
   correctStreak: number;
   mastered: boolean;
   seen: boolean;
+  intervalStep?: number;
+  dueAt?: string;
+  lastResult?: 'correct' | 'wrong';
   lastAnsweredAt?: string;
 };
 
@@ -29,8 +32,31 @@ const defaultStats = (): LearnStats => ({
   incorrectCount: 0,
   correctStreak: 0,
   mastered: false,
-  seen: false
+  seen: false,
+  intervalStep: 0
 });
+
+export const recordQuestionResult = (state: LearnState, questionId: string, isCorrect: boolean): LearnState => {
+  const existing = state.statsById[questionId] ?? defaultStats();
+  const updatedStats: LearnStats = {
+    ...existing,
+    attempts: existing.attempts + 1,
+    seen: true,
+    lastResult: isCorrect ? 'correct' : 'wrong',
+    lastAnsweredAt: new Date().toISOString(),
+    correctStreak: isCorrect ? existing.correctStreak + 1 : 0,
+    incorrectCount: isCorrect ? existing.incorrectCount : existing.incorrectCount + 1,
+    mastered: isCorrect ? existing.correctStreak + 1 >= state.masteryTarget : false
+  };
+
+  return {
+    ...state,
+    statsById: {
+      ...state.statsById,
+      [questionId]: updatedStats
+    }
+  };
+};
 
 const withBatch = (state: LearnState): LearnState => {
   const batchIds = state.allIds.slice(state.batchStartIndex, state.batchStartIndex + state.batchSize);

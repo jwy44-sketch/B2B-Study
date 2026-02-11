@@ -55,6 +55,13 @@ export const loadLearnSession = (): PersistedLearnSession | null => {
   return safeParseJSON<PersistedLearnSession>(window.localStorage.getItem(LEARN_STORAGE_KEY));
 };
 
+export const importLearnSession = (session: PersistedLearnSession): boolean => {
+  if (!isBrowser()) return false;
+  if (session.version !== PERSISTENCE_VERSION || !isValidEngineShape(session.engine)) return false;
+  window.localStorage.setItem(LEARN_STORAGE_KEY, JSON.stringify(session));
+  return true;
+};
+
 export const saveLearnSession = (input: { datasetVersion: string; engine: LearnEngineState }): void => {
   if (!isBrowser()) return;
 
