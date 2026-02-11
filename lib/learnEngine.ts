@@ -1,25 +1,30 @@
-export type LearnQuestionStats = {
+export type LearnStats = {
   attempts: number;
   incorrectCount: number;
   correctStreak: number;
   mastered: boolean;
   seen: boolean;
+  lastAnsweredAt?: string;
 };
 
-export type LearnEngineState = {
+export type LearnState = {
   allIds: string[];
   batchSize: number;
   masteryTarget: number;
   batchStartIndex: number;
   batchIds: string[];
   queue: string[];
-  stats: Record<string, LearnQuestionStats>;
+  statsById: Record<string, LearnStats>;
   currentQuestionId: string | null;
   sessionComplete: boolean;
   reviewingMissed: boolean;
+  completed: boolean;
 };
 
-const defaultStats = (): LearnQuestionStats => ({
+export type LearnEngineState = LearnState;
+export type LearnQuestionStats = LearnStats;
+
+const defaultStats = (): LearnStats => ({
   attempts: 0,
   incorrectCount: 0,
   correctStreak: 0,
@@ -27,9 +32,8 @@ const defaultStats = (): LearnQuestionStats => ({
   seen: false
 });
 
-const hydrateBatch = (state: LearnEngineState): LearnEngineState => {
+const withBatch = (state: LearnState): LearnState => {
   const batchIds = state.allIds.slice(state.batchStartIndex, state.batchStartIndex + state.batchSize);
-
   if (!batchIds.length) {
     return {
       ...state,
@@ -37,49 +41,105 @@ const hydrateBatch = (state: LearnEngineState): LearnEngineState => {
       queue: [],
       currentQuestionId: null,
       sessionComplete: true,
-      reviewingMissed: false
+      reviewingMissed: false,
+      completed: true
     };
   }
 
-  const stats = { ...state.stats };
-  for (const id of batchIds) {
-    stats[id] = stats[id] ?? defaultStats();
-  }
+  const statsById = { ...state.statsById };
+  batchIds.forEach((id) => {
+    statsById[id] = statsById[id] ?? defaultStats();
+  });
+
+  const unmastered = batchIds.filter((id) => !statsById[id].mastered);
+  const queue = unmastered.length ? unmastered : [];
 
   return {
     ...state,
     batchIds,
-    queue: [...batchIds],
-    stats,
-    currentQuestionId: batchIds[0],
+    queue,
+    statsById,
+    currentQuestionId: queue[0] ?? null,
     sessionComplete: false,
-    reviewingMissed: false
+    reviewingMissed: false,
+    completed: false
   };
 };
 
-export const initializeLearnEngine = (allIds: string[], batchSize = 10, masteryTarget = 2): LearnEngineState => {
-  return hydrateBatch({
+export const initLearn = (allIds: string[], batchStartIndex = 0, batchSize = 10, masteryTarget = 2): LearnState => {
+  const base: LearnState = {
     allIds,
     batchSize,
     masteryTarget,
-    batchStartIndex: 0,
+    batchStartIndex,
     batchIds: [],
     queue: [],
-    stats: {},
+    statsById: {},
     currentQuestionId: null,
     sessionComplete: false,
-    reviewingMissed: false
-  });
+    reviewingMissed: false,
+    completed: false
+  };
+  return withBatch(base);
 };
 
-export const restartLearnEngine = (state: LearnEngineState): LearnEngineState => {
-  return initializeLearnEngine(state.allIds, state.batchSize, state.masteryTarget);
+export const initializeLearnEngine = (allIds: string[], batchSize = 10, masteryTarget = 2): LearnState => {
+  return initLearn(allIds, 0, batchSize, masteryTarget);
 };
 
-const goToNextBatch = (state: LearnEngineState): LearnEngineState => {
-  return hydrateBatch({
+export const getNextQuestionId = (state: LearnState): string | null => {
+  return state.queue[0] ?? null;
+};
+
+export const getBatchMetrics = (state: LearnState) => {
+  const masteredCount = state.batchIds.filter((id) => state.statsById[id]?.mastered).length;
+  const totalInBatch = state.batchIds.length;
+  const remaining = Math.max(0, totalInBatch - masteredCount);
+  const progressPct = totalInBatch ? Math.round((masteredCount / totalInBatch) * 100) : 0;
+  const totalBatches = Math.max(1, Math.ceil(state.allIds.length / state.batchSize));
+  return {
+    masteredCount,
+    totalInBatch,
+    remaining,
+    progressPct,
+    batchNumber: Math.floor(state.batchStartIndex / state.batchSize) + 1,
+    totalBatches
+  };
+};
+
+export const getBatchMastery = (state: LearnState) => {
+  const metrics = getBatchMetrics(state);
+  return {
+    masteredCount: metrics.masteredCount,
+    batchSize: metrics.totalInBatch,
+    remainingInBatch: metrics.remaining,
+    batchNumber: metrics.batchNumber,
+    totalBatches: metrics.totalBatches,
+    progressPct: metrics.progressPct
+  };
+};
+
+export const advanceBatchIfComplete = (state: LearnState, allIds = state.allIds): LearnState => {
+  if (state.queue.length > 0) {
+    return { ...state, currentQuestionId: state.queue[0] ?? null };
+  }
+
+  const nextStart = state.batchStartIndex + state.batchSize;
+  if (nextStart >= allIds.length) {
+    return {
+      ...state,
+      allIds,
+      currentQuestionId: null,
+      sessionComplete: true,
+      reviewingMissed: false,
+      completed: true
+    };
+  }
+
+  return withBatch({
     ...state,
-    batchStartIndex: state.batchStartIndex + state.batchSize,
+    allIds,
+    batchStartIndex: nextStart,
     batchIds: [],
     queue: [],
     currentQuestionId: null,
@@ -87,57 +147,48 @@ const goToNextBatch = (state: LearnEngineState): LearnEngineState => {
   });
 };
 
-export const submitLearnAnswer = (state: LearnEngineState, wasCorrect: boolean): LearnEngineState => {
-  const currentId = state.currentQuestionId;
-  if (!currentId || state.sessionComplete) return state;
+export const submitAnswer = (state: LearnState, questionId: string, isCorrect: boolean): LearnState => {
+  if (!questionId || state.sessionComplete) return state;
 
-  const stats = { ...state.stats };
-  const current = { ...(stats[currentId] ?? defaultStats()) };
-  current.attempts += 1;
-  current.seen = true;
-
-  if (wasCorrect) {
-    current.correctStreak += 1;
-    if (current.correctStreak >= state.masteryTarget) {
-      current.mastered = true;
-    }
-  } else {
-    current.correctStreak = 0;
-    current.incorrectCount += 1;
-    current.mastered = false;
-  }
-
-  stats[currentId] = current;
-
-  const [, ...restQueue] = state.queue;
-  const shouldRequeue = !current.mastered;
-  const nextQueue = shouldRequeue ? [...restQueue, currentId] : restQueue;
-
-  const reviewingMissed = nextQueue.length > 0 && state.batchIds.every((id) => (stats[id]?.seen ?? false));
-
-  if (!nextQueue.length) {
-    return goToNextBatch({
-      ...state,
-      stats,
-      reviewingMissed
-    });
-  }
-
-  return {
-    ...state,
-    stats,
-    queue: nextQueue,
-    currentQuestionId: nextQueue[0],
-    reviewingMissed
+  const existing = state.statsById[questionId] ?? defaultStats();
+  const updatedStats: LearnStats = {
+    ...existing,
+    attempts: existing.attempts + 1,
+    seen: true,
+    lastAnsweredAt: new Date().toISOString(),
+    correctStreak: isCorrect ? existing.correctStreak + 1 : 0,
+    incorrectCount: isCorrect ? existing.incorrectCount : existing.incorrectCount + 1
   };
+  updatedStats.mastered = updatedStats.correctStreak >= state.masteryTarget;
+
+  const statsById = {
+    ...state.statsById,
+    [questionId]: updatedStats
+  };
+
+  const restQueue = state.queue.filter((id, idx) => !(idx === 0 && id === questionId));
+  const shouldRequeue = !updatedStats.mastered;
+  const queue = shouldRequeue ? [...restQueue, questionId] : restQueue;
+
+  const reviewingMissed = queue.length > 0 && state.batchIds.every((id) => (statsById[id]?.seen ?? false));
+
+  const intermediate: LearnState = {
+    ...state,
+    statsById,
+    queue,
+    reviewingMissed,
+    currentQuestionId: queue[0] ?? null
+  };
+
+  return advanceBatchIfComplete(intermediate, state.allIds);
 };
 
-export const getBatchMastery = (state: LearnEngineState) => {
-  const masteredCount = state.batchIds.filter((id) => state.stats[id]?.mastered).length;
-  return {
-    masteredCount,
-    batchSize: state.batchIds.length,
-    remainingInBatch: Math.max(0, state.batchIds.length - masteredCount),
-    batchNumber: Math.floor(state.batchStartIndex / state.batchSize) + 1
-  };
+export const submitLearnAnswer = (state: LearnState, wasCorrect: boolean): LearnState => {
+  const questionId = state.currentQuestionId;
+  if (!questionId) return state;
+  return submitAnswer(state, questionId, wasCorrect);
+};
+
+export const restartLearnEngine = (state: LearnState): LearnState => {
+  return initLearn(state.allIds, 0, state.batchSize, state.masteryTarget);
 };

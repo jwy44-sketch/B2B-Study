@@ -1,13 +1,16 @@
 'use client';
 
 import { AnimatePresence, motion, useReducedMotion } from 'framer-motion';
-import { useEffect, useMemo, useState } from 'react';
-import { getFarReference } from '@/lib/farReferences';
-import { getBatchMastery, initializeLearnEngine, restartLearnEngine, submitLearnAnswer, type LearnEngineState } from '@/lib/learnEngine';
-import { clearLearnSession, computeDatasetVersion, restoreOrInitializeLearnEngine, saveLearnSession } from '@/lib/learnPersistence';
+import { useCallback, useEffect, useMemo, useState } from 'react';
+import { buildExplanation } from '@/lib/explanations';
+import { inferFarRef } from '@/lib/farReferences';
+import { getBatchMetrics, restartLearnEngine, submitLearnAnswer, type LearnEngineState } from '@/lib/learnEngine';
+import { clearLearnSession, restoreOrInitializeLearnEngine, saveLearnSession } from '@/lib/learnPersistence';
 import { loadQuestions } from '@/lib/questions';
 import { presentQuestion } from '@/lib/presentQuestion';
 import type { Question } from '@/lib/types';
+import { computeDatasetVersion } from '@/lib/datasetVersion';
+import { LearnProgress } from './LearnProgress';
 import { ScenarioBlock } from './ScenarioBlock';
 
 type Mode = 'LOADING' | 'IN_BATCH' | 'FEEDBACK' | 'SESSION_COMPLETE';
@@ -30,8 +33,8 @@ export default function LearnClient() {
 
   useEffect(() => {
     loadQuestions().then((data) => {
+      const version = computeDatasetVersion(data);
       const ids = data.map((q) => q.id);
-      const version = computeDatasetVersion(ids);
       const restored = restoreOrInitializeLearnEngine({
         allIds: ids,
         batchSize: BATCH_SIZE,
@@ -66,26 +69,25 @@ export default function LearnClient() {
   const questionsById = useMemo(() => new Map(allQuestions.map((q) => [q.id, q])), [allQuestions]);
   const currentQuestion = engine?.currentQuestionId ? questionsById.get(engine.currentQuestionId) ?? null : null;
   const presented = useMemo(() => (currentQuestion ? presentQuestion(currentQuestion, { shuffleChoices: true }) : null), [currentQuestion]);
-  const farReference = useMemo(() => (presented ? getFarReference(presented.question) : null), [presented]);
-  const batchProgress = useMemo(() => (engine ? getBatchMastery(engine) : null), [engine]);
+  const farRef = useMemo(() => (presented ? inferFarRef(`${presented.question.prompt} ${presented.presentedChoices.join(' ')}`) : null), [presented]);
 
-  const displayedBatchProgress = useMemo(() => {
-    if (!engine || !batchProgress) return batchProgress;
-    if (!isSubmitted || isCorrect !== true || !engine.currentQuestionId) return batchProgress;
+  const baseMetrics = useMemo(() => (engine ? getBatchMetrics(engine) : null), [engine]);
 
-    const currentStats = engine.stats[engine.currentQuestionId];
-    if (!currentStats || currentStats.mastered) return batchProgress;
+  const displayedMetrics = useMemo(() => {
+    if (!engine || !baseMetrics) return baseMetrics;
+    if (!isSubmitted || isCorrect !== true || !engine.currentQuestionId) return baseMetrics;
+
+    const currentStats = engine.statsById[engine.currentQuestionId];
+    if (!currentStats || currentStats.mastered) return baseMetrics;
 
     const nextStreak = currentStats.correctStreak + 1;
-    if (nextStreak < engine.masteryTarget) return batchProgress;
+    if (nextStreak < engine.masteryTarget) return baseMetrics;
 
-    const masteredCount = Math.min(batchProgress.batchSize, batchProgress.masteredCount + 1);
-    return {
-      ...batchProgress,
-      masteredCount,
-      remainingInBatch: Math.max(0, batchProgress.batchSize - masteredCount)
-    };
-  }, [engine, batchProgress, isSubmitted, isCorrect]);
+    const masteredCount = Math.min(baseMetrics.totalInBatch, baseMetrics.masteredCount + 1);
+    const remaining = Math.max(0, baseMetrics.totalInBatch - masteredCount);
+    const progressPct = baseMetrics.totalInBatch ? Math.round((masteredCount / baseMetrics.totalInBatch) * 100) : 0;
+    return { ...baseMetrics, masteredCount, remaining, progressPct };
+  }, [engine, baseMetrics, isSubmitted, isCorrect]);
 
   useEffect(() => {
     if (engine?.sessionComplete) setMode('SESSION_COMPLETE');
@@ -95,7 +97,6 @@ export default function LearnClient() {
     if (!isSubmitted || !presented) return 'default';
     const isSelected = choiceIndex === selectedIndex;
     const isActualCorrect = choiceIndex === presented.presentedCorrectIndex;
-
     if (isSelected && isActualCorrect) return 'selectedCorrect';
     if (isSelected && !isActualCorrect) return 'selectedWrong';
     if (!isSelected && isActualCorrect) return 'revealCorrect';
@@ -109,26 +110,20 @@ export default function LearnClient() {
     return 'border-slate-700 text-slate-100 hover:border-brand';
   };
 
-  const onAnswer = (idx: number | null) => {
+  const onAnswer = useCallback((idx: number | null) => {
     if (!presented || isSubmitted || mode !== 'IN_BATCH') return;
     setSelectedIndex(idx);
-    const ok = idx === presented.presentedCorrectIndex;
-    setIsCorrect(ok);
+    setIsCorrect(idx === presented.presentedCorrectIndex);
     setIsSubmitted(true);
     setMode('FEEDBACK');
-  };
+  }, [isSubmitted, mode, presented]);
 
-  const next = () => {
-    if (!engine) return;
+  const next = useCallback(() => {
+    if (!engine || mode !== 'FEEDBACK') return;
+    const prevBatchStart = engine.batchStartIndex;
+    const nextState: LearnEngineState = submitLearnAnswer(engine, isCorrect === true);
 
-    let nextState: LearnEngineState = engine;
-    const previousBatchStart = engine.batchStartIndex;
-
-    setEngine((prev) => {
-      if (!prev) return prev;
-      nextState = submitLearnAnswer(prev, isCorrect === true);
-      return nextState;
-    });
+    setEngine(nextState);
 
     setSelectedIndex(null);
     setIsCorrect(null);
@@ -139,65 +134,60 @@ export default function LearnClient() {
       return;
     }
 
-    if (nextState.batchStartIndex !== previousBatchStart) {
+    if (nextState.batchStartIndex !== prevBatchStart) {
       setTransitionMessage('Batch complete — starting next set');
       window.setTimeout(() => setTransitionMessage(null), 1400);
     }
 
     setMode('IN_BATCH');
-  };
+  }, [engine, isCorrect, mode]);
 
-  const restartLearn = () => {
+  const resetProgress = useCallback(() => {
     if (!engine) return;
     if (!window.confirm('This will erase saved Learn progress. Continue?')) return;
-
     clearLearnSession();
-    const fresh = restartLearnEngine(engine);
-    setEngine(fresh);
+    setEngine(restartLearnEngine(engine));
     setSelectedIndex(null);
     setIsCorrect(null);
     setIsSubmitted(false);
     setTransitionMessage(null);
     setResumeNotice('Learn progress reset. Starting from batch 1.');
     setMode('IN_BATCH');
-  };
+  }, [engine]);
 
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => {
       if (mode === 'IN_BATCH' && ['1', '2', '3', '4'].includes(e.key)) onAnswer(Number(e.key) - 1);
       if (mode === 'IN_BATCH' && e.key.toLowerCase() === 'i') onAnswer(null);
-      if ((mode === 'FEEDBACK' && (e.key === 'Enter' || e.key.toLowerCase() === 'n')) || (mode === 'IN_BATCH' && e.key === 'Enter')) next();
+      if (mode === 'FEEDBACK' && (e.key === 'Enter' || e.key.toLowerCase() === 'n')) next();
     };
     window.addEventListener('keydown', onKey);
     return () => window.removeEventListener('keydown', onKey);
+  }, [mode, onAnswer, next]);
+
+  if (mode === 'LOADING' || !engine || !presented || !farRef || !displayedMetrics) return <div>Loading...</div>;
+
+  const explanation = buildExplanation({
+    questionText: presented.question.prompt,
+    options: presented.presentedChoices,
+    correctIndex: presented.presentedCorrectIndex,
+    selectedIndex,
+    farRef
   });
-
-  if (mode === 'LOADING' || !engine || !presented || !farReference || !displayedBatchProgress) return <div>Loading...</div>;
-
-  const batchPct = displayedBatchProgress.batchSize ? Math.round((displayedBatchProgress.masteredCount / displayedBatchProgress.batchSize) * 100) : 0;
-  const correctAnswerText = presented.presentedChoices[presented.presentedCorrectIndex];
-  const selectedAnswerText = selectedIndex === null ? "I don't know" : presented.presentedChoices[selectedIndex];
-  const commonTrapText = selectedIndex !== null && selectedIndex !== presented.presentedCorrectIndex
-    ? selectedAnswerText
-    : presented.presentedChoices.find((choice, idx) => idx !== presented.presentedCorrectIndex) ?? 'the noncompliant option';
 
   return (
     <div>
       {resumeNotice && <div className="mb-3 rounded border border-sky-500/50 bg-sky-950/30 p-2 text-sm text-sky-200">{resumeNotice}</div>}
 
-      <div className="mb-3 rounded-lg border border-slate-700 bg-slate-900/90 p-3">
-        <div className="mb-1 flex justify-between text-sm">
-          <span>Batch {displayedBatchProgress.batchNumber}</span>
-          <span>Mastered {displayedBatchProgress.masteredCount}/{displayedBatchProgress.batchSize}</span>
-        </div>
-        <div className="h-2 overflow-hidden rounded bg-slate-700">
-          <motion.div className="h-full bg-brand" animate={{ width: `${batchPct}%` }} transition={{ duration: 0.25 }} />
-        </div>
-        <div className="mt-2 flex items-center justify-between text-xs text-slate-300">
-          <span>{engine.reviewingMissed ? 'Reviewing missed questions' : 'Learning new questions'}</span>
-          <span>Remaining: {displayedBatchProgress.remainingInBatch}</span>
-        </div>
-      </div>
+      <LearnProgress
+        batchNumber={displayedMetrics.batchNumber}
+        totalBatches={displayedMetrics.totalBatches}
+        masteredCount={displayedMetrics.masteredCount}
+        batchSize={displayedMetrics.totalInBatch}
+        progressPct={displayedMetrics.progressPct}
+        modeLabel={engine.reviewingMissed ? 'Reviewing missed questions' : 'Learning new questions'}
+        remaining={displayedMetrics.remaining}
+      />
 
       {transitionMessage && <div className="mb-3 rounded border border-green-500/60 bg-green-950/40 p-2 text-sm text-green-200">{transitionMessage}</div>}
 
@@ -217,7 +207,6 @@ export default function LearnClient() {
               const visualState = optionStateFor(i);
               const isSelected = i === selectedIndex;
               const isActualCorrect = i === presented.presentedCorrectIndex;
-
               return (
                 <motion.button
                   key={`${presented.question.id}-${i}`}
@@ -248,7 +237,7 @@ export default function LearnClient() {
 
           {isSubmitted && (
             <p className={`text-sm font-semibold ${isCorrect ? 'text-green-300' : 'text-red-300'}`}>
-              {isCorrect ? 'Correct' : `Incorrect — correct answer: ${correctAnswerText}`}
+              {isCorrect ? 'Correct' : `Incorrect — correct answer: ${presented.presentedChoices[presented.presentedCorrectIndex]}`}
             </p>
           )}
 
@@ -262,16 +251,16 @@ export default function LearnClient() {
         {mode === 'FEEDBACK' && (
           <motion.div initial={reduceMotion ? false : { y: 60, opacity: 0 }} animate={{ y: 0, opacity: 1 }} className="fixed inset-x-0 bottom-0 mx-auto max-w-4xl rounded-t-xl border border-slate-700 bg-slate-900 p-4">
             <p className="font-semibold">{isCorrect ? 'Correct' : 'Incorrect'}</p>
-            <p className="text-sm text-slate-300">FAR reference: FAR Part {farReference.partNumber} — {farReference.partTitle}</p>
-            <a href={farReference.url} target="_blank" rel="noreferrer" className="text-sm text-sky-300 underline">Open FAR Part {farReference.partNumber} on Acquisition.gov</a>
-            <p className="mt-2 text-sm text-slate-200"><span className="font-semibold">Why this is correct:</span> The best answer is <span className="font-semibold">{correctAnswerText}</span> because it aligns with FAR Part {farReference.partNumber} and the procedural rule this prompt is testing.</p>
+            <p className="text-sm text-slate-300">FAR reference: {explanation.farLine}</p>
+            <a href={farRef.url} target="_blank" rel="noopener noreferrer" className="text-sm text-sky-300 underline">{explanation.linkLabel}</a>
+            <p className="mt-2 text-sm text-slate-200"><span className="font-semibold">Why this is correct:</span> {explanation.whyCorrect}</p>
             <ul className="mt-1 list-disc pl-5 text-sm text-slate-300">
-              <li><span className="font-semibold">Why the other options are wrong:</span> <span className="font-semibold">{commonTrapText}</span> is a common distractor because it conflicts with the controlling FAR requirement in this context.</li>
+              {explanation.wrongBullets.map((item) => <li key={item}>{item}</li>)}
             </ul>
-            <p className="mt-1 text-sm text-slate-300"><span className="font-semibold">Key takeaway:</span> Anchor your answer to the governing FAR part, then pick the option that keeps the action compliant.</p>
+            <p className="mt-1 text-sm text-slate-300"><span className="font-semibold">Key takeaway:</span> {explanation.keyTakeaway}</p>
             <div className="mt-3 flex gap-2">
               <button className="btn" onClick={next}>Next (N / Enter)</button>
-              <button className="rounded border border-slate-600 px-3 py-2 text-sm" onClick={restartLearn}>Reset Progress</button>
+              <button className="rounded border border-slate-600 px-3 py-2 text-sm" onClick={resetProgress}>Reset Progress</button>
             </div>
           </motion.div>
         )}
@@ -281,7 +270,7 @@ export default function LearnClient() {
         <div className="card mt-4 space-y-2">
           <h3 className="text-lg font-semibold">Session complete</h3>
           <p>You mastered all available batches in this run.</p>
-          <button className="btn" onClick={restartLearn}>Reset Progress</button>
+          <button className="btn" onClick={resetProgress}>Reset Progress</button>
         </div>
       )}
     </div>
