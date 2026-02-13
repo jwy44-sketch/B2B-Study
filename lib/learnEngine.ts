@@ -36,17 +36,56 @@ const defaultStats = (): LearnStats => ({
   intervalStep: 0
 });
 
-export const recordQuestionResult = (state: LearnState, questionId: string, isCorrect: boolean): LearnState => {
+const STEP_DELAYS_MS = [30_000, 120_000, 600_000];
+const WRONG_DELAY_MS = 20_000;
+
+const dueTime = (stats: LearnStats): number => {
+  if (!stats.dueAt) return 0;
+  const parsed = new Date(stats.dueAt).getTime();
+  return Number.isNaN(parsed) ? 0 : parsed;
+};
+
+const clampStep = (step: number): number => {
+  return Math.max(0, Math.min(step, STEP_DELAYS_MS.length - 1));
+};
+
+const orderDueQueue = (batchIds: string[], statsById: Record<string, LearnStats>): string[] => {
+  return batchIds
+    .filter((id) => !statsById[id]?.mastered)
+    .sort((a, b) => {
+      const aStats = statsById[a] ?? defaultStats();
+      const bStats = statsById[b] ?? defaultStats();
+      const dueDiff = dueTime(aStats) - dueTime(bStats);
+      if (dueDiff !== 0) return dueDiff;
+      const missPriority = (bStats.incorrectCount ?? 0) - (aStats.incorrectCount ?? 0);
+      if (missPriority !== 0) return missPriority;
+      return (aStats.correctStreak ?? 0) - (bStats.correctStreak ?? 0);
+    });
+};
+
+const applyWeightedResult = (
+  state: LearnState,
+  questionId: string,
+  isCorrect: boolean,
+  now = Date.now()
+): LearnState => {
   const existing = state.statsById[questionId] ?? defaultStats();
+  const nextCorrectStreak = isCorrect ? existing.correctStreak + 1 : 0;
+  const mastered = nextCorrectStreak >= state.masteryTarget;
+  const nextStep = isCorrect ? clampStep((existing.intervalStep ?? 0) + 1) : 0;
+  const delayMs = isCorrect ? STEP_DELAYS_MS[nextStep] : WRONG_DELAY_MS;
+
   const updatedStats: LearnStats = {
     ...existing,
     attempts: existing.attempts + 1,
     seen: true,
     lastResult: isCorrect ? 'correct' : 'wrong',
-    lastAnsweredAt: new Date().toISOString(),
-    correctStreak: isCorrect ? existing.correctStreak + 1 : 0,
+    lastAnsweredAt: new Date(now).toISOString(),
     incorrectCount: isCorrect ? existing.incorrectCount : existing.incorrectCount + 1,
-    mastered: isCorrect ? existing.correctStreak + 1 >= state.masteryTarget : false
+    correctStreak: nextCorrectStreak,
+    mastered,
+    intervalStep: nextStep,
+    dueAt: new Date(now + delayMs).toISOString()
   };
 
   return {
@@ -56,6 +95,10 @@ export const recordQuestionResult = (state: LearnState, questionId: string, isCo
       [questionId]: updatedStats
     }
   };
+};
+
+export const recordQuestionResult = (state: LearnState, questionId: string, isCorrect: boolean): LearnState => {
+  return applyWeightedResult(state, questionId, isCorrect);
 };
 
 const withBatch = (state: LearnState): LearnState => {
@@ -74,11 +117,15 @@ const withBatch = (state: LearnState): LearnState => {
 
   const statsById = { ...state.statsById };
   batchIds.forEach((id) => {
-    statsById[id] = statsById[id] ?? defaultStats();
+    const existing = statsById[id] ?? defaultStats();
+    statsById[id] = {
+      ...existing,
+      dueAt: existing.dueAt ?? new Date().toISOString(),
+      intervalStep: existing.intervalStep ?? 0
+    };
   });
 
-  const unmastered = batchIds.filter((id) => !statsById[id].mastered);
-  const queue = unmastered.length ? unmastered : [];
+  const queue = orderDueQueue(batchIds, statsById);
 
   return {
     ...state,
@@ -176,31 +223,13 @@ export const advanceBatchIfComplete = (state: LearnState, allIds = state.allIds)
 export const submitAnswer = (state: LearnState, questionId: string, isCorrect: boolean): LearnState => {
   if (!questionId || state.sessionComplete) return state;
 
-  const existing = state.statsById[questionId] ?? defaultStats();
-  const updatedStats: LearnStats = {
-    ...existing,
-    attempts: existing.attempts + 1,
-    seen: true,
-    lastAnsweredAt: new Date().toISOString(),
-    correctStreak: isCorrect ? existing.correctStreak + 1 : 0,
-    incorrectCount: isCorrect ? existing.incorrectCount : existing.incorrectCount + 1
-  };
-  updatedStats.mastered = updatedStats.correctStreak >= state.masteryTarget;
+  const updated = applyWeightedResult(state, questionId, isCorrect);
+  const queue = orderDueQueue(state.batchIds, updated.statsById);
 
-  const statsById = {
-    ...state.statsById,
-    [questionId]: updatedStats
-  };
-
-  const restQueue = state.queue.filter((id, idx) => !(idx === 0 && id === questionId));
-  const shouldRequeue = !updatedStats.mastered;
-  const queue = shouldRequeue ? [...restQueue, questionId] : restQueue;
-
-  const reviewingMissed = queue.length > 0 && state.batchIds.every((id) => (statsById[id]?.seen ?? false));
+  const reviewingMissed = queue.length > 0 && state.batchIds.every((id) => (updated.statsById[id]?.seen ?? false));
 
   const intermediate: LearnState = {
-    ...state,
-    statsById,
+    ...updated,
     queue,
     reviewingMissed,
     currentQuestionId: queue[0] ?? null

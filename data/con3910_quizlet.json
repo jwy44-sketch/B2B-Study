@@ -1798,5 +1798,365 @@
     ],
     "correctIndex": 3,
     "source": "Quizlet CON 3910 Practice Exam"
+  },
+  {
+    "id": "con3910-151",
+    "question": "A unit needs office furniture estimated at $240,000. Market research shows multiple capable commercial vendors. What is the best contracting approach?",
+    "choices": [
+      "Sole source justification because time is limited",
+      "Use simplified acquisition procedures and seek competition",
+      "Use a cost-reimbursement contract due to market variability",
+      "Award a contract without quotes because it is under $250,000"
+    ],
+    "correctIndex": 1,
+    "source": "DAU-style Scenario Set"
+  },
+  {
+    "id": "con3910-152",
+    "question": "The requiring activity says “award immediately” due to mission urgency, but you identified several capable sources. What should you do?",
+    "choices": [
+      "Skip competition because urgency overrides FAR",
+      "Compete using a shortened response time and document urgency",
+      "Use an 8(a) sole source without checking thresholds",
+      "Award to the incumbent to avoid schedule risk"
+    ],
+    "correctIndex": 1,
+    "source": "DAU-style Scenario Set"
+  },
+  {
+    "id": "con3910-153",
+    "question": "After award, the contractor requests an added deliverable that increases scope and price. What is the correct contractual action?",
+    "choices": [
+      "Decline all changes after award to preserve integrity",
+      "Issue a bilateral modification reflecting scope/price change",
+      "Direct the change verbally and adjust later",
+      "Issue a unilateral mod without funds since work is needed"
+    ],
+    "correctIndex": 1,
+    "source": "DAU-style Scenario Set"
+  },
+  {
+    "id": "con3910-154",
+    "question": "Market research suggests only one responsible source because the requirement is proprietary and compatible only with a specific system. What should you prepare?",
+    "choices": [
+      "An IFB because it is the simplest",
+      "A competitive RFP to “prove” only one exists",
+      "A sole source justification with supporting market research",
+      "A contract modification to add the work to any existing contract"
+    ],
+    "correctIndex": 2,
+    "source": "DAU-style Scenario Set"
+  },
+  {
+    "id": "con3910-155",
+    "question": "A program office wants to exercise an option year. What must the CO do before exercising?",
+    "choices": [
+      "Exercise automatically if the option clause exists",
+      "Exercise only if funds are available; no other steps",
+      "Determine the option is still the best method and price is fair",
+      "Re-compete the requirement every option year by default"
+    ],
+    "correctIndex": 2,
+    "source": "DAU-style Scenario Set"
+  },
+  {
+    "id": "con3910-156",
+    "question": "The requirement’s labor hours are uncertain and the exact scope is evolving. Which contract type is most appropriate?",
+    "choices": [
+      "Firm-Fixed-Price",
+      "Time-and-Materials (with proper justification)",
+      "Sealed bidding",
+      "Basic ordering agreement with no ceiling"
+    ],
+    "correctIndex": 1,
+    "source": "DAU-style Scenario Set"
+  },
+  {
+    "id": "con3910-157",
+    "question": "A COR sees performance issues and wants the contractor to add extra work “to fix it.” What should the COR do?",
+    "choices": [
+      "Direct the contractor to perform the extra work immediately",
+      "Notify the contracting officer and document the issue",
+      "Modify the contract themselves because they are the COR",
+      "Withhold payment without CO involvement"
+    ],
+    "correctIndex": 1,
+    "source": "DAU-style Scenario Set"
+  },
+  {
+    "id": "con3910-158",
+    "question": "A requirement exceeds the SAT and the CO intends to evaluate technical approach and past performance, not just price. Which FAR part most directly governs the process?",
+    "choices": [
+      "FAR Part 12",
+      "FAR Part 13",
+      "FAR Part 15",
+      "FAR Part 18"
+    ],
+    "correctIndex": 2,
+    "source": "DAU-style Scenario Set"
+  },
+  {
+    "id": "con3910-159",
+    "question": "A vendor files a GAO protest alleging unequal treatment after award. What is the proper CO response?",
+    "choices": [
+      "Ignore it until GAO contacts you",
+      "Terminate the awarded contract immediately",
+      "Follow the protest procedures and coordinate required actions",
+      "Pay the protester’s proposal costs to end the dispute"
+    ],
+    "correctIndex": 2,
+    "source": "DAU-style Scenario Set"
+  },
+  {
+    "id": "con3910-160",
+    "question": "A requirement includes both a commercial software license and significant installation/training services. How should you determine the acquisition approach?",
+    "choices": [
+      "Split into two contracts every time supplies and services mix",
+      "Use the predominant purpose to choose the appropriate approach",
+      "Always use FAR Part 12 regardless of services complexity",
+      "Use simplified acquisition because it is easier to administer"
+    ],
+    "correctIndex": 1,
+    "source": "DAU-style Scenario Set"
+  },
+  {
+    "id": "con3910-161",
+    "question": "Before developing an acquisition strategy for a new requirement, what is the best first step to support a sound approach?",
+    "choices": [
+      "Draft the J&A in case it becomes sole source",
+      "Conduct and document market research",
+      "Choose a contract type based on preference",
+      "Select the incumbent to reduce risk"
+    ],
+    "correctIndex": 1,
+    "source": "DAU-style Scenario Set"
+  },
+  {
+    "id": "con3910-162",
+    "question": "For an action under SAT using FAR Part 13, what is a key expectation when soliciting?",
+    "choices": [
+      "Competition is never required under SAT",
+      "Promote competition to the maximum extent practicable",
+      "Only solicit from the incumbent vendor",
+      "Use sealed bidding procedures"
+    ],
+    "correctIndex": 1,
+    "source": "DAU-style Scenario Set"
+  },
+  {
+    "id": "con3910-163",
+    "question": "In a best-value tradeoff, the CO can select a higher-priced proposal if:",
+    "choices": [
+      "The CO prefers that contractor",
+      "The technical/past performance benefits justify the price premium",
+      "The low-price offeror is a small business",
+      "The RFP did not mention tradeoffs"
+    ],
+    "correctIndex": 1,
+    "source": "DAU-style Scenario Set"
+  },
+  {
+    "id": "con3910-164",
+    "question": "A requiring activity insists on cost-reimbursement to “reduce vendor risk” even though requirements are stable and performance risk is low. Best CO action?",
+    "choices": [
+      "Agree; cost reimbursement is always safer",
+      "Push for FFP as the preferred type when risk can be defined",
+      "Use T&M because it is easier",
+      "Award without determining type"
+    ],
+    "correctIndex": 1,
+    "source": "DAU-style Scenario Set"
+  },
+  {
+    "id": "con3910-165",
+    "question": "The team wants to limit competition to only one brand “because the user likes it.” Best contracting action?",
+    "choices": [
+      "Restrict to the brand without documentation",
+      "Require brand name or equal / justify restriction based on need",
+      "Skip market research",
+      "Use a sole source J&A citing preference"
+    ],
+    "correctIndex": 1,
+    "source": "DAU-style Scenario Set"
+  },
+  {
+    "id": "con3910-166",
+    "question": "Market research confirms the requirement can be met with commercial services offered competitively. Best approach?",
+    "choices": [
+      "Use FAR Part 12 procedures and terms appropriate to commercial services",
+      "Use sealed bidding",
+      "Use cost-reimbursement by default",
+      "Use FAR Part 13 only regardless of dollar value"
+    ],
+    "correctIndex": 0,
+    "source": "DAU-style Scenario Set"
+  },
+  {
+    "id": "con3910-167",
+    "question": "During evaluation, the team wants to change evaluation factors after proposals are received. Best action?",
+    "choices": [
+      "Change factors quietly and continue",
+      "Amend the solicitation and allow offerors to respond",
+      "Ignore the issue",
+      "Only tell the incumbent"
+    ],
+    "correctIndex": 1,
+    "source": "DAU-style Scenario Set"
+  },
+  {
+    "id": "con3910-168",
+    "question": "Program office asks to add a new requirement to an existing contract because “it’s faster,” but it’s outside scope. Best CO action?",
+    "choices": [
+      "Add it via mod anyway",
+      "Determine scope; if outside scope, pursue a new competitive action",
+      "Ask COR to direct the contractor",
+      "Add it and skip funds"
+    ],
+    "correctIndex": 1,
+    "source": "DAU-style Scenario Set"
+  },
+  {
+    "id": "con3910-169",
+    "question": "Requirement is urgent, but not sole source. What is an acceptable way to keep competition while moving fast?",
+    "choices": [
+      "Use oral solicitations without record",
+      "Shorten response times and document urgency and rationale",
+      "Award to any vendor who emails first",
+      "Avoid synopsis always"
+    ],
+    "correctIndex": 1,
+    "source": "DAU-style Scenario Set"
+  },
+  {
+    "id": "con3910-170",
+    "question": "A protest is filed and the team wants to keep performance going immediately. Best action?",
+    "choices": [
+      "Ignore the stay rules",
+      "Follow required protest actions (stay/override) with legal coordination",
+      "Terminate and re-award same day",
+      "Stop answering GAO"
+    ],
+    "correctIndex": 1,
+    "source": "DAU-style Scenario Set"
+  },
+  {
+    "id": "con3910-171",
+    "question": "What is a common deliverable that records market research results for the file?",
+    "choices": [
+      "An oral note only",
+      "A market research report/memo supporting acquisition decisions",
+      "A modification log",
+      "A protest letter"
+    ],
+    "correctIndex": 1,
+    "source": "DAU-style Scenario Set"
+  },
+  {
+    "id": "con3910-172",
+    "question": "Under FAR Part 13, a vendor asks why they weren’t solicited. Best answer/action?",
+    "choices": [
+      "“We only buy from incumbents”",
+      "Document vendor sources and ensure fair opportunity to the extent practicable",
+      "“No need to document”",
+      "“We can’t ever solicit new vendors”"
+    ],
+    "correctIndex": 1,
+    "source": "DAU-style Scenario Set"
+  },
+  {
+    "id": "con3910-173",
+    "question": "In discussions, CO should:",
+    "choices": [
+      "Reveal other offerors’ proprietary info to speed things up",
+      "Conduct meaningful discussions and treat offerors fairly",
+      "Only negotiate with the lowest price",
+      "Skip documenting discussions"
+    ],
+    "correctIndex": 1,
+    "source": "DAU-style Scenario Set"
+  },
+  {
+    "id": "con3910-174",
+    "question": "Program office wants a FFP contract but requirements are not defined enough to price. Best CO move?",
+    "choices": [
+      "Use FFP anyway and hope for the best",
+      "Improve requirements definition or choose a type that fits risk/uncertainty",
+      "Use cost type with no oversight",
+      "Award without a contract type decision"
+    ],
+    "correctIndex": 1,
+    "source": "DAU-style Scenario Set"
+  },
+  {
+    "id": "con3910-175",
+    "question": "Which is most consistent with FAR Part 12 for commercial services?",
+    "choices": [
+      "Use customary commercial terms when appropriate and minimize unique gov terms",
+      "Require cost accounting standards always",
+      "Use only sealed bidding formats",
+      "Use T&M for everything"
+    ],
+    "correctIndex": 0,
+    "source": "DAU-style Scenario Set"
+  },
+  {
+    "id": "con3910-176",
+    "question": "A bilateral mod is needed. What must be clear in the mod?",
+    "choices": [
+      "Nothing; signatures are enough",
+      "Scope change, price, schedule impact, and consideration",
+      "Only COR signature",
+      "Only verbal agreement"
+    ],
+    "correctIndex": 1,
+    "source": "DAU-style Scenario Set"
+  },
+  {
+    "id": "con3910-177",
+    "question": "The team wants to use “only one vendor can do it” but has no market research. Best first action?",
+    "choices": [
+      "Write the J&A immediately",
+      "Do market research and document results before concluding sole source",
+      "Skip and award",
+      "Ask the vendor to write justification"
+    ],
+    "correctIndex": 1,
+    "source": "DAU-style Scenario Set"
+  },
+  {
+    "id": "con3910-178",
+    "question": "CO selects a higher-priced proposal due to better past performance. What must the file reflect?",
+    "choices": [
+      "Nothing; CO discretion",
+      "Document the tradeoff rationale tied to evaluation criteria",
+      "Only email the winner",
+      "Remove the evaluation record"
+    ],
+    "correctIndex": 1,
+    "source": "DAU-style Scenario Set"
+  },
+  {
+    "id": "con3910-179",
+    "question": "If exercising an option is not in the Government’s best interest, the CO should:",
+    "choices": [
+      "Exercise anyway to avoid re-compete",
+      "Not exercise and plan an appropriate next acquisition action",
+      "Ask the contractor to reduce price after exercising",
+      "Extend without clause"
+    ],
+    "correctIndex": 1,
+    "source": "DAU-style Scenario Set"
+  },
+  {
+    "id": "con3910-180",
+    "question": "Contractor submits a written demand for money due to alleged government-caused delay. Best CO action?",
+    "choices": [
+      "Ignore until final invoice",
+      "Treat as a potential claim/dispute and follow FAR Part 33 processes",
+      "Pay immediately without analysis",
+      "Terminate for default"
+    ],
+    "correctIndex": 1,
+    "source": "DAU-style Scenario Set"
   }
 ]
