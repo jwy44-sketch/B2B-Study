@@ -28,7 +28,15 @@ export default function BankPage() {
         {topics.map((t) => <button key={t} onClick={() => setTopic(t)} className="mb-1 block text-left text-sm hover:text-brand">{t}</button>)}
       </aside>
       <section className="space-y-2">
-        <h1 className="text-2xl font-bold">Question Bank</h1>
+        <div className="flex flex-wrap items-center gap-2">
+          <h1 className="text-2xl font-bold">Question Bank</h1>
+          <a href="/api/question-bank/pdf" className="inline-flex items-center rounded-md border border-slate-600 px-3 py-2 text-sm hover:border-brand">
+            Download Question Bank (PDF)
+          </a>
+          <a href="/api/question-bank/pdf?includeAnswers=1&includeExplanations=1" className="inline-flex items-center rounded-md border border-slate-600 px-3 py-2 text-sm hover:border-brand">
+            Download (with answers)
+          </a>
+        </div>
         <div className="card flex gap-2">
           <input value={search} onChange={(e) => setSearch(e.target.value)} className="flex-1 bg-slate-800 p-2" placeholder="search" />
           <select value={sort} onChange={(e) => setSort(e.target.value)} className="bg-slate-800 p-2"><option value="default">default</option><option value="bookmarked">bookmarked first</option></select>
