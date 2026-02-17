@@ -10,7 +10,7 @@ const getDelayMs = (step: number) => {
 
 export const scheduleSrs = (stats: LearnStats, isCorrect: boolean, now = Date.now()): LearnStats => {
   const step = isCorrect ? (stats.intervalStep ?? 0) + 1 : 0;
-  const dueAt = new Date(now + getDelayMs(step)).toISOString();
+  const dueAt = now + getDelayMs(step);
   return {
     ...stats,
     intervalStep: step,
@@ -26,8 +26,8 @@ export const applySrsResult = (state: LearnState, questionId: string, isCorrect:
   const updated = scheduleSrs(current, isCorrect, now);
   const statsById = { ...state.statsById, [questionId]: updated };
   const queue = [...state.queue].sort((a, b) => {
-    const aDue = statsById[a]?.dueAt ? new Date(statsById[a].dueAt as string).getTime() : 0;
-    const bDue = statsById[b]?.dueAt ? new Date(statsById[b].dueAt as string).getTime() : 0;
+    const aDue = typeof statsById[a]?.dueAt === 'number' ? statsById[a].dueAt as number : 0;
+    const bDue = typeof statsById[b]?.dueAt === 'number' ? statsById[b].dueAt as number : 0;
     return aDue - bDue;
   });
 

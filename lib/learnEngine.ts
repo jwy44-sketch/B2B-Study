@@ -5,9 +5,9 @@ export type LearnStats = {
   mastered: boolean;
   seen: boolean;
   intervalStep?: number;
-  dueAt?: string;
+  dueAt?: number;
   lastResult?: 'correct' | 'wrong';
-  lastAnsweredAt?: string;
+  lastAnsweredAt?: number;
 };
 
 export type LearnState = {
@@ -40,9 +40,7 @@ const STEP_DELAYS_MS = [30_000, 120_000, 600_000];
 const WRONG_DELAY_MS = 20_000;
 
 const dueTime = (stats: LearnStats): number => {
-  if (!stats.dueAt) return 0;
-  const parsed = new Date(stats.dueAt).getTime();
-  return Number.isNaN(parsed) ? 0 : parsed;
+  return typeof stats.dueAt === 'number' ? stats.dueAt : 0;
 };
 
 const clampStep = (step: number): number => {
@@ -80,12 +78,12 @@ const applyWeightedResult = (
     attempts: existing.attempts + 1,
     seen: true,
     lastResult: isCorrect ? 'correct' : 'wrong',
-    lastAnsweredAt: new Date(now).toISOString(),
+    lastAnsweredAt: now,
     incorrectCount: isCorrect ? existing.incorrectCount : existing.incorrectCount + 1,
     correctStreak: nextCorrectStreak,
     mastered,
     intervalStep: nextStep,
-    dueAt: new Date(now + delayMs).toISOString()
+    dueAt: now + delayMs
   };
 
   return {
@@ -120,7 +118,7 @@ const withBatch = (state: LearnState): LearnState => {
     const existing = statsById[id] ?? defaultStats();
     statsById[id] = {
       ...existing,
-      dueAt: existing.dueAt ?? new Date().toISOString(),
+      dueAt: existing.dueAt ?? Date.now(),
       intervalStep: existing.intervalStep ?? 0
     };
   });

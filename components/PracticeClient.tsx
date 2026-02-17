@@ -129,6 +129,7 @@ export default function PracticeClient() {
         {incorrect.map((question) => {
           const farRef = inferFarRef(question.prompt);
           const explanation = buildExplanation({
+            questionId: question.id,
             questionText: question.prompt,
             options: [...question.choices],
             correctIndex: question.correctIndex,
@@ -140,7 +141,11 @@ export default function PracticeClient() {
             <div key={question.id} className="card space-y-1">
               <p className="font-semibold">{question.prompt}</p>
               <p>Correct answer: {question.choices[question.correctIndex]}</p>
-              <a className="text-sky-300 underline" href={farRef.url} target="_blank" rel="noopener noreferrer">Open FAR Part {farRef.part} on Acquisition.gov</a>
+              <a className="text-sky-300 underline" href={explanation.references.part.url} target="_blank" rel="noopener noreferrer">FAR Part {explanation.references.part.part} — {explanation.references.part.title}</a>
+              {explanation.references.subpart && <a className="block text-sky-300 underline" href={explanation.references.subpart.url} target="_blank" rel="noopener noreferrer">FAR Subpart {explanation.references.subpart.code} — {explanation.references.subpart.title}</a>}
+              {explanation.references.sections.map((section) => (
+                <a key={section.cite} className="block text-sky-300 underline" href={section.url} target="_blank" rel="noopener noreferrer">FAR {section.cite} — {section.title}</a>
+              ))}
               <p className="text-sm"><span className="font-semibold">Why this is correct:</span> {explanation.whyCorrect}</p>
             </div>
           );

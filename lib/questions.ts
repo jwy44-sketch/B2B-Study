@@ -1,5 +1,5 @@
 import rawQuestions from '@/data/con3910_quizlet.json';
-import { inferFarRef } from './farReferences';
+import { inferFarDetail, inferFarRef } from './farReferences';
 import { Question } from './types';
 
 type RawQuestion = {
@@ -38,8 +38,13 @@ function validateRawQuestions(items: RawQuestion[]): void {
 
 const toQuestion = (item: RawQuestion): Question => {
   const farRef = inferFarRef(item.question);
+  const farDetail = inferFarDetail(item.id, item.question);
   const correct = item.choices[item.correctIndex];
   const distractor = item.choices.find((_, idx) => idx !== item.correctIndex) ?? item.choices[0];
+  const sectionText = farDetail.sections.length
+    ? farDetail.sections.map((section) => `${section.cite} (${section.url})`).join('; ')
+    : 'No specific section link mapped.';
+  const subpartText = farDetail.subpart ? ` Subpart ${farDetail.subpart.code} (${farDetail.subpart.url}).` : '';
 
   return {
     id: item.id,
@@ -50,7 +55,7 @@ const toQuestion = (item: RawQuestion): Question => {
     session: 'General',
     farRefs: [`FAR Part ${farRef.part}`],
     explanation: {
-      whyCorrect: `FAR reference: FAR Part ${farRef.part} — ${farRef.title}. Link: ${farRef.url}. Why this is correct: “${correct}” aligns with the governing rule in this scenario and preserves compliance with required acquisition procedure.`,
+      whyCorrect: `FAR reference: FAR Part ${farRef.part} — ${farRef.title} (${farRef.url}).${subpartText} FAR sections: ${sectionText} Why this is correct: “${correct}” aligns with the governing rule in this scenario and preserves compliance with required acquisition procedure.`,
       keyTakeaway: `Key takeaway: Start with FAR Part ${farRef.part} and select the answer that directly matches the rule text and intent.`,
       commonTrap: `Why a common distractor is wrong: “${distractor}” may sound practical, but it does not satisfy the FAR requirement for this fact pattern.`
     },

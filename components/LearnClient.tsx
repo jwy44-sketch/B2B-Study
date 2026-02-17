@@ -180,6 +180,7 @@ export default function LearnClient() {
   if (mode === 'LOADING' || !engine || !presented || !farRef || !displayedMetrics) return <div>Loading...</div>;
 
   const explanation = buildExplanation({
+    questionId: presented.question.id,
     questionText: presented.question.prompt,
     options: presented.presentedChoices,
     correctIndex: presented.presentedCorrectIndex,
@@ -274,8 +275,20 @@ export default function LearnClient() {
         {mode === 'FEEDBACK' && (
           <motion.div initial={reduceMotion ? false : { y: 60, opacity: 0 }} animate={{ y: 0, opacity: 1 }} className="fixed inset-x-0 bottom-0 mx-auto max-w-4xl rounded-t-xl border border-slate-700 bg-slate-900 p-4">
             <p className="font-semibold">{isCorrect ? 'Correct' : 'Incorrect'}</p>
-            <p className="text-sm text-slate-300">FAR reference: {explanation.farLine}</p>
-            <a href={farRef.url} target="_blank" rel="noopener noreferrer" className="text-sm text-sky-300 underline">{explanation.linkLabel}</a>
+            <div className="text-sm text-slate-300">
+              <p>FAR reference:</p>
+              <a href={explanation.references.part.url} target="_blank" rel="noopener noreferrer" className="text-sky-300 underline">FAR Part {explanation.references.part.part} — {explanation.references.part.title}</a>
+              {explanation.references.subpart && (
+                <p>
+                  <a href={explanation.references.subpart.url} target="_blank" rel="noopener noreferrer" className="text-sky-300 underline">FAR Subpart {explanation.references.subpart.code} — {explanation.references.subpart.title}</a>
+                </p>
+              )}
+              {explanation.references.sections.map((section) => (
+                <p key={section.cite}>
+                  <a href={section.url} target="_blank" rel="noopener noreferrer" className="text-sky-300 underline">FAR {section.cite} — {section.title}</a>
+                </p>
+              ))}
+            </div>
             <p className="mt-2 text-sm text-slate-200"><span className="font-semibold">Why this is correct:</span> {explanation.whyCorrect}</p>
             <ul className="mt-1 list-disc pl-5 text-sm text-slate-300">
               {explanation.wrongBullets.map((item) => <li key={item}>{item}</li>)}
