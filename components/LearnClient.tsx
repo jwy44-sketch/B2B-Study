@@ -289,11 +289,17 @@ export default function LearnClient() {
                 </p>
               ))}
             </div>
+            <div className="mt-2 text-sm text-slate-200">
+              <p className="font-semibold">How to decide (DAU thinking):</p>
+              <ol className="list-decimal pl-5">
+                {explanation.decisionSteps.map((step) => <li key={step}>{step}</li>)}
+              </ol>
+            </div>
             <p className="mt-2 text-sm text-slate-200"><span className="font-semibold">Why this is correct:</span> {explanation.whyCorrect}</p>
             <ul className="mt-1 list-disc pl-5 text-sm text-slate-300">
-              {explanation.wrongBullets.map((item) => <li key={item}>{item}</li>)}
+              {explanation.whyOthersWrong.map((item) => <li key={`${item.choiceIndex}-${item.reason}`}>{String.fromCharCode(65 + item.choiceIndex)}: {item.reason}</li>)}
             </ul>
-            <p className="mt-1 text-sm text-slate-300"><span className="font-semibold">Key takeaway:</span> {explanation.keyTakeaway}</p>
+            <p className="mt-1 text-sm text-slate-300"><span className="font-semibold">Field tip:</span> {explanation.practicalTip}</p>
             <div className="mt-3 flex gap-2">
               <button className="btn" onClick={next}>Next (N / Enter)</button>
               <button className="rounded border border-slate-600 px-3 py-2 text-sm" onClick={resetProgress}>Reset Progress</button>

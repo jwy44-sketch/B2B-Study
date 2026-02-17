@@ -146,7 +146,15 @@ export default function PracticeClient() {
               {explanation.references.sections.map((section) => (
                 <a key={section.cite} className="block text-sky-300 underline" href={section.url} target="_blank" rel="noopener noreferrer">FAR {section.cite} — {section.title}</a>
               ))}
+              <p className="text-sm font-semibold">How to decide (DAU thinking):</p>
+              <ol className="list-decimal pl-5 text-sm">
+                {explanation.decisionSteps.map((step) => <li key={step}>{step}</li>)}
+              </ol>
               <p className="text-sm"><span className="font-semibold">Why this is correct:</span> {explanation.whyCorrect}</p>
+              <ul className="list-disc pl-5 text-sm text-slate-300">
+                {explanation.whyOthersWrong.map((item) => <li key={`${item.choiceIndex}-${item.reason}`}>{String.fromCharCode(65 + item.choiceIndex)}: {item.reason}</li>)}
+              </ul>
+              <p className="text-sm"><span className="font-semibold">Field tip:</span> {explanation.practicalTip}</p>
             </div>
           );
         })}
