@@ -1,9 +1,6 @@
 'use client';
 
 import { useEffect, useMemo, useState } from 'react';
-import { useSearchParams } from 'next/navigation';
-import { buildExplanation } from '@/lib/explanations';
-import { inferFarRef } from '@/lib/farReferences';
 import { computeDatasetVersion } from '@/lib/datasetVersion';
 import { recordQuestionResult, type LearnEngineState } from '@/lib/learnEngine';
 import { loadLearnSession, saveLearnSession } from '@/lib/learnPersistence';
@@ -12,7 +9,7 @@ import { loadQuestions } from '@/lib/questions';
 import type { Question } from '@/lib/types';
 
 export default function PracticeClient() {
-  const params = useSearchParams();
+  const [idFilter, setIdFilter] = useState<string | null>(null);
   const [questions, setQuestions] = useState<Question[]>([]);
   const [datasetVersion, setDatasetVersion] = useState('');
   const [learnEngine, setLearnEngine] = useState<LearnEngineState | null>(null);
@@ -23,6 +20,10 @@ export default function PracticeClient() {
   const [timeNow, setTimeNow] = useState(Date.now());
 
   useEffect(() => {
+    if (typeof window !== 'undefined') {
+      setIdFilter(new URLSearchParams(window.location.search).get('ids'));
+    }
+
     loadQuestions().then((loaded) => {
       setQuestions(loaded);
       setDatasetVersion(computeDatasetVersion(loaded));
@@ -43,11 +44,11 @@ export default function PracticeClient() {
   }, [learnEngine, datasetVersion]);
 
   const pool = useMemo(() => {
-    const singleIds = params.get('ids');
+    const singleIds = idFilter;
     if (!singleIds) return questions;
     const set = new Set(singleIds.split(','));
     return questions.filter((question) => set.has(question.id));
-  }, [questions, params]);
+  }, [questions, idFilter]);
 
   const byId = useMemo(() => new Map(questions.map((question) => [question.id, question])), [questions]);
   const currentId = session?.ids[session.index] ?? null;
@@ -127,34 +128,34 @@ export default function PracticeClient() {
         </div>
 
         {incorrect.map((question) => {
-          const farRef = inferFarRef(question.prompt);
-          const explanation = buildExplanation({
-            questionId: question.id,
-            questionText: question.prompt,
-            options: [...question.choices],
-            correctIndex: question.correctIndex,
-            selectedIndex: session.answers[question.id]?.selectedIndex ?? null,
-            farRef
-          });
+          const explanation = question.explanationRich;
 
           return (
             <div key={question.id} className="card space-y-1">
               <p className="font-semibold">{question.prompt}</p>
               <p>Correct answer: {question.choices[question.correctIndex]}</p>
-              <a className="text-sky-300 underline" href={explanation.references.part.url} target="_blank" rel="noopener noreferrer">FAR Part {explanation.references.part.part} — {explanation.references.part.title}</a>
-              {explanation.references.subpart && <a className="block text-sky-300 underline" href={explanation.references.subpart.url} target="_blank" rel="noopener noreferrer">FAR Subpart {explanation.references.subpart.code} — {explanation.references.subpart.title}</a>}
-              {explanation.references.sections.map((section) => (
-                <a key={section.cite} className="block text-sky-300 underline" href={section.url} target="_blank" rel="noopener noreferrer">FAR {section.cite} — {section.title}</a>
-              ))}
-              <p className="text-sm font-semibold">How to decide (DAU thinking):</p>
-              <ol className="list-decimal pl-5 text-sm">
-                {explanation.decisionSteps.map((step) => <li key={step}>{step}</li>)}
-              </ol>
-              <p className="text-sm"><span className="font-semibold">Why this is correct:</span> {explanation.whyCorrect}</p>
-              <ul className="list-disc pl-5 text-sm text-slate-300">
-                {explanation.whyOthersWrong.map((item) => <li key={`${item.choiceIndex}-${item.reason}`}>{String.fromCharCode(65 + item.choiceIndex)}: {item.reason}</li>)}
-              </ul>
-              <p className="text-sm"><span className="font-semibold">Field tip:</span> {explanation.practicalTip}</p>
+              {explanation ? (
+                <>
+                  <a className="text-sky-300 underline" href={explanation.farRefs.part.url} target="_blank" rel="noopener noreferrer">{explanation.farRefs.part.cite} — {explanation.farRefs.part.title}</a>
+                  {explanation.farRefs.subpart && <a className="block text-sky-300 underline" href={explanation.farRefs.subpart.url} target="_blank" rel="noopener noreferrer">{explanation.farRefs.subpart.cite} — {explanation.farRefs.subpart.title}</a>}
+                  {explanation.farRefs.sections.map((section) => (
+                    <a key={section.cite} className="block text-sky-300 underline" href={section.url} target="_blank" rel="noopener noreferrer">FAR {section.cite} — {section.title}</a>
+                  ))}
+                  <p className="text-sm font-semibold">What this tests:</p>
+                  <p className="text-sm">{explanation.whatThisTests}</p>
+                  <p className="text-sm font-semibold">How to decide (DAU thinking):</p>
+                  <ol className="list-decimal pl-5 text-sm">
+                    {explanation.decisionSteps.map((step) => <li key={step}>{step}</li>)}
+                  </ol>
+                  <p className="text-sm"><span className="font-semibold">Why this is correct:</span> {explanation.whyCorrect}</p>
+                  <ul className="list-disc pl-5 text-sm text-slate-300">
+                    {explanation.whyWrong.map((item) => <li key={`${item.choiceLabel}-${item.reason}`}>{item.choiceLabel}: {item.reason}</li>)}
+                  </ul>
+                  <p className="text-sm"><span className="font-semibold">Field tip:</span> {explanation.fieldTip}</p>
+                </>
+              ) : (
+                <p className="text-sm text-amber-200">Missing explanationRich for question id: {question.id}</p>
+              )}
             </div>
           );
         })}

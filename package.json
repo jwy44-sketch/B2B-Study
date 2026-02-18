@@ -8,7 +8,8 @@
     "start": "next start",
     "lint": "next lint",
     "test": "vitest run",
-    "check:explanations": "node --experimental-strip-types scripts/check-explanations.ts"
+    "check:explanations": "node --experimental-strip-types scripts/check-explanations.ts",
+    "embed:explanations": "node --experimental-strip-types scripts/embed-explanations.ts"
   },
   "dependencies": {
     "framer-motion": "^11.11.9",

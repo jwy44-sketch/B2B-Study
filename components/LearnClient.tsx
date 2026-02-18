@@ -1,10 +1,7 @@
 'use client';
 
 import { AnimatePresence, motion, useReducedMotion } from 'framer-motion';
-import { useSearchParams } from 'next/navigation';
 import { useCallback, useEffect, useMemo, useState } from 'react';
-import { buildExplanation } from '@/lib/explanations';
-import { inferFarRef } from '@/lib/farReferences';
 import { getBatchMetrics, restartLearnEngine, submitLearnAnswer, type LearnEngineState } from '@/lib/learnEngine';
 import { getModuleById } from '@/lib/modules';
 import { clearLearnSession, restoreOrInitializeLearnEngine, saveLearnSession } from '@/lib/learnPersistence';
@@ -23,7 +20,6 @@ const BATCH_SIZE = 10;
 const MASTERY_TARGET = 2;
 
 export default function LearnClient() {
-  const params = useSearchParams();
   const [mode, setMode] = useState<Mode>('LOADING');
   const [allQuestions, setAllQuestions] = useState<Question[]>([]);
   const [engine, setEngine] = useState<LearnEngineState | null>(null);
@@ -35,7 +31,13 @@ export default function LearnClient() {
   const [resumeNotice, setResumeNotice] = useState<string | null>(null);
   const [srsMode, setSrsMode] = useState(false);
   const reduceMotion = useReducedMotion();
-  const moduleId = params.get('module');
+  const [moduleId, setModuleId] = useState<string | null>(null);
+
+  useEffect(() => {
+    if (typeof window !== 'undefined') {
+      setModuleId(new URLSearchParams(window.location.search).get('module'));
+    }
+  }, []);
 
   useEffect(() => {
     loadQuestions().then((data) => {
@@ -77,8 +79,6 @@ export default function LearnClient() {
   const questionsById = useMemo(() => new Map(allQuestions.map((q) => [q.id, q])), [allQuestions]);
   const currentQuestion = engine?.currentQuestionId ? questionsById.get(engine.currentQuestionId) ?? null : null;
   const presented = useMemo(() => (currentQuestion ? presentQuestion(currentQuestion, { shuffleChoices: true }) : null), [currentQuestion]);
-  const farRef = useMemo(() => (presented ? inferFarRef(`${presented.question.prompt} ${presented.presentedChoices.join(' ')}`) : null), [presented]);
-
   const baseMetrics = useMemo(() => (engine ? getBatchMetrics(engine) : null), [engine]);
 
   const displayedMetrics = useMemo(() => {
@@ -177,16 +177,9 @@ export default function LearnClient() {
     return () => window.removeEventListener('keydown', onKey);
   }, [mode, onAnswer, next]);
 
-  if (mode === 'LOADING' || !engine || !presented || !farRef || !displayedMetrics) return <div>Loading...</div>;
+  if (mode === 'LOADING' || !engine || !presented || !displayedMetrics) return <div>Loading...</div>;
 
-  const explanation = buildExplanation({
-    questionId: presented.question.id,
-    questionText: presented.question.prompt,
-    options: presented.presentedChoices,
-    correctIndex: presented.presentedCorrectIndex,
-    selectedIndex,
-    farRef
-  });
+  const explanation = presented.question.explanationRich;
 
   return (
     <div>
@@ -275,31 +268,39 @@ export default function LearnClient() {
         {mode === 'FEEDBACK' && (
           <motion.div initial={reduceMotion ? false : { y: 60, opacity: 0 }} animate={{ y: 0, opacity: 1 }} className="fixed inset-x-0 bottom-0 mx-auto max-w-4xl rounded-t-xl border border-slate-700 bg-slate-900 p-4">
             <p className="font-semibold">{isCorrect ? 'Correct' : 'Incorrect'}</p>
-            <div className="text-sm text-slate-300">
-              <p>FAR reference:</p>
-              <a href={explanation.references.part.url} target="_blank" rel="noopener noreferrer" className="text-sky-300 underline">FAR Part {explanation.references.part.part} — {explanation.references.part.title}</a>
-              {explanation.references.subpart && (
-                <p>
-                  <a href={explanation.references.subpart.url} target="_blank" rel="noopener noreferrer" className="text-sky-300 underline">FAR Subpart {explanation.references.subpart.code} — {explanation.references.subpart.title}</a>
-                </p>
-              )}
-              {explanation.references.sections.map((section) => (
-                <p key={section.cite}>
-                  <a href={section.url} target="_blank" rel="noopener noreferrer" className="text-sky-300 underline">FAR {section.cite} — {section.title}</a>
-                </p>
-              ))}
-            </div>
-            <div className="mt-2 text-sm text-slate-200">
-              <p className="font-semibold">How to decide (DAU thinking):</p>
-              <ol className="list-decimal pl-5">
-                {explanation.decisionSteps.map((step) => <li key={step}>{step}</li>)}
-              </ol>
-            </div>
-            <p className="mt-2 text-sm text-slate-200"><span className="font-semibold">Why this is correct:</span> {explanation.whyCorrect}</p>
-            <ul className="mt-1 list-disc pl-5 text-sm text-slate-300">
-              {explanation.whyOthersWrong.map((item) => <li key={`${item.choiceIndex}-${item.reason}`}>{String.fromCharCode(65 + item.choiceIndex)}: {item.reason}</li>)}
-            </ul>
-            <p className="mt-1 text-sm text-slate-300"><span className="font-semibold">Field tip:</span> {explanation.practicalTip}</p>
+            {explanation ? (
+              <>
+                <div className="text-sm text-slate-300">
+                  <p>FAR references:</p>
+                  <a href={explanation.farRefs.part.url} target="_blank" rel="noopener noreferrer" className="text-sky-300 underline">{explanation.farRefs.part.cite} — {explanation.farRefs.part.title}</a>
+                  {explanation.farRefs.subpart && (
+                    <p>
+                      <a href={explanation.farRefs.subpart.url} target="_blank" rel="noopener noreferrer" className="text-sky-300 underline">{explanation.farRefs.subpart.cite} — {explanation.farRefs.subpart.title}</a>
+                    </p>
+                  )}
+                  {explanation.farRefs.sections.map((section) => (
+                    <p key={section.cite}>
+                      <a href={section.url} target="_blank" rel="noopener noreferrer" className="text-sky-300 underline">FAR {section.cite} — {section.title}</a>
+                    </p>
+                  ))}
+                </div>
+                <div className="mt-2 text-sm text-slate-200">
+                  <p className="font-semibold">What this tests:</p>
+                  <p>{explanation.whatThisTests}</p>
+                  <p className="mt-2 font-semibold">How to decide (DAU thinking):</p>
+                  <ol className="list-decimal pl-5">
+                    {explanation.decisionSteps.map((step) => <li key={step}>{step}</li>)}
+                  </ol>
+                </div>
+                <p className="mt-2 text-sm text-slate-200"><span className="font-semibold">Why this is correct:</span> {explanation.whyCorrect}</p>
+                <ul className="mt-1 list-disc pl-5 text-sm text-slate-300">
+                  {explanation.whyWrong.map((item) => <li key={`${item.choiceLabel}-${item.reason}`}>{item.choiceLabel}: {item.reason}</li>)}
+                </ul>
+                <p className="mt-1 text-sm text-slate-300"><span className="font-semibold">Field tip:</span> {explanation.fieldTip}</p>
+              </>
+            ) : (
+              <p className="text-sm text-amber-200">Missing explanationRich for question id: {presented.question.id}</p>
+            )}
             <div className="mt-3 flex gap-2">
               <button className="btn" onClick={next}>Next (N / Enter)</button>
               <button className="rounded border border-slate-600 px-3 py-2 text-sm" onClick={resetProgress}>Reset Progress</button>
