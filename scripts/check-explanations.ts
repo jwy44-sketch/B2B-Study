@@ -20,6 +20,7 @@ function isValidFarPartUrl(url: string | undefined): boolean {
   if (!url) return false;
   if (url.startsWith('https://www.acquisition.gov/far/part-')) return true;
   if (url.startsWith('https://www.acquisition.gov/dfars')) return true;
+  if (url === 'https://www.acquisition.gov/browse/index/far') return true;
   return false;
 }
 

@@ -610,53 +610,64 @@
   },
   {
     "id": "con3910-014",
-    "question": "A program manager asked John whether a contract clause is only used in the contract or if it applies to the solicitation as well. John correctly answered by replying with which of the following statements?",
+    "question": "Which statement about FAR clauses is correct?",
     "choices": [
-      "A contract clause only applies after contract award",
-      "A contract clause applies unless superseded by a solicitation provision",
-      "A contract clause is a term or condition used in contracts, or in both solicitations and contracts, that applies after contract award or both before and after award",
-      "A contract clause is a term or condition used in contracts and solicitations unless the resulting contract is for a commercial item."
+      "Clauses apply only to solicitations",
+      "Clauses are optional guidance and never binding",
+      "Clauses are contract terms that generally apply after award",
+      "Clauses are the same as provisions"
     ],
     "correctIndex": 2,
     "source": "Quizlet CON 3910 Practice Exam",
     "explanationRich": {
       "farRefs": {
         "part": {
-          "cite": "FAR Part 1",
-          "title": "Federal Acquisition Regulations System",
-          "url": "https://www.acquisition.gov/far/part-1"
+          "cite": "FAR Part 52",
+          "title": "Solicitation Provisions and Contract Clauses",
+          "url": "https://www.acquisition.gov/far/part-52"
         },
-        "sections": []
+        "sections": [
+          {
+            "cite": "FAR 2.101",
+            "title": "Definitions (Clause/Provision)",
+            "url": "https://www.acquisition.gov/far/2.101"
+          },
+          {
+            "cite": "FAR 52.101",
+            "title": "Using Part 52",
+            "url": "https://www.acquisition.gov/far/52.101"
+          }
+        ]
       },
-      "whatThisTests": "This question tests whether you can connect the stem language to FAR Part 1 and pick the answer that satisfies the rule condition.",
+      "whatThisTests": "Distinguishing solicitation provisions (pre-award) from contract clauses (post-award terms).",
       "decisionSteps": [
-        "Identify the trigger phrase in the stem (e.g., \u201cA program manager asked John whether a contract clause is only used in\u201d).",
-        "Match that trigger to the FAR rule that governs authority, process, or documentation.",
-        "Select the option that follows the required sequence and can be defended in the contract file."
+        "Identify whether you are in solicitation stage or contract stage.",
+        "If it guides offeror responses: it\u2019s a provision.",
+        "If it creates enforceable duties/rights after award: it\u2019s a clause."
       ],
-      "whyCorrect": "Choice C is correct because it directly answers the stem requirement and aligns with FAR Part 1. The distractors either skip a required check, rely on someone without authority, or treat convenience as a substitute for procedure. In exam terms, this option is the only one that remains valid when you test it against both the scenario wording and the governing FAR rule.",
+      "whyCorrect": "Clauses are contractual terms incorporated into the contract and create enforceable obligations between the parties. Provisions are primarily pre-award instructions or representations. The key test is whether it governs performance after award.",
       "whyWrong": [
         {
           "choiceLabel": "A",
-          "reason": "This option sounds plausible, but \u201cA contract clause only applies after contract award\u201d conflicts with the condition in the question or omits a required FAR step."
+          "reason": "Solicitations contain provisions; clauses are contract terms (even if included in the solicitation, they govern the resulting contract)."
         },
         {
-          "choiceLabel": "B",
-          "reason": "This option sounds plausible, but \u201cA contract clause applies unless superseded by a solicitation provision\u201d conflicts with the condition in the question or omits a required FAR step."
+          "choiceLabel": "D",
+          "reason": "FAR distinguishes the two: provisions solicit/shape offers; clauses govern contract performance."
         }
       ],
-      "fieldTip": "Capture a one-paragraph rationale in the file: quote the stem trigger, cite FAR Part 1, and explain why choice C was selected over the closest alternative."
+      "fieldTip": "When building your bank/UI, label them correctly\u2014mixing clauses/provisions is a common training pitfall and creates real compliance mistakes."
     },
-    "explanation": "FAR References:\n- FAR Part 1 \u2014 Federal Acquisition Regulations System (https://www.acquisition.gov/far/part-1)\n\nWhat this tests: This question tests whether you can connect the stem language to FAR Part 1 and pick the answer that satisfies the rule condition.\n\nHow to decide:\n1) Identify the trigger phrase in the stem (e.g., \u201cA program manager asked John whether a contract clause is only used in\u201d).\n2) Match that trigger to the FAR rule that governs authority, process, or documentation.\n3) Select the option that follows the required sequence and can be defended in the contract file.\n\nWhy the correct answer works: Choice C is correct because it directly answers the stem requirement and aligns with FAR Part 1. The distractors either skip a required check, rely on someone without authority, or treat convenience as a substitute for procedure. In exam terms, this option is the only one that remains valid when you test it against both the scenario wording and the governing FAR rule.\n\nWhy other options fail:\nA: This option sounds plausible, but \u201cA contract clause only applies after contract award\u201d conflicts with the condition in the question or omits a required FAR step.\nB: This option sounds plausible, but \u201cA contract clause applies unless superseded by a solicitation provision\u201d conflicts with the condition in the question or omits a required FAR step.\n\nField tip: Capture a one-paragraph rationale in the file: quote the stem trigger, cite FAR Part 1, and explain why choice C was selected over the closest alternative."
+    "explanation": "FAR References:\n- FAR Part 52 \u2014 Solicitation Provisions and Contract Clauses (https://www.acquisition.gov/far/part-52)\n- FAR 2.101 \u2014 Definitions (Clause/Provision) (https://www.acquisition.gov/far/2.101)\n- FAR 52.101 \u2014 Using Part 52 (https://www.acquisition.gov/far/52.101)\n\nWhat this tests: Distinguishing solicitation provisions (pre-award) from contract clauses (post-award terms).\n\nHow to decide:\n1) Identify whether you are in solicitation stage or contract stage.\n2) If it guides offeror responses: it\u2019s a provision.\n3) If it creates enforceable duties/rights after award: it\u2019s a clause.\n\nWhy the correct answer works: Clauses are contractual terms incorporated into the contract and create enforceable obligations between the parties. Provisions are primarily pre-award instructions or representations. The key test is whether it governs performance after award.\n\nWhy other options fail:\nA: Solicitations contain provisions; clauses are contract terms (even if included in the solicitation, they govern the resulting contract).\nD: FAR distinguishes the two: provisions solicit/shape offers; clauses govern contract performance.\n\nField tip: When building your bank/UI, label them correctly\u2014mixing clauses/provisions is a common training pitfall and creates real compliance mistakes."
   },
   {
     "id": "con3910-015",
-    "question": "A contractor failed to deliver a commercial item within the time specified by the contract. As the Government contracting officer, you plan to terminate the contract. What type of termination would you proceed with?",
+    "question": "Late delivery on a commercial item contract would result in which termination type?",
     "choices": [
-      "Termination for Convenience",
       "Termination for Default",
+      "Termination for Convenience",
       "Termination for Cause",
-      "Termination for Late Deliveries - Commercial/Noncommercial"
+      "No termination is allowed for commercial items"
     ],
     "correctIndex": 2,
     "source": "Quizlet CON 3910 Practice Exam",
@@ -669,41 +680,41 @@
         },
         "sections": [
           {
-            "cite": "FAR 12.102",
-            "title": "Applicability",
-            "url": "https://www.acquisition.gov/far/12.102"
+            "cite": "FAR 12.403",
+            "title": "Termination",
+            "url": "https://www.acquisition.gov/far/12.403"
           }
         ]
       },
-      "whatThisTests": "This question tests whether you can connect the stem language to FAR Part 12 and pick the answer that satisfies the rule condition.",
+      "whatThisTests": "Commercial item terminations use \u2018for cause\u2019 instead of traditional \u2018default\u2019 terminology.",
       "decisionSteps": [
-        "Identify the trigger phrase in the stem (e.g., \u201cA contractor failed to deliver a commercial item within the time speci\u201d).",
-        "Match that trigger to the FAR rule that governs authority, process, or documentation.",
-        "Select the option that follows the required sequence and can be defended in the contract file."
+        "Confirm the contract is a Part 12 commercial item contract.",
+        "Use Part 12 termination framework and clause language.",
+        "Match the terminology used for contractor failure to perform."
       ],
-      "whyCorrect": "Choice C is correct because it directly answers the stem requirement and aligns with FAR Part 12. The distractors either skip a required check, rely on someone without authority, or treat convenience as a substitute for procedure. In exam terms, this option is the only one that remains valid when you test it against both the scenario wording and the governing FAR rule.",
+      "whyCorrect": "For commercial item contracts, the Government uses termination \u2018for cause\u2019 (not \u2018default\u2019) when the contractor fails to comply with contract terms such as delivery. The concept is similar, but the Part 12 framework uses distinct language.",
       "whyWrong": [
         {
           "choiceLabel": "A",
-          "reason": "This option sounds plausible, but \u201cTermination for Convenience\u201d conflicts with the condition in the question or omits a required FAR step."
+          "reason": "\u2018Default\u2019 is the classic Part 49 term; Part 12 uses \u2018for cause\u2019 for commercial item failures."
         },
         {
-          "choiceLabel": "B",
-          "reason": "This option sounds plausible, but \u201cTermination for Default\u201d conflicts with the condition in the question or omits a required FAR step."
+          "choiceLabel": "D",
+          "reason": "Commercial item contracts can absolutely be terminated; Part 12 provides the mechanism."
         }
       ],
-      "fieldTip": "Capture a one-paragraph rationale in the file: quote the stem trigger, cite FAR Part 12 and FAR 12.102, and explain why choice C was selected over the closest alternative."
+      "fieldTip": "If you\u2019re training users, highlight the terminology difference: commercial = \u2018cause\u2019 even when the facts look like a classic default situation."
     },
-    "explanation": "FAR References:\n- FAR Part 12 \u2014 Acquisition of Commercial Products and Commercial Services (https://www.acquisition.gov/far/part-12)\n- FAR 12.102 \u2014 Applicability (https://www.acquisition.gov/far/12.102)\n\nWhat this tests: This question tests whether you can connect the stem language to FAR Part 12 and pick the answer that satisfies the rule condition.\n\nHow to decide:\n1) Identify the trigger phrase in the stem (e.g., \u201cA contractor failed to deliver a commercial item within the time speci\u201d).\n2) Match that trigger to the FAR rule that governs authority, process, or documentation.\n3) Select the option that follows the required sequence and can be defended in the contract file.\n\nWhy the correct answer works: Choice C is correct because it directly answers the stem requirement and aligns with FAR Part 12. The distractors either skip a required check, rely on someone without authority, or treat convenience as a substitute for procedure. In exam terms, this option is the only one that remains valid when you test it against both the scenario wording and the governing FAR rule.\n\nWhy other options fail:\nA: This option sounds plausible, but \u201cTermination for Convenience\u201d conflicts with the condition in the question or omits a required FAR step.\nB: This option sounds plausible, but \u201cTermination for Default\u201d conflicts with the condition in the question or omits a required FAR step.\n\nField tip: Capture a one-paragraph rationale in the file: quote the stem trigger, cite FAR Part 12 and FAR 12.102, and explain why choice C was selected over the closest alternative."
+    "explanation": "FAR References:\n- FAR Part 12 \u2014 Acquisition of Commercial Products and Commercial Services (https://www.acquisition.gov/far/part-12)\n- FAR 12.403 \u2014 Termination (https://www.acquisition.gov/far/12.403)\n\nWhat this tests: Commercial item terminations use \u2018for cause\u2019 instead of traditional \u2018default\u2019 terminology.\n\nHow to decide:\n1) Confirm the contract is a Part 12 commercial item contract.\n2) Use Part 12 termination framework and clause language.\n3) Match the terminology used for contractor failure to perform.\n\nWhy the correct answer works: For commercial item contracts, the Government uses termination \u2018for cause\u2019 (not \u2018default\u2019) when the contractor fails to comply with contract terms such as delivery. The concept is similar, but the Part 12 framework uses distinct language.\n\nWhy other options fail:\nA: \u2018Default\u2019 is the classic Part 49 term; Part 12 uses \u2018for cause\u2019 for commercial item failures.\nD: Commercial item contracts can absolutely be terminated; Part 12 provides the mechanism.\n\nField tip: If you\u2019re training users, highlight the terminology difference: commercial = \u2018cause\u2019 even when the facts look like a classic default situation."
   },
   {
     "id": "con3910-016",
-    "question": "Which FAR part sets forth the basic policies and general information about the Federal Acquisition Regulations System?",
+    "question": "Which FAR part contains basic policies and the FAR system overview?",
     "choices": [
-      "FAR part 1",
-      "FAR part 2",
-      "FAR part 52",
-      "FAR part 53"
+      "FAR Part 1",
+      "FAR Part 3",
+      "FAR Part 5",
+      "FAR Part 12"
     ],
     "correctIndex": 0,
     "source": "Quizlet CON 3910 Practice Exam",
@@ -716,35 +727,35 @@
         },
         "sections": []
       },
-      "whatThisTests": "This question tests whether you can connect the stem language to FAR Part 1 and pick the answer that satisfies the rule condition.",
+      "whatThisTests": "Knowing where foundational FAR policy and system rules live.",
       "decisionSteps": [
-        "Identify the trigger phrase in the stem (e.g., \u201cWhich FAR part sets forth the basic policies and general information a\u201d).",
-        "Match that trigger to the FAR rule that governs authority, process, or documentation.",
-        "Select the option that follows the required sequence and can be defended in the contract file."
+        "If the question is about FAR structure/authority/policy, start with Part 1.",
+        "Part 1 drives how the FAR is organized and used.",
+        "Then apply the specific part for the acquisition topic."
       ],
-      "whyCorrect": "Choice A is correct because it directly answers the stem requirement and aligns with FAR Part 1. The distractors either skip a required check, rely on someone without authority, or treat convenience as a substitute for procedure. In exam terms, this option is the only one that remains valid when you test it against both the scenario wording and the governing FAR rule.",
+      "whyCorrect": "Part 1 sets the structure of the FAR system\u2014authority, purpose, roles, and guiding principles. It\u2019s the \u2018how the FAR works\u2019 part.",
       "whyWrong": [
         {
           "choiceLabel": "B",
-          "reason": "This option sounds plausible, but \u201cFAR part 2\u201d conflicts with the condition in the question or omits a required FAR step."
+          "reason": "Part 3 is about improper business practices and personal conflicts\u2014important, but not the FAR system overview."
         },
         {
           "choiceLabel": "C",
-          "reason": "This option sounds plausible, but \u201cFAR part 52\u201d conflicts with the condition in the question or omits a required FAR step."
+          "reason": "Part 5 focuses on publicizing contract actions, not the FAR system framework."
         }
       ],
-      "fieldTip": "Capture a one-paragraph rationale in the file: quote the stem trigger, cite FAR Part 1, and explain why choice A was selected over the closest alternative."
+      "fieldTip": "If you\u2019re stuck on a \u2018policy\u2019 question, Part 1 is often the fastest first stop."
     },
-    "explanation": "FAR References:\n- FAR Part 1 \u2014 Federal Acquisition Regulations System (https://www.acquisition.gov/far/part-1)\n\nWhat this tests: This question tests whether you can connect the stem language to FAR Part 1 and pick the answer that satisfies the rule condition.\n\nHow to decide:\n1) Identify the trigger phrase in the stem (e.g., \u201cWhich FAR part sets forth the basic policies and general information a\u201d).\n2) Match that trigger to the FAR rule that governs authority, process, or documentation.\n3) Select the option that follows the required sequence and can be defended in the contract file.\n\nWhy the correct answer works: Choice A is correct because it directly answers the stem requirement and aligns with FAR Part 1. The distractors either skip a required check, rely on someone without authority, or treat convenience as a substitute for procedure. In exam terms, this option is the only one that remains valid when you test it against both the scenario wording and the governing FAR rule.\n\nWhy other options fail:\nB: This option sounds plausible, but \u201cFAR part 2\u201d conflicts with the condition in the question or omits a required FAR step.\nC: This option sounds plausible, but \u201cFAR part 52\u201d conflicts with the condition in the question or omits a required FAR step.\n\nField tip: Capture a one-paragraph rationale in the file: quote the stem trigger, cite FAR Part 1, and explain why choice A was selected over the closest alternative."
+    "explanation": "FAR References:\n- FAR Part 1 \u2014 Federal Acquisition Regulations System (https://www.acquisition.gov/far/part-1)\n\nWhat this tests: Knowing where foundational FAR policy and system rules live.\n\nHow to decide:\n1) If the question is about FAR structure/authority/policy, start with Part 1.\n2) Part 1 drives how the FAR is organized and used.\n3) Then apply the specific part for the acquisition topic.\n\nWhy the correct answer works: Part 1 sets the structure of the FAR system\u2014authority, purpose, roles, and guiding principles. It\u2019s the \u2018how the FAR works\u2019 part.\n\nWhy other options fail:\nB: Part 3 is about improper business practices and personal conflicts\u2014important, but not the FAR system overview.\nC: Part 5 focuses on publicizing contract actions, not the FAR system framework.\n\nField tip: If you\u2019re stuck on a \u2018policy\u2019 question, Part 1 is often the fastest first stop."
   },
   {
     "id": "con3910-017",
-    "question": "Which of the following statements best conveys the convention at FAR 1.108(b) delegation of authority?",
+    "question": "FAR 1.108(b) establishes what convention regarding delegations?",
     "choices": [
-      "Authority is not delegable",
-      "Each authority is delegable down to no lower than one level above the contracting officer",
-      "No authority is delegable unless specifically stated otherwise",
-      "Each authority is delegable unless specifically stated otherwise"
+      "Authorities are never delegable",
+      "Authorities are delegable only with Congressional approval",
+      "Authorities are delegable only to CORs",
+      "Authorities are delegable unless specifically stated otherwise"
     ],
     "correctIndex": 3,
     "source": "Quizlet CON 3910 Practice Exam",
@@ -755,201 +766,225 @@
           "title": "Federal Acquisition Regulations System",
           "url": "https://www.acquisition.gov/far/part-1"
         },
-        "sections": []
+        "sections": [
+          {
+            "cite": "FAR 1.108",
+            "title": "Words and terms",
+            "url": "https://www.acquisition.gov/far/1.108"
+          }
+        ]
       },
-      "whatThisTests": "This question tests whether you can connect the stem language to FAR Part 1 and pick the answer that satisfies the rule condition.",
+      "whatThisTests": "Default interpretive rule on delegations unless FAR explicitly restricts delegation.",
       "decisionSteps": [
-        "Identify the trigger phrase in the stem (e.g., \u201cWhich of the following statements best conveys the convention at FAR 1\u201d).",
-        "Match that trigger to the FAR rule that governs authority, process, or documentation.",
-        "Select the option that follows the required sequence and can be defended in the contract file."
+        "Look for the default rule on delegations.",
+        "Assume delegable unless the FAR says \u2018nondelegable\u2019 or specifies restrictions.",
+        "Then check agency policy for internal routing."
       ],
-      "whyCorrect": "Choice D is correct because it directly answers the stem requirement and aligns with FAR Part 1. The distractors either skip a required check, rely on someone without authority, or treat convenience as a substitute for procedure. In exam terms, this option is the only one that remains valid when you test it against both the scenario wording and the governing FAR rule.",
+      "whyCorrect": "FAR 1.108(b) provides the default delegation convention: authority is delegable unless specifically stated otherwise. This prevents assumptions that every authority is locked to one role.",
       "whyWrong": [
         {
           "choiceLabel": "A",
-          "reason": "This option sounds plausible, but \u201cAuthority is not delegable\u201d conflicts with the condition in the question or omits a required FAR step."
+          "reason": "The FAR does not create a blanket ban on delegations; many authorities are delegable."
         },
         {
-          "choiceLabel": "B",
-          "reason": "This option sounds plausible, but \u201cEach authority is delegable down to no lower than one level above the contracting officer\u201d conflicts with the condition in the question or omits a required FAR step."
+          "choiceLabel": "C",
+          "reason": "CORs generally do not receive contracting authority; delegations typically stay within contracting chain."
         }
       ],
-      "fieldTip": "Capture a one-paragraph rationale in the file: quote the stem trigger, cite FAR Part 1, and explain why choice D was selected over the closest alternative."
+      "fieldTip": "In practice: even if delegable, your organization may still require CO/CC-level coordination\u2014don\u2019t confuse FAR delegability with local policy."
     },
-    "explanation": "FAR References:\n- FAR Part 1 \u2014 Federal Acquisition Regulations System (https://www.acquisition.gov/far/part-1)\n\nWhat this tests: This question tests whether you can connect the stem language to FAR Part 1 and pick the answer that satisfies the rule condition.\n\nHow to decide:\n1) Identify the trigger phrase in the stem (e.g., \u201cWhich of the following statements best conveys the convention at FAR 1\u201d).\n2) Match that trigger to the FAR rule that governs authority, process, or documentation.\n3) Select the option that follows the required sequence and can be defended in the contract file.\n\nWhy the correct answer works: Choice D is correct because it directly answers the stem requirement and aligns with FAR Part 1. The distractors either skip a required check, rely on someone without authority, or treat convenience as a substitute for procedure. In exam terms, this option is the only one that remains valid when you test it against both the scenario wording and the governing FAR rule.\n\nWhy other options fail:\nA: This option sounds plausible, but \u201cAuthority is not delegable\u201d conflicts with the condition in the question or omits a required FAR step.\nB: This option sounds plausible, but \u201cEach authority is delegable down to no lower than one level above the contracting officer\u201d conflicts with the condition in the question or omits a required FAR step.\n\nField tip: Capture a one-paragraph rationale in the file: quote the stem trigger, cite FAR Part 1, and explain why choice D was selected over the closest alternative."
+    "explanation": "FAR References:\n- FAR Part 1 \u2014 Federal Acquisition Regulations System (https://www.acquisition.gov/far/part-1)\n- FAR 1.108 \u2014 Words and terms (https://www.acquisition.gov/far/1.108)\n\nWhat this tests: Default interpretive rule on delegations unless FAR explicitly restricts delegation.\n\nHow to decide:\n1) Look for the default rule on delegations.\n2) Assume delegable unless the FAR says \u2018nondelegable\u2019 or specifies restrictions.\n3) Then check agency policy for internal routing.\n\nWhy the correct answer works: FAR 1.108(b) provides the default delegation convention: authority is delegable unless specifically stated otherwise. This prevents assumptions that every authority is locked to one role.\n\nWhy other options fail:\nA: The FAR does not create a blanket ban on delegations; many authorities are delegable.\nC: CORs generally do not receive contracting authority; delegations typically stay within contracting chain.\n\nField tip: In practice: even if delegable, your organization may still require CO/CC-level coordination\u2014don\u2019t confuse FAR delegability with local policy."
   },
   {
     "id": "con3910-018",
-    "question": "How many parts are there in the FAR?",
+    "question": "How many FAR parts are there?",
     "choices": [
       "52",
       "53",
-      "2",
-      "10"
+      "48",
+      "60"
     ],
     "correctIndex": 1,
     "source": "Quizlet CON 3910 Practice Exam",
     "explanationRich": {
       "farRefs": {
         "part": {
-          "cite": "FAR Part 1",
-          "title": "Federal Acquisition Regulations System",
-          "url": "https://www.acquisition.gov/far/part-1"
+          "cite": "FAR Structure",
+          "title": "FAR Parts Index",
+          "url": "https://www.acquisition.gov/browse/index/far"
         },
         "sections": []
       },
-      "whatThisTests": "This question tests whether you can connect the stem language to FAR Part 1 and pick the answer that satisfies the rule condition.",
+      "whatThisTests": "Basic FAR structure knowledge.",
       "decisionSteps": [
-        "Identify the trigger phrase in the stem (e.g., \u201cHow many parts are there in the FAR?\u201d).",
-        "Match that trigger to the FAR rule that governs authority, process, or documentation.",
-        "Select the option that follows the required sequence and can be defended in the contract file."
+        "Recall FAR is organized into Parts 1 through 53.",
+        "Avoid confusing Part count with clause count or subpart count.",
+        "Use FAR index as the verification source."
       ],
-      "whyCorrect": "Choice B is correct because it directly answers the stem requirement and aligns with FAR Part 1. The distractors either skip a required check, rely on someone without authority, or treat convenience as a substitute for procedure. In exam terms, this option is the only one that remains valid when you test it against both the scenario wording and the governing FAR rule.",
+      "whyCorrect": "The FAR is organized into 53 parts (Part 1 through Part 53). The browse index confirms the structure.",
       "whyWrong": [
         {
           "choiceLabel": "A",
-          "reason": "This option sounds plausible, but \u201c52\u201d conflicts with the condition in the question or omits a required FAR step."
+          "reason": "52 is a common distractor because Part 52 exists and contains many clauses, but the FAR has 53 parts total."
         },
         {
-          "choiceLabel": "C",
-          "reason": "This option sounds plausible, but \u201c2\u201d conflicts with the condition in the question or omits a required FAR step."
+          "choiceLabel": "D",
+          "reason": "60 sounds plausible but does not match FAR\u2019s actual part structure."
         }
       ],
-      "fieldTip": "Capture a one-paragraph rationale in the file: quote the stem trigger, cite FAR Part 1, and explain why choice B was selected over the closest alternative."
+      "fieldTip": "Teach learners: Part 52 is clauses; Part 53 is forms\u2014together they help remember the \u201853 parts\u2019 fact."
     },
-    "explanation": "FAR References:\n- FAR Part 1 \u2014 Federal Acquisition Regulations System (https://www.acquisition.gov/far/part-1)\n\nWhat this tests: This question tests whether you can connect the stem language to FAR Part 1 and pick the answer that satisfies the rule condition.\n\nHow to decide:\n1) Identify the trigger phrase in the stem (e.g., \u201cHow many parts are there in the FAR?\u201d).\n2) Match that trigger to the FAR rule that governs authority, process, or documentation.\n3) Select the option that follows the required sequence and can be defended in the contract file.\n\nWhy the correct answer works: Choice B is correct because it directly answers the stem requirement and aligns with FAR Part 1. The distractors either skip a required check, rely on someone without authority, or treat convenience as a substitute for procedure. In exam terms, this option is the only one that remains valid when you test it against both the scenario wording and the governing FAR rule.\n\nWhy other options fail:\nA: This option sounds plausible, but \u201c52\u201d conflicts with the condition in the question or omits a required FAR step.\nC: This option sounds plausible, but \u201c2\u201d conflicts with the condition in the question or omits a required FAR step.\n\nField tip: Capture a one-paragraph rationale in the file: quote the stem trigger, cite FAR Part 1, and explain why choice B was selected over the closest alternative."
+    "explanation": "FAR References:\n- FAR Structure \u2014 FAR Parts Index (https://www.acquisition.gov/browse/index/far)\n\nWhat this tests: Basic FAR structure knowledge.\n\nHow to decide:\n1) Recall FAR is organized into Parts 1 through 53.\n2) Avoid confusing Part count with clause count or subpart count.\n3) Use FAR index as the verification source.\n\nWhy the correct answer works: The FAR is organized into 53 parts (Part 1 through Part 53). The browse index confirms the structure.\n\nWhy other options fail:\nA: 52 is a common distractor because Part 52 exists and contains many clauses, but the FAR has 53 parts total.\nD: 60 sounds plausible but does not match FAR\u2019s actual part structure.\n\nField tip: Teach learners: Part 52 is clauses; Part 53 is forms\u2014together they help remember the \u201853 parts\u2019 fact."
   },
   {
     "id": "con3910-019",
-    "question": "What is a Procurement Instrument Identifier (PIID)?",
+    "question": "What is a PIID?",
     "choices": [
-      "A unique number identifying a contract",
-      "A unique number identifying a policy to a contract clause",
-      "A unique number identifying a funding document",
-      "A unique number identifying each solicitation, contract, agreement, or order and related procurement instrument"
+      "A vendor registration number",
+      "A payment identifier used only in WAWF",
+      "A purchase request number",
+      "A unique identifier for each solicitation/contract/order and related instrument"
     ],
     "correctIndex": 3,
     "source": "Quizlet CON 3910 Practice Exam",
     "explanationRich": {
       "farRefs": {
         "part": {
-          "cite": "FAR Part 1",
-          "title": "Federal Acquisition Regulations System",
-          "url": "https://www.acquisition.gov/far/part-1"
+          "cite": "FAR Part 4",
+          "title": "Administrative Matters",
+          "url": "https://www.acquisition.gov/far/part-4"
         },
-        "sections": []
+        "sections": [
+          {
+            "cite": "FAR 4.1601",
+            "title": "Contracting officer\u2019s responsibilities",
+            "url": "https://www.acquisition.gov/far/4.1601"
+          }
+        ]
       },
-      "whatThisTests": "This question tests whether you can connect the stem language to FAR Part 1 and pick the answer that satisfies the rule condition.",
+      "whatThisTests": "Identifier used to track procurement instruments across award lifecycle.",
       "decisionSteps": [
-        "Identify the trigger phrase in the stem (e.g., \u201cWhat is a Procurement Instrument Identifier (PIID)?\u201d).",
-        "Match that trigger to the FAR rule that governs authority, process, or documentation.",
-        "Select the option that follows the required sequence and can be defended in the contract file."
+        "Identify what must be uniquely traceable across solicitations/contracts/mods.",
+        "Use PIID for official instrument identification.",
+        "Do not confuse with PR numbers or invoicing IDs."
       ],
-      "whyCorrect": "Choice D is correct because it directly answers the stem requirement and aligns with FAR Part 1. The distractors either skip a required check, rely on someone without authority, or treat convenience as a substitute for procedure. In exam terms, this option is the only one that remains valid when you test it against both the scenario wording and the governing FAR rule.",
+      "whyCorrect": "A PIID is the official unique identifier for solicitations, contracts, and related actions (including orders/mods) so that reporting, audit, and administration can track the instrument end-to-end.",
       "whyWrong": [
         {
-          "choiceLabel": "A",
-          "reason": "This option sounds plausible, but \u201cA unique number identifying a contract\u201d conflicts with the condition in the question or omits a required FAR step."
+          "choiceLabel": "C",
+          "reason": "A PR number is internal funding/request routing\u2014not the formal contract instrument identifier."
         },
         {
           "choiceLabel": "B",
-          "reason": "This option sounds plausible, but \u201cA unique number identifying a policy to a contract clause\u201d conflicts with the condition in the question or omits a required FAR step."
+          "reason": "Payment systems may reference PIID, but PIID is not a payment-only identifier."
         }
       ],
-      "fieldTip": "Capture a one-paragraph rationale in the file: quote the stem trigger, cite FAR Part 1, and explain why choice D was selected over the closest alternative."
+      "fieldTip": "If documentation doesn\u2019t cite the PIID correctly, you\u2019ll feel it later in mods, invoices, and closeout."
     },
-    "explanation": "FAR References:\n- FAR Part 1 \u2014 Federal Acquisition Regulations System (https://www.acquisition.gov/far/part-1)\n\nWhat this tests: This question tests whether you can connect the stem language to FAR Part 1 and pick the answer that satisfies the rule condition.\n\nHow to decide:\n1) Identify the trigger phrase in the stem (e.g., \u201cWhat is a Procurement Instrument Identifier (PIID)?\u201d).\n2) Match that trigger to the FAR rule that governs authority, process, or documentation.\n3) Select the option that follows the required sequence and can be defended in the contract file.\n\nWhy the correct answer works: Choice D is correct because it directly answers the stem requirement and aligns with FAR Part 1. The distractors either skip a required check, rely on someone without authority, or treat convenience as a substitute for procedure. In exam terms, this option is the only one that remains valid when you test it against both the scenario wording and the governing FAR rule.\n\nWhy other options fail:\nA: This option sounds plausible, but \u201cA unique number identifying a contract\u201d conflicts with the condition in the question or omits a required FAR step.\nB: This option sounds plausible, but \u201cA unique number identifying a policy to a contract clause\u201d conflicts with the condition in the question or omits a required FAR step.\n\nField tip: Capture a one-paragraph rationale in the file: quote the stem trigger, cite FAR Part 1, and explain why choice D was selected over the closest alternative."
+    "explanation": "FAR References:\n- FAR Part 4 \u2014 Administrative Matters (https://www.acquisition.gov/far/part-4)\n- FAR 4.1601 \u2014 Contracting officer\u2019s responsibilities (https://www.acquisition.gov/far/4.1601)\n\nWhat this tests: Identifier used to track procurement instruments across award lifecycle.\n\nHow to decide:\n1) Identify what must be uniquely traceable across solicitations/contracts/mods.\n2) Use PIID for official instrument identification.\n3) Do not confuse with PR numbers or invoicing IDs.\n\nWhy the correct answer works: A PIID is the official unique identifier for solicitations, contracts, and related actions (including orders/mods) so that reporting, audit, and administration can track the instrument end-to-end.\n\nWhy other options fail:\nC: A PR number is internal funding/request routing\u2014not the formal contract instrument identifier.\nB: Payment systems may reference PIID, but PIID is not a payment-only identifier.\n\nField tip: If documentation doesn\u2019t cite the PIID correctly, you\u2019ll feel it later in mods, invoices, and closeout."
   },
   {
     "id": "con3910-020",
-    "question": "The DoD Procurement Instrument Identifier (PIID) is 13 positions long. Positions 9 identifies the type of instrument. If position 9 is a \"D\", which of the following types of instruments is representative?",
+    "question": "In the DoD PIID, position 9 with the letter 'D' represents what instrument type?",
     "choices": [
-      "Indefinite-delivery contracts to include IDIQs and requirements contracts",
-      "Contracts of all types except indefinite-delivery contracts",
-      "Invitations for bids (IFBs)",
-      "Blanket purchase agreements (BPAs)"
+      "Indefinite-delivery contracts",
+      "Sealed bids",
+      "Purchase requests",
+      "Blanket purchase agreements only"
     ],
     "correctIndex": 0,
     "source": "Quizlet CON 3910 Practice Exam",
     "explanationRich": {
       "farRefs": {
         "part": {
-          "cite": "FAR Part 1",
-          "title": "Federal Acquisition Regulations System",
-          "url": "https://www.acquisition.gov/far/part-1"
+          "cite": "FAR Part 4",
+          "title": "Administrative Matters",
+          "url": "https://www.acquisition.gov/far/part-4"
         },
-        "sections": []
+        "sections": [
+          {
+            "cite": "FAR 4.1603",
+            "title": "PIID and supplementary PIID information",
+            "url": "https://www.acquisition.gov/far/4.1603"
+          }
+        ]
       },
-      "whatThisTests": "This question tests whether you can connect the stem language to FAR Part 1 and pick the answer that satisfies the rule condition.",
+      "whatThisTests": "Understanding PIID coding conventions used to classify instrument types.",
       "decisionSteps": [
-        "Identify the trigger phrase in the stem (e.g., \u201cThe DoD Procurement Instrument Identifier (PIID) is 13 positions long.\u201d).",
-        "Match that trigger to the FAR rule that governs authority, process, or documentation.",
-        "Select the option that follows the required sequence and can be defended in the contract file."
+        "Recognize the question is about DoD PIID structure (classification position).",
+        "Match the letter code to the instrument family.",
+        "Eliminate choices that describe processes (sealed bidding) rather than instrument type."
       ],
-      "whyCorrect": "Choice A is correct because it directly answers the stem requirement and aligns with FAR Part 1. The distractors either skip a required check, rely on someone without authority, or treat convenience as a substitute for procedure. In exam terms, this option is the only one that remains valid when you test it against both the scenario wording and the governing FAR rule.",
+      "whyCorrect": "DoD PIID coding uses a position to designate the instrument type. The letter 'D' aligns to indefinite-delivery contract family coding used for tracking and reporting.",
       "whyWrong": [
         {
           "choiceLabel": "B",
-          "reason": "This option sounds plausible, but \u201cContracts of all types except indefinite-delivery contracts\u201d conflicts with the condition in the question or omits a required FAR step."
+          "reason": "Sealed bidding is a procedure (Part 14), not an instrument type code in PIID structure."
         },
         {
           "choiceLabel": "C",
-          "reason": "This option sounds plausible, but \u201cInvitations for bids (IFBs)\u201d conflicts with the condition in the question or omits a required FAR step."
+          "reason": "Purchase requests are internal funding documents; they do not define the contract instrument code."
         }
       ],
-      "fieldTip": "Capture a one-paragraph rationale in the file: quote the stem trigger, cite FAR Part 1, and explain why choice A was selected over the closest alternative."
+      "fieldTip": "In practice, PIID coding matters because it drives reporting, system routing, and audit trail integrity."
     },
-    "explanation": "FAR References:\n- FAR Part 1 \u2014 Federal Acquisition Regulations System (https://www.acquisition.gov/far/part-1)\n\nWhat this tests: This question tests whether you can connect the stem language to FAR Part 1 and pick the answer that satisfies the rule condition.\n\nHow to decide:\n1) Identify the trigger phrase in the stem (e.g., \u201cThe DoD Procurement Instrument Identifier (PIID) is 13 positions long.\u201d).\n2) Match that trigger to the FAR rule that governs authority, process, or documentation.\n3) Select the option that follows the required sequence and can be defended in the contract file.\n\nWhy the correct answer works: Choice A is correct because it directly answers the stem requirement and aligns with FAR Part 1. The distractors either skip a required check, rely on someone without authority, or treat convenience as a substitute for procedure. In exam terms, this option is the only one that remains valid when you test it against both the scenario wording and the governing FAR rule.\n\nWhy other options fail:\nB: This option sounds plausible, but \u201cContracts of all types except indefinite-delivery contracts\u201d conflicts with the condition in the question or omits a required FAR step.\nC: This option sounds plausible, but \u201cInvitations for bids (IFBs)\u201d conflicts with the condition in the question or omits a required FAR step.\n\nField tip: Capture a one-paragraph rationale in the file: quote the stem trigger, cite FAR Part 1, and explain why choice A was selected over the closest alternative."
+    "explanation": "FAR References:\n- FAR Part 4 \u2014 Administrative Matters (https://www.acquisition.gov/far/part-4)\n- FAR 4.1603 \u2014 PIID and supplementary PIID information (https://www.acquisition.gov/far/4.1603)\n\nWhat this tests: Understanding PIID coding conventions used to classify instrument types.\n\nHow to decide:\n1) Recognize the question is about DoD PIID structure (classification position).\n2) Match the letter code to the instrument family.\n3) Eliminate choices that describe processes (sealed bidding) rather than instrument type.\n\nWhy the correct answer works: DoD PIID coding uses a position to designate the instrument type. The letter 'D' aligns to indefinite-delivery contract family coding used for tracking and reporting.\n\nWhy other options fail:\nB: Sealed bidding is a procedure (Part 14), not an instrument type code in PIID structure.\nC: Purchase requests are internal funding documents; they do not define the contract instrument code.\n\nField tip: In practice, PIID coding matters because it drives reporting, system routing, and audit trail integrity."
   },
   {
     "id": "con3910-021",
-    "question": "You are reviewing a contract that utilizes the uniform contract format. In Section J you see an exhibit. How will the exhibit be displayed?",
+    "question": "In UCF, exhibits are displayed using what format?",
     "choices": [
-      "With one or two numeric characters (e.g., Exhibit 1)",
-      "With one or two alpha characters (e.g., Exhibit AA)",
-      "With one alpha and one numeric character (e.g., Exhibit A1)",
-      "Utilizing only Roman numerals (e.g., Exhibit XI)"
+      "Numeric only",
+      "One or two alpha characters",
+      "Roman numerals",
+      "PIID suffixes"
     ],
     "correctIndex": 1,
     "source": "Quizlet CON 3910 Practice Exam",
     "explanationRich": {
       "farRefs": {
         "part": {
-          "cite": "FAR Part 1",
-          "title": "Federal Acquisition Regulations System",
-          "url": "https://www.acquisition.gov/far/part-1"
+          "cite": "FAR Part 15",
+          "title": "Contracting by Negotiation",
+          "url": "https://www.acquisition.gov/far/part-15"
         },
-        "sections": []
+        "sections": [
+          {
+            "cite": "FAR 15.204-1",
+            "title": "Uniform contract format",
+            "url": "https://www.acquisition.gov/far/15.204-1"
+          }
+        ]
       },
-      "whatThisTests": "This question tests whether you can connect the stem language to FAR Part 1 and pick the answer that satisfies the rule condition.",
+      "whatThisTests": "Uniform Contract Format organization for exhibits vs line items.",
       "decisionSteps": [
-        "Identify the trigger phrase in the stem (e.g., \u201cYou are reviewing a contract that utilizes the uniform contract format\u201d).",
-        "Match that trigger to the FAR rule that governs authority, process, or documentation.",
-        "Select the option that follows the required sequence and can be defended in the contract file."
+        "Identify question is about UCF formatting.",
+        "Exhibits are lettered to avoid confusion with numbered CLINs.",
+        "Section J typically contains attachments/exhibits."
       ],
-      "whyCorrect": "Choice B is correct because it directly answers the stem requirement and aligns with FAR Part 1. The distractors either skip a required check, rely on someone without authority, or treat convenience as a substitute for procedure. In exam terms, this option is the only one that remains valid when you test it against both the scenario wording and the governing FAR rule.",
+      "whyCorrect": "UCF uses lettered exhibits (A, B, \u2026 AA) to distinguish them from numerical CLIN structures. This prevents confusion between contract line items and attachments/deliverable lists.",
       "whyWrong": [
         {
           "choiceLabel": "A",
-          "reason": "This option sounds plausible, but \u201cWith one or two numeric characters (e.g., Exhibit 1)\u201d conflicts with the condition in the question or omits a required FAR step."
+          "reason": "Numeric identifiers are used heavily for CLINs; exhibits use letters to reduce ambiguity."
         },
         {
-          "choiceLabel": "C",
-          "reason": "This option sounds plausible, but \u201cWith one alpha and one numeric character (e.g., Exhibit A1)\u201d conflicts with the condition in the question or omits a required FAR step."
+          "choiceLabel": "D",
+          "reason": "PIID suffixes identify contract actions; they do not format exhibits under UCF."
         }
       ],
-      "fieldTip": "Capture a one-paragraph rationale in the file: quote the stem trigger, cite FAR Part 1, and explain why choice B was selected over the closest alternative."
+      "fieldTip": "If deliverables get messy, check whether you\u2019re mixing CLIN structure (Section B) with exhibits (Section J)."
     },
-    "explanation": "FAR References:\n- FAR Part 1 \u2014 Federal Acquisition Regulations System (https://www.acquisition.gov/far/part-1)\n\nWhat this tests: This question tests whether you can connect the stem language to FAR Part 1 and pick the answer that satisfies the rule condition.\n\nHow to decide:\n1) Identify the trigger phrase in the stem (e.g., \u201cYou are reviewing a contract that utilizes the uniform contract format\u201d).\n2) Match that trigger to the FAR rule that governs authority, process, or documentation.\n3) Select the option that follows the required sequence and can be defended in the contract file.\n\nWhy the correct answer works: Choice B is correct because it directly answers the stem requirement and aligns with FAR Part 1. The distractors either skip a required check, rely on someone without authority, or treat convenience as a substitute for procedure. In exam terms, this option is the only one that remains valid when you test it against both the scenario wording and the governing FAR rule.\n\nWhy other options fail:\nA: This option sounds plausible, but \u201cWith one or two numeric characters (e.g., Exhibit 1)\u201d conflicts with the condition in the question or omits a required FAR step.\nC: This option sounds plausible, but \u201cWith one alpha and one numeric character (e.g., Exhibit A1)\u201d conflicts with the condition in the question or omits a required FAR step.\n\nField tip: Capture a one-paragraph rationale in the file: quote the stem trigger, cite FAR Part 1, and explain why choice B was selected over the closest alternative."
+    "explanation": "FAR References:\n- FAR Part 15 \u2014 Contracting by Negotiation (https://www.acquisition.gov/far/part-15)\n- FAR 15.204-1 \u2014 Uniform contract format (https://www.acquisition.gov/far/15.204-1)\n\nWhat this tests: Uniform Contract Format organization for exhibits vs line items.\n\nHow to decide:\n1) Identify question is about UCF formatting.\n2) Exhibits are lettered to avoid confusion with numbered CLINs.\n3) Section J typically contains attachments/exhibits.\n\nWhy the correct answer works: UCF uses lettered exhibits (A, B, \u2026 AA) to distinguish them from numerical CLIN structures. This prevents confusion between contract line items and attachments/deliverable lists.\n\nWhy other options fail:\nA: Numeric identifiers are used heavily for CLINs; exhibits use letters to reduce ambiguity.\nD: PIID suffixes identify contract actions; they do not format exhibits under UCF.\n\nField tip: If deliverables get messy, check whether you\u2019re mixing CLIN structure (Section B) with exhibits (Section J)."
   },
   {
     "id": "con3910-022",
-    "question": "Your customer comes to you anticipating a new requirement, one that has not been purchased recently. You'd like to refer them to the FAR part dealing specifically with market research. Which FAR part do you refer them to?",
+    "question": "Market research is addressed in which FAR part?",
     "choices": [
-      "FAR part 7",
-      "FAR part 8",
-      "FAR part 9",
-      "FAR part 10"
+      "Part 3",
+      "Part 7",
+      "Part 9",
+      "Part 10"
     ],
     "correctIndex": 3,
     "source": "Quizlet CON 3910 Practice Exam",
@@ -960,84 +995,84 @@
           "title": "Market Research",
           "url": "https://www.acquisition.gov/far/part-10"
         },
-        "sections": [
-          {
-            "cite": "FAR 10.002",
-            "title": "Procedures",
-            "url": "https://www.acquisition.gov/far/10.002"
-          }
-        ]
+        "sections": []
       },
-      "whatThisTests": "This question tests whether you can connect the stem language to FAR Part 10 and pick the answer that satisfies the rule condition.",
+      "whatThisTests": "Where to look in FAR for market research policy/procedures.",
       "decisionSteps": [
-        "Identify the trigger phrase in the stem (e.g., \u201cYour customer comes to you anticipating a new requirement, one that ha\u201d).",
-        "Match that trigger to the FAR rule that governs authority, process, or documentation.",
-        "Select the option that follows the required sequence and can be defended in the contract file."
+        "If the topic is market research, jump directly to Part 10.",
+        "Then use 10.001 (policy) and 10.002 (procedures) for detail.",
+        "Tie market research to acquisition planning decisions."
       ],
-      "whyCorrect": "Choice D is correct because it directly answers the stem requirement and aligns with FAR Part 10. The distractors either skip a required check, rely on someone without authority, or treat convenience as a substitute for procedure. In exam terms, this option is the only one that remains valid when you test it against both the scenario wording and the governing FAR rule.",
+      "whyCorrect": "FAR Part 10 is dedicated to market research and how it informs acquisition strategy and requirement shaping.",
       "whyWrong": [
         {
-          "choiceLabel": "A",
-          "reason": "This option sounds plausible, but \u201cFAR part 7\u201d conflicts with the condition in the question or omits a required FAR step."
+          "choiceLabel": "B",
+          "reason": "Part 7 is acquisition planning generally, but market research is specifically addressed in Part 10."
         },
         {
-          "choiceLabel": "B",
-          "reason": "This option sounds plausible, but \u201cFAR part 8\u201d conflicts with the condition in the question or omits a required FAR step."
+          "choiceLabel": "C",
+          "reason": "Part 9 is contractor qualifications/responsibility, not market research."
         }
       ],
-      "fieldTip": "Capture a one-paragraph rationale in the file: quote the stem trigger, cite FAR Part 10 and FAR 10.002, and explain why choice D was selected over the closest alternative."
+      "fieldTip": "Teach your users: Part 7 tells you to plan; Part 10 tells you how to understand the market you're buying from."
     },
-    "explanation": "FAR References:\n- FAR Part 10 \u2014 Market Research (https://www.acquisition.gov/far/part-10)\n- FAR 10.002 \u2014 Procedures (https://www.acquisition.gov/far/10.002)\n\nWhat this tests: This question tests whether you can connect the stem language to FAR Part 10 and pick the answer that satisfies the rule condition.\n\nHow to decide:\n1) Identify the trigger phrase in the stem (e.g., \u201cYour customer comes to you anticipating a new requirement, one that ha\u201d).\n2) Match that trigger to the FAR rule that governs authority, process, or documentation.\n3) Select the option that follows the required sequence and can be defended in the contract file.\n\nWhy the correct answer works: Choice D is correct because it directly answers the stem requirement and aligns with FAR Part 10. The distractors either skip a required check, rely on someone without authority, or treat convenience as a substitute for procedure. In exam terms, this option is the only one that remains valid when you test it against both the scenario wording and the governing FAR rule.\n\nWhy other options fail:\nA: This option sounds plausible, but \u201cFAR part 7\u201d conflicts with the condition in the question or omits a required FAR step.\nB: This option sounds plausible, but \u201cFAR part 8\u201d conflicts with the condition in the question or omits a required FAR step.\n\nField tip: Capture a one-paragraph rationale in the file: quote the stem trigger, cite FAR Part 10 and FAR 10.002, and explain why choice D was selected over the closest alternative."
+    "explanation": "FAR References:\n- FAR Part 10 \u2014 Market Research (https://www.acquisition.gov/far/part-10)\n\nWhat this tests: Where to look in FAR for market research policy/procedures.\n\nHow to decide:\n1) If the topic is market research, jump directly to Part 10.\n2) Then use 10.001 (policy) and 10.002 (procedures) for detail.\n3) Tie market research to acquisition planning decisions.\n\nWhy the correct answer works: FAR Part 10 is dedicated to market research and how it informs acquisition strategy and requirement shaping.\n\nWhy other options fail:\nB: Part 7 is acquisition planning generally, but market research is specifically addressed in Part 10.\nC: Part 9 is contractor qualifications/responsibility, not market research.\n\nField tip: Teach your users: Part 7 tells you to plan; Part 10 tells you how to understand the market you're buying from."
   },
   {
     "id": "con3910-023",
-    "question": "Of the following types of contracts, which shall not be used in Government contracting?",
+    "question": "Which contract type shall not be used?",
     "choices": [
       "Cost-plus-fixed-fee",
       "Cost-plus-a-percentage-of-cost",
-      "Cost-plus-award-fee",
-      "Cost-reimbursement"
+      "Firm-fixed-price",
+      "Fixed-price incentive"
     ],
     "correctIndex": 1,
     "source": "Quizlet CON 3910 Practice Exam",
     "explanationRich": {
       "farRefs": {
         "part": {
-          "cite": "FAR Part 1",
-          "title": "Federal Acquisition Regulations System",
-          "url": "https://www.acquisition.gov/far/part-1"
+          "cite": "FAR Part 16",
+          "title": "Types of Contracts",
+          "url": "https://www.acquisition.gov/far/part-16"
         },
-        "sections": []
+        "sections": [
+          {
+            "cite": "FAR 16.102",
+            "title": "Policies",
+            "url": "https://www.acquisition.gov/far/16.102"
+          }
+        ]
       },
-      "whatThisTests": "This question tests whether you can connect the stem language to FAR Part 1 and pick the answer that satisfies the rule condition.",
+      "whatThisTests": "Recognizing the prohibited CPPC contract type and why it\u2019s banned.",
       "decisionSteps": [
-        "Identify the trigger phrase in the stem (e.g., \u201cOf the following types of contracts, which shall not be used in Govern\u201d).",
-        "Match that trigger to the FAR rule that governs authority, process, or documentation.",
-        "Select the option that follows the required sequence and can be defended in the contract file."
+        "Identify whether the fee/profit increases as cost increases.",
+        "If yes, it\u2019s CPPC-like and prohibited.",
+        "Choose alternative contract types that incentivize efficiency."
       ],
-      "whyCorrect": "Choice B is correct because it directly answers the stem requirement and aligns with FAR Part 1. The distractors either skip a required check, rely on someone without authority, or treat convenience as a substitute for procedure. In exam terms, this option is the only one that remains valid when you test it against both the scenario wording and the governing FAR rule.",
+      "whyCorrect": "CPPC is prohibited because it encourages the contractor to increase costs to increase profit\u2014directly undermining cost control and the Government\u2019s interest.",
       "whyWrong": [
         {
           "choiceLabel": "A",
-          "reason": "This option sounds plausible, but \u201cCost-plus-fixed-fee\u201d conflicts with the condition in the question or omits a required FAR step."
+          "reason": "CPFF is allowed (with limits) and sets a fixed fee independent of actual costs."
         },
         {
           "choiceLabel": "C",
-          "reason": "This option sounds plausible, but \u201cCost-plus-award-fee\u201d conflicts with the condition in the question or omits a required FAR step."
+          "reason": "FFP is widely used and places cost risk on the contractor."
         }
       ],
-      "fieldTip": "Capture a one-paragraph rationale in the file: quote the stem trigger, cite FAR Part 1, and explain why choice B was selected over the closest alternative."
+      "fieldTip": "A quick test: if profit is a percentage of cost, that\u2019s a red flag\u2014CPPC is the one you must never use."
     },
-    "explanation": "FAR References:\n- FAR Part 1 \u2014 Federal Acquisition Regulations System (https://www.acquisition.gov/far/part-1)\n\nWhat this tests: This question tests whether you can connect the stem language to FAR Part 1 and pick the answer that satisfies the rule condition.\n\nHow to decide:\n1) Identify the trigger phrase in the stem (e.g., \u201cOf the following types of contracts, which shall not be used in Govern\u201d).\n2) Match that trigger to the FAR rule that governs authority, process, or documentation.\n3) Select the option that follows the required sequence and can be defended in the contract file.\n\nWhy the correct answer works: Choice B is correct because it directly answers the stem requirement and aligns with FAR Part 1. The distractors either skip a required check, rely on someone without authority, or treat convenience as a substitute for procedure. In exam terms, this option is the only one that remains valid when you test it against both the scenario wording and the governing FAR rule.\n\nWhy other options fail:\nA: This option sounds plausible, but \u201cCost-plus-fixed-fee\u201d conflicts with the condition in the question or omits a required FAR step.\nC: This option sounds plausible, but \u201cCost-plus-award-fee\u201d conflicts with the condition in the question or omits a required FAR step.\n\nField tip: Capture a one-paragraph rationale in the file: quote the stem trigger, cite FAR Part 1, and explain why choice B was selected over the closest alternative."
+    "explanation": "FAR References:\n- FAR Part 16 \u2014 Types of Contracts (https://www.acquisition.gov/far/part-16)\n- FAR 16.102 \u2014 Policies (https://www.acquisition.gov/far/16.102)\n\nWhat this tests: Recognizing the prohibited CPPC contract type and why it\u2019s banned.\n\nHow to decide:\n1) Identify whether the fee/profit increases as cost increases.\n2) If yes, it\u2019s CPPC-like and prohibited.\n3) Choose alternative contract types that incentivize efficiency.\n\nWhy the correct answer works: CPPC is prohibited because it encourages the contractor to increase costs to increase profit\u2014directly undermining cost control and the Government\u2019s interest.\n\nWhy other options fail:\nA: CPFF is allowed (with limits) and sets a fixed fee independent of actual costs.\nC: FFP is widely used and places cost risk on the contractor.\n\nField tip: A quick test: if profit is a percentage of cost, that\u2019s a red flag\u2014CPPC is the one you must never use."
   },
   {
     "id": "con3910-024",
-    "question": "When can a time-and-materials (T&M) contract be used?",
+    "question": "Time-and-materials contracts may be used when:",
     "choices": [
-      "A T&M contract is best used on construction projects that require extensive materials",
-      "A T&M contract shall be used only when DCAA has conducted an audit of the labor and material for the acquisition",
-      "A T&M contract may be used only when it is not possible at the time of placing the contract to estimate accurately the extent or duration of the work or to anticipate costs",
-      "A T&M contract shall only be used on personal service contracts"
+      "The Government wants to maximize contractor profit",
+      "The work is perfectly defined and stable",
+      "It is not possible to estimate the extent/duration or costs with confidence",
+      "They are always preferred for commercial items"
     ],
     "correctIndex": 2,
     "source": "Quizlet CON 3910 Practice Exam",
@@ -1050,328 +1085,364 @@
         },
         "sections": [
           {
-            "cite": "FAR 16.103",
-            "title": "Negotiating contract type",
-            "url": "https://www.acquisition.gov/far/16.103"
+            "cite": "FAR 16.601",
+            "title": "Time-and-materials, labor-hour, and letter contracts",
+            "url": "https://www.acquisition.gov/far/16.601"
           }
         ]
       },
-      "whatThisTests": "This question tests whether you can connect the stem language to FAR Part 16 and pick the answer that satisfies the rule condition.",
+      "whatThisTests": "T&M is a high-risk contract type used only when no better type is suitable.",
       "decisionSteps": [
-        "Identify the trigger phrase in the stem (e.g., \u201cWhen can a time-and-materials (T&M) contract be used?\u201d).",
-        "Match that trigger to the FAR rule that governs authority, process, or documentation.",
-        "Select the option that follows the required sequence and can be defended in the contract file."
+        "Ask if you can reasonably define scope for firm pricing.",
+        "If not, determine whether T&M is justified and properly controlled.",
+        "Ensure surveillance and ceiling/pricing controls exist."
       ],
-      "whyCorrect": "Choice C is correct because it directly answers the stem requirement and aligns with FAR Part 16. The distractors either skip a required check, rely on someone without authority, or treat convenience as a substitute for procedure. In exam terms, this option is the only one that remains valid when you test it against both the scenario wording and the governing FAR rule.",
+      "whyCorrect": "FAR 16.601 restricts T&M because it shifts cost risk to the Government and requires close monitoring. It\u2019s used only when the work can\u2019t be priced accurately in advance and no other type is suitable.",
       "whyWrong": [
         {
-          "choiceLabel": "A",
-          "reason": "This option sounds plausible, but \u201cA T&M contract is best used on construction projects that require extensive materials\u201d conflicts with the condition in the question or omits a required FAR step."
+          "choiceLabel": "B",
+          "reason": "If work is stable and well-defined, fixed-price is typically the better choice."
         },
         {
-          "choiceLabel": "B",
-          "reason": "This option sounds plausible, but \u201cA T&M contract shall be used only when DCAA has conducted an audit of the labor and material for the acquisition\u201d conflicts with the condition in the question or omits a required FAR step."
+          "choiceLabel": "D",
+          "reason": "Commercial items generally favor fixed-price structures; T&M is allowed only under tight conditions."
         }
       ],
-      "fieldTip": "Capture a one-paragraph rationale in the file: quote the stem trigger, cite FAR Part 16 and FAR 16.103, and explain why choice C was selected over the closest alternative."
+      "fieldTip": "If you choose T&M, protect the Government: ceiling, surveillance plan, and clear labor category/rate controls."
     },
-    "explanation": "FAR References:\n- FAR Part 16 \u2014 Types of Contracts (https://www.acquisition.gov/far/part-16)\n- FAR 16.103 \u2014 Negotiating contract type (https://www.acquisition.gov/far/16.103)\n\nWhat this tests: This question tests whether you can connect the stem language to FAR Part 16 and pick the answer that satisfies the rule condition.\n\nHow to decide:\n1) Identify the trigger phrase in the stem (e.g., \u201cWhen can a time-and-materials (T&M) contract be used?\u201d).\n2) Match that trigger to the FAR rule that governs authority, process, or documentation.\n3) Select the option that follows the required sequence and can be defended in the contract file.\n\nWhy the correct answer works: Choice C is correct because it directly answers the stem requirement and aligns with FAR Part 16. The distractors either skip a required check, rely on someone without authority, or treat convenience as a substitute for procedure. In exam terms, this option is the only one that remains valid when you test it against both the scenario wording and the governing FAR rule.\n\nWhy other options fail:\nA: This option sounds plausible, but \u201cA T&M contract is best used on construction projects that require extensive materials\u201d conflicts with the condition in the question or omits a required FAR step.\nB: This option sounds plausible, but \u201cA T&M contract shall be used only when DCAA has conducted an audit of the labor and material for the acquisition\u201d conflicts with the condition in the question or omits a required FAR step.\n\nField tip: Capture a one-paragraph rationale in the file: quote the stem trigger, cite FAR Part 16 and FAR 16.103, and explain why choice C was selected over the closest alternative."
+    "explanation": "FAR References:\n- FAR Part 16 \u2014 Types of Contracts (https://www.acquisition.gov/far/part-16)\n- FAR 16.601 \u2014 Time-and-materials, labor-hour, and letter contracts (https://www.acquisition.gov/far/16.601)\n\nWhat this tests: T&M is a high-risk contract type used only when no better type is suitable.\n\nHow to decide:\n1) Ask if you can reasonably define scope for firm pricing.\n2) If not, determine whether T&M is justified and properly controlled.\n3) Ensure surveillance and ceiling/pricing controls exist.\n\nWhy the correct answer works: FAR 16.601 restricts T&M because it shifts cost risk to the Government and requires close monitoring. It\u2019s used only when the work can\u2019t be priced accurately in advance and no other type is suitable.\n\nWhy other options fail:\nB: If work is stable and well-defined, fixed-price is typically the better choice.\nD: Commercial items generally favor fixed-price structures; T&M is allowed only under tight conditions.\n\nField tip: If you choose T&M, protect the Government: ceiling, surveillance plan, and clear labor category/rate controls."
   },
   {
     "id": "con3910-025",
-    "question": "What underlying principle should the contracting officer follow to avoid organizational conflicts of interest?",
+    "question": "The overarching principle when dealing with organizational conflicts of interest is to:",
     "choices": [
-      "Prevent sole source follow-on acquisitions",
-      "Prevent contractor teaming arrangements",
-      "Prevent the use of proprietary information in award considerations",
-      "Prevent unfair competitive advantage"
+      "Ignore OCI concerns unless protested",
+      "Allow contractor to self-certify and move on",
+      "Eliminate all contractors with any prior work",
+      "Prevent unfair competitive advantage and preserve integrity"
     ],
     "correctIndex": 3,
     "source": "Quizlet CON 3910 Practice Exam",
     "explanationRich": {
       "farRefs": {
         "part": {
-          "cite": "FAR Part 1",
-          "title": "Federal Acquisition Regulations System",
-          "url": "https://www.acquisition.gov/far/part-1"
+          "cite": "FAR Part 9",
+          "title": "Contractor Qualifications",
+          "url": "https://www.acquisition.gov/far/part-9"
         },
-        "sections": []
+        "sections": [
+          {
+            "cite": "FAR 9.505",
+            "title": "Contracting officer responsibilities",
+            "url": "https://www.acquisition.gov/far/9.505"
+          }
+        ]
       },
-      "whatThisTests": "This question tests whether you can connect the stem language to FAR Part 1 and pick the answer that satisfies the rule condition.",
+      "whatThisTests": "OCI is about preventing biased ground rules, unequal access, and impaired objectivity.",
       "decisionSteps": [
-        "Identify the trigger phrase in the stem (e.g., \u201cWhat underlying principle should the contracting officer follow to avo\u201d).",
-        "Match that trigger to the FAR rule that governs authority, process, or documentation.",
-        "Select the option that follows the required sequence and can be defended in the contract file."
+        "Identify which OCI category applies (biased ground rules, unequal access, impaired objectivity).",
+        "Assess whether the conflict creates unfair advantage or undermines trust in the process.",
+        "Mitigate (firewalls, exclusion of work segments, disclosure) or avoid if required."
       ],
-      "whyCorrect": "Choice D is correct because it directly answers the stem requirement and aligns with FAR Part 1. The distractors either skip a required check, rely on someone without authority, or treat convenience as a substitute for procedure. In exam terms, this option is the only one that remains valid when you test it against both the scenario wording and the governing FAR rule.",
-      "whyWrong": [
-        {
-          "choiceLabel": "A",
-          "reason": "This option sounds plausible, but \u201cPrevent sole source follow-on acquisitions\u201d conflicts with the condition in the question or omits a required FAR step."
-        },
-        {
-          "choiceLabel": "B",
-          "reason": "This option sounds plausible, but \u201cPrevent contractor teaming arrangements\u201d conflicts with the condition in the question or omits a required FAR step."
-        }
-      ],
-      "fieldTip": "Capture a one-paragraph rationale in the file: quote the stem trigger, cite FAR Part 1, and explain why choice D was selected over the closest alternative."
-    },
-    "explanation": "FAR References:\n- FAR Part 1 \u2014 Federal Acquisition Regulations System (https://www.acquisition.gov/far/part-1)\n\nWhat this tests: This question tests whether you can connect the stem language to FAR Part 1 and pick the answer that satisfies the rule condition.\n\nHow to decide:\n1) Identify the trigger phrase in the stem (e.g., \u201cWhat underlying principle should the contracting officer follow to avo\u201d).\n2) Match that trigger to the FAR rule that governs authority, process, or documentation.\n3) Select the option that follows the required sequence and can be defended in the contract file.\n\nWhy the correct answer works: Choice D is correct because it directly answers the stem requirement and aligns with FAR Part 1. The distractors either skip a required check, rely on someone without authority, or treat convenience as a substitute for procedure. In exam terms, this option is the only one that remains valid when you test it against both the scenario wording and the governing FAR rule.\n\nWhy other options fail:\nA: This option sounds plausible, but \u201cPrevent sole source follow-on acquisitions\u201d conflicts with the condition in the question or omits a required FAR step.\nB: This option sounds plausible, but \u201cPrevent contractor teaming arrangements\u201d conflicts with the condition in the question or omits a required FAR step.\n\nField tip: Capture a one-paragraph rationale in the file: quote the stem trigger, cite FAR Part 1, and explain why choice D was selected over the closest alternative."
-  },
-  {
-    "id": "con3910-026",
-    "question": "Terms that address specific types of exchanges with offerors after receipt of proposals include:",
-    "choices": [
-      "Communications, discussions, and clarifications",
-      "Discussions, explanations, and communications",
-      "Clarifications, discussions, and explanations",
-      "Conversations, clarifications, and discussions"
-    ],
-    "correctIndex": 0,
-    "source": "Quizlet CON 3910 Practice Exam",
-    "explanationRich": {
-      "farRefs": {
-        "part": {
-          "cite": "FAR Part 1",
-          "title": "Federal Acquisition Regulations System",
-          "url": "https://www.acquisition.gov/far/part-1"
-        },
-        "sections": []
-      },
-      "whatThisTests": "This question tests whether you can connect the stem language to FAR Part 1 and pick the answer that satisfies the rule condition.",
-      "decisionSteps": [
-        "Identify the trigger phrase in the stem (e.g., \u201cTerms that address specific types of exchanges with offerors after rec\u201d).",
-        "Match that trigger to the FAR rule that governs authority, process, or documentation.",
-        "Select the option that follows the required sequence and can be defended in the contract file."
-      ],
-      "whyCorrect": "Choice A is correct because it directly answers the stem requirement and aligns with FAR Part 1. The distractors either skip a required check, rely on someone without authority, or treat convenience as a substitute for procedure. In exam terms, this option is the only one that remains valid when you test it against both the scenario wording and the governing FAR rule.",
+      "whyCorrect": "FAR 9.505 emphasizes that the Government must avoid, neutralize, or mitigate OCI to prevent unfair competitive advantage and protect the integrity of the acquisition.",
       "whyWrong": [
         {
           "choiceLabel": "B",
-          "reason": "This option sounds plausible, but \u201cDiscussions, explanations, and communications\u201d conflicts with the condition in the question or omits a required FAR step."
+          "reason": "Contractor assertions help, but CO must assess and document OCI risk; self-certification alone is not a mitigation plan."
         },
         {
           "choiceLabel": "C",
-          "reason": "This option sounds plausible, but \u201cClarifications, discussions, and explanations\u201d conflicts with the condition in the question or omits a required FAR step."
+          "reason": "A blanket exclusion is not required; the FAR expects tailored mitigation when possible."
         }
       ],
-      "fieldTip": "Capture a one-paragraph rationale in the file: quote the stem trigger, cite FAR Part 1, and explain why choice A was selected over the closest alternative."
+      "fieldTip": "Write an OCI assessment memo early\u2014especially when contractors help with requirements, specs, or evaluation support."
     },
-    "explanation": "FAR References:\n- FAR Part 1 \u2014 Federal Acquisition Regulations System (https://www.acquisition.gov/far/part-1)\n\nWhat this tests: This question tests whether you can connect the stem language to FAR Part 1 and pick the answer that satisfies the rule condition.\n\nHow to decide:\n1) Identify the trigger phrase in the stem (e.g., \u201cTerms that address specific types of exchanges with offerors after rec\u201d).\n2) Match that trigger to the FAR rule that governs authority, process, or documentation.\n3) Select the option that follows the required sequence and can be defended in the contract file.\n\nWhy the correct answer works: Choice A is correct because it directly answers the stem requirement and aligns with FAR Part 1. The distractors either skip a required check, rely on someone without authority, or treat convenience as a substitute for procedure. In exam terms, this option is the only one that remains valid when you test it against both the scenario wording and the governing FAR rule.\n\nWhy other options fail:\nB: This option sounds plausible, but \u201cDiscussions, explanations, and communications\u201d conflicts with the condition in the question or omits a required FAR step.\nC: This option sounds plausible, but \u201cClarifications, discussions, and explanations\u201d conflicts with the condition in the question or omits a required FAR step.\n\nField tip: Capture a one-paragraph rationale in the file: quote the stem trigger, cite FAR Part 1, and explain why choice A was selected over the closest alternative."
+    "explanation": "FAR References:\n- FAR Part 9 \u2014 Contractor Qualifications (https://www.acquisition.gov/far/part-9)\n- FAR 9.505 \u2014 Contracting officer responsibilities (https://www.acquisition.gov/far/9.505)\n\nWhat this tests: OCI is about preventing biased ground rules, unequal access, and impaired objectivity.\n\nHow to decide:\n1) Identify which OCI category applies (biased ground rules, unequal access, impaired objectivity).\n2) Assess whether the conflict creates unfair advantage or undermines trust in the process.\n3) Mitigate (firewalls, exclusion of work segments, disclosure) or avoid if required.\n\nWhy the correct answer works: FAR 9.505 emphasizes that the Government must avoid, neutralize, or mitigate OCI to prevent unfair competitive advantage and protect the integrity of the acquisition.\n\nWhy other options fail:\nB: Contractor assertions help, but CO must assess and document OCI risk; self-certification alone is not a mitigation plan.\nC: A blanket exclusion is not required; the FAR expects tailored mitigation when possible.\n\nField tip: Write an OCI assessment memo early\u2014especially when contractors help with requirements, specs, or evaluation support."
   },
   {
-    "id": "con3910-027",
-    "question": "With limited exceptions as authorized by agency regulations, what does the FAR say about Government employees soliciting and accepting gifts from contractors? Government employees:",
+    "id": "con3910-026",
+    "question": "Exchanges after receipt of proposals include which FAR terms?",
     "choices": [
-      "May solicit and accept gifts if in accordance with commercial business practices",
-      "May solicit and accept gifts in overseas countries where bribery is legal",
-      "May not solicit or accept gifts",
-      "May not solicit gifts, but may accept gifts if their performance exceeds standards"
+      "Discussions only",
+      "Clarifications only",
+      "Communications, clarifications, and discussions",
+      "Debriefs and protests"
     ],
     "correctIndex": 2,
     "source": "Quizlet CON 3910 Practice Exam",
     "explanationRich": {
       "farRefs": {
         "part": {
-          "cite": "FAR Part 1",
-          "title": "Federal Acquisition Regulations System",
-          "url": "https://www.acquisition.gov/far/part-1"
+          "cite": "FAR Part 15",
+          "title": "Contracting by Negotiation",
+          "url": "https://www.acquisition.gov/far/part-15"
         },
-        "sections": []
+        "sections": [
+          {
+            "cite": "FAR 15.306",
+            "title": "Exchanges with offerors after receipt of proposals",
+            "url": "https://www.acquisition.gov/far/15.306"
+          }
+        ]
       },
-      "whatThisTests": "This question tests whether you can connect the stem language to FAR Part 1 and pick the answer that satisfies the rule condition.",
+      "whatThisTests": "Using the FAR\u2019s defined post-proposal exchange categories correctly.",
       "decisionSteps": [
-        "Identify the trigger phrase in the stem (e.g., \u201cWith limited exceptions as authorized by agency regulations, what does\u201d).",
-        "Match that trigger to the FAR rule that governs authority, process, or documentation.",
-        "Select the option that follows the required sequence and can be defended in the contract file."
+        "Before competitive range: communications (narrowly focused).",
+        "If award without discussions: clarifications (minor).",
+        "If negotiating improvements: discussions (meaningful)."
       ],
-      "whyCorrect": "Choice C is correct because it directly answers the stem requirement and aligns with FAR Part 1. The distractors either skip a required check, rely on someone without authority, or treat convenience as a substitute for procedure. In exam terms, this option is the only one that remains valid when you test it against both the scenario wording and the governing FAR rule.",
+      "whyCorrect": "FAR 15.306 defines three categories\u2014communications, clarifications, and discussions\u2014each with different rules and documentation expectations.",
       "whyWrong": [
         {
           "choiceLabel": "A",
-          "reason": "This option sounds plausible, but \u201cMay solicit and accept gifts if in accordance with commercial business practices\u201d conflicts with the condition in the question or omits a required FAR step."
+          "reason": "Discussions are only one category; FAR explicitly distinguishes smaller exchanges like clarifications and communications."
         },
         {
-          "choiceLabel": "B",
-          "reason": "This option sounds plausible, but \u201cMay solicit and accept gifts in overseas countries where bribery is legal\u201d conflicts with the condition in the question or omits a required FAR step."
+          "choiceLabel": "D",
+          "reason": "Debriefs and protests are separate processes (Parts 15/33), not the defined post-proposal exchange categories."
         }
       ],
-      "fieldTip": "Capture a one-paragraph rationale in the file: quote the stem trigger, cite FAR Part 1, and explain why choice C was selected over the closest alternative."
+      "fieldTip": "Using the wrong label can create protest risk\u2014e.g., calling something a clarification when it\u2019s really a discussion."
     },
-    "explanation": "FAR References:\n- FAR Part 1 \u2014 Federal Acquisition Regulations System (https://www.acquisition.gov/far/part-1)\n\nWhat this tests: This question tests whether you can connect the stem language to FAR Part 1 and pick the answer that satisfies the rule condition.\n\nHow to decide:\n1) Identify the trigger phrase in the stem (e.g., \u201cWith limited exceptions as authorized by agency regulations, what does\u201d).\n2) Match that trigger to the FAR rule that governs authority, process, or documentation.\n3) Select the option that follows the required sequence and can be defended in the contract file.\n\nWhy the correct answer works: Choice C is correct because it directly answers the stem requirement and aligns with FAR Part 1. The distractors either skip a required check, rely on someone without authority, or treat convenience as a substitute for procedure. In exam terms, this option is the only one that remains valid when you test it against both the scenario wording and the governing FAR rule.\n\nWhy other options fail:\nA: This option sounds plausible, but \u201cMay solicit and accept gifts if in accordance with commercial business practices\u201d conflicts with the condition in the question or omits a required FAR step.\nB: This option sounds plausible, but \u201cMay solicit and accept gifts in overseas countries where bribery is legal\u201d conflicts with the condition in the question or omits a required FAR step.\n\nField tip: Capture a one-paragraph rationale in the file: quote the stem trigger, cite FAR Part 1, and explain why choice C was selected over the closest alternative."
+    "explanation": "FAR References:\n- FAR Part 15 \u2014 Contracting by Negotiation (https://www.acquisition.gov/far/part-15)\n- FAR 15.306 \u2014 Exchanges with offerors after receipt of proposals (https://www.acquisition.gov/far/15.306)\n\nWhat this tests: Using the FAR\u2019s defined post-proposal exchange categories correctly.\n\nHow to decide:\n1) Before competitive range: communications (narrowly focused).\n2) If award without discussions: clarifications (minor).\n3) If negotiating improvements: discussions (meaningful).\n\nWhy the correct answer works: FAR 15.306 defines three categories\u2014communications, clarifications, and discussions\u2014each with different rules and documentation expectations.\n\nWhy other options fail:\nA: Discussions are only one category; FAR explicitly distinguishes smaller exchanges like clarifications and communications.\nD: Debriefs and protests are separate processes (Parts 15/33), not the defined post-proposal exchange categories.\n\nField tip: Using the wrong label can create protest risk\u2014e.g., calling something a clarification when it\u2019s really a discussion."
+  },
+  {
+    "id": "con3910-027",
+    "question": "Regarding gifts from contractors, Government employees:",
+    "choices": [
+      "May accept gifts if under $50",
+      "May solicit gifts if customary",
+      "May not solicit or accept gifts from contractors",
+      "May accept gifts if offered to everyone"
+    ],
+    "correctIndex": 2,
+    "source": "Quizlet CON 3910 Practice Exam",
+    "explanationRich": {
+      "farRefs": {
+        "part": {
+          "cite": "FAR Part 3",
+          "title": "Improper Business Practices and Personal Conflicts of Interest",
+          "url": "https://www.acquisition.gov/far/part-3"
+        },
+        "sections": [
+          {
+            "cite": "FAR 3.101-2",
+            "title": "Solicitation and acceptance of gratuities",
+            "url": "https://www.acquisition.gov/far/3.101-2"
+          }
+        ]
+      },
+      "whatThisTests": "Integrity rules: avoiding even the appearance of compromised impartiality.",
+      "decisionSteps": [
+        "Assume gifts from contractors are prohibited unless a clearly defined ethics exception applies.",
+        "When in doubt, decline and document the interaction.",
+        "Consult ethics counsel for edge cases."
+      ],
+      "whyCorrect": "FAR 3.101-2 prohibits soliciting or accepting gratuities from contractors or potential contractors. The intent is to protect integrity and public trust in the acquisition process.",
+      "whyWrong": [
+        {
+          "choiceLabel": "A",
+          "reason": "Dollar thresholds in general ethics guidance do not override FAR\u2019s procurement integrity posture; the safe answer is no gifts."
+        },
+        {
+          "choiceLabel": "D",
+          "reason": "\u2018Offered to everyone\u2019 still creates appearance and potential influence concerns; FAR sets a strict expectation."
+        }
+      ],
+      "fieldTip": "Train users to treat vendor gifts as a hard \u2018no\u2019 and route questions through ethics rather than improvising."
+    },
+    "explanation": "FAR References:\n- FAR Part 3 \u2014 Improper Business Practices and Personal Conflicts of Interest (https://www.acquisition.gov/far/part-3)\n- FAR 3.101-2 \u2014 Solicitation and acceptance of gratuities (https://www.acquisition.gov/far/3.101-2)\n\nWhat this tests: Integrity rules: avoiding even the appearance of compromised impartiality.\n\nHow to decide:\n1) Assume gifts from contractors are prohibited unless a clearly defined ethics exception applies.\n2) When in doubt, decline and document the interaction.\n3) Consult ethics counsel for edge cases.\n\nWhy the correct answer works: FAR 3.101-2 prohibits soliciting or accepting gratuities from contractors or potential contractors. The intent is to protect integrity and public trust in the acquisition process.\n\nWhy other options fail:\nA: Dollar thresholds in general ethics guidance do not override FAR\u2019s procurement integrity posture; the safe answer is no gifts.\nD: \u2018Offered to everyone\u2019 still creates appearance and potential influence concerns; FAR sets a strict expectation.\n\nField tip: Train users to treat vendor gifts as a hard \u2018no\u2019 and route questions through ethics rather than improvising."
   },
   {
     "id": "con3910-028",
-    "question": "What is the general guidance provided by the FAR for contractor bid or proposal information?",
+    "question": "Guidance on disclosure of proposal information is that it:",
     "choices": [
-      "It may not be disclosed to anyone unless they are authorized to receive it",
-      "It may only be disclosed to those authorized to receive it and their supervisors",
-      "It may be disclosed to anyone with the appropriate security clearance level",
-      "It may not be disclosed to anyone outside the agency"
+      "Must not be disclosed except as authorized",
+      "May be disclosed if the request is informal",
+      "May be disclosed if the requestor has clearance",
+      "Is public after receipt of proposals"
     ],
     "correctIndex": 0,
     "source": "Quizlet CON 3910 Practice Exam",
     "explanationRich": {
       "farRefs": {
         "part": {
-          "cite": "FAR Part 1",
-          "title": "Federal Acquisition Regulations System",
-          "url": "https://www.acquisition.gov/far/part-1"
+          "cite": "FAR Part 3",
+          "title": "Improper Business Practices and Personal Conflicts of Interest",
+          "url": "https://www.acquisition.gov/far/part-3"
         },
-        "sections": []
+        "sections": [
+          {
+            "cite": "FAR 3.104",
+            "title": "Procurement Integrity",
+            "url": "https://www.acquisition.gov/far/3.104"
+          }
+        ]
       },
-      "whatThisTests": "This question tests whether you can connect the stem language to FAR Part 1 and pick the answer that satisfies the rule condition.",
+      "whatThisTests": "Protecting source selection and contractor bid/proposal information.",
       "decisionSteps": [
-        "Identify the trigger phrase in the stem (e.g., \u201cWhat is the general guidance provided by the FAR for contractor bid or\u201d).",
-        "Match that trigger to the FAR rule that governs authority, process, or documentation.",
-        "Select the option that follows the required sequence and can be defended in the contract file."
+        "Assume proposal and source selection information is protected.",
+        "Release only if a specific legal/regulatory authorization applies.",
+        "Coordinate with legal/FOIA processes when applicable."
       ],
-      "whyCorrect": "Choice A is correct because it directly answers the stem requirement and aligns with FAR Part 1. The distractors either skip a required check, rely on someone without authority, or treat convenience as a substitute for procedure. In exam terms, this option is the only one that remains valid when you test it against both the scenario wording and the governing FAR rule.",
+      "whyCorrect": "Procurement integrity rules restrict disclosure of contractor proposal information and source selection information. Unauthorized release undermines fairness and can compromise the procurement.",
       "whyWrong": [
         {
-          "choiceLabel": "B",
-          "reason": "This option sounds plausible, but \u201cIt may only be disclosed to those authorized to receive it and their supervisors\u201d conflicts with the condition in the question or omits a required FAR step."
+          "choiceLabel": "C",
+          "reason": "Security clearance does not grant permission to access or release protected procurement information."
         },
         {
-          "choiceLabel": "C",
-          "reason": "This option sounds plausible, but \u201cIt may be disclosed to anyone with the appropriate security clearance level\u201d conflicts with the condition in the question or omits a required FAR step."
+          "choiceLabel": "D",
+          "reason": "Receipt of proposals does not make them public; protections remain in place."
         }
       ],
-      "fieldTip": "Capture a one-paragraph rationale in the file: quote the stem trigger, cite FAR Part 1, and explain why choice A was selected over the closest alternative."
+      "fieldTip": "If anyone asks for competitor proposal info, your default is deny and elevate\u2014never share informally."
     },
-    "explanation": "FAR References:\n- FAR Part 1 \u2014 Federal Acquisition Regulations System (https://www.acquisition.gov/far/part-1)\n\nWhat this tests: This question tests whether you can connect the stem language to FAR Part 1 and pick the answer that satisfies the rule condition.\n\nHow to decide:\n1) Identify the trigger phrase in the stem (e.g., \u201cWhat is the general guidance provided by the FAR for contractor bid or\u201d).\n2) Match that trigger to the FAR rule that governs authority, process, or documentation.\n3) Select the option that follows the required sequence and can be defended in the contract file.\n\nWhy the correct answer works: Choice A is correct because it directly answers the stem requirement and aligns with FAR Part 1. The distractors either skip a required check, rely on someone without authority, or treat convenience as a substitute for procedure. In exam terms, this option is the only one that remains valid when you test it against both the scenario wording and the governing FAR rule.\n\nWhy other options fail:\nB: This option sounds plausible, but \u201cIt may only be disclosed to those authorized to receive it and their supervisors\u201d conflicts with the condition in the question or omits a required FAR step.\nC: This option sounds plausible, but \u201cIt may be disclosed to anyone with the appropriate security clearance level\u201d conflicts with the condition in the question or omits a required FAR step.\n\nField tip: Capture a one-paragraph rationale in the file: quote the stem trigger, cite FAR Part 1, and explain why choice A was selected over the closest alternative."
+    "explanation": "FAR References:\n- FAR Part 3 \u2014 Improper Business Practices and Personal Conflicts of Interest (https://www.acquisition.gov/far/part-3)\n- FAR 3.104 \u2014 Procurement Integrity (https://www.acquisition.gov/far/3.104)\n\nWhat this tests: Protecting source selection and contractor bid/proposal information.\n\nHow to decide:\n1) Assume proposal and source selection information is protected.\n2) Release only if a specific legal/regulatory authorization applies.\n3) Coordinate with legal/FOIA processes when applicable.\n\nWhy the correct answer works: Procurement integrity rules restrict disclosure of contractor proposal information and source selection information. Unauthorized release undermines fairness and can compromise the procurement.\n\nWhy other options fail:\nC: Security clearance does not grant permission to access or release protected procurement information.\nD: Receipt of proposals does not make them public; protections remain in place.\n\nField tip: If anyone asks for competitor proposal info, your default is deny and elevate\u2014never share informally."
   },
   {
     "id": "con3910-029",
-    "question": "With few exceptions, which one of the following statements is true regarding awarding contracts to U.S. Government employees?",
+    "question": "A contracting officer shall not knowingly award contracts to:",
     "choices": [
-      "A contracting officer shall not knowingly award a contract to a Government employee unless the purchase amount is less than the micro-purchase threshold",
-      "A Government employee can receive a Government contract",
-      "A Government employee can receive a Government contract as long as they have incorporated",
-      "A contracting officer shall not knowingly award a contract to a Government employee"
+      "A new business",
+      "A business with no past performance",
+      "A contractor with a new CAGE code",
+      "A Government employee"
     ],
     "correctIndex": 3,
     "source": "Quizlet CON 3910 Practice Exam",
     "explanationRich": {
       "farRefs": {
         "part": {
-          "cite": "FAR Part 1",
-          "title": "Federal Acquisition Regulations System",
-          "url": "https://www.acquisition.gov/far/part-1"
+          "cite": "FAR Part 3",
+          "title": "Improper Business Practices and Personal Conflicts of Interest",
+          "url": "https://www.acquisition.gov/far/part-3"
         },
-        "sections": []
+        "sections": [
+          {
+            "cite": "FAR 3.601",
+            "title": "Policy",
+            "url": "https://www.acquisition.gov/far/3.601"
+          }
+        ]
       },
-      "whatThisTests": "This question tests whether you can connect the stem language to FAR Part 1 and pick the answer that satisfies the rule condition.",
+      "whatThisTests": "Conflict-of-interest rules prohibiting awards to Government employees (with narrow exceptions).",
       "decisionSteps": [
-        "Identify the trigger phrase in the stem (e.g., \u201cWith few exceptions, which one of the following statements is true reg\u201d).",
-        "Match that trigger to the FAR rule that governs authority, process, or documentation.",
-        "Select the option that follows the required sequence and can be defended in the contract file."
+        "Check whether the prospective awardee is a Government employee.",
+        "If yes, treat as prohibited unless a clearly documented exception applies.",
+        "Coordinate with legal/ethics if any exception is claimed."
       ],
-      "whyCorrect": "Choice D is correct because it directly answers the stem requirement and aligns with FAR Part 1. The distractors either skip a required check, rely on someone without authority, or treat convenience as a substitute for procedure. In exam terms, this option is the only one that remains valid when you test it against both the scenario wording and the governing FAR rule.",
+      "whyCorrect": "FAR policy prohibits knowingly awarding to Government employees due to conflicts and integrity concerns. Even if the employee is capable, it creates unacceptable risk and undermines public trust.",
       "whyWrong": [
         {
           "choiceLabel": "A",
-          "reason": "This option sounds plausible, but \u201cA contracting officer shall not knowingly award a contract to a Government employee unless the purchase amount is less than the micro-purchase threshold\u201d conflicts with the condition in the question or omits a required FAR step."
+          "reason": "New businesses can win contracts; the FAR does not prohibit them solely due to newness."
         },
         {
           "choiceLabel": "B",
-          "reason": "This option sounds plausible, but \u201cA Government employee can receive a Government contract\u201d conflicts with the condition in the question or omits a required FAR step."
+          "reason": "Lack of past performance is not automatically disqualifying; it must be evaluated per the solicitation criteria."
         }
       ],
-      "fieldTip": "Capture a one-paragraph rationale in the file: quote the stem trigger, cite FAR Part 1, and explain why choice D was selected over the closest alternative."
+      "fieldTip": "If you discover a Gov employee is involved, stop and route to legal\u2014don\u2019t try to \u2018work it out\u2019 informally."
     },
-    "explanation": "FAR References:\n- FAR Part 1 \u2014 Federal Acquisition Regulations System (https://www.acquisition.gov/far/part-1)\n\nWhat this tests: This question tests whether you can connect the stem language to FAR Part 1 and pick the answer that satisfies the rule condition.\n\nHow to decide:\n1) Identify the trigger phrase in the stem (e.g., \u201cWith few exceptions, which one of the following statements is true reg\u201d).\n2) Match that trigger to the FAR rule that governs authority, process, or documentation.\n3) Select the option that follows the required sequence and can be defended in the contract file.\n\nWhy the correct answer works: Choice D is correct because it directly answers the stem requirement and aligns with FAR Part 1. The distractors either skip a required check, rely on someone without authority, or treat convenience as a substitute for procedure. In exam terms, this option is the only one that remains valid when you test it against both the scenario wording and the governing FAR rule.\n\nWhy other options fail:\nA: This option sounds plausible, but \u201cA contracting officer shall not knowingly award a contract to a Government employee unless the purchase amount is less than the micro-purchase threshold\u201d conflicts with the condition in the question or omits a required FAR step.\nB: This option sounds plausible, but \u201cA Government employee can receive a Government contract\u201d conflicts with the condition in the question or omits a required FAR step.\n\nField tip: Capture a one-paragraph rationale in the file: quote the stem trigger, cite FAR Part 1, and explain why choice D was selected over the closest alternative."
+    "explanation": "FAR References:\n- FAR Part 3 \u2014 Improper Business Practices and Personal Conflicts of Interest (https://www.acquisition.gov/far/part-3)\n- FAR 3.601 \u2014 Policy (https://www.acquisition.gov/far/3.601)\n\nWhat this tests: Conflict-of-interest rules prohibiting awards to Government employees (with narrow exceptions).\n\nHow to decide:\n1) Check whether the prospective awardee is a Government employee.\n2) If yes, treat as prohibited unless a clearly documented exception applies.\n3) Coordinate with legal/ethics if any exception is claimed.\n\nWhy the correct answer works: FAR policy prohibits knowingly awarding to Government employees due to conflicts and integrity concerns. Even if the employee is capable, it creates unacceptable risk and undermines public trust.\n\nWhy other options fail:\nA: New businesses can win contracts; the FAR does not prohibit them solely due to newness.\nB: Lack of past performance is not automatically disqualifying; it must be evaluated per the solicitation criteria.\n\nField tip: If you discover a Gov employee is involved, stop and route to legal\u2014don\u2019t try to \u2018work it out\u2019 informally."
   },
   {
     "id": "con3910-030",
-    "question": "Which of the following would represent, or potentially represent, an organizational conflict of interest (OCI)?",
+    "question": "Which is an example of an organizational conflict of interest (OCI)?",
     "choices": [
-      "A contractor (contractor X) is hired to develop and produce a particular product for the Government that currently does not exist. In developing the product, the contractor uses its own proprietary methods.",
-      "An engineering support contractor (contractor A) is hired to assist in the development of Government specifications for a new requirement. Contractor A writes the specifications in such a way as to require the Government's use of contractor A's proprietary processes even though there are other solutions.",
-      "A contractor (contractor X) is hired to fill an order of 50 widgets. In filling the order, the contractor supplies its own proprietary product.",
-      "An engineering support contractor (contractor A) is hired to develop specifications for a new requirement. Contractor A writes the specifications and does not later submit a proposal in response to an RFP for the new requirement."
+      "A contractor has to submit a proposal",
+      "A contractor writes specifications requiring its proprietary process",
+      "A contractor misses a delivery deadline",
+      "A contractor submits pricing late"
     ],
     "correctIndex": 1,
     "source": "Quizlet CON 3910 Practice Exam",
     "explanationRich": {
       "farRefs": {
         "part": {
-          "cite": "FAR Part 1",
-          "title": "Federal Acquisition Regulations System",
-          "url": "https://www.acquisition.gov/far/part-1"
+          "cite": "FAR Part 9",
+          "title": "Contractor Qualifications",
+          "url": "https://www.acquisition.gov/far/part-9"
         },
-        "sections": []
+        "sections": [
+          {
+            "cite": "FAR 9.505",
+            "title": "Contracting officer responsibilities",
+            "url": "https://www.acquisition.gov/far/9.505"
+          }
+        ]
       },
-      "whatThisTests": "This question tests whether you can connect the stem language to FAR Part 1 and pick the answer that satisfies the rule condition.",
+      "whatThisTests": "Biased ground rules OCI\u2014contractor shaping requirements in a way that favors itself.",
       "decisionSteps": [
-        "Identify the trigger phrase in the stem (e.g., \u201cWhich of the following would represent, or potentially represent, an o\u201d).",
-        "Match that trigger to the FAR rule that governs authority, process, or documentation.",
-        "Select the option that follows the required sequence and can be defended in the contract file."
+        "Ask whether the contractor influenced requirements/specs/evaluation.",
+        "Determine whether that influence steers competition toward the contractor.",
+        "Mitigate (firewalls, exclude from competition, revise specs) as appropriate."
       ],
-      "whyCorrect": "Choice B is correct because it directly answers the stem requirement and aligns with FAR Part 1. The distractors either skip a required check, rely on someone without authority, or treat convenience as a substitute for procedure. In exam terms, this option is the only one that remains valid when you test it against both the scenario wording and the governing FAR rule.",
+      "whyCorrect": "When a contractor writes specifications that effectively require its proprietary process, it can bias the acquisition and create an unfair advantage. That is a classic biased ground rules OCI risk.",
       "whyWrong": [
         {
-          "choiceLabel": "A",
-          "reason": "This option sounds plausible, but \u201cA contractor (contractor X) is hired to develop and produce a particular product for the Government that currently does not exist. In developing the product, the contractor uses its own proprietary methods.\u201d conflicts with the condition in the question or omits a required FAR step."
+          "choiceLabel": "C",
+          "reason": "Late delivery is a performance/admin issue\u2014not an OCI category."
         },
         {
-          "choiceLabel": "C",
-          "reason": "This option sounds plausible, but \u201cA contractor (contractor X) is hired to fill an order of 50 widgets. In filling the order, the contractor supplies its own proprietary product.\u201d conflicts with the condition in the question or omits a required FAR step."
+          "choiceLabel": "D",
+          "reason": "Late pricing is a submission/timeliness issue, not an OCI."
         }
       ],
-      "fieldTip": "Capture a one-paragraph rationale in the file: quote the stem trigger, cite FAR Part 1, and explain why choice B was selected over the closest alternative."
+      "fieldTip": "If contractors support requirements development, build safeguards up front (OCI clauses, segmentation, independent review)."
     },
-    "explanation": "FAR References:\n- FAR Part 1 \u2014 Federal Acquisition Regulations System (https://www.acquisition.gov/far/part-1)\n\nWhat this tests: This question tests whether you can connect the stem language to FAR Part 1 and pick the answer that satisfies the rule condition.\n\nHow to decide:\n1) Identify the trigger phrase in the stem (e.g., \u201cWhich of the following would represent, or potentially represent, an o\u201d).\n2) Match that trigger to the FAR rule that governs authority, process, or documentation.\n3) Select the option that follows the required sequence and can be defended in the contract file.\n\nWhy the correct answer works: Choice B is correct because it directly answers the stem requirement and aligns with FAR Part 1. The distractors either skip a required check, rely on someone without authority, or treat convenience as a substitute for procedure. In exam terms, this option is the only one that remains valid when you test it against both the scenario wording and the governing FAR rule.\n\nWhy other options fail:\nA: This option sounds plausible, but \u201cA contractor (contractor X) is hired to develop and produce a particular product for the Government that currently does not exist. In developing the product, the contractor uses its own proprietary methods.\u201d conflicts with the condition in the question or omits a required FAR step.\nC: This option sounds plausible, but \u201cA contractor (contractor X) is hired to fill an order of 50 widgets. In filling the order, the contractor supplies its own proprietary product.\u201d conflicts with the condition in the question or omits a required FAR step.\n\nField tip: Capture a one-paragraph rationale in the file: quote the stem trigger, cite FAR Part 1, and explain why choice B was selected over the closest alternative."
+    "explanation": "FAR References:\n- FAR Part 9 \u2014 Contractor Qualifications (https://www.acquisition.gov/far/part-9)\n- FAR 9.505 \u2014 Contracting officer responsibilities (https://www.acquisition.gov/far/9.505)\n\nWhat this tests: Biased ground rules OCI\u2014contractor shaping requirements in a way that favors itself.\n\nHow to decide:\n1) Ask whether the contractor influenced requirements/specs/evaluation.\n2) Determine whether that influence steers competition toward the contractor.\n3) Mitigate (firewalls, exclude from competition, revise specs) as appropriate.\n\nWhy the correct answer works: When a contractor writes specifications that effectively require its proprietary process, it can bias the acquisition and create an unfair advantage. That is a classic biased ground rules OCI risk.\n\nWhy other options fail:\nC: Late delivery is a performance/admin issue\u2014not an OCI category.\nD: Late pricing is a submission/timeliness issue, not an OCI.\n\nField tip: If contractors support requirements development, build safeguards up front (OCI clauses, segmentation, independent review)."
   },
   {
     "id": "con3910-031",
-    "question": "Which term means the total cost to the Government of acquiring, operating, supporting, and (if applicable) disposing of the items being acquired?",
+    "question": "The total cost of acquiring, operating, supporting, and disposing of a system is called:",
     "choices": [
-      "Total costs of ownership",
-      "Life-cycle costs",
-      "True program costs",
-      "Total costs of management"
+      "Unit cost",
+      "Life-cycle cost",
+      "Acquisition cost only",
+      "Fixed cost"
     ],
     "correctIndex": 1,
     "source": "Quizlet CON 3910 Practice Exam",
     "explanationRich": {
       "farRefs": {
         "part": {
-          "cite": "FAR Part 1",
-          "title": "Federal Acquisition Regulations System",
-          "url": "https://www.acquisition.gov/far/part-1"
+          "cite": "FAR Planning/Value",
+          "title": "FAR Index",
+          "url": "https://www.acquisition.gov/browse/index/far"
         },
         "sections": []
       },
-      "whatThisTests": "This question tests whether you can connect the stem language to FAR Part 1 and pick the answer that satisfies the rule condition.",
+      "whatThisTests": "Cost concepts beyond purchase price; understanding long-term cost drivers.",
       "decisionSteps": [
-        "Identify the trigger phrase in the stem (e.g., \u201cWhich term means the total cost to the Government of acquiring, operat\u201d).",
-        "Match that trigger to the FAR rule that governs authority, process, or documentation.",
-        "Select the option that follows the required sequence and can be defended in the contract file."
+        "Separate initial purchase cost from sustainment/operations.",
+        "Include maintenance, support, and end-of-life costs.",
+        "Use this view to support best-value decisions."
       ],
-      "whyCorrect": "Choice B is correct because it directly answers the stem requirement and aligns with FAR Part 1. The distractors either skip a required check, rely on someone without authority, or treat convenience as a substitute for procedure. In exam terms, this option is the only one that remains valid when you test it against both the scenario wording and the governing FAR rule.",
+      "whyCorrect": "Life-cycle cost includes acquisition plus the cost to operate, maintain, support, and dispose. It\u2019s the right concept when comparing alternatives that differ in sustainment burden.",
       "whyWrong": [
         {
           "choiceLabel": "A",
-          "reason": "This option sounds plausible, but \u201cTotal costs of ownership\u201d conflicts with the condition in the question or omits a required FAR step."
+          "reason": "Unit cost is a narrow measure per item; it excludes long-term support."
         },
         {
           "choiceLabel": "C",
-          "reason": "This option sounds plausible, but \u201cTrue program costs\u201d conflicts with the condition in the question or omits a required FAR step."
+          "reason": "Acquisition cost only is incomplete and can produce bad best-value decisions."
         }
       ],
-      "fieldTip": "Capture a one-paragraph rationale in the file: quote the stem trigger, cite FAR Part 1, and explain why choice B was selected over the closest alternative."
+      "fieldTip": "Teach users to ask: \u201cWhat will this cost me in year 2?\u201d That question catches many bad buys."
     },
-    "explanation": "FAR References:\n- FAR Part 1 \u2014 Federal Acquisition Regulations System (https://www.acquisition.gov/far/part-1)\n\nWhat this tests: This question tests whether you can connect the stem language to FAR Part 1 and pick the answer that satisfies the rule condition.\n\nHow to decide:\n1) Identify the trigger phrase in the stem (e.g., \u201cWhich term means the total cost to the Government of acquiring, operat\u201d).\n2) Match that trigger to the FAR rule that governs authority, process, or documentation.\n3) Select the option that follows the required sequence and can be defended in the contract file.\n\nWhy the correct answer works: Choice B is correct because it directly answers the stem requirement and aligns with FAR Part 1. The distractors either skip a required check, rely on someone without authority, or treat convenience as a substitute for procedure. In exam terms, this option is the only one that remains valid when you test it against both the scenario wording and the governing FAR rule.\n\nWhy other options fail:\nA: This option sounds plausible, but \u201cTotal costs of ownership\u201d conflicts with the condition in the question or omits a required FAR step.\nC: This option sounds plausible, but \u201cTrue program costs\u201d conflicts with the condition in the question or omits a required FAR step.\n\nField tip: Capture a one-paragraph rationale in the file: quote the stem trigger, cite FAR Part 1, and explain why choice B was selected over the closest alternative."
+    "explanation": "FAR References:\n- FAR Planning/Value \u2014 FAR Index (https://www.acquisition.gov/browse/index/far)\n\nWhat this tests: Cost concepts beyond purchase price; understanding long-term cost drivers.\n\nHow to decide:\n1) Separate initial purchase cost from sustainment/operations.\n2) Include maintenance, support, and end-of-life costs.\n3) Use this view to support best-value decisions.\n\nWhy the correct answer works: Life-cycle cost includes acquisition plus the cost to operate, maintain, support, and dispose. It\u2019s the right concept when comparing alternatives that differ in sustainment burden.\n\nWhy other options fail:\nA: Unit cost is a narrow measure per item; it excludes long-term support.\nC: Acquisition cost only is incomplete and can produce bad best-value decisions.\n\nField tip: Teach users to ask: \u201cWhat will this cost me in year 2?\u201d That question catches many bad buys."
   },
   {
     "id": "con3910-032",
-    "question": "Which of the following reflects market research policy? Market research:",
+    "question": "Market research policy reflects that it helps determine:",
     "choices": [
-      "Satisfies the contracting officer's fair and reasonable price determination",
-      "Begins once the requirements documents have been developed and are ready for solicitation",
-      "Ends at contract award",
-      "Aids in determining if sources capable of satisfying the agency's requirements exist"
+      "Whether price analysis is never required",
+      "Whether FAR Part 15 is always mandatory",
+      "Whether funds will be increased automatically",
+      "Whether capable sources exist and how to shape the acquisition"
     ],
     "correctIndex": 3,
     "source": "Quizlet CON 3910 Practice Exam",
@@ -1384,40 +1455,40 @@
         },
         "sections": [
           {
-            "cite": "FAR 10.002",
-            "title": "Procedures",
-            "url": "https://www.acquisition.gov/far/10.002"
+            "cite": "FAR 10.001",
+            "title": "Policy",
+            "url": "https://www.acquisition.gov/far/10.001"
           }
         ]
       },
-      "whatThisTests": "This question tests whether you can connect the stem language to FAR Part 10 and pick the answer that satisfies the rule condition.",
+      "whatThisTests": "What market research is actually used for in acquisition decision-making.",
       "decisionSteps": [
-        "Identify the trigger phrase in the stem (e.g., \u201cWhich of the following reflects market research policy? Market researc\u201d).",
-        "Match that trigger to the FAR rule that governs authority, process, or documentation.",
-        "Select the option that follows the required sequence and can be defended in the contract file."
+        "Use research to understand supplier base and commerciality.",
+        "Use research to choose strategy (competition, contract type, terms).",
+        "Use research to refine requirements toward what the market can provide."
       ],
-      "whyCorrect": "Choice D is correct because it directly answers the stem requirement and aligns with FAR Part 10. The distractors either skip a required check, rely on someone without authority, or treat convenience as a substitute for procedure. In exam terms, this option is the only one that remains valid when you test it against both the scenario wording and the governing FAR rule.",
+      "whyCorrect": "Market research is designed to determine whether commercial or nondevelopmental solutions exist, what sources are capable, and how to structure competition and requirements. It informs strategy; it doesn\u2019t replace price analysis or funding rules.",
       "whyWrong": [
         {
           "choiceLabel": "A",
-          "reason": "This option sounds plausible, but \u201cSatisfies the contracting officer's fair and reasonable price determination\u201d conflicts with the condition in the question or omits a required FAR step."
+          "reason": "Market research helps price analysis but does not eliminate the need for reasonableness determinations."
         },
         {
           "choiceLabel": "B",
-          "reason": "This option sounds plausible, but \u201cBegins once the requirements documents have been developed and are ready for solicitation\u201d conflicts with the condition in the question or omits a required FAR step."
+          "reason": "Part 15 isn\u2019t always mandatory; strategy depends on thresholds, procedures, and needs."
         }
       ],
-      "fieldTip": "Capture a one-paragraph rationale in the file: quote the stem trigger, cite FAR Part 10 and FAR 10.002, and explain why choice D was selected over the closest alternative."
+      "fieldTip": "If you can show market research identified multiple capable sources, you\u2019re halfway to defending competition decisions."
     },
-    "explanation": "FAR References:\n- FAR Part 10 \u2014 Market Research (https://www.acquisition.gov/far/part-10)\n- FAR 10.002 \u2014 Procedures (https://www.acquisition.gov/far/10.002)\n\nWhat this tests: This question tests whether you can connect the stem language to FAR Part 10 and pick the answer that satisfies the rule condition.\n\nHow to decide:\n1) Identify the trigger phrase in the stem (e.g., \u201cWhich of the following reflects market research policy? Market researc\u201d).\n2) Match that trigger to the FAR rule that governs authority, process, or documentation.\n3) Select the option that follows the required sequence and can be defended in the contract file.\n\nWhy the correct answer works: Choice D is correct because it directly answers the stem requirement and aligns with FAR Part 10. The distractors either skip a required check, rely on someone without authority, or treat convenience as a substitute for procedure. In exam terms, this option is the only one that remains valid when you test it against both the scenario wording and the governing FAR rule.\n\nWhy other options fail:\nA: This option sounds plausible, but \u201cSatisfies the contracting officer's fair and reasonable price determination\u201d conflicts with the condition in the question or omits a required FAR step.\nB: This option sounds plausible, but \u201cBegins once the requirements documents have been developed and are ready for solicitation\u201d conflicts with the condition in the question or omits a required FAR step.\n\nField tip: Capture a one-paragraph rationale in the file: quote the stem trigger, cite FAR Part 10 and FAR 10.002, and explain why choice D was selected over the closest alternative."
+    "explanation": "FAR References:\n- FAR Part 10 \u2014 Market Research (https://www.acquisition.gov/far/part-10)\n- FAR 10.001 \u2014 Policy (https://www.acquisition.gov/far/10.001)\n\nWhat this tests: What market research is actually used for in acquisition decision-making.\n\nHow to decide:\n1) Use research to understand supplier base and commerciality.\n2) Use research to choose strategy (competition, contract type, terms).\n3) Use research to refine requirements toward what the market can provide.\n\nWhy the correct answer works: Market research is designed to determine whether commercial or nondevelopmental solutions exist, what sources are capable, and how to structure competition and requirements. It informs strategy; it doesn\u2019t replace price analysis or funding rules.\n\nWhy other options fail:\nA: Market research helps price analysis but does not eliminate the need for reasonableness determinations.\nB: Part 15 isn\u2019t always mandatory; strategy depends on thresholds, procedures, and needs.\n\nField tip: If you can show market research identified multiple capable sources, you\u2019re halfway to defending competition decisions."
   },
   {
     "id": "con3910-033",
-    "question": "Which section of the uniform contract format (UCF) exists to include negotiated, meaningful special contract requirement that are not included in Section I, Contract clauses, or in the other sections of the UCF?",
+    "question": "In UCF, negotiated special requirements not addressed elsewhere are located in:",
     "choices": [
-      "Section B",
-      "Section C",
-      "Section G",
+      "Section A",
+      "Section F",
+      "Section I",
       "Section H"
     ],
     "correctIndex": 3,
@@ -1425,41 +1496,47 @@
     "explanationRich": {
       "farRefs": {
         "part": {
-          "cite": "FAR Part 1",
-          "title": "Federal Acquisition Regulations System",
-          "url": "https://www.acquisition.gov/far/part-1"
+          "cite": "FAR Part 15",
+          "title": "Contracting by Negotiation",
+          "url": "https://www.acquisition.gov/far/part-15"
         },
-        "sections": []
+        "sections": [
+          {
+            "cite": "FAR 15.204-1",
+            "title": "Uniform contract format",
+            "url": "https://www.acquisition.gov/far/15.204-1"
+          }
+        ]
       },
-      "whatThisTests": "This question tests whether you can connect the stem language to FAR Part 1 and pick the answer that satisfies the rule condition.",
+      "whatThisTests": "Knowing UCF sections and where special requirements belong.",
       "decisionSteps": [
-        "Identify the trigger phrase in the stem (e.g., \u201cWhich section of the uniform contract format (UCF) exists to include n\u201d).",
-        "Match that trigger to the FAR rule that governs authority, process, or documentation.",
-        "Select the option that follows the required sequence and can be defended in the contract file."
+        "Identify whether the content is a clause (Section I) or special requirement (Section H).",
+        "If it\u2019s unique program/agency requirement not a standard clause, place it in H.",
+        "Keep clauses in I and attachments in J."
       ],
-      "whyCorrect": "Choice D is correct because it directly answers the stem requirement and aligns with FAR Part 1. The distractors either skip a required check, rely on someone without authority, or treat convenience as a substitute for procedure. In exam terms, this option is the only one that remains valid when you test it against both the scenario wording and the governing FAR rule.",
+      "whyCorrect": "Section H is used for special contract requirements that do not fit elsewhere in the UCF. It\u2019s the right location for tailored requirements that are not standard FAR clauses.",
       "whyWrong": [
         {
-          "choiceLabel": "A",
-          "reason": "This option sounds plausible, but \u201cSection B\u201d conflicts with the condition in the question or omits a required FAR step."
+          "choiceLabel": "C",
+          "reason": "Section I is for clauses; special requirements that aren\u2019t standard clauses typically go in H."
         },
         {
           "choiceLabel": "B",
-          "reason": "This option sounds plausible, but \u201cSection C\u201d conflicts with the condition in the question or omits a required FAR step."
+          "reason": "Section F is deliveries/performance; it\u2019s not where special requirements are organized."
         }
       ],
-      "fieldTip": "Capture a one-paragraph rationale in the file: quote the stem trigger, cite FAR Part 1, and explain why choice D was selected over the closest alternative."
+      "fieldTip": "Misplacing special requirements (e.g., in I instead of H) can make them harder to enforce and easier to miss during performance."
     },
-    "explanation": "FAR References:\n- FAR Part 1 \u2014 Federal Acquisition Regulations System (https://www.acquisition.gov/far/part-1)\n\nWhat this tests: This question tests whether you can connect the stem language to FAR Part 1 and pick the answer that satisfies the rule condition.\n\nHow to decide:\n1) Identify the trigger phrase in the stem (e.g., \u201cWhich section of the uniform contract format (UCF) exists to include n\u201d).\n2) Match that trigger to the FAR rule that governs authority, process, or documentation.\n3) Select the option that follows the required sequence and can be defended in the contract file.\n\nWhy the correct answer works: Choice D is correct because it directly answers the stem requirement and aligns with FAR Part 1. The distractors either skip a required check, rely on someone without authority, or treat convenience as a substitute for procedure. In exam terms, this option is the only one that remains valid when you test it against both the scenario wording and the governing FAR rule.\n\nWhy other options fail:\nA: This option sounds plausible, but \u201cSection B\u201d conflicts with the condition in the question or omits a required FAR step.\nB: This option sounds plausible, but \u201cSection C\u201d conflicts with the condition in the question or omits a required FAR step.\n\nField tip: Capture a one-paragraph rationale in the file: quote the stem trigger, cite FAR Part 1, and explain why choice D was selected over the closest alternative."
+    "explanation": "FAR References:\n- FAR Part 15 \u2014 Contracting by Negotiation (https://www.acquisition.gov/far/part-15)\n- FAR 15.204-1 \u2014 Uniform contract format (https://www.acquisition.gov/far/15.204-1)\n\nWhat this tests: Knowing UCF sections and where special requirements belong.\n\nHow to decide:\n1) Identify whether the content is a clause (Section I) or special requirement (Section H).\n2) If it\u2019s unique program/agency requirement not a standard clause, place it in H.\n3) Keep clauses in I and attachments in J.\n\nWhy the correct answer works: Section H is used for special contract requirements that do not fit elsewhere in the UCF. It\u2019s the right location for tailored requirements that are not standard FAR clauses.\n\nWhy other options fail:\nC: Section I is for clauses; special requirements that aren\u2019t standard clauses typically go in H.\nB: Section F is deliveries/performance; it\u2019s not where special requirements are organized.\n\nField tip: Misplacing special requirements (e.g., in I instead of H) can make them harder to enforce and easier to miss during performance."
   },
   {
     "id": "con3910-034",
-    "question": "Who is the individual designated and authorized in writing by the contracting officer to perform technical or administrative functions?",
+    "question": "An individual designated in writing by the contracting officer to perform technical or administrative functions is a:",
     "choices": [
-      "Contracting officer's representative",
-      "Contract specialist",
-      "Government property administrator",
-      "Quality assurance representative"
+      "COR",
+      "SSA",
+      "PCA",
+      "QA Inspector"
     ],
     "correctIndex": 0,
     "source": "Quizlet CON 3910 Practice Exam",
@@ -1470,37 +1547,43 @@
           "title": "Federal Acquisition Regulations System",
           "url": "https://www.acquisition.gov/far/part-1"
         },
-        "sections": []
+        "sections": [
+          {
+            "cite": "FAR 1.602-2",
+            "title": "Responsibilities",
+            "url": "https://www.acquisition.gov/far/1.602-2"
+          }
+        ]
       },
-      "whatThisTests": "This question tests whether you can connect the stem language to FAR Part 1 and pick the answer that satisfies the rule condition.",
+      "whatThisTests": "COR appointment and limits\u2014monitoring/support vs contracting authority.",
       "decisionSteps": [
-        "Identify the trigger phrase in the stem (e.g., \u201cWho is the individual designated and authorized in writing by the cont\u201d).",
-        "Match that trigger to the FAR rule that governs authority, process, or documentation.",
-        "Select the option that follows the required sequence and can be defended in the contract file."
+        "Look for \u201cdesignated in writing by CO\u201d wording.",
+        "That points to COR/representative roles.",
+        "Remember COR cannot change scope/price/terms."
       ],
-      "whyCorrect": "Choice A is correct because it directly answers the stem requirement and aligns with FAR Part 1. The distractors either skip a required check, rely on someone without authority, or treat convenience as a substitute for procedure. In exam terms, this option is the only one that remains valid when you test it against both the scenario wording and the governing FAR rule.",
+      "whyCorrect": "A COR is appointed in writing by the CO to support technical monitoring and administrative functions within specific limits. The appointment defines what the COR can and cannot do.",
       "whyWrong": [
         {
           "choiceLabel": "B",
-          "reason": "This option sounds plausible, but \u201cContract specialist\u201d conflicts with the condition in the question or omits a required FAR step."
+          "reason": "SSA is a source selection authority role during evaluation/award, not post-award technical monitoring."
         },
         {
-          "choiceLabel": "C",
-          "reason": "This option sounds plausible, but \u201cGovernment property administrator\u201d conflicts with the condition in the question or omits a required FAR step."
+          "choiceLabel": "D",
+          "reason": "QA inspectors may exist, but the FAR-recognized appointment for CO-designated representative duties is COR."
         }
       ],
-      "fieldTip": "Capture a one-paragraph rationale in the file: quote the stem trigger, cite FAR Part 1, and explain why choice A was selected over the closest alternative."
+      "fieldTip": "If your app teaches this, always pair the concept with \u2018COR cannot direct changes\u2019 to prevent unauthorized commitments."
     },
-    "explanation": "FAR References:\n- FAR Part 1 \u2014 Federal Acquisition Regulations System (https://www.acquisition.gov/far/part-1)\n\nWhat this tests: This question tests whether you can connect the stem language to FAR Part 1 and pick the answer that satisfies the rule condition.\n\nHow to decide:\n1) Identify the trigger phrase in the stem (e.g., \u201cWho is the individual designated and authorized in writing by the cont\u201d).\n2) Match that trigger to the FAR rule that governs authority, process, or documentation.\n3) Select the option that follows the required sequence and can be defended in the contract file.\n\nWhy the correct answer works: Choice A is correct because it directly answers the stem requirement and aligns with FAR Part 1. The distractors either skip a required check, rely on someone without authority, or treat convenience as a substitute for procedure. In exam terms, this option is the only one that remains valid when you test it against both the scenario wording and the governing FAR rule.\n\nWhy other options fail:\nB: This option sounds plausible, but \u201cContract specialist\u201d conflicts with the condition in the question or omits a required FAR step.\nC: This option sounds plausible, but \u201cGovernment property administrator\u201d conflicts with the condition in the question or omits a required FAR step.\n\nField tip: Capture a one-paragraph rationale in the file: quote the stem trigger, cite FAR Part 1, and explain why choice A was selected over the closest alternative."
+    "explanation": "FAR References:\n- FAR Part 1 \u2014 Federal Acquisition Regulations System (https://www.acquisition.gov/far/part-1)\n- FAR 1.602-2 \u2014 Responsibilities (https://www.acquisition.gov/far/1.602-2)\n\nWhat this tests: COR appointment and limits\u2014monitoring/support vs contracting authority.\n\nHow to decide:\n1) Look for \u201cdesignated in writing by CO\u201d wording.\n2) That points to COR/representative roles.\n3) Remember COR cannot change scope/price/terms.\n\nWhy the correct answer works: A COR is appointed in writing by the CO to support technical monitoring and administrative functions within specific limits. The appointment defines what the COR can and cannot do.\n\nWhy other options fail:\nB: SSA is a source selection authority role during evaluation/award, not post-award technical monitoring.\nD: QA inspectors may exist, but the FAR-recognized appointment for CO-designated representative duties is COR.\n\nField tip: If your app teaches this, always pair the concept with \u2018COR cannot direct changes\u2019 to prevent unauthorized commitments."
   },
   {
     "id": "con3910-035",
-    "question": "Which of the following statements is accurate regarding Acquisitions Teams?",
+    "question": "The Acquisition Team includes:",
     "choices": [
-      "The Acquisitions Team includes only representatives of the technical, supply, and procurement communities and the customers they serve.",
-      "Due to privity of contract, only prime contractors (and not subcontractors) are part of the Acquisition Team.",
-      "The Acquisition Team includes representatives of the technical, supply, and procurement communities, the customers they serve, and the contractors who provide the products and services.",
-      "The Acquisition Team's activities conclude after contract award."
+      "Only contracting office personnel",
+      "Only technical evaluators and the CO",
+      "Technical, supply, procurement, customers, and contractors",
+      "Only Government employees (never contractors)"
     ],
     "correctIndex": 2,
     "source": "Quizlet CON 3910 Practice Exam",
@@ -1511,37 +1594,43 @@
           "title": "Federal Acquisition Regulations System",
           "url": "https://www.acquisition.gov/far/part-1"
         },
-        "sections": []
+        "sections": [
+          {
+            "cite": "FAR 1.102-3",
+            "title": "Acquisition Team",
+            "url": "https://www.acquisition.gov/far/1.102-3"
+          }
+        ]
       },
-      "whatThisTests": "This question tests whether you can connect the stem language to FAR Part 1 and pick the answer that satisfies the rule condition.",
+      "whatThisTests": "FAR\u2019s acquisition team concept includes multiple stakeholders including industry (with integrity safeguards).",
       "decisionSteps": [
-        "Identify the trigger phrase in the stem (e.g., \u201cWhich of the following statements is accurate regarding Acquisitions T\u201d).",
-        "Match that trigger to the FAR rule that governs authority, process, or documentation.",
-        "Select the option that follows the required sequence and can be defended in the contract file."
+        "Think cross-functional: requirement owners + contracting + finance + legal + QA.",
+        "Include contractors as partners in delivery, while preserving integrity.",
+        "Use communication controls to maintain fairness."
       ],
-      "whyCorrect": "Choice C is correct because it directly answers the stem requirement and aligns with FAR Part 1. The distractors either skip a required check, rely on someone without authority, or treat convenience as a substitute for procedure. In exam terms, this option is the only one that remains valid when you test it against both the scenario wording and the governing FAR rule.",
+      "whyCorrect": "FAR 1.102-3 describes an acquisition team composed of all participants in the acquisition process, including contractors. The team concept is about collaboration and mission delivery\u2014while still protecting fairness and procurement integrity.",
       "whyWrong": [
         {
           "choiceLabel": "A",
-          "reason": "This option sounds plausible, but \u201cThe Acquisitions Team includes only representatives of the technical, supply, and procurement communities and the customers they serve.\u201d conflicts with the condition in the question or omits a required FAR step."
+          "reason": "Acquisition success requires more than contracting; excluding stakeholders produces poor requirements and weak execution."
         },
         {
-          "choiceLabel": "B",
-          "reason": "This option sounds plausible, but \u201cDue to privity of contract, only prime contractors (and not subcontractors) are part of the Acquisition Team.\u201d conflicts with the condition in the question or omits a required FAR step."
+          "choiceLabel": "D",
+          "reason": "The FAR explicitly recognizes contractors as part of the acquisition team (with ethical boundaries)."
         }
       ],
-      "fieldTip": "Capture a one-paragraph rationale in the file: quote the stem trigger, cite FAR Part 1, and explain why choice C was selected over the closest alternative."
+      "fieldTip": "Teach users: \u2018contractors are part of the team\u2019 doesn\u2019t mean they get procurement-sensitive info\u2014integrity rules still apply."
     },
-    "explanation": "FAR References:\n- FAR Part 1 \u2014 Federal Acquisition Regulations System (https://www.acquisition.gov/far/part-1)\n\nWhat this tests: This question tests whether you can connect the stem language to FAR Part 1 and pick the answer that satisfies the rule condition.\n\nHow to decide:\n1) Identify the trigger phrase in the stem (e.g., \u201cWhich of the following statements is accurate regarding Acquisitions T\u201d).\n2) Match that trigger to the FAR rule that governs authority, process, or documentation.\n3) Select the option that follows the required sequence and can be defended in the contract file.\n\nWhy the correct answer works: Choice C is correct because it directly answers the stem requirement and aligns with FAR Part 1. The distractors either skip a required check, rely on someone without authority, or treat convenience as a substitute for procedure. In exam terms, this option is the only one that remains valid when you test it against both the scenario wording and the governing FAR rule.\n\nWhy other options fail:\nA: This option sounds plausible, but \u201cThe Acquisitions Team includes only representatives of the technical, supply, and procurement communities and the customers they serve.\u201d conflicts with the condition in the question or omits a required FAR step.\nB: This option sounds plausible, but \u201cDue to privity of contract, only prime contractors (and not subcontractors) are part of the Acquisition Team.\u201d conflicts with the condition in the question or omits a required FAR step.\n\nField tip: Capture a one-paragraph rationale in the file: quote the stem trigger, cite FAR Part 1, and explain why choice C was selected over the closest alternative."
+    "explanation": "FAR References:\n- FAR Part 1 \u2014 Federal Acquisition Regulations System (https://www.acquisition.gov/far/part-1)\n- FAR 1.102-3 \u2014 Acquisition Team (https://www.acquisition.gov/far/1.102-3)\n\nWhat this tests: FAR\u2019s acquisition team concept includes multiple stakeholders including industry (with integrity safeguards).\n\nHow to decide:\n1) Think cross-functional: requirement owners + contracting + finance + legal + QA.\n2) Include contractors as partners in delivery, while preserving integrity.\n3) Use communication controls to maintain fairness.\n\nWhy the correct answer works: FAR 1.102-3 describes an acquisition team composed of all participants in the acquisition process, including contractors. The team concept is about collaboration and mission delivery\u2014while still protecting fairness and procurement integrity.\n\nWhy other options fail:\nA: Acquisition success requires more than contracting; excluding stakeholders produces poor requirements and weak execution.\nD: The FAR explicitly recognizes contractors as part of the acquisition team (with ethical boundaries).\n\nField tip: Teach users: \u2018contractors are part of the team\u2019 doesn\u2019t mean they get procurement-sensitive info\u2014integrity rules still apply."
   },
   {
     "id": "con3910-036",
-    "question": "Select the statement that is NOT conducive toward forming a cohesive team.",
+    "question": "Which approach is NOT conducive to a cohesive acquisition team environment?",
     "choices": [
-      "The Government should foster a cooperative working relationship with contractors consistent with its overriding responsibility to the taxpayers.",
-      "The contracts office and the program office should be synchronized as it relates to the end goal.",
-      "The Government should foster an \"arm's length\" approach for an effective relationship.",
-      "Good communication is important in building a cohesive team."
+      "Professional and cooperative relationships",
+      "Integrity and fairness",
+      "Arm's length approach",
+      "Open communication within ethical limits"
     ],
     "correctIndex": 2,
     "source": "Quizlet CON 3910 Practice Exam",
@@ -1552,28 +1641,34 @@
           "title": "Federal Acquisition Regulations System",
           "url": "https://www.acquisition.gov/far/part-1"
         },
-        "sections": []
+        "sections": [
+          {
+            "cite": "FAR 1.102-2",
+            "title": "Performance standards",
+            "url": "https://www.acquisition.gov/far/1.102-2"
+          }
+        ]
       },
-      "whatThisTests": "This question tests whether you can connect the stem language to FAR Part 1 and pick the answer that satisfies the rule condition.",
+      "whatThisTests": "FAR encourages teamwork and communication; unnecessary distance harms outcomes.",
       "decisionSteps": [
-        "Identify the trigger phrase in the stem (e.g., \u201cSelect the statement that is NOT conducive toward forming a cohesive t\u201d).",
-        "Match that trigger to the FAR rule that governs authority, process, or documentation.",
-        "Select the option that follows the required sequence and can be defended in the contract file."
+        "Separate \u2018professional boundaries\u2019 from \u2018unnecessary distance.\u2019",
+        "Maintain integrity and fairness while communicating effectively.",
+        "Use formal channels for procurement-sensitive matters."
       ],
-      "whyCorrect": "Choice C is correct because it directly answers the stem requirement and aligns with FAR Part 1. The distractors either skip a required check, rely on someone without authority, or treat convenience as a substitute for procedure. In exam terms, this option is the only one that remains valid when you test it against both the scenario wording and the governing FAR rule.",
+      "whyCorrect": "An \u201carm\u2019s length\u201d approach implies avoidant, minimal communication and discourages partnership. FAR encourages cooperative relationships and teamwork (with integrity safeguards). The goal is constructive communication, not isolation.",
       "whyWrong": [
         {
           "choiceLabel": "A",
-          "reason": "This option sounds plausible, but \u201cThe Government should foster a cooperative working relationship with contractors consistent with its overriding responsibility to the taxpayers.\u201d conflicts with the condition in the question or omits a required FAR step."
+          "reason": "Professional, cooperative relationships support performance and reduce misunderstandings when managed with integrity."
         },
         {
-          "choiceLabel": "B",
-          "reason": "This option sounds plausible, but \u201cThe contracts office and the program office should be synchronized as it relates to the end goal.\u201d conflicts with the condition in the question or omits a required FAR step."
+          "choiceLabel": "D",
+          "reason": "Open communication (within ethical limits) is consistent with the acquisition team concept and improves execution."
         }
       ],
-      "fieldTip": "Capture a one-paragraph rationale in the file: quote the stem trigger, cite FAR Part 1, and explain why choice C was selected over the closest alternative."
+      "fieldTip": "Use structured touchpoints (kickoffs, Q&A, regular check-ins) to keep communication strong without crossing authority lines."
     },
-    "explanation": "FAR References:\n- FAR Part 1 \u2014 Federal Acquisition Regulations System (https://www.acquisition.gov/far/part-1)\n\nWhat this tests: This question tests whether you can connect the stem language to FAR Part 1 and pick the answer that satisfies the rule condition.\n\nHow to decide:\n1) Identify the trigger phrase in the stem (e.g., \u201cSelect the statement that is NOT conducive toward forming a cohesive t\u201d).\n2) Match that trigger to the FAR rule that governs authority, process, or documentation.\n3) Select the option that follows the required sequence and can be defended in the contract file.\n\nWhy the correct answer works: Choice C is correct because it directly answers the stem requirement and aligns with FAR Part 1. The distractors either skip a required check, rely on someone without authority, or treat convenience as a substitute for procedure. In exam terms, this option is the only one that remains valid when you test it against both the scenario wording and the governing FAR rule.\n\nWhy other options fail:\nA: This option sounds plausible, but \u201cThe Government should foster a cooperative working relationship with contractors consistent with its overriding responsibility to the taxpayers.\u201d conflicts with the condition in the question or omits a required FAR step.\nB: This option sounds plausible, but \u201cThe contracts office and the program office should be synchronized as it relates to the end goal.\u201d conflicts with the condition in the question or omits a required FAR step.\n\nField tip: Capture a one-paragraph rationale in the file: quote the stem trigger, cite FAR Part 1, and explain why choice C was selected over the closest alternative."
+    "explanation": "FAR References:\n- FAR Part 1 \u2014 Federal Acquisition Regulations System (https://www.acquisition.gov/far/part-1)\n- FAR 1.102-2 \u2014 Performance standards (https://www.acquisition.gov/far/1.102-2)\n\nWhat this tests: FAR encourages teamwork and communication; unnecessary distance harms outcomes.\n\nHow to decide:\n1) Separate \u2018professional boundaries\u2019 from \u2018unnecessary distance.\u2019\n2) Maintain integrity and fairness while communicating effectively.\n3) Use formal channels for procurement-sensitive matters.\n\nWhy the correct answer works: An \u201carm\u2019s length\u201d approach implies avoidant, minimal communication and discourages partnership. FAR encourages cooperative relationships and teamwork (with integrity safeguards). The goal is constructive communication, not isolation.\n\nWhy other options fail:\nA: Professional, cooperative relationships support performance and reduce misunderstandings when managed with integrity.\nD: Open communication (within ethical limits) is consistent with the acquisition team concept and improves execution.\n\nField tip: Use structured touchpoints (kickoffs, Q&A, regular check-ins) to keep communication strong without crossing authority lines."
   },
   {
     "id": "con3910-037",
