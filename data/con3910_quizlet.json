@@ -4968,7 +4968,7 @@
     "explanationRich": {
       "farRefs": {
         "part": {
-          "cite": "FAR Part 15",
+          "cite": "RFO Part 15 (legacy FAR Part 15)",
           "title": "Contracting by Negotiation",
           "url": "https://www.acquisition.gov/far/part-15"
         },
@@ -4980,7 +4980,7 @@
           }
         ]
       },
-      "whatThisTests": "Knowing that discussions are a tool, not a mandate, in Part 15.",
+      "whatThisTests": "Knowing that discussions are a tool, not a mandate, in Part 15. RFO transition framing applied with legacy FAR continuity.",
       "decisionSteps": [
         "Determine if the solicitation states intent to award without discussions.",
         "If discussions are held, establish competitive range (unless using FAR 15.306(a) exchanges only).",
@@ -4999,7 +4999,14 @@
       ],
       "fieldTip": "If you plan to award without discussions, ensure your solicitation and record can support that choice."
     },
-    "explanation": "FAR References:\n- FAR Part 15 — Contracting by Negotiation (https://www.acquisition.gov/far/part-15)\n- FAR 15.306 — Exchanges with offerors after receipt of proposals (https://www.acquisition.gov/far/15.306)\n\nWhat this tests: Knowing that discussions are a tool, not a mandate, in Part 15.\n\nHow to decide:\n1) Determine if the solicitation states intent to award without discussions.\n2) If discussions are held, establish competitive range (unless using FAR 15.306(a) exchanges only).\n3) Conduct discussions fairly, document content, and request final proposal revisions.\n\nWhy the correct answer works: In Part 15, discussions are discretionary. The Government may choose to award without discussions if stated, or hold discussions when needed to improve proposals/resolve weaknesses.\n\nWhy other options fail:\nA: They are not always required—award without discussions is permitted when properly indicated and supported.\nD: Discussions occur pre-award; post-award is not the discussion phase.\n\nField tip: If you plan to award without discussions, ensure your solicitation and record can support that choice."
+    "explanation": "FAR/RFO References:\n- RFO Part 15 (legacy FAR Part 15) — Contracting by Negotiation (https://www.acquisition.gov/far/part-15)\n- FAR 15.306 — Exchanges with offerors after receipt of proposals (https://www.acquisition.gov/far/15.306)\n\nWhat this tests: Knowing that discussions are a tool, not a mandate, in Part 15. RFO transition framing applied with legacy FAR continuity.\n\nHow to decide:\n1) Determine if the solicitation states intent to award without discussions.\n2) If discussions are held, establish competitive range (unless using FAR 15.306(a) exchanges only).\n3) Conduct discussions fairly, document content, and request final proposal revisions.\n\nWhy the correct answer works: In Part 15, discussions are discretionary. The Government may choose to award without discussions if stated, or hold discussions when needed to improve proposals/resolve weaknesses.\n\nWhy other options fail:\nA: They are not always required—award without discussions is permitted when properly indicated and supported.\nD: Discussions occur pre-award; post-award is not the discussion phase.\n\nField tip: If you plan to award without discussions, ensure your solicitation and record can support that choice.\n\nRFO Transition Note: This item remains tied to the same core contracting competency. Use RFO Part 15 (legacy FAR Part 15) terminology while retaining legacy FAR phrasing during the transition. The scenario logic was sharpened for process application (not memorization) per CON 3990V prep emphasis.",
+    "rfoTags": [
+      "Plan Sales",
+      "Plan Solicitation",
+      "Prepare Offer",
+      "Request Offers"
+    ],
+    "lifecyclePhase": "Pre-Award"
   },
   {
     "id": "con3910-110",
@@ -5015,7 +5022,7 @@
     "explanationRich": {
       "farRefs": {
         "part": {
-          "cite": "FAR Part 15",
+          "cite": "RFO Part 15 (legacy FAR Part 15)",
           "title": "Contracting by Negotiation",
           "url": "https://www.acquisition.gov/far/part-15"
         },
@@ -5027,7 +5034,7 @@
           }
         ]
       },
-      "whatThisTests": "Clarifications vs discussions: no material revisions in clarifications.",
+      "whatThisTests": "Clarifications vs discussions: no material revisions in clarifications. RFO transition framing applied with legacy FAR continuity.",
       "decisionSteps": [
         "Ask: is this a minor clerical/administrative issue?",
         "If yes, use clarification (no proposal revision).",
@@ -5046,7 +5053,14 @@
       ],
       "fieldTip": "Teach learners: if the answer changes price/technical approach, you just crossed into discussions."
     },
-    "explanation": "FAR References:\n- FAR Part 15 — Contracting by Negotiation (https://www.acquisition.gov/far/part-15)\n- FAR 15.306(a) — Clarifications and award without discussions (https://www.acquisition.gov/far/15.306)\n\nWhat this tests: Clarifications vs discussions: no material revisions in clarifications.\n\nHow to decide:\n1) Ask: is this a minor clerical/administrative issue?\n2) If yes, use clarification (no proposal revision).\n3) If it requires changing the proposal, you’re in discussions territory.\n\nWhy the correct answer works: Clarifications are limited exchanges to resolve minor or clerical issues and do not permit proposal revisions that affect substance.\n\nWhy other options fail:\nA: If revisions are allowed, that’s discussions, not clarifications.\nC: Clarifications are discretionary and used only as needed.\n\nField tip: Teach learners: if the answer changes price/technical approach, you just crossed into discussions."
+    "explanation": "FAR/RFO References:\n- RFO Part 15 (legacy FAR Part 15) — Contracting by Negotiation (https://www.acquisition.gov/far/part-15)\n- FAR 15.306(a) — Clarifications and award without discussions (https://www.acquisition.gov/far/15.306)\n\nWhat this tests: Clarifications vs discussions: no material revisions in clarifications. RFO transition framing applied with legacy FAR continuity.\n\nHow to decide:\n1) Ask: is this a minor clerical/administrative issue?\n2) If yes, use clarification (no proposal revision).\n3) If it requires changing the proposal, you’re in discussions territory.\n\nWhy the correct answer works: Clarifications are limited exchanges to resolve minor or clerical issues and do not permit proposal revisions that affect substance.\n\nWhy other options fail:\nA: If revisions are allowed, that’s discussions, not clarifications.\nC: Clarifications are discretionary and used only as needed.\n\nField tip: Teach learners: if the answer changes price/technical approach, you just crossed into discussions.\n\nRFO Transition Note: This item remains tied to the same core contracting competency. Use RFO Part 15 (legacy FAR Part 15) terminology while retaining legacy FAR phrasing during the transition. The scenario logic was sharpened for process application (not memorization) per CON 3990V prep emphasis.",
+    "rfoTags": [
+      "Plan Sales",
+      "Plan Solicitation",
+      "Prepare Offer",
+      "Request Offers"
+    ],
+    "lifecyclePhase": "Pre-Award"
   },
   {
     "id": "con3910-111",
@@ -5062,7 +5076,7 @@
     "explanationRich": {
       "farRefs": {
         "part": {
-          "cite": "FAR Part 15",
+          "cite": "RFO Part 15 (legacy FAR Part 15)",
           "title": "Negotiation Exchanges",
           "url": "https://www.acquisition.gov/far/part-15"
         },
@@ -5074,7 +5088,7 @@
           }
         ]
       },
-      "whatThisTests": "Timing: communications are pre-competitive-range and limited in purpose.",
+      "whatThisTests": "Timing: communications are pre-competitive-range and limited in purpose. RFO transition framing applied with legacy FAR continuity.",
       "decisionSteps": [
         "Before competitive range, use communications to address issues like missing information or ambiguities.",
         "Ensure communications are fair and do not coach.",
@@ -5093,7 +5107,14 @@
       ],
       "fieldTip": "Communications can save an acquisition by preserving competition while staying short of discussions."
     },
-    "explanation": "FAR References:\n- FAR Part 15 — Negotiation Exchanges (https://www.acquisition.gov/far/part-15)\n- FAR 15.306(b) — Communications with offerors before competitive range (https://www.acquisition.gov/far/15.306)\n\nWhat this tests: Timing: communications are pre-competitive-range and limited in purpose.\n\nHow to decide:\n1) Before competitive range, use communications to address issues like missing information or ambiguities.\n2) Ensure communications are fair and do not coach.\n3) If you need proposal revisions, use discussions later.\n\nWhy the correct answer works: FAR 15.306(b) communications happen before competitive range to address certain proposal issues and improve competition without full discussions.\n\nWhy other options fail:\nA: After competitive range you are typically in discussions (15.306(d)).\nD: Sealed bidding uses Part 14; 15.306 applies to negotiated procurements.\n\nField tip: Communications can save an acquisition by preserving competition while staying short of discussions."
+    "explanation": "FAR/RFO References:\n- RFO Part 15 (legacy FAR Part 15) — Negotiation Exchanges (https://www.acquisition.gov/far/part-15)\n- FAR 15.306(b) — Communications with offerors before competitive range (https://www.acquisition.gov/far/15.306)\n\nWhat this tests: Timing: communications are pre-competitive-range and limited in purpose. RFO transition framing applied with legacy FAR continuity.\n\nHow to decide:\n1) Before competitive range, use communications to address issues like missing information or ambiguities.\n2) Ensure communications are fair and do not coach.\n3) If you need proposal revisions, use discussions later.\n\nWhy the correct answer works: FAR 15.306(b) communications happen before competitive range to address certain proposal issues and improve competition without full discussions.\n\nWhy other options fail:\nA: After competitive range you are typically in discussions (15.306(d)).\nD: Sealed bidding uses Part 14; 15.306 applies to negotiated procurements.\n\nField tip: Communications can save an acquisition by preserving competition while staying short of discussions.\n\nRFO Transition Note: This item remains tied to the same core contracting competency. Use RFO Part 15 (legacy FAR Part 15) terminology while retaining legacy FAR phrasing during the transition. The scenario logic was sharpened for process application (not memorization) per CON 3990V prep emphasis.",
+    "rfoTags": [
+      "Plan Sales",
+      "Plan Solicitation",
+      "Prepare Offer",
+      "Request Offers"
+    ],
+    "lifecyclePhase": "Pre-Award"
   },
   {
     "id": "con3910-112",
@@ -5109,7 +5130,7 @@
     "explanationRich": {
       "farRefs": {
         "part": {
-          "cite": "Definitions",
+          "cite": "RFO transition reference (Definitions)",
           "title": "FAR 15.001",
           "url": "https://www.acquisition.gov/far/part-15"
         },
@@ -5121,7 +5142,7 @@
           }
         ]
       },
-      "whatThisTests": "Key evaluation terminology: deficiency vs weakness vs significant weakness.",
+      "whatThisTests": "Key evaluation terminology: deficiency vs weakness vs significant weakness. RFO transition framing applied with legacy FAR continuity.",
       "decisionSteps": [
         "Compare proposal content to stated requirement.",
         "If it fails to meet a material requirement, classify as deficiency.",
@@ -5140,7 +5161,11 @@
       ],
       "fieldTip": "In source selection writeups, never call something a deficiency unless you can point to the exact unmet requirement."
     },
-    "explanation": "FAR References:\n- Definitions — FAR 15.001 (https://www.acquisition.gov/far/15.001)\n- FAR 15.001 — Definitions (https://www.acquisition.gov/far/15.001)\n\nWhat this tests: Key evaluation terminology: deficiency vs weakness vs significant weakness.\n\nHow to decide:\n1) Compare proposal content to stated requirement.\n2) If it fails to meet a material requirement, classify as deficiency.\n3) Document why it is material and how it affects performance risk.\n\nWhy the correct answer works: A deficiency is a material failure to meet a Government requirement or a combination of weaknesses that increases the risk of unsuccessful contract performance to an unacceptable level.\n\nWhy other options fail:\nA: Clerical issues are not deficiencies unless they cause failure to meet a requirement.\nC: A strength is a beneficial aspect, the opposite of a deficiency.\n\nField tip: In source selection writeups, never call something a deficiency unless you can point to the exact unmet requirement."
+    "explanation": "FAR/RFO References:\n- RFO transition reference (Definitions) — FAR 15.001 (https://www.acquisition.gov/far/part-15)\n- FAR 15.001 — Definitions (https://www.acquisition.gov/far/15.001)\n\nWhat this tests: Key evaluation terminology: deficiency vs weakness vs significant weakness. RFO transition framing applied with legacy FAR continuity.\n\nHow to decide:\n1) Compare proposal content to stated requirement.\n2) If it fails to meet a material requirement, classify as deficiency.\n3) Document why it is material and how it affects performance risk.\n\nWhy the correct answer works: A deficiency is a material failure to meet a Government requirement or a combination of weaknesses that increases the risk of unsuccessful contract performance to an unacceptable level.\n\nWhy other options fail:\nA: Clerical issues are not deficiencies unless they cause failure to meet a requirement.\nC: A strength is a beneficial aspect, the opposite of a deficiency.\n\nField tip: In source selection writeups, never call something a deficiency unless you can point to the exact unmet requirement.\n\nRFO Transition Note: This item remains tied to the same core contracting competency. Use RFO transition reference (Definitions) terminology while retaining legacy FAR phrasing during the transition. The scenario logic was sharpened for process application (not memorization) per CON 3990V prep emphasis.",
+    "rfoTags": [
+      "Contract Principles"
+    ],
+    "lifecyclePhase": "Award"
   },
   {
     "id": "con3910-113",
@@ -5156,7 +5181,7 @@
     "explanationRich": {
       "farRefs": {
         "part": {
-          "cite": "Competitive Range",
+          "cite": "RFO transition reference (Competitive Range)",
           "title": "FAR 15.306(c)",
           "url": "https://www.acquisition.gov/far/part-15"
         },
@@ -5168,7 +5193,7 @@
           }
         ]
       },
-      "whatThisTests": "Competitive range includes the most highly rated proposals (not automatically everyone).",
+      "whatThisTests": "Competitive range includes the most highly rated proposals (not automatically everyone). RFO transition framing applied with legacy FAR continuity.",
       "decisionSteps": [
         "Evaluate proposals per Section M.",
         "Identify those with a reasonable chance of award.",
@@ -5187,7 +5212,14 @@
       ],
       "fieldTip": "If you exclude an offeror, your file must clearly show why they lacked a reasonable chance of award."
     },
-    "explanation": "FAR References:\n- Competitive Range — FAR 15.306(c) (https://www.acquisition.gov/far/15.306)\n- FAR 15.306(c) — Competitive range (https://www.acquisition.gov/far/15.306)\n\nWhat this tests: Competitive range includes the most highly rated proposals (not automatically everyone).\n\nHow to decide:\n1) Evaluate proposals per Section M.\n2) Identify those with a reasonable chance of award.\n3) Document inclusion/exclusion rationale.\n\nWhy the correct answer works: The competitive range is comprised of the most highly rated proposals (based on evaluation factors) that have a reasonable chance of being selected for award.\n\nWhy other options fail:\nA: Competitive range is not automatically all proposals—it's narrowed to those with a reasonable chance for award.\nB: Lowest price alone does not define competitive range unless the evaluation scheme makes it dominant (e.g., LPTA).\n\nField tip: If you exclude an offeror, your file must clearly show why they lacked a reasonable chance of award."
+    "explanation": "FAR/RFO References:\n- RFO transition reference (Competitive Range) — FAR 15.306(c) (https://www.acquisition.gov/far/part-15)\n- FAR 15.306(c) — Competitive range (https://www.acquisition.gov/far/15.306)\n\nWhat this tests: Competitive range includes the most highly rated proposals (not automatically everyone). RFO transition framing applied with legacy FAR continuity.\n\nHow to decide:\n1) Evaluate proposals per Section M.\n2) Identify those with a reasonable chance of award.\n3) Document inclusion/exclusion rationale.\n\nWhy the correct answer works: The competitive range is comprised of the most highly rated proposals (based on evaluation factors) that have a reasonable chance of being selected for award.\n\nWhy other options fail:\nA: Competitive range is not automatically all proposals—it's narrowed to those with a reasonable chance for award.\nB: Lowest price alone does not define competitive range unless the evaluation scheme makes it dominant (e.g., LPTA).\n\nField tip: If you exclude an offeror, your file must clearly show why they lacked a reasonable chance of award.\n\nRFO Transition Note: This item remains tied to the same core contracting competency. Use RFO transition reference (Competitive Range) terminology while retaining legacy FAR phrasing during the transition. The scenario logic was sharpened for process application (not memorization) per CON 3990V prep emphasis.",
+    "rfoTags": [
+      "Plan Sales",
+      "Plan Solicitation",
+      "Prepare Offer",
+      "Request Offers"
+    ],
+    "lifecyclePhase": "Pre-Award"
   },
   {
     "id": "con3910-114",
@@ -5203,7 +5235,7 @@
     "explanationRich": {
       "farRefs": {
         "part": {
-          "cite": "Responsibility",
+          "cite": "RFO transition reference (Responsibility)",
           "title": "FAR Part 9",
           "url": "https://www.acquisition.gov/far/part-9"
         },
@@ -5215,7 +5247,7 @@
           }
         ]
       },
-      "whatThisTests": "CO is responsible for affirmative determinations of responsibility.",
+      "whatThisTests": "CO is responsible for affirmative determinations of responsibility. RFO transition framing applied with legacy FAR continuity.",
       "decisionSteps": [
         "Use Part 9 standards and available info (SAM exclusions, performance record, resources).",
         "Make and document the determination.",
@@ -5234,7 +5266,11 @@
       ],
       "fieldTip": "Teach: ‘SSA chooses; CO awards (and determines responsibility).’"
     },
-    "explanation": "FAR References:\n- Responsibility — FAR Part 9 (https://www.acquisition.gov/far/part-9)\n- FAR 9.103 — Policy (https://www.acquisition.gov/far/9.103)\n\nWhat this tests: CO is responsible for affirmative determinations of responsibility.\n\nHow to decide:\n1) Use Part 9 standards and available info (SAM exclusions, performance record, resources).\n2) Make and document the determination.\n3) If small business nonresponsible, consider SBA COC procedures.\n\nWhy the correct answer works: The CO makes the responsibility determination as part of award decision-making, using Part 9 standards.\n\nWhy other options fail:\nC: SSA selects best value among evaluated proposals; responsibility is a CO determination.\nA: COR has no authority to determine responsibility.\n\nField tip: Teach: ‘SSA chooses; CO awards (and determines responsibility).’"
+    "explanation": "FAR/RFO References:\n- RFO transition reference (Responsibility) — FAR Part 9 (https://www.acquisition.gov/far/part-9)\n- FAR 9.103 — Policy (https://www.acquisition.gov/far/9.103)\n\nWhat this tests: CO is responsible for affirmative determinations of responsibility. RFO transition framing applied with legacy FAR continuity.\n\nHow to decide:\n1) Use Part 9 standards and available info (SAM exclusions, performance record, resources).\n2) Make and document the determination.\n3) If small business nonresponsible, consider SBA COC procedures.\n\nWhy the correct answer works: The CO makes the responsibility determination as part of award decision-making, using Part 9 standards.\n\nWhy other options fail:\nC: SSA selects best value among evaluated proposals; responsibility is a CO determination.\nA: COR has no authority to determine responsibility.\n\nField tip: Teach: ‘SSA chooses; CO awards (and determines responsibility).’\n\nRFO Transition Note: This item remains tied to the same core contracting competency. Use RFO transition reference (Responsibility) terminology while retaining legacy FAR phrasing during the transition.",
+    "rfoTags": [
+      "Contract Principles"
+    ],
+    "lifecyclePhase": "Award"
   },
   {
     "id": "con3910-115",
@@ -5250,7 +5286,7 @@
     "explanationRich": {
       "farRefs": {
         "part": {
-          "cite": "FAR Part 9",
+          "cite": "RFO Part 9 (legacy FAR Part 9)",
           "title": "Contractor Qualifications",
           "url": "https://www.acquisition.gov/far/part-9"
         },
@@ -5262,7 +5298,7 @@
           }
         ]
       },
-      "whatThisTests": "Debarment = exclusion for serious cause to protect Government interest.",
+      "whatThisTests": "Debarment = exclusion for serious cause to protect Government interest. RFO transition framing applied with legacy FAR continuity.",
       "decisionSteps": [
         "Identify exclusion type: suspension vs debarment.",
         "Check SAM exclusions for status and scope.",
@@ -5281,7 +5317,11 @@
       ],
       "fieldTip": "In training: suspension is often temporary pending investigation; debarment is a longer-term exclusion."
     },
-    "explanation": "FAR References:\n- FAR Part 9 — Contractor Qualifications (https://www.acquisition.gov/far/part-9)\n- FAR 9.406 — Debarment (https://www.acquisition.gov/far/9.406)\n\nWhat this tests: Debarment = exclusion for serious cause to protect Government interest.\n\nHow to decide:\n1) Identify exclusion type: suspension vs debarment.\n2) Check SAM exclusions for status and scope.\n3) Ensure award decisions consider exclusion status.\n\nWhy the correct answer works: Debarment is an administrative action excluding a contractor from Government contracting for a period due to serious causes, protecting the Government’s interests.\n\nWhy other options fail:\nA: Administrative performance issues like invoice timing generally do not equal debarment; debarment is for serious causes.\nC: Losing a competition is unrelated to eligibility/exclusion.\n\nField tip: In training: suspension is often temporary pending investigation; debarment is a longer-term exclusion."
+    "explanation": "FAR/RFO References:\n- RFO Part 9 (legacy FAR Part 9) — Contractor Qualifications (https://www.acquisition.gov/far/part-9)\n- FAR 9.406 — Debarment (https://www.acquisition.gov/far/9.406)\n\nWhat this tests: Debarment = exclusion for serious cause to protect Government interest. RFO transition framing applied with legacy FAR continuity.\n\nHow to decide:\n1) Identify exclusion type: suspension vs debarment.\n2) Check SAM exclusions for status and scope.\n3) Ensure award decisions consider exclusion status.\n\nWhy the correct answer works: Debarment is an administrative action excluding a contractor from Government contracting for a period due to serious causes, protecting the Government’s interests.\n\nWhy other options fail:\nA: Administrative performance issues like invoice timing generally do not equal debarment; debarment is for serious causes.\nC: Losing a competition is unrelated to eligibility/exclusion.\n\nField tip: In training: suspension is often temporary pending investigation; debarment is a longer-term exclusion.\n\nRFO Transition Note: This item remains tied to the same core contracting competency. Use RFO Part 9 (legacy FAR Part 9) terminology while retaining legacy FAR phrasing during the transition.",
+    "rfoTags": [
+      "Contract Principles"
+    ],
+    "lifecyclePhase": "Award"
   },
   {
     "id": "con3910-116",
@@ -5297,7 +5337,7 @@
     "explanationRich": {
       "farRefs": {
         "part": {
-          "cite": "FAR Part 14",
+          "cite": "RFO Part 14 (legacy FAR Part 14)",
           "title": "Sealed Bidding",
           "url": "https://www.acquisition.gov/far/part-14"
         },
@@ -5309,7 +5349,7 @@
           }
         ]
       },
-      "whatThisTests": "Sealed bidding correction is tightly controlled to preserve integrity.",
+      "whatThisTests": "Sealed bidding correction is tightly controlled to preserve integrity. RFO transition framing applied with legacy FAR continuity.",
       "decisionSteps": [
         "Determine if mistake is apparent on the face of the bid.",
         "Follow FAR 14.407 procedures for verification/correction/withdrawal.",
@@ -5328,7 +5368,12 @@
       ],
       "fieldTip": "Sealed bidding is rigid: if you ‘fix’ too much, you undermine the entire process."
     },
-    "explanation": "FAR References:\n- FAR Part 14 — Sealed Bidding (https://www.acquisition.gov/far/part-14)\n- FAR 14.407 — Mistakes in bids (https://www.acquisition.gov/far/14.407)\n\nWhat this tests: Sealed bidding correction is tightly controlled to preserve integrity.\n\nHow to decide:\n1) Determine if mistake is apparent on the face of the bid.\n2) Follow FAR 14.407 procedures for verification/correction/withdrawal.\n3) Document the file thoroughly.\n\nWhy the correct answer works: Bid correction after opening is permitted only under strict rules (e.g., clear evidence of mistake) to protect sealed bidding integrity and avoid unfairness.\n\nWhy other options fail:\nA: Not any reason—only certain mistakes with adequate evidence can be corrected.\nC: Correction cannot be used to manipulate outcome; it must reflect the intended bid supported by evidence.\n\nField tip: Sealed bidding is rigid: if you ‘fix’ too much, you undermine the entire process."
+    "explanation": "FAR/RFO References:\n- RFO Part 14 (legacy FAR Part 14) — Sealed Bidding (https://www.acquisition.gov/far/part-14)\n- FAR 14.407 — Mistakes in bids (https://www.acquisition.gov/far/14.407)\n\nWhat this tests: Sealed bidding correction is tightly controlled to preserve integrity. RFO transition framing applied with legacy FAR continuity.\n\nHow to decide:\n1) Determine if mistake is apparent on the face of the bid.\n2) Follow FAR 14.407 procedures for verification/correction/withdrawal.\n3) Document the file thoroughly.\n\nWhy the correct answer works: Bid correction after opening is permitted only under strict rules (e.g., clear evidence of mistake) to protect sealed bidding integrity and avoid unfairness.\n\nWhy other options fail:\nA: Not any reason—only certain mistakes with adequate evidence can be corrected.\nC: Correction cannot be used to manipulate outcome; it must reflect the intended bid supported by evidence.\n\nField tip: Sealed bidding is rigid: if you ‘fix’ too much, you undermine the entire process.\n\nRFO Transition Note: This item remains tied to the same core contracting competency. Use RFO Part 14 (legacy FAR Part 14) terminology while retaining legacy FAR phrasing during the transition. The scenario logic was sharpened for process application (not memorization) per CON 3990V prep emphasis.",
+    "rfoTags": [
+      "Skills and Roles",
+      "Standards of Conduct"
+    ],
+    "lifecyclePhase": "Post-Award"
   },
   {
     "id": "con3910-117",
@@ -5344,7 +5389,7 @@
     "explanationRich": {
       "farRefs": {
         "part": {
-          "cite": "FAR Part 14",
+          "cite": "RFO Part 14 (legacy FAR Part 14)",
           "title": "Sealed Bidding",
           "url": "https://www.acquisition.gov/far/part-14"
         },
@@ -5356,7 +5401,7 @@
           }
         ]
       },
-      "whatThisTests": "Late bid rules protect fairness; exceptions are narrow.",
+      "whatThisTests": "Late bid rules protect fairness; exceptions are narrow. RFO transition framing applied with legacy FAR continuity.",
       "decisionSteps": [
         "Confirm bid receipt time/location rules in IFB.",
         "If late, check FAR exception criteria.",
@@ -5375,7 +5420,11 @@
       ],
       "fieldTip": "Teach: consistency matters—late rules are about trust in the process."
     },
-    "explanation": "FAR References:\n- FAR Part 14 — Sealed Bidding (https://www.acquisition.gov/far/part-14)\n- FAR 14.304 — Submission, modification, and withdrawal of bids (https://www.acquisition.gov/far/14.304)\n\nWhat this tests: Late bid rules protect fairness; exceptions are narrow.\n\nHow to decide:\n1) Confirm bid receipt time/location rules in IFB.\n2) If late, check FAR exception criteria.\n3) Document acceptance/rejection rationale.\n\nWhy the correct answer works: Late bids are generally rejected to maintain fairness, unless a specific FAR exception applies (e.g., certain Government mishandling scenarios).\n\nWhy other options fail:\nA: Low price does not override late bid rules.\nD: Incumbency does not create an exception.\n\nField tip: Teach: consistency matters—late rules are about trust in the process."
+    "explanation": "FAR/RFO References:\n- RFO Part 14 (legacy FAR Part 14) — Sealed Bidding (https://www.acquisition.gov/far/part-14)\n- FAR 14.304 — Submission, modification, and withdrawal of bids (https://www.acquisition.gov/far/14.304)\n\nWhat this tests: Late bid rules protect fairness; exceptions are narrow. RFO transition framing applied with legacy FAR continuity.\n\nHow to decide:\n1) Confirm bid receipt time/location rules in IFB.\n2) If late, check FAR exception criteria.\n3) Document acceptance/rejection rationale.\n\nWhy the correct answer works: Late bids are generally rejected to maintain fairness, unless a specific FAR exception applies (e.g., certain Government mishandling scenarios).\n\nWhy other options fail:\nA: Low price does not override late bid rules.\nD: Incumbency does not create an exception.\n\nField tip: Teach: consistency matters—late rules are about trust in the process.\n\nRFO Transition Note: This item remains tied to the same core contracting competency. Use RFO Part 14 (legacy FAR Part 14) terminology while retaining legacy FAR phrasing during the transition. The scenario logic was sharpened for process application (not memorization) per CON 3990V prep emphasis.",
+    "rfoTags": [
+      "Contract Principles"
+    ],
+    "lifecyclePhase": "Award"
   },
   {
     "id": "con3910-118",
@@ -5391,7 +5440,7 @@
     "explanationRich": {
       "farRefs": {
         "part": {
-          "cite": "Describing Needs",
+          "cite": "RFO transition reference (Describing Needs)",
           "title": "FAR Part 11",
           "url": "https://www.acquisition.gov/far/part-11"
         },
@@ -5403,7 +5452,7 @@
           }
         ]
       },
-      "whatThisTests": "Equal products must be evaluated against salient characteristics.",
+      "whatThisTests": "Equal products must be evaluated against salient characteristics. RFO transition framing applied with legacy FAR continuity.",
       "decisionSteps": [
         "Identify the brand name product as a reference.",
         "Define the salient characteristics (measurable).",
@@ -5422,7 +5471,11 @@
       ],
       "fieldTip": "The more objective your salient characteristics are, the easier your evaluation and protest defense becomes."
     },
-    "explanation": "FAR References:\n- Describing Needs — FAR Part 11 (https://www.acquisition.gov/far/part-11)\n- FAR 11.104 — Use of brand name or equal purchase descriptions (https://www.acquisition.gov/far/11.104)\n\nWhat this tests: Equal products must be evaluated against salient characteristics.\n\nHow to decide:\n1) Identify the brand name product as a reference.\n2) Define the salient characteristics (measurable).\n3) Evaluate ‘equals’ strictly against those characteristics.\n\nWhy the correct answer works: Brand name or equal requires listing salient characteristics so offerors know what matters and the Government can evaluate equality fairly.\n\nWhy other options fail:\nA: That would be brand-name-only, which requires justification and limits competition.\nB: Government cannot ‘adjust later’—equals must meet stated salient characteristics at evaluation.\n\nField tip: The more objective your salient characteristics are, the easier your evaluation and protest defense becomes."
+    "explanation": "FAR/RFO References:\n- RFO transition reference (Describing Needs) — FAR Part 11 (https://www.acquisition.gov/far/part-11)\n- FAR 11.104 — Use of brand name or equal purchase descriptions (https://www.acquisition.gov/far/11.104)\n\nWhat this tests: Equal products must be evaluated against salient characteristics. RFO transition framing applied with legacy FAR continuity.\n\nHow to decide:\n1) Identify the brand name product as a reference.\n2) Define the salient characteristics (measurable).\n3) Evaluate ‘equals’ strictly against those characteristics.\n\nWhy the correct answer works: Brand name or equal requires listing salient characteristics so offerors know what matters and the Government can evaluate equality fairly.\n\nWhy other options fail:\nA: That would be brand-name-only, which requires justification and limits competition.\nB: Government cannot ‘adjust later’—equals must meet stated salient characteristics at evaluation.\n\nField tip: The more objective your salient characteristics are, the easier your evaluation and protest defense becomes.\n\nRFO Transition Note: This item remains tied to the same core contracting competency. Use RFO transition reference (Describing Needs) terminology while retaining legacy FAR phrasing during the transition.",
+    "rfoTags": [
+      "Contract Principles"
+    ],
+    "lifecyclePhase": "Award"
   },
   {
     "id": "con3910-119",
@@ -5438,7 +5491,7 @@
     "explanationRich": {
       "farRefs": {
         "part": {
-          "cite": "Protests",
+          "cite": "RFO transition reference (Protests)",
           "title": "FAR Part 33",
           "url": "https://www.acquisition.gov/far/part-33"
         },
@@ -5450,7 +5503,7 @@
           }
         ]
       },
-      "whatThisTests": "Protest timing vocabulary.",
+      "whatThisTests": "Protest timing vocabulary. RFO transition framing applied with legacy FAR continuity.",
       "decisionSteps": [
         "Identify whether protest is filed before or after award.",
         "Use correct terminology (pre-award vs post-award).",
@@ -5469,7 +5522,11 @@
       ],
       "fieldTip": "In your learning app, pair this with a timeline visual—timing determines remedies and urgency."
     },
-    "explanation": "FAR References:\n- Protests — FAR Part 33 (https://www.acquisition.gov/far/part-33)\n- FAR 33.103 — Protests to the agency (https://www.acquisition.gov/far/33.103)\n\nWhat this tests: Protest timing vocabulary.\n\nHow to decide:\n1) Identify whether protest is filed before or after award.\n2) Use correct terminology (pre-award vs post-award).\n3) Follow agency protest procedures and timelines.\n\nWhy the correct answer works: A protest filed prior to award is a pre-award protest by definition. This classification matters because timeliness rules, available remedies, and agency handling differ depending on whether the protest is filed before or after award.\n\nWhy other options fail:\nA: Post-award protests occur after award has been made.\nC: ‘Debrief protest’ isn’t a formal category; it’s often shorthand for protests tied to debrief timing.\n\nField tip: In your learning app, pair this with a timeline visual—timing determines remedies and urgency."
+    "explanation": "FAR/RFO References:\n- RFO transition reference (Protests) — FAR Part 33 (https://www.acquisition.gov/far/part-33)\n- FAR 33.103 — Protests to the agency (https://www.acquisition.gov/far/33.103)\n\nWhat this tests: Protest timing vocabulary. RFO transition framing applied with legacy FAR continuity.\n\nHow to decide:\n1) Identify whether protest is filed before or after award.\n2) Use correct terminology (pre-award vs post-award).\n3) Follow agency protest procedures and timelines.\n\nWhy the correct answer works: A protest filed prior to award is a pre-award protest by definition. This classification matters because timeliness rules, available remedies, and agency handling differ depending on whether the protest is filed before or after award.\n\nWhy other options fail:\nA: Post-award protests occur after award has been made.\nC: ‘Debrief protest’ isn’t a formal category; it’s often shorthand for protests tied to debrief timing.\n\nField tip: In your learning app, pair this with a timeline visual—timing determines remedies and urgency.\n\nRFO Transition Note: This item remains tied to the same core contracting competency. Use RFO transition reference (Protests) terminology while retaining legacy FAR phrasing during the transition.",
+    "rfoTags": [
+      "Contract Principles"
+    ],
+    "lifecyclePhase": "Award"
   },
   {
     "id": "con3910-120",
@@ -5485,7 +5542,7 @@
     "explanationRich": {
       "farRefs": {
         "part": {
-          "cite": "Debriefings",
+          "cite": "RFO transition reference (Debriefings)",
           "title": "FAR 15.506",
           "url": "https://www.acquisition.gov/far/part-15"
         },
@@ -5497,7 +5554,7 @@
           }
         ]
       },
-      "whatThisTests": "Debriefing goal: transparency and future improvement without revealing protected info.",
+      "whatThisTests": "Debriefing goal: transparency and future improvement without revealing protected info. RFO transition framing applied with legacy FAR continuity.",
       "decisionSteps": [
         "Explain evaluation rationale within allowed scope.",
         "Avoid disclosure of proprietary/selection-sensitive info.",
@@ -5516,7 +5573,14 @@
       ],
       "fieldTip": "A strong debrief reduces repeat mistakes and can reduce ‘mystery protests’ driven by confusion."
     },
-    "explanation": "FAR References:\n- Debriefings — FAR 15.506 (https://www.acquisition.gov/far/15.506)\n- FAR 15.506 — Postaward debriefing of offerors (https://www.acquisition.gov/far/15.506)\n\nWhat this tests: Debriefing goal: transparency and future improvement without revealing protected info.\n\nHow to decide:\n1) Explain evaluation rationale within allowed scope.\n2) Avoid disclosure of proprietary/selection-sensitive info.\n3) Document debrief content and timing.\n\nWhy the correct answer works: Debriefings explain the Government’s evaluation and award decision to help offerors improve future proposals while protecting sensitive/proprietary information.\n\nWhy other options fail:\nA: Debriefs must protect proprietary and source selection information.\nC: Debriefs are not a negotiation forum post-award.\n\nField tip: A strong debrief reduces repeat mistakes and can reduce ‘mystery protests’ driven by confusion."
+    "explanation": "FAR/RFO References:\n- RFO transition reference (Debriefings) — FAR 15.506 (https://www.acquisition.gov/far/part-15)\n- FAR 15.506 — Postaward debriefing of offerors (https://www.acquisition.gov/far/15.506)\n\nWhat this tests: Debriefing goal: transparency and future improvement without revealing protected info. RFO transition framing applied with legacy FAR continuity.\n\nHow to decide:\n1) Explain evaluation rationale within allowed scope.\n2) Avoid disclosure of proprietary/selection-sensitive info.\n3) Document debrief content and timing.\n\nWhy the correct answer works: Debriefings explain the Government’s evaluation and award decision to help offerors improve future proposals while protecting sensitive/proprietary information.\n\nWhy other options fail:\nA: Debriefs must protect proprietary and source selection information.\nC: Debriefs are not a negotiation forum post-award.\n\nField tip: A strong debrief reduces repeat mistakes and can reduce ‘mystery protests’ driven by confusion.\n\nRFO Transition Note: This item remains tied to the same core contracting competency. Use RFO transition reference (Debriefings) terminology while retaining legacy FAR phrasing during the transition.",
+    "rfoTags": [
+      "Plan Sales",
+      "Plan Solicitation",
+      "Prepare Offer",
+      "Request Offers"
+    ],
+    "lifecyclePhase": "Pre-Award"
   },
   {
     "id": "con3910-121",
@@ -5532,7 +5596,7 @@
     "explanationRich": {
       "farRefs": {
         "part": {
-          "cite": "Cost Realism",
+          "cite": "RFO transition reference (Cost Realism)",
           "title": "FAR 15.404-1(d)",
           "url": "https://www.acquisition.gov/far/part-15"
         },
@@ -5544,7 +5608,7 @@
           }
         ]
       },
-      "whatThisTests": "Cost realism is about likely actual costs when Government bears risk (cost-type).",
+      "whatThisTests": "Cost realism is about likely actual costs when Government bears risk (cost-type). RFO transition framing applied with legacy FAR continuity.",
       "decisionSteps": [
         "Confirm contract type: cost-reimbursement or where realism is required by solicitation.",
         "Evaluate whether proposed costs are realistic for the work.",
@@ -5563,7 +5627,11 @@
       ],
       "fieldTip": "Teach users: realism ≠ reasonableness. Realism = ‘can they actually do it for that?’"
     },
-    "explanation": "FAR References:\n- Cost Realism — FAR 15.404-1(d) (https://www.acquisition.gov/far/15.404-1)\n- FAR 15.404-1(d) — Cost realism analysis (https://www.acquisition.gov/far/15.404-1)\n\nWhat this tests: Cost realism is about likely actual costs when Government bears risk (cost-type).\n\nHow to decide:\n1) Confirm contract type: cost-reimbursement or where realism is required by solicitation.\n2) Evaluate whether proposed costs are realistic for the work.\n3) Adjust evaluated cost for realism (if applicable) and document.\n\nWhy the correct answer works: Cost realism is primarily used for cost-reimbursement contracts to assess whether proposed costs reflect a realistic understanding of requirements and represent likely costs to the Government.\n\nWhy other options fail:\nA: FFP pricing focuses on price reasonableness; realism is not normally required unless the solicitation says so for risk assessment.\nC: Sealed bidding uses Part 14; cost realism is a negotiated procedure concept.\n\nField tip: Teach users: realism ≠ reasonableness. Realism = ‘can they actually do it for that?’"
+    "explanation": "FAR/RFO References:\n- RFO transition reference (Cost Realism) — FAR 15.404-1(d) (https://www.acquisition.gov/far/part-15)\n- FAR 15.404-1(d) — Cost realism analysis (https://www.acquisition.gov/far/15.404-1)\n\nWhat this tests: Cost realism is about likely actual costs when Government bears risk (cost-type). RFO transition framing applied with legacy FAR continuity.\n\nHow to decide:\n1) Confirm contract type: cost-reimbursement or where realism is required by solicitation.\n2) Evaluate whether proposed costs are realistic for the work.\n3) Adjust evaluated cost for realism (if applicable) and document.\n\nWhy the correct answer works: Cost realism is primarily used for cost-reimbursement contracts to assess whether proposed costs reflect a realistic understanding of requirements and represent likely costs to the Government.\n\nWhy other options fail:\nA: FFP pricing focuses on price reasonableness; realism is not normally required unless the solicitation says so for risk assessment.\nC: Sealed bidding uses Part 14; cost realism is a negotiated procedure concept.\n\nField tip: Teach users: realism ≠ reasonableness. Realism = ‘can they actually do it for that?’\n\nRFO Transition Note: This item remains tied to the same core contracting competency. Use RFO transition reference (Cost Realism) terminology while retaining legacy FAR phrasing during the transition.",
+    "rfoTags": [
+      "Contract Principles"
+    ],
+    "lifecyclePhase": "Award"
   },
   {
     "id": "con3910-122",
@@ -5579,7 +5647,7 @@
     "explanationRich": {
       "farRefs": {
         "part": {
-          "cite": "Proposal Analysis",
+          "cite": "RFO transition reference (Proposal Analysis)",
           "title": "FAR 15.404-1",
           "url": "https://www.acquisition.gov/far/part-15"
         },
@@ -5591,7 +5659,7 @@
           }
         ]
       },
-      "whatThisTests": "Realism is optional unless required by solicitation; reasonableness is required.",
+      "whatThisTests": "Realism is optional unless required by solicitation; reasonableness is required. RFO transition framing applied with legacy FAR continuity.",
       "decisionSteps": [
         "Decide if low pricing could create performance risk.",
         "If yes, disclose in solicitation that realism will be evaluated.",
@@ -5610,7 +5678,11 @@
       ],
       "fieldTip": "If you want to reject on ‘too low,’ build realism into the evaluation criteria up front."
     },
-    "explanation": "FAR References:\n- Proposal Analysis — FAR 15.404-1 (https://www.acquisition.gov/far/15.404-1)\n- FAR 15.404-1 — Proposal analysis techniques (https://www.acquisition.gov/far/15.404-1)\n\nWhat this tests: Realism is optional unless required by solicitation; reasonableness is required.\n\nHow to decide:\n1) Decide if low pricing could create performance risk.\n2) If yes, disclose in solicitation that realism will be evaluated.\n3) Use documented approach to assess risk from low pricing.\n\nWhy the correct answer works: Price realism is used when the Government wants to evaluate whether low prices reflect a lack of understanding or create performance risk; it must be announced in the solicitation to be used as an evaluation factor.\n\nWhy other options fail:\nA: FAR does not mandate price realism in all acquisitions; it’s context and solicitation dependent.\nC: Reasonableness asks ‘is price too high?’ realism asks ‘is price too low to perform?’\n\nField tip: If you want to reject on ‘too low,’ build realism into the evaluation criteria up front."
+    "explanation": "FAR/RFO References:\n- RFO transition reference (Proposal Analysis) — FAR 15.404-1 (https://www.acquisition.gov/far/part-15)\n- FAR 15.404-1 — Proposal analysis techniques (https://www.acquisition.gov/far/15.404-1)\n\nWhat this tests: Realism is optional unless required by solicitation; reasonableness is required. RFO transition framing applied with legacy FAR continuity.\n\nHow to decide:\n1) Decide if low pricing could create performance risk.\n2) If yes, disclose in solicitation that realism will be evaluated.\n3) Use documented approach to assess risk from low pricing.\n\nWhy the correct answer works: Price realism is used when the Government wants to evaluate whether low prices reflect a lack of understanding or create performance risk; it must be announced in the solicitation to be used as an evaluation factor.\n\nWhy other options fail:\nA: FAR does not mandate price realism in all acquisitions; it’s context and solicitation dependent.\nC: Reasonableness asks ‘is price too high?’ realism asks ‘is price too low to perform?’\n\nField tip: If you want to reject on ‘too low,’ build realism into the evaluation criteria up front.\n\nRFO Transition Note: This item remains tied to the same core contracting competency. Use RFO transition reference (Proposal Analysis) terminology while retaining legacy FAR phrasing during the transition.",
+    "rfoTags": [
+      "Contract Principles"
+    ],
+    "lifecyclePhase": "Award"
   },
   {
     "id": "con3910-123",
@@ -5626,7 +5698,7 @@
     "explanationRich": {
       "farRefs": {
         "part": {
-          "cite": "OCI",
+          "cite": "RFO transition reference (OCI)",
           "title": "FAR Subpart 9.5",
           "url": "https://www.acquisition.gov/far/part-9"
         },
@@ -5638,7 +5710,7 @@
           }
         ]
       },
-      "whatThisTests": "OCI categories: biased ground rules, unequal access, impaired objectivity.",
+      "whatThisTests": "OCI categories: biased ground rules, unequal access, impaired objectivity. RFO transition framing applied with legacy FAR continuity.",
       "decisionSteps": [
         "Identify the OCI type and risk.",
         "Mitigate (firewalls, restrictions) or avoid/neutralize.",
@@ -5657,7 +5729,11 @@
       ],
       "fieldTip": "If a contractor helped write requirements, assume ‘biased ground rules’ risk and mitigate early."
     },
-    "explanation": "FAR References:\n- OCI — FAR Subpart 9.5 (https://www.acquisition.gov/far/subpart-9.5)\n- FAR 9.505 — Contracting officer responsibilities (https://www.acquisition.gov/far/9.505)\n\nWhat this tests: OCI categories: biased ground rules, unequal access, impaired objectivity.\n\nHow to decide:\n1) Identify the OCI type and risk.\n2) Mitigate (firewalls, restrictions) or avoid/neutralize.\n3) Document the determination and mitigation.\n\nWhy the correct answer works: OCI exists when relationships/roles create impaired objectivity, unequal access to information, or biased ground rules—undermining fair competition and integrity.\n\nWhy other options fail:\nB: Hiring alone is not an OCI unless it creates one of the recognized OCI risks.\nC: Late proposals are procedure issues, not OCI.\n\nField tip: If a contractor helped write requirements, assume ‘biased ground rules’ risk and mitigate early."
+    "explanation": "FAR/RFO References:\n- RFO transition reference (OCI) — FAR Subpart 9.5 (https://www.acquisition.gov/far/part-9)\n- FAR 9.505 — Contracting officer responsibilities (https://www.acquisition.gov/far/9.505)\n\nWhat this tests: OCI categories: biased ground rules, unequal access, impaired objectivity. RFO transition framing applied with legacy FAR continuity.\n\nHow to decide:\n1) Identify the OCI type and risk.\n2) Mitigate (firewalls, restrictions) or avoid/neutralize.\n3) Document the determination and mitigation.\n\nWhy the correct answer works: OCI exists when relationships/roles create impaired objectivity, unequal access to information, or biased ground rules—undermining fair competition and integrity.\n\nWhy other options fail:\nB: Hiring alone is not an OCI unless it creates one of the recognized OCI risks.\nC: Late proposals are procedure issues, not OCI.\n\nField tip: If a contractor helped write requirements, assume ‘biased ground rules’ risk and mitigate early.\n\nRFO Transition Note: This item remains tied to the same core contracting competency. Use RFO transition reference (OCI) terminology while retaining legacy FAR phrasing during the transition.",
+    "rfoTags": [
+      "Contract Principles"
+    ],
+    "lifecyclePhase": "Award"
   },
   {
     "id": "con3910-124",
@@ -5673,13 +5749,13 @@
     "explanationRich": {
       "farRefs": {
         "part": {
-          "cite": "OCI",
+          "cite": "RFO transition reference (OCI)",
           "title": "FAR Subpart 9.5",
           "url": "https://www.acquisition.gov/far/part-9"
         },
         "sections": []
       },
-      "whatThisTests": "Unequal access threatens fairness and competition integrity.",
+      "whatThisTests": "Unequal access threatens fairness and competition integrity. RFO transition framing applied with legacy FAR continuity.",
       "decisionSteps": [
         "Identify what nonpublic info was accessed.",
         "Assess whether it provides competitive advantage.",
@@ -5698,7 +5774,11 @@
       ],
       "fieldTip": "In training apps, emphasize ‘if one vendor gets nonpublic info, level the field or fix the conflict.’"
     },
-    "explanation": "FAR References:\n- OCI — FAR Subpart 9.5 (https://www.acquisition.gov/far/subpart-9.5)\n\nWhat this tests: Unequal access threatens fairness and competition integrity.\n\nHow to decide:\n1) Identify what nonpublic info was accessed.\n2) Assess whether it provides competitive advantage.\n3) Mitigate by disclosure to all or exclusion if necessary.\n\nWhy the correct answer works: Unequal access to nonpublic information can provide competitive advantage, undermining fairness and creating protest risk.\n\nWhy other options fail:\nB: OCI is not automatic debarment; it’s a conflict risk that must be mitigated.\nD: Unequal access harms competition; it does not improve it.\n\nField tip: In training apps, emphasize ‘if one vendor gets nonpublic info, level the field or fix the conflict.’"
+    "explanation": "FAR/RFO References:\n- RFO transition reference (OCI) — FAR Subpart 9.5 (https://www.acquisition.gov/far/part-9)\n\nWhat this tests: Unequal access threatens fairness and competition integrity. RFO transition framing applied with legacy FAR continuity.\n\nHow to decide:\n1) Identify what nonpublic info was accessed.\n2) Assess whether it provides competitive advantage.\n3) Mitigate by disclosure to all or exclusion if necessary.\n\nWhy the correct answer works: Unequal access to nonpublic information can provide competitive advantage, undermining fairness and creating protest risk.\n\nWhy other options fail:\nB: OCI is not automatic debarment; it’s a conflict risk that must be mitigated.\nD: Unequal access harms competition; it does not improve it.\n\nField tip: In training apps, emphasize ‘if one vendor gets nonpublic info, level the field or fix the conflict.’\n\nRFO Transition Note: This item remains tied to the same core contracting competency. Use RFO transition reference (OCI) terminology while retaining legacy FAR phrasing during the transition.",
+    "rfoTags": [
+      "Contract Principles"
+    ],
+    "lifecyclePhase": "Award"
   },
   {
     "id": "con3910-125",
@@ -5714,7 +5794,7 @@
     "explanationRich": {
       "farRefs": {
         "part": {
-          "cite": "Personal Conflicts",
+          "cite": "RFO transition reference (Personal Conflicts)",
           "title": "FAR Subpart 3.11",
           "url": "https://www.acquisition.gov/far/part-3"
         },
@@ -5726,7 +5806,7 @@
           }
         ]
       },
-      "whatThisTests": "Differentiate personal COI (individual impartiality) from OCI (organizational).",
+      "whatThisTests": "Differentiate personal COI (individual impartiality) from OCI (organizational). RFO transition framing applied with legacy FAR continuity.",
       "decisionSteps": [
         "Identify individual interest that could affect impartiality.",
         "Disclose and mitigate/recuse as required.",
@@ -5745,7 +5825,11 @@
       ],
       "fieldTip": "Teach: OCI = company conflict; personal COI = individual conflict—two different toolkits."
     },
-    "explanation": "FAR References:\n- Personal Conflicts — FAR Subpart 3.11 (https://www.acquisition.gov/far/subpart-3.11)\n- FAR 3.1101 — Definitions (https://www.acquisition.gov/far/3.1101)\n\nWhat this tests: Differentiate personal COI (individual impartiality) from OCI (organizational).\n\nHow to decide:\n1) Identify individual interest that could affect impartiality.\n2) Disclose and mitigate/recuse as required.\n3) Document the mitigation and ensure integrity of process.\n\nWhy the correct answer works: Personal conflicts involve an individual’s financial or other interests that could compromise impartial decision-making in the acquisition process.\n\nWhy other options fail:\nB: Numbering/files are administrative, not ethics conflicts.\nC: CLIN formatting is contract structure, not a personal COI concept.\n\nField tip: Teach: OCI = company conflict; personal COI = individual conflict—two different toolkits."
+    "explanation": "FAR/RFO References:\n- RFO transition reference (Personal Conflicts) — FAR Subpart 3.11 (https://www.acquisition.gov/far/part-3)\n- FAR 3.1101 — Definitions (https://www.acquisition.gov/far/3.1101)\n\nWhat this tests: Differentiate personal COI (individual impartiality) from OCI (organizational). RFO transition framing applied with legacy FAR continuity.\n\nHow to decide:\n1) Identify individual interest that could affect impartiality.\n2) Disclose and mitigate/recuse as required.\n3) Document the mitigation and ensure integrity of process.\n\nWhy the correct answer works: Personal conflicts involve an individual’s financial or other interests that could compromise impartial decision-making in the acquisition process.\n\nWhy other options fail:\nB: Numbering/files are administrative, not ethics conflicts.\nC: CLIN formatting is contract structure, not a personal COI concept.\n\nField tip: Teach: OCI = company conflict; personal COI = individual conflict—two different toolkits.\n\nRFO Transition Note: This item remains tied to the same core contracting competency. Use RFO transition reference (Personal Conflicts) terminology while retaining legacy FAR phrasing during the transition.",
+    "rfoTags": [
+      "Contract Principles"
+    ],
+    "lifecyclePhase": "Award"
   },
   {
     "id": "con3910-126",
@@ -5761,7 +5845,7 @@
     "explanationRich": {
       "farRefs": {
         "part": {
-          "cite": "Competition Exceptions",
+          "cite": "RFO transition reference (Competition Exceptions)",
           "title": "FAR 6.303",
           "url": "https://www.acquisition.gov/far/part-6"
         },
@@ -5773,7 +5857,7 @@
           }
         ]
       },
-      "whatThisTests": "J&A supports limiting competition and must match the exception used.",
+      "whatThisTests": "J&A supports limiting competition and must match the exception used. RFO transition framing applied with legacy FAR continuity.",
       "decisionSteps": [
         "Identify applicable exception (FAR 6.302).",
         "Draft J&A with required elements (facts, rationale, efforts to enhance competition).",
@@ -5792,7 +5876,11 @@
       ],
       "fieldTip": "If the ‘exception’ doesn’t match your facts, your J&A is brittle—start with the fact pattern first."
     },
-    "explanation": "FAR References:\n- Competition Exceptions — FAR 6.303 (https://www.acquisition.gov/far/6.303)\n- FAR 6.303 — Justifications (https://www.acquisition.gov/far/6.303)\n\nWhat this tests: J&A supports limiting competition and must match the exception used.\n\nHow to decide:\n1) Identify applicable exception (FAR 6.302).\n2) Draft J&A with required elements (facts, rationale, efforts to enhance competition).\n3) Obtain proper approvals prior to award.\n\nWhy the correct answer works: A J&A documents the statutory exception to full and open competition and the rationale for awarding with limited competition, with required approvals.\n\nWhy other options fail:\nB: Competitive actions do not require a J&A; they require a defensible evaluation/award record.\nC: Market research informs the J&A but is not itself a J&A.\n\nField tip: If the ‘exception’ doesn’t match your facts, your J&A is brittle—start with the fact pattern first."
+    "explanation": "FAR/RFO References:\n- RFO transition reference (Competition Exceptions) — FAR 6.303 (https://www.acquisition.gov/far/part-6)\n- FAR 6.303 — Justifications (https://www.acquisition.gov/far/6.303)\n\nWhat this tests: J&A supports limiting competition and must match the exception used. RFO transition framing applied with legacy FAR continuity.\n\nHow to decide:\n1) Identify applicable exception (FAR 6.302).\n2) Draft J&A with required elements (facts, rationale, efforts to enhance competition).\n3) Obtain proper approvals prior to award.\n\nWhy the correct answer works: A J&A documents the statutory exception to full and open competition and the rationale for awarding with limited competition, with required approvals.\n\nWhy other options fail:\nB: Competitive actions do not require a J&A; they require a defensible evaluation/award record.\nC: Market research informs the J&A but is not itself a J&A.\n\nField tip: If the ‘exception’ doesn’t match your facts, your J&A is brittle—start with the fact pattern first.\n\nRFO Transition Note: This item remains tied to the same core contracting competency. Use RFO transition reference (Competition Exceptions) terminology while retaining legacy FAR phrasing during the transition.",
+    "rfoTags": [
+      "Contract Principles"
+    ],
+    "lifecyclePhase": "Award"
   },
   {
     "id": "con3910-127",
@@ -5808,7 +5896,7 @@
     "explanationRich": {
       "farRefs": {
         "part": {
-          "cite": "Competition",
+          "cite": "RFO transition reference (Competition)",
           "title": "FAR Part 6",
           "url": "https://www.acquisition.gov/far/part-6"
         },
@@ -5820,7 +5908,7 @@
           }
         ]
       },
-      "whatThisTests": "Core definition: all responsible sources may compete absent a valid limitation.",
+      "whatThisTests": "Core definition: all responsible sources may compete absent a valid limitation. RFO transition framing applied with legacy FAR continuity.",
       "decisionSteps": [
         "Assume competition is required unless an exception applies.",
         "Avoid unnecessary restrictive requirements.",
@@ -5839,7 +5927,14 @@
       ],
       "fieldTip": "Teach users: ‘full and open’ is the default; limitations must be justified."
     },
-    "explanation": "FAR References:\n- Competition — FAR Part 6 (https://www.acquisition.gov/far/part-6)\n- FAR 6.003 — Other than full and open competition (https://www.acquisition.gov/far/6.003)\n\nWhat this tests: Core definition: all responsible sources may compete absent a valid limitation.\n\nHow to decide:\n1) Assume competition is required unless an exception applies.\n2) Avoid unnecessary restrictive requirements.\n3) Document the approach and market research.\n\nWhy the correct answer works: Full and open competition allows all responsible sources to compete, maximizing competitive pressure and supporting best value.\n\nWhy other options fail:\nB: Small business set-asides are a type of limited competition, not full and open.\nC: Incumbent-only is the opposite of full and open competition.\n\nField tip: Teach users: ‘full and open’ is the default; limitations must be justified."
+    "explanation": "FAR/RFO References:\n- RFO transition reference (Competition) — FAR Part 6 (https://www.acquisition.gov/far/part-6)\n- FAR 6.003 — Other than full and open competition (https://www.acquisition.gov/far/6.003)\n\nWhat this tests: Core definition: all responsible sources may compete absent a valid limitation. RFO transition framing applied with legacy FAR continuity.\n\nHow to decide:\n1) Assume competition is required unless an exception applies.\n2) Avoid unnecessary restrictive requirements.\n3) Document the approach and market research.\n\nWhy the correct answer works: Full and open competition allows all responsible sources to compete, maximizing competitive pressure and supporting best value.\n\nWhy other options fail:\nB: Small business set-asides are a type of limited competition, not full and open.\nC: Incumbent-only is the opposite of full and open competition.\n\nField tip: Teach users: ‘full and open’ is the default; limitations must be justified.\n\nRFO Transition Note: This item remains tied to the same core contracting competency. Use RFO transition reference (Competition) terminology while retaining legacy FAR phrasing during the transition.",
+    "rfoTags": [
+      "Plan Sales",
+      "Plan Solicitation",
+      "Prepare Offer",
+      "Request Offers"
+    ],
+    "lifecyclePhase": "Pre-Award"
   },
   {
     "id": "con3910-128",
@@ -5855,13 +5950,13 @@
     "explanationRich": {
       "farRefs": {
         "part": {
-          "cite": "Small Business",
+          "cite": "RFO transition reference (Small Business)",
           "title": "FAR Part 19",
           "url": "https://www.acquisition.gov/far/part-19"
         },
         "sections": []
       },
-      "whatThisTests": "Set-asides are competition tools, not shortcuts.",
+      "whatThisTests": "Set-asides are competition tools, not shortcuts. RFO transition framing applied with legacy FAR continuity.",
       "decisionSteps": [
         "Use market research to confirm small business capability.",
         "Apply appropriate set-aside type.",
@@ -5880,7 +5975,14 @@
       ],
       "fieldTip": "Teach: set-aside = ‘compete, but within a smaller eligible universe.’"
     },
-    "explanation": "FAR References:\n- Small Business — FAR Part 19 (https://www.acquisition.gov/far/part-19)\n\nWhat this tests: Set-asides are competition tools, not shortcuts.\n\nHow to decide:\n1) Use market research to confirm small business capability.\n2) Apply appropriate set-aside type.\n3) Conduct a competitive small business procurement (unless a sole source authority applies).\n\nWhy the correct answer works: Set-asides restrict competition to eligible small businesses to achieve program goals while still competing within that pool.\n\nWhy other options fail:\nB: Sole source is different and requires its own authority; set-aside can still be competitive.\nD: Set-asides often rely on market research to justify the restriction.\n\nField tip: Teach: set-aside = ‘compete, but within a smaller eligible universe.’"
+    "explanation": "FAR/RFO References:\n- RFO transition reference (Small Business) — FAR Part 19 (https://www.acquisition.gov/far/part-19)\n\nWhat this tests: Set-asides are competition tools, not shortcuts. RFO transition framing applied with legacy FAR continuity.\n\nHow to decide:\n1) Use market research to confirm small business capability.\n2) Apply appropriate set-aside type.\n3) Conduct a competitive small business procurement (unless a sole source authority applies).\n\nWhy the correct answer works: Set-asides restrict competition to eligible small businesses to achieve program goals while still competing within that pool.\n\nWhy other options fail:\nB: Sole source is different and requires its own authority; set-aside can still be competitive.\nD: Set-asides often rely on market research to justify the restriction.\n\nField tip: Teach: set-aside = ‘compete, but within a smaller eligible universe.’\n\nRFO Transition Note: This item remains tied to the same core contracting competency. Use RFO transition reference (Small Business) terminology while retaining legacy FAR phrasing during the transition.",
+    "rfoTags": [
+      "Plan Sales",
+      "Plan Solicitation",
+      "Prepare Offer",
+      "Request Offers"
+    ],
+    "lifecyclePhase": "Pre-Award"
   },
   {
     "id": "con3910-129",
@@ -5896,13 +5998,13 @@
     "explanationRich": {
       "farRefs": {
         "part": {
-          "cite": "Micro-Purchases",
+          "cite": "RFO transition reference (Micro-Purchases)",
           "title": "FAR Part 2/13",
           "url": "https://www.acquisition.gov/browse/index/far"
         },
         "sections": []
       },
-      "whatThisTests": "Threshold vocabulary: micro-purchase vs SAT.",
+      "whatThisTests": "Threshold vocabulary: micro-purchase vs SAT. RFO transition framing applied with legacy FAR continuity.",
       "decisionSteps": [
         "Identify the micro-purchase threshold applicable to the context.",
         "Apply simplified rules (competition generally not required though distribution is encouraged).",
@@ -5921,7 +6023,11 @@
       ],
       "fieldTip": "If your app teaches thresholds, store them in config so you can update without rewriting the bank."
     },
-    "explanation": "FAR References:\n- Micro-Purchases — FAR Part 2/13 (https://www.acquisition.gov/browse/index/far)\n\nWhat this tests: Threshold vocabulary: micro-purchase vs SAT.\n\nHow to decide:\n1) Identify the micro-purchase threshold applicable to the context.\n2) Apply simplified rules (competition generally not required though distribution is encouraged).\n3) Document appropriately per local policy.\n\nWhy the correct answer works: Micro-purchases are defined by being at or below the micro-purchase threshold (which can vary by circumstance).\n\nWhy other options fail:\nB: SAT is higher than micro-purchase; not all SAT buys are micro.\nD: Sole source is about competition method; micro is about threshold.\n\nField tip: If your app teaches thresholds, store them in config so you can update without rewriting the bank."
+    "explanation": "FAR/RFO References:\n- RFO transition reference (Micro-Purchases) — FAR Part 2/13 (https://www.acquisition.gov/browse/index/far)\n\nWhat this tests: Threshold vocabulary: micro-purchase vs SAT. RFO transition framing applied with legacy FAR continuity.\n\nHow to decide:\n1) Identify the micro-purchase threshold applicable to the context.\n2) Apply simplified rules (competition generally not required though distribution is encouraged).\n3) Document appropriately per local policy.\n\nWhy the correct answer works: Micro-purchases are defined by being at or below the micro-purchase threshold (which can vary by circumstance).\n\nWhy other options fail:\nB: SAT is higher than micro-purchase; not all SAT buys are micro.\nD: Sole source is about competition method; micro is about threshold.\n\nField tip: If your app teaches thresholds, store them in config so you can update without rewriting the bank.\n\nRFO Transition Note: This item remains tied to the same core contracting competency. Use RFO transition reference (Micro-Purchases) terminology while retaining legacy FAR phrasing during the transition.",
+    "rfoTags": [
+      "Contract Principles"
+    ],
+    "lifecyclePhase": "Award"
   },
   {
     "id": "con3910-130",
@@ -5937,7 +6043,7 @@
     "explanationRich": {
       "farRefs": {
         "part": {
-          "cite": "Mods",
+          "cite": "RFO transition reference (Mods)",
           "title": "FAR Part 43",
           "url": "https://www.acquisition.gov/far/part-43"
         },
@@ -5949,7 +6055,7 @@
           }
         ]
       },
-      "whatThisTests": "Differentiate unilateral vs bilateral mods and when unilateral is permitted.",
+      "whatThisTests": "Differentiate unilateral vs bilateral mods and when unilateral is permitted. RFO transition framing applied with legacy FAR continuity.",
       "decisionSteps": [
         "Identify mod type needed: admin change vs change order vs agreement.",
         "Check clause authority for unilateral action.",
@@ -5968,7 +6074,11 @@
       ],
       "fieldTip": "If it changes consideration (money/time), expect bilateral unless the clause authorizes unilateral change first."
     },
-    "explanation": "FAR References:\n- Mods — FAR Part 43 (https://www.acquisition.gov/far/part-43)\n- FAR 43.103 — Types of contract modifications (https://www.acquisition.gov/far/43.103)\n\nWhat this tests: Differentiate unilateral vs bilateral mods and when unilateral is permitted.\n\nHow to decide:\n1) Identify mod type needed: admin change vs change order vs agreement.\n2) Check clause authority for unilateral action.\n3) If changing price/terms by agreement, use bilateral mod.\n\nWhy the correct answer works: Unilateral mods are signed only by the CO and used for change orders authorized by clauses or for certain administrative actions; bilateral mods require both parties’ signatures.\n\nWhy other options fail:\nA: Mutual agreement requires bilateral modification.\nD: Not always; mod type depends on authority and whether agreement is needed.\n\nField tip: If it changes consideration (money/time), expect bilateral unless the clause authorizes unilateral change first."
+    "explanation": "FAR/RFO References:\n- RFO transition reference (Mods) — FAR Part 43 (https://www.acquisition.gov/far/part-43)\n- FAR 43.103 — Types of contract modifications (https://www.acquisition.gov/far/43.103)\n\nWhat this tests: Differentiate unilateral vs bilateral mods and when unilateral is permitted. RFO transition framing applied with legacy FAR continuity.\n\nHow to decide:\n1) Identify mod type needed: admin change vs change order vs agreement.\n2) Check clause authority for unilateral action.\n3) If changing price/terms by agreement, use bilateral mod.\n\nWhy the correct answer works: Unilateral mods are signed only by the CO and used for change orders authorized by clauses or for certain administrative actions; bilateral mods require both parties’ signatures.\n\nWhy other options fail:\nA: Mutual agreement requires bilateral modification.\nD: Not always; mod type depends on authority and whether agreement is needed.\n\nField tip: If it changes consideration (money/time), expect bilateral unless the clause authorizes unilateral change first.\n\nRFO Transition Note: This item remains tied to the same core contracting competency. Use RFO transition reference (Mods) terminology while retaining legacy FAR phrasing during the transition. The scenario logic was sharpened for process application (not memorization) per CON 3990V prep emphasis.",
+    "rfoTags": [
+      "Contract Principles"
+    ],
+    "lifecyclePhase": "Award"
   },
   {
     "id": "con3910-131",
@@ -5984,7 +6094,7 @@
     "explanationRich": {
       "farRefs": {
         "part": {
-          "cite": "Mods",
+          "cite": "RFO transition reference (Mods)",
           "title": "FAR 43.103",
           "url": "https://www.acquisition.gov/far/part-43"
         },
@@ -5996,7 +6106,7 @@
           }
         ]
       },
-      "whatThisTests": "Bilateral mods reflect agreement (often for equitable adjustments).",
+      "whatThisTests": "Bilateral mods reflect agreement (often for equitable adjustments). RFO transition framing applied with legacy FAR continuity.",
       "decisionSteps": [
         "Determine if change requires agreement on price/time/terms.",
         "Negotiate equitable adjustment if needed.",
@@ -6015,7 +6125,11 @@
       ],
       "fieldTip": "Teach: unilateral order first (if clause allows), bilateral settles the dollars/time later."
     },
-    "explanation": "FAR References:\n- Mods — FAR 43.103 (https://www.acquisition.gov/far/43.103)\n- FAR 43.103 — Types of contract modifications (https://www.acquisition.gov/far/43.103)\n\nWhat this tests: Bilateral mods reflect agreement (often for equitable adjustments).\n\nHow to decide:\n1) Determine if change requires agreement on price/time/terms.\n2) Negotiate equitable adjustment if needed.\n3) Execute bilateral SF 30 with both signatures.\n\nWhy the correct answer works: Bilateral modifications are supplemental agreements signed by both parties to reflect negotiated changes to contract terms, price, or schedule.\n\nWhy other options fail:\nA: That’s typically a unilateral change order under the Changes clause (with later bilateral adjustment).\nC: COR cannot execute contract modifications.\n\nField tip: Teach: unilateral order first (if clause allows), bilateral settles the dollars/time later."
+    "explanation": "FAR/RFO References:\n- RFO transition reference (Mods) — FAR 43.103 (https://www.acquisition.gov/far/part-43)\n- FAR 43.103 — Types of contract modifications (https://www.acquisition.gov/far/43.103)\n\nWhat this tests: Bilateral mods reflect agreement (often for equitable adjustments). RFO transition framing applied with legacy FAR continuity.\n\nHow to decide:\n1) Determine if change requires agreement on price/time/terms.\n2) Negotiate equitable adjustment if needed.\n3) Execute bilateral SF 30 with both signatures.\n\nWhy the correct answer works: Bilateral modifications are supplemental agreements signed by both parties to reflect negotiated changes to contract terms, price, or schedule.\n\nWhy other options fail:\nA: That’s typically a unilateral change order under the Changes clause (with later bilateral adjustment).\nC: COR cannot execute contract modifications.\n\nField tip: Teach: unilateral order first (if clause allows), bilateral settles the dollars/time later.\n\nRFO Transition Note: This item remains tied to the same core contracting competency. Use RFO transition reference (Mods) terminology while retaining legacy FAR phrasing during the transition. The scenario logic was sharpened for process application (not memorization) per CON 3990V prep emphasis.",
+    "rfoTags": [
+      "Contract Principles"
+    ],
+    "lifecyclePhase": "Award"
   },
   {
     "id": "con3910-132",
@@ -6031,13 +6145,13 @@
     "explanationRich": {
       "farRefs": {
         "part": {
-          "cite": "Describing Needs",
+          "cite": "RFO transition reference (Describing Needs)",
           "title": "FAR Part 11",
           "url": "https://www.acquisition.gov/far/part-11"
         },
         "sections": []
       },
-      "whatThisTests": "Contract essentials: clear requirements prevent disputes and performance risk.",
+      "whatThisTests": "Contract essentials: clear requirements prevent disputes and performance risk. RFO transition framing applied with legacy FAR continuity.",
       "decisionSteps": [
         "Define what is being purchased in measurable terms.",
         "Tie description to SOW/PWS/specs and CLINs.",
@@ -6056,7 +6170,11 @@
       ],
       "fieldTip": "If users can’t explain the requirement after reading it once, it’s not clear enough."
     },
-    "explanation": "FAR References:\n- Describing Needs — FAR Part 11 (https://www.acquisition.gov/far/part-11)\n\nWhat this tests: Contract essentials: clear requirements prevent disputes and performance risk.\n\nHow to decide:\n1) Define what is being purchased in measurable terms.\n2) Tie description to SOW/PWS/specs and CLINs.\n3) Ensure acceptance criteria are clear.\n\nWhy the correct answer works: A contract must clearly describe the supplies/services so performance, inspection, and payment can be administered and enforced.\n\nWhy other options fail:\nA: Vendor preference is improper and irrelevant to contract requirement definition.\nD: Contract number is administrative; it does not describe what is being purchased.\n\nField tip: If users can’t explain the requirement after reading it once, it’s not clear enough."
+    "explanation": "FAR/RFO References:\n- RFO transition reference (Describing Needs) — FAR Part 11 (https://www.acquisition.gov/far/part-11)\n\nWhat this tests: Contract essentials: clear requirements prevent disputes and performance risk. RFO transition framing applied with legacy FAR continuity.\n\nHow to decide:\n1) Define what is being purchased in measurable terms.\n2) Tie description to SOW/PWS/specs and CLINs.\n3) Ensure acceptance criteria are clear.\n\nWhy the correct answer works: A contract must clearly describe the supplies/services so performance, inspection, and payment can be administered and enforced.\n\nWhy other options fail:\nA: Vendor preference is improper and irrelevant to contract requirement definition.\nD: Contract number is administrative; it does not describe what is being purchased.\n\nField tip: If users can’t explain the requirement after reading it once, it’s not clear enough.\n\nRFO Transition Note: This item remains tied to the same core contracting competency. Use RFO transition reference (Describing Needs) terminology while retaining legacy FAR phrasing during the transition.",
+    "rfoTags": [
+      "Contract Principles"
+    ],
+    "lifecyclePhase": "Award"
   },
   {
     "id": "con3910-133",
@@ -6072,13 +6190,13 @@
     "explanationRich": {
       "farRefs": {
         "part": {
-          "cite": "Line Items",
+          "cite": "RFO transition reference (Line Items)",
           "title": "FAR Part 4/Structure",
           "url": "https://www.acquisition.gov/browse/index/far"
         },
         "sections": []
       },
-      "whatThisTests": "CLINs structure pricing/deliverables and support payment/admin.",
+      "whatThisTests": "CLINs structure pricing/deliverables and support payment/admin. RFO transition framing applied with legacy FAR continuity.",
       "decisionSteps": [
         "Use CLINs to separate deliverables, options, quantities, and funding.",
         "Tie CLINs to acceptance and invoicing.",
@@ -6097,7 +6215,11 @@
       ],
       "fieldTip": "Teach: if the CLIN structure is confusing, invoicing and mods will be painful for the life of the contract."
     },
-    "explanation": "FAR References:\n- Line Items — FAR Part 4/Structure (https://www.acquisition.gov/browse/index/far)\n\nWhat this tests: CLINs structure pricing/deliverables and support payment/admin.\n\nHow to decide:\n1) Use CLINs to separate deliverables, options, quantities, and funding.\n2) Tie CLINs to acceptance and invoicing.\n3) Keep CLIN structure consistent with requirement and evaluation.\n\nWhy the correct answer works: CLINs uniquely identify deliverables/services and their pricing/quantities, enabling clear administration, funding, and invoicing.\n\nWhy other options fail:\nB: CLINs do not replace the SOW; they reference deliverables defined in the SOW/specs.\nD: CLINs make invoicing easier but do not remove documentation requirements.\n\nField tip: Teach: if the CLIN structure is confusing, invoicing and mods will be painful for the life of the contract."
+    "explanation": "FAR/RFO References:\n- RFO transition reference (Line Items) — FAR Part 4/Structure (https://www.acquisition.gov/browse/index/far)\n\nWhat this tests: CLINs structure pricing/deliverables and support payment/admin. RFO transition framing applied with legacy FAR continuity.\n\nHow to decide:\n1) Use CLINs to separate deliverables, options, quantities, and funding.\n2) Tie CLINs to acceptance and invoicing.\n3) Keep CLIN structure consistent with requirement and evaluation.\n\nWhy the correct answer works: CLINs uniquely identify deliverables/services and their pricing/quantities, enabling clear administration, funding, and invoicing.\n\nWhy other options fail:\nB: CLINs do not replace the SOW; they reference deliverables defined in the SOW/specs.\nD: CLINs make invoicing easier but do not remove documentation requirements.\n\nField tip: Teach: if the CLIN structure is confusing, invoicing and mods will be painful for the life of the contract.\n\nRFO Transition Note: This item remains tied to the same core contracting competency. Use RFO transition reference (Line Items) terminology while retaining legacy FAR phrasing during the transition.",
+    "rfoTags": [
+      "Contract Principles"
+    ],
+    "lifecyclePhase": "Award"
   },
   {
     "id": "con3910-134",
@@ -6113,7 +6235,7 @@
     "explanationRich": {
       "farRefs": {
         "part": {
-          "cite": "Contract Types",
+          "cite": "RFO transition reference (Contract Types)",
           "title": "FAR Part 16",
           "url": "https://www.acquisition.gov/far/part-16"
         },
@@ -6125,7 +6247,7 @@
           }
         ]
       },
-      "whatThisTests": "FFP = contractor bears cost overrun risk in exchange for profit opportunity.",
+      "whatThisTests": "FFP = contractor bears cost overrun risk in exchange for profit opportunity. RFO transition framing applied with legacy FAR continuity.",
       "decisionSteps": [
         "Confirm requirement is well-defined and risk manageable.",
         "Use FFP when market competition and stable specs exist.",
@@ -6144,7 +6266,11 @@
       ],
       "fieldTip": "FFP doesn’t eliminate Government risk—poor requirements just shift risk into disputes and claims."
     },
-    "explanation": "FAR References:\n- Contract Types — FAR Part 16 (https://www.acquisition.gov/far/part-16)\n- FAR 16.202-1 — Firm-fixed-price contracts (https://www.acquisition.gov/far/16.202-1)\n\nWhat this tests: FFP = contractor bears cost overrun risk in exchange for profit opportunity.\n\nHow to decide:\n1) Confirm requirement is well-defined and risk manageable.\n2) Use FFP when market competition and stable specs exist.\n3) Manage changes carefully to avoid shifting risk unintentionally.\n\nWhy the correct answer works: Under FFP, the contractor must perform for the agreed price; overruns come out of the contractor’s profit, placing greatest cost risk on the contractor.\n\nWhy other options fail:\nA: Government risk is higher in cost-reimbursement; FFP shifts cost risk to the contractor.\nC: COR is not a contracting party and does not bear contract cost risk.\n\nField tip: FFP doesn’t eliminate Government risk—poor requirements just shift risk into disputes and claims."
+    "explanation": "FAR/RFO References:\n- RFO transition reference (Contract Types) — FAR Part 16 (https://www.acquisition.gov/far/part-16)\n- FAR 16.202-1 — Firm-fixed-price contracts (https://www.acquisition.gov/far/16.202-1)\n\nWhat this tests: FFP = contractor bears cost overrun risk in exchange for profit opportunity. RFO transition framing applied with legacy FAR continuity.\n\nHow to decide:\n1) Confirm requirement is well-defined and risk manageable.\n2) Use FFP when market competition and stable specs exist.\n3) Manage changes carefully to avoid shifting risk unintentionally.\n\nWhy the correct answer works: Under FFP, the contractor must perform for the agreed price; overruns come out of the contractor’s profit, placing greatest cost risk on the contractor.\n\nWhy other options fail:\nA: Government risk is higher in cost-reimbursement; FFP shifts cost risk to the contractor.\nC: COR is not a contracting party and does not bear contract cost risk.\n\nField tip: FFP doesn’t eliminate Government risk—poor requirements just shift risk into disputes and claims.\n\nRFO Transition Note: This item remains tied to the same core contracting competency. Use RFO transition reference (Contract Types) terminology while retaining legacy FAR phrasing during the transition.",
+    "rfoTags": [
+      "Contract Principles"
+    ],
+    "lifecyclePhase": "Award"
   },
   {
     "id": "con3910-135",
@@ -6160,7 +6286,7 @@
     "explanationRich": {
       "farRefs": {
         "part": {
-          "cite": "T&M/LH",
+          "cite": "RFO transition reference (T&M/LH)",
           "title": "FAR 16.601",
           "url": "https://www.acquisition.gov/far/part-16"
         },
@@ -6172,7 +6298,7 @@
           }
         ]
       },
-      "whatThisTests": "T&M is a last-resort type requiring strong surveillance and justification.",
+      "whatThisTests": "T&M is a last-resort type requiring strong surveillance and justification. RFO transition framing applied with legacy FAR continuity.",
       "decisionSteps": [
         "Determine that FFP or cost-type is not suitable.",
         "Document why T&M is necessary.",
@@ -6191,7 +6317,11 @@
       ],
       "fieldTip": "Teach: T&M is ‘high-admin.’ If you can’t staff oversight, reconsider the contract type."
     },
-    "explanation": "FAR References:\n- T&M/LH — FAR 16.601 (https://www.acquisition.gov/far/16.601)\n- FAR 16.601 — Time-and-materials contracts (https://www.acquisition.gov/far/16.601)\n\nWhat this tests: T&M is a last-resort type requiring strong surveillance and justification.\n\nHow to decide:\n1) Determine that FFP or cost-type is not suitable.\n2) Document why T&M is necessary.\n3) Plan surveillance to manage labor hours and materials.\n\nWhy the correct answer works: T&M is appropriate only when it is not possible to estimate work sufficiently for other types and the contract includes controls; it requires heightened oversight.\n\nWhy other options fail:\nD: T&M requires MORE surveillance, not less.\nB: The purpose is not to reward higher costs; it’s a controlled method when uncertainty is high.\n\nField tip: Teach: T&M is ‘high-admin.’ If you can’t staff oversight, reconsider the contract type."
+    "explanation": "FAR/RFO References:\n- RFO transition reference (T&M/LH) — FAR 16.601 (https://www.acquisition.gov/far/part-16)\n- FAR 16.601 — Time-and-materials contracts (https://www.acquisition.gov/far/16.601)\n\nWhat this tests: T&M is a last-resort type requiring strong surveillance and justification. RFO transition framing applied with legacy FAR continuity.\n\nHow to decide:\n1) Determine that FFP or cost-type is not suitable.\n2) Document why T&M is necessary.\n3) Plan surveillance to manage labor hours and materials.\n\nWhy the correct answer works: T&M is appropriate only when it is not possible to estimate work sufficiently for other types and the contract includes controls; it requires heightened oversight.\n\nWhy other options fail:\nD: T&M requires MORE surveillance, not less.\nB: The purpose is not to reward higher costs; it’s a controlled method when uncertainty is high.\n\nField tip: Teach: T&M is ‘high-admin.’ If you can’t staff oversight, reconsider the contract type.\n\nRFO Transition Note: This item remains tied to the same core contracting competency. Use RFO transition reference (T&M/LH) terminology while retaining legacy FAR phrasing during the transition.",
+    "rfoTags": [
+      "Contract Principles"
+    ],
+    "lifecyclePhase": "Award"
   },
   {
     "id": "con3910-136",
@@ -6207,7 +6337,7 @@
     "explanationRich": {
       "farRefs": {
         "part": {
-          "cite": "Cost Contracts",
+          "cite": "RFO transition reference (Cost Contracts)",
           "title": "FAR 16.301",
           "url": "https://www.acquisition.gov/far/part-16"
         },
@@ -6219,7 +6349,7 @@
           }
         ]
       },
-      "whatThisTests": "Cost-type used when uncertainty prevents accurate fixed pricing and Government can manage oversight.",
+      "whatThisTests": "Cost-type used when uncertainty prevents accurate fixed pricing and Government can manage oversight. RFO transition framing applied with legacy FAR continuity.",
       "decisionSteps": [
         "Identify uncertainty level and inability to estimate cost.",
         "Confirm Government can manage surveillance and accounting requirements.",
@@ -6238,7 +6368,11 @@
       ],
       "fieldTip": "Cost-type buys trade price certainty for flexibility—make sure you can manage the admin load."
     },
-    "explanation": "FAR References:\n- Cost Contracts — FAR 16.301 (https://www.acquisition.gov/far/16.301)\n- FAR 16.301-2 — Application (https://www.acquisition.gov/far/16.301-2)\n\nWhat this tests: Cost-type used when uncertainty prevents accurate fixed pricing and Government can manage oversight.\n\nHow to decide:\n1) Identify uncertainty level and inability to estimate cost.\n2) Confirm Government can manage surveillance and accounting requirements.\n3) Use realism analysis and controls.\n\nWhy the correct answer works: Cost-reimbursement is used when uncertainties make cost estimation unreliable and the Government needs flexibility, paired with appropriate oversight and controls.\n\nWhy other options fail:\nA: If you can estimate well, FFP is often more appropriate.\nC: Cost-type contracts inherently involve audit/accounting oversight; you don’t choose them to avoid audits.\n\nField tip: Cost-type buys trade price certainty for flexibility—make sure you can manage the admin load."
+    "explanation": "FAR/RFO References:\n- RFO transition reference (Cost Contracts) — FAR 16.301 (https://www.acquisition.gov/far/part-16)\n- FAR 16.301-2 — Application (https://www.acquisition.gov/far/16.301-2)\n\nWhat this tests: Cost-type used when uncertainty prevents accurate fixed pricing and Government can manage oversight. RFO transition framing applied with legacy FAR continuity.\n\nHow to decide:\n1) Identify uncertainty level and inability to estimate cost.\n2) Confirm Government can manage surveillance and accounting requirements.\n3) Use realism analysis and controls.\n\nWhy the correct answer works: Cost-reimbursement is used when uncertainties make cost estimation unreliable and the Government needs flexibility, paired with appropriate oversight and controls.\n\nWhy other options fail:\nA: If you can estimate well, FFP is often more appropriate.\nC: Cost-type contracts inherently involve audit/accounting oversight; you don’t choose them to avoid audits.\n\nField tip: Cost-type buys trade price certainty for flexibility—make sure you can manage the admin load.\n\nRFO Transition Note: This item remains tied to the same core contracting competency. Use RFO transition reference (Cost Contracts) terminology while retaining legacy FAR phrasing during the transition.",
+    "rfoTags": [
+      "Contract Principles"
+    ],
+    "lifecyclePhase": "Award"
   },
   {
     "id": "con3910-137",
@@ -6254,7 +6388,7 @@
     "explanationRich": {
       "farRefs": {
         "part": {
-          "cite": "Incentives",
+          "cite": "RFO transition reference (Incentives)",
           "title": "FAR 16.401/16.405-2",
           "url": "https://www.acquisition.gov/far/part-16"
         },
@@ -6266,7 +6400,7 @@
           }
         ]
       },
-      "whatThisTests": "Award fee is subjective incentive when objective metrics aren’t enough.",
+      "whatThisTests": "Award fee is subjective incentive when objective metrics aren’t enough. RFO transition framing applied with legacy FAR continuity.",
       "decisionSteps": [
         "Assess whether objective incentives can be defined.",
         "If not, use award-fee plan with clear evaluation periods and criteria.",
@@ -6285,7 +6419,11 @@
       ],
       "fieldTip": "Award fee works only if the evaluation process is credible and timely—otherwise it becomes free money."
     },
-    "explanation": "FAR References:\n- Incentives — FAR 16.401/16.405-2 (https://www.acquisition.gov/far/subpart-16.4)\n- FAR 16.405-2 — Cost-plus-award-fee contracts (https://www.acquisition.gov/far/16.405-2)\n\nWhat this tests: Award fee is subjective incentive when objective metrics aren’t enough.\n\nHow to decide:\n1) Assess whether objective incentives can be defined.\n2) If not, use award-fee plan with clear evaluation periods and criteria.\n3) Document fee board decisions.\n\nWhy the correct answer works: Award fee motivates excellent performance when objective incentive formulas are difficult; the Government evaluates performance and determines fee earned.\n\nWhy other options fail:\nA: Award fee is not automatic; it depends on Government evaluation.\nC: Award fee requires MORE evaluation, not less.\n\nField tip: Award fee works only if the evaluation process is credible and timely—otherwise it becomes free money."
+    "explanation": "FAR/RFO References:\n- RFO transition reference (Incentives) — FAR 16.401/16.405-2 (https://www.acquisition.gov/far/part-16)\n- FAR 16.405-2 — Cost-plus-award-fee contracts (https://www.acquisition.gov/far/16.405-2)\n\nWhat this tests: Award fee is subjective incentive when objective metrics aren’t enough. RFO transition framing applied with legacy FAR continuity.\n\nHow to decide:\n1) Assess whether objective incentives can be defined.\n2) If not, use award-fee plan with clear evaluation periods and criteria.\n3) Document fee board decisions.\n\nWhy the correct answer works: Award fee motivates excellent performance when objective incentive formulas are difficult; the Government evaluates performance and determines fee earned.\n\nWhy other options fail:\nA: Award fee is not automatic; it depends on Government evaluation.\nC: Award fee requires MORE evaluation, not less.\n\nField tip: Award fee works only if the evaluation process is credible and timely—otherwise it becomes free money.\n\nRFO Transition Note: This item remains tied to the same core contracting competency. Use RFO transition reference (Incentives) terminology while retaining legacy FAR phrasing during the transition.",
+    "rfoTags": [
+      "Contract Principles"
+    ],
+    "lifecyclePhase": "Award"
   },
   {
     "id": "con3910-138",
@@ -6301,7 +6439,7 @@
     "explanationRich": {
       "farRefs": {
         "part": {
-          "cite": "CPFF",
+          "cite": "RFO transition reference (CPFF)",
           "title": "FAR 16.306",
           "url": "https://www.acquisition.gov/far/part-16"
         },
@@ -6313,7 +6451,7 @@
           }
         ]
       },
-      "whatThisTests": "Fixed fee stays fixed (within limits) regardless of actual costs.",
+      "whatThisTests": "Fixed fee stays fixed (within limits) regardless of actual costs. RFO transition framing applied with legacy FAR continuity.",
       "decisionSteps": [
         "Confirm CPFF is appropriate for uncertainty.",
         "Set fee as a negotiated fixed amount within statutory limits.",
@@ -6332,7 +6470,11 @@
       ],
       "fieldTip": "Teach: CPFF does not incentivize cost control by fee—cost control is managed through oversight and performance requirements."
     },
-    "explanation": "FAR References:\n- CPFF — FAR 16.306 (https://www.acquisition.gov/far/16.306)\n- FAR 16.306 — Cost-plus-fixed-fee contracts (https://www.acquisition.gov/far/16.306)\n\nWhat this tests: Fixed fee stays fixed (within limits) regardless of actual costs.\n\nHow to decide:\n1) Confirm CPFF is appropriate for uncertainty.\n2) Set fee as a negotiated fixed amount within statutory limits.\n3) Monitor costs; do not allow fee to escalate with overruns.\n\nWhy the correct answer works: CPFF provides a negotiated fee that is fixed at inception and does not vary with actual costs incurred (though it may be adjusted if scope changes).\n\nWhy other options fail:\nB: That describes CPPC behavior (prohibited) or misunderstood incentive; CPFF fee is fixed.\nC: CPFF includes a fee by definition.\n\nField tip: Teach: CPFF does not incentivize cost control by fee—cost control is managed through oversight and performance requirements."
+    "explanation": "FAR/RFO References:\n- RFO transition reference (CPFF) — FAR 16.306 (https://www.acquisition.gov/far/part-16)\n- FAR 16.306 — Cost-plus-fixed-fee contracts (https://www.acquisition.gov/far/16.306)\n\nWhat this tests: Fixed fee stays fixed (within limits) regardless of actual costs. RFO transition framing applied with legacy FAR continuity.\n\nHow to decide:\n1) Confirm CPFF is appropriate for uncertainty.\n2) Set fee as a negotiated fixed amount within statutory limits.\n3) Monitor costs; do not allow fee to escalate with overruns.\n\nWhy the correct answer works: CPFF provides a negotiated fee that is fixed at inception and does not vary with actual costs incurred (though it may be adjusted if scope changes).\n\nWhy other options fail:\nB: That describes CPPC behavior (prohibited) or misunderstood incentive; CPFF fee is fixed.\nC: CPFF includes a fee by definition.\n\nField tip: Teach: CPFF does not incentivize cost control by fee—cost control is managed through oversight and performance requirements.\n\nRFO Transition Note: This item remains tied to the same core contracting competency. Use RFO transition reference (CPFF) terminology while retaining legacy FAR phrasing during the transition.",
+    "rfoTags": [
+      "Contract Principles"
+    ],
+    "lifecyclePhase": "Award"
   },
   {
     "id": "con3910-139",
@@ -6348,7 +6490,7 @@
     "explanationRich": {
       "farRefs": {
         "part": {
-          "cite": "Prohibited Types",
+          "cite": "RFO transition reference (Prohibited Types)",
           "title": "FAR 16.102(c)",
           "url": "https://www.acquisition.gov/far/part-16"
         },
@@ -6360,7 +6502,7 @@
           }
         ]
       },
-      "whatThisTests": "CPPC is prohibited due to perverse incentives to increase costs.",
+      "whatThisTests": "CPPC is prohibited due to perverse incentives to increase costs. RFO transition framing applied with legacy FAR continuity.",
       "decisionSteps": [
         "Identify fee structure: does fee increase as cost increases?",
         "If yes, CPPC risk exists—do not use.",
@@ -6379,7 +6521,11 @@
       ],
       "fieldTip": "If the fee formula is ‘bigger cost = bigger fee,’ stop immediately—CPPC red flag."
     },
-    "explanation": "FAR References:\n- Prohibited Types — FAR 16.102(c) (https://www.acquisition.gov/far/16.102)\n- FAR 16.102(c) — Prohibition on cost-plus-a-percentage-of-cost (https://www.acquisition.gov/far/16.102)\n\nWhat this tests: CPPC is prohibited due to perverse incentives to increase costs.\n\nHow to decide:\n1) Identify fee structure: does fee increase as cost increases?\n2) If yes, CPPC risk exists—do not use.\n3) Use CPFF/CPIF instead.\n\nWhy the correct answer works: CPPC is prohibited because it rewards contractors for higher costs, undermining cost control and Government interest.\n\nWhy other options fail:\nA: Uncertainty is handled with allowable cost-type contracts, but CPPC is specifically prohibited.\nD: CPPC is not fixed-price; it is a cost-type structure with percentage-based fee.\n\nField tip: If the fee formula is ‘bigger cost = bigger fee,’ stop immediately—CPPC red flag."
+    "explanation": "FAR/RFO References:\n- RFO transition reference (Prohibited Types) — FAR 16.102(c) (https://www.acquisition.gov/far/part-16)\n- FAR 16.102(c) — Prohibition on cost-plus-a-percentage-of-cost (https://www.acquisition.gov/far/16.102)\n\nWhat this tests: CPPC is prohibited due to perverse incentives to increase costs. RFO transition framing applied with legacy FAR continuity.\n\nHow to decide:\n1) Identify fee structure: does fee increase as cost increases?\n2) If yes, CPPC risk exists—do not use.\n3) Use CPFF/CPIF instead.\n\nWhy the correct answer works: CPPC is prohibited because it rewards contractors for higher costs, undermining cost control and Government interest.\n\nWhy other options fail:\nA: Uncertainty is handled with allowable cost-type contracts, but CPPC is specifically prohibited.\nD: CPPC is not fixed-price; it is a cost-type structure with percentage-based fee.\n\nField tip: If the fee formula is ‘bigger cost = bigger fee,’ stop immediately—CPPC red flag.\n\nRFO Transition Note: This item remains tied to the same core contracting competency. Use RFO transition reference (Prohibited Types) terminology while retaining legacy FAR phrasing during the transition.",
+    "rfoTags": [
+      "Contract Principles"
+    ],
+    "lifecyclePhase": "Award"
   },
   {
     "id": "con3910-140",
@@ -6395,7 +6541,7 @@
     "explanationRich": {
       "farRefs": {
         "part": {
-          "cite": "Cost or Pricing Data",
+          "cite": "RFO transition reference (Cost or Pricing Data)",
           "title": "FAR 15.403 / 15.407-1",
           "url": "https://www.acquisition.gov/far/part-15"
         },
@@ -6407,7 +6553,7 @@
           }
         ]
       },
-      "whatThisTests": "Defective pricing remedies tie to certified cost/pricing data rules.",
+      "whatThisTests": "Defective pricing remedies tie to certified cost/pricing data rules. RFO transition framing applied with legacy FAR continuity.",
       "decisionSteps": [
         "Determine whether certified cost/pricing data was required.",
         "If defective data is found, compute price adjustment.",
@@ -6426,7 +6572,11 @@
       ],
       "fieldTip": "Teach: defective pricing only applies when certified cost/pricing data was required—start there."
     },
-    "explanation": "FAR References:\n- Cost or Pricing Data — FAR 15.403 / 15.407-1 (https://www.acquisition.gov/far/subpart-15.4)\n- FAR 15.407-1 — Defective certified cost or pricing data (https://www.acquisition.gov/far/15.407-1)\n\nWhat this tests: Defective pricing remedies tie to certified cost/pricing data rules.\n\nHow to decide:\n1) Determine whether certified cost/pricing data was required.\n2) If defective data is found, compute price adjustment.\n3) Document negotiation and any offsets per rule.\n\nWhy the correct answer works: Defective pricing remedies are governed under Part 15 cost/pricing data framework, including price reductions when certified data was inaccurate, incomplete, or noncurrent.\n\nWhy other options fail:\nA: Part 10 is market research, not defective pricing remedies.\nC: Commercial buys often rely on price analysis and exceptions; defective pricing is a Part 15 certified data concept.\n\nField tip: Teach: defective pricing only applies when certified cost/pricing data was required—start there."
+    "explanation": "FAR/RFO References:\n- RFO transition reference (Cost or Pricing Data) — FAR 15.403 / 15.407-1 (https://www.acquisition.gov/far/part-15)\n- FAR 15.407-1 — Defective certified cost or pricing data (https://www.acquisition.gov/far/15.407-1)\n\nWhat this tests: Defective pricing remedies tie to certified cost/pricing data rules. RFO transition framing applied with legacy FAR continuity.\n\nHow to decide:\n1) Determine whether certified cost/pricing data was required.\n2) If defective data is found, compute price adjustment.\n3) Document negotiation and any offsets per rule.\n\nWhy the correct answer works: Defective pricing remedies are governed under Part 15 cost/pricing data framework, including price reductions when certified data was inaccurate, incomplete, or noncurrent.\n\nWhy other options fail:\nA: Part 10 is market research, not defective pricing remedies.\nC: Commercial buys often rely on price analysis and exceptions; defective pricing is a Part 15 certified data concept.\n\nField tip: Teach: defective pricing only applies when certified cost/pricing data was required—start there.\n\nRFO Transition Note: This item remains tied to the same core contracting competency. Use RFO transition reference (Cost or Pricing Data) terminology while retaining legacy FAR phrasing during the transition.",
+    "rfoTags": [
+      "Contract Principles"
+    ],
+    "lifecyclePhase": "Award"
   },
   {
     "id": "con3910-141",
@@ -6442,7 +6592,7 @@
     "explanationRich": {
       "farRefs": {
         "part": {
-          "cite": "Certified Data",
+          "cite": "RFO transition reference (Certified Data)",
           "title": "FAR 15.403-1",
           "url": "https://www.acquisition.gov/far/part-15"
         },
@@ -6454,7 +6604,7 @@
           }
         ]
       },
-      "whatThisTests": "Exceptions control whether certified data may/may not be obtained.",
+      "whatThisTests": "Exceptions control whether certified data may/may not be obtained. RFO transition framing applied with legacy FAR continuity.",
       "decisionSteps": [
         "Check if any exception applies (adequate competition, commercial, prices set by law, waiver).",
         "If exception applies, do not require certified data.",
@@ -6473,7 +6623,11 @@
       ],
       "fieldTip": "Train: certified data is not a default hammer—first ask if it’s legally permitted."
     },
-    "explanation": "FAR References:\n- Certified Data — FAR 15.403-1 (https://www.acquisition.gov/far/15.403-1)\n- FAR 15.403-1 — Prohibition on obtaining certified cost or pricing data (https://www.acquisition.gov/far/15.403-1)\n\nWhat this tests: Exceptions control whether certified data may/may not be obtained.\n\nHow to decide:\n1) Check if any exception applies (adequate competition, commercial, prices set by law, waiver).\n2) If exception applies, do not require certified data.\n3) Use price analysis; request other data if needed for reasonableness.\n\nWhy the correct answer works: FAR prohibits obtaining certified cost/pricing data when an exception applies; you must use other techniques instead.\n\nWhy other options fail:\nC: Commercial items are often an exception; certified data is not ‘always required’ and can be prohibited.\nD: Sole source does not automatically eliminate the requirement—exceptions and thresholds govern.\n\nField tip: Train: certified data is not a default hammer—first ask if it’s legally permitted."
+    "explanation": "FAR/RFO References:\n- RFO transition reference (Certified Data) — FAR 15.403-1 (https://www.acquisition.gov/far/part-15)\n- FAR 15.403-1 — Prohibition on obtaining certified cost or pricing data (https://www.acquisition.gov/far/15.403-1)\n\nWhat this tests: Exceptions control whether certified data may/may not be obtained. RFO transition framing applied with legacy FAR continuity.\n\nHow to decide:\n1) Check if any exception applies (adequate competition, commercial, prices set by law, waiver).\n2) If exception applies, do not require certified data.\n3) Use price analysis; request other data if needed for reasonableness.\n\nWhy the correct answer works: FAR prohibits obtaining certified cost/pricing data when an exception applies; you must use other techniques instead.\n\nWhy other options fail:\nC: Commercial items are often an exception; certified data is not ‘always required’ and can be prohibited.\nD: Sole source does not automatically eliminate the requirement—exceptions and thresholds govern.\n\nField tip: Train: certified data is not a default hammer—first ask if it’s legally permitted.\n\nRFO Transition Note: This item remains tied to the same core contracting competency. Use RFO transition reference (Certified Data) terminology while retaining legacy FAR phrasing during the transition.",
+    "rfoTags": [
+      "Contract Principles"
+    ],
+    "lifecyclePhase": "Award"
   },
   {
     "id": "con3910-142",
@@ -6489,7 +6643,7 @@
     "explanationRich": {
       "farRefs": {
         "part": {
-          "cite": "Preaward Surveys",
+          "cite": "RFO transition reference (Preaward Surveys)",
           "title": "FAR Subpart 9.1",
           "url": "https://www.acquisition.gov/far/part-9"
         },
@@ -6501,7 +6655,7 @@
           }
         ]
       },
-      "whatThisTests": "Preaward surveys support responsibility determinations by assessing capability.",
+      "whatThisTests": "Preaward surveys support responsibility determinations by assessing capability. RFO transition framing applied with legacy FAR continuity.",
       "decisionSteps": [
         "Identify responsibility concerns (financial, production, QA, performance record).",
         "Request preaward survey support (as applicable).",
@@ -6520,7 +6674,11 @@
       ],
       "fieldTip": "If your learners see a ‘too low bid’ risk, pair preaward survey logic with responsibility vs realism concepts."
     },
-    "explanation": "FAR References:\n- Preaward Surveys — FAR Subpart 9.1 (https://www.acquisition.gov/far/subpart-9.1)\n- FAR 9.106 — Preaward surveys (https://www.acquisition.gov/far/9.106)\n\nWhat this tests: Preaward surveys support responsibility determinations by assessing capability.\n\nHow to decide:\n1) Identify responsibility concerns (financial, production, QA, performance record).\n2) Request preaward survey support (as applicable).\n3) Use results to support responsibility decision.\n\nWhy the correct answer works: Preaward surveys gather information about a prospective contractor’s capability/resources to perform and support the CO’s responsibility determination.\n\nWhy other options fail:\nA: Responsiveness is a sealed bidding concept; preaward surveys are about capability.\nC: They don’t primarily evaluate price reasonableness.\n\nField tip: If your learners see a ‘too low bid’ risk, pair preaward survey logic with responsibility vs realism concepts."
+    "explanation": "FAR/RFO References:\n- RFO transition reference (Preaward Surveys) — FAR Subpart 9.1 (https://www.acquisition.gov/far/part-9)\n- FAR 9.106 — Preaward surveys (https://www.acquisition.gov/far/9.106)\n\nWhat this tests: Preaward surveys support responsibility determinations by assessing capability. RFO transition framing applied with legacy FAR continuity.\n\nHow to decide:\n1) Identify responsibility concerns (financial, production, QA, performance record).\n2) Request preaward survey support (as applicable).\n3) Use results to support responsibility decision.\n\nWhy the correct answer works: Preaward surveys gather information about a prospective contractor’s capability/resources to perform and support the CO’s responsibility determination.\n\nWhy other options fail:\nA: Responsiveness is a sealed bidding concept; preaward surveys are about capability.\nC: They don’t primarily evaluate price reasonableness.\n\nField tip: If your learners see a ‘too low bid’ risk, pair preaward survey logic with responsibility vs realism concepts.\n\nRFO Transition Note: This item remains tied to the same core contracting competency. Use RFO transition reference (Preaward Surveys) terminology while retaining legacy FAR phrasing during the transition.",
+    "rfoTags": [
+      "Contract Principles"
+    ],
+    "lifecyclePhase": "Award"
   },
   {
     "id": "con3910-143",
@@ -6536,7 +6694,7 @@
     "explanationRich": {
       "farRefs": {
         "part": {
-          "cite": "Small Business Responsibility",
+          "cite": "RFO transition reference (Small Business Responsibility)",
           "title": "FAR 19.6",
           "url": "https://www.acquisition.gov/far/part-19"
         },
@@ -6548,7 +6706,7 @@
           }
         ]
       },
-      "whatThisTests": "COC process protects small businesses when found nonresponsible.",
+      "whatThisTests": "COC process protects small businesses when found nonresponsible. RFO transition framing applied with legacy FAR continuity.",
       "decisionSteps": [
         "If apparent successful offeror is small and CO finds nonresponsible, consider COC referral.",
         "Prepare referral package with supporting facts.",
@@ -6567,7 +6725,11 @@
       ],
       "fieldTip": "Teach: responsibility for small businesses has a special ‘second look’ pathway—COC."
     },
-    "explanation": "FAR References:\n- Small Business Responsibility — FAR 19.6 (https://www.acquisition.gov/far/subpart-19.6)\n- FAR 19.602-1 — Referral (https://www.acquisition.gov/far/19.602-1)\n\nWhat this tests: COC process protects small businesses when found nonresponsible.\n\nHow to decide:\n1) If apparent successful offeror is small and CO finds nonresponsible, consider COC referral.\n2) Prepare referral package with supporting facts.\n3) Follow SBA COC outcome.\n\nWhy the correct answer works: For small businesses, the SBA’s COC process can review and potentially override a CO’s nonresponsibility determination in certain contexts.\n\nWhy other options fail:\nA: GAO handles bid protests, not responsibility COC reviews.\nD: CPARS is past performance reporting, not responsibility appeal mechanism.\n\nField tip: Teach: responsibility for small businesses has a special ‘second look’ pathway—COC."
+    "explanation": "FAR/RFO References:\n- RFO transition reference (Small Business Responsibility) — FAR 19.6 (https://www.acquisition.gov/far/part-19)\n- FAR 19.602-1 — Referral (https://www.acquisition.gov/far/19.602-1)\n\nWhat this tests: COC process protects small businesses when found nonresponsible. RFO transition framing applied with legacy FAR continuity.\n\nHow to decide:\n1) If apparent successful offeror is small and CO finds nonresponsible, consider COC referral.\n2) Prepare referral package with supporting facts.\n3) Follow SBA COC outcome.\n\nWhy the correct answer works: For small businesses, the SBA’s COC process can review and potentially override a CO’s nonresponsibility determination in certain contexts.\n\nWhy other options fail:\nA: GAO handles bid protests, not responsibility COC reviews.\nD: CPARS is past performance reporting, not responsibility appeal mechanism.\n\nField tip: Teach: responsibility for small businesses has a special ‘second look’ pathway—COC.\n\nRFO Transition Note: This item remains tied to the same core contracting competency. Use RFO transition reference (Small Business Responsibility) terminology while retaining legacy FAR phrasing during the transition.",
+    "rfoTags": [
+      "Contract Principles"
+    ],
+    "lifecyclePhase": "Award"
   },
   {
     "id": "con3910-144",
@@ -6583,7 +6745,7 @@
     "explanationRich": {
       "farRefs": {
         "part": {
-          "cite": "Provisions/Clauses",
+          "cite": "RFO transition reference (Provisions/Clauses)",
           "title": "FAR Part 52",
           "url": "https://www.acquisition.gov/far/part-52"
         },
@@ -6595,7 +6757,7 @@
           }
         ]
       },
-      "whatThisTests": "Provision vs clause: provisions apply to solicitations; clauses apply to contracts.",
+      "whatThisTests": "Provision vs clause: provisions apply to solicitations; clauses apply to contracts. RFO transition framing applied with legacy FAR continuity.",
       "decisionSteps": [
         "If it’s solicitation-only, it’s a provision.",
         "If it’s included in the resulting contract, it’s a clause.",
@@ -6614,7 +6776,14 @@
       ],
       "fieldTip": "In your app, label them: ‘Provision (Solicitation)’ vs ‘Clause (Contract)’—that reduces confusion instantly."
     },
-    "explanation": "FAR References:\n- Provisions/Clauses — FAR Part 52 (https://www.acquisition.gov/far/part-52)\n- FAR 52.101 — Using part 52 (https://www.acquisition.gov/far/52.101)\n\nWhat this tests: Provision vs clause: provisions apply to solicitations; clauses apply to contracts.\n\nHow to decide:\n1) If it’s solicitation-only, it’s a provision.\n2) If it’s included in the resulting contract, it’s a clause.\n3) Use correct terminology in docs and teaching content.\n\nWhy the correct answer works: FAR distinguishes solicitation provisions (apply to offers/solicitations) from contract clauses (binding terms in the contract). Both are in Part 52 but used differently.\n\nWhy other options fail:\nB: Section C is requirements; provisions are generally in Section L/K or through Part 52 references.\nC: Provisions exist pre-award in solicitations; they aren’t ‘only after award’.\n\nField tip: In your app, label them: ‘Provision (Solicitation)’ vs ‘Clause (Contract)’—that reduces confusion instantly."
+    "explanation": "FAR/RFO References:\n- RFO transition reference (Provisions/Clauses) — FAR Part 52 (https://www.acquisition.gov/far/part-52)\n- FAR 52.101 — Using part 52 (https://www.acquisition.gov/far/52.101)\n\nWhat this tests: Provision vs clause: provisions apply to solicitations; clauses apply to contracts. RFO transition framing applied with legacy FAR continuity.\n\nHow to decide:\n1) If it’s solicitation-only, it’s a provision.\n2) If it’s included in the resulting contract, it’s a clause.\n3) Use correct terminology in docs and teaching content.\n\nWhy the correct answer works: FAR distinguishes solicitation provisions (apply to offers/solicitations) from contract clauses (binding terms in the contract). Both are in Part 52 but used differently.\n\nWhy other options fail:\nB: Section C is requirements; provisions are generally in Section L/K or through Part 52 references.\nC: Provisions exist pre-award in solicitations; they aren’t ‘only after award’.\n\nField tip: In your app, label them: ‘Provision (Solicitation)’ vs ‘Clause (Contract)’—that reduces confusion instantly.\n\nRFO Transition Note: This item remains tied to the same core contracting competency. Use RFO transition reference (Provisions/Clauses) terminology while retaining legacy FAR phrasing during the transition.",
+    "rfoTags": [
+      "Plan Sales",
+      "Plan Solicitation",
+      "Prepare Offer",
+      "Request Offers"
+    ],
+    "lifecyclePhase": "Pre-Award"
   },
   {
     "id": "con3910-145",
@@ -6630,7 +6799,7 @@
     "explanationRich": {
       "farRefs": {
         "part": {
-          "cite": "FAR Part 52",
+          "cite": "RFO Part 52 (legacy FAR Part 52)",
           "title": "Solicitation Provisions and Contract Clauses",
           "url": "https://www.acquisition.gov/far/part-52"
         },
@@ -6642,7 +6811,7 @@
           }
         ]
       },
-      "whatThisTests": "Provision vs clause distinction: clauses bind performance after award.",
+      "whatThisTests": "Provision vs clause distinction: clauses bind performance after award. RFO transition framing applied with legacy FAR continuity.",
       "decisionSteps": [
         "Ask: is it meant to be binding after award?",
         "If yes, it’s a clause (contract term).",
@@ -6661,7 +6830,11 @@
       ],
       "fieldTip": "In your app, display badges: ‘Provision (pre-award)’ vs ‘Clause (post-award)’ to prevent confusion."
     },
-    "explanation": "FAR References:\n- FAR Part 52 — Solicitation Provisions and Contract Clauses (https://www.acquisition.gov/far/part-52)\n- FAR 52.101 — Using part 52 (https://www.acquisition.gov/far/52.101)\n\nWhat this tests: Provision vs clause distinction: clauses bind performance after award.\n\nHow to decide:\n1) Ask: is it meant to be binding after award?\n2) If yes, it’s a clause (contract term).\n3) If it only governs proposal submission, it’s a provision.\n\nWhy the correct answer works: A clause is a binding term/condition incorporated into the contract and enforceable during performance.\n\nWhy other options fail:\nA: Solicitation-only instructions are provisions, not clauses.\nD: CPARS is performance reporting, not a contract clause.\n\nField tip: In your app, display badges: ‘Provision (pre-award)’ vs ‘Clause (post-award)’ to prevent confusion."
+    "explanation": "FAR/RFO References:\n- RFO Part 52 (legacy FAR Part 52) — Solicitation Provisions and Contract Clauses (https://www.acquisition.gov/far/part-52)\n- FAR 52.101 — Using part 52 (https://www.acquisition.gov/far/52.101)\n\nWhat this tests: Provision vs clause distinction: clauses bind performance after award. RFO transition framing applied with legacy FAR continuity.\n\nHow to decide:\n1) Ask: is it meant to be binding after award?\n2) If yes, it’s a clause (contract term).\n3) If it only governs proposal submission, it’s a provision.\n\nWhy the correct answer works: A clause is a binding term/condition incorporated into the contract and enforceable during performance.\n\nWhy other options fail:\nA: Solicitation-only instructions are provisions, not clauses.\nD: CPARS is performance reporting, not a contract clause.\n\nField tip: In your app, display badges: ‘Provision (pre-award)’ vs ‘Clause (post-award)’ to prevent confusion.\n\nRFO Transition Note: This item remains tied to the same core contracting competency. Use RFO Part 52 (legacy FAR Part 52) terminology while retaining legacy FAR phrasing during the transition.",
+    "rfoTags": [
+      "Contract Principles"
+    ],
+    "lifecyclePhase": "Award"
   },
   {
     "id": "con3910-146",
@@ -6677,13 +6850,13 @@
     "explanationRich": {
       "farRefs": {
         "part": {
-          "cite": "FAR System",
+          "cite": "RFO transition reference (legacy FAR System)",
           "title": "FAR Part 1",
           "url": "https://www.acquisition.gov/far/part-1"
         },
         "sections": []
       },
-      "whatThisTests": "FAR organization: Part → Subpart → Section → Subsection/paragraph.",
+      "whatThisTests": "FAR organization: Part → Subpart → Section → Subsection/paragraph. RFO transition framing applied with legacy FAR continuity.",
       "decisionSteps": [
         "Identify the number format: Part X, Subpart X.Y, Section X.YZZ.",
         "Use the hierarchy to narrow rules quickly.",
@@ -6702,7 +6875,11 @@
       ],
       "fieldTip": "Teach learners to cite down to the section level when possible: Part tells the topic; Section tells the rule."
     },
-    "explanation": "FAR References:\n- FAR System — FAR Part 1 (https://www.acquisition.gov/far/part-1)\n\nWhat this tests: FAR organization: Part → Subpart → Section → Subsection/paragraph.\n\nHow to decide:\n1) Identify the number format: Part X, Subpart X.Y, Section X.YZZ.\n2) Use the hierarchy to narrow rules quickly.\n3) Cite the smallest controlling level practical (section/subsection).\n\nWhy the correct answer works: A subpart is a defined subdivision within a FAR part, grouping related sections. Using this hierarchy helps acquisition teams locate controlling rules faster and cite them precisely in planning and award documentation.\n\nWhy other options fail:\nC: Clause numbers are in Part 52; ‘subpart’ is a structural layer, not a clause.\nD: U.S. Code is statutory; FAR is regulatory guidance for acquisitions.\n\nField tip: Teach learners to cite down to the section level when possible: Part tells the topic; Section tells the rule."
+    "explanation": "FAR/RFO References:\n- RFO transition reference (legacy FAR System) — FAR Part 1 (https://www.acquisition.gov/far/part-1)\n\nWhat this tests: FAR organization: Part → Subpart → Section → Subsection/paragraph. RFO transition framing applied with legacy FAR continuity.\n\nHow to decide:\n1) Identify the number format: Part X, Subpart X.Y, Section X.YZZ.\n2) Use the hierarchy to narrow rules quickly.\n3) Cite the smallest controlling level practical (section/subsection).\n\nWhy the correct answer works: A subpart is a defined subdivision within a FAR part, grouping related sections. Using this hierarchy helps acquisition teams locate controlling rules faster and cite them precisely in planning and award documentation.\n\nWhy other options fail:\nC: Clause numbers are in Part 52; ‘subpart’ is a structural layer, not a clause.\nD: U.S. Code is statutory; FAR is regulatory guidance for acquisitions.\n\nField tip: Teach learners to cite down to the section level when possible: Part tells the topic; Section tells the rule.\n\nRFO Transition Note: This item remains tied to the same core contracting competency. Use RFO transition reference (legacy FAR System) terminology while retaining legacy FAR phrasing during the transition.",
+    "rfoTags": [
+      "Contract Principles"
+    ],
+    "lifecyclePhase": "Award"
   },
   {
     "id": "con3910-147",
@@ -6718,13 +6895,13 @@
     "explanationRich": {
       "farRefs": {
         "part": {
-          "cite": "Solicitation Changes",
+          "cite": "RFO transition reference (Solicitation Changes)",
           "title": "FAR Part 15/14 (as applicable)",
           "url": "https://www.acquisition.gov/browse/index/far"
         },
         "sections": []
       },
-      "whatThisTests": "Amendments modify solicitations pre-award; mods change contracts post-award.",
+      "whatThisTests": "Amendments modify solicitations pre-award; mods change contracts post-award. RFO transition framing applied with legacy FAR continuity.",
       "decisionSteps": [
         "If pre-award, use amendment to change solicitation terms.",
         "If post-award, use contract modification.",
@@ -6743,7 +6920,14 @@
       ],
       "fieldTip": "In the app, show a timeline: Amendment = before proposals due; Mod = after award."
     },
-    "explanation": "FAR References:\n- Solicitation Changes — FAR Part 15/14 (as applicable) (https://www.acquisition.gov/browse/index/far)\n\nWhat this tests: Amendments modify solicitations pre-award; mods change contracts post-award.\n\nHow to decide:\n1) If pre-award, use amendment to change solicitation terms.\n2) If post-award, use contract modification.\n3) Ensure amendment is distributed to all potential offerors.\n\nWhy the correct answer works: Amendments revise the solicitation prior to closing—changing requirements, instructions, dates, or Q&A that affect proposals.\n\nWhy other options fail:\nA: Post-award changes require a contract modification, not a solicitation amendment.\nC: Termination is a post-award remedy under Part 49, not an amendment action.\n\nField tip: In the app, show a timeline: Amendment = before proposals due; Mod = after award."
+    "explanation": "FAR/RFO References:\n- RFO transition reference (Solicitation Changes) — FAR Part 15/14 (as applicable) (https://www.acquisition.gov/browse/index/far)\n\nWhat this tests: Amendments modify solicitations pre-award; mods change contracts post-award. RFO transition framing applied with legacy FAR continuity.\n\nHow to decide:\n1) If pre-award, use amendment to change solicitation terms.\n2) If post-award, use contract modification.\n3) Ensure amendment is distributed to all potential offerors.\n\nWhy the correct answer works: Amendments revise the solicitation prior to closing—changing requirements, instructions, dates, or Q&A that affect proposals.\n\nWhy other options fail:\nA: Post-award changes require a contract modification, not a solicitation amendment.\nC: Termination is a post-award remedy under Part 49, not an amendment action.\n\nField tip: In the app, show a timeline: Amendment = before proposals due; Mod = after award.\n\nRFO Transition Note: This item remains tied to the same core contracting competency. Use RFO transition reference (Solicitation Changes) terminology while retaining legacy FAR phrasing during the transition.",
+    "rfoTags": [
+      "Plan Sales",
+      "Plan Solicitation",
+      "Prepare Offer",
+      "Request Offers"
+    ],
+    "lifecyclePhase": "Pre-Award"
   },
   {
     "id": "con3910-148",
@@ -6759,7 +6943,7 @@
     "explanationRich": {
       "farRefs": {
         "part": {
-          "cite": "Contract Modifications",
+          "cite": "RFO transition reference (Contract Modifications)",
           "title": "FAR Part 43",
           "url": "https://www.acquisition.gov/far/part-43"
         },
@@ -6771,7 +6955,7 @@
           }
         ]
       },
-      "whatThisTests": "Mods are post-award changes to contract terms.",
+      "whatThisTests": "Mods are post-award changes to contract terms. RFO transition framing applied with legacy FAR continuity.",
       "decisionSteps": [
         "Confirm the need: admin change, within-scope change, or mutual agreement.",
         "Select unilateral vs bilateral type.",
@@ -6790,7 +6974,11 @@
       ],
       "fieldTip": "Teach: if you’re touching the signed contract, it’s an SF 30 mod."
     },
-    "explanation": "FAR References:\n- Contract Modifications — FAR Part 43 (https://www.acquisition.gov/far/part-43)\n- FAR 43.103 — Types of contract modifications (https://www.acquisition.gov/far/43.103)\n\nWhat this tests: Mods are post-award changes to contract terms.\n\nHow to decide:\n1) Confirm the need: admin change, within-scope change, or mutual agreement.\n2) Select unilateral vs bilateral type.\n3) Execute SF 30 and update funding/accounting as needed.\n\nWhy the correct answer works: SF 30 contract modifications change contract terms after award under proper authority (clauses, supplemental agreement, etc.).\n\nWhy other options fail:\nB: Pre-award changes are solicitation amendments, not contract modifications.\nC: SAM posting is a public notice function; it is not what SF 30 is for.\n\nField tip: Teach: if you’re touching the signed contract, it’s an SF 30 mod."
+    "explanation": "FAR/RFO References:\n- RFO transition reference (Contract Modifications) — FAR Part 43 (https://www.acquisition.gov/far/part-43)\n- FAR 43.103 — Types of contract modifications (https://www.acquisition.gov/far/43.103)\n\nWhat this tests: Mods are post-award changes to contract terms. RFO transition framing applied with legacy FAR continuity.\n\nHow to decide:\n1) Confirm the need: admin change, within-scope change, or mutual agreement.\n2) Select unilateral vs bilateral type.\n3) Execute SF 30 and update funding/accounting as needed.\n\nWhy the correct answer works: SF 30 contract modifications change contract terms after award under proper authority (clauses, supplemental agreement, etc.).\n\nWhy other options fail:\nB: Pre-award changes are solicitation amendments, not contract modifications.\nC: SAM posting is a public notice function; it is not what SF 30 is for.\n\nField tip: Teach: if you’re touching the signed contract, it’s an SF 30 mod.\n\nRFO Transition Note: This item remains tied to the same core contracting competency. Use RFO transition reference (Contract Modifications) terminology while retaining legacy FAR phrasing during the transition.",
+    "rfoTags": [
+      "Contract Principles"
+    ],
+    "lifecyclePhase": "Post-Award"
   },
   {
     "id": "con3910-149",
@@ -6806,7 +6994,7 @@
     "explanationRich": {
       "farRefs": {
         "part": {
-          "cite": "Competition",
+          "cite": "RFO transition reference (Competition)",
           "title": "FAR Part 6",
           "url": "https://www.acquisition.gov/far/part-6"
         },
@@ -6818,7 +7006,7 @@
           }
         ]
       },
-      "whatThisTests": "Scope impacts legality of mods and whether you owe the market a new competition.",
+      "whatThisTests": "Scope impacts legality of mods and whether you owe the market a new competition. RFO transition framing applied with legacy FAR continuity.",
       "decisionSteps": [
         "Compare proposed change to original solicitation/award terms.",
         "Ask whether change would have affected who competed or how they priced.",
@@ -6837,7 +7025,11 @@
       ],
       "fieldTip": "In training, frame it as a fairness test: would other vendors have bid differently if they knew?"
     },
-    "explanation": "FAR References:\n- Competition — FAR Part 6 (https://www.acquisition.gov/far/part-6)\n- FAR 6.001 — Applicability (https://www.acquisition.gov/far/6.001)\n\nWhat this tests: Scope impacts legality of mods and whether you owe the market a new competition.\n\nHow to decide:\n1) Compare proposed change to original solicitation/award terms.\n2) Ask whether change would have affected who competed or how they priced.\n3) If out-of-scope, treat as new requirement and compete or justify.\n\nWhy the correct answer works: Scope determines whether modifications remain within the originally competed requirement; out-of-scope changes can violate competition rules.\n\nWhy other options fail:\nB: Formatting is not scope; scope is about the substance of work and competition.\nC: CPARS is performance assessment, not scope determination.\n\nField tip: In training, frame it as a fairness test: would other vendors have bid differently if they knew?"
+    "explanation": "FAR/RFO References:\n- RFO transition reference (Competition) — FAR Part 6 (https://www.acquisition.gov/far/part-6)\n- FAR 6.001 — Applicability (https://www.acquisition.gov/far/6.001)\n\nWhat this tests: Scope impacts legality of mods and whether you owe the market a new competition. RFO transition framing applied with legacy FAR continuity.\n\nHow to decide:\n1) Compare proposed change to original solicitation/award terms.\n2) Ask whether change would have affected who competed or how they priced.\n3) If out-of-scope, treat as new requirement and compete or justify.\n\nWhy the correct answer works: Scope determines whether modifications remain within the originally competed requirement; out-of-scope changes can violate competition rules.\n\nWhy other options fail:\nB: Formatting is not scope; scope is about the substance of work and competition.\nC: CPARS is performance assessment, not scope determination.\n\nField tip: In training, frame it as a fairness test: would other vendors have bid differently if they knew?\n\nRFO Transition Note: This item remains tied to the same core contracting competency. Use RFO transition reference (Competition) terminology while retaining legacy FAR phrasing during the transition.",
+    "rfoTags": [
+      "Contract Principles"
+    ],
+    "lifecyclePhase": "Post-Award"
   },
   {
     "id": "con3910-150",
@@ -6853,7 +7045,7 @@
     "explanationRich": {
       "farRefs": {
         "part": {
-          "cite": "Contract Files",
+          "cite": "RFO transition reference (Contract Files)",
           "title": "FAR Subpart 4.8",
           "url": "https://www.acquisition.gov/far/part-4"
         },
@@ -6865,7 +7057,7 @@
           }
         ]
       },
-      "whatThisTests": "A good file tells the story of legality, fairness, and reasonableness.",
+      "whatThisTests": "A good file tells the story of legality, fairness, and reasonableness. RFO transition framing applied with legacy FAR continuity.",
       "decisionSteps": [
         "Capture the acquisition plan/rationale and market research.",
         "Document competition decisions and any exceptions.",
@@ -6884,7 +7076,11 @@
       ],
       "fieldTip": "Teach: your file should let a stranger reconstruct ‘why we did what we did’ without guessing."
     },
-    "explanation": "FAR References:\n- Contract Files — FAR Subpart 4.8 (https://www.acquisition.gov/far/part-4)\n- FAR 4.801 — General (https://www.acquisition.gov/far/4.801)\n\nWhat this tests: A good file tells the story of legality, fairness, and reasonableness.\n\nHow to decide:\n1) Capture the acquisition plan/rationale and market research.\n2) Document competition decisions and any exceptions.\n3) Document price analysis/reasonableness and award rationale.\n\nWhy the correct answer works: FAR file requirements aim to preserve the record for decisions like competition approach, evaluation/award, and pricing—enabling audits and accountability.\n\nWhy other options fail:\nA: Invoices are only one piece; the file must justify the acquisition end-to-end.\nD: COR letters matter, but they don’t replace pricing/competition/award documentation.\n\nField tip: Teach: your file should let a stranger reconstruct ‘why we did what we did’ without guessing."
+    "explanation": "FAR/RFO References:\n- RFO transition reference (Contract Files) — FAR Subpart 4.8 (https://www.acquisition.gov/far/part-4)\n- FAR 4.801 — General (https://www.acquisition.gov/far/4.801)\n\nWhat this tests: A good file tells the story of legality, fairness, and reasonableness. RFO transition framing applied with legacy FAR continuity.\n\nHow to decide:\n1) Capture the acquisition plan/rationale and market research.\n2) Document competition decisions and any exceptions.\n3) Document price analysis/reasonableness and award rationale.\n\nWhy the correct answer works: FAR file requirements aim to preserve the record for decisions like competition approach, evaluation/award, and pricing—enabling audits and accountability.\n\nWhy other options fail:\nA: Invoices are only one piece; the file must justify the acquisition end-to-end.\nD: COR letters matter, but they don’t replace pricing/competition/award documentation.\n\nField tip: Teach: your file should let a stranger reconstruct ‘why we did what we did’ without guessing.\n\nRFO Transition Note: This item remains tied to the same core contracting competency. Use RFO transition reference (Contract Files) terminology while retaining legacy FAR phrasing during the transition.",
+    "rfoTags": [
+      "Contract Principles"
+    ],
+    "lifecyclePhase": "Award"
   },
   {
     "id": "con3910-151",
@@ -6900,7 +7096,7 @@
     "explanationRich": {
       "farRefs": {
         "part": {
-          "cite": "Market Research",
+          "cite": "RFO transition reference (Market Research)",
           "title": "FAR Part 10",
           "url": "https://www.acquisition.gov/far/part-10"
         },
@@ -6912,7 +7108,7 @@
           }
         ]
       },
-      "whatThisTests": "Market research is a baseline discipline, not a high-dollar-only step.",
+      "whatThisTests": "Market research is a baseline discipline, not a high-dollar-only step. RFO transition framing applied with legacy FAR continuity.",
       "decisionSteps": [
         "Define the need and potential sources.",
         "Assess commercial availability and competition.",
@@ -6931,7 +7127,14 @@
       ],
       "fieldTip": "The best market research isn’t a report—it’s decisions you can trace back to evidence."
     },
-    "explanation": "FAR References:\n- Market Research — FAR Part 10 (https://www.acquisition.gov/far/part-10)\n- FAR 10.001 — Policy (https://www.acquisition.gov/far/10.001)\n\nWhat this tests: Market research is a baseline discipline, not a high-dollar-only step.\n\nHow to decide:\n1) Define the need and potential sources.\n2) Assess commercial availability and competition.\n3) Use findings to shape requirements, contract type, and acquisition approach.\n\nWhy the correct answer works: FAR Part 10 calls for market research appropriate to circumstances for most acquisitions, supporting commercial item determinations and acquisition planning.\n\nWhy other options fail:\nA: It’s not limited to $10M+; scale depends on complexity and value.\nC: Micro-purchases can still use informal market research, but Part 10 is not micro-only.\n\nField tip: The best market research isn’t a report—it’s decisions you can trace back to evidence."
+    "explanation": "FAR/RFO References:\n- RFO transition reference (Market Research) — FAR Part 10 (https://www.acquisition.gov/far/part-10)\n- FAR 10.001 — Policy (https://www.acquisition.gov/far/10.001)\n\nWhat this tests: Market research is a baseline discipline, not a high-dollar-only step. RFO transition framing applied with legacy FAR continuity.\n\nHow to decide:\n1) Define the need and potential sources.\n2) Assess commercial availability and competition.\n3) Use findings to shape requirements, contract type, and acquisition approach.\n\nWhy the correct answer works: FAR Part 10 calls for market research appropriate to circumstances for most acquisitions, supporting commercial item determinations and acquisition planning.\n\nWhy other options fail:\nA: It’s not limited to $10M+; scale depends on complexity and value.\nC: Micro-purchases can still use informal market research, but Part 10 is not micro-only.\n\nField tip: The best market research isn’t a report—it’s decisions you can trace back to evidence.\n\nRFO Transition Note: This item remains tied to the same core contracting competency. Use RFO transition reference (Market Research) terminology while retaining legacy FAR phrasing during the transition.",
+    "rfoTags": [
+      "Plan Sales",
+      "Plan Solicitation",
+      "Prepare Offer",
+      "Request Offers"
+    ],
+    "lifecyclePhase": "Pre-Award"
   },
   {
     "id": "con3910-152",
@@ -6947,7 +7150,7 @@
     "explanationRich": {
       "farRefs": {
         "part": {
-          "cite": "Service Contracting",
+          "cite": "RFO transition reference (Service Contracting)",
           "title": "FAR Subpart 37.6",
           "url": "https://www.acquisition.gov/far/part-37"
         },
@@ -6959,7 +7162,7 @@
           }
         ]
       },
-      "whatThisTests": "PBA focuses on measurable outcomes vs prescribing methods.",
+      "whatThisTests": "PBA focuses on measurable outcomes vs prescribing methods. RFO transition framing applied with legacy FAR continuity.",
       "decisionSteps": [
         "Define outcomes and performance standards.",
         "Identify acceptable quality levels and surveillance approach.",
@@ -6978,7 +7181,11 @@
       ],
       "fieldTip": "Teach learners to write ‘what success looks like’ before writing ‘how to do it.’"
     },
-    "explanation": "FAR References:\n- Service Contracting — FAR Subpart 37.6 (https://www.acquisition.gov/far/part-37)\n- FAR 37.602 — Elements of performance-based acquisition (https://www.acquisition.gov/far/37.602)\n\nWhat this tests: PBA focuses on measurable outcomes vs prescribing methods.\n\nHow to decide:\n1) Define outcomes and performance standards.\n2) Identify acceptable quality levels and surveillance approach.\n3) Allow contractor flexibility in methods while holding outcomes accountable.\n\nWhy the correct answer works: Performance-based acquisition describes required outcomes and measures success, giving contractors flexibility in approach while the Government manages results.\n\nWhy other options fail:\nA: Over-prescribing steps is the opposite of performance-based thinking.\nD: Brand names describe products, not performance outcomes.\n\nField tip: Teach learners to write ‘what success looks like’ before writing ‘how to do it.’"
+    "explanation": "FAR/RFO References:\n- RFO transition reference (Service Contracting) — FAR Subpart 37.6 (https://www.acquisition.gov/far/part-37)\n- FAR 37.602 — Elements of performance-based acquisition (https://www.acquisition.gov/far/37.602)\n\nWhat this tests: PBA focuses on measurable outcomes vs prescribing methods. RFO transition framing applied with legacy FAR continuity.\n\nHow to decide:\n1) Define outcomes and performance standards.\n2) Identify acceptable quality levels and surveillance approach.\n3) Allow contractor flexibility in methods while holding outcomes accountable.\n\nWhy the correct answer works: Performance-based acquisition describes required outcomes and measures success, giving contractors flexibility in approach while the Government manages results.\n\nWhy other options fail:\nA: Over-prescribing steps is the opposite of performance-based thinking.\nD: Brand names describe products, not performance outcomes.\n\nField tip: Teach learners to write ‘what success looks like’ before writing ‘how to do it.’\n\nRFO Transition Note: This item remains tied to the same core contracting competency. Use RFO transition reference (Service Contracting) terminology while retaining legacy FAR phrasing during the transition.",
+    "rfoTags": [
+      "Contract Principles"
+    ],
+    "lifecyclePhase": "Post-Award"
   },
   {
     "id": "con3910-153",
@@ -6994,7 +7201,7 @@
     "explanationRich": {
       "farRefs": {
         "part": {
-          "cite": "Competition/Needs",
+          "cite": "RFO transition reference (Competition/Needs)",
           "title": "FAR Parts 6 & 11",
           "url": "https://www.acquisition.gov/browse/index/far"
         },
@@ -7011,7 +7218,7 @@
           }
         ]
       },
-      "whatThisTests": "Competition is the default; restrictions must be justified by mission need.",
+      "whatThisTests": "Competition is the default; restrictions must be justified by mission need. RFO transition framing applied with legacy FAR continuity.",
       "decisionSteps": [
         "Translate the need into functional/performance requirements.",
         "Check whether each restriction is essential to mission.",
@@ -7030,7 +7237,11 @@
       ],
       "fieldTip": "If you can’t defend a requirement as mission-essential, rewrite it as a performance outcome."
     },
-    "explanation": "FAR References:\n- Competition/Needs — FAR Parts 6 & 11 (https://www.acquisition.gov/browse/index/far)\n- FAR 6.101 — Policy (https://www.acquisition.gov/far/6.101)\n- FAR 11.002 — Policy (https://www.acquisition.gov/far/11.002)\n\nWhat this tests: Competition is the default; restrictions must be justified by mission need.\n\nHow to decide:\n1) Translate the need into functional/performance requirements.\n2) Check whether each restriction is essential to mission.\n3) If you must restrict, document rationale and consider brand-name justification routes.\n\nWhy the correct answer works: Unnecessary restrictions shrink the competitive pool and can violate FAR competition policy, increasing cost and protest risk.\n\nWhy other options fail:\nC: Invoicing speed is administrative and unrelated to legality of requirements.\nD: Restrictions do not remove the need for clauses or compliance.\n\nField tip: If you can’t defend a requirement as mission-essential, rewrite it as a performance outcome."
+    "explanation": "FAR/RFO References:\n- RFO transition reference (Competition/Needs) — FAR Parts 6 & 11 (https://www.acquisition.gov/browse/index/far)\n- FAR 6.101 — Policy (https://www.acquisition.gov/far/6.101)\n- FAR 11.002 — Policy (https://www.acquisition.gov/far/11.002)\n\nWhat this tests: Competition is the default; restrictions must be justified by mission need. RFO transition framing applied with legacy FAR continuity.\n\nHow to decide:\n1) Translate the need into functional/performance requirements.\n2) Check whether each restriction is essential to mission.\n3) If you must restrict, document rationale and consider brand-name justification routes.\n\nWhy the correct answer works: Unnecessary restrictions shrink the competitive pool and can violate FAR competition policy, increasing cost and protest risk.\n\nWhy other options fail:\nC: Invoicing speed is administrative and unrelated to legality of requirements.\nD: Restrictions do not remove the need for clauses or compliance.\n\nField tip: If you can’t defend a requirement as mission-essential, rewrite it as a performance outcome.\n\nRFO Transition Note: This item remains tied to the same core contracting competency. Use RFO transition reference (Competition/Needs) terminology while retaining legacy FAR phrasing during the transition.",
+    "rfoTags": [
+      "Contract Principles"
+    ],
+    "lifecyclePhase": "Award"
   },
   {
     "id": "con3910-154",
@@ -7046,13 +7257,13 @@
     "explanationRich": {
       "farRefs": {
         "part": {
-          "cite": "Small Business & Competition",
+          "cite": "RFO transition reference (Small Business & Competition)",
           "title": "FAR Part 19 / Part 6",
           "url": "https://www.acquisition.gov/browse/index/far"
         },
         "sections": []
       },
-      "whatThisTests": "Sole source is never ‘because we want to’; it must rest on authority and facts.",
+      "whatThisTests": "Sole source is never ‘because we want to’; it must rest on authority and facts. RFO transition framing applied with legacy FAR continuity.",
       "decisionSteps": [
         "Identify the sole source authority that applies (e.g., specific SB program conditions).",
         "Document eligibility, fair/reasonable pricing, and rationale.",
@@ -7071,7 +7282,11 @@
       ],
       "fieldTip": "Teach: sole source requires TWO proofs—authority + fair/reasonable price."
     },
-    "explanation": "FAR References:\n- Small Business & Competition — FAR Part 19 / Part 6 (https://www.acquisition.gov/browse/index/far)\n\nWhat this tests: Sole source is never ‘because we want to’; it must rest on authority and facts.\n\nHow to decide:\n1) Identify the sole source authority that applies (e.g., specific SB program conditions).\n2) Document eligibility, fair/reasonable pricing, and rationale.\n3) Ensure approvals match the threshold and policy.\n\nWhy the correct answer works: Sole source awards still require a valid authority and supporting documentation, including price reasonableness.\n\nWhy other options fail:\nA: Sole source without authority is a competition violation.\nC: COR approval cannot replace legal authority or CO decision-making.\n\nField tip: Teach: sole source requires TWO proofs—authority + fair/reasonable price."
+    "explanation": "FAR/RFO References:\n- RFO transition reference (Small Business & Competition) — FAR Part 19 / Part 6 (https://www.acquisition.gov/browse/index/far)\n\nWhat this tests: Sole source is never ‘because we want to’; it must rest on authority and facts. RFO transition framing applied with legacy FAR continuity.\n\nHow to decide:\n1) Identify the sole source authority that applies (e.g., specific SB program conditions).\n2) Document eligibility, fair/reasonable pricing, and rationale.\n3) Ensure approvals match the threshold and policy.\n\nWhy the correct answer works: Sole source awards still require a valid authority and supporting documentation, including price reasonableness.\n\nWhy other options fail:\nA: Sole source without authority is a competition violation.\nC: COR approval cannot replace legal authority or CO decision-making.\n\nField tip: Teach: sole source requires TWO proofs—authority + fair/reasonable price.\n\nRFO Transition Note: This item remains tied to the same core contracting competency. Use RFO transition reference (Small Business & Competition) terminology while retaining legacy FAR phrasing during the transition.",
+    "rfoTags": [
+      "Contract Principles"
+    ],
+    "lifecyclePhase": "Award"
   },
   {
     "id": "con3910-155",
@@ -7087,13 +7302,13 @@
     "explanationRich": {
       "farRefs": {
         "part": {
-          "cite": "Micro-Purchase Concepts",
+          "cite": "RFO transition reference (Micro-Purchase Concepts)",
           "title": "FAR 13 / Agency Policy",
           "url": "https://www.acquisition.gov/far/part-13"
         },
         "sections": []
       },
-      "whatThisTests": "Even small buys must respect authority, funding, and ethics.",
+      "whatThisTests": "Even small buys must respect authority, funding, and ethics. RFO transition framing applied with legacy FAR continuity.",
       "decisionSteps": [
         "Confirm threshold and purchase card limits.",
         "Verify funds availability and bona fide need.",
@@ -7112,7 +7327,11 @@
       ],
       "fieldTip": "A common learning pitfall: splitting buys to stay under thresholds—teach why that’s improper."
     },
-    "explanation": "FAR References:\n- Micro-Purchase Concepts — FAR 13 / Agency Policy (https://www.acquisition.gov/far/part-13)\n\nWhat this tests: Even small buys must respect authority, funding, and ethics.\n\nHow to decide:\n1) Confirm threshold and purchase card limits.\n2) Verify funds availability and bona fide need.\n3) Avoid split purchases and document as required by policy.\n\nWhy the correct answer works: Purchase card use must stay within delegated authority and fiscal law, with appropriate checks for funds, need, and compliance.\n\nWhy other options fail:\nA: Purchase card authority is limited; exceeding limits can create unauthorized commitments.\nC: While micro-purchases have simplified competition rules, good practice is to distribute buys and avoid favoritism.\n\nField tip: A common learning pitfall: splitting buys to stay under thresholds—teach why that’s improper."
+    "explanation": "FAR/RFO References:\n- RFO transition reference (Micro-Purchase Concepts) — FAR 13 / Agency Policy (https://www.acquisition.gov/far/part-13)\n\nWhat this tests: Even small buys must respect authority, funding, and ethics. RFO transition framing applied with legacy FAR continuity.\n\nHow to decide:\n1) Confirm threshold and purchase card limits.\n2) Verify funds availability and bona fide need.\n3) Avoid split purchases and document as required by policy.\n\nWhy the correct answer works: Purchase card use must stay within delegated authority and fiscal law, with appropriate checks for funds, need, and compliance.\n\nWhy other options fail:\nA: Purchase card authority is limited; exceeding limits can create unauthorized commitments.\nC: While micro-purchases have simplified competition rules, good practice is to distribute buys and avoid favoritism.\n\nField tip: A common learning pitfall: splitting buys to stay under thresholds—teach why that’s improper.\n\nRFO Transition Note: This item remains tied to the same core contracting competency. Use RFO transition reference (Micro-Purchase Concepts) terminology while retaining legacy FAR phrasing during the transition.",
+    "rfoTags": [
+      "Contract Principles"
+    ],
+    "lifecyclePhase": "Award"
   },
   {
     "id": "con3910-156",
@@ -7128,7 +7347,7 @@
     "explanationRich": {
       "farRefs": {
         "part": {
-          "cite": "Competition Exceptions",
+          "cite": "RFO transition reference (Competition Exceptions)",
           "title": "FAR 6.302",
           "url": "https://www.acquisition.gov/far/part-6"
         },
@@ -7140,7 +7359,7 @@
           }
         ]
       },
-      "whatThisTests": "Exceptions exist, but must be tied to a recognized FAR exception and documented.",
+      "whatThisTests": "Exceptions exist, but must be tied to a recognized FAR exception and documented. RFO transition framing applied with legacy FAR continuity.",
       "decisionSteps": [
         "Start with default: compete.",
         "If seeking exception, match facts to an exception (e.g., urgency).",
@@ -7159,7 +7378,14 @@
       ],
       "fieldTip": "Teach: urgency isn’t a vibe; it’s a documented fact pattern with approvals."
     },
-    "explanation": "FAR References:\n- Competition Exceptions — FAR 6.302 (https://www.acquisition.gov/far/part-6)\n- FAR 6.302-2 — Unusual and compelling urgency (https://www.acquisition.gov/far/6.302-2)\n\nWhat this tests: Exceptions exist, but must be tied to a recognized FAR exception and documented.\n\nHow to decide:\n1) Start with default: compete.\n2) If seeking exception, match facts to an exception (e.g., urgency).\n3) Prepare required documentation and approvals.\n\nWhy the correct answer works: Competition is required unless an exception applies and is properly documented (e.g., unusual and compelling urgency).\n\nWhy other options fail:\nB: Preference is not an exception.\nD: Workload is never a lawful basis to limit competition.\n\nField tip: Teach: urgency isn’t a vibe; it’s a documented fact pattern with approvals."
+    "explanation": "FAR/RFO References:\n- RFO transition reference (Competition Exceptions) — FAR 6.302 (https://www.acquisition.gov/far/part-6)\n- FAR 6.302-2 — Unusual and compelling urgency (https://www.acquisition.gov/far/6.302-2)\n\nWhat this tests: Exceptions exist, but must be tied to a recognized FAR exception and documented. RFO transition framing applied with legacy FAR continuity.\n\nHow to decide:\n1) Start with default: compete.\n2) If seeking exception, match facts to an exception (e.g., urgency).\n3) Prepare required documentation and approvals.\n\nWhy the correct answer works: Competition is required unless an exception applies and is properly documented (e.g., unusual and compelling urgency).\n\nWhy other options fail:\nB: Preference is not an exception.\nD: Workload is never a lawful basis to limit competition.\n\nField tip: Teach: urgency isn’t a vibe; it’s a documented fact pattern with approvals.\n\nRFO Transition Note: This item remains tied to the same core contracting competency. Use RFO transition reference (Competition Exceptions) terminology while retaining legacy FAR phrasing during the transition.",
+    "rfoTags": [
+      "Plan Sales",
+      "Plan Solicitation",
+      "Prepare Offer",
+      "Request Offers"
+    ],
+    "lifecyclePhase": "Pre-Award"
   },
   {
     "id": "con3910-157",
@@ -7175,13 +7401,13 @@
     "explanationRich": {
       "farRefs": {
         "part": {
-          "cite": "Solicitation Integrity",
+          "cite": "RFO transition reference (Solicitation Integrity)",
           "title": "FAR Principles",
           "url": "https://www.acquisition.gov/browse/index/far"
         },
         "sections": []
       },
-      "whatThisTests": "Material requirements affect responsiveness/acceptability and fairness.",
+      "whatThisTests": "Material requirements affect responsiveness/acceptability and fairness. RFO transition framing applied with legacy FAR continuity.",
       "decisionSteps": [
         "Determine whether requirement affects performance, price, quantity, quality, or delivery.",
         "Treat it consistently across offerors.",
@@ -7200,7 +7426,14 @@
       ],
       "fieldTip": "In the app, label each requirement as ‘mandatory’ vs ‘desirable’ to reduce confusion."
     },
-    "explanation": "FAR References:\n- Solicitation Integrity — FAR Principles (https://www.acquisition.gov/browse/index/far)\n\nWhat this tests: Material requirements affect responsiveness/acceptability and fairness.\n\nHow to decide:\n1) Determine whether requirement affects performance, price, quantity, quality, or delivery.\n2) Treat it consistently across offerors.\n3) Document why it is material.\n\nWhy the correct answer works: Material requirements go to the essence of the Government’s needs and impact fair competition; ignoring them undermines the integrity of the acquisition.\n\nWhy other options fail:\nB: Preferences are not material unless made mandatory.\nD: Low price does not excuse failure to meet material requirements.\n\nField tip: In the app, label each requirement as ‘mandatory’ vs ‘desirable’ to reduce confusion."
+    "explanation": "FAR/RFO References:\n- RFO transition reference (Solicitation Integrity) — FAR Principles (https://www.acquisition.gov/browse/index/far)\n\nWhat this tests: Material requirements affect responsiveness/acceptability and fairness. RFO transition framing applied with legacy FAR continuity.\n\nHow to decide:\n1) Determine whether requirement affects performance, price, quantity, quality, or delivery.\n2) Treat it consistently across offerors.\n3) Document why it is material.\n\nWhy the correct answer works: Material requirements go to the essence of the Government’s needs and impact fair competition; ignoring them undermines the integrity of the acquisition.\n\nWhy other options fail:\nB: Preferences are not material unless made mandatory.\nD: Low price does not excuse failure to meet material requirements.\n\nField tip: In the app, label each requirement as ‘mandatory’ vs ‘desirable’ to reduce confusion.\n\nRFO Transition Note: This item remains tied to the same core contracting competency. Use RFO transition reference (Solicitation Integrity) terminology while retaining legacy FAR phrasing during the transition.",
+    "rfoTags": [
+      "Plan Sales",
+      "Plan Solicitation",
+      "Prepare Offer",
+      "Request Offers"
+    ],
+    "lifecyclePhase": "Pre-Award"
   },
   {
     "id": "con3910-158",
@@ -7216,13 +7449,13 @@
     "explanationRich": {
       "farRefs": {
         "part": {
-          "cite": "Evaluation",
+          "cite": "RFO transition reference (Evaluation)",
           "title": "FAR Part 15",
           "url": "https://www.acquisition.gov/far/part-15"
         },
         "sections": []
       },
-      "whatThisTests": "Material exceptions undermine compliance; Government can’t accept nonconforming offer.",
+      "whatThisTests": "Material exceptions undermine compliance; Government can’t accept nonconforming offer. RFO transition framing applied with legacy FAR continuity.",
       "decisionSteps": [
         "Identify whether the term is material and mandatory.",
         "Determine whether the proposal is conditional/nonconforming.",
@@ -7241,7 +7474,14 @@
       ],
       "fieldTip": "Teach learners: ‘conditional offers’ often create protest risk—spot them early."
     },
-    "explanation": "FAR References:\n- Evaluation — FAR Part 15 (https://www.acquisition.gov/far/part-15)\n\nWhat this tests: Material exceptions undermine compliance; Government can’t accept nonconforming offer.\n\nHow to decide:\n1) Identify whether the term is material and mandatory.\n2) Determine whether the proposal is conditional/nonconforming.\n3) Document exclusion or require correction through discussions if permitted and fair.\n\nWhy the correct answer works: Taking exception to a material term means the offer does not meet requirements; it is generally unacceptable and cannot be selected unless the term is changed for all or corrected properly.\n\nWhy other options fail:\nC: CO cannot unilaterally ‘fix’ an offeror’s exception without affecting fairness.\nD: Price does not cure noncompliance with mandatory terms.\n\nField tip: Teach learners: ‘conditional offers’ often create protest risk—spot them early."
+    "explanation": "FAR/RFO References:\n- RFO transition reference (Evaluation) — FAR Part 15 (https://www.acquisition.gov/far/part-15)\n\nWhat this tests: Material exceptions undermine compliance; Government can’t accept nonconforming offer. RFO transition framing applied with legacy FAR continuity.\n\nHow to decide:\n1) Identify whether the term is material and mandatory.\n2) Determine whether the proposal is conditional/nonconforming.\n3) Document exclusion or require correction through discussions if permitted and fair.\n\nWhy the correct answer works: Taking exception to a material term means the offer does not meet requirements; it is generally unacceptable and cannot be selected unless the term is changed for all or corrected properly.\n\nWhy other options fail:\nC: CO cannot unilaterally ‘fix’ an offeror’s exception without affecting fairness.\nD: Price does not cure noncompliance with mandatory terms.\n\nField tip: Teach learners: ‘conditional offers’ often create protest risk—spot them early.\n\nRFO Transition Note: This item remains tied to the same core contracting competency. Use RFO transition reference (Evaluation) terminology while retaining legacy FAR phrasing during the transition.",
+    "rfoTags": [
+      "Plan Sales",
+      "Plan Solicitation",
+      "Prepare Offer",
+      "Request Offers"
+    ],
+    "lifecyclePhase": "Pre-Award"
   },
   {
     "id": "con3910-159",
@@ -7257,7 +7497,7 @@
     "explanationRich": {
       "farRefs": {
         "part": {
-          "cite": "Debriefings",
+          "cite": "RFO transition reference (Debriefings)",
           "title": "FAR 15.506",
           "url": "https://www.acquisition.gov/far/part-15"
         },
@@ -7269,7 +7509,7 @@
           }
         ]
       },
-      "whatThisTests": "Debriefs balance transparency with protection of proprietary/source selection info.",
+      "whatThisTests": "Debriefs balance transparency with protection of proprietary/source selection info. RFO transition framing applied with legacy FAR continuity.",
       "decisionSteps": [
         "Provide information allowed by FAR (own eval, rationale, awardee price if applicable).",
         "Do not disclose proprietary info or trade secrets.",
@@ -7288,7 +7528,14 @@
       ],
       "fieldTip": "Teach: you can explain ‘why you lost’ without saying ‘here’s how to beat the winner.’"
     },
-    "explanation": "FAR References:\n- Debriefings — FAR 15.506 (https://www.acquisition.gov/far/part-15)\n- FAR 15.506(e) — Debriefing—prohibited disclosures (https://www.acquisition.gov/far/15.506)\n\nWhat this tests: Debriefs balance transparency with protection of proprietary/source selection info.\n\nHow to decide:\n1) Provide information allowed by FAR (own eval, rationale, awardee price if applicable).\n2) Do not disclose proprietary info or trade secrets.\n3) Keep debrief factual; avoid comparative coaching.\n\nWhy the correct answer works: FAR debrief rules prohibit release of other offerors’ proprietary information (and certain source selection sensitive info).\n\nWhy other options fail:\nA: Price information is often disclosable depending on context; proprietary details are the red line.\nD: Discussing the debriefed offeror’s evaluation is a core purpose of the debrief.\n\nField tip: Teach: you can explain ‘why you lost’ without saying ‘here’s how to beat the winner.’"
+    "explanation": "FAR/RFO References:\n- RFO transition reference (Debriefings) — FAR 15.506 (https://www.acquisition.gov/far/part-15)\n- FAR 15.506(e) — Debriefing—prohibited disclosures (https://www.acquisition.gov/far/15.506)\n\nWhat this tests: Debriefs balance transparency with protection of proprietary/source selection info. RFO transition framing applied with legacy FAR continuity.\n\nHow to decide:\n1) Provide information allowed by FAR (own eval, rationale, awardee price if applicable).\n2) Do not disclose proprietary info or trade secrets.\n3) Keep debrief factual; avoid comparative coaching.\n\nWhy the correct answer works: FAR debrief rules prohibit release of other offerors’ proprietary information (and certain source selection sensitive info).\n\nWhy other options fail:\nA: Price information is often disclosable depending on context; proprietary details are the red line.\nD: Discussing the debriefed offeror’s evaluation is a core purpose of the debrief.\n\nField tip: Teach: you can explain ‘why you lost’ without saying ‘here’s how to beat the winner.’\n\nRFO Transition Note: This item remains tied to the same core contracting competency. Use RFO transition reference (Debriefings) terminology while retaining legacy FAR phrasing during the transition.",
+    "rfoTags": [
+      "Plan Sales",
+      "Plan Solicitation",
+      "Prepare Offer",
+      "Request Offers"
+    ],
+    "lifecyclePhase": "Pre-Award"
   },
   {
     "id": "con3910-160",
@@ -7304,7 +7551,7 @@
     "explanationRich": {
       "farRefs": {
         "part": {
-          "cite": "Best Value",
+          "cite": "RFO transition reference (Best Value)",
           "title": "FAR 15.101-1",
           "url": "https://www.acquisition.gov/far/part-15"
         },
@@ -7316,7 +7563,7 @@
           }
         ]
       },
-      "whatThisTests": "Tradeoff means you can pay more, but must explain why per factors.",
+      "whatThisTests": "Tradeoff means you can pay more, but must explain why per factors. RFO transition framing applied with legacy FAR continuity.",
       "decisionSteps": [
         "Compare strengths/risks vs price differences.",
         "Explain why the premium is worth it based on evaluation factors.",
@@ -7335,7 +7582,12 @@
       ],
       "fieldTip": "Your tradeoff writeup should answer one question: ‘What did we buy with the premium?’"
     },
-    "explanation": "FAR References:\n- Best Value — FAR 15.101-1 (https://www.acquisition.gov/far/part-15)\n- FAR 15.101-1 — Tradeoff process (https://www.acquisition.gov/far/15.101-1)\n\nWhat this tests: Tradeoff means you can pay more, but must explain why per factors.\n\nHow to decide:\n1) Compare strengths/risks vs price differences.\n2) Explain why the premium is worth it based on evaluation factors.\n3) Document the tradeoff clearly for defensibility.\n\nWhy the correct answer works: Tradeoff allows selecting a higher-priced proposal when non-price advantages justify the additional cost under the stated evaluation scheme.\n\nWhy other options fail:\nB: That’s LPTA logic, not tradeoff.\nC: Ignoring factors breaks the solicitation and creates protest vulnerability.\n\nField tip: Your tradeoff writeup should answer one question: ‘What did we buy with the premium?’"
+    "explanation": "FAR/RFO References:\n- RFO transition reference (Best Value) — FAR 15.101-1 (https://www.acquisition.gov/far/part-15)\n- FAR 15.101-1 — Tradeoff process (https://www.acquisition.gov/far/15.101-1)\n\nWhat this tests: Tradeoff means you can pay more, but must explain why per factors. RFO transition framing applied with legacy FAR continuity.\n\nHow to decide:\n1) Compare strengths/risks vs price differences.\n2) Explain why the premium is worth it based on evaluation factors.\n3) Document the tradeoff clearly for defensibility.\n\nWhy the correct answer works: Tradeoff allows selecting a higher-priced proposal when non-price advantages justify the additional cost under the stated evaluation scheme.\n\nWhy other options fail:\nB: That’s LPTA logic, not tradeoff.\nC: Ignoring factors breaks the solicitation and creates protest vulnerability.\n\nField tip: Your tradeoff writeup should answer one question: ‘What did we buy with the premium?’\n\nRFO Transition Note: This item remains tied to the same core contracting competency. Use RFO transition reference (Best Value) terminology while retaining legacy FAR phrasing during the transition. The scenario logic was sharpened for process application (not memorization) per CON 3990V prep emphasis.",
+    "rfoTags": [
+      "Plan Solicitation",
+      "Request Offers"
+    ],
+    "lifecyclePhase": "Award"
   },
   {
     "id": "con3910-161",
@@ -7351,7 +7603,7 @@
     "explanationRich": {
       "farRefs": {
         "part": {
-          "cite": "Best Value",
+          "cite": "RFO transition reference (Best Value)",
           "title": "FAR 15.101-2",
           "url": "https://www.acquisition.gov/far/part-15"
         },
@@ -7363,7 +7615,7 @@
           }
         ]
       },
-      "whatThisTests": "LPTA is pass/fail technical, then lowest price wins among acceptable offers.",
+      "whatThisTests": "LPTA is pass/fail technical, then lowest price wins among acceptable offers. RFO transition framing applied with legacy FAR continuity.",
       "decisionSteps": [
         "Define technical acceptability criteria clearly.",
         "Evaluate acceptability on pass/fail basis.",
@@ -7382,7 +7634,12 @@
       ],
       "fieldTip": "Teach: LPTA is only appropriate when minimum requirements are clear and ‘better’ adds little value."
     },
-    "explanation": "FAR References:\n- Best Value — FAR 15.101-2 (https://www.acquisition.gov/far/part-15)\n- FAR 15.101-2 — Lowest price technically acceptable process (https://www.acquisition.gov/far/15.101-2)\n\nWhat this tests: LPTA is pass/fail technical, then lowest price wins among acceptable offers.\n\nHow to decide:\n1) Define technical acceptability criteria clearly.\n2) Evaluate acceptability on pass/fail basis.\n3) Award to lowest-priced technically acceptable offer.\n\nWhy the correct answer works: LPTA awards to the lowest-priced offer that meets the technical acceptability requirements—no tradeoffs for ‘better’ technical.\n\nWhy other options fail:\nB: That’s tradeoff thinking, not LPTA.\nD: Cost realism is mainly for cost-type; LPTA is a best-value source selection method.\n\nField tip: Teach: LPTA is only appropriate when minimum requirements are clear and ‘better’ adds little value."
+    "explanation": "FAR/RFO References:\n- RFO transition reference (Best Value) — FAR 15.101-2 (https://www.acquisition.gov/far/part-15)\n- FAR 15.101-2 — Lowest price technically acceptable process (https://www.acquisition.gov/far/15.101-2)\n\nWhat this tests: LPTA is pass/fail technical, then lowest price wins among acceptable offers. RFO transition framing applied with legacy FAR continuity.\n\nHow to decide:\n1) Define technical acceptability criteria clearly.\n2) Evaluate acceptability on pass/fail basis.\n3) Award to lowest-priced technically acceptable offer.\n\nWhy the correct answer works: LPTA awards to the lowest-priced offer that meets the technical acceptability requirements—no tradeoffs for ‘better’ technical.\n\nWhy other options fail:\nB: That’s tradeoff thinking, not LPTA.\nD: Cost realism is mainly for cost-type; LPTA is a best-value source selection method.\n\nField tip: Teach: LPTA is only appropriate when minimum requirements are clear and ‘better’ adds little value.\n\nRFO Transition Note: This item remains tied to the same core contracting competency. Use RFO transition reference (Best Value) terminology while retaining legacy FAR phrasing during the transition. The scenario logic was sharpened for process application (not memorization) per CON 3990V prep emphasis.",
+    "rfoTags": [
+      "Plan Solicitation",
+      "Request Offers"
+    ],
+    "lifecyclePhase": "Award"
   },
   {
     "id": "con3910-162",
@@ -7398,7 +7655,7 @@
     "explanationRich": {
       "farRefs": {
         "part": {
-          "cite": "CO Authority Concept",
+          "cite": "RFO transition reference (CO Authority Concept)",
           "title": "FAR 1.602",
           "url": "https://www.acquisition.gov/far/part-1"
         },
@@ -7410,7 +7667,7 @@
           }
         ]
       },
-      "whatThisTests": "Only warranted CO can bind; specialists support and prepare.",
+      "whatThisTests": "Only warranted CO can bind; specialists support and prepare. RFO transition framing applied with legacy FAR continuity.",
       "decisionSteps": [
         "Know who can obligate/bind (CO).",
         "Use specialists to build the file: market research, price analysis, docs.",
@@ -7429,7 +7686,12 @@
       ],
       "fieldTip": "In the app, include a ‘Who can do what?’ role matrix to prevent unauthorized commitments."
     },
-    "explanation": "FAR References:\n- CO Authority Concept — FAR 1.602 (https://www.acquisition.gov/far/part-1)\n- FAR 1.602-1 — Authority (https://www.acquisition.gov/far/1.602-1)\n\nWhat this tests: Only warranted CO can bind; specialists support and prepare.\n\nHow to decide:\n1) Know who can obligate/bind (CO).\n2) Use specialists to build the file: market research, price analysis, docs.\n3) Ensure communications with contractors avoid unauthorized direction.\n\nWhy the correct answer works: Contract specialists support the CO with acquisition planning, documentation, and analysis; binding authority remains with warranted COs.\n\nWhy other options fail:\nA: Without a warrant, you cannot bind the Government.\nD: Directing contractor work is typically the COR/technical team role within their authority—and must not change scope.\n\nField tip: In the app, include a ‘Who can do what?’ role matrix to prevent unauthorized commitments."
+    "explanation": "FAR/RFO References:\n- RFO transition reference (CO Authority Concept) — FAR 1.602 (https://www.acquisition.gov/far/part-1)\n- FAR 1.602-1 — Authority (https://www.acquisition.gov/far/1.602-1)\n\nWhat this tests: Only warranted CO can bind; specialists support and prepare. RFO transition framing applied with legacy FAR continuity.\n\nHow to decide:\n1) Know who can obligate/bind (CO).\n2) Use specialists to build the file: market research, price analysis, docs.\n3) Ensure communications with contractors avoid unauthorized direction.\n\nWhy the correct answer works: Contract specialists support the CO with acquisition planning, documentation, and analysis; binding authority remains with warranted COs.\n\nWhy other options fail:\nA: Without a warrant, you cannot bind the Government.\nD: Directing contractor work is typically the COR/technical team role within their authority—and must not change scope.\n\nField tip: In the app, include a ‘Who can do what?’ role matrix to prevent unauthorized commitments.\n\nRFO Transition Note: This item remains tied to the same core contracting competency. Use RFO transition reference (CO Authority Concept) terminology while retaining legacy FAR phrasing during the transition.",
+    "rfoTags": [
+      "Skills and Roles",
+      "Standards of Conduct"
+    ],
+    "lifecyclePhase": "Post-Award"
   },
   {
     "id": "con3910-163",
