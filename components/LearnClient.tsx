@@ -2,7 +2,7 @@
 
 import { AnimatePresence, motion, useReducedMotion } from 'framer-motion';
 import { useCallback, useEffect, useMemo, useState } from 'react';
-import { getBatchMetrics, restartLearnEngine, submitLearnAnswer, type LearnEngineState } from '@/lib/learnEngine';
+import { getBatchMetrics, initializeLearnEngine, restartLearnEngine, submitLearnAnswer, type LearnEngineState } from '@/lib/learnEngine';
 import { getModuleById } from '@/lib/modules';
 import { clearLearnSession, restoreOrInitializeLearnEngine, saveLearnSession } from '@/lib/learnPersistence';
 import { loadQuestions } from '@/lib/questions';
@@ -11,6 +11,7 @@ import { applySrsResult } from '@/lib/srsEngine';
 import type { Question } from '@/lib/types';
 import { computeDatasetVersion } from '@/lib/datasetVersion';
 import { LearnProgress } from './LearnProgress';
+import { LearnCompleteCard } from './LearnCompleteCard';
 import { ScenarioBlock } from './ScenarioBlock';
 
 type Mode = 'LOADING' | 'IN_BATCH' | 'FEEDBACK' | 'SESSION_COMPLETE';
@@ -18,6 +19,15 @@ type OptionVisualState = 'default' | 'selectedCorrect' | 'selectedWrong' | 'reve
 
 const BATCH_SIZE = 10;
 const MASTERY_TARGET = 2;
+
+const shuffle = <T,>(arr: T[]): T[] => {
+  const copy = [...arr];
+  for (let i = copy.length - 1; i > 0; i -= 1) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [copy[i], copy[j]] = [copy[j], copy[i]];
+  }
+  return copy;
+};
 
 export default function LearnClient() {
   const [mode, setMode] = useState<Mode>('LOADING');
@@ -44,7 +54,7 @@ export default function LearnClient() {
       const moduleInfo = moduleId ? getModuleById(moduleId, data) : null;
       const scoped = moduleInfo ? data.filter((question) => moduleInfo.questionIds.includes(question.id)) : data;
       const version = computeDatasetVersion(scoped);
-      const ids = scoped.map((q) => q.id);
+      const ids = shuffle(scoped.map((q) => q.id));
       const restored = restoreOrInitializeLearnEngine({
         allIds: ids,
         batchSize: BATCH_SIZE,
@@ -167,6 +177,19 @@ export default function LearnClient() {
     setMode('IN_BATCH');
   }, [engine]);
 
+  const startNewShuffledSession = useCallback(() => {
+    if (!engine) return;
+    const shuffled = shuffle(engine.allIds);
+    clearLearnSession();
+    setEngine(initializeLearnEngine(shuffled, BATCH_SIZE, MASTERY_TARGET));
+    setSelectedIndex(null);
+    setIsCorrect(null);
+    setIsSubmitted(false);
+    setTransitionMessage(null);
+    setResumeNotice('Started a new shuffled Learn session.');
+    setMode('IN_BATCH');
+  }, [engine]);
+
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => {
       if (mode === 'IN_BATCH' && ['1', '2', '3', '4'].includes(e.key)) onAnswer(Number(e.key) - 1);
@@ -177,7 +200,30 @@ export default function LearnClient() {
     return () => window.removeEventListener('keydown', onKey);
   }, [mode, onAnswer, next]);
 
-  if (mode === 'LOADING' || !engine || !presented || !displayedMetrics) return <div>Loading...</div>;
+  if (mode === 'LOADING' || !engine || !displayedMetrics) return <div>Loading...</div>;
+
+  if (mode === 'SESSION_COMPLETE') {
+    return (
+      <div>
+        {resumeNotice && <div className="mb-3 rounded border border-sky-500/50 bg-sky-950/30 p-2 text-sm text-sky-200">{resumeNotice}</div>}
+        <LearnCompleteCard
+          title="You finished this Learn set"
+          subtitle="Great work—this Learn session is complete."
+          totalQuestions={engine.allIds.length}
+          totalBatches={Math.max(1, Math.ceil(engine.allIds.length / engine.batchSize))}
+          masteredCount={engine.allIds.filter((id) => engine.statsById[id]?.mastered).length}
+          correctCount={Object.values(engine.statsById).filter((s) => s.lastResult === 'correct').length}
+          incorrectCount={Object.values(engine.statsById).filter((s) => s.lastResult === 'wrong').length}
+          missedCount={Object.values(engine.statsById).filter((s) => s.incorrectCount > 0).length}
+          onRestart={resetProgress}
+          onStartShuffled={startNewShuffledSession}
+          onReviewMissed={() => { window.location.href = '/review'; }}
+        />
+      </div>
+    );
+  }
+
+  if (!presented) return <div>Loading...</div>;
 
   const explanation = presented.question.explanationRich;
 
@@ -326,13 +372,6 @@ export default function LearnClient() {
         )}
       </AnimatePresence>
 
-      {mode === 'SESSION_COMPLETE' && (
-        <div className="card mt-4 space-y-2">
-          <h3 className="text-lg font-semibold">Session complete</h3>
-          <p>You mastered all available batches in this run.</p>
-          <button className="btn" onClick={resetProgress}>Reset Progress</button>
-        </div>
-      )}
     </div>
   );
 }

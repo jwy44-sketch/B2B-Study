@@ -85,13 +85,33 @@ export const restoreOrInitializeScenarioLearn = (params: {
     return { engine: freshEngine, choiceOrderByQuestionId: params.choiceOrderByQuestionId, resetReason: 'corrupt' };
   }
 
-  return {
-    engine: {
+  const expectedIds = new Set(params.allIds);
+  const savedIds = saved.engine.allIds ?? [];
+  const sameMembership = savedIds.length === params.allIds.length && savedIds.every((id) => expectedIds.has(id));
+  if (!sameMembership) {
+    clearScenarioLearnSession();
+    return { engine: freshEngine, choiceOrderByQuestionId: params.choiceOrderByQuestionId, resetReason: 'version_mismatch' };
+  }
+
+  const normalizedEngine: LearnEngineState = saved.engine.sessionComplete
+    ? {
       ...saved.engine,
-      allIds: params.allIds,
+      allIds: savedIds,
+      batchSize: params.batchSize,
+      masteryTarget: params.masteryTarget,
+      currentQuestionId: null,
+      queue: [],
+      reviewingMissed: false
+    }
+    : {
+      ...saved.engine,
+      allIds: savedIds,
       batchSize: params.batchSize,
       masteryTarget: params.masteryTarget
-    },
+    };
+
+  return {
+    engine: normalizedEngine,
     choiceOrderByQuestionId: saved.choiceOrderByQuestionId
   };
 };

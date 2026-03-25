@@ -7,6 +7,7 @@ export type PersistedLearnSession = {
   version: number;
   datasetVersion: string;
   savedAt: string;
+  completedAt?: string;
   engine: LearnEngineState;
 };
 
@@ -36,9 +37,26 @@ const isValidEngineShape = (engine: LearnEngineState | null | undefined): engine
 };
 
 const normalizeQueue = (engine: LearnEngineState): LearnEngineState => {
-  if (engine.sessionComplete) return engine;
+  if (engine.sessionComplete) {
+    return {
+      ...engine,
+      queue: [],
+      currentQuestionId: null,
+      reviewingMissed: false
+    };
+  }
 
   const unmastered = engine.batchIds.filter((id) => !engine.statsById[id]?.mastered);
+  if (!unmastered.length && engine.batchStartIndex + engine.batchSize >= engine.allIds.length) {
+    return {
+      ...engine,
+      queue: [],
+      currentQuestionId: null,
+      sessionComplete: true,
+      reviewingMissed: false,
+      completed: true
+    };
+  }
   const queueFromSaved = engine.queue.filter((id) => unmastered.includes(id));
   const queue = queueFromSaved.length ? queueFromSaved : [...unmastered];
   const currentQuestionId = queue.includes(engine.currentQuestionId ?? '') ? engine.currentQuestionId : (queue[0] ?? null);
@@ -69,6 +87,7 @@ export const saveLearnSession = (input: { datasetVersion: string; engine: LearnE
     version: PERSISTENCE_VERSION,
     datasetVersion: input.datasetVersion,
     savedAt: new Date().toISOString(),
+    completedAt: input.engine.sessionComplete ? new Date().toISOString() : undefined,
     engine: input.engine
   };
 
@@ -99,14 +118,22 @@ export const restoreOrInitializeLearnEngine = (params: {
     return { engine: fresh, resetReason: 'corrupt' };
   }
 
+  const expectedIds = new Set(params.allIds);
+  const savedIds = saved.engine.allIds ?? [];
+  const sameMembership = savedIds.length === params.allIds.length && savedIds.every((id) => expectedIds.has(id));
+  if (!sameMembership) {
+    clearLearnSession();
+    return { engine: fresh, resetReason: 'version_mismatch' };
+  }
+
   const restored: LearnEngineState = {
     ...saved.engine,
-    allIds: params.allIds,
+    allIds: savedIds,
     batchSize: params.batchSize,
     masteryTarget: params.masteryTarget
   };
 
-  const knownIdSet = new Set(params.allIds);
+  const knownIdSet = new Set(savedIds);
   if (restored.currentQuestionId && !knownIdSet.has(restored.currentQuestionId)) {
     clearLearnSession();
     return { engine: fresh, resetReason: 'version_mismatch' };

@@ -1,9 +1,10 @@
 'use client';
 
 import { useEffect, useMemo, useState } from 'react';
-import { getBatchMetrics, restartLearnEngine, submitLearnAnswer, type LearnEngineState } from '@/lib/learnEngine';
+import { getBatchMetrics, initializeLearnEngine, restartLearnEngine, submitLearnAnswer, type LearnEngineState } from '@/lib/learnEngine';
 import { scenarioQuestions } from '@/lib/scenarioQuestions';
 import { clearScenarioLearnSession, restoreOrInitializeScenarioLearn, saveScenarioLearnSession } from '@/lib/scenarioLearnPersistence';
+import { LearnCompleteCard } from './LearnCompleteCard';
 
 type Mode = 'LOADING' | 'QUESTION' | 'FEEDBACK' | 'COMPLETE';
 
@@ -110,18 +111,48 @@ export default function ScenarioLearnClient() {
     setResumeNotice('Scenario Learn restarted from Batch 1.');
   };
 
+  const startNewShuffledSession = () => {
+    if (!engine) return;
+    clearScenarioLearnSession();
+    const shuffledIds = shuffle(scenarioQuestions.map((q) => q.id));
+    const newChoiceOrder = Object.fromEntries(
+      scenarioQuestions.map((question) => [question.id, shuffle(question.choices.map((choice) => choice.id))])
+    );
+    setChoiceOrderByQuestionId(newChoiceOrder);
+    setEngine(initializeLearnEngine(shuffledIds, BATCH_SIZE, MASTERY_TARGET));
+    setSelectedChoiceId(null);
+    setWasCorrect(null);
+    setMode('QUESTION');
+    setResumeNotice('Started a new shuffled Scenario Learn session.');
+  };
+
   if (!engine || !metrics || mode === 'LOADING') return <div>Loading Scenario Learn…</div>;
 
   if (mode === 'COMPLETE') {
+    const missedCount = engine.allIds.filter((id) => (engine.statsById[id]?.incorrectCount ?? 0) > 0).length;
     return (
       <div className="space-y-3">
-        <h1 className="text-2xl font-bold">Scenario Learn</h1>
-        <p className="text-slate-300">Batch-based scenario learning for CON 3990V.</p>
-        <div className="card space-y-2">
-          <p className="text-lg font-semibold">All scenario batches mastered</p>
-          <p className="text-sm text-slate-300">Mastered {overallMastered}/{engine.allIds.length}</p>
-          <button className="btn" onClick={restart}>Restart Scenario Learn</button>
-        </div>
+        <LearnCompleteCard
+          title="You finished Scenario Learn"
+          subtitle="All scenario batches are complete."
+          totalQuestions={engine.allIds.length}
+          totalBatches={Math.max(1, Math.ceil(engine.allIds.length / engine.batchSize))}
+          masteredCount={overallMastered}
+          correctCount={Object.values(engine.statsById).filter((s) => s.lastResult === 'correct').length}
+          incorrectCount={Object.values(engine.statsById).filter((s) => s.lastResult === 'wrong').length}
+          missedCount={missedCount}
+          onRestart={restart}
+          onStartShuffled={startNewShuffledSession}
+          onReviewMissed={missedCount > 0 ? () => {
+            const missedIds = engine.allIds.filter((id) => (engine.statsById[id]?.incorrectCount ?? 0) > 0);
+            if (!missedIds.length) return;
+            setEngine(initializeLearnEngine(missedIds, BATCH_SIZE, MASTERY_TARGET));
+            setSelectedChoiceId(null);
+            setWasCorrect(null);
+            setMode('QUESTION');
+            setResumeNotice('Reviewing missed scenario questions only.');
+          } : undefined}
+        />
       </div>
     );
   }
