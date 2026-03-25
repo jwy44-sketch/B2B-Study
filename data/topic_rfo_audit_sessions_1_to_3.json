@@ -1,0 +1,207 @@
+[
+  {
+    "topic": "FAR / RFO Framework",
+    "source_file": "lib/rfoTopicGuidance.ts",
+    "action": "keep_with_transition_note",
+    "summary_of_change": "Kept FAR-first teaching and added transition framing for model deviations and implementation checks.",
+    "old_citations": [
+      "https://www.acquisition.gov/far/part-1"
+    ],
+    "new_citations": [
+      "https://www.acquisition.gov/far-overhaul/faqs",
+      "https://www.acquisition.gov/far-overhaul/far-part-deviation-guide/far-overhaul-part-1"
+    ],
+    "session_relevance": [
+      "Session 1"
+    ],
+    "notes": "Foundational competency preserved."
+  },
+  {
+    "topic": "Acquisition Planning / Lifecycle Framing",
+    "source_file": "lib/rfoTopicGuidance.ts",
+    "action": "expand",
+    "summary_of_change": "Expanded planning narrative to stress pre-award choices driving post-award outcomes.",
+    "old_citations": [
+      "https://www.acquisition.gov/far/part-7"
+    ],
+    "new_citations": [
+      "https://www.acquisition.gov/far-overhaul/far-part-deviation-guide/far-overhaul-part-7"
+    ],
+    "session_relevance": [
+      "Session 2"
+    ],
+    "notes": "Added scenario-oriented planning tip."
+  },
+  {
+    "topic": "Market Research",
+    "source_file": "lib/rfoTopicGuidance.ts",
+    "action": "revise",
+    "summary_of_change": "Revised to include current Part 10 trigger/timing framing while preserving continuous-process logic.",
+    "old_citations": [
+      "https://www.acquisition.gov/far/part-10"
+    ],
+    "new_citations": [
+      "https://www.acquisition.gov/far-overhaul/far-part-deviation-guide/far-overhaul-part-10"
+    ],
+    "session_relevance": [
+      "Session 2"
+    ],
+    "notes": "Avoids overreaction to threshold updates."
+  },
+  {
+    "topic": "Request Offers / Exchanges",
+    "source_file": "lib/rfoTopicGuidance.ts",
+    "action": "keep_with_transition_note",
+    "summary_of_change": "Kept clarifications/communications/discussions distinctions and added Part 15 transition note.",
+    "old_citations": [
+      "https://www.acquisition.gov/far/part-15"
+    ],
+    "new_citations": [
+      "https://www.acquisition.gov/far-overhaul/far-part-deviation-guide/far-overhaul-part-15"
+    ],
+    "session_relevance": [
+      "Session 2",
+      "Session 3"
+    ],
+    "notes": "Award-phase terminology pressure addressed without rewriting core logic."
+  },
+  {
+    "topic": "Small Business / Part 19",
+    "source_file": "lib/rfoTopicGuidance.ts",
+    "action": "keep_with_transition_note",
+    "summary_of_change": "Kept broad small-business principles and added SAM.gov subcontracting-reporting transition note.",
+    "old_citations": [
+      "https://www.acquisition.gov/far/part-19"
+    ],
+    "new_citations": [
+      "https://www.acquisition.gov/content/far-updates-align-esrs-decommissioning",
+      "https://www.acquisition.gov/far-overhaul/far-part-deviation-guide/far-overhaul-part-19"
+    ],
+    "session_relevance": [
+      "Session 2"
+    ],
+    "notes": "Only reporting-system context updated."
+  },
+  {
+    "topic": "Thresholds Transition",
+    "source_file": "lib/rfoTopicGuidance.ts",
+    "action": "keep_with_transition_note",
+    "summary_of_change": "Added concise threshold-change caution note; preserved core decision logic teaching.",
+    "old_citations": [
+      "https://www.acquisition.gov/far/2.101"
+    ],
+    "new_citations": [
+      "https://www.acquisition.gov/threshold-changes",
+      "https://www.acquisition.gov/far/part-52"
+    ],
+    "session_relevance": [
+      "Session 1",
+      "Session 2",
+      "Session 3"
+    ],
+    "notes": "No mass threshold rewrites."
+  },
+  {
+    "topic": "Cost or Price Analysis",
+    "source_file": "lib/rfoTopicGuidance.ts",
+    "action": "expand",
+    "summary_of_change": "Expanded to explicitly separate price analysis, cost analysis, and cost realism in award-phase context.",
+    "old_citations": [
+      "https://www.acquisition.gov/far/part-15"
+    ],
+    "new_citations": [
+      "https://www.acquisition.gov/far-overhaul/far-part-deviation-guide/far-overhaul-part-15",
+      "https://www.acquisition.gov/far/part-15"
+    ],
+    "session_relevance": [
+      "Session 3"
+    ],
+    "notes": "Directly aligned to Session 3 exam emphasis."
+  },
+  {
+    "topic": "Negotiation Position / PNM vs SSDD",
+    "source_file": "lib/rfoTopicGuidance.ts",
+    "action": "expand",
+    "summary_of_change": "Expanded distinction between competitive source-selection documentation and noncompetitive negotiation documentation.",
+    "old_citations": [
+      "https://www.acquisition.gov/far/part-15"
+    ],
+    "new_citations": [
+      "https://www.acquisition.gov/far/part-15"
+    ],
+    "session_relevance": [
+      "Session 3"
+    ],
+    "notes": "Clarifies PNM vs SSDD confusion patterns."
+  },
+  {
+    "topic": "Source Selection Methods",
+    "source_file": "lib/rfoTopicGuidance.ts",
+    "action": "keep_with_transition_note",
+    "summary_of_change": "Kept LPTA/tradeoff/HTRFRP/phased fundamentals and added transition framing note.",
+    "old_citations": [
+      "https://www.acquisition.gov/far/part-15"
+    ],
+    "new_citations": [
+      "https://www.acquisition.gov/far-overhaul/far-part-deviation-guide/far-overhaul-part-15",
+      "https://www.acquisition.gov/far/part-15"
+    ],
+    "session_relevance": [
+      "Session 3"
+    ],
+    "notes": "No answer-logic replacement required."
+  },
+  {
+    "topic": "Protests / Claims / ADR",
+    "source_file": "lib/rfoTopicGuidance.ts",
+    "action": "keep_with_transition_note",
+    "summary_of_change": "Kept procedural distinctions and added transition note emphasizing continuity of forum-specific process control.",
+    "old_citations": [
+      "https://www.acquisition.gov/far/part-33"
+    ],
+    "new_citations": [
+      "https://www.acquisition.gov/far/part-33"
+    ],
+    "session_relevance": [
+      "Session 3"
+    ],
+    "notes": "Supports Manage Disagreements competency area."
+  },
+  {
+    "topic": "Negotiation vs Source Selection",
+    "source_file": "lib/explanations.ts",
+    "action": "keep",
+    "summary_of_change": "Existing explanations already maintain separation between negotiation and source-selection logic.",
+    "old_citations": [
+      "https://www.acquisition.gov/far/15.101-1",
+      "https://www.acquisition.gov/far/15.308"
+    ],
+    "new_citations": [
+      "https://www.acquisition.gov/far/15.101-1",
+      "https://www.acquisition.gov/far/15.308"
+    ],
+    "session_relevance": [
+      "Session 3"
+    ],
+    "notes": "Intentionally preserved."
+  },
+  {
+    "topic": "Forms / UCF / Modifications",
+    "source_file": "lib/scenarioQuestionsPart2.ts",
+    "action": "keep",
+    "summary_of_change": "Content retained; still accurate and useful for continuity.",
+    "old_citations": [
+      "https://www.acquisition.gov/far/part-4",
+      "https://www.acquisition.gov/far/part-43"
+    ],
+    "new_citations": [
+      "https://www.acquisition.gov/far/part-4",
+      "https://www.acquisition.gov/far/part-43"
+    ],
+    "session_relevance": [
+      "Session 1",
+      "Session 2"
+    ],
+    "notes": "No RFO-specific correction needed."
+  }
+]

@@ -8,6 +8,8 @@ export type RfoCitation = {
 export type TopicGuidance = {
   key: string;
   title: string;
+  sessionSource: 'Session 1' | 'Session 2' | 'Session 3';
+  topicArea: string;
   appliesToParts: number[];
   rfoStatus: RfoStatus;
   action: 'keep' | 'keep_with_transition_note' | 'revise' | 'expand';
@@ -23,6 +25,8 @@ export const TOPIC_GUIDANCE: TopicGuidance[] = [
   {
     key: 'far-rfo-framework',
     title: 'FAR / RFO Framework',
+    sessionSource: 'Session 1',
+    topicArea: 'Contract Principles',
     appliesToParts: [1],
     rfoStatus: 'transition-note',
     action: 'keep_with_transition_note',
@@ -40,6 +44,8 @@ export const TOPIC_GUIDANCE: TopicGuidance[] = [
   {
     key: 'acquisition-planning',
     title: 'Acquisition Planning / Lifecycle Framing',
+    sessionSource: 'Session 2',
+    topicArea: 'Plan Solicitation',
     appliesToParts: [7],
     rfoStatus: 'expanded',
     action: 'expand',
@@ -55,6 +61,8 @@ export const TOPIC_GUIDANCE: TopicGuidance[] = [
   {
     key: 'market-research',
     title: 'Market Research',
+    sessionSource: 'Session 2',
+    topicArea: 'Plan Solicitation',
     appliesToParts: [10],
     rfoStatus: 'revised',
     action: 'revise',
@@ -70,6 +78,8 @@ export const TOPIC_GUIDANCE: TopicGuidance[] = [
   {
     key: 'request-offers-exchanges',
     title: 'Request Offers / Exchanges',
+    sessionSource: 'Session 3',
+    topicArea: 'Select Source',
     appliesToParts: [15],
     rfoStatus: 'transition-note',
     action: 'keep_with_transition_note',
@@ -85,6 +95,8 @@ export const TOPIC_GUIDANCE: TopicGuidance[] = [
   {
     key: 'small-business-part-19',
     title: 'Small Business / Part 19',
+    sessionSource: 'Session 2',
+    topicArea: 'Request Offers',
     appliesToParts: [19],
     rfoStatus: 'transition-note',
     action: 'keep_with_transition_note',
@@ -101,6 +113,8 @@ export const TOPIC_GUIDANCE: TopicGuidance[] = [
   {
     key: 'thresholds-transition',
     title: 'Thresholds Transition',
+    sessionSource: 'Session 1',
+    topicArea: 'Contract Principles',
     appliesToParts: [1, 5, 10, 22, 25, 52],
     rfoStatus: 'transition-note',
     action: 'keep_with_transition_note',
@@ -112,6 +126,76 @@ export const TOPIC_GUIDANCE: TopicGuidance[] = [
     citations: [
       { label: 'Threshold Changes (Oct 1, 2025)', url: 'https://www.acquisition.gov/threshold-changes' },
       { label: 'FAR 52 page showing FAC 2026-01 effective date', url: 'https://www.acquisition.gov/far/52.203-1' }
+    ]
+  },
+  {
+    key: 'cost-price-analysis',
+    title: 'Cost or Price Analysis',
+    sessionSource: 'Session 3',
+    topicArea: 'Cost or Price Analysis',
+    appliesToParts: [15],
+    rfoStatus: 'expanded',
+    action: 'expand',
+    coreExplanation: 'Differentiate price analysis, cost analysis, and cost realism based on acquisition context and data availability.',
+    whyItMatters: 'Award-phase decisions are frequently missed when teams confuse analysis method with contract type or source-selection approach.',
+    rfoTransitionNote: 'Current transition framing under Part 15 keeps the same core analysis competency while streamlining wording.',
+    commonTrap: 'Applying cost realism as a blanket step for every fixed-price competitive action.',
+    scenarioTip: 'State which analysis method is required first, then defend it with the facts in the scenario.',
+    citations: [
+      { label: 'FAR Overhaul Part 15', url: 'https://www.acquisition.gov/far-overhaul/far-part-deviation-guide/far-overhaul-part-15' },
+      { label: 'FAR Part 15', url: 'https://www.acquisition.gov/far/part-15' }
+    ]
+  },
+  {
+    key: 'negotiation-position-documentation',
+    title: 'Negotiation Position / PNM vs SSDD',
+    sessionSource: 'Session 3',
+    topicArea: 'Plan Negotiation',
+    appliesToParts: [15],
+    rfoStatus: 'expanded',
+    action: 'expand',
+    coreExplanation: 'Use negotiation-position development and PNM logic for negotiated pricing actions, and SSDD logic for competitive source selection decisions.',
+    whyItMatters: 'Learners often mix competitive source-selection documentation with one-offeror/noncompetitive negotiation records.',
+    rfoTransitionNote: 'Transition wording may shift, but the distinction between competitive decision documentation and negotiation memorandum discipline remains essential.',
+    commonTrap: 'Using SSDD terminology to justify a sole-source pricing negotiation record.',
+    scenarioTip: 'Ask first: “Competitive source selection or negotiation with one offeror?” before selecting documentation path.',
+    citations: [
+      { label: 'FAR Part 15', url: 'https://www.acquisition.gov/far/part-15' }
+    ]
+  },
+  {
+    key: 'source-selection-methods',
+    title: 'Source Selection Methods (LPTA / Tradeoff / Highest Technically Rated Fair & Reasonable Price / Phased)',
+    sessionSource: 'Session 3',
+    topicArea: 'Select Source',
+    appliesToParts: [15],
+    rfoStatus: 'transition-note',
+    action: 'keep_with_transition_note',
+    coreExplanation: 'Method selection must align with acquisition objectives, evaluation factors, and defensible best-value reasoning.',
+    whyItMatters: 'Session 3 outcome performance depends on selecting and documenting the correct method and resulting authority roles.',
+    rfoTransitionNote: 'Current transition materials preserve source-selection fundamentals while using updated plain-language framing.',
+    commonTrap: 'Treating tradeoff as universally better than LPTA regardless of requirement risk and discriminator value.',
+    scenarioTip: 'Tie selected method to requirement risk and measurable value discriminators.',
+    citations: [
+      { label: 'FAR Part 15', url: 'https://www.acquisition.gov/far/part-15' },
+      { label: 'FAR Overhaul Part 15', url: 'https://www.acquisition.gov/far-overhaul/far-part-deviation-guide/far-overhaul-part-15' }
+    ]
+  },
+  {
+    key: 'protests-claims-adr',
+    title: 'Protests / Claims / ADR',
+    sessionSource: 'Session 3',
+    topicArea: 'Manage Disagreements',
+    appliesToParts: [33],
+    rfoStatus: 'transition-note',
+    action: 'keep_with_transition_note',
+    coreExplanation: 'Separate protest process rules from claims/disputes process rules and apply timeline/document controls accordingly.',
+    whyItMatters: 'Award-phase errors often come from mixing protest timelines with CDA claim handling.',
+    rfoTransitionNote: 'Transition updates do not remove the need for strict procedural distinctions and timely documentation.',
+    commonTrap: 'Treating every post-award monetary demand as a protest action.',
+    scenarioTip: 'Identify forum and trigger first (GAO/agency protest vs claim/dispute) before choosing response path.',
+    citations: [
+      { label: 'FAR Part 33', url: 'https://www.acquisition.gov/far/part-33' }
     ]
   }
 ];
