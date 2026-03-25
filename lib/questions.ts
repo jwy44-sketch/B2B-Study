@@ -1,4 +1,5 @@
 import rawQuestions from '@/data/con3910_quizlet.json';
+import rfoAudit from '@/data/rfo_question_bank_audit.json';
 import { inferFarRef } from './farReferences';
 import type { ExplanationRich, Question } from './types';
 import { guidanceForPart } from './rfoTopicGuidance';
@@ -12,6 +13,15 @@ type RawQuestion = {
   explanation?: string;
   explanationRich?: ExplanationRich;
 };
+
+type AuditRow = {
+  id: string;
+  action_taken: 'keep' | 'light_update' | 'revise' | 'replace';
+  updated_citation_text?: string;
+  topic_session_tag?: { session?: string; competency_tags?: string[] };
+};
+
+const auditById = new Map((rfoAudit as AuditRow[]).map((row) => [row.id, row]));
 
 function validateRawQuestions(items: RawQuestion[]): void {
   if (items.length !== 180) {
@@ -39,12 +49,24 @@ const toQuestion = (item: RawQuestion): Question => {
   const farRef = inferFarRef(item.question);
   const correct = item.choices[item.correctIndex];
   const topicGuidance = guidanceForPart(farRef.part);
+  const audit = auditById.get(item.id);
   const baseExplanationRich = item.explanationRich as ExplanationRich;
+  const actionStatus = audit?.action_taken === 'revise'
+    ? 'revised'
+    : audit?.action_taken === 'light_update'
+      ? 'transition-note'
+      : topicGuidance?.rfoStatus ?? baseExplanationRich.rfoStatus;
+  const transitionNote = audit && audit.action_taken !== 'keep'
+    ? `${audit.updated_citation_text ?? 'RFO transition guidance'}: core competency remains the same; wording/citation context has been modernized for current transition use.`
+    : topicGuidance?.rfoTransitionNote ?? baseExplanationRich.rfoTransitionNote;
+  const citationLabel = audit?.updated_citation_text;
   const explanationRich: ExplanationRich = {
     ...baseExplanationRich,
-    rfoStatus: topicGuidance?.rfoStatus ?? baseExplanationRich.rfoStatus,
-    rfoTransitionNote: topicGuidance?.rfoTransitionNote ?? baseExplanationRich.rfoTransitionNote,
-    rfoCitations: topicGuidance?.citations ?? baseExplanationRich.rfoCitations
+    rfoStatus: actionStatus,
+    rfoTransitionNote: transitionNote,
+    rfoCitations: citationLabel
+      ? [{ label: citationLabel, url: topicGuidance?.citations?.[0]?.url ?? `https://www.acquisition.gov/far/part-${farRef.part}` }]
+      : topicGuidance?.citations ?? baseExplanationRich.rfoCitations
   };
 
   return {
@@ -53,7 +75,7 @@ const toQuestion = (item: RawQuestion): Question => {
     choices: item.choices,
     correctIndex: item.correctIndex,
     topic: `FAR Part ${farRef.part}`,
-    session: 'General',
+    session: audit?.topic_session_tag?.session ?? 'General',
     farRefs: [item.explanationRich?.farRefs.part.cite ?? `FAR Part ${farRef.part}`],
     explanationText: item.explanation,
     explanationRich,
@@ -62,7 +84,7 @@ const toQuestion = (item: RawQuestion): Question => {
       keyTakeaway: item.explanationRich?.fieldTip ?? `Anchor this topic to FAR Part ${farRef.part}.`,
       commonTrap: item.explanationRich?.whyWrong?.[0]?.reason ?? 'Compare each option to the rule language before selecting.'
     },
-    tags: ['con3910', 'quizlet', `FAR-${farRef.part}`],
+    tags: ['con3910', 'quizlet', `FAR-${farRef.part}`, ...(audit?.topic_session_tag?.competency_tags ?? [])],
     source: item.source
   };
 };

@@ -1,0 +1,2815 @@
+[
+  {
+    "id": "con3910-001",
+    "original_stem": "Market research is conducted during which phase of acquisition?",
+    "action_taken": "keep",
+    "original_citation_text": "FAR Part 10",
+    "updated_citation_text": "FAR Part 10",
+    "topic_session_tag": {
+      "session": "Session 1",
+      "competency_tags": [
+        "Plan Sales",
+        "Plan Solicitation",
+        "Prepare Offer",
+        "Request Offers",
+        "Skills and Roles",
+        "Standards of Conduct"
+      ]
+    },
+    "summary_of_change": "No RFO-driven change required; competency and answer logic remain valid.",
+    "notes": "Intentionally retained as valid legacy-aligned content."
+  },
+  {
+    "id": "con3910-002",
+    "original_stem": "A procedure inconsistent with the FAR is called what?",
+    "action_taken": "keep",
+    "original_citation_text": "FAR Part 1",
+    "updated_citation_text": "FAR Part 1",
+    "topic_session_tag": {
+      "session": "Session 1",
+      "competency_tags": [
+        "Contract Principles"
+      ]
+    },
+    "summary_of_change": "No RFO-driven change required; competency and answer logic remain valid.",
+    "notes": "Intentionally retained as valid legacy-aligned content."
+  },
+  {
+    "id": "con3910-003",
+    "original_stem": "Simplified Acquisition Procedures (SAP) should:",
+    "action_taken": "keep",
+    "original_citation_text": "FAR Part 13",
+    "updated_citation_text": "FAR Part 13",
+    "topic_session_tag": {
+      "session": "Session 1",
+      "competency_tags": [
+        "Contract Principles"
+      ]
+    },
+    "summary_of_change": "No RFO-driven change required; competency and answer logic remain valid.",
+    "notes": "Intentionally retained as valid legacy-aligned content."
+  },
+  {
+    "id": "con3910-004",
+    "original_stem": "DoD uses which structured profit/fee tool?",
+    "action_taken": "keep",
+    "original_citation_text": "DFARS 215.404-71",
+    "updated_citation_text": "DFARS 215.404-71",
+    "topic_session_tag": {
+      "session": "Session 1",
+      "competency_tags": [
+        "Contract Principles"
+      ]
+    },
+    "summary_of_change": "No RFO-driven change required; competency and answer logic remain valid.",
+    "notes": "Intentionally retained as valid legacy-aligned content."
+  },
+  {
+    "id": "con3910-005",
+    "original_stem": "Commercial item supply acquisitions generally use which contract types?",
+    "action_taken": "keep",
+    "original_citation_text": "FAR Part 12",
+    "updated_citation_text": "FAR Part 12",
+    "topic_session_tag": {
+      "session": "Session 1",
+      "competency_tags": [
+        "Contract Principles"
+      ]
+    },
+    "summary_of_change": "No RFO-driven change required; competency and answer logic remain valid.",
+    "notes": "Intentionally retained as valid legacy-aligned content."
+  },
+  {
+    "id": "con3910-006",
+    "original_stem": "IFBs (sealed bidding) generally allow which contract types?",
+    "action_taken": "keep",
+    "original_citation_text": "FAR Part 14",
+    "updated_citation_text": "FAR Part 14",
+    "topic_session_tag": {
+      "session": "Session 1",
+      "competency_tags": [
+        "Contract Principles"
+      ]
+    },
+    "summary_of_change": "No RFO-driven change required; competency and answer logic remain valid.",
+    "notes": "Intentionally retained as valid legacy-aligned content."
+  },
+  {
+    "id": "con3910-007",
+    "original_stem": "The DFARS PGI is:",
+    "action_taken": "keep",
+    "original_citation_text": "DFARS PGI",
+    "updated_citation_text": "DFARS PGI",
+    "topic_session_tag": {
+      "session": "Session 1",
+      "competency_tags": [
+        "Contract Principles"
+      ]
+    },
+    "summary_of_change": "No RFO-driven change required; competency and answer logic remain valid.",
+    "notes": "Intentionally retained as valid legacy-aligned content."
+  },
+  {
+    "id": "con3910-008",
+    "original_stem": "Who can execute contract modifications?",
+    "action_taken": "keep",
+    "original_citation_text": "FAR Part 43",
+    "updated_citation_text": "FAR Part 43",
+    "topic_session_tag": {
+      "session": "Session 1",
+      "competency_tags": [
+        "Contract Principles"
+      ]
+    },
+    "summary_of_change": "No RFO-driven change required; competency and answer logic remain valid.",
+    "notes": "Intentionally retained as valid legacy-aligned content."
+  },
+  {
+    "id": "con3910-009",
+    "original_stem": "Unilateral modifications are:",
+    "action_taken": "keep",
+    "original_citation_text": "FAR Part 43",
+    "updated_citation_text": "FAR Part 43",
+    "topic_session_tag": {
+      "session": "Session 1",
+      "competency_tags": [
+        "Contract Principles"
+      ]
+    },
+    "summary_of_change": "No RFO-driven change required; competency and answer logic remain valid.",
+    "notes": "Intentionally retained as valid legacy-aligned content."
+  },
+  {
+    "id": "con3910-010",
+    "original_stem": "Except when otherwise authorized, a Government contract must be:",
+    "action_taken": "keep",
+    "original_citation_text": "FAR Part 2",
+    "updated_citation_text": "FAR Part 2",
+    "topic_session_tag": {
+      "session": "Session 1",
+      "competency_tags": [
+        "Contract Principles"
+      ]
+    },
+    "summary_of_change": "No RFO-driven change required; competency and answer logic remain valid.",
+    "notes": "Intentionally retained as valid legacy-aligned content."
+  },
+  {
+    "id": "con3910-011",
+    "original_stem": "Which is NOT a type of contracting officer?",
+    "action_taken": "keep",
+    "original_citation_text": "FAR Part 2",
+    "updated_citation_text": "FAR Part 2",
+    "topic_session_tag": {
+      "session": "Session 1",
+      "competency_tags": [
+        "Contract Principles"
+      ]
+    },
+    "summary_of_change": "No RFO-driven change required; competency and answer logic remain valid.",
+    "notes": "Intentionally retained as valid legacy-aligned content."
+  },
+  {
+    "id": "con3910-012",
+    "original_stem": "Prior to signing any contract, a contracting officer must:",
+    "action_taken": "keep",
+    "original_citation_text": "FAR Part 1",
+    "updated_citation_text": "FAR Part 1",
+    "topic_session_tag": {
+      "session": "Session 1",
+      "competency_tags": [
+        "Contract Principles"
+      ]
+    },
+    "summary_of_change": "No RFO-driven change required; competency and answer logic remain valid.",
+    "notes": "Intentionally retained as valid legacy-aligned content."
+  },
+  {
+    "id": "con3910-013",
+    "original_stem": "Selecting solicitation provisions indicates the contract:",
+    "action_taken": "keep",
+    "original_citation_text": "FAR Part 52",
+    "updated_citation_text": "FAR Part 52",
+    "topic_session_tag": {
+      "session": "Session 1",
+      "competency_tags": [
+        "Plan Sales",
+        "Plan Solicitation",
+        "Prepare Offer",
+        "Request Offers"
+      ]
+    },
+    "summary_of_change": "No RFO-driven change required; competency and answer logic remain valid.",
+    "notes": "Intentionally retained as valid legacy-aligned content."
+  },
+  {
+    "id": "con3910-014",
+    "original_stem": "Which statement about FAR clauses is correct?",
+    "action_taken": "keep",
+    "original_citation_text": "FAR Part 52",
+    "updated_citation_text": "FAR Part 52",
+    "topic_session_tag": {
+      "session": "Session 1",
+      "competency_tags": [
+        "Skills and Roles",
+        "Standards of Conduct"
+      ]
+    },
+    "summary_of_change": "No RFO-driven change required; competency and answer logic remain valid.",
+    "notes": "Intentionally retained as valid legacy-aligned content."
+  },
+  {
+    "id": "con3910-015",
+    "original_stem": "Late delivery on a commercial item contract would result in which termination type?",
+    "action_taken": "keep",
+    "original_citation_text": "FAR Part 12",
+    "updated_citation_text": "FAR Part 12",
+    "topic_session_tag": {
+      "session": "Session 1",
+      "competency_tags": [
+        "Contract Principles"
+      ]
+    },
+    "summary_of_change": "No RFO-driven change required; competency and answer logic remain valid.",
+    "notes": "Intentionally retained as valid legacy-aligned content."
+  },
+  {
+    "id": "con3910-016",
+    "original_stem": "Which FAR part contains basic policies and the FAR system overview?",
+    "action_taken": "keep",
+    "original_citation_text": "FAR Part 1",
+    "updated_citation_text": "FAR Part 1",
+    "topic_session_tag": {
+      "session": "Session 1",
+      "competency_tags": [
+        "Contract Principles"
+      ]
+    },
+    "summary_of_change": "No RFO-driven change required; competency and answer logic remain valid.",
+    "notes": "Intentionally retained as valid legacy-aligned content."
+  },
+  {
+    "id": "con3910-017",
+    "original_stem": "FAR 1.108(b) establishes what convention regarding delegations?",
+    "action_taken": "keep",
+    "original_citation_text": "FAR Part 1",
+    "updated_citation_text": "FAR Part 1",
+    "topic_session_tag": {
+      "session": "Session 1",
+      "competency_tags": [
+        "Contract Principles"
+      ]
+    },
+    "summary_of_change": "No RFO-driven change required; competency and answer logic remain valid.",
+    "notes": "Intentionally retained as valid legacy-aligned content."
+  },
+  {
+    "id": "con3910-018",
+    "original_stem": "How many FAR parts are there?",
+    "action_taken": "keep",
+    "original_citation_text": "FAR Structure",
+    "updated_citation_text": "FAR Structure",
+    "topic_session_tag": {
+      "session": "Session 1",
+      "competency_tags": [
+        "Contract Principles"
+      ]
+    },
+    "summary_of_change": "No RFO-driven change required; competency and answer logic remain valid.",
+    "notes": "Intentionally retained as valid legacy-aligned content."
+  },
+  {
+    "id": "con3910-019",
+    "original_stem": "What is a PIID?",
+    "action_taken": "keep",
+    "original_citation_text": "FAR Part 4",
+    "updated_citation_text": "FAR Part 4",
+    "topic_session_tag": {
+      "session": "Session 1",
+      "competency_tags": [
+        "Contract Principles"
+      ]
+    },
+    "summary_of_change": "No RFO-driven change required; competency and answer logic remain valid.",
+    "notes": "Intentionally retained as valid legacy-aligned content."
+  },
+  {
+    "id": "con3910-020",
+    "original_stem": "In the DoD PIID, position 9 with the letter 'D' represents what instrument type?",
+    "action_taken": "keep",
+    "original_citation_text": "FAR Part 4",
+    "updated_citation_text": "FAR Part 4",
+    "topic_session_tag": {
+      "session": "Session 1",
+      "competency_tags": [
+        "Contract Principles"
+      ]
+    },
+    "summary_of_change": "No RFO-driven change required; competency and answer logic remain valid.",
+    "notes": "Intentionally retained as valid legacy-aligned content."
+  },
+  {
+    "id": "con3910-021",
+    "original_stem": "In UCF, exhibits are displayed using what format?",
+    "action_taken": "keep",
+    "original_citation_text": "FAR Part 15",
+    "updated_citation_text": "FAR Part 15",
+    "topic_session_tag": {
+      "session": "Session 1",
+      "competency_tags": [
+        "Contract Principles"
+      ]
+    },
+    "summary_of_change": "No RFO-driven change required; competency and answer logic remain valid.",
+    "notes": "Intentionally retained as valid legacy-aligned content."
+  },
+  {
+    "id": "con3910-022",
+    "original_stem": "Market research is addressed in which FAR part?",
+    "action_taken": "keep",
+    "original_citation_text": "FAR Part 10",
+    "updated_citation_text": "FAR Part 10",
+    "topic_session_tag": {
+      "session": "Session 1",
+      "competency_tags": [
+        "Plan Sales",
+        "Plan Solicitation",
+        "Prepare Offer",
+        "Request Offers"
+      ]
+    },
+    "summary_of_change": "No RFO-driven change required; competency and answer logic remain valid.",
+    "notes": "Intentionally retained as valid legacy-aligned content."
+  },
+  {
+    "id": "con3910-023",
+    "original_stem": "Which contract type shall not be used?",
+    "action_taken": "keep",
+    "original_citation_text": "FAR Part 16",
+    "updated_citation_text": "FAR Part 16",
+    "topic_session_tag": {
+      "session": "Session 1",
+      "competency_tags": [
+        "Contract Principles"
+      ]
+    },
+    "summary_of_change": "No RFO-driven change required; competency and answer logic remain valid.",
+    "notes": "Intentionally retained as valid legacy-aligned content."
+  },
+  {
+    "id": "con3910-024",
+    "original_stem": "Time-and-materials contracts may be used when:",
+    "action_taken": "keep",
+    "original_citation_text": "FAR Part 16",
+    "updated_citation_text": "FAR Part 16",
+    "topic_session_tag": {
+      "session": "Session 1",
+      "competency_tags": [
+        "Contract Principles"
+      ]
+    },
+    "summary_of_change": "No RFO-driven change required; competency and answer logic remain valid.",
+    "notes": "Intentionally retained as valid legacy-aligned content."
+  },
+  {
+    "id": "con3910-025",
+    "original_stem": "The overarching principle when dealing with organizational conflicts of interest is to:",
+    "action_taken": "keep",
+    "original_citation_text": "FAR Part 9",
+    "updated_citation_text": "FAR Part 9",
+    "topic_session_tag": {
+      "session": "Session 1",
+      "competency_tags": [
+        "Contract Principles"
+      ]
+    },
+    "summary_of_change": "No RFO-driven change required; competency and answer logic remain valid.",
+    "notes": "Intentionally retained as valid legacy-aligned content."
+  },
+  {
+    "id": "con3910-026",
+    "original_stem": "Exchanges after receipt of proposals include which FAR terms?",
+    "action_taken": "keep",
+    "original_citation_text": "FAR Part 15",
+    "updated_citation_text": "FAR Part 15",
+    "topic_session_tag": {
+      "session": "Session 1",
+      "competency_tags": [
+        "Plan Solicitation",
+        "Request Offers"
+      ]
+    },
+    "summary_of_change": "No RFO-driven change required; competency and answer logic remain valid.",
+    "notes": "Intentionally retained as valid legacy-aligned content."
+  },
+  {
+    "id": "con3910-027",
+    "original_stem": "Regarding gifts from contractors, Government employees:",
+    "action_taken": "keep",
+    "original_citation_text": "FAR Part 3",
+    "updated_citation_text": "FAR Part 3",
+    "topic_session_tag": {
+      "session": "Session 1",
+      "competency_tags": [
+        "Contract Principles"
+      ]
+    },
+    "summary_of_change": "No RFO-driven change required; competency and answer logic remain valid.",
+    "notes": "Intentionally retained as valid legacy-aligned content."
+  },
+  {
+    "id": "con3910-028",
+    "original_stem": "Guidance on disclosure of proposal information is that it:",
+    "action_taken": "keep",
+    "original_citation_text": "FAR Part 3",
+    "updated_citation_text": "FAR Part 3",
+    "topic_session_tag": {
+      "session": "Session 1",
+      "competency_tags": [
+        "Plan Sales",
+        "Plan Solicitation",
+        "Prepare Offer",
+        "Request Offers"
+      ]
+    },
+    "summary_of_change": "No RFO-driven change required; competency and answer logic remain valid.",
+    "notes": "Intentionally retained as valid legacy-aligned content."
+  },
+  {
+    "id": "con3910-029",
+    "original_stem": "A contracting officer shall not knowingly award contracts to:",
+    "action_taken": "keep",
+    "original_citation_text": "FAR Part 3",
+    "updated_citation_text": "FAR Part 3",
+    "topic_session_tag": {
+      "session": "Session 1",
+      "competency_tags": [
+        "Contract Principles"
+      ]
+    },
+    "summary_of_change": "No RFO-driven change required; competency and answer logic remain valid.",
+    "notes": "Intentionally retained as valid legacy-aligned content."
+  },
+  {
+    "id": "con3910-030",
+    "original_stem": "Which is an example of an organizational conflict of interest (OCI)?",
+    "action_taken": "keep",
+    "original_citation_text": "FAR Part 9",
+    "updated_citation_text": "FAR Part 9",
+    "topic_session_tag": {
+      "session": "Session 1",
+      "competency_tags": [
+        "Contract Principles"
+      ]
+    },
+    "summary_of_change": "No RFO-driven change required; competency and answer logic remain valid.",
+    "notes": "Intentionally retained as valid legacy-aligned content."
+  },
+  {
+    "id": "con3910-031",
+    "original_stem": "The total cost of acquiring, operating, supporting, and disposing of a system is called:",
+    "action_taken": "keep",
+    "original_citation_text": "FAR Planning/Value",
+    "updated_citation_text": "FAR Planning/Value",
+    "topic_session_tag": {
+      "session": "Session 1",
+      "competency_tags": [
+        "Contract Principles"
+      ]
+    },
+    "summary_of_change": "No RFO-driven change required; competency and answer logic remain valid.",
+    "notes": "Intentionally retained as valid legacy-aligned content."
+  },
+  {
+    "id": "con3910-032",
+    "original_stem": "Market research policy reflects that it helps determine:",
+    "action_taken": "keep",
+    "original_citation_text": "FAR Part 10",
+    "updated_citation_text": "FAR Part 10",
+    "topic_session_tag": {
+      "session": "Session 1",
+      "competency_tags": [
+        "Plan Sales",
+        "Plan Solicitation",
+        "Prepare Offer",
+        "Request Offers"
+      ]
+    },
+    "summary_of_change": "No RFO-driven change required; competency and answer logic remain valid.",
+    "notes": "Intentionally retained as valid legacy-aligned content."
+  },
+  {
+    "id": "con3910-033",
+    "original_stem": "In UCF, negotiated special requirements not addressed elsewhere are located in:",
+    "action_taken": "keep",
+    "original_citation_text": "FAR Part 15",
+    "updated_citation_text": "FAR Part 15",
+    "topic_session_tag": {
+      "session": "Session 1",
+      "competency_tags": [
+        "Contract Principles"
+      ]
+    },
+    "summary_of_change": "No RFO-driven change required; competency and answer logic remain valid.",
+    "notes": "Intentionally retained as valid legacy-aligned content."
+  },
+  {
+    "id": "con3910-034",
+    "original_stem": "An individual designated in writing by the contracting officer to perform technical or administrative functions is a:",
+    "action_taken": "keep",
+    "original_citation_text": "FAR Part 1",
+    "updated_citation_text": "FAR Part 1",
+    "topic_session_tag": {
+      "session": "Session 1",
+      "competency_tags": [
+        "Contract Principles"
+      ]
+    },
+    "summary_of_change": "No RFO-driven change required; competency and answer logic remain valid.",
+    "notes": "Intentionally retained as valid legacy-aligned content."
+  },
+  {
+    "id": "con3910-035",
+    "original_stem": "The Acquisition Team includes:",
+    "action_taken": "keep",
+    "original_citation_text": "FAR Part 1",
+    "updated_citation_text": "FAR Part 1",
+    "topic_session_tag": {
+      "session": "Session 1",
+      "competency_tags": [
+        "Contract Principles"
+      ]
+    },
+    "summary_of_change": "No RFO-driven change required; competency and answer logic remain valid.",
+    "notes": "Intentionally retained as valid legacy-aligned content."
+  },
+  {
+    "id": "con3910-036",
+    "original_stem": "Which approach is NOT conducive to a cohesive acquisition team environment?",
+    "action_taken": "keep",
+    "original_citation_text": "FAR Part 1",
+    "updated_citation_text": "FAR Part 1",
+    "topic_session_tag": {
+      "session": "Session 1",
+      "competency_tags": [
+        "Contract Principles"
+      ]
+    },
+    "summary_of_change": "No RFO-driven change required; competency and answer logic remain valid.",
+    "notes": "Intentionally retained as valid legacy-aligned content."
+  },
+  {
+    "id": "con3910-037",
+    "original_stem": "A COR must be:",
+    "action_taken": "keep",
+    "original_citation_text": "FAR Part 1",
+    "updated_citation_text": "FAR Part 1",
+    "topic_session_tag": {
+      "session": "Session 1",
+      "competency_tags": [
+        "Skills and Roles",
+        "Standards of Conduct"
+      ]
+    },
+    "summary_of_change": "No RFO-driven change required; competency and answer logic remain valid.",
+    "notes": "Intentionally retained as valid legacy-aligned content."
+  },
+  {
+    "id": "con3910-038",
+    "original_stem": "After award, what event is used to clarify mutual understanding of contract requirements?",
+    "action_taken": "keep",
+    "original_citation_text": "FAR Part 42",
+    "updated_citation_text": "FAR Part 42",
+    "topic_session_tag": {
+      "session": "Session 1",
+      "competency_tags": [
+        "Contract Principles"
+      ]
+    },
+    "summary_of_change": "No RFO-driven change required; competency and answer logic remain valid.",
+    "notes": "Intentionally retained as valid legacy-aligned content."
+  },
+  {
+    "id": "con3910-039",
+    "original_stem": "Which FAR part covers contract files and administrative matters?",
+    "action_taken": "keep",
+    "original_citation_text": "FAR Part 4",
+    "updated_citation_text": "FAR Part 4",
+    "topic_session_tag": {
+      "session": "Session 1",
+      "competency_tags": [
+        "Contract Principles"
+      ]
+    },
+    "summary_of_change": "No RFO-driven change required; competency and answer logic remain valid.",
+    "notes": "Intentionally retained as valid legacy-aligned content."
+  },
+  {
+    "id": "con3910-040",
+    "original_stem": "In a Determination and Findings (D&F), the findings:",
+    "action_taken": "keep",
+    "original_citation_text": "FAR Part 1",
+    "updated_citation_text": "FAR Part 1",
+    "topic_session_tag": {
+      "session": "Session 1",
+      "competency_tags": [
+        "Contract Principles"
+      ]
+    },
+    "summary_of_change": "No RFO-driven change required; competency and answer logic remain valid.",
+    "notes": "Intentionally retained as valid legacy-aligned content."
+  },
+  {
+    "id": "con3910-041",
+    "original_stem": "Prenegotiation briefing slides should be:",
+    "action_taken": "keep",
+    "original_citation_text": "FAR Part 15",
+    "updated_citation_text": "FAR Part 15",
+    "topic_session_tag": {
+      "session": "Session 1",
+      "competency_tags": [
+        "Contract Principles"
+      ]
+    },
+    "summary_of_change": "No RFO-driven change required; competency and answer logic remain valid.",
+    "notes": "Intentionally retained as valid legacy-aligned content."
+  },
+  {
+    "id": "con3910-042",
+    "original_stem": "A term relating to budgets and appropriations is:",
+    "action_taken": "keep",
+    "original_citation_text": "Appropriations Concept",
+    "updated_citation_text": "Appropriations Concept",
+    "topic_session_tag": {
+      "session": "Session 1",
+      "competency_tags": [
+        "Contract Principles"
+      ]
+    },
+    "summary_of_change": "No RFO-driven change required; competency and answer logic remain valid.",
+    "notes": "Intentionally retained as valid legacy-aligned content."
+  },
+  {
+    "id": "con3910-043",
+    "original_stem": "Before executing a funded contract action, the CO must:",
+    "action_taken": "keep",
+    "original_citation_text": "FAR Part 32",
+    "updated_citation_text": "FAR Part 32",
+    "topic_session_tag": {
+      "session": "Session 1",
+      "competency_tags": [
+        "Contract Principles"
+      ]
+    },
+    "summary_of_change": "No RFO-driven change required; competency and answer logic remain valid.",
+    "notes": "Intentionally retained as valid legacy-aligned content."
+  },
+  {
+    "id": "con3910-044",
+    "original_stem": "The preferred acquisition method is:",
+    "action_taken": "keep",
+    "original_citation_text": "FAR Part 12",
+    "updated_citation_text": "FAR Part 12",
+    "topic_session_tag": {
+      "session": "Session 1",
+      "competency_tags": [
+        "Contract Principles"
+      ]
+    },
+    "summary_of_change": "No RFO-driven change required; competency and answer logic remain valid.",
+    "notes": "Intentionally retained as valid legacy-aligned content."
+  },
+  {
+    "id": "con3910-045",
+    "original_stem": "Government property should be provided to contractors only when:",
+    "action_taken": "keep",
+    "original_citation_text": "FAR Part 45",
+    "updated_citation_text": "FAR Part 45",
+    "topic_session_tag": {
+      "session": "Session 1",
+      "competency_tags": [
+        "Contract Principles"
+      ]
+    },
+    "summary_of_change": "No RFO-driven change required; competency and answer logic remain valid.",
+    "notes": "Intentionally retained as valid legacy-aligned content."
+  },
+  {
+    "id": "con3910-046",
+    "original_stem": "Acquisition planning begins:",
+    "action_taken": "keep",
+    "original_citation_text": "FAR Part 7",
+    "updated_citation_text": "FAR Part 7",
+    "topic_session_tag": {
+      "session": "Session 1",
+      "competency_tags": [
+        "Contract Principles"
+      ]
+    },
+    "summary_of_change": "No RFO-driven change required; competency and answer logic remain valid.",
+    "notes": "Intentionally retained as valid legacy-aligned content."
+  },
+  {
+    "id": "con3910-047",
+    "original_stem": "Which is an exception to certified cost or pricing data?",
+    "action_taken": "keep",
+    "original_citation_text": "FAR Part 15",
+    "updated_citation_text": "FAR Part 15",
+    "topic_session_tag": {
+      "session": "Session 1",
+      "competency_tags": [
+        "Contract Principles"
+      ]
+    },
+    "summary_of_change": "No RFO-driven change required; competency and answer logic remain valid.",
+    "notes": "Intentionally retained as valid legacy-aligned content."
+  },
+  {
+    "id": "con3910-048",
+    "original_stem": "Which method encourages small business participation?",
+    "action_taken": "keep",
+    "original_citation_text": "FAR Part 19",
+    "updated_citation_text": "FAR Part 19",
+    "topic_session_tag": {
+      "session": "Session 1",
+      "competency_tags": [
+        "Contract Principles"
+      ]
+    },
+    "summary_of_change": "No RFO-driven change required; competency and answer logic remain valid.",
+    "notes": "Intentionally retained as valid legacy-aligned content."
+  },
+  {
+    "id": "con3910-049",
+    "original_stem": "Which is a major category of contract types?",
+    "action_taken": "keep",
+    "original_citation_text": "FAR Part 16",
+    "updated_citation_text": "FAR Part 16",
+    "topic_session_tag": {
+      "session": "Session 1",
+      "competency_tags": [
+        "Contract Principles"
+      ]
+    },
+    "summary_of_change": "No RFO-driven change required; competency and answer logic remain valid.",
+    "notes": "Intentionally retained as valid legacy-aligned content."
+  },
+  {
+    "id": "con3910-050",
+    "original_stem": "The objective of incentive contracts is to:",
+    "action_taken": "keep",
+    "original_citation_text": "FAR Part 16",
+    "updated_citation_text": "FAR Part 16",
+    "topic_session_tag": {
+      "session": "Session 1",
+      "competency_tags": [
+        "Contract Principles"
+      ]
+    },
+    "summary_of_change": "No RFO-driven change required; competency and answer logic remain valid.",
+    "notes": "Intentionally retained as valid legacy-aligned content."
+  },
+  {
+    "id": "con3910-051",
+    "original_stem": "Market research should be conducted:",
+    "action_taken": "keep",
+    "original_citation_text": "FAR Part 10",
+    "updated_citation_text": "FAR Part 10",
+    "topic_session_tag": {
+      "session": "Session 1",
+      "competency_tags": [
+        "Plan Sales",
+        "Plan Solicitation",
+        "Prepare Offer",
+        "Request Offers",
+        "Skills and Roles",
+        "Standards of Conduct"
+      ]
+    },
+    "summary_of_change": "No RFO-driven change required; competency and answer logic remain valid.",
+    "notes": "Intentionally retained as valid legacy-aligned content."
+  },
+  {
+    "id": "con3910-052",
+    "original_stem": "Requirements should be described in terms of:",
+    "action_taken": "keep",
+    "original_citation_text": "FAR Part 11",
+    "updated_citation_text": "FAR Part 11",
+    "topic_session_tag": {
+      "session": "Session 1",
+      "competency_tags": [
+        "Contract Principles"
+      ]
+    },
+    "summary_of_change": "No RFO-driven change required; competency and answer logic remain valid.",
+    "notes": "Intentionally retained as valid legacy-aligned content."
+  },
+  {
+    "id": "con3910-053",
+    "original_stem": "Evaluation of commercial items may include review of:",
+    "action_taken": "keep",
+    "original_citation_text": "FAR Part 12",
+    "updated_citation_text": "FAR Part 12",
+    "topic_session_tag": {
+      "session": "Session 1",
+      "competency_tags": [
+        "Contract Principles"
+      ]
+    },
+    "summary_of_change": "No RFO-driven change required; competency and answer logic remain valid.",
+    "notes": "Intentionally retained as valid legacy-aligned content."
+  },
+  {
+    "id": "con3910-054",
+    "original_stem": "Incorporation by reference means:",
+    "action_taken": "keep",
+    "original_citation_text": "FAR Part 52",
+    "updated_citation_text": "FAR Part 52",
+    "topic_session_tag": {
+      "session": "Session 1",
+      "competency_tags": [
+        "Skills and Roles",
+        "Standards of Conduct"
+      ]
+    },
+    "summary_of_change": "No RFO-driven change required; competency and answer logic remain valid.",
+    "notes": "Intentionally retained as valid legacy-aligned content."
+  },
+  {
+    "id": "con3910-055",
+    "original_stem": "Amendments to a solicitation must be furnished to:",
+    "action_taken": "keep",
+    "original_citation_text": "FAR Part 15",
+    "updated_citation_text": "FAR Part 15",
+    "topic_session_tag": {
+      "session": "Session 1",
+      "competency_tags": [
+        "Plan Sales",
+        "Plan Solicitation",
+        "Prepare Offer",
+        "Request Offers"
+      ]
+    },
+    "summary_of_change": "No RFO-driven change required; competency and answer logic remain valid.",
+    "notes": "Intentionally retained as valid legacy-aligned content."
+  },
+  {
+    "id": "con3910-056",
+    "original_stem": "Pre-proposal exchanges are conducted to:",
+    "action_taken": "keep",
+    "original_citation_text": "FAR Part 15",
+    "updated_citation_text": "FAR Part 15",
+    "topic_session_tag": {
+      "session": "Session 1",
+      "competency_tags": [
+        "Plan Solicitation",
+        "Request Offers",
+        "Skills and Roles",
+        "Standards of Conduct"
+      ]
+    },
+    "summary_of_change": "No RFO-driven change required; competency and answer logic remain valid.",
+    "notes": "Intentionally retained as valid legacy-aligned content."
+  },
+  {
+    "id": "con3910-057",
+    "original_stem": "The title of a negotiated solicitation is:",
+    "action_taken": "keep",
+    "original_citation_text": "FAR Part 15",
+    "updated_citation_text": "FAR Part 15",
+    "topic_session_tag": {
+      "session": "Session 1",
+      "competency_tags": [
+        "Plan Sales",
+        "Plan Solicitation",
+        "Prepare Offer",
+        "Request Offers"
+      ]
+    },
+    "summary_of_change": "No RFO-driven change required; competency and answer logic remain valid.",
+    "notes": "Intentionally retained as valid legacy-aligned content."
+  },
+  {
+    "id": "con3910-058",
+    "original_stem": "A proposed contract action must be synopsized when expected to exceed:",
+    "action_taken": "keep",
+    "original_citation_text": "FAR Part 5",
+    "updated_citation_text": "FAR Part 5",
+    "topic_session_tag": {
+      "session": "Session 1",
+      "competency_tags": [
+        "Contract Principles"
+      ]
+    },
+    "summary_of_change": "No RFO-driven change required; competency and answer logic remain valid.",
+    "notes": "Intentionally retained as valid legacy-aligned content."
+  },
+  {
+    "id": "con3910-059",
+    "original_stem": "After solicitation release, the focal point for information exchanges with offerors is:",
+    "action_taken": "keep",
+    "original_citation_text": "FAR Part 15",
+    "updated_citation_text": "FAR Part 15",
+    "topic_session_tag": {
+      "session": "Session 1",
+      "competency_tags": [
+        "Plan Solicitation",
+        "Request Offers"
+      ]
+    },
+    "summary_of_change": "No RFO-driven change required; competency and answer logic remain valid.",
+    "notes": "Intentionally retained as valid legacy-aligned content."
+  },
+  {
+    "id": "con3910-060",
+    "original_stem": "The overarching principle in solicitation Q&A is:",
+    "action_taken": "keep",
+    "original_citation_text": "FAR Part 1",
+    "updated_citation_text": "FAR Part 1",
+    "topic_session_tag": {
+      "session": "Session 1",
+      "competency_tags": [
+        "Plan Sales",
+        "Plan Solicitation",
+        "Prepare Offer",
+        "Request Offers"
+      ]
+    },
+    "summary_of_change": "No RFO-driven change required; competency and answer logic remain valid.",
+    "notes": "Intentionally retained as valid legacy-aligned content."
+  },
+  {
+    "id": "con3910-061",
+    "original_stem": "If an amendment changes the solicitation, the CO should:",
+    "action_taken": "keep",
+    "original_citation_text": "FAR Part 5/15",
+    "updated_citation_text": "FAR Part 5/15",
+    "topic_session_tag": {
+      "session": "Session 2",
+      "competency_tags": [
+        "Plan Solicitation",
+        "Request Offers"
+      ]
+    },
+    "summary_of_change": "No RFO-driven change required; competency and answer logic remain valid.",
+    "notes": "Intentionally retained as valid legacy-aligned content."
+  },
+  {
+    "id": "con3910-062",
+    "original_stem": "If CLINs must be reorganized after solicitation release, you should:",
+    "action_taken": "keep",
+    "original_citation_text": "FAR Part 15",
+    "updated_citation_text": "FAR Part 15",
+    "topic_session_tag": {
+      "session": "Session 2",
+      "competency_tags": [
+        "Plan Sales",
+        "Plan Solicitation",
+        "Prepare Offer",
+        "Request Offers"
+      ]
+    },
+    "summary_of_change": "No RFO-driven change required; competency and answer logic remain valid.",
+    "notes": "Intentionally retained as valid legacy-aligned content."
+  },
+  {
+    "id": "con3910-063",
+    "original_stem": "Competition requirements are primarily addressed in:",
+    "action_taken": "keep",
+    "original_citation_text": "FAR Part 6",
+    "updated_citation_text": "FAR Part 6",
+    "topic_session_tag": {
+      "session": "Session 2",
+      "competency_tags": [
+        "Plan Sales",
+        "Plan Solicitation",
+        "Prepare Offer",
+        "Request Offers"
+      ]
+    },
+    "summary_of_change": "No RFO-driven change required; competency and answer logic remain valid.",
+    "notes": "Intentionally retained as valid legacy-aligned content."
+  },
+  {
+    "id": "con3910-064",
+    "original_stem": "For commercial item acquisitions under FAR Part 12, the preferred contract type is:",
+    "action_taken": "keep",
+    "original_citation_text": "FAR Part 12",
+    "updated_citation_text": "FAR Part 12",
+    "topic_session_tag": {
+      "session": "Session 2",
+      "competency_tags": [
+        "Contract Principles"
+      ]
+    },
+    "summary_of_change": "No RFO-driven change required; competency and answer logic remain valid.",
+    "notes": "Intentionally retained as valid legacy-aligned content."
+  },
+  {
+    "id": "con3910-065",
+    "original_stem": "Which form is generally used to modify contracts and purchase orders?",
+    "action_taken": "keep",
+    "original_citation_text": "FAR Part 43",
+    "updated_citation_text": "FAR Part 43",
+    "topic_session_tag": {
+      "session": "Session 2",
+      "competency_tags": [
+        "Contract Principles"
+      ]
+    },
+    "summary_of_change": "No RFO-driven change required; competency and answer logic remain valid.",
+    "notes": "Intentionally retained as valid legacy-aligned content."
+  },
+  {
+    "id": "con3910-066",
+    "original_stem": "In UCF, CDRLs are typically located in:",
+    "action_taken": "keep",
+    "original_citation_text": "FAR Part 15",
+    "updated_citation_text": "FAR Part 15",
+    "topic_session_tag": {
+      "session": "Session 2",
+      "competency_tags": [
+        "Contract Principles"
+      ]
+    },
+    "summary_of_change": "No RFO-driven change required; competency and answer logic remain valid.",
+    "notes": "Intentionally retained as valid legacy-aligned content."
+  },
+  {
+    "id": "con3910-067",
+    "original_stem": "Government business opportunities are posted on:",
+    "action_taken": "keep",
+    "original_citation_text": "FAR Part 5",
+    "updated_citation_text": "FAR Part 5",
+    "topic_session_tag": {
+      "session": "Session 2",
+      "competency_tags": [
+        "Contract Principles"
+      ]
+    },
+    "summary_of_change": "No RFO-driven change required; competency and answer logic remain valid.",
+    "notes": "Intentionally retained as valid legacy-aligned content."
+  },
+  {
+    "id": "con3910-068",
+    "original_stem": "In UCF, evaluation factors are found in:",
+    "action_taken": "keep",
+    "original_citation_text": "FAR Part 15",
+    "updated_citation_text": "FAR Part 15",
+    "topic_session_tag": {
+      "session": "Session 2",
+      "competency_tags": [
+        "Contract Principles"
+      ]
+    },
+    "summary_of_change": "No RFO-driven change required; competency and answer logic remain valid.",
+    "notes": "Intentionally retained as valid legacy-aligned content."
+  },
+  {
+    "id": "con3910-069",
+    "original_stem": "In UCF, proposal page limits are found in:",
+    "action_taken": "keep",
+    "original_citation_text": "FAR Part 15",
+    "updated_citation_text": "FAR Part 15",
+    "topic_session_tag": {
+      "session": "Session 2",
+      "competency_tags": [
+        "Plan Sales",
+        "Plan Solicitation",
+        "Prepare Offer",
+        "Request Offers"
+      ]
+    },
+    "summary_of_change": "No RFO-driven change required; competency and answer logic remain valid.",
+    "notes": "Intentionally retained as valid legacy-aligned content."
+  },
+  {
+    "id": "con3910-070",
+    "original_stem": "The practice of submitting an offer below anticipated costs to obtain award is called:",
+    "action_taken": "keep",
+    "original_citation_text": "FAR Part 3",
+    "updated_citation_text": "FAR Part 3",
+    "topic_session_tag": {
+      "session": "Session 2",
+      "competency_tags": [
+        "Contract Principles"
+      ]
+    },
+    "summary_of_change": "No RFO-driven change required; competency and answer logic remain valid.",
+    "notes": "Intentionally retained as valid legacy-aligned content."
+  },
+  {
+    "id": "con3910-071",
+    "original_stem": "For volatile precious metal pricing, which contract type best addresses price risk?",
+    "action_taken": "keep",
+    "original_citation_text": "FAR Part 16",
+    "updated_citation_text": "FAR Part 16",
+    "topic_session_tag": {
+      "session": "Session 2",
+      "competency_tags": [
+        "Contract Principles"
+      ]
+    },
+    "summary_of_change": "No RFO-driven change required; competency and answer logic remain valid.",
+    "notes": "Intentionally retained as valid legacy-aligned content."
+  },
+  {
+    "id": "con3910-072",
+    "original_stem": "Costs that must be excluded from any contract price or reimbursed costs are:",
+    "action_taken": "keep",
+    "original_citation_text": "FAR Part 31",
+    "updated_citation_text": "FAR Part 31",
+    "topic_session_tag": {
+      "session": "Session 2",
+      "competency_tags": [
+        "Contract Principles"
+      ]
+    },
+    "summary_of_change": "No RFO-driven change required; competency and answer logic remain valid.",
+    "notes": "Intentionally retained as valid legacy-aligned content."
+  },
+  {
+    "id": "con3910-073",
+    "original_stem": "The most common method to determine price reasonableness for commercial items is:",
+    "action_taken": "keep",
+    "original_citation_text": "FAR Part 12",
+    "updated_citation_text": "FAR Part 12",
+    "topic_session_tag": {
+      "session": "Session 2",
+      "competency_tags": [
+        "Plan Sales",
+        "Plan Solicitation",
+        "Prepare Offer",
+        "Request Offers"
+      ]
+    },
+    "summary_of_change": "No RFO-driven change required; competency and answer logic remain valid.",
+    "notes": "Intentionally retained as valid legacy-aligned content."
+  },
+  {
+    "id": "con3910-074",
+    "original_stem": "Which document establishes the Government\u2019s negotiation objective before talks begin?",
+    "action_taken": "keep",
+    "original_citation_text": "FAR Part 15",
+    "updated_citation_text": "FAR Part 15",
+    "topic_session_tag": {
+      "session": "Session 2",
+      "competency_tags": [
+        "Contract Principles"
+      ]
+    },
+    "summary_of_change": "No RFO-driven change required; competency and answer logic remain valid.",
+    "notes": "Intentionally retained as valid legacy-aligned content."
+  },
+  {
+    "id": "con3910-075",
+    "original_stem": "A request for equitable adjustment (REA) is typically associated with:",
+    "action_taken": "keep",
+    "original_citation_text": "FAR Part 43",
+    "updated_citation_text": "FAR Part 43",
+    "topic_session_tag": {
+      "session": "Session 2",
+      "competency_tags": [
+        "Contract Principles"
+      ]
+    },
+    "summary_of_change": "No RFO-driven change required; competency and answer logic remain valid.",
+    "notes": "Intentionally retained as valid legacy-aligned content."
+  },
+  {
+    "id": "con3910-076",
+    "original_stem": "A contract action that increases the scope of work beyond the original contract generally requires:",
+    "action_taken": "keep",
+    "original_citation_text": "FAR Part 6",
+    "updated_citation_text": "FAR Part 6",
+    "topic_session_tag": {
+      "session": "Session 2",
+      "competency_tags": [
+        "Contract Principles"
+      ]
+    },
+    "summary_of_change": "No RFO-driven change required; competency and answer logic remain valid.",
+    "notes": "Intentionally retained as valid legacy-aligned content."
+  },
+  {
+    "id": "con3910-077",
+    "original_stem": "The clause that allows the Government to unilaterally order changes (within scope) is:",
+    "action_taken": "keep",
+    "original_citation_text": "FAR Part 43",
+    "updated_citation_text": "FAR Part 43",
+    "topic_session_tag": {
+      "session": "Session 2",
+      "competency_tags": [
+        "Contract Principles"
+      ]
+    },
+    "summary_of_change": "No RFO-driven change required; competency and answer logic remain valid.",
+    "notes": "Intentionally retained as valid legacy-aligned content."
+  },
+  {
+    "id": "con3910-078",
+    "original_stem": "A constructive change is best described as:",
+    "action_taken": "keep",
+    "original_citation_text": "Contract Changes Concept",
+    "updated_citation_text": "Contract Changes Concept",
+    "topic_session_tag": {
+      "session": "Session 2",
+      "competency_tags": [
+        "Contract Principles"
+      ]
+    },
+    "summary_of_change": "No RFO-driven change required; competency and answer logic remain valid.",
+    "notes": "Intentionally retained as valid legacy-aligned content."
+  },
+  {
+    "id": "con3910-079",
+    "original_stem": "Termination for convenience allows the Government to:",
+    "action_taken": "keep",
+    "original_citation_text": "FAR Part 49",
+    "updated_citation_text": "FAR Part 49",
+    "topic_session_tag": {
+      "session": "Session 2",
+      "competency_tags": [
+        "Contract Principles"
+      ]
+    },
+    "summary_of_change": "No RFO-driven change required; competency and answer logic remain valid.",
+    "notes": "Intentionally retained as valid legacy-aligned content."
+  },
+  {
+    "id": "con3910-080",
+    "original_stem": "Termination for default is appropriate when:",
+    "action_taken": "keep",
+    "original_citation_text": "FAR Part 49",
+    "updated_citation_text": "FAR Part 49",
+    "topic_session_tag": {
+      "session": "Session 2",
+      "competency_tags": [
+        "Contract Principles"
+      ]
+    },
+    "summary_of_change": "No RFO-driven change required; competency and answer logic remain valid.",
+    "notes": "Intentionally retained as valid legacy-aligned content."
+  },
+  {
+    "id": "con3910-081",
+    "original_stem": "A cure notice is used when:",
+    "action_taken": "keep",
+    "original_citation_text": "Termination Notices",
+    "updated_citation_text": "Termination Notices",
+    "topic_session_tag": {
+      "session": "Session 2",
+      "competency_tags": [
+        "Contract Principles"
+      ]
+    },
+    "summary_of_change": "No RFO-driven change required; competency and answer logic remain valid.",
+    "notes": "Intentionally retained as valid legacy-aligned content."
+  },
+  {
+    "id": "con3910-082",
+    "original_stem": "A show cause notice is typically issued when:",
+    "action_taken": "keep",
+    "original_citation_text": "Termination Notices",
+    "updated_citation_text": "Termination Notices",
+    "topic_session_tag": {
+      "session": "Session 2",
+      "competency_tags": [
+        "Contract Principles"
+      ]
+    },
+    "summary_of_change": "No RFO-driven change required; competency and answer logic remain valid.",
+    "notes": "Intentionally retained as valid legacy-aligned content."
+  },
+  {
+    "id": "con3910-083",
+    "original_stem": "An equitable adjustment is intended to:",
+    "action_taken": "keep",
+    "original_citation_text": "FAR Part 43",
+    "updated_citation_text": "FAR Part 43",
+    "topic_session_tag": {
+      "session": "Session 2",
+      "competency_tags": [
+        "Contract Principles"
+      ]
+    },
+    "summary_of_change": "No RFO-driven change required; competency and answer logic remain valid.",
+    "notes": "Intentionally retained as valid legacy-aligned content."
+  },
+  {
+    "id": "con3910-084",
+    "original_stem": "Stop-work orders are authorized by which clause family?",
+    "action_taken": "keep",
+    "original_citation_text": "Stop-Work Orders",
+    "updated_citation_text": "Stop-Work Orders",
+    "topic_session_tag": {
+      "session": "Session 2",
+      "competency_tags": [
+        "Contract Principles"
+      ]
+    },
+    "summary_of_change": "No RFO-driven change required; competency and answer logic remain valid.",
+    "notes": "Intentionally retained as valid legacy-aligned content."
+  },
+  {
+    "id": "con3910-085",
+    "original_stem": "The Disputes clause governs:",
+    "action_taken": "keep",
+    "original_citation_text": "Disputes",
+    "updated_citation_text": "Disputes",
+    "topic_session_tag": {
+      "session": "Session 2",
+      "competency_tags": [
+        "Contract Principles"
+      ]
+    },
+    "summary_of_change": "No RFO-driven change required; competency and answer logic remain valid.",
+    "notes": "Intentionally retained as valid legacy-aligned content."
+  },
+  {
+    "id": "con3910-086",
+    "original_stem": "A contractor claim must be submitted to the:",
+    "action_taken": "keep",
+    "original_citation_text": "Claims",
+    "updated_citation_text": "Claims",
+    "topic_session_tag": {
+      "session": "Session 2",
+      "competency_tags": [
+        "Contract Principles"
+      ]
+    },
+    "summary_of_change": "No RFO-driven change required; competency and answer logic remain valid.",
+    "notes": "Intentionally retained as valid legacy-aligned content."
+  },
+  {
+    "id": "con3910-087",
+    "original_stem": "Interest on contractor claims generally begins:",
+    "action_taken": "keep",
+    "original_citation_text": "CDA Interest Concept",
+    "updated_citation_text": "CDA Interest Concept",
+    "topic_session_tag": {
+      "session": "Session 2",
+      "competency_tags": [
+        "Contract Principles"
+      ]
+    },
+    "summary_of_change": "No RFO-driven change required; competency and answer logic remain valid.",
+    "notes": "Intentionally retained as valid legacy-aligned content."
+  },
+  {
+    "id": "con3910-088",
+    "original_stem": "Before exercising an option, the CO must determine:",
+    "action_taken": "keep",
+    "original_citation_text": "FAR Part 17",
+    "updated_citation_text": "FAR Part 17",
+    "topic_session_tag": {
+      "session": "Session 2",
+      "competency_tags": [
+        "Contract Principles"
+      ]
+    },
+    "summary_of_change": "No RFO-driven change required; competency and answer logic remain valid.",
+    "notes": "Intentionally retained as valid legacy-aligned content."
+  },
+  {
+    "id": "con3910-089",
+    "original_stem": "An unauthorized commitment is:",
+    "action_taken": "keep",
+    "original_citation_text": "Unauthorized Commitments",
+    "updated_citation_text": "Unauthorized Commitments",
+    "topic_session_tag": {
+      "session": "Session 2",
+      "competency_tags": [
+        "Skills and Roles",
+        "Standards of Conduct"
+      ]
+    },
+    "summary_of_change": "No RFO-driven change required; competency and answer logic remain valid.",
+    "notes": "Intentionally retained as valid legacy-aligned content."
+  },
+  {
+    "id": "con3910-090",
+    "original_stem": "Ratification of an unauthorized commitment requires:",
+    "action_taken": "keep",
+    "original_citation_text": "Ratification",
+    "updated_citation_text": "Ratification",
+    "topic_session_tag": {
+      "session": "Session 2",
+      "competency_tags": [
+        "Skills and Roles",
+        "Standards of Conduct"
+      ]
+    },
+    "summary_of_change": "No RFO-driven change required; competency and answer logic remain valid.",
+    "notes": "Intentionally retained as valid legacy-aligned content."
+  },
+  {
+    "id": "con3910-091",
+    "original_stem": "The Anti-Deficiency Act prohibits:",
+    "action_taken": "keep",
+    "original_citation_text": "Fiscal Law Concept",
+    "updated_citation_text": "Fiscal Law Concept",
+    "topic_session_tag": {
+      "session": "Session 2",
+      "competency_tags": [
+        "Contract Principles"
+      ]
+    },
+    "summary_of_change": "No RFO-driven change required; competency and answer logic remain valid.",
+    "notes": "Intentionally retained as valid legacy-aligned content."
+  },
+  {
+    "id": "con3910-092",
+    "original_stem": "The bona fide needs rule generally requires:",
+    "action_taken": "keep",
+    "original_citation_text": "Fiscal Law Concept",
+    "updated_citation_text": "Fiscal Law Concept",
+    "topic_session_tag": {
+      "session": "Session 2",
+      "competency_tags": [
+        "Contract Principles"
+      ]
+    },
+    "summary_of_change": "No RFO-driven change required; competency and answer logic remain valid.",
+    "notes": "Intentionally retained as valid legacy-aligned content."
+  },
+  {
+    "id": "con3910-093",
+    "original_stem": "Severable services are generally funded with:",
+    "action_taken": "keep",
+    "original_citation_text": "Fiscal Law Concept",
+    "updated_citation_text": "Fiscal Law Concept",
+    "topic_session_tag": {
+      "session": "Session 2",
+      "competency_tags": [
+        "Contract Principles"
+      ]
+    },
+    "summary_of_change": "No RFO-driven change required; competency and answer logic remain valid.",
+    "notes": "Intentionally retained as valid legacy-aligned content."
+  },
+  {
+    "id": "con3910-094",
+    "original_stem": "A non-severable service is typically funded with:",
+    "action_taken": "keep",
+    "original_citation_text": "Fiscal Law Concept",
+    "updated_citation_text": "Fiscal Law Concept",
+    "topic_session_tag": {
+      "session": "Session 2",
+      "competency_tags": [
+        "Contract Principles"
+      ]
+    },
+    "summary_of_change": "No RFO-driven change required; competency and answer logic remain valid.",
+    "notes": "Intentionally retained as valid legacy-aligned content."
+  },
+  {
+    "id": "con3910-095",
+    "original_stem": "Incremental funding is most commonly associated with:",
+    "action_taken": "keep",
+    "original_citation_text": "FAR Part 32",
+    "updated_citation_text": "FAR Part 32",
+    "topic_session_tag": {
+      "session": "Session 2",
+      "competency_tags": [
+        "Contract Principles"
+      ]
+    },
+    "summary_of_change": "No RFO-driven change required; competency and answer logic remain valid.",
+    "notes": "Intentionally retained as valid legacy-aligned content."
+  },
+  {
+    "id": "con3910-096",
+    "original_stem": "The Limitation of Funds clause applies to:",
+    "action_taken": "keep",
+    "original_citation_text": "Limitation of Funds",
+    "updated_citation_text": "Limitation of Funds",
+    "topic_session_tag": {
+      "session": "Session 2",
+      "competency_tags": [
+        "Contract Principles"
+      ]
+    },
+    "summary_of_change": "No RFO-driven change required; competency and answer logic remain valid.",
+    "notes": "Intentionally retained as valid legacy-aligned content."
+  },
+  {
+    "id": "con3910-097",
+    "original_stem": "Prompt Payment Act timing generally begins upon:",
+    "action_taken": "keep",
+    "original_citation_text": "FAR Part 32",
+    "updated_citation_text": "FAR Part 32",
+    "topic_session_tag": {
+      "session": "Session 2",
+      "competency_tags": [
+        "Contract Principles"
+      ]
+    },
+    "summary_of_change": "No RFO-driven change required; competency and answer logic remain valid.",
+    "notes": "Intentionally retained as valid legacy-aligned content."
+  },
+  {
+    "id": "con3910-098",
+    "original_stem": "Assignment of Claims generally allows contractors to:",
+    "action_taken": "keep",
+    "original_citation_text": "Payments/Assignments Concept",
+    "updated_citation_text": "Payments/Assignments Concept",
+    "topic_session_tag": {
+      "session": "Session 2",
+      "competency_tags": [
+        "Contract Principles"
+      ]
+    },
+    "summary_of_change": "No RFO-driven change required; competency and answer logic remain valid.",
+    "notes": "Intentionally retained as valid legacy-aligned content."
+  },
+  {
+    "id": "con3910-099",
+    "original_stem": "Novation agreements are required when:",
+    "action_taken": "keep",
+    "original_citation_text": "Novation",
+    "updated_citation_text": "Novation",
+    "topic_session_tag": {
+      "session": "Session 2",
+      "competency_tags": [
+        "Contract Principles"
+      ]
+    },
+    "summary_of_change": "No RFO-driven change required; competency and answer logic remain valid.",
+    "notes": "Intentionally retained as valid legacy-aligned content."
+  },
+  {
+    "id": "con3910-100",
+    "original_stem": "A subcontracting plan is generally required when:",
+    "action_taken": "keep",
+    "original_citation_text": "FAR Part 19",
+    "updated_citation_text": "FAR Part 19",
+    "topic_session_tag": {
+      "session": "Session 2",
+      "competency_tags": [
+        "Contract Principles"
+      ]
+    },
+    "summary_of_change": "No RFO-driven change required; competency and answer logic remain valid.",
+    "notes": "Intentionally retained as valid legacy-aligned content."
+  },
+  {
+    "id": "con3910-101",
+    "original_stem": "Liquidated damages are intended to:",
+    "action_taken": "keep",
+    "original_citation_text": "Liquidated Damages",
+    "updated_citation_text": "Liquidated Damages",
+    "topic_session_tag": {
+      "session": "Session 2",
+      "competency_tags": [
+        "Contract Principles"
+      ]
+    },
+    "summary_of_change": "No RFO-driven change required; competency and answer logic remain valid.",
+    "notes": "Intentionally retained as valid legacy-aligned content."
+  },
+  {
+    "id": "con3910-102",
+    "original_stem": "A warranty generally provides:",
+    "action_taken": "keep",
+    "original_citation_text": "FAR Part 46",
+    "updated_citation_text": "FAR Part 46",
+    "topic_session_tag": {
+      "session": "Session 2",
+      "competency_tags": [
+        "Contract Principles"
+      ]
+    },
+    "summary_of_change": "No RFO-driven change required; competency and answer logic remain valid.",
+    "notes": "Intentionally retained as valid legacy-aligned content."
+  },
+  {
+    "id": "con3910-103",
+    "original_stem": "Inspection and acceptance are generally:",
+    "action_taken": "keep",
+    "original_citation_text": "FAR Part 46",
+    "updated_citation_text": "FAR Part 46",
+    "topic_session_tag": {
+      "session": "Session 2",
+      "competency_tags": [
+        "Contract Principles"
+      ]
+    },
+    "summary_of_change": "No RFO-driven change required; competency and answer logic remain valid.",
+    "notes": "Intentionally retained as valid legacy-aligned content."
+  },
+  {
+    "id": "con3910-104",
+    "original_stem": "Past performance evaluations for many Federal contracts are recorded in:",
+    "action_taken": "keep",
+    "original_citation_text": "CPARS Concept",
+    "updated_citation_text": "CPARS Concept",
+    "topic_session_tag": {
+      "session": "Session 2",
+      "competency_tags": [
+        "Skills and Roles",
+        "Standards of Conduct"
+      ]
+    },
+    "summary_of_change": "No RFO-driven change required; competency and answer logic remain valid.",
+    "notes": "Intentionally retained as valid legacy-aligned content."
+  },
+  {
+    "id": "con3910-105",
+    "original_stem": "The FAR\u2019s vision of the Federal Acquisition System is to:",
+    "action_taken": "keep",
+    "original_citation_text": "FAR Part 1",
+    "updated_citation_text": "FAR Part 1",
+    "topic_session_tag": {
+      "session": "Session 2",
+      "competency_tags": [
+        "Contract Principles"
+      ]
+    },
+    "summary_of_change": "No RFO-driven change required; competency and answer logic remain valid.",
+    "notes": "Intentionally retained as valid legacy-aligned content."
+  },
+  {
+    "id": "con3910-106",
+    "original_stem": "Which is the best description of best value?",
+    "action_taken": "keep",
+    "original_citation_text": "Best Value",
+    "updated_citation_text": "Best Value",
+    "topic_session_tag": {
+      "session": "Session 2",
+      "competency_tags": [
+        "Contract Principles"
+      ]
+    },
+    "summary_of_change": "No RFO-driven change required; competency and answer logic remain valid.",
+    "notes": "Intentionally retained as valid legacy-aligned content."
+  },
+  {
+    "id": "con3910-107",
+    "original_stem": "A responsibility determination concerns whether the contractor:",
+    "action_taken": "keep",
+    "original_citation_text": "FAR Part 9",
+    "updated_citation_text": "FAR Part 9",
+    "topic_session_tag": {
+      "session": "Session 2",
+      "competency_tags": [
+        "Contract Principles"
+      ]
+    },
+    "summary_of_change": "No RFO-driven change required; competency and answer logic remain valid.",
+    "notes": "Intentionally retained as valid legacy-aligned content."
+  },
+  {
+    "id": "con3910-108",
+    "original_stem": "A responsive bid is one that:",
+    "action_taken": "keep",
+    "original_citation_text": "FAR Part 14",
+    "updated_citation_text": "FAR Part 14",
+    "topic_session_tag": {
+      "session": "Session 2",
+      "competency_tags": [
+        "Contract Principles"
+      ]
+    },
+    "summary_of_change": "No RFO-driven change required; competency and answer logic remain valid.",
+    "notes": "Intentionally retained as valid legacy-aligned content."
+  },
+  {
+    "id": "con3910-109",
+    "original_stem": "In negotiated procurements, discussions are:",
+    "action_taken": "revise",
+    "original_citation_text": "FAR Part 15",
+    "updated_citation_text": "RFO Part 15 (legacy FAR Part 15)",
+    "topic_session_tag": {
+      "session": "Session 2",
+      "competency_tags": [
+        "Plan Sales",
+        "Plan Solicitation",
+        "Prepare Offer",
+        "Request Offers"
+      ]
+    },
+    "summary_of_change": "Process-focused wording and RFO transition framing updated; competency preserved.",
+    "notes": "Added rfoTags/lifecyclePhase metadata and RFO+legacy FAR bridge language."
+  },
+  {
+    "id": "con3910-110",
+    "original_stem": "Clarifications in FAR Part 15 are:",
+    "action_taken": "revise",
+    "original_citation_text": "FAR Part 15",
+    "updated_citation_text": "RFO Part 15 (legacy FAR Part 15)",
+    "topic_session_tag": {
+      "session": "Session 2",
+      "competency_tags": [
+        "Plan Sales",
+        "Plan Solicitation",
+        "Prepare Offer",
+        "Request Offers"
+      ]
+    },
+    "summary_of_change": "Process-focused wording and RFO transition framing updated; competency preserved.",
+    "notes": "Added rfoTags/lifecyclePhase metadata and RFO+legacy FAR bridge language."
+  },
+  {
+    "id": "con3910-111",
+    "original_stem": "Communications (FAR 15.306(b)) occur:",
+    "action_taken": "revise",
+    "original_citation_text": "FAR Part 15",
+    "updated_citation_text": "RFO Part 15 (legacy FAR Part 15)",
+    "topic_session_tag": {
+      "session": "Session 2",
+      "competency_tags": [
+        "Plan Sales",
+        "Plan Solicitation",
+        "Prepare Offer",
+        "Request Offers"
+      ]
+    },
+    "summary_of_change": "Process-focused wording and RFO transition framing updated; competency preserved.",
+    "notes": "Added rfoTags/lifecyclePhase metadata and RFO+legacy FAR bridge language."
+  },
+  {
+    "id": "con3910-112",
+    "original_stem": "A deficiency is:",
+    "action_taken": "revise",
+    "original_citation_text": "Definitions",
+    "updated_citation_text": "RFO transition reference (Definitions)",
+    "topic_session_tag": {
+      "session": "Session 2",
+      "competency_tags": [
+        "Contract Principles"
+      ]
+    },
+    "summary_of_change": "Process-focused wording and RFO transition framing updated; competency preserved.",
+    "notes": "Added rfoTags/lifecyclePhase metadata and RFO+legacy FAR bridge language."
+  },
+  {
+    "id": "con3910-113",
+    "original_stem": "A competitive range is established based on:",
+    "action_taken": "revise",
+    "original_citation_text": "Competitive Range",
+    "updated_citation_text": "RFO transition reference (Competitive Range)",
+    "topic_session_tag": {
+      "session": "Session 2",
+      "competency_tags": [
+        "Plan Sales",
+        "Plan Solicitation",
+        "Prepare Offer",
+        "Request Offers"
+      ]
+    },
+    "summary_of_change": "Process-focused wording and RFO transition framing updated; competency preserved.",
+    "notes": "Added rfoTags/lifecyclePhase metadata and RFO+legacy FAR bridge language."
+  },
+  {
+    "id": "con3910-114",
+    "original_stem": "A responsibility determination is made by the:",
+    "action_taken": "light_update",
+    "original_citation_text": "Responsibility",
+    "updated_citation_text": "RFO transition reference (Responsibility)",
+    "topic_session_tag": {
+      "session": "Session 2",
+      "competency_tags": [
+        "Contract Principles"
+      ]
+    },
+    "summary_of_change": "Terminology/citation framing updated for RFO transition while preserving competency and answer logic.",
+    "notes": "Added rfoTags/lifecyclePhase metadata and RFO+legacy FAR bridge language."
+  },
+  {
+    "id": "con3910-115",
+    "original_stem": "A contractor is debarred when:",
+    "action_taken": "light_update",
+    "original_citation_text": "FAR Part 9",
+    "updated_citation_text": "RFO Part 9 (legacy FAR Part 9)",
+    "topic_session_tag": {
+      "session": "Session 2",
+      "competency_tags": [
+        "Contract Principles"
+      ]
+    },
+    "summary_of_change": "Terminology/citation framing updated for RFO transition while preserving competency and answer logic.",
+    "notes": "Added rfoTags/lifecyclePhase metadata and RFO+legacy FAR bridge language."
+  },
+  {
+    "id": "con3910-116",
+    "original_stem": "A bid can be corrected after opening only if:",
+    "action_taken": "revise",
+    "original_citation_text": "FAR Part 14",
+    "updated_citation_text": "RFO Part 14 (legacy FAR Part 14)",
+    "topic_session_tag": {
+      "session": "Session 2",
+      "competency_tags": [
+        "Skills and Roles",
+        "Standards of Conduct"
+      ]
+    },
+    "summary_of_change": "Process-focused wording and RFO transition framing updated; competency preserved.",
+    "notes": "Added rfoTags/lifecyclePhase metadata and RFO+legacy FAR bridge language."
+  },
+  {
+    "id": "con3910-117",
+    "original_stem": "A late bid under sealed bidding is generally:",
+    "action_taken": "revise",
+    "original_citation_text": "FAR Part 14",
+    "updated_citation_text": "RFO Part 14 (legacy FAR Part 14)",
+    "topic_session_tag": {
+      "session": "Session 2",
+      "competency_tags": [
+        "Contract Principles"
+      ]
+    },
+    "summary_of_change": "Process-focused wording and RFO transition framing updated; competency preserved.",
+    "notes": "Added rfoTags/lifecyclePhase metadata and RFO+legacy FAR bridge language."
+  },
+  {
+    "id": "con3910-118",
+    "original_stem": "A \u2018brand name or equal\u2019 description requires:",
+    "action_taken": "light_update",
+    "original_citation_text": "Describing Needs",
+    "updated_citation_text": "RFO transition reference (Describing Needs)",
+    "topic_session_tag": {
+      "session": "Session 2",
+      "competency_tags": [
+        "Contract Principles"
+      ]
+    },
+    "summary_of_change": "Terminology/citation framing updated for RFO transition while preserving competency and answer logic.",
+    "notes": "Added rfoTags/lifecyclePhase metadata and RFO+legacy FAR bridge language."
+  },
+  {
+    "id": "con3910-119",
+    "original_stem": "A protest filed before award is called a:",
+    "action_taken": "light_update",
+    "original_citation_text": "Protests",
+    "updated_citation_text": "RFO transition reference (Protests)",
+    "topic_session_tag": {
+      "session": "Session 2",
+      "competency_tags": [
+        "Contract Principles"
+      ]
+    },
+    "summary_of_change": "Terminology/citation framing updated for RFO transition while preserving competency and answer logic.",
+    "notes": "Added rfoTags/lifecyclePhase metadata and RFO+legacy FAR bridge language."
+  },
+  {
+    "id": "con3910-120",
+    "original_stem": "The primary purpose of a debriefing is to:",
+    "action_taken": "light_update",
+    "original_citation_text": "Debriefings",
+    "updated_citation_text": "RFO transition reference (Debriefings)",
+    "topic_session_tag": {
+      "session": "Session 2",
+      "competency_tags": [
+        "Plan Sales",
+        "Plan Solicitation",
+        "Prepare Offer",
+        "Request Offers"
+      ]
+    },
+    "summary_of_change": "Terminology/citation framing updated for RFO transition while preserving competency and answer logic.",
+    "notes": "Added rfoTags/lifecyclePhase metadata and RFO+legacy FAR bridge language."
+  },
+  {
+    "id": "con3910-121",
+    "original_stem": "Cost realism analysis is most applicable to:",
+    "action_taken": "light_update",
+    "original_citation_text": "Cost Realism",
+    "updated_citation_text": "RFO transition reference (Cost Realism)",
+    "topic_session_tag": {
+      "session": "Session 3",
+      "competency_tags": [
+        "Contract Principles"
+      ]
+    },
+    "summary_of_change": "Terminology/citation framing updated for RFO transition while preserving competency and answer logic.",
+    "notes": "Added rfoTags/lifecyclePhase metadata and RFO+legacy FAR bridge language."
+  },
+  {
+    "id": "con3910-122",
+    "original_stem": "Price realism analysis (as an evaluation tool) is:",
+    "action_taken": "light_update",
+    "original_citation_text": "Proposal Analysis",
+    "updated_citation_text": "RFO transition reference (Proposal Analysis)",
+    "topic_session_tag": {
+      "session": "Session 3",
+      "competency_tags": [
+        "Contract Principles"
+      ]
+    },
+    "summary_of_change": "Terminology/citation framing updated for RFO transition while preserving competency and answer logic.",
+    "notes": "Added rfoTags/lifecyclePhase metadata and RFO+legacy FAR bridge language."
+  },
+  {
+    "id": "con3910-123",
+    "original_stem": "An organizational conflict of interest (OCI) occurs when:",
+    "action_taken": "light_update",
+    "original_citation_text": "OCI",
+    "updated_citation_text": "RFO transition reference (OCI)",
+    "topic_session_tag": {
+      "session": "Session 3",
+      "competency_tags": [
+        "Contract Principles"
+      ]
+    },
+    "summary_of_change": "Terminology/citation framing updated for RFO transition while preserving competency and answer logic.",
+    "notes": "Added rfoTags/lifecyclePhase metadata and RFO+legacy FAR bridge language."
+  },
+  {
+    "id": "con3910-124",
+    "original_stem": "A contractor with unequal access to information has an OCI risk because:",
+    "action_taken": "light_update",
+    "original_citation_text": "OCI",
+    "updated_citation_text": "RFO transition reference (OCI)",
+    "topic_session_tag": {
+      "session": "Session 3",
+      "competency_tags": [
+        "Contract Principles"
+      ]
+    },
+    "summary_of_change": "Terminology/citation framing updated for RFO transition while preserving competency and answer logic.",
+    "notes": "Added rfoTags/lifecyclePhase metadata and RFO+legacy FAR bridge language."
+  },
+  {
+    "id": "con3910-125",
+    "original_stem": "A \u2018personal conflict of interest\u2019 is most associated with:",
+    "action_taken": "light_update",
+    "original_citation_text": "Personal Conflicts",
+    "updated_citation_text": "RFO transition reference (Personal Conflicts)",
+    "topic_session_tag": {
+      "session": "Session 3",
+      "competency_tags": [
+        "Contract Principles"
+      ]
+    },
+    "summary_of_change": "Terminology/citation framing updated for RFO transition while preserving competency and answer logic.",
+    "notes": "Added rfoTags/lifecyclePhase metadata and RFO+legacy FAR bridge language."
+  },
+  {
+    "id": "con3910-126",
+    "original_stem": "A justifications-and-approvals (J&A) document is used when:",
+    "action_taken": "light_update",
+    "original_citation_text": "Competition Exceptions",
+    "updated_citation_text": "RFO transition reference (Competition Exceptions)",
+    "topic_session_tag": {
+      "session": "Session 3",
+      "competency_tags": [
+        "Contract Principles"
+      ]
+    },
+    "summary_of_change": "Terminology/citation framing updated for RFO transition while preserving competency and answer logic.",
+    "notes": "Added rfoTags/lifecyclePhase metadata and RFO+legacy FAR bridge language."
+  },
+  {
+    "id": "con3910-127",
+    "original_stem": "Full and open competition means:",
+    "action_taken": "light_update",
+    "original_citation_text": "Competition",
+    "updated_citation_text": "RFO transition reference (Competition)",
+    "topic_session_tag": {
+      "session": "Session 3",
+      "competency_tags": [
+        "Plan Sales",
+        "Plan Solicitation",
+        "Prepare Offer",
+        "Request Offers"
+      ]
+    },
+    "summary_of_change": "Terminology/citation framing updated for RFO transition while preserving competency and answer logic.",
+    "notes": "Added rfoTags/lifecyclePhase metadata and RFO+legacy FAR bridge language."
+  },
+  {
+    "id": "con3910-128",
+    "original_stem": "A set-aside is:",
+    "action_taken": "light_update",
+    "original_citation_text": "Small Business",
+    "updated_citation_text": "RFO transition reference (Small Business)",
+    "topic_session_tag": {
+      "session": "Session 3",
+      "competency_tags": [
+        "Plan Sales",
+        "Plan Solicitation",
+        "Prepare Offer",
+        "Request Offers"
+      ]
+    },
+    "summary_of_change": "Terminology/citation framing updated for RFO transition while preserving competency and answer logic.",
+    "notes": "Added rfoTags/lifecyclePhase metadata and RFO+legacy FAR bridge language."
+  },
+  {
+    "id": "con3910-129",
+    "original_stem": "A micro-purchase is generally:",
+    "action_taken": "light_update",
+    "original_citation_text": "Micro-Purchases",
+    "updated_citation_text": "RFO transition reference (Micro-Purchases)",
+    "topic_session_tag": {
+      "session": "Session 3",
+      "competency_tags": [
+        "Contract Principles"
+      ]
+    },
+    "summary_of_change": "Terminology/citation framing updated for RFO transition while preserving competency and answer logic.",
+    "notes": "Added rfoTags/lifecyclePhase metadata and RFO+legacy FAR bridge language."
+  },
+  {
+    "id": "con3910-130",
+    "original_stem": "A unilateral modification is used when:",
+    "action_taken": "revise",
+    "original_citation_text": "Mods",
+    "updated_citation_text": "RFO transition reference (Mods)",
+    "topic_session_tag": {
+      "session": "Session 3",
+      "competency_tags": [
+        "Contract Principles"
+      ]
+    },
+    "summary_of_change": "Process-focused wording and RFO transition framing updated; competency preserved.",
+    "notes": "Added rfoTags/lifecyclePhase metadata and RFO+legacy FAR bridge language."
+  },
+  {
+    "id": "con3910-131",
+    "original_stem": "A bilateral modification is used when:",
+    "action_taken": "revise",
+    "original_citation_text": "Mods",
+    "updated_citation_text": "RFO transition reference (Mods)",
+    "topic_session_tag": {
+      "session": "Session 3",
+      "competency_tags": [
+        "Contract Principles"
+      ]
+    },
+    "summary_of_change": "Process-focused wording and RFO transition framing updated; competency preserved.",
+    "notes": "Added rfoTags/lifecyclePhase metadata and RFO+legacy FAR bridge language."
+  },
+  {
+    "id": "con3910-132",
+    "original_stem": "A contract must include a clear description of:",
+    "action_taken": "light_update",
+    "original_citation_text": "Describing Needs",
+    "updated_citation_text": "RFO transition reference (Describing Needs)",
+    "topic_session_tag": {
+      "session": "Session 3",
+      "competency_tags": [
+        "Contract Principles"
+      ]
+    },
+    "summary_of_change": "Terminology/citation framing updated for RFO transition while preserving competency and answer logic.",
+    "notes": "Added rfoTags/lifecyclePhase metadata and RFO+legacy FAR bridge language."
+  },
+  {
+    "id": "con3910-133",
+    "original_stem": "A contract line item number (CLIN) is used to:",
+    "action_taken": "light_update",
+    "original_citation_text": "Line Items",
+    "updated_citation_text": "RFO transition reference (Line Items)",
+    "topic_session_tag": {
+      "session": "Session 3",
+      "competency_tags": [
+        "Contract Principles"
+      ]
+    },
+    "summary_of_change": "Terminology/citation framing updated for RFO transition while preserving competency and answer logic.",
+    "notes": "Added rfoTags/lifecyclePhase metadata and RFO+legacy FAR bridge language."
+  },
+  {
+    "id": "con3910-134",
+    "original_stem": "A firm-fixed-price contract places the greatest cost risk on the:",
+    "action_taken": "light_update",
+    "original_citation_text": "Contract Types",
+    "updated_citation_text": "RFO transition reference (Contract Types)",
+    "topic_session_tag": {
+      "session": "Session 3",
+      "competency_tags": [
+        "Contract Principles"
+      ]
+    },
+    "summary_of_change": "Terminology/citation framing updated for RFO transition while preserving competency and answer logic.",
+    "notes": "Added rfoTags/lifecyclePhase metadata and RFO+legacy FAR bridge language."
+  },
+  {
+    "id": "con3910-135",
+    "original_stem": "A time-and-materials contract is appropriate when:",
+    "action_taken": "light_update",
+    "original_citation_text": "T&M/LH",
+    "updated_citation_text": "RFO transition reference (T&M/LH)",
+    "topic_session_tag": {
+      "session": "Session 3",
+      "competency_tags": [
+        "Contract Principles"
+      ]
+    },
+    "summary_of_change": "Terminology/citation framing updated for RFO transition while preserving competency and answer logic.",
+    "notes": "Added rfoTags/lifecyclePhase metadata and RFO+legacy FAR bridge language."
+  },
+  {
+    "id": "con3910-136",
+    "original_stem": "A cost-reimbursement contract is suitable when:",
+    "action_taken": "light_update",
+    "original_citation_text": "Cost Contracts",
+    "updated_citation_text": "RFO transition reference (Cost Contracts)",
+    "topic_session_tag": {
+      "session": "Session 3",
+      "competency_tags": [
+        "Contract Principles"
+      ]
+    },
+    "summary_of_change": "Terminology/citation framing updated for RFO transition while preserving competency and answer logic.",
+    "notes": "Added rfoTags/lifecyclePhase metadata and RFO+legacy FAR bridge language."
+  },
+  {
+    "id": "con3910-137",
+    "original_stem": "An award fee is used to:",
+    "action_taken": "light_update",
+    "original_citation_text": "Incentives",
+    "updated_citation_text": "RFO transition reference (Incentives)",
+    "topic_session_tag": {
+      "session": "Session 3",
+      "competency_tags": [
+        "Contract Principles"
+      ]
+    },
+    "summary_of_change": "Terminology/citation framing updated for RFO transition while preserving competency and answer logic.",
+    "notes": "Added rfoTags/lifecyclePhase metadata and RFO+legacy FAR bridge language."
+  },
+  {
+    "id": "con3910-138",
+    "original_stem": "A CPFF (cost-plus-fixed-fee) contract provides:",
+    "action_taken": "light_update",
+    "original_citation_text": "CPFF",
+    "updated_citation_text": "RFO transition reference (CPFF)",
+    "topic_session_tag": {
+      "session": "Session 3",
+      "competency_tags": [
+        "Contract Principles"
+      ]
+    },
+    "summary_of_change": "Terminology/citation framing updated for RFO transition while preserving competency and answer logic.",
+    "notes": "Added rfoTags/lifecyclePhase metadata and RFO+legacy FAR bridge language."
+  },
+  {
+    "id": "con3910-139",
+    "original_stem": "A cost-plus-percentage-of-cost (CPPC) contract is:",
+    "action_taken": "light_update",
+    "original_citation_text": "Prohibited Types",
+    "updated_citation_text": "RFO transition reference (Prohibited Types)",
+    "topic_session_tag": {
+      "session": "Session 3",
+      "competency_tags": [
+        "Contract Principles"
+      ]
+    },
+    "summary_of_change": "Terminology/citation framing updated for RFO transition while preserving competency and answer logic.",
+    "notes": "Added rfoTags/lifecyclePhase metadata and RFO+legacy FAR bridge language."
+  },
+  {
+    "id": "con3910-140",
+    "original_stem": "The Government\u2019s remedy for defective pricing is typically found under:",
+    "action_taken": "light_update",
+    "original_citation_text": "Cost or Pricing Data",
+    "updated_citation_text": "RFO transition reference (Cost or Pricing Data)",
+    "topic_session_tag": {
+      "session": "Session 3",
+      "competency_tags": [
+        "Contract Principles"
+      ]
+    },
+    "summary_of_change": "Terminology/citation framing updated for RFO transition while preserving competency and answer logic.",
+    "notes": "Added rfoTags/lifecyclePhase metadata and RFO+legacy FAR bridge language."
+  },
+  {
+    "id": "con3910-141",
+    "original_stem": "A request for certified cost or pricing data is generally:",
+    "action_taken": "light_update",
+    "original_citation_text": "Certified Data",
+    "updated_citation_text": "RFO transition reference (Certified Data)",
+    "topic_session_tag": {
+      "session": "Session 3",
+      "competency_tags": [
+        "Contract Principles"
+      ]
+    },
+    "summary_of_change": "Terminology/citation framing updated for RFO transition while preserving competency and answer logic.",
+    "notes": "Added rfoTags/lifecyclePhase metadata and RFO+legacy FAR bridge language."
+  },
+  {
+    "id": "con3910-142",
+    "original_stem": "A pre-award survey is used to evaluate:",
+    "action_taken": "light_update",
+    "original_citation_text": "Preaward Surveys",
+    "updated_citation_text": "RFO transition reference (Preaward Surveys)",
+    "topic_session_tag": {
+      "session": "Session 3",
+      "competency_tags": [
+        "Contract Principles"
+      ]
+    },
+    "summary_of_change": "Terminology/citation framing updated for RFO transition while preserving competency and answer logic.",
+    "notes": "Added rfoTags/lifecyclePhase metadata and RFO+legacy FAR bridge language."
+  },
+  {
+    "id": "con3910-143",
+    "original_stem": "A negative responsibility determination for a small business may require referral to:",
+    "action_taken": "light_update",
+    "original_citation_text": "Small Business Responsibility",
+    "updated_citation_text": "RFO transition reference (Small Business Responsibility)",
+    "topic_session_tag": {
+      "session": "Session 3",
+      "competency_tags": [
+        "Contract Principles"
+      ]
+    },
+    "summary_of_change": "Terminology/citation framing updated for RFO transition while preserving competency and answer logic.",
+    "notes": "Added rfoTags/lifecyclePhase metadata and RFO+legacy FAR bridge language."
+  },
+  {
+    "id": "con3910-144",
+    "original_stem": "A solicitation provision is found in:",
+    "action_taken": "light_update",
+    "original_citation_text": "Provisions/Clauses",
+    "updated_citation_text": "RFO transition reference (Provisions/Clauses)",
+    "topic_session_tag": {
+      "session": "Session 3",
+      "competency_tags": [
+        "Plan Sales",
+        "Plan Solicitation",
+        "Prepare Offer",
+        "Request Offers"
+      ]
+    },
+    "summary_of_change": "Terminology/citation framing updated for RFO transition while preserving competency and answer logic.",
+    "notes": "Added rfoTags/lifecyclePhase metadata and RFO+legacy FAR bridge language."
+  },
+  {
+    "id": "con3910-145",
+    "original_stem": "A contract clause is:",
+    "action_taken": "light_update",
+    "original_citation_text": "FAR Part 52",
+    "updated_citation_text": "RFO Part 52 (legacy FAR Part 52)",
+    "topic_session_tag": {
+      "session": "Session 3",
+      "competency_tags": [
+        "Contract Principles"
+      ]
+    },
+    "summary_of_change": "Terminology/citation framing updated for RFO transition while preserving competency and answer logic.",
+    "notes": "Added rfoTags/lifecyclePhase metadata and RFO+legacy FAR bridge language."
+  },
+  {
+    "id": "con3910-146",
+    "original_stem": "In FAR structure, a \u2018subpart\u2019 is:",
+    "action_taken": "light_update",
+    "original_citation_text": "FAR System",
+    "updated_citation_text": "RFO transition reference (legacy FAR System)",
+    "topic_session_tag": {
+      "session": "Session 3",
+      "competency_tags": [
+        "Contract Principles"
+      ]
+    },
+    "summary_of_change": "Terminology/citation framing updated for RFO transition while preserving competency and answer logic.",
+    "notes": "Added rfoTags/lifecyclePhase metadata and RFO+legacy FAR bridge language."
+  },
+  {
+    "id": "con3910-147",
+    "original_stem": "A solicitation amendment is used to:",
+    "action_taken": "light_update",
+    "original_citation_text": "Solicitation Changes",
+    "updated_citation_text": "RFO transition reference (Solicitation Changes)",
+    "topic_session_tag": {
+      "session": "Session 3",
+      "competency_tags": [
+        "Plan Sales",
+        "Plan Solicitation",
+        "Prepare Offer",
+        "Request Offers"
+      ]
+    },
+    "summary_of_change": "Terminology/citation framing updated for RFO transition while preserving competency and answer logic.",
+    "notes": "Added rfoTags/lifecyclePhase metadata and RFO+legacy FAR bridge language."
+  },
+  {
+    "id": "con3910-148",
+    "original_stem": "A contract modification (SF 30) is used to:",
+    "action_taken": "light_update",
+    "original_citation_text": "Contract Modifications",
+    "updated_citation_text": "RFO transition reference (Contract Modifications)",
+    "topic_session_tag": {
+      "session": "Session 3",
+      "competency_tags": [
+        "Contract Principles"
+      ]
+    },
+    "summary_of_change": "Terminology/citation framing updated for RFO transition while preserving competency and answer logic.",
+    "notes": "Added rfoTags/lifecyclePhase metadata and RFO+legacy FAR bridge language."
+  },
+  {
+    "id": "con3910-149",
+    "original_stem": "The \u2018scope of the contract\u2019 concept is most important when:",
+    "action_taken": "light_update",
+    "original_citation_text": "Competition",
+    "updated_citation_text": "RFO transition reference (Competition)",
+    "topic_session_tag": {
+      "session": "Session 3",
+      "competency_tags": [
+        "Contract Principles"
+      ]
+    },
+    "summary_of_change": "Terminology/citation framing updated for RFO transition while preserving competency and answer logic.",
+    "notes": "Added rfoTags/lifecyclePhase metadata and RFO+legacy FAR bridge language."
+  },
+  {
+    "id": "con3910-150",
+    "original_stem": "A contract file should include documentation supporting:",
+    "action_taken": "light_update",
+    "original_citation_text": "Contract Files",
+    "updated_citation_text": "RFO transition reference (Contract Files)",
+    "topic_session_tag": {
+      "session": "Session 3",
+      "competency_tags": [
+        "Contract Principles"
+      ]
+    },
+    "summary_of_change": "Terminology/citation framing updated for RFO transition while preserving competency and answer logic.",
+    "notes": "Added rfoTags/lifecyclePhase metadata and RFO+legacy FAR bridge language."
+  },
+  {
+    "id": "con3910-151",
+    "original_stem": "Market research is required for:",
+    "action_taken": "light_update",
+    "original_citation_text": "Market Research",
+    "updated_citation_text": "RFO transition reference (Market Research)",
+    "topic_session_tag": {
+      "session": "Session 3",
+      "competency_tags": [
+        "Plan Sales",
+        "Plan Solicitation",
+        "Prepare Offer",
+        "Request Offers"
+      ]
+    },
+    "summary_of_change": "Terminology/citation framing updated for RFO transition while preserving competency and answer logic.",
+    "notes": "Added rfoTags/lifecyclePhase metadata and RFO+legacy FAR bridge language."
+  },
+  {
+    "id": "con3910-152",
+    "original_stem": "A performance-based acquisition emphasizes:",
+    "action_taken": "light_update",
+    "original_citation_text": "Service Contracting",
+    "updated_citation_text": "RFO transition reference (Service Contracting)",
+    "topic_session_tag": {
+      "session": "Session 3",
+      "competency_tags": [
+        "Contract Principles"
+      ]
+    },
+    "summary_of_change": "Terminology/citation framing updated for RFO transition while preserving competency and answer logic.",
+    "notes": "Added rfoTags/lifecyclePhase metadata and RFO+legacy FAR bridge language."
+  },
+  {
+    "id": "con3910-153",
+    "original_stem": "The Government must avoid unnecessarily restrictive requirements because:",
+    "action_taken": "light_update",
+    "original_citation_text": "Competition/Needs",
+    "updated_citation_text": "RFO transition reference (Competition/Needs)",
+    "topic_session_tag": {
+      "session": "Session 3",
+      "competency_tags": [
+        "Contract Principles"
+      ]
+    },
+    "summary_of_change": "Terminology/citation framing updated for RFO transition while preserving competency and answer logic.",
+    "notes": "Added rfoTags/lifecyclePhase metadata and RFO+legacy FAR bridge language."
+  },
+  {
+    "id": "con3910-154",
+    "original_stem": "A \u2018sole source\u2019 award to a small business program generally requires:",
+    "action_taken": "light_update",
+    "original_citation_text": "Small Business & Competition",
+    "updated_citation_text": "RFO transition reference (Small Business & Competition)",
+    "topic_session_tag": {
+      "session": "Session 3",
+      "competency_tags": [
+        "Contract Principles"
+      ]
+    },
+    "summary_of_change": "Terminology/citation framing updated for RFO transition while preserving competency and answer logic.",
+    "notes": "Added rfoTags/lifecyclePhase metadata and RFO+legacy FAR bridge language."
+  },
+  {
+    "id": "con3910-155",
+    "original_stem": "A purchase card holder must ensure:",
+    "action_taken": "light_update",
+    "original_citation_text": "Micro-Purchase Concepts",
+    "updated_citation_text": "RFO transition reference (Micro-Purchase Concepts)",
+    "topic_session_tag": {
+      "session": "Session 3",
+      "competency_tags": [
+        "Contract Principles"
+      ]
+    },
+    "summary_of_change": "Terminology/citation framing updated for RFO transition while preserving competency and answer logic.",
+    "notes": "Added rfoTags/lifecyclePhase metadata and RFO+legacy FAR bridge language."
+  },
+  {
+    "id": "con3910-156",
+    "original_stem": "The Government must provide for full and open competition unless:",
+    "action_taken": "light_update",
+    "original_citation_text": "Competition Exceptions",
+    "updated_citation_text": "RFO transition reference (Competition Exceptions)",
+    "topic_session_tag": {
+      "session": "Session 3",
+      "competency_tags": [
+        "Plan Sales",
+        "Plan Solicitation",
+        "Prepare Offer",
+        "Request Offers"
+      ]
+    },
+    "summary_of_change": "Terminology/citation framing updated for RFO transition while preserving competency and answer logic.",
+    "notes": "Added rfoTags/lifecyclePhase metadata and RFO+legacy FAR bridge language."
+  },
+  {
+    "id": "con3910-157",
+    "original_stem": "A \u2018material\u2019 solicitation requirement is one that:",
+    "action_taken": "light_update",
+    "original_citation_text": "Solicitation Integrity",
+    "updated_citation_text": "RFO transition reference (Solicitation Integrity)",
+    "topic_session_tag": {
+      "session": "Session 3",
+      "competency_tags": [
+        "Plan Sales",
+        "Plan Solicitation",
+        "Prepare Offer",
+        "Request Offers"
+      ]
+    },
+    "summary_of_change": "Terminology/citation framing updated for RFO transition while preserving competency and answer logic.",
+    "notes": "Added rfoTags/lifecyclePhase metadata and RFO+legacy FAR bridge language."
+  },
+  {
+    "id": "con3910-158",
+    "original_stem": "If an offeror takes exception to a material solicitation term, the proposal is generally:",
+    "action_taken": "light_update",
+    "original_citation_text": "Evaluation",
+    "updated_citation_text": "RFO transition reference (Evaluation)",
+    "topic_session_tag": {
+      "session": "Session 3",
+      "competency_tags": [
+        "Plan Sales",
+        "Plan Solicitation",
+        "Prepare Offer",
+        "Request Offers"
+      ]
+    },
+    "summary_of_change": "Terminology/citation framing updated for RFO transition while preserving competency and answer logic.",
+    "notes": "Added rfoTags/lifecyclePhase metadata and RFO+legacy FAR bridge language."
+  },
+  {
+    "id": "con3910-159",
+    "original_stem": "A debriefing generally must not include:",
+    "action_taken": "light_update",
+    "original_citation_text": "Debriefings",
+    "updated_citation_text": "RFO transition reference (Debriefings)",
+    "topic_session_tag": {
+      "session": "Session 3",
+      "competency_tags": [
+        "Plan Sales",
+        "Plan Solicitation",
+        "Prepare Offer",
+        "Request Offers"
+      ]
+    },
+    "summary_of_change": "Terminology/citation framing updated for RFO transition while preserving competency and answer logic.",
+    "notes": "Added rfoTags/lifecyclePhase metadata and RFO+legacy FAR bridge language."
+  },
+  {
+    "id": "con3910-160",
+    "original_stem": "A \u2018best value tradeoff\u2019 permits the Government to:",
+    "action_taken": "revise",
+    "original_citation_text": "Best Value",
+    "updated_citation_text": "RFO transition reference (Best Value)",
+    "topic_session_tag": {
+      "session": "Session 3",
+      "competency_tags": [
+        "Plan Solicitation",
+        "Request Offers"
+      ]
+    },
+    "summary_of_change": "Process-focused wording and RFO transition framing updated; competency preserved.",
+    "notes": "Added rfoTags/lifecyclePhase metadata and RFO+legacy FAR bridge language."
+  },
+  {
+    "id": "con3910-161",
+    "original_stem": "Lowest Price Technically Acceptable (LPTA) means:",
+    "action_taken": "revise",
+    "original_citation_text": "Best Value",
+    "updated_citation_text": "RFO transition reference (Best Value)",
+    "topic_session_tag": {
+      "session": "Session 3",
+      "competency_tags": [
+        "Plan Solicitation",
+        "Request Offers"
+      ]
+    },
+    "summary_of_change": "Process-focused wording and RFO transition framing updated; competency preserved.",
+    "notes": "Added rfoTags/lifecyclePhase metadata and RFO+legacy FAR bridge language."
+  },
+  {
+    "id": "con3910-162",
+    "original_stem": "A contract specialist\u2019s role is to:",
+    "action_taken": "light_update",
+    "original_citation_text": "CO Authority Concept",
+    "updated_citation_text": "RFO transition reference (CO Authority Concept)",
+    "topic_session_tag": {
+      "session": "Session 3",
+      "competency_tags": [
+        "Skills and Roles",
+        "Standards of Conduct"
+      ]
+    },
+    "summary_of_change": "Terminology/citation framing updated for RFO transition while preserving competency and answer logic.",
+    "notes": "Added rfoTags/lifecyclePhase metadata and RFO+legacy FAR bridge language."
+  },
+  {
+    "id": "con3910-163",
+    "original_stem": "A COR is appointed to:",
+    "action_taken": "keep",
+    "original_citation_text": "COR",
+    "updated_citation_text": "COR",
+    "topic_session_tag": {
+      "session": "Session 3",
+      "competency_tags": [
+        "Skills and Roles",
+        "Standards of Conduct"
+      ]
+    },
+    "summary_of_change": "No RFO-driven change required; competency and answer logic remain valid.",
+    "notes": "Intentionally retained as valid legacy-aligned content."
+  },
+  {
+    "id": "con3910-164",
+    "original_stem": "The primary purpose of ethics rules in acquisition is to:",
+    "action_taken": "keep",
+    "original_citation_text": "Ethics",
+    "updated_citation_text": "Ethics",
+    "topic_session_tag": {
+      "session": "Session 3",
+      "competency_tags": [
+        "Skills and Roles",
+        "Standards of Conduct"
+      ]
+    },
+    "summary_of_change": "No RFO-driven change required; competency and answer logic remain valid.",
+    "notes": "Intentionally retained as valid legacy-aligned content."
+  },
+  {
+    "id": "con3910-165",
+    "original_stem": "A contractor\u2019s proposal is \u2018technically acceptable\u2019 when it:",
+    "action_taken": "keep",
+    "original_citation_text": "Source Selection Concepts",
+    "updated_citation_text": "Source Selection Concepts",
+    "topic_session_tag": {
+      "session": "Session 3",
+      "competency_tags": [
+        "Plan Sales",
+        "Plan Solicitation",
+        "Prepare Offer",
+        "Request Offers"
+      ]
+    },
+    "summary_of_change": "No RFO-driven change required; competency and answer logic remain valid.",
+    "notes": "Intentionally retained as valid legacy-aligned content."
+  },
+  {
+    "id": "con3910-166",
+    "original_stem": "If the Government wants to consider past performance, it should:",
+    "action_taken": "keep",
+    "original_citation_text": "Past Performance",
+    "updated_citation_text": "Past Performance",
+    "topic_session_tag": {
+      "session": "Session 3",
+      "competency_tags": [
+        "Contract Principles"
+      ]
+    },
+    "summary_of_change": "No RFO-driven change required; competency and answer logic remain valid.",
+    "notes": "Intentionally retained as valid legacy-aligned content."
+  },
+  {
+    "id": "con3910-167",
+    "original_stem": "A minor informality in a bid is:",
+    "action_taken": "keep",
+    "original_citation_text": "Sealed Bidding",
+    "updated_citation_text": "Sealed Bidding",
+    "topic_session_tag": {
+      "session": "Session 3",
+      "competency_tags": [
+        "Contract Principles"
+      ]
+    },
+    "summary_of_change": "No RFO-driven change required; competency and answer logic remain valid.",
+    "notes": "Intentionally retained as valid legacy-aligned content."
+  },
+  {
+    "id": "con3910-168",
+    "original_stem": "A key principle of source selection is to:",
+    "action_taken": "keep",
+    "original_citation_text": "Evaluation Principles",
+    "updated_citation_text": "Evaluation Principles",
+    "topic_session_tag": {
+      "session": "Session 3",
+      "competency_tags": [
+        "Contract Principles"
+      ]
+    },
+    "summary_of_change": "No RFO-driven change required; competency and answer logic remain valid.",
+    "notes": "Intentionally retained as valid legacy-aligned content."
+  },
+  {
+    "id": "con3910-169",
+    "original_stem": "The purpose of a source selection decision document is to:",
+    "action_taken": "keep",
+    "original_citation_text": "Source Selection",
+    "updated_citation_text": "Source Selection",
+    "topic_session_tag": {
+      "session": "Session 3",
+      "competency_tags": [
+        "Contract Principles"
+      ]
+    },
+    "summary_of_change": "No RFO-driven change required; competency and answer logic remain valid.",
+    "notes": "Intentionally retained as valid legacy-aligned content."
+  },
+  {
+    "id": "con3910-170",
+    "original_stem": "A key risk of using undisclosed evaluation criteria is:",
+    "action_taken": "keep",
+    "original_citation_text": "Evaluation Factors",
+    "updated_citation_text": "Evaluation Factors",
+    "topic_session_tag": {
+      "session": "Session 3",
+      "competency_tags": [
+        "Contract Principles"
+      ]
+    },
+    "summary_of_change": "No RFO-driven change required; competency and answer logic remain valid.",
+    "notes": "Intentionally retained as valid legacy-aligned content."
+  },
+  {
+    "id": "con3910-171",
+    "original_stem": "A contract is formed when there is:",
+    "action_taken": "keep",
+    "original_citation_text": "Authority",
+    "updated_citation_text": "Authority",
+    "topic_session_tag": {
+      "session": "Session 3",
+      "competency_tags": [
+        "Contract Principles"
+      ]
+    },
+    "summary_of_change": "No RFO-driven change required; competency and answer logic remain valid.",
+    "notes": "Intentionally retained as valid legacy-aligned content."
+  },
+  {
+    "id": "con3910-172",
+    "original_stem": "A key control to prevent unauthorized commitments is:",
+    "action_taken": "keep",
+    "original_citation_text": "Unauthorized Commitments",
+    "updated_citation_text": "Unauthorized Commitments",
+    "topic_session_tag": {
+      "session": "Session 3",
+      "competency_tags": [
+        "Skills and Roles",
+        "Standards of Conduct"
+      ]
+    },
+    "summary_of_change": "No RFO-driven change required; competency and answer logic remain valid.",
+    "notes": "Intentionally retained as valid legacy-aligned content."
+  },
+  {
+    "id": "con3910-173",
+    "original_stem": "A key element of documentation for price reasonableness is:",
+    "action_taken": "keep",
+    "original_citation_text": "Price Analysis",
+    "updated_citation_text": "Price Analysis",
+    "topic_session_tag": {
+      "session": "Session 3",
+      "competency_tags": [
+        "Plan Sales",
+        "Plan Solicitation",
+        "Prepare Offer",
+        "Request Offers"
+      ]
+    },
+    "summary_of_change": "No RFO-driven change required; competency and answer logic remain valid.",
+    "notes": "Intentionally retained as valid legacy-aligned content."
+  },
+  {
+    "id": "con3910-174",
+    "original_stem": "When adequate price competition exists, price reasonableness can often be established by:",
+    "action_taken": "keep",
+    "original_citation_text": "Price Analysis",
+    "updated_citation_text": "Price Analysis",
+    "topic_session_tag": {
+      "session": "Session 3",
+      "competency_tags": [
+        "Plan Sales",
+        "Plan Solicitation",
+        "Prepare Offer",
+        "Request Offers"
+      ]
+    },
+    "summary_of_change": "No RFO-driven change required; competency and answer logic remain valid.",
+    "notes": "Intentionally retained as valid legacy-aligned content."
+  },
+  {
+    "id": "con3910-175",
+    "original_stem": "A key risk if the Government accepts a very low bid without assessing capability is:",
+    "action_taken": "keep",
+    "original_citation_text": "Responsibility/Realism Concepts",
+    "updated_citation_text": "Responsibility/Realism Concepts",
+    "topic_session_tag": {
+      "session": "Session 3",
+      "competency_tags": [
+        "Contract Principles"
+      ]
+    },
+    "summary_of_change": "No RFO-driven change required; competency and answer logic remain valid.",
+    "notes": "Intentionally retained as valid legacy-aligned content."
+  },
+  {
+    "id": "con3910-176",
+    "original_stem": "A contract with options must:",
+    "action_taken": "keep",
+    "original_citation_text": "Options",
+    "updated_citation_text": "Options",
+    "topic_session_tag": {
+      "session": "Session 3",
+      "competency_tags": [
+        "Contract Principles"
+      ]
+    },
+    "summary_of_change": "No RFO-driven change required; competency and answer logic remain valid.",
+    "notes": "Intentionally retained as valid legacy-aligned content."
+  },
+  {
+    "id": "con3910-177",
+    "original_stem": "When an offer is \u2018late\u2019 under negotiated procurement, it is generally:",
+    "action_taken": "keep",
+    "original_citation_text": "Late Proposals",
+    "updated_citation_text": "Late Proposals",
+    "topic_session_tag": {
+      "session": "Session 3",
+      "competency_tags": [
+        "Contract Principles"
+      ]
+    },
+    "summary_of_change": "No RFO-driven change required; competency and answer logic remain valid.",
+    "notes": "Intentionally retained as valid legacy-aligned content."
+  },
+  {
+    "id": "con3910-178",
+    "original_stem": "The Government should protect source selection information because:",
+    "action_taken": "keep",
+    "original_citation_text": "Integrity",
+    "updated_citation_text": "Integrity",
+    "topic_session_tag": {
+      "session": "Session 3",
+      "competency_tags": [
+        "Contract Principles"
+      ]
+    },
+    "summary_of_change": "No RFO-driven change required; competency and answer logic remain valid.",
+    "notes": "Intentionally retained as valid legacy-aligned content."
+  },
+  {
+    "id": "con3910-179",
+    "original_stem": "A key objective of acquisition planning is to:",
+    "action_taken": "keep",
+    "original_citation_text": "Acquisition Planning",
+    "updated_citation_text": "Acquisition Planning",
+    "topic_session_tag": {
+      "session": "Session 3",
+      "competency_tags": [
+        "Contract Principles"
+      ]
+    },
+    "summary_of_change": "No RFO-driven change required; competency and answer logic remain valid.",
+    "notes": "Intentionally retained as valid legacy-aligned content."
+  },
+  {
+    "id": "con3910-180",
+    "original_stem": "A key indicator that a requirement is ready to solicit is:",
+    "action_taken": "keep",
+    "original_citation_text": "Describing Needs / Planning",
+    "updated_citation_text": "Describing Needs / Planning",
+    "topic_session_tag": {
+      "session": "Session 3",
+      "competency_tags": [
+        "Contract Principles"
+      ]
+    },
+    "summary_of_change": "No RFO-driven change required; competency and answer logic remain valid.",
+    "notes": "Intentionally retained as valid legacy-aligned content."
+  }
+]
