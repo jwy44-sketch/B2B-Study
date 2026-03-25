@@ -7,7 +7,7 @@ export type ScenarioQuestion = {
   choices: { id: 'A' | 'B' | 'C' | 'D'; text: string }[];
   correctChoiceId: 'A' | 'B' | 'C' | 'D';
   explanation: string;
-  sourceSet: 'con3990v-scenario-bank';
+  sourceSet: 'con3990v-scenario-bank-s1-s3';
   batch: 'part-1' | 'part-2';
   difficulty?: 'easy' | 'medium' | 'hard';
 };
@@ -26,7 +26,7 @@ export const scenarioQuestionsPart1: ScenarioQuestion[] = [
     ],
     correctChoiceId: 'B',
     explanation: 'Requirements should be described in terms of performance or essential characteristics and should not be unnecessarily restrictive when commercial alternatives can meet the need.',
-    sourceSet: 'con3990v-scenario-bank',
+    sourceSet: 'con3990v-scenario-bank-s1-s3',
     batch: 'part-1',
     difficulty: 'medium'
   },
@@ -43,7 +43,7 @@ export const scenarioQuestionsPart1: ScenarioQuestion[] = [
     ],
     correctChoiceId: 'B',
     explanation: 'Acquisition planning begins as soon as the agency need is identified so strategy, funding, market research, and schedule can be aligned early.',
-    sourceSet: 'con3990v-scenario-bank',
+    sourceSet: 'con3990v-scenario-bank-s1-s3',
     batch: 'part-1',
     difficulty: 'easy'
   },
@@ -60,7 +60,7 @@ export const scenarioQuestionsPart1: ScenarioQuestion[] = [
     ],
     correctChoiceId: 'B',
     explanation: 'Market research is a continuous process and should be appropriate to the circumstances, even for recurring requirements.',
-    sourceSet: 'con3990v-scenario-bank',
+    sourceSet: 'con3990v-scenario-bank-s1-s3',
     batch: 'part-1',
     difficulty: 'easy'
   },
@@ -77,7 +77,7 @@ export const scenarioQuestionsPart1: ScenarioQuestion[] = [
     ],
     correctChoiceId: 'B',
     explanation: 'Performance-based acquisitions focus on required outcomes, standards, and surveillance, not unnecessarily prescriptive methods.',
-    sourceSet: 'con3990v-scenario-bank',
+    sourceSet: 'con3990v-scenario-bank-s1-s3',
     batch: 'part-1',
     difficulty: 'medium'
   },
@@ -94,7 +94,7 @@ export const scenarioQuestionsPart1: ScenarioQuestion[] = [
     ],
     correctChoiceId: 'B',
     explanation: 'Contracting officers should consider structuring acquisitions in reasonably small lots when practical to encourage small business participation.',
-    sourceSet: 'con3990v-scenario-bank',
+    sourceSet: 'con3990v-scenario-bank-s1-s3',
     batch: 'part-1',
     difficulty: 'easy'
   },
@@ -111,7 +111,7 @@ export const scenarioQuestionsPart1: ScenarioQuestion[] = [
     ],
     correctChoiceId: 'B',
     explanation: 'Realistic response periods help preserve competition and support small business participation to the extent consistent with actual requirements.',
-    sourceSet: 'con3990v-scenario-bank',
+    sourceSet: 'con3990v-scenario-bank-s1-s3',
     batch: 'part-1',
     difficulty: 'medium'
   },
@@ -128,7 +128,7 @@ export const scenarioQuestionsPart1: ScenarioQuestion[] = [
     ],
     correctChoiceId: 'A',
     explanation: 'Before award, the contracting officer must ensure funds are available and that the action complies with applicable requirements.',
-    sourceSet: 'con3990v-scenario-bank',
+    sourceSet: 'con3990v-scenario-bank-s1-s3',
     batch: 'part-1',
     difficulty: 'easy'
   },
@@ -145,7 +145,7 @@ export const scenarioQuestionsPart1: ScenarioQuestion[] = [
     ],
     correctChoiceId: 'B',
     explanation: "Government property should be furnished only when it is in the Government's best interest after considering benefits, administrative cost, and risk.",
-    sourceSet: 'con3990v-scenario-bank',
+    sourceSet: 'con3990v-scenario-bank-s1-s3',
     batch: 'part-1',
     difficulty: 'medium'
   },
@@ -162,7 +162,7 @@ export const scenarioQuestionsPart1: ScenarioQuestion[] = [
     ],
     correctChoiceId: 'B',
     explanation: 'The FAR expresses a preference for commercial products and services when they can meet agency needs to the maximum extent practicable.',
-    sourceSet: 'con3990v-scenario-bank',
+    sourceSet: 'con3990v-scenario-bank-s1-s3',
     batch: 'part-1',
     difficulty: 'easy'
   },
@@ -179,7 +179,7 @@ export const scenarioQuestionsPart1: ScenarioQuestion[] = [
     ],
     correctChoiceId: 'B',
     explanation: "The absorbed study materials describe strategic and tactical market research rather than 'simple' and 'complex.'",
-    sourceSet: 'con3990v-scenario-bank',
+    sourceSet: 'con3990v-scenario-bank-s1-s3',
     batch: 'part-1',
     difficulty: 'easy'
   },
@@ -196,7 +196,7 @@ export const scenarioQuestionsPart1: ScenarioQuestion[] = [
     ],
     correctChoiceId: 'B',
     explanation: 'The pre-award phase in the course materials emphasizes requirements determination, market research, acquisition planning, and request-offers activities.',
-    sourceSet: 'con3990v-scenario-bank',
+    sourceSet: 'con3990v-scenario-bank-s1-s3',
     batch: 'part-1',
     difficulty: 'easy'
   },
@@ -213,7 +213,7 @@ export const scenarioQuestionsPart1: ScenarioQuestion[] = [
     ],
     correctChoiceId: 'A',
     explanation: 'Restrictive brand-name descriptions require support; otherwise the requirement should permit equal products based on salient or essential characteristics.',
-    sourceSet: 'con3990v-scenario-bank',
+    sourceSet: 'con3990v-scenario-bank-s1-s3',
     batch: 'part-1',
     difficulty: 'medium'
   },
@@ -230,7 +230,7 @@ export const scenarioQuestionsPart1: ScenarioQuestion[] = [
     ],
     correctChoiceId: 'A',
     explanation: 'Mandatory sources must be considered before choosing other procurement approaches.',
-    sourceSet: 'con3990v-scenario-bank',
+    sourceSet: 'con3990v-scenario-bank-s1-s3',
     batch: 'part-1',
     difficulty: 'easy'
   },
@@ -247,7 +247,7 @@ export const scenarioQuestionsPart1: ScenarioQuestion[] = [
     ],
     correctChoiceId: 'B',
     explanation: 'Market research supports requirement development and planning regardless of whether the eventual solicitation uses Part 12 procedures.',
-    sourceSet: 'con3990v-scenario-bank',
+    sourceSet: 'con3990v-scenario-bank-s1-s3',
     batch: 'part-1',
     difficulty: 'medium'
   },
@@ -264,7 +264,7 @@ export const scenarioQuestionsPart1: ScenarioQuestion[] = [
     ],
     correctChoiceId: 'B',
     explanation: 'Delivery schedules should be realistic and support small business participation to the extent consistent with actual requirements.',
-    sourceSet: 'con3990v-scenario-bank',
+    sourceSet: 'con3990v-scenario-bank-s1-s3',
     batch: 'part-1',
     difficulty: 'medium'
   },
@@ -281,7 +281,7 @@ export const scenarioQuestionsPart1: ScenarioQuestion[] = [
     ],
     correctChoiceId: 'B',
     explanation: 'Requirements should be measurable and tied to clear acceptance/performance standards rather than vague descriptions.',
-    sourceSet: 'con3990v-scenario-bank',
+    sourceSet: 'con3990v-scenario-bank-s1-s3',
     batch: 'part-1',
     difficulty: 'easy'
   },
@@ -298,7 +298,7 @@ export const scenarioQuestionsPart1: ScenarioQuestion[] = [
     ],
     correctChoiceId: 'B',
     explanation: 'The FAQ explains that approximately 30 percent of the bank will be affected, but core contracting competencies remain substantially the same.',
-    sourceSet: 'con3990v-scenario-bank',
+    sourceSet: 'con3990v-scenario-bank-s1-s3',
     batch: 'part-1',
     difficulty: 'easy'
   },
@@ -315,7 +315,7 @@ export const scenarioQuestionsPart1: ScenarioQuestion[] = [
     ],
     correctChoiceId: 'B',
     explanation: 'The FAQ states that recent threshold updates do not impact the questions or answers as currently structured.',
-    sourceSet: 'con3990v-scenario-bank',
+    sourceSet: 'con3990v-scenario-bank-s1-s3',
     batch: 'part-1',
     difficulty: 'easy'
   },
@@ -332,7 +332,7 @@ export const scenarioQuestionsPart1: ScenarioQuestion[] = [
     ],
     correctChoiceId: 'A',
     explanation: 'The Government should minimize restrictive provisions and describe needs by function, performance, and essential characteristics whenever possible.',
-    sourceSet: 'con3990v-scenario-bank',
+    sourceSet: 'con3990v-scenario-bank-s1-s3',
     batch: 'part-1',
     difficulty: 'medium'
   },
@@ -349,7 +349,7 @@ export const scenarioQuestionsPart1: ScenarioQuestion[] = [
     ],
     correctChoiceId: 'B',
     explanation: 'The course materials explicitly frame pre-award as involving both Government and industry activities, including buying-side and selling-side actions.',
-    sourceSet: 'con3990v-scenario-bank',
+    sourceSet: 'con3990v-scenario-bank-s1-s3',
     batch: 'part-1',
     difficulty: 'medium'
   },
@@ -366,7 +366,7 @@ export const scenarioQuestionsPart1: ScenarioQuestion[] = [
     ],
     correctChoiceId: 'B',
     explanation: 'When award without discussions is contemplated, exchanges are limited to clarifications for minor or clerical matters.',
-    sourceSet: 'con3990v-scenario-bank',
+    sourceSet: 'con3990v-scenario-bank-s1-s3',
     batch: 'part-1',
     difficulty: 'medium'
   },
@@ -383,7 +383,7 @@ export const scenarioQuestionsPart1: ScenarioQuestion[] = [
     ],
     correctChoiceId: 'B',
     explanation: 'Under FAR Part 15 source selection, the competitive range is established before discussions are conducted.',
-    sourceSet: 'con3990v-scenario-bank',
+    sourceSet: 'con3990v-scenario-bank-s1-s3',
     batch: 'part-1',
     difficulty: 'medium'
   },
@@ -400,7 +400,7 @@ export const scenarioQuestionsPart1: ScenarioQuestion[] = [
     ],
     correctChoiceId: 'B',
     explanation: 'If the exchange allows or requires a material proposal revision, it is a discussion, not a clarification.',
-    sourceSet: 'con3990v-scenario-bank',
+    sourceSet: 'con3990v-scenario-bank-s1-s3',
     batch: 'part-1',
     difficulty: 'medium'
   },
@@ -417,7 +417,7 @@ export const scenarioQuestionsPart1: ScenarioQuestion[] = [
     ],
     correctChoiceId: 'A',
     explanation: 'In competitive source selection, adequate price competition is a primary basis for fair and reasonable price determination.',
-    sourceSet: 'con3990v-scenario-bank',
+    sourceSet: 'con3990v-scenario-bank-s1-s3',
     batch: 'part-1',
     difficulty: 'easy'
   },
@@ -434,7 +434,7 @@ export const scenarioQuestionsPart1: ScenarioQuestion[] = [
     ],
     correctChoiceId: 'B',
     explanation: 'In sole-source negotiation, the Government prepares a pre-negotiation objective/memorandum before entering negotiations.',
-    sourceSet: 'con3990v-scenario-bank',
+    sourceSet: 'con3990v-scenario-bank-s1-s3',
     batch: 'part-1',
     difficulty: 'medium'
   },
@@ -451,7 +451,7 @@ export const scenarioQuestionsPart1: ScenarioQuestion[] = [
     ],
     correctChoiceId: 'B',
     explanation: 'Sole-source negotiation requires cost and/or price analysis, and sometimes technical analysis, because adequate competition is absent.',
-    sourceSet: 'con3990v-scenario-bank',
+    sourceSet: 'con3990v-scenario-bank-s1-s3',
     batch: 'part-1',
     difficulty: 'medium'
   },
@@ -468,7 +468,7 @@ export const scenarioQuestionsPart1: ScenarioQuestion[] = [
     ],
     correctChoiceId: 'B',
     explanation: 'The study materials and FAR Part 15 distinguish clarifications from communications by timing and purpose.',
-    sourceSet: 'con3990v-scenario-bank',
+    sourceSet: 'con3990v-scenario-bank-s1-s3',
     batch: 'part-1',
     difficulty: 'medium'
   },
@@ -485,7 +485,7 @@ export const scenarioQuestionsPart1: ScenarioQuestion[] = [
     ],
     correctChoiceId: 'B',
     explanation: 'Offerors excluded from the competitive range must receive notice, and debriefing timelines become important.',
-    sourceSet: 'con3990v-scenario-bank',
+    sourceSet: 'con3990v-scenario-bank-s1-s3',
     batch: 'part-1',
     difficulty: 'medium'
   },
@@ -502,7 +502,7 @@ export const scenarioQuestionsPart1: ScenarioQuestion[] = [
     ],
     correctChoiceId: 'B',
     explanation: 'Competitive source selections use source-selection documentation, while sole-source negotiations use negotiation memoranda and pricing support documents.',
-    sourceSet: 'con3990v-scenario-bank',
+    sourceSet: 'con3990v-scenario-bank-s1-s3',
     batch: 'part-1',
     difficulty: 'medium'
   },
@@ -519,7 +519,7 @@ export const scenarioQuestionsPart1: ScenarioQuestion[] = [
     ],
     correctChoiceId: 'B',
     explanation: 'Receiving one proposal does not automatically create adequate price competition; the contracting officer must still analyze price reasonableness.',
-    sourceSet: 'con3990v-scenario-bank',
+    sourceSet: 'con3990v-scenario-bank-s1-s3',
     batch: 'part-1',
     difficulty: 'medium'
   },
@@ -536,7 +536,7 @@ export const scenarioQuestionsPart1: ScenarioQuestion[] = [
     ],
     correctChoiceId: 'B',
     explanation: "Meaningful discussions identify deficiencies and significant weaknesses but must not coach, level, or disclose another offeror's solution.",
-    sourceSet: 'con3990v-scenario-bank',
+    sourceSet: 'con3990v-scenario-bank-s1-s3',
     batch: 'part-1',
     difficulty: 'hard'
   },
@@ -553,7 +553,7 @@ export const scenarioQuestionsPart1: ScenarioQuestion[] = [
     ],
     correctChoiceId: 'B',
     explanation: 'In sole-source settings above the threshold with no exception, certified cost or pricing data may be required.',
-    sourceSet: 'con3990v-scenario-bank',
+    sourceSet: 'con3990v-scenario-bank-s1-s3',
     batch: 'part-1',
     difficulty: 'hard'
   },
@@ -570,7 +570,7 @@ export const scenarioQuestionsPart1: ScenarioQuestion[] = [
     ],
     correctChoiceId: 'A',
     explanation: 'The best value decision in a competitive source selection is documented in the Source Selection Decision Document.',
-    sourceSet: 'con3990v-scenario-bank',
+    sourceSet: 'con3990v-scenario-bank-s1-s3',
     batch: 'part-1',
     difficulty: 'medium'
   },
@@ -587,7 +587,7 @@ export const scenarioQuestionsPart1: ScenarioQuestion[] = [
     ],
     correctChoiceId: 'A',
     explanation: 'In competitive cost-reimbursement settings, cost realism/probable cost matters because the Government bears the cost risk.',
-    sourceSet: 'con3990v-scenario-bank',
+    sourceSet: 'con3990v-scenario-bank-s1-s3',
     batch: 'part-1',
     difficulty: 'hard'
   },
@@ -604,7 +604,7 @@ export const scenarioQuestionsPart1: ScenarioQuestion[] = [
     ],
     correctChoiceId: 'B',
     explanation: 'The course materials distinguish fact finding in sole-source negotiation from the structured exchange types used in competitive source selection.',
-    sourceSet: 'con3990v-scenario-bank',
+    sourceSet: 'con3990v-scenario-bank-s1-s3',
     batch: 'part-1',
     difficulty: 'hard'
   },
@@ -621,7 +621,7 @@ export const scenarioQuestionsPart1: ScenarioQuestion[] = [
     ],
     correctChoiceId: 'B',
     explanation: 'Competitive source selections must evaluate proposals in accordance with the factors and subfactors stated in the solicitation.',
-    sourceSet: 'con3990v-scenario-bank',
+    sourceSet: 'con3990v-scenario-bank-s1-s3',
     batch: 'part-1',
     difficulty: 'hard'
   },
@@ -638,7 +638,7 @@ export const scenarioQuestionsPart1: ScenarioQuestion[] = [
     ],
     correctChoiceId: 'B',
     explanation: 'The Government may state an intent to award with or without discussions, which drives the allowable exchange structure.',
-    sourceSet: 'con3990v-scenario-bank',
+    sourceSet: 'con3990v-scenario-bank-s1-s3',
     batch: 'part-1',
     difficulty: 'medium'
   },
@@ -655,7 +655,7 @@ export const scenarioQuestionsPart1: ScenarioQuestion[] = [
     ],
     correctChoiceId: 'B',
     explanation: 'If the Government wants proposal revisions under Part 15, it establishes the competitive range and then conducts discussions before requesting final proposal revisions.',
-    sourceSet: 'con3990v-scenario-bank',
+    sourceSet: 'con3990v-scenario-bank-s1-s3',
     batch: 'part-1',
     difficulty: 'hard'
   },
@@ -672,7 +672,7 @@ export const scenarioQuestionsPart1: ScenarioQuestion[] = [
     ],
     correctChoiceId: 'B',
     explanation: 'DoD structured profit analysis commonly uses DD Form 1547.',
-    sourceSet: 'con3990v-scenario-bank',
+    sourceSet: 'con3990v-scenario-bank-s1-s3',
     batch: 'part-1',
     difficulty: 'medium'
   },
@@ -689,7 +689,7 @@ export const scenarioQuestionsPart1: ScenarioQuestion[] = [
     ],
     correctChoiceId: 'B',
     explanation: 'The exchange aid highlights different debriefing timelines and options based on status in the process.',
-    sourceSet: 'con3990v-scenario-bank',
+    sourceSet: 'con3990v-scenario-bank-s1-s3',
     batch: 'part-1',
     difficulty: 'hard'
   },
@@ -706,7 +706,7 @@ export const scenarioQuestionsPart1: ScenarioQuestion[] = [
     ],
     correctChoiceId: 'A',
     explanation: 'SF 1449 is the standard form used for commercial item solicitations/contracts/orders above the SAT.',
-    sourceSet: 'con3990v-scenario-bank',
+    sourceSet: 'con3990v-scenario-bank-s1-s3',
     batch: 'part-1',
     difficulty: 'easy'
   },
@@ -723,7 +723,7 @@ export const scenarioQuestionsPart1: ScenarioQuestion[] = [
     ],
     correctChoiceId: 'B',
     explanation: 'SF 30 is used to amend solicitations and modify contracts.',
-    sourceSet: 'con3990v-scenario-bank',
+    sourceSet: 'con3990v-scenario-bank-s1-s3',
     batch: 'part-1',
     difficulty: 'easy'
   },
@@ -740,7 +740,7 @@ export const scenarioQuestionsPart1: ScenarioQuestion[] = [
     ],
     correctChoiceId: 'A',
     explanation: 'SF 1409 is the Abstract of Offers used for recording bids.',
-    sourceSet: 'con3990v-scenario-bank',
+    sourceSet: 'con3990v-scenario-bank-s1-s3',
     batch: 'part-1',
     difficulty: 'easy'
   },
@@ -757,7 +757,7 @@ export const scenarioQuestionsPart1: ScenarioQuestion[] = [
     ],
     correctChoiceId: 'A',
     explanation: 'SF 26 is used to award negotiated contracts when signatures of both parties on a single document are appropriate.',
-    sourceSet: 'con3990v-scenario-bank',
+    sourceSet: 'con3990v-scenario-bank-s1-s3',
     batch: 'part-1',
     difficulty: 'easy'
   },
@@ -774,7 +774,7 @@ export const scenarioQuestionsPart1: ScenarioQuestion[] = [
     ],
     correctChoiceId: 'B',
     explanation: 'The study materials note SF 1449 is required for certain commercial buys above the SAT and encouraged below it.',
-    sourceSet: 'con3990v-scenario-bank',
+    sourceSet: 'con3990v-scenario-bank-s1-s3',
     batch: 'part-1',
     difficulty: 'easy'
   },
@@ -791,7 +791,7 @@ export const scenarioQuestionsPart1: ScenarioQuestion[] = [
     ],
     correctChoiceId: 'A',
     explanation: 'DD 1155 is used for placing orders under indefinite-delivery contracts or when SF 1449 is not used under SAP.',
-    sourceSet: 'con3990v-scenario-bank',
+    sourceSet: 'con3990v-scenario-bank-s1-s3',
     batch: 'part-1',
     difficulty: 'easy'
   },
@@ -808,7 +808,7 @@ export const scenarioQuestionsPart1: ScenarioQuestion[] = [
     ],
     correctChoiceId: 'A',
     explanation: 'Section M contains evaluation factors for award.',
-    sourceSet: 'con3990v-scenario-bank',
+    sourceSet: 'con3990v-scenario-bank-s1-s3',
     batch: 'part-1',
     difficulty: 'easy'
   },
@@ -825,7 +825,7 @@ export const scenarioQuestionsPart1: ScenarioQuestion[] = [
     ],
     correctChoiceId: 'C',
     explanation: 'Section L contains instructions, conditions, and notices to offerors.',
-    sourceSet: 'con3990v-scenario-bank',
+    sourceSet: 'con3990v-scenario-bank-s1-s3',
     batch: 'part-1',
     difficulty: 'easy'
   },
@@ -842,7 +842,7 @@ export const scenarioQuestionsPart1: ScenarioQuestion[] = [
     ],
     correctChoiceId: 'A',
     explanation: 'Section H is used for special contract requirements.',
-    sourceSet: 'con3990v-scenario-bank',
+    sourceSet: 'con3990v-scenario-bank-s1-s3',
     batch: 'part-1',
     difficulty: 'easy'
   },
@@ -859,7 +859,7 @@ export const scenarioQuestionsPart1: ScenarioQuestion[] = [
     ],
     correctChoiceId: 'A',
     explanation: 'Section I contains contract clauses, which are incorporated by reference to the maximum extent practicable.',
-    sourceSet: 'con3990v-scenario-bank',
+    sourceSet: 'con3990v-scenario-bank-s1-s3',
     batch: 'part-1',
     difficulty: 'easy'
   }

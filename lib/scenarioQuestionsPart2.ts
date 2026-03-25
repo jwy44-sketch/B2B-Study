@@ -14,7 +14,7 @@ export const scenarioQuestionsPart2: ScenarioQuestion[] = [
     ],
     correctChoiceId: 'B',
     explanation: 'Stable commercial requirements generally support fixed-price contracting, not cost-reimbursement.',
-    sourceSet: 'con3990v-scenario-bank',
+    sourceSet: 'con3990v-scenario-bank-s1-s3',
     batch: 'part-2',
     difficulty: 'easy'
   },
@@ -31,7 +31,7 @@ export const scenarioQuestionsPart2: ScenarioQuestion[] = [
     ],
     correctChoiceId: 'B',
     explanation: 'When work can be clearly defined and reasonably priced, firm-fixed-price is generally the preferred contract type.',
-    sourceSet: 'con3990v-scenario-bank',
+    sourceSet: 'con3990v-scenario-bank-s1-s3',
     batch: 'part-2',
     difficulty: 'easy'
   },
@@ -48,7 +48,7 @@ export const scenarioQuestionsPart2: ScenarioQuestion[] = [
     ],
     correctChoiceId: 'B',
     explanation: 'Time-and-materials places more cost risk on the Government and requires careful monitoring.',
-    sourceSet: 'con3990v-scenario-bank',
+    sourceSet: 'con3990v-scenario-bank-s1-s3',
     batch: 'part-2',
     difficulty: 'medium'
   },
@@ -65,7 +65,7 @@ export const scenarioQuestionsPart2: ScenarioQuestion[] = [
     ],
     correctChoiceId: 'C',
     explanation: 'Firm-fixed-price places the greatest cost risk on the contractor.',
-    sourceSet: 'con3990v-scenario-bank',
+    sourceSet: 'con3990v-scenario-bank-s1-s3',
     batch: 'part-2',
     difficulty: 'easy'
   },
@@ -82,7 +82,7 @@ export const scenarioQuestionsPart2: ScenarioQuestion[] = [
     ],
     correctChoiceId: 'C',
     explanation: 'Cost-plus-percentage-of-cost contracts are prohibited.',
-    sourceSet: 'con3990v-scenario-bank',
+    sourceSet: 'con3990v-scenario-bank-s1-s3',
     batch: 'part-2',
     difficulty: 'easy'
   },
@@ -99,7 +99,7 @@ export const scenarioQuestionsPart2: ScenarioQuestion[] = [
     ],
     correctChoiceId: 'A',
     explanation: 'The absorbed price component material states that contract price is built from cost plus profit/fee.',
-    sourceSet: 'con3990v-scenario-bank',
+    sourceSet: 'con3990v-scenario-bank-s1-s3',
     batch: 'part-2',
     difficulty: 'easy'
   },
@@ -116,7 +116,7 @@ export const scenarioQuestionsPart2: ScenarioQuestion[] = [
     ],
     correctChoiceId: 'B',
     explanation: 'Subcontracts can be part of direct cost in the contract price structure.',
-    sourceSet: 'con3990v-scenario-bank',
+    sourceSet: 'con3990v-scenario-bank-s1-s3',
     batch: 'part-2',
     difficulty: 'easy'
   },
@@ -133,7 +133,7 @@ export const scenarioQuestionsPart2: ScenarioQuestion[] = [
     ],
     correctChoiceId: 'A',
     explanation: 'Direct costs are traceable to the specific contract, while indirect costs are allocated through broader cost pools.',
-    sourceSet: 'con3990v-scenario-bank',
+    sourceSet: 'con3990v-scenario-bank-s1-s3',
     batch: 'part-2',
     difficulty: 'medium'
   },
@@ -150,7 +150,7 @@ export const scenarioQuestionsPart2: ScenarioQuestion[] = [
     ],
     correctChoiceId: 'B',
     explanation: 'Technical analysis may be used to support price/cost evaluation and negotiation in sole-source settings.',
-    sourceSet: 'con3990v-scenario-bank',
+    sourceSet: 'con3990v-scenario-bank-s1-s3',
     batch: 'part-2',
     difficulty: 'medium'
   },
@@ -167,7 +167,7 @@ export const scenarioQuestionsPart2: ScenarioQuestion[] = [
     ],
     correctChoiceId: 'B',
     explanation: 'Sole-source negotiation relies on price/cost analysis and pre-negotiation objectives rather than competition-based pricing.',
-    sourceSet: 'con3990v-scenario-bank',
+    sourceSet: 'con3990v-scenario-bank-s1-s3',
     batch: 'part-2',
     difficulty: 'medium'
   },
@@ -184,7 +184,7 @@ export const scenarioQuestionsPart2: ScenarioQuestion[] = [
     ],
     correctChoiceId: 'A',
     explanation: 'The absorbed sole-source negotiation materials specifically mention field pricing support and audit assistance.',
-    sourceSet: 'con3990v-scenario-bank',
+    sourceSet: 'con3990v-scenario-bank-s1-s3',
     batch: 'part-2',
     difficulty: 'medium'
   },
@@ -201,7 +201,7 @@ export const scenarioQuestionsPart2: ScenarioQuestion[] = [
     ],
     correctChoiceId: 'B',
     explanation: 'The absorbed sole-source process specifically references business clearance approvals.',
-    sourceSet: 'con3990v-scenario-bank',
+    sourceSet: 'con3990v-scenario-bank-s1-s3',
     batch: 'part-2',
     difficulty: 'medium'
   },
@@ -218,7 +218,7 @@ export const scenarioQuestionsPart2: ScenarioQuestion[] = [
     ],
     correctChoiceId: 'B',
     explanation: 'Factors and subfactors must come from the solicitation and be evaluated in accordance with it.',
-    sourceSet: 'con3990v-scenario-bank',
+    sourceSet: 'con3990v-scenario-bank-s1-s3',
     batch: 'part-2',
     difficulty: 'easy'
   },
@@ -235,7 +235,7 @@ export const scenarioQuestionsPart2: ScenarioQuestion[] = [
     ],
     correctChoiceId: 'A',
     explanation: 'The absorbed competitive source-selection reference mentions issuance of evaluation notices in the source-selection context.',
-    sourceSet: 'con3990v-scenario-bank',
+    sourceSet: 'con3990v-scenario-bank-s1-s3',
     batch: 'part-2',
     difficulty: 'medium'
   },
@@ -252,7 +252,7 @@ export const scenarioQuestionsPart2: ScenarioQuestion[] = [
     ],
     correctChoiceId: 'B',
     explanation: 'The absorbed competitive source-selection material ties the best value decision to the Source Selection Authority.',
-    sourceSet: 'con3990v-scenario-bank',
+    sourceSet: 'con3990v-scenario-bank-s1-s3',
     batch: 'part-2',
     difficulty: 'easy'
   },
@@ -269,7 +269,7 @@ export const scenarioQuestionsPart2: ScenarioQuestion[] = [
     ],
     correctChoiceId: 'B',
     explanation: 'The absorbed material explicitly contrasts sole-source negotiation and competitive source selection as distinct processes within FAR Part 15.',
-    sourceSet: 'con3990v-scenario-bank',
+    sourceSet: 'con3990v-scenario-bank-s1-s3',
     batch: 'part-2',
     difficulty: 'hard'
   },
@@ -286,7 +286,7 @@ export const scenarioQuestionsPart2: ScenarioQuestion[] = [
     ],
     correctChoiceId: 'B',
     explanation: 'Debriefings are intended to explain the evaluation and award decision within permitted disclosure limits.',
-    sourceSet: 'con3990v-scenario-bank',
+    sourceSet: 'con3990v-scenario-bank-s1-s3',
     batch: 'part-2',
     difficulty: 'easy'
   },
@@ -303,7 +303,7 @@ export const scenarioQuestionsPart2: ScenarioQuestion[] = [
     ],
     correctChoiceId: 'B',
     explanation: 'The process aids tie debrief timing and type to when an offeror is excluded or loses award.',
-    sourceSet: 'con3990v-scenario-bank',
+    sourceSet: 'con3990v-scenario-bank-s1-s3',
     batch: 'part-2',
     difficulty: 'medium'
   },
@@ -320,7 +320,7 @@ export const scenarioQuestionsPart2: ScenarioQuestion[] = [
     ],
     correctChoiceId: 'B',
     explanation: 'The Government must protect fairness and integrity and avoid giving one vendor unequal access to evaluation-sensitive information.',
-    sourceSet: 'con3990v-scenario-bank',
+    sourceSet: 'con3990v-scenario-bank-s1-s3',
     batch: 'part-2',
     difficulty: 'medium'
   },
@@ -337,7 +337,7 @@ export const scenarioQuestionsPart2: ScenarioQuestion[] = [
     ],
     correctChoiceId: 'B',
     explanation: 'Government personnel should not solicit or accept gifts from contractors or prospective contractors.',
-    sourceSet: 'con3990v-scenario-bank',
+    sourceSet: 'con3990v-scenario-bank-s1-s3',
     batch: 'part-2',
     difficulty: 'easy'
   },
@@ -354,7 +354,7 @@ export const scenarioQuestionsPart2: ScenarioQuestion[] = [
     ],
     correctChoiceId: 'A',
     explanation: 'Helping draft requirements can create an OCI because the contractor may have biased the ground rules.',
-    sourceSet: 'con3990v-scenario-bank',
+    sourceSet: 'con3990v-scenario-bank-s1-s3',
     batch: 'part-2',
     difficulty: 'medium'
   },
@@ -371,7 +371,7 @@ export const scenarioQuestionsPart2: ScenarioQuestion[] = [
     ],
     correctChoiceId: 'A',
     explanation: 'Access to nonpublic information can create an unequal-access OCI concern.',
-    sourceSet: 'con3990v-scenario-bank',
+    sourceSet: 'con3990v-scenario-bank-s1-s3',
     batch: 'part-2',
     difficulty: 'easy'
   },
@@ -388,7 +388,7 @@ export const scenarioQuestionsPart2: ScenarioQuestion[] = [
     ],
     correctChoiceId: 'B',
     explanation: 'The course materials emphasize communication and documentation as foundational to defensible contracting.',
-    sourceSet: 'con3990v-scenario-bank',
+    sourceSet: 'con3990v-scenario-bank-s1-s3',
     batch: 'part-2',
     difficulty: 'easy'
   },
@@ -405,7 +405,7 @@ export const scenarioQuestionsPart2: ScenarioQuestion[] = [
     ],
     correctChoiceId: 'B',
     explanation: 'The contract file must support decisions and actions, not just the final result.',
-    sourceSet: 'con3990v-scenario-bank',
+    sourceSet: 'con3990v-scenario-bank-s1-s3',
     batch: 'part-2',
     difficulty: 'easy'
   },
@@ -422,7 +422,7 @@ export const scenarioQuestionsPart2: ScenarioQuestion[] = [
     ],
     correctChoiceId: 'B',
     explanation: 'Situational assessment means the contracting professional evaluates facts and adjusts strategy accordingly.',
-    sourceSet: 'con3990v-scenario-bank',
+    sourceSet: 'con3990v-scenario-bank-s1-s3',
     batch: 'part-2',
     difficulty: 'medium'
   },
@@ -439,7 +439,7 @@ export const scenarioQuestionsPart2: ScenarioQuestion[] = [
     ],
     correctChoiceId: 'B',
     explanation: 'Team dynamics and communication are foundational; early alignment prevents avoidable acquisition failure.',
-    sourceSet: 'con3990v-scenario-bank',
+    sourceSet: 'con3990v-scenario-bank-s1-s3',
     batch: 'part-2',
     difficulty: 'easy'
   },
@@ -456,7 +456,7 @@ export const scenarioQuestionsPart2: ScenarioQuestion[] = [
     ],
     correctChoiceId: 'B',
     explanation: 'Only authorized officials can bind the Government; directing new work without proper authority risks an unauthorized commitment.',
-    sourceSet: 'con3990v-scenario-bank',
+    sourceSet: 'con3990v-scenario-bank-s1-s3',
     batch: 'part-2',
     difficulty: 'easy'
   },
@@ -473,7 +473,7 @@ export const scenarioQuestionsPart2: ScenarioQuestion[] = [
     ],
     correctChoiceId: 'A',
     explanation: "The 'Subset of Acquisitions' material identifies dollar value, subject matter, and contract type as broad categories that drive many rules.",
-    sourceSet: 'con3990v-scenario-bank',
+    sourceSet: 'con3990v-scenario-bank-s1-s3',
     batch: 'part-2',
     difficulty: 'easy'
   },
@@ -490,7 +490,7 @@ export const scenarioQuestionsPart2: ScenarioQuestion[] = [
     ],
     correctChoiceId: 'B',
     explanation: 'Subject matter drives many rule sets, including labor laws, contract format, and applicable FAR parts.',
-    sourceSet: 'con3990v-scenario-bank',
+    sourceSet: 'con3990v-scenario-bank-s1-s3',
     batch: 'part-2',
     difficulty: 'easy'
   },
@@ -507,7 +507,7 @@ export const scenarioQuestionsPart2: ScenarioQuestion[] = [
     ],
     correctChoiceId: 'B',
     explanation: 'The absorbed material notes that contract type affects many downstream rule areas, not just pricing.',
-    sourceSet: 'con3990v-scenario-bank',
+    sourceSet: 'con3990v-scenario-bank-s1-s3',
     batch: 'part-2',
     difficulty: 'medium'
   },
@@ -524,7 +524,7 @@ export const scenarioQuestionsPart2: ScenarioQuestion[] = [
     ],
     correctChoiceId: 'B',
     explanation: 'The absorbed material specifically warns not to confuse special commercial authorities with the SAT threshold.',
-    sourceSet: 'con3990v-scenario-bank',
+    sourceSet: 'con3990v-scenario-bank-s1-s3',
     batch: 'part-2',
     difficulty: 'medium'
   },
@@ -541,7 +541,7 @@ export const scenarioQuestionsPart2: ScenarioQuestion[] = [
     ],
     correctChoiceId: 'B',
     explanation: 'The study aid distinguishes SAP from the standard Part 6 competition framework.',
-    sourceSet: 'con3990v-scenario-bank',
+    sourceSet: 'con3990v-scenario-bank-s1-s3',
     batch: 'part-2',
     difficulty: 'hard'
   },
@@ -558,7 +558,7 @@ export const scenarioQuestionsPart2: ScenarioQuestion[] = [
     ],
     correctChoiceId: 'B',
     explanation: 'Competition may only be limited when a valid authority applies and is properly documented.',
-    sourceSet: 'con3990v-scenario-bank',
+    sourceSet: 'con3990v-scenario-bank-s1-s3',
     batch: 'part-2',
     difficulty: 'easy'
   },
@@ -575,7 +575,7 @@ export const scenarioQuestionsPart2: ScenarioQuestion[] = [
     ],
     correctChoiceId: 'B',
     explanation: 'A claimed urgency rationale is weakened when the urgency results from lack of advance planning.',
-    sourceSet: 'con3990v-scenario-bank',
+    sourceSet: 'con3990v-scenario-bank-s1-s3',
     batch: 'part-2',
     difficulty: 'medium'
   },
@@ -592,7 +592,7 @@ export const scenarioQuestionsPart2: ScenarioQuestion[] = [
     ],
     correctChoiceId: 'B',
     explanation: 'The modification authority chart emphasizes identifying the type and authority of the action first.',
-    sourceSet: 'con3990v-scenario-bank',
+    sourceSet: 'con3990v-scenario-bank-s1-s3',
     batch: 'part-2',
     difficulty: 'easy'
   },
@@ -609,7 +609,7 @@ export const scenarioQuestionsPart2: ScenarioQuestion[] = [
     ],
     correctChoiceId: 'A',
     explanation: 'Administrative changes are unilateral and do not affect substantive rights.',
-    sourceSet: 'con3990v-scenario-bank',
+    sourceSet: 'con3990v-scenario-bank-s1-s3',
     batch: 'part-2',
     difficulty: 'easy'
   },
@@ -626,7 +626,7 @@ export const scenarioQuestionsPart2: ScenarioQuestion[] = [
     ],
     correctChoiceId: 'A',
     explanation: 'After a unilateral change order, negotiated equitable adjustments are typically captured bilaterally.',
-    sourceSet: 'con3990v-scenario-bank',
+    sourceSet: 'con3990v-scenario-bank-s1-s3',
     batch: 'part-2',
     difficulty: 'medium'
   },
@@ -643,7 +643,7 @@ export const scenarioQuestionsPart2: ScenarioQuestion[] = [
     ],
     correctChoiceId: 'B',
     explanation: 'Commercial item changes are generally handled under the commercial terms, which differ from standard noncommercial Changes clauses.',
-    sourceSet: 'con3990v-scenario-bank',
+    sourceSet: 'con3990v-scenario-bank-s1-s3',
     batch: 'part-2',
     difficulty: 'medium'
   },
@@ -660,7 +660,7 @@ export const scenarioQuestionsPart2: ScenarioQuestion[] = [
     ],
     correctChoiceId: 'A',
     explanation: 'Option exercises rely on the applicable contract option clause and proper authority.',
-    sourceSet: 'con3990v-scenario-bank',
+    sourceSet: 'con3990v-scenario-bank-s1-s3',
     batch: 'part-2',
     difficulty: 'easy'
   },
@@ -677,7 +677,7 @@ export const scenarioQuestionsPart2: ScenarioQuestion[] = [
     ],
     correctChoiceId: 'B',
     explanation: 'Modification actions must be supported by the correct authority, whether clause-based, term-based, FAR-based, or mutual agreement as applicable.',
-    sourceSet: 'con3990v-scenario-bank',
+    sourceSet: 'con3990v-scenario-bank-s1-s3',
     batch: 'part-2',
     difficulty: 'easy'
   },
@@ -694,7 +694,7 @@ export const scenarioQuestionsPart2: ScenarioQuestion[] = [
     ],
     correctChoiceId: 'B',
     explanation: 'The absorbed material states that quality assurance applies to both Government and contractor.',
-    sourceSet: 'con3990v-scenario-bank',
+    sourceSet: 'con3990v-scenario-bank-s1-s3',
     batch: 'part-2',
     difficulty: 'easy'
   },
@@ -711,7 +711,7 @@ export const scenarioQuestionsPart2: ScenarioQuestion[] = [
     ],
     correctChoiceId: 'A',
     explanation: 'Steering business to a favored source implicates standards of conduct, fairness, and impartiality.',
-    sourceSet: 'con3990v-scenario-bank',
+    sourceSet: 'con3990v-scenario-bank-s1-s3',
     batch: 'part-2',
     difficulty: 'easy'
   },
@@ -728,7 +728,7 @@ export const scenarioQuestionsPart2: ScenarioQuestion[] = [
     ],
     correctChoiceId: 'A',
     explanation: 'Documentation should show how facts and analysis supported the final acquisition strategy.',
-    sourceSet: 'con3990v-scenario-bank',
+    sourceSet: 'con3990v-scenario-bank-s1-s3',
     batch: 'part-2',
     difficulty: 'easy'
   },
@@ -745,7 +745,7 @@ export const scenarioQuestionsPart2: ScenarioQuestion[] = [
     ],
     correctChoiceId: 'B',
     explanation: 'Evaluation factors must be defined and aligned with the requirement before solicitation release.',
-    sourceSet: 'con3990v-scenario-bank',
+    sourceSet: 'con3990v-scenario-bank-s1-s3',
     batch: 'part-2',
     difficulty: 'medium'
   },
@@ -762,7 +762,7 @@ export const scenarioQuestionsPart2: ScenarioQuestion[] = [
     ],
     correctChoiceId: 'A',
     explanation: 'The source-selection process aid specifically includes oral presentations as part of the Part 15 process.',
-    sourceSet: 'con3990v-scenario-bank',
+    sourceSet: 'con3990v-scenario-bank-s1-s3',
     batch: 'part-2',
     difficulty: 'medium'
   },
@@ -779,7 +779,7 @@ export const scenarioQuestionsPart2: ScenarioQuestion[] = [
     ],
     correctChoiceId: 'B',
     explanation: 'Meaningful discussions must address deficiencies and significant weaknesses, but do not require coaching every possible improvement.',
-    sourceSet: 'con3990v-scenario-bank',
+    sourceSet: 'con3990v-scenario-bank-s1-s3',
     batch: 'part-2',
     difficulty: 'hard'
   },
@@ -796,7 +796,7 @@ export const scenarioQuestionsPart2: ScenarioQuestion[] = [
     ],
     correctChoiceId: 'B',
     explanation: 'The life-cycle framing emphasizes that pre-award choices drive post-award performance and administration.',
-    sourceSet: 'con3990v-scenario-bank',
+    sourceSet: 'con3990v-scenario-bank-s1-s3',
     batch: 'part-2',
     difficulty: 'easy'
   },
@@ -813,7 +813,7 @@ export const scenarioQuestionsPart2: ScenarioQuestion[] = [
     ],
     correctChoiceId: 'B',
     explanation: 'The FAQ says the core competencies remain substantially the same and that current preparation remains valid during the transition.',
-    sourceSet: 'con3990v-scenario-bank',
+    sourceSet: 'con3990v-scenario-bank-s1-s3',
     batch: 'part-2',
     difficulty: 'easy'
   },
@@ -830,7 +830,7 @@ export const scenarioQuestionsPart2: ScenarioQuestion[] = [
     ],
     correctChoiceId: 'B',
     explanation: 'The absorbed prep advice emphasized studying major topics and learning to apply them to scenarios rather than memorizing isolated facts.',
-    sourceSet: 'con3990v-scenario-bank',
+    sourceSet: 'con3990v-scenario-bank-s1-s3',
     batch: 'part-2',
     difficulty: 'easy'
   },
@@ -847,7 +847,7 @@ export const scenarioQuestionsPart2: ScenarioQuestion[] = [
     ],
     correctChoiceId: 'B',
     explanation: 'The absorbed course and prep materials consistently point toward phase-based, process-based reasoning rather than guessing from isolated wording.',
-    sourceSet: 'con3990v-scenario-bank',
+    sourceSet: 'con3990v-scenario-bank-s1-s3',
     batch: 'part-2',
     difficulty: 'easy'
   }

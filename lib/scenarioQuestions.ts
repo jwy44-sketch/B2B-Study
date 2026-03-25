@@ -19,3 +19,5 @@ export const scenarioQuestions: ScenarioQuestion[] = [
 export const scenarioQuestionsSession1 = scenarioQuestions.filter((q) => q.sessionSource === 'Session 1');
 export const scenarioQuestionsSession2 = scenarioQuestions.filter((q) => q.sessionSource === 'Session 2');
 export const scenarioQuestionsSession3 = scenarioQuestions.filter((q) => q.sessionSource === 'Session 3');
+export const scenarioQuestionsSession4: ScenarioQuestion[] = [];
+export const scenarioQuestionsTargetTotal = 150;
