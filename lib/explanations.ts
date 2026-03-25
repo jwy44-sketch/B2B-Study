@@ -1,4 +1,5 @@
 import { inferFarDetail, type FarRef } from './farReferences';
+import { guidanceForPart } from './rfoTopicGuidance';
 
 export type ExplanationBlock = {
   farRefs: {
@@ -641,6 +642,7 @@ if (process.env.NODE_ENV !== 'production') {
 }
 
 export const buildExplanation = ({ questionId, questionText, options, correctIndex, selectedIndex, farRef }: BuildExplanationInput) => {
+  const topicGuidance = guidanceForPart(farRef.part);
   const mapped = questionId ? DAU_EXPLANATIONS[questionId] : undefined;
   if (mapped) {
     return {
@@ -666,7 +668,9 @@ export const buildExplanation = ({ questionId, questionText, options, correctInd
       whyOthersWrong: mapped.whyOthersWrong,
       wrongBullets: mapped.whyOthersWrong.map((item) => `${String.fromCharCode(65 + item.choiceIndex)}: ${item.reason}`),
       keyTakeaway: mapped.practicalTip,
-      practicalTip: mapped.practicalTip
+      practicalTip: mapped.practicalTip,
+      rfoTransitionNote: topicGuidance?.rfoTransitionNote,
+      rfoCitations: topicGuidance?.citations
     };
   }
 
@@ -687,6 +691,8 @@ export const buildExplanation = ({ questionId, questionText, options, correctInd
     whyOthersWrong: [{ choiceIndex: selectedIndex ?? 0, reason: `Selected option “${selected}” was not the keyed answer.` }],
     wrongBullets: [`Selected option “${selected}” was not the keyed answer.`],
     keyTakeaway: 'Use FAR references above and instructor notes for deeper study.',
-    practicalTip: 'Capture your own rationale in study notes to reinforce retention.'
+    practicalTip: 'Capture your own rationale in study notes to reinforce retention.',
+    rfoTransitionNote: topicGuidance?.rfoTransitionNote,
+    rfoCitations: topicGuidance?.citations
   };
 };

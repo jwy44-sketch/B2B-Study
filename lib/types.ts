@@ -30,6 +30,9 @@ export type ExplanationRich = {
   whyWrong: Array<{ choiceLabel: string; reason: string }>;
   fieldTip: string;
   memoryHook?: string;
+  rfoStatus?: 'unchanged' | 'transition-note' | 'revised' | 'expanded';
+  rfoTransitionNote?: string;
+  rfoCitations?: Array<{ label: string; url: string }>;
 };
 
 export type PresentedQuestion = {

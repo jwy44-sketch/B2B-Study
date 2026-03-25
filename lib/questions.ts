@@ -1,6 +1,7 @@
 import rawQuestions from '@/data/con3910_quizlet.json';
 import { inferFarRef } from './farReferences';
 import type { ExplanationRich, Question } from './types';
+import { guidanceForPart } from './rfoTopicGuidance';
 
 type RawQuestion = {
   id: string;
@@ -37,6 +38,14 @@ function validateRawQuestions(items: RawQuestion[]): void {
 const toQuestion = (item: RawQuestion): Question => {
   const farRef = inferFarRef(item.question);
   const correct = item.choices[item.correctIndex];
+  const topicGuidance = guidanceForPart(farRef.part);
+  const baseExplanationRich = item.explanationRich as ExplanationRich;
+  const explanationRich: ExplanationRich = {
+    ...baseExplanationRich,
+    rfoStatus: topicGuidance?.rfoStatus ?? baseExplanationRich.rfoStatus,
+    rfoTransitionNote: topicGuidance?.rfoTransitionNote ?? baseExplanationRich.rfoTransitionNote,
+    rfoCitations: topicGuidance?.citations ?? baseExplanationRich.rfoCitations
+  };
 
   return {
     id: item.id,
@@ -47,7 +56,7 @@ const toQuestion = (item: RawQuestion): Question => {
     session: 'General',
     farRefs: [item.explanationRich?.farRefs.part.cite ?? `FAR Part ${farRef.part}`],
     explanationText: item.explanation,
-    explanationRich: item.explanationRich,
+    explanationRich,
     explanation: {
       whyCorrect: item.explanationRich?.whyCorrect ?? `The correct answer is ${correct}.`,
       keyTakeaway: item.explanationRich?.fieldTip ?? `Anchor this topic to FAR Part ${farRef.part}.`,

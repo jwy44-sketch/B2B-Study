@@ -1,0 +1,93 @@
+[
+  {
+    "topic": "FAR / RFO Framework",
+    "source_file": "lib/farReferences.ts",
+    "action": "keep_with_transition_note",
+    "summary_of_change": "Preserved FAR part-mapping behavior; added RFO transition guidance and citations surfaced through explanation metadata.",
+    "old_citations": ["https://www.acquisition.gov/far/part-1"],
+    "new_citations": [
+      "https://www.acquisition.gov/far-overhaul/faqs",
+      "https://www.acquisition.gov/far-overhaul/far-part-deviation-guide",
+      "https://www.acquisition.gov/far-overhaul/far-part-deviation-guide/far-overhaul-part-1"
+    ],
+    "notes": "Core competency preserved; update adds transition context only."
+  },
+  {
+    "topic": "Acquisition Planning / Lifecycle",
+    "source_file": "data/con3910_quizlet.json",
+    "action": "expand",
+    "summary_of_change": "Added lifecycle-focused RFO transition note and scenario tip emphasizing pre-award to post-award linkage.",
+    "old_citations": ["https://www.acquisition.gov/far/part-7"],
+    "new_citations": ["https://www.acquisition.gov/far-overhaul/far-part-deviation-guide/far-overhaul-part-7"],
+    "notes": "Existing planning logic retained; detail expanded for transition framing."
+  },
+  {
+    "topic": "Market Research",
+    "source_file": "data/con3910_quizlet.json",
+    "action": "revise",
+    "summary_of_change": "Added specific RFO Part 10 trigger points (before new requirements, solicitations over SAT, and orders over SAT) as transition guidance.",
+    "old_citations": ["https://www.acquisition.gov/far/part-10"],
+    "new_citations": ["https://www.acquisition.gov/far-overhaul/far-part-deviation-guide/far-overhaul-part-10"],
+    "notes": "Continuous-process teaching preserved while wording aligned to current posted deviation text structure."
+  },
+  {
+    "topic": "Request Offers / Exchanges",
+    "source_file": "data/con3910_quizlet.json",
+    "action": "keep_with_transition_note",
+    "summary_of_change": "Preserved clarifications/communications/discussions distinctions; added transition note on plain-language framing under Part 15 overhaul materials.",
+    "old_citations": ["https://www.acquisition.gov/far/part-15"],
+    "new_citations": ["https://www.acquisition.gov/far-overhaul/far-part-deviation-guide/far-overhaul-part-15"],
+    "notes": "No doctrinal rewrite performed."
+  },
+  {
+    "topic": "Negotiation vs Source Selection",
+    "source_file": "lib/explanations.ts",
+    "action": "keep",
+    "summary_of_change": "No direct content rewrite required; existing scenario explanations already separate negotiation mechanics from source-selection documentation expectations.",
+    "old_citations": ["https://www.acquisition.gov/far/15.101-1", "https://www.acquisition.gov/far/15.308"],
+    "new_citations": ["https://www.acquisition.gov/far/15.101-1", "https://www.acquisition.gov/far/15.308"],
+    "notes": "Retained as valid exam-relevant logic."
+  },
+  {
+    "topic": "Small Business / Part 19",
+    "source_file": "data/con3910_quizlet.json",
+    "action": "keep_with_transition_note",
+    "summary_of_change": "Added transition guidance noting 2026 reporting migration alignment from eSRS to SAM.gov while preserving small-business core concepts.",
+    "old_citations": ["https://www.acquisition.gov/far/part-19"],
+    "new_citations": [
+      "https://www.acquisition.gov/content/far-updates-align-esrs-decommissioning",
+      "https://www.acquisition.gov/far-overhaul/far-part-deviation-guide/far-overhaul-part-19"
+    ],
+    "notes": "Only transitional reporting context added; no broad policy rewrite."
+  },
+  {
+    "topic": "Threshold Handling",
+    "source_file": "data/con3910_quizlet.json",
+    "action": "keep_with_transition_note",
+    "summary_of_change": "Preserved existing threshold-sensitive learning content and added note to check current posted values without overhauling decision logic.",
+    "old_citations": ["https://www.acquisition.gov/far/2.101"],
+    "new_citations": [
+      "https://www.acquisition.gov/threshold-changes",
+      "https://www.acquisition.gov/far/part-52"
+    ],
+    "notes": "Aligns with provided FAQ guidance that threshold changes do not materially change current question logic in most cases."
+  },
+  {
+    "topic": "Forms / UCF / Modifications",
+    "source_file": "lib/scenarioQuestionsPart2.ts",
+    "action": "keep",
+    "summary_of_change": "No RFO-driven correction required; existing form and modification authority scenarios remain valid and were retained.",
+    "old_citations": ["https://www.acquisition.gov/far/part-4", "https://www.acquisition.gov/far/part-43"],
+    "new_citations": ["https://www.acquisition.gov/far/part-4", "https://www.acquisition.gov/far/part-43"],
+    "notes": "Kept intact to preserve prep value."
+  },
+  {
+    "topic": "Contract Types / Price Components / Subset Logic",
+    "source_file": "lib/scenarioQuestionsPart2.ts",
+    "action": "keep",
+    "summary_of_change": "No transition-driven correction required; cost-plus/FFP/T&M and cost-component fundamentals remain valid.",
+    "old_citations": ["https://www.acquisition.gov/far/part-16"],
+    "new_citations": ["https://www.acquisition.gov/far/part-16"],
+    "notes": "Preserved intentionally per non-overreaction rule."
+  }
+]

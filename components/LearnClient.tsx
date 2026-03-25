@@ -297,6 +297,23 @@ export default function LearnClient() {
                   {explanation.whyWrong.map((item) => <li key={`${item.choiceLabel}-${item.reason}`}>{item.choiceLabel}: {item.reason}</li>)}
                 </ul>
                 <p className="mt-1 text-sm text-slate-300"><span className="font-semibold">Field tip:</span> {explanation.fieldTip}</p>
+                {(explanation.rfoTransitionNote || (explanation.rfoCitations?.length ?? 0) > 0) && (
+                  <div className="mt-2 rounded border border-sky-500/50 bg-sky-950/30 p-2 text-sm text-sky-100">
+                    <p className="font-semibold">RFO Update</p>
+                    {explanation.rfoTransitionNote && <p>{explanation.rfoTransitionNote}</p>}
+                    {(explanation.rfoCitations?.length ?? 0) > 0 && (
+                      <ul className="mt-1 list-disc pl-5">
+                        {explanation.rfoCitations?.map((cite) => (
+                          <li key={cite.url}>
+                            <a href={cite.url} target="_blank" rel="noopener noreferrer" className="underline">
+                              {cite.label}
+                            </a>
+                          </li>
+                        ))}
+                      </ul>
+                    )}
+                  </div>
+                )}
               </>
             ) : (
               <p className="text-sm text-amber-200">Missing explanationRich for question id: {presented.question.id}</p>
