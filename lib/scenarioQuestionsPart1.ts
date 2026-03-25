@@ -7,7 +7,7 @@ export type ScenarioQuestion = {
   correctChoiceId: 'A' | 'B' | 'C' | 'D';
   explanation: string;
   sourceSet: 'con3990v-scenario-bank';
-  batch: 'part-1';
+  batch: 'part-1' | 'part-2';
   difficulty?: 'easy' | 'medium' | 'hard';
 };
 

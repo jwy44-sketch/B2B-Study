@@ -1,7 +1,7 @@
 'use client';
 
 import { useEffect, useMemo, useState } from 'react';
-import { scenarioQuestionsPart1, type ScenarioQuestion } from '@/lib/scenarioQuestionsPart1';
+import { scenarioQuestions, type ScenarioQuestion } from '@/lib/scenarioQuestions';
 
 type ScenarioSessionQuestion = Omit<ScenarioQuestion, 'choices'> & {
   choices: ScenarioQuestion['choices'];
@@ -27,7 +27,7 @@ function shuffle<T>(arr: T[]): T[] {
 }
 
 function createSession(): ScenarioSession {
-  const shuffledQuestions = shuffle(scenarioQuestionsPart1).map((q) => ({ ...q, choices: shuffle(q.choices) }));
+  const shuffledQuestions = shuffle(scenarioQuestions).map((q) => ({ ...q, choices: shuffle(q.choices) }));
   return {
     startedAt: Date.now(),
     order: shuffledQuestions.map((q) => q.id),
@@ -45,7 +45,7 @@ export default function ScenarioQuiz() {
       const saved = localStorage.getItem(STORAGE_KEY);
       if (saved) {
         const parsed = JSON.parse(saved) as ScenarioSession;
-        if (Array.isArray(parsed.questions) && parsed.questions.length === scenarioQuestionsPart1.length) {
+        if (Array.isArray(parsed.questions) && parsed.questions.length === scenarioQuestions.length) {
           setSession(parsed);
           return;
         }
@@ -62,7 +62,7 @@ export default function ScenarioQuiz() {
     localStorage.setItem(STORAGE_KEY, JSON.stringify(session));
   }, [session]);
 
-  const total = session?.questions.length ?? scenarioQuestionsPart1.length;
+  const total = session?.questions.length ?? scenarioQuestions.length;
   const current = session?.questions[session.index] ?? null;
   const completed = !!session && session.index >= session.questions.length;
 
