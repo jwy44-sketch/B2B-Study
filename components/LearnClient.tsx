@@ -10,6 +10,8 @@ import { presentQuestion } from '@/lib/presentQuestion';
 import { applySrsResult } from '@/lib/srsEngine';
 import type { Question } from '@/lib/types';
 import { computeDatasetVersion } from '@/lib/datasetVersion';
+import { saveUserProgress, loadUserProgress } from '@/lib/userProgressClient';
+import { useAuth } from '@/hooks/useAuth';
 import { LearnProgress } from './LearnProgress';
 import { LearnCompleteCard } from './LearnCompleteCard';
 import { ScenarioBlock } from './ScenarioBlock';
@@ -30,6 +32,7 @@ const shuffle = <T,>(arr: T[]): T[] => {
 };
 
 export default function LearnClient() {
+  const { user } = useAuth();
   const [mode, setMode] = useState<Mode>('LOADING');
   const [allQuestions, setAllQuestions] = useState<Question[]>([]);
   const [engine, setEngine] = useState<LearnEngineState | null>(null);
@@ -82,9 +85,23 @@ export default function LearnClient() {
     if (!engine || !datasetVersion) return;
     const timer = window.setTimeout(() => {
       saveLearnSession({ datasetVersion, engine });
+      if (user) {
+        saveUserProgress('regular-learn', datasetVersion, { datasetVersion, engine });
+      }
     }, 300);
     return () => window.clearTimeout(timer);
-  }, [engine, datasetVersion]);
+  }, [engine, datasetVersion, user]);
+
+  useEffect(() => {
+    if (!user || !datasetVersion) return;
+    loadUserProgress('regular-learn').then((progress) => {
+      const state = progress?.state as { datasetVersion?: string; engine?: LearnEngineState } | undefined;
+      if (!state?.engine || state.datasetVersion !== datasetVersion) return;
+      setEngine(state.engine);
+      setMode(state.engine.sessionComplete ? 'SESSION_COMPLETE' : 'IN_BATCH');
+      setResumeNotice('Resumed your saved account progress.');
+    });
+  }, [user, datasetVersion]);
 
   const questionsById = useMemo(() => new Map(allQuestions.map((q) => [q.id, q])), [allQuestions]);
   const currentQuestion = engine?.currentQuestionId ? questionsById.get(engine.currentQuestionId) ?? null : null;

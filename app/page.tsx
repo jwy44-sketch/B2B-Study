@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import { AccountMenu } from '@/components/AccountMenu';
 
 const cards = [
   { href: '/learn', title: 'Learn', desc: 'Quizlet-style 10 question batches' },
@@ -14,6 +15,9 @@ const cards = [
 export default function HomePage() {
   return (
     <div className="space-y-4">
+      <div className="flex justify-end">
+        <AccountMenu />
+      </div>
       <h1 className="text-3xl font-bold">Back2Basics Learn</h1>
       <p className="text-slate-300">No-login USAF contracting study companion.</p>
       <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">

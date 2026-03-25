@@ -5,6 +5,8 @@ import { getBatchMetrics, initializeLearnEngine, restartLearnEngine, submitLearn
 import { scenarioQuestions } from '@/lib/scenarioQuestions';
 import { clearScenarioLearnSession, restoreOrInitializeScenarioLearn, saveScenarioLearnSession } from '@/lib/scenarioLearnPersistence';
 import { LearnCompleteCard } from './LearnCompleteCard';
+import { useAuth } from '@/hooks/useAuth';
+import { loadUserProgress, saveUserProgress } from '@/lib/userProgressClient';
 
 type Mode = 'LOADING' | 'QUESTION' | 'FEEDBACK' | 'COMPLETE';
 
@@ -23,6 +25,7 @@ const shuffle = <T,>(items: T[]): T[] => {
 const datasetVersion = scenarioQuestions.map((q) => q.id).join('|');
 
 export default function ScenarioLearnClient() {
+  const { user } = useAuth();
   const [engine, setEngine] = useState<LearnEngineState | null>(null);
   const [mode, setMode] = useState<Mode>('LOADING');
   const [selectedChoiceId, setSelectedChoiceId] = useState<string | null>(null);
@@ -63,7 +66,22 @@ export default function ScenarioLearnClient() {
   useEffect(() => {
     if (!engine) return;
     saveScenarioLearnSession({ datasetVersion, engine, choiceOrderByQuestionId });
-  }, [engine, choiceOrderByQuestionId]);
+    if (user) {
+      saveUserProgress('scenario-learn', datasetVersion, { datasetVersion, engine, choiceOrderByQuestionId });
+    }
+  }, [engine, choiceOrderByQuestionId, user]);
+
+  useEffect(() => {
+    if (!user) return;
+    loadUserProgress('scenario-learn').then((progress) => {
+      const state = progress?.state as { datasetVersion?: string; engine?: LearnEngineState; choiceOrderByQuestionId?: Record<string, string[]> } | undefined;
+      if (!state?.engine || state.datasetVersion !== datasetVersion) return;
+      setEngine(state.engine);
+      if (state.choiceOrderByQuestionId) setChoiceOrderByQuestionId(state.choiceOrderByQuestionId);
+      setMode(state.engine.sessionComplete ? 'COMPLETE' : 'QUESTION');
+      setResumeNotice('Resumed your saved account progress.');
+    });
+  }, [user]);
 
   const currentQuestion = engine?.currentQuestionId ? byId.get(engine.currentQuestionId) ?? null : null;
 
