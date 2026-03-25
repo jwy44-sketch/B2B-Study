@@ -116,7 +116,7 @@ export default function ScenarioLearnClient() {
     return (
       <div className="space-y-3">
         <h1 className="text-2xl font-bold">Scenario Learn</h1>
-        <p className="text-slate-300">Focused scenario-based CON 3990V practice.</p>
+        <p className="text-slate-300">Batch-based scenario learning for CON 3990V.</p>
         <div className="card space-y-2">
           <p className="text-lg font-semibold">All scenario batches mastered</p>
           <p className="text-sm text-slate-300">Mastered {overallMastered}/{engine.allIds.length}</p>
@@ -134,7 +134,7 @@ export default function ScenarioLearnClient() {
   return (
     <div className="space-y-3">
       <h1 className="text-2xl font-bold">Scenario Learn</h1>
-      <p className="text-slate-300">Focused scenario-based CON 3990V practice.</p>
+      <p className="text-slate-300">Batch-based scenario learning for CON 3990V.</p>
       {resumeNotice && <div className="rounded border border-sky-500/50 bg-sky-950/30 p-2 text-sm text-sky-200">{resumeNotice}</div>}
 
       <div className="card space-y-2 text-sm">
@@ -154,6 +154,7 @@ export default function ScenarioLearnClient() {
 
       <div className="card space-y-3">
         <p className="text-sm uppercase tracking-wide text-brand">{currentQuestion.topic}</p>
+        <p className="text-xs text-slate-400">{currentQuestion.sessionSource ?? 'Session source pending'}</p>
         <p className="font-semibold">Q{currentQuestion.questionNumber}. {currentQuestion.stem}</p>
 
         <div className="space-y-2">
@@ -189,6 +190,7 @@ export default function ScenarioLearnClient() {
               {wasCorrect ? 'Correct' : 'Incorrect'}
             </p>
             <p className="text-slate-300"><span className="font-semibold">Topic:</span> {currentQuestion.topic}</p>
+            <p className="text-slate-300"><span className="font-semibold">Session:</span> {currentQuestion.sessionSource ?? 'Session source pending'}</p>
             {!wasCorrect && (
               <p className="text-slate-300">
                 <span className="font-semibold">Correct answer:</span>{' '}

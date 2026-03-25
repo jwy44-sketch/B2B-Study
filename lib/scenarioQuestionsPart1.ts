@@ -1,6 +1,7 @@
 export type ScenarioQuestion = {
   id: string;
   questionNumber: number;
+  sessionSource?: 'Session 1' | 'Session 2' | 'Session 3' | 'Session 4';
   topic: string;
   stem: string;
   choices: { id: 'A' | 'B' | 'C' | 'D'; text: string }[];

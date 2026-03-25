@@ -100,8 +100,8 @@ export default function ScenarioQuiz() {
     const missed = session.questions.filter((q) => !session.answers[q.id]?.isCorrect);
     return (
       <div className="space-y-3">
-        <h1 className="text-2xl font-bold">Scenario-Based Questions</h1>
-        <p className="text-slate-300">DAU-style scenario practice for CON 3990V</p>
+        <h1 className="text-2xl font-bold">Scenario Practice</h1>
+        <p className="text-slate-300">DAU-style scenario questions for CON 3990V</p>
         <div className="card space-y-2">
           <p className="text-lg font-semibold">Score: {score.correct}/{total}</p>
           <p className="text-sm text-slate-300">Accuracy: {Math.round((score.correct / total) * 100)}%</p>
@@ -132,8 +132,8 @@ export default function ScenarioQuiz() {
 
   return (
     <div className="space-y-3">
-      <h1 className="text-2xl font-bold">Scenario-Based Questions</h1>
-      <p className="text-slate-300">DAU-style scenario practice for CON 3990V</p>
+      <h1 className="text-2xl font-bold">Scenario Practice</h1>
+      <p className="text-slate-300">DAU-style scenario questions for CON 3990V</p>
 
       <div className="card flex items-center justify-between text-sm">
         <span>Progress: {session.index + 1}/{total}</span>
@@ -142,6 +142,7 @@ export default function ScenarioQuiz() {
 
       <div className="card space-y-3">
         <p className="text-sm uppercase tracking-wide text-brand">{current.topic}</p>
+        <p className="text-xs text-slate-400">{current.sessionSource ?? 'Session source pending'}</p>
         <p className="font-semibold">Q{current.questionNumber}. {current.stem}</p>
         <div className="space-y-2">
           {current.choices.map((choice, idx) => {
@@ -174,6 +175,7 @@ export default function ScenarioQuiz() {
             </p>
             {!answer.isCorrect && <p className="text-slate-300"><span className="font-semibold">Correct answer:</span> {correctText}</p>}
             <p className="text-slate-300"><span className="font-semibold">Topic:</span> {current.topic}</p>
+            <p className="text-slate-300"><span className="font-semibold">Session:</span> {current.sessionSource ?? 'Session source pending'}</p>
             <p className="text-slate-300"><span className="font-semibold">Explanation:</span> {current.explanation}</p>
             <button className="btn mt-2" onClick={next}>{session.index + 1 >= total ? 'Finish' : 'Next question'}</button>
           </div>
