@@ -38,33 +38,34 @@
           }
         ]
       },
-      "whatThisTests": "Selecting the compliant market research action by applying governing policy, timing, and documentation rules.",
+      "whatThisTests": "Q001 tests whether you can apply FAR Part 10 to the decision point in the stem without skipping compliance steps.",
       "decisionSteps": [
-        "Identify the governing authority (FAR Part 10) and the specific decision gate in the prompt.",
-        "Eliminate options that defer required approvals, documentation, or scope validation.",
-        "Choose the option that remains compliant while still supporting timely mission execution."
+        "Start with FAR Part 10 and identify the exact decision trigger in the stem.",
+        "Discard options that postpone required documentation, approvals, or determinations until after award/action.",
+        "Select the option that keeps legal sufficiency and mission speed in balance."
       ],
-      "whyCorrect": "This option directly applies FAR Part 10 requirements and preserves a defensible acquisition record.",
+      "whyCorrect": "The keyed answer is correct because it follows FAR Part 10 in the right sequence and preserves an auditable file for the contracting officer.",
       "whyWrong": [
         {
           "choiceLabel": "A",
-          "reason": "This option is a near-miss because it bypasses or mis-times a required control under FAR Part 10."
+          "reason": "Choice A is attractive because it appears to save time, but it fails this question's control point: documenting the governing authority before action."
         },
         {
           "choiceLabel": "C",
-          "reason": "This option is a near-miss because it bypasses or mis-times a required control under FAR Part 10."
+          "reason": "Choice C is attractive because it appears to save time, but it fails this question's control point: using the correct approval/justification timing."
         },
         {
           "choiceLabel": "D",
-          "reason": "This option is a near-miss because it bypasses or mis-times a required control under FAR Part 10."
+          "reason": "Choice D is attractive because it appears to save time, but it fails this question's control point: matching method and authority to the acquisition phase."
         }
       ],
-      "fieldTip": "When pressure increases, cite FAR 10.001 in your file documentation and note any transition context from the FAR Overhaul page."
+      "fieldTip": "In live filework, write a one-line rationale tied to FAR 10.001 before routing for signature; it prevents avoidable rework.",
+      "rfoUpdate": "FAR Overhaul is reorganizing presentation, but the decision logic here remains anchored to FAR Part 10."
     },
     "explanation": {
-      "whyCorrect": "This option directly applies FAR Part 10 requirements and preserves a defensible acquisition record.",
-      "keyTakeaway": "Anchor decisions to FAR Part 10 and document the rationale before award or direction is issued.",
-      "commonTrap": "Do not trade compliance gates for speed; most wrong options delay or skip required acquisition controls."
+      "whyCorrect": "The keyed answer is correct because it follows FAR Part 10 in the right sequence and preserves an auditable file for the contracting officer.",
+      "keyTakeaway": "Use FAR Part 10 as your primary anchor, then confirm timing and authority.",
+      "commonTrap": "The trap is usually a convenient shortcut that sounds efficient but misses a required pre-action control."
     },
     "farRefs": [
       "FAR 10"
@@ -109,33 +110,34 @@
           }
         ]
       },
-      "whatThisTests": "Selecting the compliant competition action by applying governing policy, timing, and documentation rules.",
+      "whatThisTests": "Q002 tests whether you can apply FAR Part 6 to the decision point in the stem without skipping compliance steps.",
       "decisionSteps": [
-        "Identify the governing authority (FAR Part 6) and the specific decision gate in the prompt.",
-        "Eliminate options that defer required approvals, documentation, or scope validation.",
-        "Choose the option that remains compliant while still supporting timely mission execution."
+        "Start with FAR Part 6 and identify the exact decision trigger in the stem.",
+        "Discard options that postpone required documentation, approvals, or determinations until after award/action.",
+        "Select the option that keeps legal sufficiency and mission speed in balance."
       ],
-      "whyCorrect": "This option directly applies FAR Part 6 requirements and preserves a defensible acquisition record.",
+      "whyCorrect": "The keyed answer is correct because it follows FAR Part 6 in the right sequence and preserves an auditable file for the contracting officer.",
       "whyWrong": [
         {
           "choiceLabel": "A",
-          "reason": "This option is a near-miss because it bypasses or mis-times a required control under FAR Part 6."
+          "reason": "Choice A is attractive because it appears to save time, but it fails this question's control point: documenting the governing authority before action."
         },
         {
           "choiceLabel": "B",
-          "reason": "This option is a near-miss because it bypasses or mis-times a required control under FAR Part 6."
+          "reason": "Choice B is attractive because it appears to save time, but it fails this question's control point: using the correct approval/justification timing."
         },
         {
           "choiceLabel": "C",
-          "reason": "This option is a near-miss because it bypasses or mis-times a required control under FAR Part 6."
+          "reason": "Choice C is attractive because it appears to save time, but it fails this question's control point: matching method and authority to the acquisition phase."
         }
       ],
-      "fieldTip": "When pressure increases, cite FAR 6.101 in your file documentation and note any transition context from the FAR Overhaul page."
+      "fieldTip": "In live filework, write a one-line rationale tied to FAR 6.101 before routing for signature; it prevents avoidable rework.",
+      "rfoUpdate": "FAR Overhaul is reorganizing presentation, but the decision logic here remains anchored to FAR Part 6."
     },
     "explanation": {
-      "whyCorrect": "This option directly applies FAR Part 6 requirements and preserves a defensible acquisition record.",
-      "keyTakeaway": "Anchor decisions to FAR Part 6 and document the rationale before award or direction is issued.",
-      "commonTrap": "Do not trade compliance gates for speed; most wrong options delay or skip required acquisition controls."
+      "whyCorrect": "The keyed answer is correct because it follows FAR Part 6 in the right sequence and preserves an auditable file for the contracting officer.",
+      "keyTakeaway": "Use FAR Part 6 as your primary anchor, then confirm timing and authority.",
+      "commonTrap": "The trap is usually a convenient shortcut that sounds efficient but misses a required pre-action control."
     },
     "farRefs": [
       "FAR 6"
@@ -180,33 +182,34 @@
           }
         ]
       },
-      "whatThisTests": "Selecting the compliant simplified acquisition action by applying governing policy, timing, and documentation rules.",
+      "whatThisTests": "Q003 tests whether you can apply FAR Part 13 to the decision point in the stem without skipping compliance steps.",
       "decisionSteps": [
-        "Identify the governing authority (FAR Part 13) and the specific decision gate in the prompt.",
-        "Eliminate options that defer required approvals, documentation, or scope validation.",
-        "Choose the option that remains compliant while still supporting timely mission execution."
+        "Start with FAR Part 13 and identify the exact decision trigger in the stem.",
+        "Discard options that postpone required documentation, approvals, or determinations until after award/action.",
+        "Select the option that keeps legal sufficiency and mission speed in balance."
       ],
-      "whyCorrect": "This option directly applies FAR Part 13 requirements and preserves a defensible acquisition record.",
+      "whyCorrect": "The keyed answer is correct because it follows FAR Part 13 in the right sequence and preserves an auditable file for the contracting officer.",
       "whyWrong": [
         {
           "choiceLabel": "A",
-          "reason": "This option is a near-miss because it bypasses or mis-times a required control under FAR Part 13."
+          "reason": "Choice A is attractive because it appears to save time, but it fails this question's control point: documenting the governing authority before action."
         },
         {
           "choiceLabel": "C",
-          "reason": "This option is a near-miss because it bypasses or mis-times a required control under FAR Part 13."
+          "reason": "Choice C is attractive because it appears to save time, but it fails this question's control point: using the correct approval/justification timing."
         },
         {
           "choiceLabel": "D",
-          "reason": "This option is a near-miss because it bypasses or mis-times a required control under FAR Part 13."
+          "reason": "Choice D is attractive because it appears to save time, but it fails this question's control point: matching method and authority to the acquisition phase."
         }
       ],
-      "fieldTip": "When pressure increases, cite FAR 13.003 in your file documentation and note any transition context from the FAR Overhaul page."
+      "fieldTip": "In live filework, write a one-line rationale tied to FAR 13.003 before routing for signature; it prevents avoidable rework.",
+      "rfoUpdate": "FAR Overhaul is reorganizing presentation, but the decision logic here remains anchored to FAR Part 13."
     },
     "explanation": {
-      "whyCorrect": "This option directly applies FAR Part 13 requirements and preserves a defensible acquisition record.",
-      "keyTakeaway": "Anchor decisions to FAR Part 13 and document the rationale before award or direction is issued.",
-      "commonTrap": "Do not trade compliance gates for speed; most wrong options delay or skip required acquisition controls."
+      "whyCorrect": "The keyed answer is correct because it follows FAR Part 13 in the right sequence and preserves an auditable file for the contracting officer.",
+      "keyTakeaway": "Use FAR Part 13 as your primary anchor, then confirm timing and authority.",
+      "commonTrap": "The trap is usually a convenient shortcut that sounds efficient but misses a required pre-action control."
     },
     "farRefs": [
       "FAR 13"
@@ -251,33 +254,34 @@
           }
         ]
       },
-      "whatThisTests": "Selecting the compliant contracting by negotiation action by applying governing policy, timing, and documentation rules.",
+      "whatThisTests": "Q004 tests whether you can apply FAR Part 15 to the decision point in the stem without skipping compliance steps.",
       "decisionSteps": [
-        "Identify the governing authority (FAR Part 15) and the specific decision gate in the prompt.",
-        "Eliminate options that defer required approvals, documentation, or scope validation.",
-        "Choose the option that remains compliant while still supporting timely mission execution."
+        "Start with FAR Part 15 and identify the exact decision trigger in the stem.",
+        "Discard options that postpone required documentation, approvals, or determinations until after award/action.",
+        "Select the option that keeps legal sufficiency and mission speed in balance."
       ],
-      "whyCorrect": "This option directly applies FAR Part 15 requirements and preserves a defensible acquisition record.",
+      "whyCorrect": "The keyed answer is correct because it follows FAR Part 15 in the right sequence and preserves an auditable file for the contracting officer.",
       "whyWrong": [
         {
           "choiceLabel": "A",
-          "reason": "This option is a near-miss because it bypasses or mis-times a required control under FAR Part 15."
+          "reason": "Choice A is attractive because it appears to save time, but it fails this question's control point: documenting the governing authority before action."
         },
         {
           "choiceLabel": "C",
-          "reason": "This option is a near-miss because it bypasses or mis-times a required control under FAR Part 15."
+          "reason": "Choice C is attractive because it appears to save time, but it fails this question's control point: using the correct approval/justification timing."
         },
         {
           "choiceLabel": "D",
-          "reason": "This option is a near-miss because it bypasses or mis-times a required control under FAR Part 15."
+          "reason": "Choice D is attractive because it appears to save time, but it fails this question's control point: matching method and authority to the acquisition phase."
         }
       ],
-      "fieldTip": "When pressure increases, cite FAR 15.306 in your file documentation and note any transition context from the FAR Overhaul page."
+      "fieldTip": "In live filework, write a one-line rationale tied to FAR 15.306 before routing for signature; it prevents avoidable rework.",
+      "rfoUpdate": "FAR Overhaul is reorganizing presentation, but the decision logic here remains anchored to FAR Part 15."
     },
     "explanation": {
-      "whyCorrect": "This option directly applies FAR Part 15 requirements and preserves a defensible acquisition record.",
-      "keyTakeaway": "Anchor decisions to FAR Part 15 and document the rationale before award or direction is issued.",
-      "commonTrap": "Do not trade compliance gates for speed; most wrong options delay or skip required acquisition controls."
+      "whyCorrect": "The keyed answer is correct because it follows FAR Part 15 in the right sequence and preserves an auditable file for the contracting officer.",
+      "keyTakeaway": "Use FAR Part 15 as your primary anchor, then confirm timing and authority.",
+      "commonTrap": "The trap is usually a convenient shortcut that sounds efficient but misses a required pre-action control."
     },
     "farRefs": [
       "FAR 15"
@@ -322,33 +326,34 @@
           }
         ]
       },
-      "whatThisTests": "Selecting the compliant contract modifications action by applying governing policy, timing, and documentation rules.",
+      "whatThisTests": "Q005 tests whether you can apply FAR Part 43 to the decision point in the stem without skipping compliance steps.",
       "decisionSteps": [
-        "Identify the governing authority (FAR Part 43) and the specific decision gate in the prompt.",
-        "Eliminate options that defer required approvals, documentation, or scope validation.",
-        "Choose the option that remains compliant while still supporting timely mission execution."
+        "Start with FAR Part 43 and identify the exact decision trigger in the stem.",
+        "Discard options that postpone required documentation, approvals, or determinations until after award/action.",
+        "Select the option that keeps legal sufficiency and mission speed in balance."
       ],
-      "whyCorrect": "This option directly applies FAR Part 43 requirements and preserves a defensible acquisition record.",
+      "whyCorrect": "The keyed answer is correct because it follows FAR Part 43 in the right sequence and preserves an auditable file for the contracting officer.",
       "whyWrong": [
         {
           "choiceLabel": "B",
-          "reason": "This option is a near-miss because it bypasses or mis-times a required control under FAR Part 43."
+          "reason": "Choice B is attractive because it appears to save time, but it fails this question's control point: documenting the governing authority before action."
         },
         {
           "choiceLabel": "C",
-          "reason": "This option is a near-miss because it bypasses or mis-times a required control under FAR Part 43."
+          "reason": "Choice C is attractive because it appears to save time, but it fails this question's control point: using the correct approval/justification timing."
         },
         {
           "choiceLabel": "D",
-          "reason": "This option is a near-miss because it bypasses or mis-times a required control under FAR Part 43."
+          "reason": "Choice D is attractive because it appears to save time, but it fails this question's control point: matching method and authority to the acquisition phase."
         }
       ],
-      "fieldTip": "When pressure increases, cite FAR 43.102 in your file documentation and note any transition context from the FAR Overhaul page."
+      "fieldTip": "In live filework, write a one-line rationale tied to FAR 43.102 before routing for signature; it prevents avoidable rework.",
+      "rfoUpdate": "FAR Overhaul is reorganizing presentation, but the decision logic here remains anchored to FAR Part 43."
     },
     "explanation": {
-      "whyCorrect": "This option directly applies FAR Part 43 requirements and preserves a defensible acquisition record.",
-      "keyTakeaway": "Anchor decisions to FAR Part 43 and document the rationale before award or direction is issued.",
-      "commonTrap": "Do not trade compliance gates for speed; most wrong options delay or skip required acquisition controls."
+      "whyCorrect": "The keyed answer is correct because it follows FAR Part 43 in the right sequence and preserves an auditable file for the contracting officer.",
+      "keyTakeaway": "Use FAR Part 43 as your primary anchor, then confirm timing and authority.",
+      "commonTrap": "The trap is usually a convenient shortcut that sounds efficient but misses a required pre-action control."
     },
     "farRefs": [
       "FAR 43"
@@ -393,33 +398,34 @@
           }
         ]
       },
-      "whatThisTests": "Selecting the compliant source selection action by applying governing policy, timing, and documentation rules.",
+      "whatThisTests": "Q006 tests whether you can apply FAR 15.3 to the decision point in the stem without skipping compliance steps.",
       "decisionSteps": [
-        "Identify the governing authority (FAR 15.3) and the specific decision gate in the prompt.",
-        "Eliminate options that defer required approvals, documentation, or scope validation.",
-        "Choose the option that remains compliant while still supporting timely mission execution."
+        "Start with FAR 15.3 and identify the exact decision trigger in the stem.",
+        "Discard options that postpone required documentation, approvals, or determinations until after award/action.",
+        "Select the option that keeps legal sufficiency and mission speed in balance."
       ],
-      "whyCorrect": "This option directly applies FAR 15.3 requirements and preserves a defensible acquisition record.",
+      "whyCorrect": "The keyed answer is correct because it follows FAR 15.3 in the right sequence and preserves an auditable file for the contracting officer.",
       "whyWrong": [
         {
           "choiceLabel": "A",
-          "reason": "This option is a near-miss because it bypasses or mis-times a required control under FAR 15.3."
+          "reason": "Choice A is attractive because it appears to save time, but it fails this question's control point: documenting the governing authority before action."
         },
         {
           "choiceLabel": "B",
-          "reason": "This option is a near-miss because it bypasses or mis-times a required control under FAR 15.3."
+          "reason": "Choice B is attractive because it appears to save time, but it fails this question's control point: using the correct approval/justification timing."
         },
         {
           "choiceLabel": "C",
-          "reason": "This option is a near-miss because it bypasses or mis-times a required control under FAR 15.3."
+          "reason": "Choice C is attractive because it appears to save time, but it fails this question's control point: matching method and authority to the acquisition phase."
         }
       ],
-      "fieldTip": "When pressure increases, cite FAR 15.308 in your file documentation and note any transition context from the FAR Overhaul page."
+      "fieldTip": "In live filework, write a one-line rationale tied to FAR 15.308 before routing for signature; it prevents avoidable rework.",
+      "rfoUpdate": "FAR Overhaul is reorganizing presentation, but the decision logic here remains anchored to FAR 15.3."
     },
     "explanation": {
-      "whyCorrect": "This option directly applies FAR 15.3 requirements and preserves a defensible acquisition record.",
-      "keyTakeaway": "Anchor decisions to FAR 15.3 and document the rationale before award or direction is issued.",
-      "commonTrap": "Do not trade compliance gates for speed; most wrong options delay or skip required acquisition controls."
+      "whyCorrect": "The keyed answer is correct because it follows FAR 15.3 in the right sequence and preserves an auditable file for the contracting officer.",
+      "keyTakeaway": "Use FAR 15.3 as your primary anchor, then confirm timing and authority.",
+      "commonTrap": "The trap is usually a convenient shortcut that sounds efficient but misses a required pre-action control."
     },
     "farRefs": [
       "FAR 15.3"
@@ -464,33 +470,34 @@
           }
         ]
       },
-      "whatThisTests": "Selecting the compliant commercial items action by applying governing policy, timing, and documentation rules.",
+      "whatThisTests": "Q007 tests whether you can apply FAR Part 12 to the decision point in the stem without skipping compliance steps.",
       "decisionSteps": [
-        "Identify the governing authority (FAR Part 12) and the specific decision gate in the prompt.",
-        "Eliminate options that defer required approvals, documentation, or scope validation.",
-        "Choose the option that remains compliant while still supporting timely mission execution."
+        "Start with FAR Part 12 and identify the exact decision trigger in the stem.",
+        "Discard options that postpone required documentation, approvals, or determinations until after award/action.",
+        "Select the option that keeps legal sufficiency and mission speed in balance."
       ],
-      "whyCorrect": "This option directly applies FAR Part 12 requirements and preserves a defensible acquisition record.",
+      "whyCorrect": "The keyed answer is correct because it follows FAR Part 12 in the right sequence and preserves an auditable file for the contracting officer.",
       "whyWrong": [
         {
           "choiceLabel": "A",
-          "reason": "This option is a near-miss because it bypasses or mis-times a required control under FAR Part 12."
+          "reason": "Choice A is attractive because it appears to save time, but it fails this question's control point: documenting the governing authority before action."
         },
         {
           "choiceLabel": "B",
-          "reason": "This option is a near-miss because it bypasses or mis-times a required control under FAR Part 12."
+          "reason": "Choice B is attractive because it appears to save time, but it fails this question's control point: using the correct approval/justification timing."
         },
         {
           "choiceLabel": "D",
-          "reason": "This option is a near-miss because it bypasses or mis-times a required control under FAR Part 12."
+          "reason": "Choice D is attractive because it appears to save time, but it fails this question's control point: matching method and authority to the acquisition phase."
         }
       ],
-      "fieldTip": "When pressure increases, cite FAR 12.102 in your file documentation and note any transition context from the FAR Overhaul page."
+      "fieldTip": "In live filework, write a one-line rationale tied to FAR 12.102 before routing for signature; it prevents avoidable rework.",
+      "rfoUpdate": "FAR Overhaul is reorganizing presentation, but the decision logic here remains anchored to FAR Part 12."
     },
     "explanation": {
-      "whyCorrect": "This option directly applies FAR Part 12 requirements and preserves a defensible acquisition record.",
-      "keyTakeaway": "Anchor decisions to FAR Part 12 and document the rationale before award or direction is issued.",
-      "commonTrap": "Do not trade compliance gates for speed; most wrong options delay or skip required acquisition controls."
+      "whyCorrect": "The keyed answer is correct because it follows FAR Part 12 in the right sequence and preserves an auditable file for the contracting officer.",
+      "keyTakeaway": "Use FAR Part 12 as your primary anchor, then confirm timing and authority.",
+      "commonTrap": "The trap is usually a convenient shortcut that sounds efficient but misses a required pre-action control."
     },
     "farRefs": [
       "FAR 12"
@@ -535,33 +542,34 @@
           }
         ]
       },
-      "whatThisTests": "Selecting the compliant contract types action by applying governing policy, timing, and documentation rules.",
+      "whatThisTests": "Q008 tests whether you can apply FAR Part 16 to the decision point in the stem without skipping compliance steps.",
       "decisionSteps": [
-        "Identify the governing authority (FAR Part 16) and the specific decision gate in the prompt.",
-        "Eliminate options that defer required approvals, documentation, or scope validation.",
-        "Choose the option that remains compliant while still supporting timely mission execution."
+        "Start with FAR Part 16 and identify the exact decision trigger in the stem.",
+        "Discard options that postpone required documentation, approvals, or determinations until after award/action.",
+        "Select the option that keeps legal sufficiency and mission speed in balance."
       ],
-      "whyCorrect": "This option directly applies FAR Part 16 requirements and preserves a defensible acquisition record.",
+      "whyCorrect": "The keyed answer is correct because it follows FAR Part 16 in the right sequence and preserves an auditable file for the contracting officer.",
       "whyWrong": [
         {
           "choiceLabel": "B",
-          "reason": "This option is a near-miss because it bypasses or mis-times a required control under FAR Part 16."
+          "reason": "Choice B is attractive because it appears to save time, but it fails this question's control point: documenting the governing authority before action."
         },
         {
           "choiceLabel": "C",
-          "reason": "This option is a near-miss because it bypasses or mis-times a required control under FAR Part 16."
+          "reason": "Choice C is attractive because it appears to save time, but it fails this question's control point: using the correct approval/justification timing."
         },
         {
           "choiceLabel": "D",
-          "reason": "This option is a near-miss because it bypasses or mis-times a required control under FAR Part 16."
+          "reason": "Choice D is attractive because it appears to save time, but it fails this question's control point: matching method and authority to the acquisition phase."
         }
       ],
-      "fieldTip": "When pressure increases, cite FAR 16.103 in your file documentation and note any transition context from the FAR Overhaul page."
+      "fieldTip": "In live filework, write a one-line rationale tied to FAR 16.103 before routing for signature; it prevents avoidable rework.",
+      "rfoUpdate": "FAR Overhaul is reorganizing presentation, but the decision logic here remains anchored to FAR Part 16."
     },
     "explanation": {
-      "whyCorrect": "This option directly applies FAR Part 16 requirements and preserves a defensible acquisition record.",
-      "keyTakeaway": "Anchor decisions to FAR Part 16 and document the rationale before award or direction is issued.",
-      "commonTrap": "Do not trade compliance gates for speed; most wrong options delay or skip required acquisition controls."
+      "whyCorrect": "The keyed answer is correct because it follows FAR Part 16 in the right sequence and preserves an auditable file for the contracting officer.",
+      "keyTakeaway": "Use FAR Part 16 as your primary anchor, then confirm timing and authority.",
+      "commonTrap": "The trap is usually a convenient shortcut that sounds efficient but misses a required pre-action control."
     },
     "farRefs": [
       "FAR 16"
@@ -606,33 +614,34 @@
           }
         ]
       },
-      "whatThisTests": "Selecting the compliant market research action by applying governing policy, timing, and documentation rules.",
+      "whatThisTests": "Q009 tests whether you can apply FAR Part 10 to the decision point in the stem without skipping compliance steps.",
       "decisionSteps": [
-        "Identify the governing authority (FAR Part 10) and the specific decision gate in the prompt.",
-        "Eliminate options that defer required approvals, documentation, or scope validation.",
-        "Choose the option that remains compliant while still supporting timely mission execution."
+        "Start with FAR Part 10 and identify the exact decision trigger in the stem.",
+        "Discard options that postpone required documentation, approvals, or determinations until after award/action.",
+        "Select the option that keeps legal sufficiency and mission speed in balance."
       ],
-      "whyCorrect": "This option directly applies FAR Part 10 requirements and preserves a defensible acquisition record.",
+      "whyCorrect": "The keyed answer is correct because it follows FAR Part 10 in the right sequence and preserves an auditable file for the contracting officer.",
       "whyWrong": [
         {
           "choiceLabel": "B",
-          "reason": "This option is a near-miss because it bypasses or mis-times a required control under FAR Part 10."
+          "reason": "Choice B is attractive because it appears to save time, but it fails this question's control point: documenting the governing authority before action."
         },
         {
           "choiceLabel": "C",
-          "reason": "This option is a near-miss because it bypasses or mis-times a required control under FAR Part 10."
+          "reason": "Choice C is attractive because it appears to save time, but it fails this question's control point: using the correct approval/justification timing."
         },
         {
           "choiceLabel": "D",
-          "reason": "This option is a near-miss because it bypasses or mis-times a required control under FAR Part 10."
+          "reason": "Choice D is attractive because it appears to save time, but it fails this question's control point: matching method and authority to the acquisition phase."
         }
       ],
-      "fieldTip": "When pressure increases, cite FAR 10.001 in your file documentation and note any transition context from the FAR Overhaul page."
+      "fieldTip": "In live filework, write a one-line rationale tied to FAR 10.001 before routing for signature; it prevents avoidable rework.",
+      "rfoUpdate": "FAR Overhaul is reorganizing presentation, but the decision logic here remains anchored to FAR Part 10."
     },
     "explanation": {
-      "whyCorrect": "This option directly applies FAR Part 10 requirements and preserves a defensible acquisition record.",
-      "keyTakeaway": "Anchor decisions to FAR Part 10 and document the rationale before award or direction is issued.",
-      "commonTrap": "Do not trade compliance gates for speed; most wrong options delay or skip required acquisition controls."
+      "whyCorrect": "The keyed answer is correct because it follows FAR Part 10 in the right sequence and preserves an auditable file for the contracting officer.",
+      "keyTakeaway": "Use FAR Part 10 as your primary anchor, then confirm timing and authority.",
+      "commonTrap": "The trap is usually a convenient shortcut that sounds efficient but misses a required pre-action control."
     },
     "farRefs": [
       "FAR 10"
@@ -677,33 +686,34 @@
           }
         ]
       },
-      "whatThisTests": "Selecting the compliant competition action by applying governing policy, timing, and documentation rules.",
+      "whatThisTests": "Q010 tests whether you can apply FAR Part 6 to the decision point in the stem without skipping compliance steps.",
       "decisionSteps": [
-        "Identify the governing authority (FAR Part 6) and the specific decision gate in the prompt.",
-        "Eliminate options that defer required approvals, documentation, or scope validation.",
-        "Choose the option that remains compliant while still supporting timely mission execution."
+        "Start with FAR Part 6 and identify the exact decision trigger in the stem.",
+        "Discard options that postpone required documentation, approvals, or determinations until after award/action.",
+        "Select the option that keeps legal sufficiency and mission speed in balance."
       ],
-      "whyCorrect": "This option directly applies FAR Part 6 requirements and preserves a defensible acquisition record.",
+      "whyCorrect": "The keyed answer is correct because it follows FAR Part 6 in the right sequence and preserves an auditable file for the contracting officer.",
       "whyWrong": [
         {
           "choiceLabel": "A",
-          "reason": "This option is a near-miss because it bypasses or mis-times a required control under FAR Part 6."
+          "reason": "Choice A is attractive because it appears to save time, but it fails this question's control point: documenting the governing authority before action."
         },
         {
           "choiceLabel": "B",
-          "reason": "This option is a near-miss because it bypasses or mis-times a required control under FAR Part 6."
+          "reason": "Choice B is attractive because it appears to save time, but it fails this question's control point: using the correct approval/justification timing."
         },
         {
           "choiceLabel": "C",
-          "reason": "This option is a near-miss because it bypasses or mis-times a required control under FAR Part 6."
+          "reason": "Choice C is attractive because it appears to save time, but it fails this question's control point: matching method and authority to the acquisition phase."
         }
       ],
-      "fieldTip": "When pressure increases, cite FAR 6.101 in your file documentation and note any transition context from the FAR Overhaul page."
+      "fieldTip": "In live filework, write a one-line rationale tied to FAR 6.101 before routing for signature; it prevents avoidable rework.",
+      "rfoUpdate": "FAR Overhaul is reorganizing presentation, but the decision logic here remains anchored to FAR Part 6."
     },
     "explanation": {
-      "whyCorrect": "This option directly applies FAR Part 6 requirements and preserves a defensible acquisition record.",
-      "keyTakeaway": "Anchor decisions to FAR Part 6 and document the rationale before award or direction is issued.",
-      "commonTrap": "Do not trade compliance gates for speed; most wrong options delay or skip required acquisition controls."
+      "whyCorrect": "The keyed answer is correct because it follows FAR Part 6 in the right sequence and preserves an auditable file for the contracting officer.",
+      "keyTakeaway": "Use FAR Part 6 as your primary anchor, then confirm timing and authority.",
+      "commonTrap": "The trap is usually a convenient shortcut that sounds efficient but misses a required pre-action control."
     },
     "farRefs": [
       "FAR 6"
@@ -748,33 +758,34 @@
           }
         ]
       },
-      "whatThisTests": "Selecting the compliant simplified acquisition action by applying governing policy, timing, and documentation rules.",
+      "whatThisTests": "Q011 tests whether you can apply FAR Part 13 to the decision point in the stem without skipping compliance steps.",
       "decisionSteps": [
-        "Identify the governing authority (FAR Part 13) and the specific decision gate in the prompt.",
-        "Eliminate options that defer required approvals, documentation, or scope validation.",
-        "Choose the option that remains compliant while still supporting timely mission execution."
+        "Start with FAR Part 13 and identify the exact decision trigger in the stem.",
+        "Discard options that postpone required documentation, approvals, or determinations until after award/action.",
+        "Select the option that keeps legal sufficiency and mission speed in balance."
       ],
-      "whyCorrect": "This option directly applies FAR Part 13 requirements and preserves a defensible acquisition record.",
+      "whyCorrect": "The keyed answer is correct because it follows FAR Part 13 in the right sequence and preserves an auditable file for the contracting officer.",
       "whyWrong": [
         {
           "choiceLabel": "B",
-          "reason": "This option is a near-miss because it bypasses or mis-times a required control under FAR Part 13."
+          "reason": "Choice B is attractive because it appears to save time, but it fails this question's control point: documenting the governing authority before action."
         },
         {
           "choiceLabel": "C",
-          "reason": "This option is a near-miss because it bypasses or mis-times a required control under FAR Part 13."
+          "reason": "Choice C is attractive because it appears to save time, but it fails this question's control point: using the correct approval/justification timing."
         },
         {
           "choiceLabel": "D",
-          "reason": "This option is a near-miss because it bypasses or mis-times a required control under FAR Part 13."
+          "reason": "Choice D is attractive because it appears to save time, but it fails this question's control point: matching method and authority to the acquisition phase."
         }
       ],
-      "fieldTip": "When pressure increases, cite FAR 13.003 in your file documentation and note any transition context from the FAR Overhaul page."
+      "fieldTip": "In live filework, write a one-line rationale tied to FAR 13.003 before routing for signature; it prevents avoidable rework.",
+      "rfoUpdate": "FAR Overhaul is reorganizing presentation, but the decision logic here remains anchored to FAR Part 13."
     },
     "explanation": {
-      "whyCorrect": "This option directly applies FAR Part 13 requirements and preserves a defensible acquisition record.",
-      "keyTakeaway": "Anchor decisions to FAR Part 13 and document the rationale before award or direction is issued.",
-      "commonTrap": "Do not trade compliance gates for speed; most wrong options delay or skip required acquisition controls."
+      "whyCorrect": "The keyed answer is correct because it follows FAR Part 13 in the right sequence and preserves an auditable file for the contracting officer.",
+      "keyTakeaway": "Use FAR Part 13 as your primary anchor, then confirm timing and authority.",
+      "commonTrap": "The trap is usually a convenient shortcut that sounds efficient but misses a required pre-action control."
     },
     "farRefs": [
       "FAR 13"
@@ -819,33 +830,34 @@
           }
         ]
       },
-      "whatThisTests": "Selecting the compliant contracting by negotiation action by applying governing policy, timing, and documentation rules.",
+      "whatThisTests": "Q012 tests whether you can apply FAR Part 15 to the decision point in the stem without skipping compliance steps.",
       "decisionSteps": [
-        "Identify the governing authority (FAR Part 15) and the specific decision gate in the prompt.",
-        "Eliminate options that defer required approvals, documentation, or scope validation.",
-        "Choose the option that remains compliant while still supporting timely mission execution."
+        "Start with FAR Part 15 and identify the exact decision trigger in the stem.",
+        "Discard options that postpone required documentation, approvals, or determinations until after award/action.",
+        "Select the option that keeps legal sufficiency and mission speed in balance."
       ],
-      "whyCorrect": "This option directly applies FAR Part 15 requirements and preserves a defensible acquisition record.",
+      "whyCorrect": "The keyed answer is correct because it follows FAR Part 15 in the right sequence and preserves an auditable file for the contracting officer.",
       "whyWrong": [
         {
           "choiceLabel": "B",
-          "reason": "This option is a near-miss because it bypasses or mis-times a required control under FAR Part 15."
+          "reason": "Choice B is attractive because it appears to save time, but it fails this question's control point: documenting the governing authority before action."
         },
         {
           "choiceLabel": "C",
-          "reason": "This option is a near-miss because it bypasses or mis-times a required control under FAR Part 15."
+          "reason": "Choice C is attractive because it appears to save time, but it fails this question's control point: using the correct approval/justification timing."
         },
         {
           "choiceLabel": "D",
-          "reason": "This option is a near-miss because it bypasses or mis-times a required control under FAR Part 15."
+          "reason": "Choice D is attractive because it appears to save time, but it fails this question's control point: matching method and authority to the acquisition phase."
         }
       ],
-      "fieldTip": "When pressure increases, cite FAR 15.306 in your file documentation and note any transition context from the FAR Overhaul page."
+      "fieldTip": "In live filework, write a one-line rationale tied to FAR 15.306 before routing for signature; it prevents avoidable rework.",
+      "rfoUpdate": "FAR Overhaul is reorganizing presentation, but the decision logic here remains anchored to FAR Part 15."
     },
     "explanation": {
-      "whyCorrect": "This option directly applies FAR Part 15 requirements and preserves a defensible acquisition record.",
-      "keyTakeaway": "Anchor decisions to FAR Part 15 and document the rationale before award or direction is issued.",
-      "commonTrap": "Do not trade compliance gates for speed; most wrong options delay or skip required acquisition controls."
+      "whyCorrect": "The keyed answer is correct because it follows FAR Part 15 in the right sequence and preserves an auditable file for the contracting officer.",
+      "keyTakeaway": "Use FAR Part 15 as your primary anchor, then confirm timing and authority.",
+      "commonTrap": "The trap is usually a convenient shortcut that sounds efficient but misses a required pre-action control."
     },
     "farRefs": [
       "FAR 15"
@@ -890,33 +902,34 @@
           }
         ]
       },
-      "whatThisTests": "Selecting the compliant contract modifications action by applying governing policy, timing, and documentation rules.",
+      "whatThisTests": "Q013 tests whether you can apply FAR Part 43 to the decision point in the stem without skipping compliance steps.",
       "decisionSteps": [
-        "Identify the governing authority (FAR Part 43) and the specific decision gate in the prompt.",
-        "Eliminate options that defer required approvals, documentation, or scope validation.",
-        "Choose the option that remains compliant while still supporting timely mission execution."
+        "Start with FAR Part 43 and identify the exact decision trigger in the stem.",
+        "Discard options that postpone required documentation, approvals, or determinations until after award/action.",
+        "Select the option that keeps legal sufficiency and mission speed in balance."
       ],
-      "whyCorrect": "This option directly applies FAR Part 43 requirements and preserves a defensible acquisition record.",
+      "whyCorrect": "The keyed answer is correct because it follows FAR Part 43 in the right sequence and preserves an auditable file for the contracting officer.",
       "whyWrong": [
         {
           "choiceLabel": "A",
-          "reason": "This option is a near-miss because it bypasses or mis-times a required control under FAR Part 43."
+          "reason": "Choice A is attractive because it appears to save time, but it fails this question's control point: documenting the governing authority before action."
         },
         {
           "choiceLabel": "C",
-          "reason": "This option is a near-miss because it bypasses or mis-times a required control under FAR Part 43."
+          "reason": "Choice C is attractive because it appears to save time, but it fails this question's control point: using the correct approval/justification timing."
         },
         {
           "choiceLabel": "D",
-          "reason": "This option is a near-miss because it bypasses or mis-times a required control under FAR Part 43."
+          "reason": "Choice D is attractive because it appears to save time, but it fails this question's control point: matching method and authority to the acquisition phase."
         }
       ],
-      "fieldTip": "When pressure increases, cite FAR 43.102 in your file documentation and note any transition context from the FAR Overhaul page."
+      "fieldTip": "In live filework, write a one-line rationale tied to FAR 43.102 before routing for signature; it prevents avoidable rework.",
+      "rfoUpdate": "FAR Overhaul is reorganizing presentation, but the decision logic here remains anchored to FAR Part 43."
     },
     "explanation": {
-      "whyCorrect": "This option directly applies FAR Part 43 requirements and preserves a defensible acquisition record.",
-      "keyTakeaway": "Anchor decisions to FAR Part 43 and document the rationale before award or direction is issued.",
-      "commonTrap": "Do not trade compliance gates for speed; most wrong options delay or skip required acquisition controls."
+      "whyCorrect": "The keyed answer is correct because it follows FAR Part 43 in the right sequence and preserves an auditable file for the contracting officer.",
+      "keyTakeaway": "Use FAR Part 43 as your primary anchor, then confirm timing and authority.",
+      "commonTrap": "The trap is usually a convenient shortcut that sounds efficient but misses a required pre-action control."
     },
     "farRefs": [
       "FAR 43"
@@ -961,33 +974,34 @@
           }
         ]
       },
-      "whatThisTests": "Selecting the compliant source selection action by applying governing policy, timing, and documentation rules.",
+      "whatThisTests": "Q014 tests whether you can apply FAR 15.3 to the decision point in the stem without skipping compliance steps.",
       "decisionSteps": [
-        "Identify the governing authority (FAR 15.3) and the specific decision gate in the prompt.",
-        "Eliminate options that defer required approvals, documentation, or scope validation.",
-        "Choose the option that remains compliant while still supporting timely mission execution."
+        "Start with FAR 15.3 and identify the exact decision trigger in the stem.",
+        "Discard options that postpone required documentation, approvals, or determinations until after award/action.",
+        "Select the option that keeps legal sufficiency and mission speed in balance."
       ],
-      "whyCorrect": "This option directly applies FAR 15.3 requirements and preserves a defensible acquisition record.",
+      "whyCorrect": "The keyed answer is correct because it follows FAR 15.3 in the right sequence and preserves an auditable file for the contracting officer.",
       "whyWrong": [
         {
           "choiceLabel": "A",
-          "reason": "This option is a near-miss because it bypasses or mis-times a required control under FAR 15.3."
+          "reason": "Choice A is attractive because it appears to save time, but it fails this question's control point: documenting the governing authority before action."
         },
         {
           "choiceLabel": "B",
-          "reason": "This option is a near-miss because it bypasses or mis-times a required control under FAR 15.3."
+          "reason": "Choice B is attractive because it appears to save time, but it fails this question's control point: using the correct approval/justification timing."
         },
         {
           "choiceLabel": "C",
-          "reason": "This option is a near-miss because it bypasses or mis-times a required control under FAR 15.3."
+          "reason": "Choice C is attractive because it appears to save time, but it fails this question's control point: matching method and authority to the acquisition phase."
         }
       ],
-      "fieldTip": "When pressure increases, cite FAR 15.308 in your file documentation and note any transition context from the FAR Overhaul page."
+      "fieldTip": "In live filework, write a one-line rationale tied to FAR 15.308 before routing for signature; it prevents avoidable rework.",
+      "rfoUpdate": "FAR Overhaul is reorganizing presentation, but the decision logic here remains anchored to FAR 15.3."
     },
     "explanation": {
-      "whyCorrect": "This option directly applies FAR 15.3 requirements and preserves a defensible acquisition record.",
-      "keyTakeaway": "Anchor decisions to FAR 15.3 and document the rationale before award or direction is issued.",
-      "commonTrap": "Do not trade compliance gates for speed; most wrong options delay or skip required acquisition controls."
+      "whyCorrect": "The keyed answer is correct because it follows FAR 15.3 in the right sequence and preserves an auditable file for the contracting officer.",
+      "keyTakeaway": "Use FAR 15.3 as your primary anchor, then confirm timing and authority.",
+      "commonTrap": "The trap is usually a convenient shortcut that sounds efficient but misses a required pre-action control."
     },
     "farRefs": [
       "FAR 15.3"
@@ -1032,33 +1046,34 @@
           }
         ]
       },
-      "whatThisTests": "Selecting the compliant commercial items action by applying governing policy, timing, and documentation rules.",
+      "whatThisTests": "Q015 tests whether you can apply FAR Part 12 to the decision point in the stem without skipping compliance steps.",
       "decisionSteps": [
-        "Identify the governing authority (FAR Part 12) and the specific decision gate in the prompt.",
-        "Eliminate options that defer required approvals, documentation, or scope validation.",
-        "Choose the option that remains compliant while still supporting timely mission execution."
+        "Start with FAR Part 12 and identify the exact decision trigger in the stem.",
+        "Discard options that postpone required documentation, approvals, or determinations until after award/action.",
+        "Select the option that keeps legal sufficiency and mission speed in balance."
       ],
-      "whyCorrect": "This option directly applies FAR Part 12 requirements and preserves a defensible acquisition record.",
+      "whyCorrect": "The keyed answer is correct because it follows FAR Part 12 in the right sequence and preserves an auditable file for the contracting officer.",
       "whyWrong": [
         {
           "choiceLabel": "A",
-          "reason": "This option is a near-miss because it bypasses or mis-times a required control under FAR Part 12."
+          "reason": "Choice A is attractive because it appears to save time, but it fails this question's control point: documenting the governing authority before action."
         },
         {
           "choiceLabel": "B",
-          "reason": "This option is a near-miss because it bypasses or mis-times a required control under FAR Part 12."
+          "reason": "Choice B is attractive because it appears to save time, but it fails this question's control point: using the correct approval/justification timing."
         },
         {
           "choiceLabel": "D",
-          "reason": "This option is a near-miss because it bypasses or mis-times a required control under FAR Part 12."
+          "reason": "Choice D is attractive because it appears to save time, but it fails this question's control point: matching method and authority to the acquisition phase."
         }
       ],
-      "fieldTip": "When pressure increases, cite FAR 12.102 in your file documentation and note any transition context from the FAR Overhaul page."
+      "fieldTip": "In live filework, write a one-line rationale tied to FAR 12.102 before routing for signature; it prevents avoidable rework.",
+      "rfoUpdate": "FAR Overhaul is reorganizing presentation, but the decision logic here remains anchored to FAR Part 12."
     },
     "explanation": {
-      "whyCorrect": "This option directly applies FAR Part 12 requirements and preserves a defensible acquisition record.",
-      "keyTakeaway": "Anchor decisions to FAR Part 12 and document the rationale before award or direction is issued.",
-      "commonTrap": "Do not trade compliance gates for speed; most wrong options delay or skip required acquisition controls."
+      "whyCorrect": "The keyed answer is correct because it follows FAR Part 12 in the right sequence and preserves an auditable file for the contracting officer.",
+      "keyTakeaway": "Use FAR Part 12 as your primary anchor, then confirm timing and authority.",
+      "commonTrap": "The trap is usually a convenient shortcut that sounds efficient but misses a required pre-action control."
     },
     "farRefs": [
       "FAR 12"
@@ -1103,33 +1118,34 @@
           }
         ]
       },
-      "whatThisTests": "Selecting the compliant contract types action by applying governing policy, timing, and documentation rules.",
+      "whatThisTests": "Q016 tests whether you can apply FAR Part 16 to the decision point in the stem without skipping compliance steps.",
       "decisionSteps": [
-        "Identify the governing authority (FAR Part 16) and the specific decision gate in the prompt.",
-        "Eliminate options that defer required approvals, documentation, or scope validation.",
-        "Choose the option that remains compliant while still supporting timely mission execution."
+        "Start with FAR Part 16 and identify the exact decision trigger in the stem.",
+        "Discard options that postpone required documentation, approvals, or determinations until after award/action.",
+        "Select the option that keeps legal sufficiency and mission speed in balance."
       ],
-      "whyCorrect": "This option directly applies FAR Part 16 requirements and preserves a defensible acquisition record.",
+      "whyCorrect": "The keyed answer is correct because it follows FAR Part 16 in the right sequence and preserves an auditable file for the contracting officer.",
       "whyWrong": [
         {
           "choiceLabel": "B",
-          "reason": "This option is a near-miss because it bypasses or mis-times a required control under FAR Part 16."
+          "reason": "Choice B is attractive because it appears to save time, but it fails this question's control point: documenting the governing authority before action."
         },
         {
           "choiceLabel": "C",
-          "reason": "This option is a near-miss because it bypasses or mis-times a required control under FAR Part 16."
+          "reason": "Choice C is attractive because it appears to save time, but it fails this question's control point: using the correct approval/justification timing."
         },
         {
           "choiceLabel": "D",
-          "reason": "This option is a near-miss because it bypasses or mis-times a required control under FAR Part 16."
+          "reason": "Choice D is attractive because it appears to save time, but it fails this question's control point: matching method and authority to the acquisition phase."
         }
       ],
-      "fieldTip": "When pressure increases, cite FAR 16.103 in your file documentation and note any transition context from the FAR Overhaul page."
+      "fieldTip": "In live filework, write a one-line rationale tied to FAR 16.103 before routing for signature; it prevents avoidable rework.",
+      "rfoUpdate": "FAR Overhaul is reorganizing presentation, but the decision logic here remains anchored to FAR Part 16."
     },
     "explanation": {
-      "whyCorrect": "This option directly applies FAR Part 16 requirements and preserves a defensible acquisition record.",
-      "keyTakeaway": "Anchor decisions to FAR Part 16 and document the rationale before award or direction is issued.",
-      "commonTrap": "Do not trade compliance gates for speed; most wrong options delay or skip required acquisition controls."
+      "whyCorrect": "The keyed answer is correct because it follows FAR Part 16 in the right sequence and preserves an auditable file for the contracting officer.",
+      "keyTakeaway": "Use FAR Part 16 as your primary anchor, then confirm timing and authority.",
+      "commonTrap": "The trap is usually a convenient shortcut that sounds efficient but misses a required pre-action control."
     },
     "farRefs": [
       "FAR 16"
@@ -1174,33 +1190,34 @@
           }
         ]
       },
-      "whatThisTests": "Selecting the compliant market research action by applying governing policy, timing, and documentation rules.",
+      "whatThisTests": "Q017 tests whether you can apply FAR Part 10 to the decision point in the stem without skipping compliance steps.",
       "decisionSteps": [
-        "Identify the governing authority (FAR Part 10) and the specific decision gate in the prompt.",
-        "Eliminate options that defer required approvals, documentation, or scope validation.",
-        "Choose the option that remains compliant while still supporting timely mission execution."
+        "Start with FAR Part 10 and identify the exact decision trigger in the stem.",
+        "Discard options that postpone required documentation, approvals, or determinations until after award/action.",
+        "Select the option that keeps legal sufficiency and mission speed in balance."
       ],
-      "whyCorrect": "This option directly applies FAR Part 10 requirements and preserves a defensible acquisition record.",
+      "whyCorrect": "The keyed answer is correct because it follows FAR Part 10 in the right sequence and preserves an auditable file for the contracting officer.",
       "whyWrong": [
         {
           "choiceLabel": "B",
-          "reason": "This option is a near-miss because it bypasses or mis-times a required control under FAR Part 10."
+          "reason": "Choice B is attractive because it appears to save time, but it fails this question's control point: documenting the governing authority before action."
         },
         {
           "choiceLabel": "C",
-          "reason": "This option is a near-miss because it bypasses or mis-times a required control under FAR Part 10."
+          "reason": "Choice C is attractive because it appears to save time, but it fails this question's control point: using the correct approval/justification timing."
         },
         {
           "choiceLabel": "D",
-          "reason": "This option is a near-miss because it bypasses or mis-times a required control under FAR Part 10."
+          "reason": "Choice D is attractive because it appears to save time, but it fails this question's control point: matching method and authority to the acquisition phase."
         }
       ],
-      "fieldTip": "When pressure increases, cite FAR 10.001 in your file documentation and note any transition context from the FAR Overhaul page."
+      "fieldTip": "In live filework, write a one-line rationale tied to FAR 10.001 before routing for signature; it prevents avoidable rework.",
+      "rfoUpdate": "FAR Overhaul is reorganizing presentation, but the decision logic here remains anchored to FAR Part 10."
     },
     "explanation": {
-      "whyCorrect": "This option directly applies FAR Part 10 requirements and preserves a defensible acquisition record.",
-      "keyTakeaway": "Anchor decisions to FAR Part 10 and document the rationale before award or direction is issued.",
-      "commonTrap": "Do not trade compliance gates for speed; most wrong options delay or skip required acquisition controls."
+      "whyCorrect": "The keyed answer is correct because it follows FAR Part 10 in the right sequence and preserves an auditable file for the contracting officer.",
+      "keyTakeaway": "Use FAR Part 10 as your primary anchor, then confirm timing and authority.",
+      "commonTrap": "The trap is usually a convenient shortcut that sounds efficient but misses a required pre-action control."
     },
     "farRefs": [
       "FAR 10"
@@ -1245,33 +1262,34 @@
           }
         ]
       },
-      "whatThisTests": "Selecting the compliant competition action by applying governing policy, timing, and documentation rules.",
+      "whatThisTests": "Q018 tests whether you can apply FAR Part 6 to the decision point in the stem without skipping compliance steps.",
       "decisionSteps": [
-        "Identify the governing authority (FAR Part 6) and the specific decision gate in the prompt.",
-        "Eliminate options that defer required approvals, documentation, or scope validation.",
-        "Choose the option that remains compliant while still supporting timely mission execution."
+        "Start with FAR Part 6 and identify the exact decision trigger in the stem.",
+        "Discard options that postpone required documentation, approvals, or determinations until after award/action.",
+        "Select the option that keeps legal sufficiency and mission speed in balance."
       ],
-      "whyCorrect": "This option directly applies FAR Part 6 requirements and preserves a defensible acquisition record.",
+      "whyCorrect": "The keyed answer is correct because it follows FAR Part 6 in the right sequence and preserves an auditable file for the contracting officer.",
       "whyWrong": [
         {
           "choiceLabel": "A",
-          "reason": "This option is a near-miss because it bypasses or mis-times a required control under FAR Part 6."
+          "reason": "Choice A is attractive because it appears to save time, but it fails this question's control point: documenting the governing authority before action."
         },
         {
           "choiceLabel": "B",
-          "reason": "This option is a near-miss because it bypasses or mis-times a required control under FAR Part 6."
+          "reason": "Choice B is attractive because it appears to save time, but it fails this question's control point: using the correct approval/justification timing."
         },
         {
           "choiceLabel": "D",
-          "reason": "This option is a near-miss because it bypasses or mis-times a required control under FAR Part 6."
+          "reason": "Choice D is attractive because it appears to save time, but it fails this question's control point: matching method and authority to the acquisition phase."
         }
       ],
-      "fieldTip": "When pressure increases, cite FAR 6.101 in your file documentation and note any transition context from the FAR Overhaul page."
+      "fieldTip": "In live filework, write a one-line rationale tied to FAR 6.101 before routing for signature; it prevents avoidable rework.",
+      "rfoUpdate": "FAR Overhaul is reorganizing presentation, but the decision logic here remains anchored to FAR Part 6."
     },
     "explanation": {
-      "whyCorrect": "This option directly applies FAR Part 6 requirements and preserves a defensible acquisition record.",
-      "keyTakeaway": "Anchor decisions to FAR Part 6 and document the rationale before award or direction is issued.",
-      "commonTrap": "Do not trade compliance gates for speed; most wrong options delay or skip required acquisition controls."
+      "whyCorrect": "The keyed answer is correct because it follows FAR Part 6 in the right sequence and preserves an auditable file for the contracting officer.",
+      "keyTakeaway": "Use FAR Part 6 as your primary anchor, then confirm timing and authority.",
+      "commonTrap": "The trap is usually a convenient shortcut that sounds efficient but misses a required pre-action control."
     },
     "farRefs": [
       "FAR 6"
@@ -1316,33 +1334,34 @@
           }
         ]
       },
-      "whatThisTests": "Selecting the compliant simplified acquisition action by applying governing policy, timing, and documentation rules.",
+      "whatThisTests": "Q019 tests whether you can apply FAR Part 13 to the decision point in the stem without skipping compliance steps.",
       "decisionSteps": [
-        "Identify the governing authority (FAR Part 13) and the specific decision gate in the prompt.",
-        "Eliminate options that defer required approvals, documentation, or scope validation.",
-        "Choose the option that remains compliant while still supporting timely mission execution."
+        "Start with FAR Part 13 and identify the exact decision trigger in the stem.",
+        "Discard options that postpone required documentation, approvals, or determinations until after award/action.",
+        "Select the option that keeps legal sufficiency and mission speed in balance."
       ],
-      "whyCorrect": "This option directly applies FAR Part 13 requirements and preserves a defensible acquisition record.",
+      "whyCorrect": "The keyed answer is correct because it follows FAR Part 13 in the right sequence and preserves an auditable file for the contracting officer.",
       "whyWrong": [
         {
           "choiceLabel": "A",
-          "reason": "This option is a near-miss because it bypasses or mis-times a required control under FAR Part 13."
+          "reason": "Choice A is attractive because it appears to save time, but it fails this question's control point: documenting the governing authority before action."
         },
         {
           "choiceLabel": "B",
-          "reason": "This option is a near-miss because it bypasses or mis-times a required control under FAR Part 13."
+          "reason": "Choice B is attractive because it appears to save time, but it fails this question's control point: using the correct approval/justification timing."
         },
         {
           "choiceLabel": "C",
-          "reason": "This option is a near-miss because it bypasses or mis-times a required control under FAR Part 13."
+          "reason": "Choice C is attractive because it appears to save time, but it fails this question's control point: matching method and authority to the acquisition phase."
         }
       ],
-      "fieldTip": "When pressure increases, cite FAR 13.003 in your file documentation and note any transition context from the FAR Overhaul page."
+      "fieldTip": "In live filework, write a one-line rationale tied to FAR 13.003 before routing for signature; it prevents avoidable rework.",
+      "rfoUpdate": "FAR Overhaul is reorganizing presentation, but the decision logic here remains anchored to FAR Part 13."
     },
     "explanation": {
-      "whyCorrect": "This option directly applies FAR Part 13 requirements and preserves a defensible acquisition record.",
-      "keyTakeaway": "Anchor decisions to FAR Part 13 and document the rationale before award or direction is issued.",
-      "commonTrap": "Do not trade compliance gates for speed; most wrong options delay or skip required acquisition controls."
+      "whyCorrect": "The keyed answer is correct because it follows FAR Part 13 in the right sequence and preserves an auditable file for the contracting officer.",
+      "keyTakeaway": "Use FAR Part 13 as your primary anchor, then confirm timing and authority.",
+      "commonTrap": "The trap is usually a convenient shortcut that sounds efficient but misses a required pre-action control."
     },
     "farRefs": [
       "FAR 13"
@@ -1387,33 +1406,34 @@
           }
         ]
       },
-      "whatThisTests": "Selecting the compliant contracting by negotiation action by applying governing policy, timing, and documentation rules.",
+      "whatThisTests": "Q020 tests whether you can apply FAR Part 15 to the decision point in the stem without skipping compliance steps.",
       "decisionSteps": [
-        "Identify the governing authority (FAR Part 15) and the specific decision gate in the prompt.",
-        "Eliminate options that defer required approvals, documentation, or scope validation.",
-        "Choose the option that remains compliant while still supporting timely mission execution."
+        "Start with FAR Part 15 and identify the exact decision trigger in the stem.",
+        "Discard options that postpone required documentation, approvals, or determinations until after award/action.",
+        "Select the option that keeps legal sufficiency and mission speed in balance."
       ],
-      "whyCorrect": "This option directly applies FAR Part 15 requirements and preserves a defensible acquisition record.",
+      "whyCorrect": "The keyed answer is correct because it follows FAR Part 15 in the right sequence and preserves an auditable file for the contracting officer.",
       "whyWrong": [
         {
           "choiceLabel": "A",
-          "reason": "This option is a near-miss because it bypasses or mis-times a required control under FAR Part 15."
+          "reason": "Choice A is attractive because it appears to save time, but it fails this question's control point: documenting the governing authority before action."
         },
         {
           "choiceLabel": "C",
-          "reason": "This option is a near-miss because it bypasses or mis-times a required control under FAR Part 15."
+          "reason": "Choice C is attractive because it appears to save time, but it fails this question's control point: using the correct approval/justification timing."
         },
         {
           "choiceLabel": "D",
-          "reason": "This option is a near-miss because it bypasses or mis-times a required control under FAR Part 15."
+          "reason": "Choice D is attractive because it appears to save time, but it fails this question's control point: matching method and authority to the acquisition phase."
         }
       ],
-      "fieldTip": "When pressure increases, cite FAR 15.306 in your file documentation and note any transition context from the FAR Overhaul page."
+      "fieldTip": "In live filework, write a one-line rationale tied to FAR 15.306 before routing for signature; it prevents avoidable rework.",
+      "rfoUpdate": "FAR Overhaul is reorganizing presentation, but the decision logic here remains anchored to FAR Part 15."
     },
     "explanation": {
-      "whyCorrect": "This option directly applies FAR Part 15 requirements and preserves a defensible acquisition record.",
-      "keyTakeaway": "Anchor decisions to FAR Part 15 and document the rationale before award or direction is issued.",
-      "commonTrap": "Do not trade compliance gates for speed; most wrong options delay or skip required acquisition controls."
+      "whyCorrect": "The keyed answer is correct because it follows FAR Part 15 in the right sequence and preserves an auditable file for the contracting officer.",
+      "keyTakeaway": "Use FAR Part 15 as your primary anchor, then confirm timing and authority.",
+      "commonTrap": "The trap is usually a convenient shortcut that sounds efficient but misses a required pre-action control."
     },
     "farRefs": [
       "FAR 15"
@@ -1458,33 +1478,34 @@
           }
         ]
       },
-      "whatThisTests": "Selecting the compliant contract modifications action by applying governing policy, timing, and documentation rules.",
+      "whatThisTests": "Q021 tests whether you can apply FAR Part 43 to the decision point in the stem without skipping compliance steps.",
       "decisionSteps": [
-        "Identify the governing authority (FAR Part 43) and the specific decision gate in the prompt.",
-        "Eliminate options that defer required approvals, documentation, or scope validation.",
-        "Choose the option that remains compliant while still supporting timely mission execution."
+        "Start with FAR Part 43 and identify the exact decision trigger in the stem.",
+        "Discard options that postpone required documentation, approvals, or determinations until after award/action.",
+        "Select the option that keeps legal sufficiency and mission speed in balance."
       ],
-      "whyCorrect": "This option directly applies FAR Part 43 requirements and preserves a defensible acquisition record.",
+      "whyCorrect": "The keyed answer is correct because it follows FAR Part 43 in the right sequence and preserves an auditable file for the contracting officer.",
       "whyWrong": [
         {
           "choiceLabel": "B",
-          "reason": "This option is a near-miss because it bypasses or mis-times a required control under FAR Part 43."
+          "reason": "Choice B is attractive because it appears to save time, but it fails this question's control point: documenting the governing authority before action."
         },
         {
           "choiceLabel": "C",
-          "reason": "This option is a near-miss because it bypasses or mis-times a required control under FAR Part 43."
+          "reason": "Choice C is attractive because it appears to save time, but it fails this question's control point: using the correct approval/justification timing."
         },
         {
           "choiceLabel": "D",
-          "reason": "This option is a near-miss because it bypasses or mis-times a required control under FAR Part 43."
+          "reason": "Choice D is attractive because it appears to save time, but it fails this question's control point: matching method and authority to the acquisition phase."
         }
       ],
-      "fieldTip": "When pressure increases, cite FAR 43.102 in your file documentation and note any transition context from the FAR Overhaul page."
+      "fieldTip": "In live filework, write a one-line rationale tied to FAR 43.102 before routing for signature; it prevents avoidable rework.",
+      "rfoUpdate": "FAR Overhaul is reorganizing presentation, but the decision logic here remains anchored to FAR Part 43."
     },
     "explanation": {
-      "whyCorrect": "This option directly applies FAR Part 43 requirements and preserves a defensible acquisition record.",
-      "keyTakeaway": "Anchor decisions to FAR Part 43 and document the rationale before award or direction is issued.",
-      "commonTrap": "Do not trade compliance gates for speed; most wrong options delay or skip required acquisition controls."
+      "whyCorrect": "The keyed answer is correct because it follows FAR Part 43 in the right sequence and preserves an auditable file for the contracting officer.",
+      "keyTakeaway": "Use FAR Part 43 as your primary anchor, then confirm timing and authority.",
+      "commonTrap": "The trap is usually a convenient shortcut that sounds efficient but misses a required pre-action control."
     },
     "farRefs": [
       "FAR 43"
@@ -1529,33 +1550,34 @@
           }
         ]
       },
-      "whatThisTests": "Selecting the compliant source selection action by applying governing policy, timing, and documentation rules.",
+      "whatThisTests": "Q022 tests whether you can apply FAR 15.3 to the decision point in the stem without skipping compliance steps.",
       "decisionSteps": [
-        "Identify the governing authority (FAR 15.3) and the specific decision gate in the prompt.",
-        "Eliminate options that defer required approvals, documentation, or scope validation.",
-        "Choose the option that remains compliant while still supporting timely mission execution."
+        "Start with FAR 15.3 and identify the exact decision trigger in the stem.",
+        "Discard options that postpone required documentation, approvals, or determinations until after award/action.",
+        "Select the option that keeps legal sufficiency and mission speed in balance."
       ],
-      "whyCorrect": "This option directly applies FAR 15.3 requirements and preserves a defensible acquisition record.",
+      "whyCorrect": "The keyed answer is correct because it follows FAR 15.3 in the right sequence and preserves an auditable file for the contracting officer.",
       "whyWrong": [
         {
           "choiceLabel": "A",
-          "reason": "This option is a near-miss because it bypasses or mis-times a required control under FAR 15.3."
+          "reason": "Choice A is attractive because it appears to save time, but it fails this question's control point: documenting the governing authority before action."
         },
         {
           "choiceLabel": "B",
-          "reason": "This option is a near-miss because it bypasses or mis-times a required control under FAR 15.3."
+          "reason": "Choice B is attractive because it appears to save time, but it fails this question's control point: using the correct approval/justification timing."
         },
         {
           "choiceLabel": "D",
-          "reason": "This option is a near-miss because it bypasses or mis-times a required control under FAR 15.3."
+          "reason": "Choice D is attractive because it appears to save time, but it fails this question's control point: matching method and authority to the acquisition phase."
         }
       ],
-      "fieldTip": "When pressure increases, cite FAR 15.308 in your file documentation and note any transition context from the FAR Overhaul page."
+      "fieldTip": "In live filework, write a one-line rationale tied to FAR 15.308 before routing for signature; it prevents avoidable rework.",
+      "rfoUpdate": "FAR Overhaul is reorganizing presentation, but the decision logic here remains anchored to FAR 15.3."
     },
     "explanation": {
-      "whyCorrect": "This option directly applies FAR 15.3 requirements and preserves a defensible acquisition record.",
-      "keyTakeaway": "Anchor decisions to FAR 15.3 and document the rationale before award or direction is issued.",
-      "commonTrap": "Do not trade compliance gates for speed; most wrong options delay or skip required acquisition controls."
+      "whyCorrect": "The keyed answer is correct because it follows FAR 15.3 in the right sequence and preserves an auditable file for the contracting officer.",
+      "keyTakeaway": "Use FAR 15.3 as your primary anchor, then confirm timing and authority.",
+      "commonTrap": "The trap is usually a convenient shortcut that sounds efficient but misses a required pre-action control."
     },
     "farRefs": [
       "FAR 15.3"
@@ -1600,33 +1622,34 @@
           }
         ]
       },
-      "whatThisTests": "Selecting the compliant commercial items action by applying governing policy, timing, and documentation rules.",
+      "whatThisTests": "Q023 tests whether you can apply FAR Part 12 to the decision point in the stem without skipping compliance steps.",
       "decisionSteps": [
-        "Identify the governing authority (FAR Part 12) and the specific decision gate in the prompt.",
-        "Eliminate options that defer required approvals, documentation, or scope validation.",
-        "Choose the option that remains compliant while still supporting timely mission execution."
+        "Start with FAR Part 12 and identify the exact decision trigger in the stem.",
+        "Discard options that postpone required documentation, approvals, or determinations until after award/action.",
+        "Select the option that keeps legal sufficiency and mission speed in balance."
       ],
-      "whyCorrect": "This option directly applies FAR Part 12 requirements and preserves a defensible acquisition record.",
+      "whyCorrect": "The keyed answer is correct because it follows FAR Part 12 in the right sequence and preserves an auditable file for the contracting officer.",
       "whyWrong": [
         {
           "choiceLabel": "A",
-          "reason": "This option is a near-miss because it bypasses or mis-times a required control under FAR Part 12."
+          "reason": "Choice A is attractive because it appears to save time, but it fails this question's control point: documenting the governing authority before action."
         },
         {
           "choiceLabel": "B",
-          "reason": "This option is a near-miss because it bypasses or mis-times a required control under FAR Part 12."
+          "reason": "Choice B is attractive because it appears to save time, but it fails this question's control point: using the correct approval/justification timing."
         },
         {
           "choiceLabel": "D",
-          "reason": "This option is a near-miss because it bypasses or mis-times a required control under FAR Part 12."
+          "reason": "Choice D is attractive because it appears to save time, but it fails this question's control point: matching method and authority to the acquisition phase."
         }
       ],
-      "fieldTip": "When pressure increases, cite FAR 12.102 in your file documentation and note any transition context from the FAR Overhaul page."
+      "fieldTip": "In live filework, write a one-line rationale tied to FAR 12.102 before routing for signature; it prevents avoidable rework.",
+      "rfoUpdate": "FAR Overhaul is reorganizing presentation, but the decision logic here remains anchored to FAR Part 12."
     },
     "explanation": {
-      "whyCorrect": "This option directly applies FAR Part 12 requirements and preserves a defensible acquisition record.",
-      "keyTakeaway": "Anchor decisions to FAR Part 12 and document the rationale before award or direction is issued.",
-      "commonTrap": "Do not trade compliance gates for speed; most wrong options delay or skip required acquisition controls."
+      "whyCorrect": "The keyed answer is correct because it follows FAR Part 12 in the right sequence and preserves an auditable file for the contracting officer.",
+      "keyTakeaway": "Use FAR Part 12 as your primary anchor, then confirm timing and authority.",
+      "commonTrap": "The trap is usually a convenient shortcut that sounds efficient but misses a required pre-action control."
     },
     "farRefs": [
       "FAR 12"
@@ -1671,33 +1694,34 @@
           }
         ]
       },
-      "whatThisTests": "Selecting the compliant contract types action by applying governing policy, timing, and documentation rules.",
+      "whatThisTests": "Q024 tests whether you can apply FAR Part 16 to the decision point in the stem without skipping compliance steps.",
       "decisionSteps": [
-        "Identify the governing authority (FAR Part 16) and the specific decision gate in the prompt.",
-        "Eliminate options that defer required approvals, documentation, or scope validation.",
-        "Choose the option that remains compliant while still supporting timely mission execution."
+        "Start with FAR Part 16 and identify the exact decision trigger in the stem.",
+        "Discard options that postpone required documentation, approvals, or determinations until after award/action.",
+        "Select the option that keeps legal sufficiency and mission speed in balance."
       ],
-      "whyCorrect": "This option directly applies FAR Part 16 requirements and preserves a defensible acquisition record.",
+      "whyCorrect": "The keyed answer is correct because it follows FAR Part 16 in the right sequence and preserves an auditable file for the contracting officer.",
       "whyWrong": [
         {
           "choiceLabel": "A",
-          "reason": "This option is a near-miss because it bypasses or mis-times a required control under FAR Part 16."
+          "reason": "Choice A is attractive because it appears to save time, but it fails this question's control point: documenting the governing authority before action."
         },
         {
           "choiceLabel": "C",
-          "reason": "This option is a near-miss because it bypasses or mis-times a required control under FAR Part 16."
+          "reason": "Choice C is attractive because it appears to save time, but it fails this question's control point: using the correct approval/justification timing."
         },
         {
           "choiceLabel": "D",
-          "reason": "This option is a near-miss because it bypasses or mis-times a required control under FAR Part 16."
+          "reason": "Choice D is attractive because it appears to save time, but it fails this question's control point: matching method and authority to the acquisition phase."
         }
       ],
-      "fieldTip": "When pressure increases, cite FAR 16.103 in your file documentation and note any transition context from the FAR Overhaul page."
+      "fieldTip": "In live filework, write a one-line rationale tied to FAR 16.103 before routing for signature; it prevents avoidable rework.",
+      "rfoUpdate": "FAR Overhaul is reorganizing presentation, but the decision logic here remains anchored to FAR Part 16."
     },
     "explanation": {
-      "whyCorrect": "This option directly applies FAR Part 16 requirements and preserves a defensible acquisition record.",
-      "keyTakeaway": "Anchor decisions to FAR Part 16 and document the rationale before award or direction is issued.",
-      "commonTrap": "Do not trade compliance gates for speed; most wrong options delay or skip required acquisition controls."
+      "whyCorrect": "The keyed answer is correct because it follows FAR Part 16 in the right sequence and preserves an auditable file for the contracting officer.",
+      "keyTakeaway": "Use FAR Part 16 as your primary anchor, then confirm timing and authority.",
+      "commonTrap": "The trap is usually a convenient shortcut that sounds efficient but misses a required pre-action control."
     },
     "farRefs": [
       "FAR 16"
@@ -1742,33 +1766,34 @@
           }
         ]
       },
-      "whatThisTests": "Selecting the compliant market research action by applying governing policy, timing, and documentation rules.",
+      "whatThisTests": "Q025 tests whether you can apply FAR Part 10 to the decision point in the stem without skipping compliance steps.",
       "decisionSteps": [
-        "Identify the governing authority (FAR Part 10) and the specific decision gate in the prompt.",
-        "Eliminate options that defer required approvals, documentation, or scope validation.",
-        "Choose the option that remains compliant while still supporting timely mission execution."
+        "Start with FAR Part 10 and identify the exact decision trigger in the stem.",
+        "Discard options that postpone required documentation, approvals, or determinations until after award/action.",
+        "Select the option that keeps legal sufficiency and mission speed in balance."
       ],
-      "whyCorrect": "This option directly applies FAR Part 10 requirements and preserves a defensible acquisition record.",
+      "whyCorrect": "The keyed answer is correct because it follows FAR Part 10 in the right sequence and preserves an auditable file for the contracting officer.",
       "whyWrong": [
         {
           "choiceLabel": "A",
-          "reason": "This option is a near-miss because it bypasses or mis-times a required control under FAR Part 10."
+          "reason": "Choice A is attractive because it appears to save time, but it fails this question's control point: documenting the governing authority before action."
         },
         {
           "choiceLabel": "B",
-          "reason": "This option is a near-miss because it bypasses or mis-times a required control under FAR Part 10."
+          "reason": "Choice B is attractive because it appears to save time, but it fails this question's control point: using the correct approval/justification timing."
         },
         {
           "choiceLabel": "D",
-          "reason": "This option is a near-miss because it bypasses or mis-times a required control under FAR Part 10."
+          "reason": "Choice D is attractive because it appears to save time, but it fails this question's control point: matching method and authority to the acquisition phase."
         }
       ],
-      "fieldTip": "When pressure increases, cite FAR 10.001 in your file documentation and note any transition context from the FAR Overhaul page."
+      "fieldTip": "In live filework, write a one-line rationale tied to FAR 10.001 before routing for signature; it prevents avoidable rework.",
+      "rfoUpdate": "FAR Overhaul is reorganizing presentation, but the decision logic here remains anchored to FAR Part 10."
     },
     "explanation": {
-      "whyCorrect": "This option directly applies FAR Part 10 requirements and preserves a defensible acquisition record.",
-      "keyTakeaway": "Anchor decisions to FAR Part 10 and document the rationale before award or direction is issued.",
-      "commonTrap": "Do not trade compliance gates for speed; most wrong options delay or skip required acquisition controls."
+      "whyCorrect": "The keyed answer is correct because it follows FAR Part 10 in the right sequence and preserves an auditable file for the contracting officer.",
+      "keyTakeaway": "Use FAR Part 10 as your primary anchor, then confirm timing and authority.",
+      "commonTrap": "The trap is usually a convenient shortcut that sounds efficient but misses a required pre-action control."
     },
     "farRefs": [
       "FAR 10"
@@ -1813,33 +1838,34 @@
           }
         ]
       },
-      "whatThisTests": "Selecting the compliant competition action by applying governing policy, timing, and documentation rules.",
+      "whatThisTests": "Q026 tests whether you can apply FAR Part 6 to the decision point in the stem without skipping compliance steps.",
       "decisionSteps": [
-        "Identify the governing authority (FAR Part 6) and the specific decision gate in the prompt.",
-        "Eliminate options that defer required approvals, documentation, or scope validation.",
-        "Choose the option that remains compliant while still supporting timely mission execution."
+        "Start with FAR Part 6 and identify the exact decision trigger in the stem.",
+        "Discard options that postpone required documentation, approvals, or determinations until after award/action.",
+        "Select the option that keeps legal sufficiency and mission speed in balance."
       ],
-      "whyCorrect": "This option directly applies FAR Part 6 requirements and preserves a defensible acquisition record.",
+      "whyCorrect": "The keyed answer is correct because it follows FAR Part 6 in the right sequence and preserves an auditable file for the contracting officer.",
       "whyWrong": [
         {
           "choiceLabel": "A",
-          "reason": "This option is a near-miss because it bypasses or mis-times a required control under FAR Part 6."
+          "reason": "Choice A is attractive because it appears to save time, but it fails this question's control point: documenting the governing authority before action."
         },
         {
           "choiceLabel": "C",
-          "reason": "This option is a near-miss because it bypasses or mis-times a required control under FAR Part 6."
+          "reason": "Choice C is attractive because it appears to save time, but it fails this question's control point: using the correct approval/justification timing."
         },
         {
           "choiceLabel": "D",
-          "reason": "This option is a near-miss because it bypasses or mis-times a required control under FAR Part 6."
+          "reason": "Choice D is attractive because it appears to save time, but it fails this question's control point: matching method and authority to the acquisition phase."
         }
       ],
-      "fieldTip": "When pressure increases, cite FAR 6.101 in your file documentation and note any transition context from the FAR Overhaul page."
+      "fieldTip": "In live filework, write a one-line rationale tied to FAR 6.101 before routing for signature; it prevents avoidable rework.",
+      "rfoUpdate": "FAR Overhaul is reorganizing presentation, but the decision logic here remains anchored to FAR Part 6."
     },
     "explanation": {
-      "whyCorrect": "This option directly applies FAR Part 6 requirements and preserves a defensible acquisition record.",
-      "keyTakeaway": "Anchor decisions to FAR Part 6 and document the rationale before award or direction is issued.",
-      "commonTrap": "Do not trade compliance gates for speed; most wrong options delay or skip required acquisition controls."
+      "whyCorrect": "The keyed answer is correct because it follows FAR Part 6 in the right sequence and preserves an auditable file for the contracting officer.",
+      "keyTakeaway": "Use FAR Part 6 as your primary anchor, then confirm timing and authority.",
+      "commonTrap": "The trap is usually a convenient shortcut that sounds efficient but misses a required pre-action control."
     },
     "farRefs": [
       "FAR 6"
@@ -1884,33 +1910,34 @@
           }
         ]
       },
-      "whatThisTests": "Selecting the compliant simplified acquisition action by applying governing policy, timing, and documentation rules.",
+      "whatThisTests": "Q027 tests whether you can apply FAR Part 13 to the decision point in the stem without skipping compliance steps.",
       "decisionSteps": [
-        "Identify the governing authority (FAR Part 13) and the specific decision gate in the prompt.",
-        "Eliminate options that defer required approvals, documentation, or scope validation.",
-        "Choose the option that remains compliant while still supporting timely mission execution."
+        "Start with FAR Part 13 and identify the exact decision trigger in the stem.",
+        "Discard options that postpone required documentation, approvals, or determinations until after award/action.",
+        "Select the option that keeps legal sufficiency and mission speed in balance."
       ],
-      "whyCorrect": "This option directly applies FAR Part 13 requirements and preserves a defensible acquisition record.",
+      "whyCorrect": "The keyed answer is correct because it follows FAR Part 13 in the right sequence and preserves an auditable file for the contracting officer.",
       "whyWrong": [
         {
           "choiceLabel": "B",
-          "reason": "This option is a near-miss because it bypasses or mis-times a required control under FAR Part 13."
+          "reason": "Choice B is attractive because it appears to save time, but it fails this question's control point: documenting the governing authority before action."
         },
         {
           "choiceLabel": "C",
-          "reason": "This option is a near-miss because it bypasses or mis-times a required control under FAR Part 13."
+          "reason": "Choice C is attractive because it appears to save time, but it fails this question's control point: using the correct approval/justification timing."
         },
         {
           "choiceLabel": "D",
-          "reason": "This option is a near-miss because it bypasses or mis-times a required control under FAR Part 13."
+          "reason": "Choice D is attractive because it appears to save time, but it fails this question's control point: matching method and authority to the acquisition phase."
         }
       ],
-      "fieldTip": "When pressure increases, cite FAR 13.003 in your file documentation and note any transition context from the FAR Overhaul page."
+      "fieldTip": "In live filework, write a one-line rationale tied to FAR 13.003 before routing for signature; it prevents avoidable rework.",
+      "rfoUpdate": "FAR Overhaul is reorganizing presentation, but the decision logic here remains anchored to FAR Part 13."
     },
     "explanation": {
-      "whyCorrect": "This option directly applies FAR Part 13 requirements and preserves a defensible acquisition record.",
-      "keyTakeaway": "Anchor decisions to FAR Part 13 and document the rationale before award or direction is issued.",
-      "commonTrap": "Do not trade compliance gates for speed; most wrong options delay or skip required acquisition controls."
+      "whyCorrect": "The keyed answer is correct because it follows FAR Part 13 in the right sequence and preserves an auditable file for the contracting officer.",
+      "keyTakeaway": "Use FAR Part 13 as your primary anchor, then confirm timing and authority.",
+      "commonTrap": "The trap is usually a convenient shortcut that sounds efficient but misses a required pre-action control."
     },
     "farRefs": [
       "FAR 13"
@@ -1955,33 +1982,34 @@
           }
         ]
       },
-      "whatThisTests": "Selecting the compliant contracting by negotiation action by applying governing policy, timing, and documentation rules.",
+      "whatThisTests": "Q028 tests whether you can apply FAR Part 15 to the decision point in the stem without skipping compliance steps.",
       "decisionSteps": [
-        "Identify the governing authority (FAR Part 15) and the specific decision gate in the prompt.",
-        "Eliminate options that defer required approvals, documentation, or scope validation.",
-        "Choose the option that remains compliant while still supporting timely mission execution."
+        "Start with FAR Part 15 and identify the exact decision trigger in the stem.",
+        "Discard options that postpone required documentation, approvals, or determinations until after award/action.",
+        "Select the option that keeps legal sufficiency and mission speed in balance."
       ],
-      "whyCorrect": "This option directly applies FAR Part 15 requirements and preserves a defensible acquisition record.",
+      "whyCorrect": "The keyed answer is correct because it follows FAR Part 15 in the right sequence and preserves an auditable file for the contracting officer.",
       "whyWrong": [
         {
           "choiceLabel": "A",
-          "reason": "This option is a near-miss because it bypasses or mis-times a required control under FAR Part 15."
+          "reason": "Choice A is attractive because it appears to save time, but it fails this question's control point: documenting the governing authority before action."
         },
         {
           "choiceLabel": "B",
-          "reason": "This option is a near-miss because it bypasses or mis-times a required control under FAR Part 15."
+          "reason": "Choice B is attractive because it appears to save time, but it fails this question's control point: using the correct approval/justification timing."
         },
         {
           "choiceLabel": "C",
-          "reason": "This option is a near-miss because it bypasses or mis-times a required control under FAR Part 15."
+          "reason": "Choice C is attractive because it appears to save time, but it fails this question's control point: matching method and authority to the acquisition phase."
         }
       ],
-      "fieldTip": "When pressure increases, cite FAR 15.306 in your file documentation and note any transition context from the FAR Overhaul page."
+      "fieldTip": "In live filework, write a one-line rationale tied to FAR 15.306 before routing for signature; it prevents avoidable rework.",
+      "rfoUpdate": "FAR Overhaul is reorganizing presentation, but the decision logic here remains anchored to FAR Part 15."
     },
     "explanation": {
-      "whyCorrect": "This option directly applies FAR Part 15 requirements and preserves a defensible acquisition record.",
-      "keyTakeaway": "Anchor decisions to FAR Part 15 and document the rationale before award or direction is issued.",
-      "commonTrap": "Do not trade compliance gates for speed; most wrong options delay or skip required acquisition controls."
+      "whyCorrect": "The keyed answer is correct because it follows FAR Part 15 in the right sequence and preserves an auditable file for the contracting officer.",
+      "keyTakeaway": "Use FAR Part 15 as your primary anchor, then confirm timing and authority.",
+      "commonTrap": "The trap is usually a convenient shortcut that sounds efficient but misses a required pre-action control."
     },
     "farRefs": [
       "FAR 15"
@@ -2026,33 +2054,34 @@
           }
         ]
       },
-      "whatThisTests": "Selecting the compliant contract modifications action by applying governing policy, timing, and documentation rules.",
+      "whatThisTests": "Q029 tests whether you can apply FAR Part 43 to the decision point in the stem without skipping compliance steps.",
       "decisionSteps": [
-        "Identify the governing authority (FAR Part 43) and the specific decision gate in the prompt.",
-        "Eliminate options that defer required approvals, documentation, or scope validation.",
-        "Choose the option that remains compliant while still supporting timely mission execution."
+        "Start with FAR Part 43 and identify the exact decision trigger in the stem.",
+        "Discard options that postpone required documentation, approvals, or determinations until after award/action.",
+        "Select the option that keeps legal sufficiency and mission speed in balance."
       ],
-      "whyCorrect": "This option directly applies FAR Part 43 requirements and preserves a defensible acquisition record.",
+      "whyCorrect": "The keyed answer is correct because it follows FAR Part 43 in the right sequence and preserves an auditable file for the contracting officer.",
       "whyWrong": [
         {
           "choiceLabel": "A",
-          "reason": "This option is a near-miss because it bypasses or mis-times a required control under FAR Part 43."
+          "reason": "Choice A is attractive because it appears to save time, but it fails this question's control point: documenting the governing authority before action."
         },
         {
           "choiceLabel": "B",
-          "reason": "This option is a near-miss because it bypasses or mis-times a required control under FAR Part 43."
+          "reason": "Choice B is attractive because it appears to save time, but it fails this question's control point: using the correct approval/justification timing."
         },
         {
           "choiceLabel": "C",
-          "reason": "This option is a near-miss because it bypasses or mis-times a required control under FAR Part 43."
+          "reason": "Choice C is attractive because it appears to save time, but it fails this question's control point: matching method and authority to the acquisition phase."
         }
       ],
-      "fieldTip": "When pressure increases, cite FAR 43.102 in your file documentation and note any transition context from the FAR Overhaul page."
+      "fieldTip": "In live filework, write a one-line rationale tied to FAR 43.102 before routing for signature; it prevents avoidable rework.",
+      "rfoUpdate": "FAR Overhaul is reorganizing presentation, but the decision logic here remains anchored to FAR Part 43."
     },
     "explanation": {
-      "whyCorrect": "This option directly applies FAR Part 43 requirements and preserves a defensible acquisition record.",
-      "keyTakeaway": "Anchor decisions to FAR Part 43 and document the rationale before award or direction is issued.",
-      "commonTrap": "Do not trade compliance gates for speed; most wrong options delay or skip required acquisition controls."
+      "whyCorrect": "The keyed answer is correct because it follows FAR Part 43 in the right sequence and preserves an auditable file for the contracting officer.",
+      "keyTakeaway": "Use FAR Part 43 as your primary anchor, then confirm timing and authority.",
+      "commonTrap": "The trap is usually a convenient shortcut that sounds efficient but misses a required pre-action control."
     },
     "farRefs": [
       "FAR 43"
@@ -2097,33 +2126,34 @@
           }
         ]
       },
-      "whatThisTests": "Selecting the compliant source selection action by applying governing policy, timing, and documentation rules.",
+      "whatThisTests": "Q030 tests whether you can apply FAR 15.3 to the decision point in the stem without skipping compliance steps.",
       "decisionSteps": [
-        "Identify the governing authority (FAR 15.3) and the specific decision gate in the prompt.",
-        "Eliminate options that defer required approvals, documentation, or scope validation.",
-        "Choose the option that remains compliant while still supporting timely mission execution."
+        "Start with FAR 15.3 and identify the exact decision trigger in the stem.",
+        "Discard options that postpone required documentation, approvals, or determinations until after award/action.",
+        "Select the option that keeps legal sufficiency and mission speed in balance."
       ],
-      "whyCorrect": "This option directly applies FAR 15.3 requirements and preserves a defensible acquisition record.",
+      "whyCorrect": "The keyed answer is correct because it follows FAR 15.3 in the right sequence and preserves an auditable file for the contracting officer.",
       "whyWrong": [
         {
           "choiceLabel": "A",
-          "reason": "This option is a near-miss because it bypasses or mis-times a required control under FAR 15.3."
+          "reason": "Choice A is attractive because it appears to save time, but it fails this question's control point: documenting the governing authority before action."
         },
         {
           "choiceLabel": "C",
-          "reason": "This option is a near-miss because it bypasses or mis-times a required control under FAR 15.3."
+          "reason": "Choice C is attractive because it appears to save time, but it fails this question's control point: using the correct approval/justification timing."
         },
         {
           "choiceLabel": "D",
-          "reason": "This option is a near-miss because it bypasses or mis-times a required control under FAR 15.3."
+          "reason": "Choice D is attractive because it appears to save time, but it fails this question's control point: matching method and authority to the acquisition phase."
         }
       ],
-      "fieldTip": "When pressure increases, cite FAR 15.308 in your file documentation and note any transition context from the FAR Overhaul page."
+      "fieldTip": "In live filework, write a one-line rationale tied to FAR 15.308 before routing for signature; it prevents avoidable rework.",
+      "rfoUpdate": "FAR Overhaul is reorganizing presentation, but the decision logic here remains anchored to FAR 15.3."
     },
     "explanation": {
-      "whyCorrect": "This option directly applies FAR 15.3 requirements and preserves a defensible acquisition record.",
-      "keyTakeaway": "Anchor decisions to FAR 15.3 and document the rationale before award or direction is issued.",
-      "commonTrap": "Do not trade compliance gates for speed; most wrong options delay or skip required acquisition controls."
+      "whyCorrect": "The keyed answer is correct because it follows FAR 15.3 in the right sequence and preserves an auditable file for the contracting officer.",
+      "keyTakeaway": "Use FAR 15.3 as your primary anchor, then confirm timing and authority.",
+      "commonTrap": "The trap is usually a convenient shortcut that sounds efficient but misses a required pre-action control."
     },
     "farRefs": [
       "FAR 15.3"

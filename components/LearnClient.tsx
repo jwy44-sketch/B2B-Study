@@ -147,7 +147,8 @@ export default function LearnClient() {
                     ))}
                   </ul>
                 ) : null}
-                <ul className="list-disc pl-5">{presented.question.explanationRich.decisionSteps.map((step) => <li key={step}>{step}</li>)}</ul>
+                <p><span className="font-semibold text-slate-100">How to decide (DAU thinking):</span></p>
+                <ol className="list-decimal pl-5">{presented.question.explanationRich.decisionSteps.map((step) => <li key={step}>{step}</li>)}</ol>
                 <p><span className="font-semibold text-slate-100">Why correct:</span> {presented.question.explanationRich.whyCorrect}</p>
                 <ul className="list-disc pl-5">
                   {presented.question.explanationRich.whyWrong.map((item) => (
@@ -157,6 +158,9 @@ export default function LearnClient() {
                   ))}
                 </ul>
                 <p><span className="font-semibold text-slate-100">Field tip:</span> {presented.question.explanationRich.fieldTip}</p>
+                {presented.question.explanationRich.rfoUpdate ? (
+                  <p><span className="font-semibold text-slate-100">RFO Update:</span> {presented.question.explanationRich.rfoUpdate}</p>
+                ) : null}
               </div>
             ) : (
               <>

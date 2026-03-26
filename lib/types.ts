@@ -18,6 +18,7 @@ export type Question = {
     whyCorrect: string;
     whyWrong: { choiceLabel: string; reason: string }[];
     fieldTip: string;
+    rfoUpdate?: string;
   };
   explanation: {
     whyCorrect: string;
