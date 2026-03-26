@@ -10,7 +10,8 @@ export type Question = {
   explanationRich?: {
     farRefs: {
       part: { cite: string; title: string; url: string };
-      sections: { cite: string; title: string }[];
+      sections: { cite: string; title: string; url: string }[];
+      rfo?: { cite: string; title: string; url: string }[];
     };
     whatThisTests: string;
     decisionSteps: string[];

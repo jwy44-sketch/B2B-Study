@@ -121,10 +121,33 @@ export default function LearnClient() {
             {presented.question.explanationRich ? (
               <div className="space-y-2 text-sm text-slate-300">
                 <p><span className="font-semibold text-slate-100">What this tests:</span> {presented.question.explanationRich.whatThisTests}</p>
-                <p><span className="font-semibold text-slate-100">FAR reference:</span> {presented.question.explanationRich.farRefs.part.cite} — {presented.question.explanationRich.farRefs.part.title}</p>
+                <p>
+                  <span className="font-semibold text-slate-100">FAR reference:</span>{' '}
+                  <a href={presented.question.explanationRich.farRefs.part.url} target="_blank" rel="noreferrer" className="text-brand underline">
+                    {presented.question.explanationRich.farRefs.part.cite} — {presented.question.explanationRich.farRefs.part.title}
+                  </a>
+                </p>
                 <ul className="list-disc pl-5">
-                  {presented.question.explanationRich.decisionSteps.map((step) => <li key={step}>{step}</li>)}
+                  {presented.question.explanationRich.farRefs.sections.map((section) => (
+                    <li key={section.cite}>
+                      <a href={section.url} target="_blank" rel="noreferrer" className="text-brand underline">
+                        {section.cite} — {section.title}
+                      </a>
+                    </li>
+                  ))}
                 </ul>
+                {presented.question.explanationRich.farRefs.rfo?.length ? (
+                  <ul className="list-disc pl-5">
+                    {presented.question.explanationRich.farRefs.rfo.map((ref) => (
+                      <li key={ref.cite}>
+                        <a href={ref.url} target="_blank" rel="noreferrer" className="text-brand underline">
+                          {ref.cite} — {ref.title}
+                        </a>
+                      </li>
+                    ))}
+                  </ul>
+                ) : null}
+                <ul className="list-disc pl-5">{presented.question.explanationRich.decisionSteps.map((step) => <li key={step}>{step}</li>)}</ul>
                 <p><span className="font-semibold text-slate-100">Why correct:</span> {presented.question.explanationRich.whyCorrect}</p>
                 <ul className="list-disc pl-5">
                   {presented.question.explanationRich.whyWrong.map((item) => (
