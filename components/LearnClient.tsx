@@ -100,7 +100,7 @@ export default function LearnClient() {
           transition={{ duration: 0.24 }}
           className="card space-y-3"
         >
-          <h2 className="text-xl font-semibold">{presented.question.prompt}</h2>
+          <h2 className="text-xl font-semibold">{presented.question.stem}</h2>
           <div className="grid gap-2">
             {presented.presentedChoices.map((choice, i) => (
               <button key={choice} disabled={mode === 'FEEDBACK'} onClick={() => onAnswer(i)} className="rounded-lg border border-slate-700 p-3 text-left hover:border-brand">
@@ -118,9 +118,30 @@ export default function LearnClient() {
         {mode === 'FEEDBACK' && (
           <motion.div initial={reduceMotion ? false : { y: 60, opacity: 0 }} animate={{ y: 0, opacity: 1 }} className="fixed inset-x-0 bottom-0 mx-auto max-w-4xl rounded-t-xl border border-slate-700 bg-slate-900 p-4">
             <p className="font-semibold">{selected === presented.presentedCorrectIndex ? 'Correct' : 'Incorrect'}</p>
-            <p className="text-sm text-slate-300">{presented.question.explanation.whyCorrect}</p>
-            <p className="text-sm text-slate-300">Key takeaway: {presented.question.explanation.keyTakeaway}</p>
-            <p className="text-sm text-slate-300">Common trap: {presented.question.explanation.commonTrap}</p>
+            {presented.question.explanationRich ? (
+              <div className="space-y-2 text-sm text-slate-300">
+                <p><span className="font-semibold text-slate-100">What this tests:</span> {presented.question.explanationRich.whatThisTests}</p>
+                <p><span className="font-semibold text-slate-100">FAR reference:</span> {presented.question.explanationRich.farRefs.part.cite} — {presented.question.explanationRich.farRefs.part.title}</p>
+                <ul className="list-disc pl-5">
+                  {presented.question.explanationRich.decisionSteps.map((step) => <li key={step}>{step}</li>)}
+                </ul>
+                <p><span className="font-semibold text-slate-100">Why correct:</span> {presented.question.explanationRich.whyCorrect}</p>
+                <ul className="list-disc pl-5">
+                  {presented.question.explanationRich.whyWrong.map((item) => (
+                    <li key={`${item.choiceLabel}-${item.reason}`}>
+                      <span className="font-semibold">{item.choiceLabel}:</span> {item.reason}
+                    </li>
+                  ))}
+                </ul>
+                <p><span className="font-semibold text-slate-100">Field tip:</span> {presented.question.explanationRich.fieldTip}</p>
+              </div>
+            ) : (
+              <>
+                <p className="text-sm text-slate-300">{presented.question.explanation.whyCorrect}</p>
+                <p className="text-sm text-slate-300">Key takeaway: {presented.question.explanation.keyTakeaway}</p>
+                <p className="text-sm text-slate-300">Common trap: {presented.question.explanation.commonTrap}</p>
+              </>
+            )}
             <button className="btn mt-3" onClick={next}>Next (N / Enter)</button>
           </motion.div>
         )}

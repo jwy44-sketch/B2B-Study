@@ -35,7 +35,7 @@ export default function ExamPage() {
         <label><input type="checkbox" checked={bookmarkedOnly} onChange={(e) => setBookmarkedOnly(e.target.checked)} className="mr-2" />only bookmarked</label>
       </div>
       <div className="card space-y-2">
-        <p className="font-semibold">{pq.question.prompt}</p>
+        <p className="font-semibold">{pq.question.stem}</p>
         {pq.presentedChoices.map((c, idx) => (
           <button key={c} className="block w-full rounded border border-slate-700 p-2 text-left" onClick={() => {
             if (idx === pq.presentedCorrectIndex) setScore((s) => s + 1);

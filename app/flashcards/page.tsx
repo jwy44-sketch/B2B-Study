@@ -42,7 +42,7 @@ export default function FlashcardsPage() {
         <label><input type="checkbox" checked={onlyBookmarked} onChange={(e) => setOnlyBookmarked(e.target.checked)} className="mr-2" />only bookmarked</label>
       </div>
       <div className="card space-y-2" onClick={() => setShowAnswer(true)}>
-        <p>{q.prompt}</p>
+        <p>{q.stem}</p>
         {showAnswer && <p className="text-brand">Answer: {q.choices[q.correctIndex]}</p>}
         {showExplanation && <p className="text-slate-300">{q.explanation.whyCorrect}</p>}
         <div className="flex gap-2">

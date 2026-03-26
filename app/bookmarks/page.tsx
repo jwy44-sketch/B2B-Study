@@ -16,7 +16,7 @@ export default function BookmarksPage() {
       <h1 className="text-2xl font-bold">Bookmarks</h1>
       {bookmarked.map((q) => (
         <div key={q.id} className="card">
-          <p>{q.prompt}</p>
+          <p>{q.stem}</p>
           <button onClick={() => toggle(q.id)}>Remove</button>
         </div>
       ))}
