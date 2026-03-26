@@ -3,10 +3,10 @@
     "id": "Q001",
     "prompt": "In market research scenario #1, what is the best contracting action?",
     "choices": [
-      "Rely on prior contract files and skip current vendor outreach for this requirement.",
+      "Delay acquisition planning until after solicitation",
       "Apply FAR 10 procedures with documented rationale",
-      "Post the solicitation first, then document market research only if questions arise.",
-      "Adopt the incumbent's approach without validating current commercial capabilities."
+      "Use sole-source automatically without justification",
+      "Skip documentation to accelerate award"
     ],
     "correctIndex": 1,
     "topic": "Market Research",
@@ -29,9 +29,9 @@
     "id": "Q002",
     "prompt": "In competition scenario #2, what is the best contracting action?",
     "choices": [
-      "Restrict competition to known vendors before documenting a valid exclusion rationale.",
-      "Issue a brand-name requirement and complete the justification after award.",
-      "Prioritize schedule urgency and reduce competition without obtaining required approvals.",
+      "Skip documentation to accelerate award",
+      "Use sole-source automatically without justification",
+      "Delay acquisition planning until after solicitation",
       "Apply FAR 6 procedures with documented rationale"
     ],
     "correctIndex": 3,
@@ -55,10 +55,10 @@
     "id": "Q003",
     "prompt": "In simplified acquisition scenario #3, what is the best contracting action?",
     "choices": [
-      "Use simplified procedures above threshold limits because administrative speed is critical.",
+      "Delay acquisition planning until after solicitation",
       "Apply FAR 13 procedures with documented rationale",
-      "Solicit only one local source and document price reasonableness after award.",
-      "Combine unrelated needs into one buy to stay within a preferred buying method."
+      "Use sole-source automatically without justification",
+      "Skip documentation to accelerate award"
     ],
     "correctIndex": 1,
     "topic": "Simplified Acquisition",
@@ -81,10 +81,10 @@
     "id": "Q004",
     "prompt": "In contracting by negotiation scenario #4, what is the best contracting action?",
     "choices": [
-      "Begin negotiations before establishing evaluation factors and competitive range strategy.",
+      "Use sole-source automatically without justification",
       "Apply FAR 15 procedures with documented rationale",
-      "Award on lowest price alone when tradeoff criteria were announced in the solicitation.",
-      "Disclose one offeror's pricing details to accelerate final proposal revisions."
+      "Delay acquisition planning until after solicitation",
+      "Skip documentation to accelerate award"
     ],
     "correctIndex": 1,
     "topic": "Contracting by Negotiation",
@@ -108,9 +108,9 @@
     "prompt": "In contract modifications scenario #5, what is the best contracting action?",
     "choices": [
       "Apply FAR 43 procedures with documented rationale",
-      "Direct the contractor to perform new scope first and negotiate pricing later.",
-      "Use unilateral administrative authority for substantive scope changes outside the contract.",
-      "Treat every change as within scope when mission urgency supports continuity."
+      "Skip documentation to accelerate award",
+      "Delay acquisition planning until after solicitation",
+      "Use sole-source automatically without justification"
     ],
     "correctIndex": 0,
     "topic": "Contract Modifications",
@@ -133,9 +133,9 @@
     "id": "Q006",
     "prompt": "In source selection scenario #6, what is the best contracting action?",
     "choices": [
-      "Adjust evaluation weights during discussions to align with evolving preferences.",
-      "Allow evaluators to rely on undocumented impressions instead of the source selection plan.",
-      "Limit tradeoff documentation to final ratings without comparing proposal strengths and risks.",
+      "Delay acquisition planning until after solicitation",
+      "Use sole-source automatically without justification",
+      "Skip documentation to accelerate award",
       "Apply FAR 15.3 procedures with documented rationale"
     ],
     "correctIndex": 3,
@@ -159,10 +159,10 @@
     "id": "Q007",
     "prompt": "In commercial items scenario #7, what is the best contracting action?",
     "choices": [
-      "Require noncommercial clauses by default without determining market customary practice.",
-      "Use commercial procedures while demanding unique government-only technical redesigns.",
+      "Delay acquisition planning until after solicitation",
+      "Skip documentation to accelerate award",
       "Apply FAR 12 procedures with documented rationale",
-      "Skip market comparability analysis and rely solely on internal cost estimates."
+      "Use sole-source automatically without justification"
     ],
     "correctIndex": 2,
     "topic": "Commercial Items",
@@ -186,9 +186,9 @@
     "prompt": "In contract types scenario #8, what is the best contracting action?",
     "choices": [
       "Apply FAR 16 procedures with documented rationale",
-      "Select firm-fixed-price when requirements remain unstable and technical risk is high.",
-      "Use cost-reimbursement without documenting adequate surveillance and accounting capability.",
-      "Choose contract type based on historical preference rather than current risk allocation."
+      "Use sole-source automatically without justification",
+      "Delay acquisition planning until after solicitation",
+      "Skip documentation to accelerate award"
     ],
     "correctIndex": 0,
     "topic": "Contract Types",
@@ -212,9 +212,9 @@
     "prompt": "In market research scenario #9, what is the best contracting action?",
     "choices": [
       "Apply FAR 10 procedures with documented rationale",
-      "Rely on prior contract files and skip current vendor outreach for this requirement.",
-      "Post the solicitation first, then document market research only if questions arise.",
-      "Adopt the incumbent's approach without validating current commercial capabilities."
+      "Skip documentation to accelerate award",
+      "Use sole-source automatically without justification",
+      "Delay acquisition planning until after solicitation"
     ],
     "correctIndex": 0,
     "topic": "Market Research",
@@ -237,9 +237,9 @@
     "id": "Q010",
     "prompt": "In competition scenario #10, what is the best contracting action?",
     "choices": [
-      "Restrict competition to known vendors before documenting a valid exclusion rationale.",
-      "Issue a brand-name requirement and complete the justification after award.",
-      "Prioritize schedule urgency and reduce competition without obtaining required approvals.",
+      "Delay acquisition planning until after solicitation",
+      "Use sole-source automatically without justification",
+      "Skip documentation to accelerate award",
       "Apply FAR 6 procedures with documented rationale"
     ],
     "correctIndex": 3,
@@ -264,9 +264,9 @@
     "prompt": "In simplified acquisition scenario #11, what is the best contracting action?",
     "choices": [
       "Apply FAR 13 procedures with documented rationale",
-      "Use simplified procedures above threshold limits because administrative speed is critical.",
-      "Solicit only one local source and document price reasonableness after award.",
-      "Combine unrelated needs into one buy to stay within a preferred buying method."
+      "Skip documentation to accelerate award",
+      "Use sole-source automatically without justification",
+      "Delay acquisition planning until after solicitation"
     ],
     "correctIndex": 0,
     "topic": "Simplified Acquisition",
@@ -290,9 +290,9 @@
     "prompt": "In contracting by negotiation scenario #12, what is the best contracting action?",
     "choices": [
       "Apply FAR 15 procedures with documented rationale",
-      "Begin negotiations before establishing evaluation factors and competitive range strategy.",
-      "Award on lowest price alone when tradeoff criteria were announced in the solicitation.",
-      "Disclose one offeror's pricing details to accelerate final proposal revisions."
+      "Use sole-source automatically without justification",
+      "Skip documentation to accelerate award",
+      "Delay acquisition planning until after solicitation"
     ],
     "correctIndex": 0,
     "topic": "Contracting by Negotiation",
@@ -315,10 +315,10 @@
     "id": "Q013",
     "prompt": "In contract modifications scenario #13, what is the best contracting action?",
     "choices": [
-      "Direct the contractor to perform new scope first and negotiate pricing later.",
+      "Delay acquisition planning until after solicitation",
       "Apply FAR 43 procedures with documented rationale",
-      "Use unilateral administrative authority for substantive scope changes outside the contract.",
-      "Treat every change as within scope when mission urgency supports continuity."
+      "Skip documentation to accelerate award",
+      "Use sole-source automatically without justification"
     ],
     "correctIndex": 1,
     "topic": "Contract Modifications",
@@ -341,9 +341,9 @@
     "id": "Q014",
     "prompt": "In source selection scenario #14, what is the best contracting action?",
     "choices": [
-      "Adjust evaluation weights during discussions to align with evolving preferences.",
-      "Allow evaluators to rely on undocumented impressions instead of the source selection plan.",
-      "Limit tradeoff documentation to final ratings without comparing proposal strengths and risks.",
+      "Skip documentation to accelerate award",
+      "Delay acquisition planning until after solicitation",
+      "Use sole-source automatically without justification",
       "Apply FAR 15.3 procedures with documented rationale"
     ],
     "correctIndex": 3,
@@ -367,10 +367,10 @@
     "id": "Q015",
     "prompt": "In commercial items scenario #15, what is the best contracting action?",
     "choices": [
-      "Require noncommercial clauses by default without determining market customary practice.",
-      "Use commercial procedures while demanding unique government-only technical redesigns.",
+      "Delay acquisition planning until after solicitation",
+      "Use sole-source automatically without justification",
       "Apply FAR 12 procedures with documented rationale",
-      "Skip market comparability analysis and rely solely on internal cost estimates."
+      "Skip documentation to accelerate award"
     ],
     "correctIndex": 2,
     "topic": "Commercial Items",
@@ -394,9 +394,9 @@
     "prompt": "In contract types scenario #16, what is the best contracting action?",
     "choices": [
       "Apply FAR 16 procedures with documented rationale",
-      "Select firm-fixed-price when requirements remain unstable and technical risk is high.",
-      "Use cost-reimbursement without documenting adequate surveillance and accounting capability.",
-      "Choose contract type based on historical preference rather than current risk allocation."
+      "Delay acquisition planning until after solicitation",
+      "Skip documentation to accelerate award",
+      "Use sole-source automatically without justification"
     ],
     "correctIndex": 0,
     "topic": "Contract Types",
@@ -420,9 +420,9 @@
     "prompt": "In market research scenario #17, what is the best contracting action?",
     "choices": [
       "Apply FAR 10 procedures with documented rationale",
-      "Rely on prior contract files and skip current vendor outreach for this requirement.",
-      "Post the solicitation first, then document market research only if questions arise.",
-      "Adopt the incumbent's approach without validating current commercial capabilities."
+      "Use sole-source automatically without justification",
+      "Skip documentation to accelerate award",
+      "Delay acquisition planning until after solicitation"
     ],
     "correctIndex": 0,
     "topic": "Market Research",
@@ -445,10 +445,10 @@
     "id": "Q018",
     "prompt": "In competition scenario #18, what is the best contracting action?",
     "choices": [
-      "Restrict competition to known vendors before documenting a valid exclusion rationale.",
-      "Issue a brand-name requirement and complete the justification after award.",
+      "Use sole-source automatically without justification",
+      "Delay acquisition planning until after solicitation",
       "Apply FAR 6 procedures with documented rationale",
-      "Prioritize schedule urgency and reduce competition without obtaining required approvals."
+      "Skip documentation to accelerate award"
     ],
     "correctIndex": 2,
     "topic": "Competition",
@@ -471,9 +471,9 @@
     "id": "Q019",
     "prompt": "In simplified acquisition scenario #19, what is the best contracting action?",
     "choices": [
-      "Use simplified procedures above threshold limits because administrative speed is critical.",
-      "Solicit only one local source and document price reasonableness after award.",
-      "Combine unrelated needs into one buy to stay within a preferred buying method.",
+      "Skip documentation to accelerate award",
+      "Delay acquisition planning until after solicitation",
+      "Use sole-source automatically without justification",
       "Apply FAR 13 procedures with documented rationale"
     ],
     "correctIndex": 3,
@@ -497,10 +497,10 @@
     "id": "Q020",
     "prompt": "In contracting by negotiation scenario #20, what is the best contracting action?",
     "choices": [
-      "Begin negotiations before establishing evaluation factors and competitive range strategy.",
+      "Use sole-source automatically without justification",
       "Apply FAR 15 procedures with documented rationale",
-      "Award on lowest price alone when tradeoff criteria were announced in the solicitation.",
-      "Disclose one offeror's pricing details to accelerate final proposal revisions."
+      "Delay acquisition planning until after solicitation",
+      "Skip documentation to accelerate award"
     ],
     "correctIndex": 1,
     "topic": "Contracting by Negotiation",
@@ -524,9 +524,9 @@
     "prompt": "In contract modifications scenario #21, what is the best contracting action?",
     "choices": [
       "Apply FAR 43 procedures with documented rationale",
-      "Direct the contractor to perform new scope first and negotiate pricing later.",
-      "Use unilateral administrative authority for substantive scope changes outside the contract.",
-      "Treat every change as within scope when mission urgency supports continuity."
+      "Use sole-source automatically without justification",
+      "Delay acquisition planning until after solicitation",
+      "Skip documentation to accelerate award"
     ],
     "correctIndex": 0,
     "topic": "Contract Modifications",
@@ -549,10 +549,10 @@
     "id": "Q022",
     "prompt": "In source selection scenario #22, what is the best contracting action?",
     "choices": [
-      "Adjust evaluation weights during discussions to align with evolving preferences.",
-      "Allow evaluators to rely on undocumented impressions instead of the source selection plan.",
+      "Delay acquisition planning until after solicitation",
+      "Use sole-source automatically without justification",
       "Apply FAR 15.3 procedures with documented rationale",
-      "Limit tradeoff documentation to final ratings without comparing proposal strengths and risks."
+      "Skip documentation to accelerate award"
     ],
     "correctIndex": 2,
     "topic": "Source Selection",
@@ -575,10 +575,10 @@
     "id": "Q023",
     "prompt": "In commercial items scenario #23, what is the best contracting action?",
     "choices": [
-      "Require noncommercial clauses by default without determining market customary practice.",
-      "Use commercial procedures while demanding unique government-only technical redesigns.",
+      "Skip documentation to accelerate award",
+      "Delay acquisition planning until after solicitation",
       "Apply FAR 12 procedures with documented rationale",
-      "Skip market comparability analysis and rely solely on internal cost estimates."
+      "Use sole-source automatically without justification"
     ],
     "correctIndex": 2,
     "topic": "Commercial Items",
@@ -601,10 +601,10 @@
     "id": "Q024",
     "prompt": "In contract types scenario #24, what is the best contracting action?",
     "choices": [
-      "Select firm-fixed-price when requirements remain unstable and technical risk is high.",
+      "Skip documentation to accelerate award",
       "Apply FAR 16 procedures with documented rationale",
-      "Use cost-reimbursement without documenting adequate surveillance and accounting capability.",
-      "Choose contract type based on historical preference rather than current risk allocation."
+      "Use sole-source automatically without justification",
+      "Delay acquisition planning until after solicitation"
     ],
     "correctIndex": 1,
     "topic": "Contract Types",
@@ -627,10 +627,10 @@
     "id": "Q025",
     "prompt": "In market research scenario #25, what is the best contracting action?",
     "choices": [
-      "Rely on prior contract files and skip current vendor outreach for this requirement.",
-      "Post the solicitation first, then document market research only if questions arise.",
+      "Skip documentation to accelerate award",
+      "Use sole-source automatically without justification",
       "Apply FAR 10 procedures with documented rationale",
-      "Adopt the incumbent's approach without validating current commercial capabilities."
+      "Delay acquisition planning until after solicitation"
     ],
     "correctIndex": 2,
     "topic": "Market Research",
@@ -653,10 +653,10 @@
     "id": "Q026",
     "prompt": "In competition scenario #26, what is the best contracting action?",
     "choices": [
-      "Restrict competition to known vendors before documenting a valid exclusion rationale.",
+      "Delay acquisition planning until after solicitation",
       "Apply FAR 6 procedures with documented rationale",
-      "Issue a brand-name requirement and complete the justification after award.",
-      "Prioritize schedule urgency and reduce competition without obtaining required approvals."
+      "Use sole-source automatically without justification",
+      "Skip documentation to accelerate award"
     ],
     "correctIndex": 1,
     "topic": "Competition",
@@ -680,9 +680,9 @@
     "prompt": "In simplified acquisition scenario #27, what is the best contracting action?",
     "choices": [
       "Apply FAR 13 procedures with documented rationale",
-      "Use simplified procedures above threshold limits because administrative speed is critical.",
-      "Solicit only one local source and document price reasonableness after award.",
-      "Combine unrelated needs into one buy to stay within a preferred buying method."
+      "Skip documentation to accelerate award",
+      "Use sole-source automatically without justification",
+      "Delay acquisition planning until after solicitation"
     ],
     "correctIndex": 0,
     "topic": "Simplified Acquisition",
@@ -705,9 +705,9 @@
     "id": "Q028",
     "prompt": "In contracting by negotiation scenario #28, what is the best contracting action?",
     "choices": [
-      "Begin negotiations before establishing evaluation factors and competitive range strategy.",
-      "Award on lowest price alone when tradeoff criteria were announced in the solicitation.",
-      "Disclose one offeror's pricing details to accelerate final proposal revisions.",
+      "Skip documentation to accelerate award",
+      "Delay acquisition planning until after solicitation",
+      "Use sole-source automatically without justification",
       "Apply FAR 15 procedures with documented rationale"
     ],
     "correctIndex": 3,
@@ -731,9 +731,9 @@
     "id": "Q029",
     "prompt": "In contract modifications scenario #29, what is the best contracting action?",
     "choices": [
-      "Direct the contractor to perform new scope first and negotiate pricing later.",
-      "Use unilateral administrative authority for substantive scope changes outside the contract.",
-      "Treat every change as within scope when mission urgency supports continuity.",
+      "Delay acquisition planning until after solicitation",
+      "Use sole-source automatically without justification",
+      "Skip documentation to accelerate award",
       "Apply FAR 43 procedures with documented rationale"
     ],
     "correctIndex": 3,
@@ -757,10 +757,10 @@
     "id": "Q030",
     "prompt": "In source selection scenario #30, what is the best contracting action?",
     "choices": [
-      "Adjust evaluation weights during discussions to align with evolving preferences.",
+      "Skip documentation to accelerate award",
       "Apply FAR 15.3 procedures with documented rationale",
-      "Allow evaluators to rely on undocumented impressions instead of the source selection plan.",
-      "Limit tradeoff documentation to final ratings without comparing proposal strengths and risks."
+      "Delay acquisition planning until after solicitation",
+      "Use sole-source automatically without justification"
     ],
     "correctIndex": 1,
     "topic": "Source Selection",
@@ -783,9 +783,9 @@
     "id": "Q031",
     "prompt": "In commercial items scenario #31, what is the best contracting action?",
     "choices": [
-      "Require noncommercial clauses by default without determining market customary practice.",
-      "Use commercial procedures while demanding unique government-only technical redesigns.",
-      "Skip market comparability analysis and rely solely on internal cost estimates.",
+      "Use sole-source automatically without justification",
+      "Delay acquisition planning until after solicitation",
+      "Skip documentation to accelerate award",
       "Apply FAR 12 procedures with documented rationale"
     ],
     "correctIndex": 3,
@@ -809,9 +809,9 @@
     "id": "Q032",
     "prompt": "In contract types scenario #32, what is the best contracting action?",
     "choices": [
-      "Select firm-fixed-price when requirements remain unstable and technical risk is high.",
-      "Use cost-reimbursement without documenting adequate surveillance and accounting capability.",
-      "Choose contract type based on historical preference rather than current risk allocation.",
+      "Skip documentation to accelerate award",
+      "Use sole-source automatically without justification",
+      "Delay acquisition planning until after solicitation",
       "Apply FAR 16 procedures with documented rationale"
     ],
     "correctIndex": 3,
@@ -835,10 +835,10 @@
     "id": "Q033",
     "prompt": "In market research scenario #33, what is the best contracting action?",
     "choices": [
-      "Rely on prior contract files and skip current vendor outreach for this requirement.",
+      "Delay acquisition planning until after solicitation",
       "Apply FAR 10 procedures with documented rationale",
-      "Post the solicitation first, then document market research only if questions arise.",
-      "Adopt the incumbent's approach without validating current commercial capabilities."
+      "Use sole-source automatically without justification",
+      "Skip documentation to accelerate award"
     ],
     "correctIndex": 1,
     "topic": "Market Research",
@@ -861,10 +861,10 @@
     "id": "Q034",
     "prompt": "In competition scenario #34, what is the best contracting action?",
     "choices": [
-      "Restrict competition to known vendors before documenting a valid exclusion rationale.",
+      "Skip documentation to accelerate award",
       "Apply FAR 6 procedures with documented rationale",
-      "Issue a brand-name requirement and complete the justification after award.",
-      "Prioritize schedule urgency and reduce competition without obtaining required approvals."
+      "Delay acquisition planning until after solicitation",
+      "Use sole-source automatically without justification"
     ],
     "correctIndex": 1,
     "topic": "Competition",
@@ -887,10 +887,10 @@
     "id": "Q035",
     "prompt": "In simplified acquisition scenario #35, what is the best contracting action?",
     "choices": [
-      "Use simplified procedures above threshold limits because administrative speed is critical.",
-      "Solicit only one local source and document price reasonableness after award.",
+      "Delay acquisition planning until after solicitation",
+      "Skip documentation to accelerate award",
       "Apply FAR 13 procedures with documented rationale",
-      "Combine unrelated needs into one buy to stay within a preferred buying method."
+      "Use sole-source automatically without justification"
     ],
     "correctIndex": 2,
     "topic": "Simplified Acquisition",
@@ -913,10 +913,10 @@
     "id": "Q036",
     "prompt": "In contracting by negotiation scenario #36, what is the best contracting action?",
     "choices": [
-      "Begin negotiations before establishing evaluation factors and competitive range strategy.",
-      "Award on lowest price alone when tradeoff criteria were announced in the solicitation.",
+      "Skip documentation to accelerate award",
+      "Delay acquisition planning until after solicitation",
       "Apply FAR 15 procedures with documented rationale",
-      "Disclose one offeror's pricing details to accelerate final proposal revisions."
+      "Use sole-source automatically without justification"
     ],
     "correctIndex": 2,
     "topic": "Contracting by Negotiation",
@@ -939,9 +939,9 @@
     "id": "Q037",
     "prompt": "In contract modifications scenario #37, what is the best contracting action?",
     "choices": [
-      "Direct the contractor to perform new scope first and negotiate pricing later.",
-      "Use unilateral administrative authority for substantive scope changes outside the contract.",
-      "Treat every change as within scope when mission urgency supports continuity.",
+      "Skip documentation to accelerate award",
+      "Delay acquisition planning until after solicitation",
+      "Use sole-source automatically without justification",
       "Apply FAR 43 procedures with documented rationale"
     ],
     "correctIndex": 3,
@@ -965,10 +965,10 @@
     "id": "Q038",
     "prompt": "In source selection scenario #38, what is the best contracting action?",
     "choices": [
-      "Adjust evaluation weights during discussions to align with evolving preferences.",
+      "Use sole-source automatically without justification",
       "Apply FAR 15.3 procedures with documented rationale",
-      "Allow evaluators to rely on undocumented impressions instead of the source selection plan.",
-      "Limit tradeoff documentation to final ratings without comparing proposal strengths and risks."
+      "Skip documentation to accelerate award",
+      "Delay acquisition planning until after solicitation"
     ],
     "correctIndex": 1,
     "topic": "Source Selection",
@@ -992,9 +992,9 @@
     "prompt": "In commercial items scenario #39, what is the best contracting action?",
     "choices": [
       "Apply FAR 12 procedures with documented rationale",
-      "Require noncommercial clauses by default without determining market customary practice.",
-      "Use commercial procedures while demanding unique government-only technical redesigns.",
-      "Skip market comparability analysis and rely solely on internal cost estimates."
+      "Use sole-source automatically without justification",
+      "Delay acquisition planning until after solicitation",
+      "Skip documentation to accelerate award"
     ],
     "correctIndex": 0,
     "topic": "Commercial Items",
@@ -1017,10 +1017,10 @@
     "id": "Q040",
     "prompt": "In contract types scenario #40, what is the best contracting action?",
     "choices": [
-      "Select firm-fixed-price when requirements remain unstable and technical risk is high.",
+      "Skip documentation to accelerate award",
       "Apply FAR 16 procedures with documented rationale",
-      "Use cost-reimbursement without documenting adequate surveillance and accounting capability.",
-      "Choose contract type based on historical preference rather than current risk allocation."
+      "Use sole-source automatically without justification",
+      "Delay acquisition planning until after solicitation"
     ],
     "correctIndex": 1,
     "topic": "Contract Types",
@@ -1043,10 +1043,10 @@
     "id": "Q041",
     "prompt": "In market research scenario #41, what is the best contracting action?",
     "choices": [
-      "Rely on prior contract files and skip current vendor outreach for this requirement.",
+      "Use sole-source automatically without justification",
       "Apply FAR 10 procedures with documented rationale",
-      "Post the solicitation first, then document market research only if questions arise.",
-      "Adopt the incumbent's approach without validating current commercial capabilities."
+      "Skip documentation to accelerate award",
+      "Delay acquisition planning until after solicitation"
     ],
     "correctIndex": 1,
     "topic": "Market Research",
@@ -1069,9 +1069,9 @@
     "id": "Q042",
     "prompt": "In competition scenario #42, what is the best contracting action?",
     "choices": [
-      "Restrict competition to known vendors before documenting a valid exclusion rationale.",
-      "Issue a brand-name requirement and complete the justification after award.",
-      "Prioritize schedule urgency and reduce competition without obtaining required approvals.",
+      "Use sole-source automatically without justification",
+      "Skip documentation to accelerate award",
+      "Delay acquisition planning until after solicitation",
       "Apply FAR 6 procedures with documented rationale"
     ],
     "correctIndex": 3,
@@ -1095,9 +1095,9 @@
     "id": "Q043",
     "prompt": "In simplified acquisition scenario #43, what is the best contracting action?",
     "choices": [
-      "Use simplified procedures above threshold limits because administrative speed is critical.",
-      "Solicit only one local source and document price reasonableness after award.",
-      "Combine unrelated needs into one buy to stay within a preferred buying method.",
+      "Use sole-source automatically without justification",
+      "Delay acquisition planning until after solicitation",
+      "Skip documentation to accelerate award",
       "Apply FAR 13 procedures with documented rationale"
     ],
     "correctIndex": 3,
@@ -1121,10 +1121,10 @@
     "id": "Q044",
     "prompt": "In contracting by negotiation scenario #44, what is the best contracting action?",
     "choices": [
-      "Begin negotiations before establishing evaluation factors and competitive range strategy.",
+      "Skip documentation to accelerate award",
       "Apply FAR 15 procedures with documented rationale",
-      "Award on lowest price alone when tradeoff criteria were announced in the solicitation.",
-      "Disclose one offeror's pricing details to accelerate final proposal revisions."
+      "Use sole-source automatically without justification",
+      "Delay acquisition planning until after solicitation"
     ],
     "correctIndex": 1,
     "topic": "Contracting by Negotiation",
@@ -1148,9 +1148,9 @@
     "prompt": "In contract modifications scenario #45, what is the best contracting action?",
     "choices": [
       "Apply FAR 43 procedures with documented rationale",
-      "Direct the contractor to perform new scope first and negotiate pricing later.",
-      "Use unilateral administrative authority for substantive scope changes outside the contract.",
-      "Treat every change as within scope when mission urgency supports continuity."
+      "Delay acquisition planning until after solicitation",
+      "Skip documentation to accelerate award",
+      "Use sole-source automatically without justification"
     ],
     "correctIndex": 0,
     "topic": "Contract Modifications",
@@ -1173,9 +1173,9 @@
     "id": "Q046",
     "prompt": "In source selection scenario #46, what is the best contracting action?",
     "choices": [
-      "Adjust evaluation weights during discussions to align with evolving preferences.",
-      "Allow evaluators to rely on undocumented impressions instead of the source selection plan.",
-      "Limit tradeoff documentation to final ratings without comparing proposal strengths and risks.",
+      "Use sole-source automatically without justification",
+      "Delay acquisition planning until after solicitation",
+      "Skip documentation to accelerate award",
       "Apply FAR 15.3 procedures with documented rationale"
     ],
     "correctIndex": 3,
@@ -1199,10 +1199,10 @@
     "id": "Q047",
     "prompt": "In commercial items scenario #47, what is the best contracting action?",
     "choices": [
-      "Require noncommercial clauses by default without determining market customary practice.",
-      "Use commercial procedures while demanding unique government-only technical redesigns.",
+      "Delay acquisition planning until after solicitation",
+      "Skip documentation to accelerate award",
       "Apply FAR 12 procedures with documented rationale",
-      "Skip market comparability analysis and rely solely on internal cost estimates."
+      "Use sole-source automatically without justification"
     ],
     "correctIndex": 2,
     "topic": "Commercial Items",
@@ -1225,10 +1225,10 @@
     "id": "Q048",
     "prompt": "In contract types scenario #48, what is the best contracting action?",
     "choices": [
-      "Select firm-fixed-price when requirements remain unstable and technical risk is high.",
-      "Use cost-reimbursement without documenting adequate surveillance and accounting capability.",
+      "Delay acquisition planning until after solicitation",
+      "Skip documentation to accelerate award",
       "Apply FAR 16 procedures with documented rationale",
-      "Choose contract type based on historical preference rather than current risk allocation."
+      "Use sole-source automatically without justification"
     ],
     "correctIndex": 2,
     "topic": "Contract Types",
@@ -1251,9 +1251,9 @@
     "id": "Q049",
     "prompt": "In market research scenario #49, what is the best contracting action?",
     "choices": [
-      "Rely on prior contract files and skip current vendor outreach for this requirement.",
-      "Post the solicitation first, then document market research only if questions arise.",
-      "Adopt the incumbent's approach without validating current commercial capabilities.",
+      "Delay acquisition planning until after solicitation",
+      "Use sole-source automatically without justification",
+      "Skip documentation to accelerate award",
       "Apply FAR 10 procedures with documented rationale"
     ],
     "correctIndex": 3,
@@ -1278,9 +1278,9 @@
     "prompt": "In competition scenario #50, what is the best contracting action?",
     "choices": [
       "Apply FAR 6 procedures with documented rationale",
-      "Restrict competition to known vendors before documenting a valid exclusion rationale.",
-      "Issue a brand-name requirement and complete the justification after award.",
-      "Prioritize schedule urgency and reduce competition without obtaining required approvals."
+      "Use sole-source automatically without justification",
+      "Skip documentation to accelerate award",
+      "Delay acquisition planning until after solicitation"
     ],
     "correctIndex": 0,
     "topic": "Competition",
@@ -1303,10 +1303,10 @@
     "id": "Q051",
     "prompt": "In simplified acquisition scenario #51, what is the best contracting action?",
     "choices": [
-      "Use simplified procedures above threshold limits because administrative speed is critical.",
+      "Delay acquisition planning until after solicitation",
       "Apply FAR 13 procedures with documented rationale",
-      "Solicit only one local source and document price reasonableness after award.",
-      "Combine unrelated needs into one buy to stay within a preferred buying method."
+      "Use sole-source automatically without justification",
+      "Skip documentation to accelerate award"
     ],
     "correctIndex": 1,
     "topic": "Simplified Acquisition",
@@ -1329,10 +1329,10 @@
     "id": "Q052",
     "prompt": "In contracting by negotiation scenario #52, what is the best contracting action?",
     "choices": [
-      "Begin negotiations before establishing evaluation factors and competitive range strategy.",
-      "Award on lowest price alone when tradeoff criteria were announced in the solicitation.",
+      "Delay acquisition planning until after solicitation",
+      "Skip documentation to accelerate award",
       "Apply FAR 15 procedures with documented rationale",
-      "Disclose one offeror's pricing details to accelerate final proposal revisions."
+      "Use sole-source automatically without justification"
     ],
     "correctIndex": 2,
     "topic": "Contracting by Negotiation",
@@ -1356,9 +1356,9 @@
     "prompt": "In contract modifications scenario #53, what is the best contracting action?",
     "choices": [
       "Apply FAR 43 procedures with documented rationale",
-      "Direct the contractor to perform new scope first and negotiate pricing later.",
-      "Use unilateral administrative authority for substantive scope changes outside the contract.",
-      "Treat every change as within scope when mission urgency supports continuity."
+      "Use sole-source automatically without justification",
+      "Delay acquisition planning until after solicitation",
+      "Skip documentation to accelerate award"
     ],
     "correctIndex": 0,
     "topic": "Contract Modifications",
@@ -1382,9 +1382,9 @@
     "prompt": "In source selection scenario #54, what is the best contracting action?",
     "choices": [
       "Apply FAR 15.3 procedures with documented rationale",
-      "Adjust evaluation weights during discussions to align with evolving preferences.",
-      "Allow evaluators to rely on undocumented impressions instead of the source selection plan.",
-      "Limit tradeoff documentation to final ratings without comparing proposal strengths and risks."
+      "Use sole-source automatically without justification",
+      "Delay acquisition planning until after solicitation",
+      "Skip documentation to accelerate award"
     ],
     "correctIndex": 0,
     "topic": "Source Selection",
@@ -1407,9 +1407,9 @@
     "id": "Q055",
     "prompt": "In commercial items scenario #55, what is the best contracting action?",
     "choices": [
-      "Require noncommercial clauses by default without determining market customary practice.",
-      "Use commercial procedures while demanding unique government-only technical redesigns.",
-      "Skip market comparability analysis and rely solely on internal cost estimates.",
+      "Skip documentation to accelerate award",
+      "Use sole-source automatically without justification",
+      "Delay acquisition planning until after solicitation",
       "Apply FAR 12 procedures with documented rationale"
     ],
     "correctIndex": 3,
@@ -1433,9 +1433,9 @@
     "id": "Q056",
     "prompt": "In contract types scenario #56, what is the best contracting action?",
     "choices": [
-      "Select firm-fixed-price when requirements remain unstable and technical risk is high.",
-      "Use cost-reimbursement without documenting adequate surveillance and accounting capability.",
-      "Choose contract type based on historical preference rather than current risk allocation.",
+      "Delay acquisition planning until after solicitation",
+      "Use sole-source automatically without justification",
+      "Skip documentation to accelerate award",
       "Apply FAR 16 procedures with documented rationale"
     ],
     "correctIndex": 3,
@@ -1459,9 +1459,9 @@
     "id": "Q057",
     "prompt": "In market research scenario #57, what is the best contracting action?",
     "choices": [
-      "Rely on prior contract files and skip current vendor outreach for this requirement.",
-      "Post the solicitation first, then document market research only if questions arise.",
-      "Adopt the incumbent's approach without validating current commercial capabilities.",
+      "Use sole-source automatically without justification",
+      "Delay acquisition planning until after solicitation",
+      "Skip documentation to accelerate award",
       "Apply FAR 10 procedures with documented rationale"
     ],
     "correctIndex": 3,
@@ -1485,10 +1485,10 @@
     "id": "Q058",
     "prompt": "In competition scenario #58, what is the best contracting action?",
     "choices": [
-      "Restrict competition to known vendors before documenting a valid exclusion rationale.",
-      "Issue a brand-name requirement and complete the justification after award.",
+      "Delay acquisition planning until after solicitation",
+      "Use sole-source automatically without justification",
       "Apply FAR 6 procedures with documented rationale",
-      "Prioritize schedule urgency and reduce competition without obtaining required approvals."
+      "Skip documentation to accelerate award"
     ],
     "correctIndex": 2,
     "topic": "Competition",
@@ -1511,10 +1511,10 @@
     "id": "Q059",
     "prompt": "In simplified acquisition scenario #59, what is the best contracting action?",
     "choices": [
-      "Use simplified procedures above threshold limits because administrative speed is critical.",
-      "Solicit only one local source and document price reasonableness after award.",
+      "Use sole-source automatically without justification",
+      "Delay acquisition planning until after solicitation",
       "Apply FAR 13 procedures with documented rationale",
-      "Combine unrelated needs into one buy to stay within a preferred buying method."
+      "Skip documentation to accelerate award"
     ],
     "correctIndex": 2,
     "topic": "Simplified Acquisition",
@@ -1537,10 +1537,10 @@
     "id": "Q060",
     "prompt": "In contracting by negotiation scenario #60, what is the best contracting action?",
     "choices": [
-      "Begin negotiations before establishing evaluation factors and competitive range strategy.",
+      "Delay acquisition planning until after solicitation",
       "Apply FAR 15 procedures with documented rationale",
-      "Award on lowest price alone when tradeoff criteria were announced in the solicitation.",
-      "Disclose one offeror's pricing details to accelerate final proposal revisions."
+      "Skip documentation to accelerate award",
+      "Use sole-source automatically without justification"
     ],
     "correctIndex": 1,
     "topic": "Contracting by Negotiation",
@@ -1563,10 +1563,10 @@
     "id": "Q061",
     "prompt": "In contract modifications scenario #61, what is the best contracting action?",
     "choices": [
-      "Direct the contractor to perform new scope first and negotiate pricing later.",
-      "Use unilateral administrative authority for substantive scope changes outside the contract.",
+      "Skip documentation to accelerate award",
+      "Use sole-source automatically without justification",
       "Apply FAR 43 procedures with documented rationale",
-      "Treat every change as within scope when mission urgency supports continuity."
+      "Delay acquisition planning until after solicitation"
     ],
     "correctIndex": 2,
     "topic": "Contract Modifications",
@@ -1589,10 +1589,10 @@
     "id": "Q062",
     "prompt": "In source selection scenario #62, what is the best contracting action?",
     "choices": [
-      "Adjust evaluation weights during discussions to align with evolving preferences.",
-      "Allow evaluators to rely on undocumented impressions instead of the source selection plan.",
+      "Delay acquisition planning until after solicitation",
+      "Use sole-source automatically without justification",
       "Apply FAR 15.3 procedures with documented rationale",
-      "Limit tradeoff documentation to final ratings without comparing proposal strengths and risks."
+      "Skip documentation to accelerate award"
     ],
     "correctIndex": 2,
     "topic": "Source Selection",
@@ -1616,9 +1616,9 @@
     "prompt": "In commercial items scenario #63, what is the best contracting action?",
     "choices": [
       "Apply FAR 12 procedures with documented rationale",
-      "Require noncommercial clauses by default without determining market customary practice.",
-      "Use commercial procedures while demanding unique government-only technical redesigns.",
-      "Skip market comparability analysis and rely solely on internal cost estimates."
+      "Use sole-source automatically without justification",
+      "Skip documentation to accelerate award",
+      "Delay acquisition planning until after solicitation"
     ],
     "correctIndex": 0,
     "topic": "Commercial Items",
@@ -1641,10 +1641,10 @@
     "id": "Q064",
     "prompt": "In contract types scenario #64, what is the best contracting action?",
     "choices": [
-      "Select firm-fixed-price when requirements remain unstable and technical risk is high.",
-      "Use cost-reimbursement without documenting adequate surveillance and accounting capability.",
+      "Use sole-source automatically without justification",
+      "Skip documentation to accelerate award",
       "Apply FAR 16 procedures with documented rationale",
-      "Choose contract type based on historical preference rather than current risk allocation."
+      "Delay acquisition planning until after solicitation"
     ],
     "correctIndex": 2,
     "topic": "Contract Types",
@@ -1668,9 +1668,9 @@
     "prompt": "In market research scenario #65, what is the best contracting action?",
     "choices": [
       "Apply FAR 10 procedures with documented rationale",
-      "Rely on prior contract files and skip current vendor outreach for this requirement.",
-      "Post the solicitation first, then document market research only if questions arise.",
-      "Adopt the incumbent's approach without validating current commercial capabilities."
+      "Use sole-source automatically without justification",
+      "Skip documentation to accelerate award",
+      "Delay acquisition planning until after solicitation"
     ],
     "correctIndex": 0,
     "topic": "Market Research",
@@ -1693,9 +1693,9 @@
     "id": "Q066",
     "prompt": "In competition scenario #66, what is the best contracting action?",
     "choices": [
-      "Restrict competition to known vendors before documenting a valid exclusion rationale.",
-      "Issue a brand-name requirement and complete the justification after award.",
-      "Prioritize schedule urgency and reduce competition without obtaining required approvals.",
+      "Delay acquisition planning until after solicitation",
+      "Use sole-source automatically without justification",
+      "Skip documentation to accelerate award",
       "Apply FAR 6 procedures with documented rationale"
     ],
     "correctIndex": 3,
@@ -1719,9 +1719,9 @@
     "id": "Q067",
     "prompt": "In simplified acquisition scenario #67, what is the best contracting action?",
     "choices": [
-      "Use simplified procedures above threshold limits because administrative speed is critical.",
-      "Solicit only one local source and document price reasonableness after award.",
-      "Combine unrelated needs into one buy to stay within a preferred buying method.",
+      "Use sole-source automatically without justification",
+      "Skip documentation to accelerate award",
+      "Delay acquisition planning until after solicitation",
       "Apply FAR 13 procedures with documented rationale"
     ],
     "correctIndex": 3,
@@ -1745,10 +1745,10 @@
     "id": "Q068",
     "prompt": "In contracting by negotiation scenario #68, what is the best contracting action?",
     "choices": [
-      "Begin negotiations before establishing evaluation factors and competitive range strategy.",
+      "Skip documentation to accelerate award",
       "Apply FAR 15 procedures with documented rationale",
-      "Award on lowest price alone when tradeoff criteria were announced in the solicitation.",
-      "Disclose one offeror's pricing details to accelerate final proposal revisions."
+      "Use sole-source automatically without justification",
+      "Delay acquisition planning until after solicitation"
     ],
     "correctIndex": 1,
     "topic": "Contracting by Negotiation",
@@ -1771,9 +1771,9 @@
     "id": "Q069",
     "prompt": "In contract modifications scenario #69, what is the best contracting action?",
     "choices": [
-      "Direct the contractor to perform new scope first and negotiate pricing later.",
-      "Use unilateral administrative authority for substantive scope changes outside the contract.",
-      "Treat every change as within scope when mission urgency supports continuity.",
+      "Skip documentation to accelerate award",
+      "Use sole-source automatically without justification",
+      "Delay acquisition planning until after solicitation",
       "Apply FAR 43 procedures with documented rationale"
     ],
     "correctIndex": 3,
@@ -1797,9 +1797,9 @@
     "id": "Q070",
     "prompt": "In source selection scenario #70, what is the best contracting action?",
     "choices": [
-      "Adjust evaluation weights during discussions to align with evolving preferences.",
-      "Allow evaluators to rely on undocumented impressions instead of the source selection plan.",
-      "Limit tradeoff documentation to final ratings without comparing proposal strengths and risks.",
+      "Delay acquisition planning until after solicitation",
+      "Use sole-source automatically without justification",
+      "Skip documentation to accelerate award",
       "Apply FAR 15.3 procedures with documented rationale"
     ],
     "correctIndex": 3,
@@ -1823,10 +1823,10 @@
     "id": "Q071",
     "prompt": "In commercial items scenario #71, what is the best contracting action?",
     "choices": [
-      "Require noncommercial clauses by default without determining market customary practice.",
+      "Skip documentation to accelerate award",
       "Apply FAR 12 procedures with documented rationale",
-      "Use commercial procedures while demanding unique government-only technical redesigns.",
-      "Skip market comparability analysis and rely solely on internal cost estimates."
+      "Delay acquisition planning until after solicitation",
+      "Use sole-source automatically without justification"
     ],
     "correctIndex": 1,
     "topic": "Commercial Items",
@@ -1849,9 +1849,9 @@
     "id": "Q072",
     "prompt": "In contract types scenario #72, what is the best contracting action?",
     "choices": [
-      "Select firm-fixed-price when requirements remain unstable and technical risk is high.",
-      "Use cost-reimbursement without documenting adequate surveillance and accounting capability.",
-      "Choose contract type based on historical preference rather than current risk allocation.",
+      "Skip documentation to accelerate award",
+      "Delay acquisition planning until after solicitation",
+      "Use sole-source automatically without justification",
       "Apply FAR 16 procedures with documented rationale"
     ],
     "correctIndex": 3,
@@ -1875,10 +1875,10 @@
     "id": "Q073",
     "prompt": "In market research scenario #73, what is the best contracting action?",
     "choices": [
-      "Rely on prior contract files and skip current vendor outreach for this requirement.",
-      "Post the solicitation first, then document market research only if questions arise.",
+      "Delay acquisition planning until after solicitation",
+      "Skip documentation to accelerate award",
       "Apply FAR 10 procedures with documented rationale",
-      "Adopt the incumbent's approach without validating current commercial capabilities."
+      "Use sole-source automatically without justification"
     ],
     "correctIndex": 2,
     "topic": "Market Research",
@@ -1901,9 +1901,9 @@
     "id": "Q074",
     "prompt": "In competition scenario #74, what is the best contracting action?",
     "choices": [
-      "Restrict competition to known vendors before documenting a valid exclusion rationale.",
-      "Issue a brand-name requirement and complete the justification after award.",
-      "Prioritize schedule urgency and reduce competition without obtaining required approvals.",
+      "Use sole-source automatically without justification",
+      "Delay acquisition planning until after solicitation",
+      "Skip documentation to accelerate award",
       "Apply FAR 6 procedures with documented rationale"
     ],
     "correctIndex": 3,
@@ -1928,9 +1928,9 @@
     "prompt": "In simplified acquisition scenario #75, what is the best contracting action?",
     "choices": [
       "Apply FAR 13 procedures with documented rationale",
-      "Use simplified procedures above threshold limits because administrative speed is critical.",
-      "Solicit only one local source and document price reasonableness after award.",
-      "Combine unrelated needs into one buy to stay within a preferred buying method."
+      "Skip documentation to accelerate award",
+      "Use sole-source automatically without justification",
+      "Delay acquisition planning until after solicitation"
     ],
     "correctIndex": 0,
     "topic": "Simplified Acquisition",
@@ -1954,9 +1954,9 @@
     "prompt": "In contracting by negotiation scenario #76, what is the best contracting action?",
     "choices": [
       "Apply FAR 15 procedures with documented rationale",
-      "Begin negotiations before establishing evaluation factors and competitive range strategy.",
-      "Award on lowest price alone when tradeoff criteria were announced in the solicitation.",
-      "Disclose one offeror's pricing details to accelerate final proposal revisions."
+      "Delay acquisition planning until after solicitation",
+      "Skip documentation to accelerate award",
+      "Use sole-source automatically without justification"
     ],
     "correctIndex": 0,
     "topic": "Contracting by Negotiation",
@@ -1979,10 +1979,10 @@
     "id": "Q077",
     "prompt": "In contract modifications scenario #77, what is the best contracting action?",
     "choices": [
-      "Direct the contractor to perform new scope first and negotiate pricing later.",
+      "Delay acquisition planning until after solicitation",
       "Apply FAR 43 procedures with documented rationale",
-      "Use unilateral administrative authority for substantive scope changes outside the contract.",
-      "Treat every change as within scope when mission urgency supports continuity."
+      "Skip documentation to accelerate award",
+      "Use sole-source automatically without justification"
     ],
     "correctIndex": 1,
     "topic": "Contract Modifications",
@@ -2005,10 +2005,10 @@
     "id": "Q078",
     "prompt": "In source selection scenario #78, what is the best contracting action?",
     "choices": [
-      "Adjust evaluation weights during discussions to align with evolving preferences.",
-      "Allow evaluators to rely on undocumented impressions instead of the source selection plan.",
+      "Use sole-source automatically without justification",
+      "Delay acquisition planning until after solicitation",
       "Apply FAR 15.3 procedures with documented rationale",
-      "Limit tradeoff documentation to final ratings without comparing proposal strengths and risks."
+      "Skip documentation to accelerate award"
     ],
     "correctIndex": 2,
     "topic": "Source Selection",
@@ -2032,9 +2032,9 @@
     "prompt": "In commercial items scenario #79, what is the best contracting action?",
     "choices": [
       "Apply FAR 12 procedures with documented rationale",
-      "Require noncommercial clauses by default without determining market customary practice.",
-      "Use commercial procedures while demanding unique government-only technical redesigns.",
-      "Skip market comparability analysis and rely solely on internal cost estimates."
+      "Use sole-source automatically without justification",
+      "Delay acquisition planning until after solicitation",
+      "Skip documentation to accelerate award"
     ],
     "correctIndex": 0,
     "topic": "Commercial Items",
@@ -2058,9 +2058,9 @@
     "prompt": "In contract types scenario #80, what is the best contracting action?",
     "choices": [
       "Apply FAR 16 procedures with documented rationale",
-      "Select firm-fixed-price when requirements remain unstable and technical risk is high.",
-      "Use cost-reimbursement without documenting adequate surveillance and accounting capability.",
-      "Choose contract type based on historical preference rather than current risk allocation."
+      "Delay acquisition planning until after solicitation",
+      "Skip documentation to accelerate award",
+      "Use sole-source automatically without justification"
     ],
     "correctIndex": 0,
     "topic": "Contract Types",
@@ -2084,9 +2084,9 @@
     "prompt": "In market research scenario #81, what is the best contracting action?",
     "choices": [
       "Apply FAR 10 procedures with documented rationale",
-      "Rely on prior contract files and skip current vendor outreach for this requirement.",
-      "Post the solicitation first, then document market research only if questions arise.",
-      "Adopt the incumbent's approach without validating current commercial capabilities."
+      "Use sole-source automatically without justification",
+      "Skip documentation to accelerate award",
+      "Delay acquisition planning until after solicitation"
     ],
     "correctIndex": 0,
     "topic": "Market Research",
@@ -2110,9 +2110,9 @@
     "prompt": "In competition scenario #82, what is the best contracting action?",
     "choices": [
       "Apply FAR 6 procedures with documented rationale",
-      "Restrict competition to known vendors before documenting a valid exclusion rationale.",
-      "Issue a brand-name requirement and complete the justification after award.",
-      "Prioritize schedule urgency and reduce competition without obtaining required approvals."
+      "Use sole-source automatically without justification",
+      "Delay acquisition planning until after solicitation",
+      "Skip documentation to accelerate award"
     ],
     "correctIndex": 0,
     "topic": "Competition",
@@ -2135,10 +2135,10 @@
     "id": "Q083",
     "prompt": "In simplified acquisition scenario #83, what is the best contracting action?",
     "choices": [
-      "Use simplified procedures above threshold limits because administrative speed is critical.",
+      "Use sole-source automatically without justification",
       "Apply FAR 13 procedures with documented rationale",
-      "Solicit only one local source and document price reasonableness after award.",
-      "Combine unrelated needs into one buy to stay within a preferred buying method."
+      "Skip documentation to accelerate award",
+      "Delay acquisition planning until after solicitation"
     ],
     "correctIndex": 1,
     "topic": "Simplified Acquisition",
@@ -2161,10 +2161,10 @@
     "id": "Q084",
     "prompt": "In contracting by negotiation scenario #84, what is the best contracting action?",
     "choices": [
-      "Begin negotiations before establishing evaluation factors and competitive range strategy.",
-      "Award on lowest price alone when tradeoff criteria were announced in the solicitation.",
+      "Delay acquisition planning until after solicitation",
+      "Skip documentation to accelerate award",
       "Apply FAR 15 procedures with documented rationale",
-      "Disclose one offeror's pricing details to accelerate final proposal revisions."
+      "Use sole-source automatically without justification"
     ],
     "correctIndex": 2,
     "topic": "Contracting by Negotiation",
@@ -2187,10 +2187,10 @@
     "id": "Q085",
     "prompt": "In contract modifications scenario #85, what is the best contracting action?",
     "choices": [
-      "Direct the contractor to perform new scope first and negotiate pricing later.",
+      "Delay acquisition planning until after solicitation",
       "Apply FAR 43 procedures with documented rationale",
-      "Use unilateral administrative authority for substantive scope changes outside the contract.",
-      "Treat every change as within scope when mission urgency supports continuity."
+      "Use sole-source automatically without justification",
+      "Skip documentation to accelerate award"
     ],
     "correctIndex": 1,
     "topic": "Contract Modifications",
@@ -2213,9 +2213,9 @@
     "id": "Q086",
     "prompt": "In source selection scenario #86, what is the best contracting action?",
     "choices": [
-      "Adjust evaluation weights during discussions to align with evolving preferences.",
-      "Allow evaluators to rely on undocumented impressions instead of the source selection plan.",
-      "Limit tradeoff documentation to final ratings without comparing proposal strengths and risks.",
+      "Delay acquisition planning until after solicitation",
+      "Skip documentation to accelerate award",
+      "Use sole-source automatically without justification",
       "Apply FAR 15.3 procedures with documented rationale"
     ],
     "correctIndex": 3,
@@ -2239,10 +2239,10 @@
     "id": "Q087",
     "prompt": "In commercial items scenario #87, what is the best contracting action?",
     "choices": [
-      "Require noncommercial clauses by default without determining market customary practice.",
+      "Delay acquisition planning until after solicitation",
       "Apply FAR 12 procedures with documented rationale",
-      "Use commercial procedures while demanding unique government-only technical redesigns.",
-      "Skip market comparability analysis and rely solely on internal cost estimates."
+      "Use sole-source automatically without justification",
+      "Skip documentation to accelerate award"
     ],
     "correctIndex": 1,
     "topic": "Commercial Items",
@@ -2265,10 +2265,10 @@
     "id": "Q088",
     "prompt": "In contract types scenario #88, what is the best contracting action?",
     "choices": [
-      "Select firm-fixed-price when requirements remain unstable and technical risk is high.",
-      "Use cost-reimbursement without documenting adequate surveillance and accounting capability.",
+      "Use sole-source automatically without justification",
+      "Skip documentation to accelerate award",
       "Apply FAR 16 procedures with documented rationale",
-      "Choose contract type based on historical preference rather than current risk allocation."
+      "Delay acquisition planning until after solicitation"
     ],
     "correctIndex": 2,
     "topic": "Contract Types",
@@ -2291,9 +2291,9 @@
     "id": "Q089",
     "prompt": "In market research scenario #89, what is the best contracting action?",
     "choices": [
-      "Rely on prior contract files and skip current vendor outreach for this requirement.",
-      "Post the solicitation first, then document market research only if questions arise.",
-      "Adopt the incumbent's approach without validating current commercial capabilities.",
+      "Delay acquisition planning until after solicitation",
+      "Skip documentation to accelerate award",
+      "Use sole-source automatically without justification",
       "Apply FAR 10 procedures with documented rationale"
     ],
     "correctIndex": 3,
@@ -2317,10 +2317,10 @@
     "id": "Q090",
     "prompt": "In competition scenario #90, what is the best contracting action?",
     "choices": [
-      "Restrict competition to known vendors before documenting a valid exclusion rationale.",
+      "Delay acquisition planning until after solicitation",
       "Apply FAR 6 procedures with documented rationale",
-      "Issue a brand-name requirement and complete the justification after award.",
-      "Prioritize schedule urgency and reduce competition without obtaining required approvals."
+      "Use sole-source automatically without justification",
+      "Skip documentation to accelerate award"
     ],
     "correctIndex": 1,
     "topic": "Competition",
@@ -2343,9 +2343,9 @@
     "id": "Q091",
     "prompt": "In simplified acquisition scenario #91, what is the best contracting action?",
     "choices": [
-      "Use simplified procedures above threshold limits because administrative speed is critical.",
-      "Solicit only one local source and document price reasonableness after award.",
-      "Combine unrelated needs into one buy to stay within a preferred buying method.",
+      "Skip documentation to accelerate award",
+      "Delay acquisition planning until after solicitation",
+      "Use sole-source automatically without justification",
       "Apply FAR 13 procedures with documented rationale"
     ],
     "correctIndex": 3,
@@ -2370,9 +2370,9 @@
     "prompt": "In contracting by negotiation scenario #92, what is the best contracting action?",
     "choices": [
       "Apply FAR 15 procedures with documented rationale",
-      "Begin negotiations before establishing evaluation factors and competitive range strategy.",
-      "Award on lowest price alone when tradeoff criteria were announced in the solicitation.",
-      "Disclose one offeror's pricing details to accelerate final proposal revisions."
+      "Skip documentation to accelerate award",
+      "Use sole-source automatically without justification",
+      "Delay acquisition planning until after solicitation"
     ],
     "correctIndex": 0,
     "topic": "Contracting by Negotiation",
@@ -2396,9 +2396,9 @@
     "prompt": "In contract modifications scenario #93, what is the best contracting action?",
     "choices": [
       "Apply FAR 43 procedures with documented rationale",
-      "Direct the contractor to perform new scope first and negotiate pricing later.",
-      "Use unilateral administrative authority for substantive scope changes outside the contract.",
-      "Treat every change as within scope when mission urgency supports continuity."
+      "Skip documentation to accelerate award",
+      "Use sole-source automatically without justification",
+      "Delay acquisition planning until after solicitation"
     ],
     "correctIndex": 0,
     "topic": "Contract Modifications",
@@ -2421,10 +2421,10 @@
     "id": "Q094",
     "prompt": "In source selection scenario #94, what is the best contracting action?",
     "choices": [
-      "Adjust evaluation weights during discussions to align with evolving preferences.",
-      "Allow evaluators to rely on undocumented impressions instead of the source selection plan.",
+      "Use sole-source automatically without justification",
+      "Delay acquisition planning until after solicitation",
       "Apply FAR 15.3 procedures with documented rationale",
-      "Limit tradeoff documentation to final ratings without comparing proposal strengths and risks."
+      "Skip documentation to accelerate award"
     ],
     "correctIndex": 2,
     "topic": "Source Selection",
@@ -2447,10 +2447,10 @@
     "id": "Q095",
     "prompt": "In commercial items scenario #95, what is the best contracting action?",
     "choices": [
-      "Require noncommercial clauses by default without determining market customary practice.",
+      "Use sole-source automatically without justification",
       "Apply FAR 12 procedures with documented rationale",
-      "Use commercial procedures while demanding unique government-only technical redesigns.",
-      "Skip market comparability analysis and rely solely on internal cost estimates."
+      "Delay acquisition planning until after solicitation",
+      "Skip documentation to accelerate award"
     ],
     "correctIndex": 1,
     "topic": "Commercial Items",
@@ -2474,9 +2474,9 @@
     "prompt": "In contract types scenario #96, what is the best contracting action?",
     "choices": [
       "Apply FAR 16 procedures with documented rationale",
-      "Select firm-fixed-price when requirements remain unstable and technical risk is high.",
-      "Use cost-reimbursement without documenting adequate surveillance and accounting capability.",
-      "Choose contract type based on historical preference rather than current risk allocation."
+      "Delay acquisition planning until after solicitation",
+      "Skip documentation to accelerate award",
+      "Use sole-source automatically without justification"
     ],
     "correctIndex": 0,
     "topic": "Contract Types",
@@ -2500,9 +2500,9 @@
     "prompt": "In market research scenario #97, what is the best contracting action?",
     "choices": [
       "Apply FAR 10 procedures with documented rationale",
-      "Rely on prior contract files and skip current vendor outreach for this requirement.",
-      "Post the solicitation first, then document market research only if questions arise.",
-      "Adopt the incumbent's approach without validating current commercial capabilities."
+      "Use sole-source automatically without justification",
+      "Delay acquisition planning until after solicitation",
+      "Skip documentation to accelerate award"
     ],
     "correctIndex": 0,
     "topic": "Market Research",
@@ -2525,10 +2525,10 @@
     "id": "Q098",
     "prompt": "In competition scenario #98, what is the best contracting action?",
     "choices": [
-      "Restrict competition to known vendors before documenting a valid exclusion rationale.",
+      "Skip documentation to accelerate award",
       "Apply FAR 6 procedures with documented rationale",
-      "Issue a brand-name requirement and complete the justification after award.",
-      "Prioritize schedule urgency and reduce competition without obtaining required approvals."
+      "Delay acquisition planning until after solicitation",
+      "Use sole-source automatically without justification"
     ],
     "correctIndex": 1,
     "topic": "Competition",
@@ -2551,10 +2551,10 @@
     "id": "Q099",
     "prompt": "In simplified acquisition scenario #99, what is the best contracting action?",
     "choices": [
-      "Use simplified procedures above threshold limits because administrative speed is critical.",
+      "Use sole-source automatically without justification",
       "Apply FAR 13 procedures with documented rationale",
-      "Solicit only one local source and document price reasonableness after award.",
-      "Combine unrelated needs into one buy to stay within a preferred buying method."
+      "Skip documentation to accelerate award",
+      "Delay acquisition planning until after solicitation"
     ],
     "correctIndex": 1,
     "topic": "Simplified Acquisition",
@@ -2578,9 +2578,9 @@
     "prompt": "In contracting by negotiation scenario #100, what is the best contracting action?",
     "choices": [
       "Apply FAR 15 procedures with documented rationale",
-      "Begin negotiations before establishing evaluation factors and competitive range strategy.",
-      "Award on lowest price alone when tradeoff criteria were announced in the solicitation.",
-      "Disclose one offeror's pricing details to accelerate final proposal revisions."
+      "Use sole-source automatically without justification",
+      "Delay acquisition planning until after solicitation",
+      "Skip documentation to accelerate award"
     ],
     "correctIndex": 0,
     "topic": "Contracting by Negotiation",
@@ -2604,9 +2604,9 @@
     "prompt": "In contract modifications scenario #101, what is the best contracting action?",
     "choices": [
       "Apply FAR 43 procedures with documented rationale",
-      "Direct the contractor to perform new scope first and negotiate pricing later.",
-      "Use unilateral administrative authority for substantive scope changes outside the contract.",
-      "Treat every change as within scope when mission urgency supports continuity."
+      "Delay acquisition planning until after solicitation",
+      "Use sole-source automatically without justification",
+      "Skip documentation to accelerate award"
     ],
     "correctIndex": 0,
     "topic": "Contract Modifications",
@@ -2630,9 +2630,9 @@
     "prompt": "In source selection scenario #102, what is the best contracting action?",
     "choices": [
       "Apply FAR 15.3 procedures with documented rationale",
-      "Adjust evaluation weights during discussions to align with evolving preferences.",
-      "Allow evaluators to rely on undocumented impressions instead of the source selection plan.",
-      "Limit tradeoff documentation to final ratings without comparing proposal strengths and risks."
+      "Delay acquisition planning until after solicitation",
+      "Use sole-source automatically without justification",
+      "Skip documentation to accelerate award"
     ],
     "correctIndex": 0,
     "topic": "Source Selection",
@@ -2655,10 +2655,10 @@
     "id": "Q103",
     "prompt": "In commercial items scenario #103, what is the best contracting action?",
     "choices": [
-      "Require noncommercial clauses by default without determining market customary practice.",
+      "Skip documentation to accelerate award",
       "Apply FAR 12 procedures with documented rationale",
-      "Use commercial procedures while demanding unique government-only technical redesigns.",
-      "Skip market comparability analysis and rely solely on internal cost estimates."
+      "Use sole-source automatically without justification",
+      "Delay acquisition planning until after solicitation"
     ],
     "correctIndex": 1,
     "topic": "Commercial Items",
@@ -2681,9 +2681,9 @@
     "id": "Q104",
     "prompt": "In contract types scenario #104, what is the best contracting action?",
     "choices": [
-      "Select firm-fixed-price when requirements remain unstable and technical risk is high.",
-      "Use cost-reimbursement without documenting adequate surveillance and accounting capability.",
-      "Choose contract type based on historical preference rather than current risk allocation.",
+      "Skip documentation to accelerate award",
+      "Use sole-source automatically without justification",
+      "Delay acquisition planning until after solicitation",
       "Apply FAR 16 procedures with documented rationale"
     ],
     "correctIndex": 3,
@@ -2707,10 +2707,10 @@
     "id": "Q105",
     "prompt": "In market research scenario #105, what is the best contracting action?",
     "choices": [
-      "Rely on prior contract files and skip current vendor outreach for this requirement.",
+      "Skip documentation to accelerate award",
       "Apply FAR 10 procedures with documented rationale",
-      "Post the solicitation first, then document market research only if questions arise.",
-      "Adopt the incumbent's approach without validating current commercial capabilities."
+      "Delay acquisition planning until after solicitation",
+      "Use sole-source automatically without justification"
     ],
     "correctIndex": 1,
     "topic": "Market Research",
@@ -2733,10 +2733,10 @@
     "id": "Q106",
     "prompt": "In competition scenario #106, what is the best contracting action?",
     "choices": [
-      "Restrict competition to known vendors before documenting a valid exclusion rationale.",
-      "Issue a brand-name requirement and complete the justification after award.",
+      "Use sole-source automatically without justification",
+      "Skip documentation to accelerate award",
       "Apply FAR 6 procedures with documented rationale",
-      "Prioritize schedule urgency and reduce competition without obtaining required approvals."
+      "Delay acquisition planning until after solicitation"
     ],
     "correctIndex": 2,
     "topic": "Competition",
@@ -2760,9 +2760,9 @@
     "prompt": "In simplified acquisition scenario #107, what is the best contracting action?",
     "choices": [
       "Apply FAR 13 procedures with documented rationale",
-      "Use simplified procedures above threshold limits because administrative speed is critical.",
-      "Solicit only one local source and document price reasonableness after award.",
-      "Combine unrelated needs into one buy to stay within a preferred buying method."
+      "Delay acquisition planning until after solicitation",
+      "Use sole-source automatically without justification",
+      "Skip documentation to accelerate award"
     ],
     "correctIndex": 0,
     "topic": "Simplified Acquisition",
@@ -2785,10 +2785,10 @@
     "id": "Q108",
     "prompt": "In contracting by negotiation scenario #108, what is the best contracting action?",
     "choices": [
-      "Begin negotiations before establishing evaluation factors and competitive range strategy.",
+      "Delay acquisition planning until after solicitation",
       "Apply FAR 15 procedures with documented rationale",
-      "Award on lowest price alone when tradeoff criteria were announced in the solicitation.",
-      "Disclose one offeror's pricing details to accelerate final proposal revisions."
+      "Use sole-source automatically without justification",
+      "Skip documentation to accelerate award"
     ],
     "correctIndex": 1,
     "topic": "Contracting by Negotiation",
@@ -2811,10 +2811,10 @@
     "id": "Q109",
     "prompt": "In contract modifications scenario #109, what is the best contracting action?",
     "choices": [
-      "Direct the contractor to perform new scope first and negotiate pricing later.",
-      "Use unilateral administrative authority for substantive scope changes outside the contract.",
+      "Delay acquisition planning until after solicitation",
+      "Skip documentation to accelerate award",
       "Apply FAR 43 procedures with documented rationale",
-      "Treat every change as within scope when mission urgency supports continuity."
+      "Use sole-source automatically without justification"
     ],
     "correctIndex": 2,
     "topic": "Contract Modifications",
@@ -2837,10 +2837,10 @@
     "id": "Q110",
     "prompt": "In source selection scenario #110, what is the best contracting action?",
     "choices": [
-      "Adjust evaluation weights during discussions to align with evolving preferences.",
+      "Skip documentation to accelerate award",
       "Apply FAR 15.3 procedures with documented rationale",
-      "Allow evaluators to rely on undocumented impressions instead of the source selection plan.",
-      "Limit tradeoff documentation to final ratings without comparing proposal strengths and risks."
+      "Use sole-source automatically without justification",
+      "Delay acquisition planning until after solicitation"
     ],
     "correctIndex": 1,
     "topic": "Source Selection",
@@ -2864,9 +2864,9 @@
     "prompt": "In commercial items scenario #111, what is the best contracting action?",
     "choices": [
       "Apply FAR 12 procedures with documented rationale",
-      "Require noncommercial clauses by default without determining market customary practice.",
-      "Use commercial procedures while demanding unique government-only technical redesigns.",
-      "Skip market comparability analysis and rely solely on internal cost estimates."
+      "Use sole-source automatically without justification",
+      "Delay acquisition planning until after solicitation",
+      "Skip documentation to accelerate award"
     ],
     "correctIndex": 0,
     "topic": "Commercial Items",
@@ -2890,9 +2890,9 @@
     "prompt": "In contract types scenario #112, what is the best contracting action?",
     "choices": [
       "Apply FAR 16 procedures with documented rationale",
-      "Select firm-fixed-price when requirements remain unstable and technical risk is high.",
-      "Use cost-reimbursement without documenting adequate surveillance and accounting capability.",
-      "Choose contract type based on historical preference rather than current risk allocation."
+      "Skip documentation to accelerate award",
+      "Use sole-source automatically without justification",
+      "Delay acquisition planning until after solicitation"
     ],
     "correctIndex": 0,
     "topic": "Contract Types",
@@ -2915,9 +2915,9 @@
     "id": "Q113",
     "prompt": "In market research scenario #113, what is the best contracting action?",
     "choices": [
-      "Rely on prior contract files and skip current vendor outreach for this requirement.",
-      "Post the solicitation first, then document market research only if questions arise.",
-      "Adopt the incumbent's approach without validating current commercial capabilities.",
+      "Delay acquisition planning until after solicitation",
+      "Skip documentation to accelerate award",
+      "Use sole-source automatically without justification",
       "Apply FAR 10 procedures with documented rationale"
     ],
     "correctIndex": 3,
@@ -2941,10 +2941,10 @@
     "id": "Q114",
     "prompt": "In competition scenario #114, what is the best contracting action?",
     "choices": [
-      "Restrict competition to known vendors before documenting a valid exclusion rationale.",
+      "Delay acquisition planning until after solicitation",
       "Apply FAR 6 procedures with documented rationale",
-      "Issue a brand-name requirement and complete the justification after award.",
-      "Prioritize schedule urgency and reduce competition without obtaining required approvals."
+      "Use sole-source automatically without justification",
+      "Skip documentation to accelerate award"
     ],
     "correctIndex": 1,
     "topic": "Competition",
@@ -2967,10 +2967,10 @@
     "id": "Q115",
     "prompt": "In simplified acquisition scenario #115, what is the best contracting action?",
     "choices": [
-      "Use simplified procedures above threshold limits because administrative speed is critical.",
-      "Solicit only one local source and document price reasonableness after award.",
+      "Skip documentation to accelerate award",
+      "Delay acquisition planning until after solicitation",
       "Apply FAR 13 procedures with documented rationale",
-      "Combine unrelated needs into one buy to stay within a preferred buying method."
+      "Use sole-source automatically without justification"
     ],
     "correctIndex": 2,
     "topic": "Simplified Acquisition",
@@ -2993,10 +2993,10 @@
     "id": "Q116",
     "prompt": "In contracting by negotiation scenario #116, what is the best contracting action?",
     "choices": [
-      "Begin negotiations before establishing evaluation factors and competitive range strategy.",
-      "Award on lowest price alone when tradeoff criteria were announced in the solicitation.",
+      "Skip documentation to accelerate award",
+      "Delay acquisition planning until after solicitation",
       "Apply FAR 15 procedures with documented rationale",
-      "Disclose one offeror's pricing details to accelerate final proposal revisions."
+      "Use sole-source automatically without justification"
     ],
     "correctIndex": 2,
     "topic": "Contracting by Negotiation",
@@ -3019,10 +3019,10 @@
     "id": "Q117",
     "prompt": "In contract modifications scenario #117, what is the best contracting action?",
     "choices": [
-      "Direct the contractor to perform new scope first and negotiate pricing later.",
-      "Use unilateral administrative authority for substantive scope changes outside the contract.",
+      "Delay acquisition planning until after solicitation",
+      "Use sole-source automatically without justification",
       "Apply FAR 43 procedures with documented rationale",
-      "Treat every change as within scope when mission urgency supports continuity."
+      "Skip documentation to accelerate award"
     ],
     "correctIndex": 2,
     "topic": "Contract Modifications",
@@ -3045,10 +3045,10 @@
     "id": "Q118",
     "prompt": "In source selection scenario #118, what is the best contracting action?",
     "choices": [
-      "Adjust evaluation weights during discussions to align with evolving preferences.",
+      "Use sole-source automatically without justification",
       "Apply FAR 15.3 procedures with documented rationale",
-      "Allow evaluators to rely on undocumented impressions instead of the source selection plan.",
-      "Limit tradeoff documentation to final ratings without comparing proposal strengths and risks."
+      "Delay acquisition planning until after solicitation",
+      "Skip documentation to accelerate award"
     ],
     "correctIndex": 1,
     "topic": "Source Selection",
@@ -3071,10 +3071,10 @@
     "id": "Q119",
     "prompt": "In commercial items scenario #119, what is the best contracting action?",
     "choices": [
-      "Require noncommercial clauses by default without determining market customary practice.",
-      "Use commercial procedures while demanding unique government-only technical redesigns.",
+      "Delay acquisition planning until after solicitation",
+      "Skip documentation to accelerate award",
       "Apply FAR 12 procedures with documented rationale",
-      "Skip market comparability analysis and rely solely on internal cost estimates."
+      "Use sole-source automatically without justification"
     ],
     "correctIndex": 2,
     "topic": "Commercial Items",
@@ -3097,10 +3097,10 @@
     "id": "Q120",
     "prompt": "In contract types scenario #120, what is the best contracting action?",
     "choices": [
-      "Select firm-fixed-price when requirements remain unstable and technical risk is high.",
-      "Use cost-reimbursement without documenting adequate surveillance and accounting capability.",
+      "Use sole-source automatically without justification",
+      "Delay acquisition planning until after solicitation",
       "Apply FAR 16 procedures with documented rationale",
-      "Choose contract type based on historical preference rather than current risk allocation."
+      "Skip documentation to accelerate award"
     ],
     "correctIndex": 2,
     "topic": "Contract Types",
@@ -3123,9 +3123,9 @@
     "id": "Q121",
     "prompt": "In market research scenario #121, what is the best contracting action?",
     "choices": [
-      "Rely on prior contract files and skip current vendor outreach for this requirement.",
-      "Post the solicitation first, then document market research only if questions arise.",
-      "Adopt the incumbent's approach without validating current commercial capabilities.",
+      "Use sole-source automatically without justification",
+      "Skip documentation to accelerate award",
+      "Delay acquisition planning until after solicitation",
       "Apply FAR 10 procedures with documented rationale"
     ],
     "correctIndex": 3,
@@ -3150,9 +3150,9 @@
     "prompt": "In competition scenario #122, what is the best contracting action?",
     "choices": [
       "Apply FAR 6 procedures with documented rationale",
-      "Restrict competition to known vendors before documenting a valid exclusion rationale.",
-      "Issue a brand-name requirement and complete the justification after award.",
-      "Prioritize schedule urgency and reduce competition without obtaining required approvals."
+      "Delay acquisition planning until after solicitation",
+      "Use sole-source automatically without justification",
+      "Skip documentation to accelerate award"
     ],
     "correctIndex": 0,
     "topic": "Competition",
@@ -3175,9 +3175,9 @@
     "id": "Q123",
     "prompt": "In simplified acquisition scenario #123, what is the best contracting action?",
     "choices": [
-      "Use simplified procedures above threshold limits because administrative speed is critical.",
-      "Solicit only one local source and document price reasonableness after award.",
-      "Combine unrelated needs into one buy to stay within a preferred buying method.",
+      "Use sole-source automatically without justification",
+      "Delay acquisition planning until after solicitation",
+      "Skip documentation to accelerate award",
       "Apply FAR 13 procedures with documented rationale"
     ],
     "correctIndex": 3,
@@ -3201,10 +3201,10 @@
     "id": "Q124",
     "prompt": "In contracting by negotiation scenario #124, what is the best contracting action?",
     "choices": [
-      "Begin negotiations before establishing evaluation factors and competitive range strategy.",
+      "Skip documentation to accelerate award",
       "Apply FAR 15 procedures with documented rationale",
-      "Award on lowest price alone when tradeoff criteria were announced in the solicitation.",
-      "Disclose one offeror's pricing details to accelerate final proposal revisions."
+      "Delay acquisition planning until after solicitation",
+      "Use sole-source automatically without justification"
     ],
     "correctIndex": 1,
     "topic": "Contracting by Negotiation",
@@ -3227,10 +3227,10 @@
     "id": "Q125",
     "prompt": "In contract modifications scenario #125, what is the best contracting action?",
     "choices": [
-      "Direct the contractor to perform new scope first and negotiate pricing later.",
-      "Use unilateral administrative authority for substantive scope changes outside the contract.",
+      "Use sole-source automatically without justification",
+      "Delay acquisition planning until after solicitation",
       "Apply FAR 43 procedures with documented rationale",
-      "Treat every change as within scope when mission urgency supports continuity."
+      "Skip documentation to accelerate award"
     ],
     "correctIndex": 2,
     "topic": "Contract Modifications",
@@ -3253,9 +3253,9 @@
     "id": "Q126",
     "prompt": "In source selection scenario #126, what is the best contracting action?",
     "choices": [
-      "Adjust evaluation weights during discussions to align with evolving preferences.",
-      "Allow evaluators to rely on undocumented impressions instead of the source selection plan.",
-      "Limit tradeoff documentation to final ratings without comparing proposal strengths and risks.",
+      "Delay acquisition planning until after solicitation",
+      "Skip documentation to accelerate award",
+      "Use sole-source automatically without justification",
       "Apply FAR 15.3 procedures with documented rationale"
     ],
     "correctIndex": 3,
@@ -3279,9 +3279,9 @@
     "id": "Q127",
     "prompt": "In commercial items scenario #127, what is the best contracting action?",
     "choices": [
-      "Require noncommercial clauses by default without determining market customary practice.",
-      "Use commercial procedures while demanding unique government-only technical redesigns.",
-      "Skip market comparability analysis and rely solely on internal cost estimates.",
+      "Skip documentation to accelerate award",
+      "Delay acquisition planning until after solicitation",
+      "Use sole-source automatically without justification",
       "Apply FAR 12 procedures with documented rationale"
     ],
     "correctIndex": 3,
@@ -3306,9 +3306,9 @@
     "prompt": "In contract types scenario #128, what is the best contracting action?",
     "choices": [
       "Apply FAR 16 procedures with documented rationale",
-      "Select firm-fixed-price when requirements remain unstable and technical risk is high.",
-      "Use cost-reimbursement without documenting adequate surveillance and accounting capability.",
-      "Choose contract type based on historical preference rather than current risk allocation."
+      "Use sole-source automatically without justification",
+      "Delay acquisition planning until after solicitation",
+      "Skip documentation to accelerate award"
     ],
     "correctIndex": 0,
     "topic": "Contract Types",
@@ -3331,10 +3331,10 @@
     "id": "Q129",
     "prompt": "In market research scenario #129, what is the best contracting action?",
     "choices": [
-      "Rely on prior contract files and skip current vendor outreach for this requirement.",
-      "Post the solicitation first, then document market research only if questions arise.",
+      "Delay acquisition planning until after solicitation",
+      "Skip documentation to accelerate award",
       "Apply FAR 10 procedures with documented rationale",
-      "Adopt the incumbent's approach without validating current commercial capabilities."
+      "Use sole-source automatically without justification"
     ],
     "correctIndex": 2,
     "topic": "Market Research",
@@ -3358,9 +3358,9 @@
     "prompt": "In competition scenario #130, what is the best contracting action?",
     "choices": [
       "Apply FAR 6 procedures with documented rationale",
-      "Restrict competition to known vendors before documenting a valid exclusion rationale.",
-      "Issue a brand-name requirement and complete the justification after award.",
-      "Prioritize schedule urgency and reduce competition without obtaining required approvals."
+      "Use sole-source automatically without justification",
+      "Skip documentation to accelerate award",
+      "Delay acquisition planning until after solicitation"
     ],
     "correctIndex": 0,
     "topic": "Competition",
@@ -3383,10 +3383,10 @@
     "id": "Q131",
     "prompt": "In simplified acquisition scenario #131, what is the best contracting action?",
     "choices": [
-      "Use simplified procedures above threshold limits because administrative speed is critical.",
+      "Delay acquisition planning until after solicitation",
       "Apply FAR 13 procedures with documented rationale",
-      "Solicit only one local source and document price reasonableness after award.",
-      "Combine unrelated needs into one buy to stay within a preferred buying method."
+      "Skip documentation to accelerate award",
+      "Use sole-source automatically without justification"
     ],
     "correctIndex": 1,
     "topic": "Simplified Acquisition",
@@ -3409,10 +3409,10 @@
     "id": "Q132",
     "prompt": "In contracting by negotiation scenario #132, what is the best contracting action?",
     "choices": [
-      "Begin negotiations before establishing evaluation factors and competitive range strategy.",
-      "Award on lowest price alone when tradeoff criteria were announced in the solicitation.",
+      "Use sole-source automatically without justification",
+      "Skip documentation to accelerate award",
       "Apply FAR 15 procedures with documented rationale",
-      "Disclose one offeror's pricing details to accelerate final proposal revisions."
+      "Delay acquisition planning until after solicitation"
     ],
     "correctIndex": 2,
     "topic": "Contracting by Negotiation",
@@ -3436,9 +3436,9 @@
     "prompt": "In contract modifications scenario #133, what is the best contracting action?",
     "choices": [
       "Apply FAR 43 procedures with documented rationale",
-      "Direct the contractor to perform new scope first and negotiate pricing later.",
-      "Use unilateral administrative authority for substantive scope changes outside the contract.",
-      "Treat every change as within scope when mission urgency supports continuity."
+      "Use sole-source automatically without justification",
+      "Skip documentation to accelerate award",
+      "Delay acquisition planning until after solicitation"
     ],
     "correctIndex": 0,
     "topic": "Contract Modifications",
@@ -3461,10 +3461,10 @@
     "id": "Q134",
     "prompt": "In source selection scenario #134, what is the best contracting action?",
     "choices": [
-      "Adjust evaluation weights during discussions to align with evolving preferences.",
+      "Skip documentation to accelerate award",
       "Apply FAR 15.3 procedures with documented rationale",
-      "Allow evaluators to rely on undocumented impressions instead of the source selection plan.",
-      "Limit tradeoff documentation to final ratings without comparing proposal strengths and risks."
+      "Use sole-source automatically without justification",
+      "Delay acquisition planning until after solicitation"
     ],
     "correctIndex": 1,
     "topic": "Source Selection",
@@ -3488,9 +3488,9 @@
     "prompt": "In commercial items scenario #135, what is the best contracting action?",
     "choices": [
       "Apply FAR 12 procedures with documented rationale",
-      "Require noncommercial clauses by default without determining market customary practice.",
-      "Use commercial procedures while demanding unique government-only technical redesigns.",
-      "Skip market comparability analysis and rely solely on internal cost estimates."
+      "Skip documentation to accelerate award",
+      "Delay acquisition planning until after solicitation",
+      "Use sole-source automatically without justification"
     ],
     "correctIndex": 0,
     "topic": "Commercial Items",
@@ -3513,10 +3513,10 @@
     "id": "Q136",
     "prompt": "In contract types scenario #136, what is the best contracting action?",
     "choices": [
-      "Select firm-fixed-price when requirements remain unstable and technical risk is high.",
+      "Skip documentation to accelerate award",
       "Apply FAR 16 procedures with documented rationale",
-      "Use cost-reimbursement without documenting adequate surveillance and accounting capability.",
-      "Choose contract type based on historical preference rather than current risk allocation."
+      "Use sole-source automatically without justification",
+      "Delay acquisition planning until after solicitation"
     ],
     "correctIndex": 1,
     "topic": "Contract Types",
@@ -3539,9 +3539,9 @@
     "id": "Q137",
     "prompt": "In market research scenario #137, what is the best contracting action?",
     "choices": [
-      "Rely on prior contract files and skip current vendor outreach for this requirement.",
-      "Post the solicitation first, then document market research only if questions arise.",
-      "Adopt the incumbent's approach without validating current commercial capabilities.",
+      "Use sole-source automatically without justification",
+      "Skip documentation to accelerate award",
+      "Delay acquisition planning until after solicitation",
       "Apply FAR 10 procedures with documented rationale"
     ],
     "correctIndex": 3,
@@ -3566,9 +3566,9 @@
     "prompt": "In competition scenario #138, what is the best contracting action?",
     "choices": [
       "Apply FAR 6 procedures with documented rationale",
-      "Restrict competition to known vendors before documenting a valid exclusion rationale.",
-      "Issue a brand-name requirement and complete the justification after award.",
-      "Prioritize schedule urgency and reduce competition without obtaining required approvals."
+      "Use sole-source automatically without justification",
+      "Delay acquisition planning until after solicitation",
+      "Skip documentation to accelerate award"
     ],
     "correctIndex": 0,
     "topic": "Competition",
@@ -3591,9 +3591,9 @@
     "id": "Q139",
     "prompt": "In simplified acquisition scenario #139, what is the best contracting action?",
     "choices": [
-      "Use simplified procedures above threshold limits because administrative speed is critical.",
-      "Solicit only one local source and document price reasonableness after award.",
-      "Combine unrelated needs into one buy to stay within a preferred buying method.",
+      "Delay acquisition planning until after solicitation",
+      "Skip documentation to accelerate award",
+      "Use sole-source automatically without justification",
       "Apply FAR 13 procedures with documented rationale"
     ],
     "correctIndex": 3,
@@ -3617,9 +3617,9 @@
     "id": "Q140",
     "prompt": "In contracting by negotiation scenario #140, what is the best contracting action?",
     "choices": [
-      "Begin negotiations before establishing evaluation factors and competitive range strategy.",
-      "Award on lowest price alone when tradeoff criteria were announced in the solicitation.",
-      "Disclose one offeror's pricing details to accelerate final proposal revisions.",
+      "Use sole-source automatically without justification",
+      "Skip documentation to accelerate award",
+      "Delay acquisition planning until after solicitation",
       "Apply FAR 15 procedures with documented rationale"
     ],
     "correctIndex": 3,
@@ -3643,9 +3643,9 @@
     "id": "Q141",
     "prompt": "In contract modifications scenario #141, what is the best contracting action?",
     "choices": [
-      "Direct the contractor to perform new scope first and negotiate pricing later.",
-      "Use unilateral administrative authority for substantive scope changes outside the contract.",
-      "Treat every change as within scope when mission urgency supports continuity.",
+      "Delay acquisition planning until after solicitation",
+      "Skip documentation to accelerate award",
+      "Use sole-source automatically without justification",
       "Apply FAR 43 procedures with documented rationale"
     ],
     "correctIndex": 3,
@@ -3669,10 +3669,10 @@
     "id": "Q142",
     "prompt": "In source selection scenario #142, what is the best contracting action?",
     "choices": [
-      "Adjust evaluation weights during discussions to align with evolving preferences.",
-      "Allow evaluators to rely on undocumented impressions instead of the source selection plan.",
+      "Use sole-source automatically without justification",
+      "Skip documentation to accelerate award",
       "Apply FAR 15.3 procedures with documented rationale",
-      "Limit tradeoff documentation to final ratings without comparing proposal strengths and risks."
+      "Delay acquisition planning until after solicitation"
     ],
     "correctIndex": 2,
     "topic": "Source Selection",
@@ -3695,10 +3695,10 @@
     "id": "Q143",
     "prompt": "In commercial items scenario #143, what is the best contracting action?",
     "choices": [
-      "Require noncommercial clauses by default without determining market customary practice.",
-      "Use commercial procedures while demanding unique government-only technical redesigns.",
+      "Delay acquisition planning until after solicitation",
+      "Use sole-source automatically without justification",
       "Apply FAR 12 procedures with documented rationale",
-      "Skip market comparability analysis and rely solely on internal cost estimates."
+      "Skip documentation to accelerate award"
     ],
     "correctIndex": 2,
     "topic": "Commercial Items",
@@ -3721,10 +3721,10 @@
     "id": "Q144",
     "prompt": "In contract types scenario #144, what is the best contracting action?",
     "choices": [
-      "Select firm-fixed-price when requirements remain unstable and technical risk is high.",
-      "Use cost-reimbursement without documenting adequate surveillance and accounting capability.",
+      "Use sole-source automatically without justification",
+      "Skip documentation to accelerate award",
       "Apply FAR 16 procedures with documented rationale",
-      "Choose contract type based on historical preference rather than current risk allocation."
+      "Delay acquisition planning until after solicitation"
     ],
     "correctIndex": 2,
     "topic": "Contract Types",
@@ -3747,10 +3747,10 @@
     "id": "Q145",
     "prompt": "In market research scenario #145, what is the best contracting action?",
     "choices": [
-      "Rely on prior contract files and skip current vendor outreach for this requirement.",
+      "Skip documentation to accelerate award",
       "Apply FAR 10 procedures with documented rationale",
-      "Post the solicitation first, then document market research only if questions arise.",
-      "Adopt the incumbent's approach without validating current commercial capabilities."
+      "Use sole-source automatically without justification",
+      "Delay acquisition planning until after solicitation"
     ],
     "correctIndex": 1,
     "topic": "Market Research",
@@ -3773,10 +3773,10 @@
     "id": "Q146",
     "prompt": "In competition scenario #146, what is the best contracting action?",
     "choices": [
-      "Restrict competition to known vendors before documenting a valid exclusion rationale.",
-      "Issue a brand-name requirement and complete the justification after award.",
+      "Use sole-source automatically without justification",
+      "Delay acquisition planning until after solicitation",
       "Apply FAR 6 procedures with documented rationale",
-      "Prioritize schedule urgency and reduce competition without obtaining required approvals."
+      "Skip documentation to accelerate award"
     ],
     "correctIndex": 2,
     "topic": "Competition",
@@ -3800,9 +3800,9 @@
     "prompt": "In simplified acquisition scenario #147, what is the best contracting action?",
     "choices": [
       "Apply FAR 13 procedures with documented rationale",
-      "Use simplified procedures above threshold limits because administrative speed is critical.",
-      "Solicit only one local source and document price reasonableness after award.",
-      "Combine unrelated needs into one buy to stay within a preferred buying method."
+      "Use sole-source automatically without justification",
+      "Delay acquisition planning until after solicitation",
+      "Skip documentation to accelerate award"
     ],
     "correctIndex": 0,
     "topic": "Simplified Acquisition",
@@ -3825,10 +3825,10 @@
     "id": "Q148",
     "prompt": "In contracting by negotiation scenario #148, what is the best contracting action?",
     "choices": [
-      "Begin negotiations before establishing evaluation factors and competitive range strategy.",
+      "Skip documentation to accelerate award",
       "Apply FAR 15 procedures with documented rationale",
-      "Award on lowest price alone when tradeoff criteria were announced in the solicitation.",
-      "Disclose one offeror's pricing details to accelerate final proposal revisions."
+      "Use sole-source automatically without justification",
+      "Delay acquisition planning until after solicitation"
     ],
     "correctIndex": 1,
     "topic": "Contracting by Negotiation",
@@ -3851,9 +3851,9 @@
     "id": "Q149",
     "prompt": "In contract modifications scenario #149, what is the best contracting action?",
     "choices": [
-      "Direct the contractor to perform new scope first and negotiate pricing later.",
-      "Use unilateral administrative authority for substantive scope changes outside the contract.",
-      "Treat every change as within scope when mission urgency supports continuity.",
+      "Use sole-source automatically without justification",
+      "Skip documentation to accelerate award",
+      "Delay acquisition planning until after solicitation",
       "Apply FAR 43 procedures with documented rationale"
     ],
     "correctIndex": 3,
@@ -3877,10 +3877,10 @@
     "id": "Q150",
     "prompt": "In source selection scenario #150, what is the best contracting action?",
     "choices": [
-      "Adjust evaluation weights during discussions to align with evolving preferences.",
+      "Delay acquisition planning until after solicitation",
       "Apply FAR 15.3 procedures with documented rationale",
-      "Allow evaluators to rely on undocumented impressions instead of the source selection plan.",
-      "Limit tradeoff documentation to final ratings without comparing proposal strengths and risks."
+      "Skip documentation to accelerate award",
+      "Use sole-source automatically without justification"
     ],
     "correctIndex": 1,
     "topic": "Source Selection",
@@ -3903,10 +3903,10 @@
     "id": "Q151",
     "prompt": "In commercial items scenario #151, what is the best contracting action?",
     "choices": [
-      "Require noncommercial clauses by default without determining market customary practice.",
+      "Skip documentation to accelerate award",
       "Apply FAR 12 procedures with documented rationale",
-      "Use commercial procedures while demanding unique government-only technical redesigns.",
-      "Skip market comparability analysis and rely solely on internal cost estimates."
+      "Use sole-source automatically without justification",
+      "Delay acquisition planning until after solicitation"
     ],
     "correctIndex": 1,
     "topic": "Commercial Items",
@@ -3929,10 +3929,10 @@
     "id": "Q152",
     "prompt": "In contract types scenario #152, what is the best contracting action?",
     "choices": [
-      "Select firm-fixed-price when requirements remain unstable and technical risk is high.",
+      "Skip documentation to accelerate award",
       "Apply FAR 16 procedures with documented rationale",
-      "Use cost-reimbursement without documenting adequate surveillance and accounting capability.",
-      "Choose contract type based on historical preference rather than current risk allocation."
+      "Use sole-source automatically without justification",
+      "Delay acquisition planning until after solicitation"
     ],
     "correctIndex": 1,
     "topic": "Contract Types",
@@ -3955,10 +3955,10 @@
     "id": "Q153",
     "prompt": "In market research scenario #153, what is the best contracting action?",
     "choices": [
-      "Rely on prior contract files and skip current vendor outreach for this requirement.",
-      "Post the solicitation first, then document market research only if questions arise.",
+      "Skip documentation to accelerate award",
+      "Use sole-source automatically without justification",
       "Apply FAR 10 procedures with documented rationale",
-      "Adopt the incumbent's approach without validating current commercial capabilities."
+      "Delay acquisition planning until after solicitation"
     ],
     "correctIndex": 2,
     "topic": "Market Research",
@@ -3982,9 +3982,9 @@
     "prompt": "In competition scenario #154, what is the best contracting action?",
     "choices": [
       "Apply FAR 6 procedures with documented rationale",
-      "Restrict competition to known vendors before documenting a valid exclusion rationale.",
-      "Issue a brand-name requirement and complete the justification after award.",
-      "Prioritize schedule urgency and reduce competition without obtaining required approvals."
+      "Use sole-source automatically without justification",
+      "Delay acquisition planning until after solicitation",
+      "Skip documentation to accelerate award"
     ],
     "correctIndex": 0,
     "topic": "Competition",
@@ -4008,9 +4008,9 @@
     "prompt": "In simplified acquisition scenario #155, what is the best contracting action?",
     "choices": [
       "Apply FAR 13 procedures with documented rationale",
-      "Use simplified procedures above threshold limits because administrative speed is critical.",
-      "Solicit only one local source and document price reasonableness after award.",
-      "Combine unrelated needs into one buy to stay within a preferred buying method."
+      "Skip documentation to accelerate award",
+      "Delay acquisition planning until after solicitation",
+      "Use sole-source automatically without justification"
     ],
     "correctIndex": 0,
     "topic": "Simplified Acquisition",
@@ -4033,10 +4033,10 @@
     "id": "Q156",
     "prompt": "In contracting by negotiation scenario #156, what is the best contracting action?",
     "choices": [
-      "Begin negotiations before establishing evaluation factors and competitive range strategy.",
+      "Use sole-source automatically without justification",
       "Apply FAR 15 procedures with documented rationale",
-      "Award on lowest price alone when tradeoff criteria were announced in the solicitation.",
-      "Disclose one offeror's pricing details to accelerate final proposal revisions."
+      "Skip documentation to accelerate award",
+      "Delay acquisition planning until after solicitation"
     ],
     "correctIndex": 1,
     "topic": "Contracting by Negotiation",
@@ -4059,10 +4059,10 @@
     "id": "Q157",
     "prompt": "In contract modifications scenario #157, what is the best contracting action?",
     "choices": [
-      "Direct the contractor to perform new scope first and negotiate pricing later.",
-      "Use unilateral administrative authority for substantive scope changes outside the contract.",
+      "Skip documentation to accelerate award",
+      "Use sole-source automatically without justification",
       "Apply FAR 43 procedures with documented rationale",
-      "Treat every change as within scope when mission urgency supports continuity."
+      "Delay acquisition planning until after solicitation"
     ],
     "correctIndex": 2,
     "topic": "Contract Modifications",
@@ -4085,10 +4085,10 @@
     "id": "Q158",
     "prompt": "In source selection scenario #158, what is the best contracting action?",
     "choices": [
-      "Adjust evaluation weights during discussions to align with evolving preferences.",
-      "Allow evaluators to rely on undocumented impressions instead of the source selection plan.",
+      "Delay acquisition planning until after solicitation",
+      "Use sole-source automatically without justification",
       "Apply FAR 15.3 procedures with documented rationale",
-      "Limit tradeoff documentation to final ratings without comparing proposal strengths and risks."
+      "Skip documentation to accelerate award"
     ],
     "correctIndex": 2,
     "topic": "Source Selection",
@@ -4111,10 +4111,10 @@
     "id": "Q159",
     "prompt": "In commercial items scenario #159, what is the best contracting action?",
     "choices": [
-      "Require noncommercial clauses by default without determining market customary practice.",
-      "Use commercial procedures while demanding unique government-only technical redesigns.",
+      "Use sole-source automatically without justification",
+      "Skip documentation to accelerate award",
       "Apply FAR 12 procedures with documented rationale",
-      "Skip market comparability analysis and rely solely on internal cost estimates."
+      "Delay acquisition planning until after solicitation"
     ],
     "correctIndex": 2,
     "topic": "Commercial Items",
@@ -4137,9 +4137,9 @@
     "id": "Q160",
     "prompt": "In contract types scenario #160, what is the best contracting action?",
     "choices": [
-      "Select firm-fixed-price when requirements remain unstable and technical risk is high.",
-      "Use cost-reimbursement without documenting adequate surveillance and accounting capability.",
-      "Choose contract type based on historical preference rather than current risk allocation.",
+      "Delay acquisition planning until after solicitation",
+      "Skip documentation to accelerate award",
+      "Use sole-source automatically without justification",
       "Apply FAR 16 procedures with documented rationale"
     ],
     "correctIndex": 3,
@@ -4163,10 +4163,10 @@
     "id": "Q161",
     "prompt": "In market research scenario #161, what is the best contracting action?",
     "choices": [
-      "Rely on prior contract files and skip current vendor outreach for this requirement.",
+      "Delay acquisition planning until after solicitation",
       "Apply FAR 10 procedures with documented rationale",
-      "Post the solicitation first, then document market research only if questions arise.",
-      "Adopt the incumbent's approach without validating current commercial capabilities."
+      "Use sole-source automatically without justification",
+      "Skip documentation to accelerate award"
     ],
     "correctIndex": 1,
     "topic": "Market Research",
@@ -4189,9 +4189,9 @@
     "id": "Q162",
     "prompt": "In competition scenario #162, what is the best contracting action?",
     "choices": [
-      "Restrict competition to known vendors before documenting a valid exclusion rationale.",
-      "Issue a brand-name requirement and complete the justification after award.",
-      "Prioritize schedule urgency and reduce competition without obtaining required approvals.",
+      "Skip documentation to accelerate award",
+      "Delay acquisition planning until after solicitation",
+      "Use sole-source automatically without justification",
       "Apply FAR 6 procedures with documented rationale"
     ],
     "correctIndex": 3,
@@ -4215,10 +4215,10 @@
     "id": "Q163",
     "prompt": "In simplified acquisition scenario #163, what is the best contracting action?",
     "choices": [
-      "Use simplified procedures above threshold limits because administrative speed is critical.",
+      "Skip documentation to accelerate award",
       "Apply FAR 13 procedures with documented rationale",
-      "Solicit only one local source and document price reasonableness after award.",
-      "Combine unrelated needs into one buy to stay within a preferred buying method."
+      "Use sole-source automatically without justification",
+      "Delay acquisition planning until after solicitation"
     ],
     "correctIndex": 1,
     "topic": "Simplified Acquisition",
@@ -4241,9 +4241,9 @@
     "id": "Q164",
     "prompt": "In contracting by negotiation scenario #164, what is the best contracting action?",
     "choices": [
-      "Begin negotiations before establishing evaluation factors and competitive range strategy.",
-      "Award on lowest price alone when tradeoff criteria were announced in the solicitation.",
-      "Disclose one offeror's pricing details to accelerate final proposal revisions.",
+      "Delay acquisition planning until after solicitation",
+      "Skip documentation to accelerate award",
+      "Use sole-source automatically without justification",
       "Apply FAR 15 procedures with documented rationale"
     ],
     "correctIndex": 3,
@@ -4267,9 +4267,9 @@
     "id": "Q165",
     "prompt": "In contract modifications scenario #165, what is the best contracting action?",
     "choices": [
-      "Direct the contractor to perform new scope first and negotiate pricing later.",
-      "Use unilateral administrative authority for substantive scope changes outside the contract.",
-      "Treat every change as within scope when mission urgency supports continuity.",
+      "Use sole-source automatically without justification",
+      "Skip documentation to accelerate award",
+      "Delay acquisition planning until after solicitation",
       "Apply FAR 43 procedures with documented rationale"
     ],
     "correctIndex": 3,
@@ -4294,9 +4294,9 @@
     "prompt": "In source selection scenario #166, what is the best contracting action?",
     "choices": [
       "Apply FAR 15.3 procedures with documented rationale",
-      "Adjust evaluation weights during discussions to align with evolving preferences.",
-      "Allow evaluators to rely on undocumented impressions instead of the source selection plan.",
-      "Limit tradeoff documentation to final ratings without comparing proposal strengths and risks."
+      "Delay acquisition planning until after solicitation",
+      "Use sole-source automatically without justification",
+      "Skip documentation to accelerate award"
     ],
     "correctIndex": 0,
     "topic": "Source Selection",
@@ -4319,10 +4319,10 @@
     "id": "Q167",
     "prompt": "In commercial items scenario #167, what is the best contracting action?",
     "choices": [
-      "Require noncommercial clauses by default without determining market customary practice.",
-      "Use commercial procedures while demanding unique government-only technical redesigns.",
+      "Use sole-source automatically without justification",
+      "Delay acquisition planning until after solicitation",
       "Apply FAR 12 procedures with documented rationale",
-      "Skip market comparability analysis and rely solely on internal cost estimates."
+      "Skip documentation to accelerate award"
     ],
     "correctIndex": 2,
     "topic": "Commercial Items",
@@ -4345,9 +4345,9 @@
     "id": "Q168",
     "prompt": "In contract types scenario #168, what is the best contracting action?",
     "choices": [
-      "Select firm-fixed-price when requirements remain unstable and technical risk is high.",
-      "Use cost-reimbursement without documenting adequate surveillance and accounting capability.",
-      "Choose contract type based on historical preference rather than current risk allocation.",
+      "Delay acquisition planning until after solicitation",
+      "Skip documentation to accelerate award",
+      "Use sole-source automatically without justification",
       "Apply FAR 16 procedures with documented rationale"
     ],
     "correctIndex": 3,
@@ -4371,10 +4371,10 @@
     "id": "Q169",
     "prompt": "In market research scenario #169, what is the best contracting action?",
     "choices": [
-      "Rely on prior contract files and skip current vendor outreach for this requirement.",
+      "Skip documentation to accelerate award",
       "Apply FAR 10 procedures with documented rationale",
-      "Post the solicitation first, then document market research only if questions arise.",
-      "Adopt the incumbent's approach without validating current commercial capabilities."
+      "Delay acquisition planning until after solicitation",
+      "Use sole-source automatically without justification"
     ],
     "correctIndex": 1,
     "topic": "Market Research",
@@ -4398,9 +4398,9 @@
     "prompt": "In competition scenario #170, what is the best contracting action?",
     "choices": [
       "Apply FAR 6 procedures with documented rationale",
-      "Restrict competition to known vendors before documenting a valid exclusion rationale.",
-      "Issue a brand-name requirement and complete the justification after award.",
-      "Prioritize schedule urgency and reduce competition without obtaining required approvals."
+      "Skip documentation to accelerate award",
+      "Delay acquisition planning until after solicitation",
+      "Use sole-source automatically without justification"
     ],
     "correctIndex": 0,
     "topic": "Competition",
@@ -4423,10 +4423,10 @@
     "id": "Q171",
     "prompt": "In simplified acquisition scenario #171, what is the best contracting action?",
     "choices": [
-      "Use simplified procedures above threshold limits because administrative speed is critical.",
+      "Use sole-source automatically without justification",
       "Apply FAR 13 procedures with documented rationale",
-      "Solicit only one local source and document price reasonableness after award.",
-      "Combine unrelated needs into one buy to stay within a preferred buying method."
+      "Skip documentation to accelerate award",
+      "Delay acquisition planning until after solicitation"
     ],
     "correctIndex": 1,
     "topic": "Simplified Acquisition",
@@ -4449,10 +4449,10 @@
     "id": "Q172",
     "prompt": "In contracting by negotiation scenario #172, what is the best contracting action?",
     "choices": [
-      "Begin negotiations before establishing evaluation factors and competitive range strategy.",
-      "Award on lowest price alone when tradeoff criteria were announced in the solicitation.",
+      "Skip documentation to accelerate award",
+      "Delay acquisition planning until after solicitation",
       "Apply FAR 15 procedures with documented rationale",
-      "Disclose one offeror's pricing details to accelerate final proposal revisions."
+      "Use sole-source automatically without justification"
     ],
     "correctIndex": 2,
     "topic": "Contracting by Negotiation",
@@ -4476,9 +4476,9 @@
     "prompt": "In contract modifications scenario #173, what is the best contracting action?",
     "choices": [
       "Apply FAR 43 procedures with documented rationale",
-      "Direct the contractor to perform new scope first and negotiate pricing later.",
-      "Use unilateral administrative authority for substantive scope changes outside the contract.",
-      "Treat every change as within scope when mission urgency supports continuity."
+      "Delay acquisition planning until after solicitation",
+      "Skip documentation to accelerate award",
+      "Use sole-source automatically without justification"
     ],
     "correctIndex": 0,
     "topic": "Contract Modifications",
@@ -4501,9 +4501,9 @@
     "id": "Q174",
     "prompt": "In source selection scenario #174, what is the best contracting action?",
     "choices": [
-      "Adjust evaluation weights during discussions to align with evolving preferences.",
-      "Allow evaluators to rely on undocumented impressions instead of the source selection plan.",
-      "Limit tradeoff documentation to final ratings without comparing proposal strengths and risks.",
+      "Use sole-source automatically without justification",
+      "Delay acquisition planning until after solicitation",
+      "Skip documentation to accelerate award",
       "Apply FAR 15.3 procedures with documented rationale"
     ],
     "correctIndex": 3,
@@ -4527,10 +4527,10 @@
     "id": "Q175",
     "prompt": "In commercial items scenario #175, what is the best contracting action?",
     "choices": [
-      "Require noncommercial clauses by default without determining market customary practice.",
-      "Use commercial procedures while demanding unique government-only technical redesigns.",
+      "Skip documentation to accelerate award",
+      "Use sole-source automatically without justification",
       "Apply FAR 12 procedures with documented rationale",
-      "Skip market comparability analysis and rely solely on internal cost estimates."
+      "Delay acquisition planning until after solicitation"
     ],
     "correctIndex": 2,
     "topic": "Commercial Items",
@@ -4553,9 +4553,9 @@
     "id": "Q176",
     "prompt": "In contract types scenario #176, what is the best contracting action?",
     "choices": [
-      "Select firm-fixed-price when requirements remain unstable and technical risk is high.",
-      "Use cost-reimbursement without documenting adequate surveillance and accounting capability.",
-      "Choose contract type based on historical preference rather than current risk allocation.",
+      "Skip documentation to accelerate award",
+      "Use sole-source automatically without justification",
+      "Delay acquisition planning until after solicitation",
       "Apply FAR 16 procedures with documented rationale"
     ],
     "correctIndex": 3,
@@ -4580,9 +4580,9 @@
     "prompt": "In market research scenario #177, what is the best contracting action?",
     "choices": [
       "Apply FAR 10 procedures with documented rationale",
-      "Rely on prior contract files and skip current vendor outreach for this requirement.",
-      "Post the solicitation first, then document market research only if questions arise.",
-      "Adopt the incumbent's approach without validating current commercial capabilities."
+      "Use sole-source automatically without justification",
+      "Delay acquisition planning until after solicitation",
+      "Skip documentation to accelerate award"
     ],
     "correctIndex": 0,
     "topic": "Market Research",
@@ -4605,9 +4605,9 @@
     "id": "Q178",
     "prompt": "In competition scenario #178, what is the best contracting action?",
     "choices": [
-      "Restrict competition to known vendors before documenting a valid exclusion rationale.",
-      "Issue a brand-name requirement and complete the justification after award.",
-      "Prioritize schedule urgency and reduce competition without obtaining required approvals.",
+      "Delay acquisition planning until after solicitation",
+      "Skip documentation to accelerate award",
+      "Use sole-source automatically without justification",
       "Apply FAR 6 procedures with documented rationale"
     ],
     "correctIndex": 3,
@@ -4631,10 +4631,10 @@
     "id": "Q179",
     "prompt": "In simplified acquisition scenario #179, what is the best contracting action?",
     "choices": [
-      "Use simplified procedures above threshold limits because administrative speed is critical.",
-      "Solicit only one local source and document price reasonableness after award.",
+      "Delay acquisition planning until after solicitation",
+      "Use sole-source automatically without justification",
       "Apply FAR 13 procedures with documented rationale",
-      "Combine unrelated needs into one buy to stay within a preferred buying method."
+      "Skip documentation to accelerate award"
     ],
     "correctIndex": 2,
     "topic": "Simplified Acquisition",
@@ -4657,10 +4657,10 @@
     "id": "Q180",
     "prompt": "In contracting by negotiation scenario #180, what is the best contracting action?",
     "choices": [
-      "Begin negotiations before establishing evaluation factors and competitive range strategy.",
-      "Award on lowest price alone when tradeoff criteria were announced in the solicitation.",
+      "Delay acquisition planning until after solicitation",
+      "Use sole-source automatically without justification",
       "Apply FAR 15 procedures with documented rationale",
-      "Disclose one offeror's pricing details to accelerate final proposal revisions."
+      "Skip documentation to accelerate award"
     ],
     "correctIndex": 2,
     "topic": "Contracting by Negotiation",
@@ -4683,9 +4683,9 @@
     "id": "Q181",
     "prompt": "In contract modifications scenario #181, what is the best contracting action?",
     "choices": [
-      "Direct the contractor to perform new scope first and negotiate pricing later.",
-      "Use unilateral administrative authority for substantive scope changes outside the contract.",
-      "Treat every change as within scope when mission urgency supports continuity.",
+      "Use sole-source automatically without justification",
+      "Skip documentation to accelerate award",
+      "Delay acquisition planning until after solicitation",
       "Apply FAR 43 procedures with documented rationale"
     ],
     "correctIndex": 3,
@@ -4709,10 +4709,10 @@
     "id": "Q182",
     "prompt": "In source selection scenario #182, what is the best contracting action?",
     "choices": [
-      "Adjust evaluation weights during discussions to align with evolving preferences.",
+      "Use sole-source automatically without justification",
       "Apply FAR 15.3 procedures with documented rationale",
-      "Allow evaluators to rely on undocumented impressions instead of the source selection plan.",
-      "Limit tradeoff documentation to final ratings without comparing proposal strengths and risks."
+      "Skip documentation to accelerate award",
+      "Delay acquisition planning until after solicitation"
     ],
     "correctIndex": 1,
     "topic": "Source Selection",
@@ -4735,9 +4735,9 @@
     "id": "Q183",
     "prompt": "In commercial items scenario #183, what is the best contracting action?",
     "choices": [
-      "Require noncommercial clauses by default without determining market customary practice.",
-      "Use commercial procedures while demanding unique government-only technical redesigns.",
-      "Skip market comparability analysis and rely solely on internal cost estimates.",
+      "Skip documentation to accelerate award",
+      "Use sole-source automatically without justification",
+      "Delay acquisition planning until after solicitation",
       "Apply FAR 12 procedures with documented rationale"
     ],
     "correctIndex": 3,
@@ -4761,10 +4761,10 @@
     "id": "Q184",
     "prompt": "In contract types scenario #184, what is the best contracting action?",
     "choices": [
-      "Select firm-fixed-price when requirements remain unstable and technical risk is high.",
-      "Use cost-reimbursement without documenting adequate surveillance and accounting capability.",
+      "Skip documentation to accelerate award",
+      "Delay acquisition planning until after solicitation",
       "Apply FAR 16 procedures with documented rationale",
-      "Choose contract type based on historical preference rather than current risk allocation."
+      "Use sole-source automatically without justification"
     ],
     "correctIndex": 2,
     "topic": "Contract Types",
@@ -4787,9 +4787,9 @@
     "id": "Q185",
     "prompt": "In market research scenario #185, what is the best contracting action?",
     "choices": [
-      "Rely on prior contract files and skip current vendor outreach for this requirement.",
-      "Post the solicitation first, then document market research only if questions arise.",
-      "Adopt the incumbent's approach without validating current commercial capabilities.",
+      "Skip documentation to accelerate award",
+      "Use sole-source automatically without justification",
+      "Delay acquisition planning until after solicitation",
       "Apply FAR 10 procedures with documented rationale"
     ],
     "correctIndex": 3,
@@ -4814,9 +4814,9 @@
     "prompt": "In competition scenario #186, what is the best contracting action?",
     "choices": [
       "Apply FAR 6 procedures with documented rationale",
-      "Restrict competition to known vendors before documenting a valid exclusion rationale.",
-      "Issue a brand-name requirement and complete the justification after award.",
-      "Prioritize schedule urgency and reduce competition without obtaining required approvals."
+      "Skip documentation to accelerate award",
+      "Delay acquisition planning until after solicitation",
+      "Use sole-source automatically without justification"
     ],
     "correctIndex": 0,
     "topic": "Competition",
@@ -4839,10 +4839,10 @@
     "id": "Q187",
     "prompt": "In simplified acquisition scenario #187, what is the best contracting action?",
     "choices": [
-      "Use simplified procedures above threshold limits because administrative speed is critical.",
+      "Delay acquisition planning until after solicitation",
       "Apply FAR 13 procedures with documented rationale",
-      "Solicit only one local source and document price reasonableness after award.",
-      "Combine unrelated needs into one buy to stay within a preferred buying method."
+      "Skip documentation to accelerate award",
+      "Use sole-source automatically without justification"
     ],
     "correctIndex": 1,
     "topic": "Simplified Acquisition",
@@ -4865,10 +4865,10 @@
     "id": "Q188",
     "prompt": "In contracting by negotiation scenario #188, what is the best contracting action?",
     "choices": [
-      "Begin negotiations before establishing evaluation factors and competitive range strategy.",
+      "Use sole-source automatically without justification",
       "Apply FAR 15 procedures with documented rationale",
-      "Award on lowest price alone when tradeoff criteria were announced in the solicitation.",
-      "Disclose one offeror's pricing details to accelerate final proposal revisions."
+      "Delay acquisition planning until after solicitation",
+      "Skip documentation to accelerate award"
     ],
     "correctIndex": 1,
     "topic": "Contracting by Negotiation",
@@ -4892,9 +4892,9 @@
     "prompt": "In contract modifications scenario #189, what is the best contracting action?",
     "choices": [
       "Apply FAR 43 procedures with documented rationale",
-      "Direct the contractor to perform new scope first and negotiate pricing later.",
-      "Use unilateral administrative authority for substantive scope changes outside the contract.",
-      "Treat every change as within scope when mission urgency supports continuity."
+      "Skip documentation to accelerate award",
+      "Use sole-source automatically without justification",
+      "Delay acquisition planning until after solicitation"
     ],
     "correctIndex": 0,
     "topic": "Contract Modifications",
@@ -4917,9 +4917,9 @@
     "id": "Q190",
     "prompt": "In source selection scenario #190, what is the best contracting action?",
     "choices": [
-      "Adjust evaluation weights during discussions to align with evolving preferences.",
-      "Allow evaluators to rely on undocumented impressions instead of the source selection plan.",
-      "Limit tradeoff documentation to final ratings without comparing proposal strengths and risks.",
+      "Use sole-source automatically without justification",
+      "Skip documentation to accelerate award",
+      "Delay acquisition planning until after solicitation",
       "Apply FAR 15.3 procedures with documented rationale"
     ],
     "correctIndex": 3,
@@ -4944,9 +4944,9 @@
     "prompt": "In commercial items scenario #191, what is the best contracting action?",
     "choices": [
       "Apply FAR 12 procedures with documented rationale",
-      "Require noncommercial clauses by default without determining market customary practice.",
-      "Use commercial procedures while demanding unique government-only technical redesigns.",
-      "Skip market comparability analysis and rely solely on internal cost estimates."
+      "Use sole-source automatically without justification",
+      "Delay acquisition planning until after solicitation",
+      "Skip documentation to accelerate award"
     ],
     "correctIndex": 0,
     "topic": "Commercial Items",
@@ -4969,10 +4969,10 @@
     "id": "Q192",
     "prompt": "In contract types scenario #192, what is the best contracting action?",
     "choices": [
-      "Select firm-fixed-price when requirements remain unstable and technical risk is high.",
+      "Delay acquisition planning until after solicitation",
       "Apply FAR 16 procedures with documented rationale",
-      "Use cost-reimbursement without documenting adequate surveillance and accounting capability.",
-      "Choose contract type based on historical preference rather than current risk allocation."
+      "Skip documentation to accelerate award",
+      "Use sole-source automatically without justification"
     ],
     "correctIndex": 1,
     "topic": "Contract Types",
@@ -4995,10 +4995,10 @@
     "id": "Q193",
     "prompt": "In market research scenario #193, what is the best contracting action?",
     "choices": [
-      "Rely on prior contract files and skip current vendor outreach for this requirement.",
-      "Post the solicitation first, then document market research only if questions arise.",
+      "Use sole-source automatically without justification",
+      "Skip documentation to accelerate award",
       "Apply FAR 10 procedures with documented rationale",
-      "Adopt the incumbent's approach without validating current commercial capabilities."
+      "Delay acquisition planning until after solicitation"
     ],
     "correctIndex": 2,
     "topic": "Market Research",
@@ -5021,9 +5021,9 @@
     "id": "Q194",
     "prompt": "In competition scenario #194, what is the best contracting action?",
     "choices": [
-      "Restrict competition to known vendors before documenting a valid exclusion rationale.",
-      "Issue a brand-name requirement and complete the justification after award.",
-      "Prioritize schedule urgency and reduce competition without obtaining required approvals.",
+      "Skip documentation to accelerate award",
+      "Delay acquisition planning until after solicitation",
+      "Use sole-source automatically without justification",
       "Apply FAR 6 procedures with documented rationale"
     ],
     "correctIndex": 3,
@@ -5047,10 +5047,10 @@
     "id": "Q195",
     "prompt": "In simplified acquisition scenario #195, what is the best contracting action?",
     "choices": [
-      "Use simplified procedures above threshold limits because administrative speed is critical.",
-      "Solicit only one local source and document price reasonableness after award.",
+      "Skip documentation to accelerate award",
+      "Use sole-source automatically without justification",
       "Apply FAR 13 procedures with documented rationale",
-      "Combine unrelated needs into one buy to stay within a preferred buying method."
+      "Delay acquisition planning until after solicitation"
     ],
     "correctIndex": 2,
     "topic": "Simplified Acquisition",
@@ -5073,9 +5073,9 @@
     "id": "Q196",
     "prompt": "In contracting by negotiation scenario #196, what is the best contracting action?",
     "choices": [
-      "Begin negotiations before establishing evaluation factors and competitive range strategy.",
-      "Award on lowest price alone when tradeoff criteria were announced in the solicitation.",
-      "Disclose one offeror's pricing details to accelerate final proposal revisions.",
+      "Use sole-source automatically without justification",
+      "Skip documentation to accelerate award",
+      "Delay acquisition planning until after solicitation",
       "Apply FAR 15 procedures with documented rationale"
     ],
     "correctIndex": 3,
@@ -5099,9 +5099,9 @@
     "id": "Q197",
     "prompt": "In contract modifications scenario #197, what is the best contracting action?",
     "choices": [
-      "Direct the contractor to perform new scope first and negotiate pricing later.",
-      "Use unilateral administrative authority for substantive scope changes outside the contract.",
-      "Treat every change as within scope when mission urgency supports continuity.",
+      "Skip documentation to accelerate award",
+      "Use sole-source automatically without justification",
+      "Delay acquisition planning until after solicitation",
       "Apply FAR 43 procedures with documented rationale"
     ],
     "correctIndex": 3,
@@ -5125,9 +5125,9 @@
     "id": "Q198",
     "prompt": "In source selection scenario #198, what is the best contracting action?",
     "choices": [
-      "Adjust evaluation weights during discussions to align with evolving preferences.",
-      "Allow evaluators to rely on undocumented impressions instead of the source selection plan.",
-      "Limit tradeoff documentation to final ratings without comparing proposal strengths and risks.",
+      "Delay acquisition planning until after solicitation",
+      "Skip documentation to accelerate award",
+      "Use sole-source automatically without justification",
       "Apply FAR 15.3 procedures with documented rationale"
     ],
     "correctIndex": 3,
@@ -5152,9 +5152,9 @@
     "prompt": "In commercial items scenario #199, what is the best contracting action?",
     "choices": [
       "Apply FAR 12 procedures with documented rationale",
-      "Require noncommercial clauses by default without determining market customary practice.",
-      "Use commercial procedures while demanding unique government-only technical redesigns.",
-      "Skip market comparability analysis and rely solely on internal cost estimates."
+      "Skip documentation to accelerate award",
+      "Delay acquisition planning until after solicitation",
+      "Use sole-source automatically without justification"
     ],
     "correctIndex": 0,
     "topic": "Commercial Items",
@@ -5177,9 +5177,9 @@
     "id": "Q200",
     "prompt": "In contract types scenario #200, what is the best contracting action?",
     "choices": [
-      "Select firm-fixed-price when requirements remain unstable and technical risk is high.",
-      "Use cost-reimbursement without documenting adequate surveillance and accounting capability.",
-      "Choose contract type based on historical preference rather than current risk allocation.",
+      "Skip documentation to accelerate award",
+      "Use sole-source automatically without justification",
+      "Delay acquisition planning until after solicitation",
       "Apply FAR 16 procedures with documented rationale"
     ],
     "correctIndex": 3,
