@@ -3,7 +3,9 @@ export const storageKeys = {
   bookmarks: 'b2b_bookmarks_v1',
   attempts: 'b2b_attempts_v1',
   flagged: 'b2b_flagged_v1',
-  settings: 'b2b_settings_v1'
+  settings: 'b2b_settings_v1',
+  scenarioPracticeProgress: 'b2b_scenario_practice_progress_v1',
+  scenarioLearnProgress: 'b2b_scenario_learn_progress_v1'
 } as const;
 
 export function loadJson<T>(key: string, fallback: T): T {
