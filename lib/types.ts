@@ -18,7 +18,10 @@ export type Question = {
     whyCorrect: string;
     whyWrong: { choiceLabel: string; reason: string }[];
     fieldTip: string;
-    rfoUpdate?: string;
+    rfoUpdate?: {
+      summary: string;
+      links: { label: string; url: string }[];
+    };
   };
   explanation: {
     whyCorrect: string;

@@ -1,12 +1,12 @@
 [
   {
     "id": "q001",
-    "stem": "Before finalizing an acquisition strategy, the team must confirm available sources, capabilities, and market conditions for the requirement. What is the best contracting action?",
+    "stem": "Market research is conducted during which phase of acquisition?",
     "choices": [
-      "Reuse prior-year vendor assumptions without validating current market capability or pricing conditions.",
-      "Document current market research findings under FAR Part 10 before finalizing the acquisition approach.",
-      "Issue the solicitation first and collect market research documentation only if protest risk increases.",
-      "Limit outreach to the incumbent because continuity concerns outweigh pre-award market analysis."
+      "When requirements are being developed",
+      "All phases of the acquisition",
+      "After award to ensure that a contractor's product or service is sufficient",
+      "During negotiations to ensure that a contractor's proposal is fair and reasonable"
     ],
     "correctIndex": 1,
     "topic": "Market Research",
@@ -32,40 +32,48 @@
         ],
         "rfo": [
           {
-            "cite": "FAR Overhaul Initiative",
-            "title": "RFO/FAR Overhaul Resource Hub",
+            "cite": "FAR Overhaul",
+            "title": "Acquisition.gov FAR Overhaul",
             "url": "https://www.acquisition.gov/far-overhaul"
           }
         ]
       },
-      "whatThisTests": "Q001 tests whether you can apply FAR Part 10 to the decision point in the stem without skipping compliance steps.",
+      "whatThisTests": "Understanding the specific rule and decision standard tested in FAR Part 10 for this basic contracting question.",
       "decisionSteps": [
-        "Start with FAR Part 10 and identify the exact decision trigger in the stem.",
-        "Discard options that postpone required documentation, approvals, or determinations until after award/action.",
-        "Select the option that keeps legal sufficiency and mission speed in balance."
+        "Identify the exact rule being tested in the stem.",
+        "Anchor your decision in FAR Part 10 and the cited section.",
+        "Eliminate options that overstate authority, use the wrong phase, or misstate policy scope."
       ],
-      "whyCorrect": "The keyed answer is correct because it follows FAR Part 10 in the right sequence and preserves an auditable file for the contracting officer.",
+      "whyCorrect": "The correct answer matches the policy direction in FAR Part 10 and fits both the definition and application context in the question.",
       "whyWrong": [
         {
           "choiceLabel": "A",
-          "reason": "Choice A is attractive because it appears to save time, but it fails this question's control point: documenting the governing authority before action."
+          "reason": "When requirements are being developed is incorrect here because it conflicts with the governing rule timing, authority, or scope under FAR Part 10."
         },
         {
           "choiceLabel": "C",
-          "reason": "Choice C is attractive because it appears to save time, but it fails this question's control point: using the correct approval/justification timing."
+          "reason": "After award to ensure that a contractor's product or service is sufficient is incorrect here because it conflicts with the governing rule timing, authority, or scope under FAR Part 10."
         },
         {
           "choiceLabel": "D",
-          "reason": "Choice D is attractive because it appears to save time, but it fails this question's control point: matching method and authority to the acquisition phase."
+          "reason": "During negotiations to ensure that a contractor's proposal is fair and reasonable is incorrect here because it conflicts with the governing rule timing, authority, or scope under FAR Part 10."
         }
       ],
-      "fieldTip": "In live filework, write a one-line rationale tied to FAR 10.001 before routing for signature; it prevents avoidable rework.",
-      "rfoUpdate": "FAR Overhaul is reorganizing presentation, but the decision logic here remains anchored to FAR Part 10."
+      "fieldTip": "When reviewing test items, tie each option to the actual FAR text and ask whether the action is authorized at that point in the process.",
+      "rfoUpdate": {
+        "summary": "No policy conflict for this item under current FAR overhaul framing; use FAR text as primary authority.",
+        "links": [
+          {
+            "label": "FAR Overhaul",
+            "url": "https://www.acquisition.gov/far-overhaul"
+          }
+        ]
+      }
     },
     "explanation": {
-      "whyCorrect": "The keyed answer is correct because it follows FAR Part 10 in the right sequence and preserves an auditable file for the contracting officer.",
-      "keyTakeaway": "Use FAR Part 10 as your primary anchor, then confirm timing and authority.",
-      "commonTrap": "The trap is usually a convenient shortcut that sounds efficient but misses a required pre-action control."
+      "whyCorrect": "The correct answer matches the policy direction in FAR Part 10 and fits both the definition and application context in the question.",
+      "keyTakeaway": "Use FAR Part 10 and FAR 10.001 as your primary anchors for this decision.",
+      "commonTrap": "A distractor often sounds practical but applies the wrong authority, phase, or scope."
     },
     "farRefs": [
       "FAR 10"
@@ -73,14 +81,14 @@
   },
   {
     "id": "q002",
-    "stem": "An acquisition plan is being drafted and the team must decide how to satisfy competition requirements before award decisions are made. What is the best contracting action?",
+    "stem": "What is the use of a procedure that is inconsistent with the FAR?",
     "choices": [
-      "Restrict sources to known contractors first and justify limiting competition after proposal receipt.",
-      "Use urgency as a default basis to narrow competition without preparing the required approval package.",
-      "Adopt a brand-name-only strategy immediately and defer the justification until contract administration.",
-      "Promote full and open competition and document any authorized exception before award under FAR Part 6."
+      "Extraordinary action",
+      "Exception",
+      "Deviation",
+      "Abnormal action"
     ],
-    "correctIndex": 3,
+    "correctIndex": 2,
     "topic": "Competition",
     "session": "Session 1",
     "tags": [
@@ -91,53 +99,61 @@
     "explanationRich": {
       "farRefs": {
         "part": {
-          "cite": "FAR Part 6",
-          "title": "Competition Requirements",
-          "url": "https://www.acquisition.gov/far/part-6"
+          "cite": "FAR Part 1",
+          "title": "Federal Acquisition Regulations System",
+          "url": "https://www.acquisition.gov/far/part-1"
         },
         "sections": [
           {
-            "cite": "FAR 6.101",
-            "title": "Policy",
-            "url": "https://www.acquisition.gov/far/6.101"
+            "cite": "FAR 1.401",
+            "title": "Deviations from the FAR",
+            "url": "https://www.acquisition.gov/far/1.401"
           }
         ],
         "rfo": [
           {
-            "cite": "FAR Overhaul Initiative",
-            "title": "RFO/FAR Overhaul Resource Hub",
+            "cite": "FAR Overhaul",
+            "title": "Acquisition.gov FAR Overhaul",
             "url": "https://www.acquisition.gov/far-overhaul"
           }
         ]
       },
-      "whatThisTests": "Q002 tests whether you can apply FAR Part 6 to the decision point in the stem without skipping compliance steps.",
+      "whatThisTests": "Understanding the specific rule and decision standard tested in FAR Part 1 for this basic contracting question.",
       "decisionSteps": [
-        "Start with FAR Part 6 and identify the exact decision trigger in the stem.",
-        "Discard options that postpone required documentation, approvals, or determinations until after award/action.",
-        "Select the option that keeps legal sufficiency and mission speed in balance."
+        "Identify the exact rule being tested in the stem.",
+        "Anchor your decision in FAR Part 1 and the cited section.",
+        "Eliminate options that overstate authority, use the wrong phase, or misstate policy scope."
       ],
-      "whyCorrect": "The keyed answer is correct because it follows FAR Part 6 in the right sequence and preserves an auditable file for the contracting officer.",
+      "whyCorrect": "The correct answer matches the policy direction in FAR Part 1 and fits both the definition and application context in the question.",
       "whyWrong": [
         {
           "choiceLabel": "A",
-          "reason": "Choice A is attractive because it appears to save time, but it fails this question's control point: documenting the governing authority before action."
+          "reason": "Extraordinary action is incorrect here because it conflicts with the governing rule timing, authority, or scope under FAR Part 1."
         },
         {
           "choiceLabel": "B",
-          "reason": "Choice B is attractive because it appears to save time, but it fails this question's control point: using the correct approval/justification timing."
+          "reason": "Exception is incorrect here because it conflicts with the governing rule timing, authority, or scope under FAR Part 1."
         },
         {
-          "choiceLabel": "C",
-          "reason": "Choice C is attractive because it appears to save time, but it fails this question's control point: matching method and authority to the acquisition phase."
+          "choiceLabel": "D",
+          "reason": "Abnormal action is incorrect here because it conflicts with the governing rule timing, authority, or scope under FAR Part 1."
         }
       ],
-      "fieldTip": "In live filework, write a one-line rationale tied to FAR 6.101 before routing for signature; it prevents avoidable rework.",
-      "rfoUpdate": "FAR Overhaul is reorganizing presentation, but the decision logic here remains anchored to FAR Part 6."
+      "fieldTip": "When reviewing test items, tie each option to the actual FAR text and ask whether the action is authorized at that point in the process.",
+      "rfoUpdate": {
+        "summary": "No policy conflict for this item under current FAR overhaul framing; use FAR text as primary authority.",
+        "links": [
+          {
+            "label": "FAR Overhaul",
+            "url": "https://www.acquisition.gov/far-overhaul"
+          }
+        ]
+      }
     },
     "explanation": {
-      "whyCorrect": "The keyed answer is correct because it follows FAR Part 6 in the right sequence and preserves an auditable file for the contracting officer.",
-      "keyTakeaway": "Use FAR Part 6 as your primary anchor, then confirm timing and authority.",
-      "commonTrap": "The trap is usually a convenient shortcut that sounds efficient but misses a required pre-action control."
+      "whyCorrect": "The correct answer matches the policy direction in FAR Part 1 and fits both the definition and application context in the question.",
+      "keyTakeaway": "Use FAR Part 1 and FAR 1.401 as your primary anchors for this decision.",
+      "commonTrap": "A distractor often sounds practical but applies the wrong authority, phase, or scope."
     },
     "farRefs": [
       "FAR 6"
@@ -145,14 +161,14 @@
   },
   {
     "id": "q003",
-    "stem": "A buyer is preparing a lower-dollar procurement and must determine how to apply simplified acquisition procedures correctly. What is the best contracting action?",
+    "stem": "Simplified Acquisition Procedures (SAP) should:",
     "choices": [
-      "Use simplified procedures above applicable thresholds when mission timelines are compressed.",
-      "Use FAR Part 13 thresholds, solicitation methods, and documentation requirements before award.",
-      "Solicit one vendor and complete price reasonableness documentation after performance starts.",
-      "Bundle unrelated requirements solely to keep the buy inside a preferred simplified path."
+      "Promote competition to the maximum extent practicable",
+      "Consider all quotations or offers, regardless of the time they are received, if they are the most reasonable",
+      "Promote the use of current vendors for time-saving purposes",
+      "Equally consider all businesses, large or small"
     ],
-    "correctIndex": 1,
+    "correctIndex": 0,
     "topic": "Simplified Acquisition",
     "session": "Session 2",
     "tags": [
@@ -169,47 +185,55 @@
         },
         "sections": [
           {
-            "cite": "FAR 13.003",
-            "title": "Policy",
-            "url": "https://www.acquisition.gov/far/13.003"
+            "cite": "FAR 13.104",
+            "title": "Promoting competition",
+            "url": "https://www.acquisition.gov/far/13.104"
           }
         ],
         "rfo": [
           {
-            "cite": "FAR Overhaul Initiative",
-            "title": "RFO/FAR Overhaul Resource Hub",
+            "cite": "FAR Overhaul",
+            "title": "Acquisition.gov FAR Overhaul",
             "url": "https://www.acquisition.gov/far-overhaul"
           }
         ]
       },
-      "whatThisTests": "Q003 tests whether you can apply FAR Part 13 to the decision point in the stem without skipping compliance steps.",
+      "whatThisTests": "Understanding the specific rule and decision standard tested in FAR Part 13 for this basic contracting question.",
       "decisionSteps": [
-        "Start with FAR Part 13 and identify the exact decision trigger in the stem.",
-        "Discard options that postpone required documentation, approvals, or determinations until after award/action.",
-        "Select the option that keeps legal sufficiency and mission speed in balance."
+        "Identify the exact rule being tested in the stem.",
+        "Anchor your decision in FAR Part 13 and the cited section.",
+        "Eliminate options that overstate authority, use the wrong phase, or misstate policy scope."
       ],
-      "whyCorrect": "The keyed answer is correct because it follows FAR Part 13 in the right sequence and preserves an auditable file for the contracting officer.",
+      "whyCorrect": "The correct answer matches the policy direction in FAR Part 13 and fits both the definition and application context in the question.",
       "whyWrong": [
         {
-          "choiceLabel": "A",
-          "reason": "Choice A is attractive because it appears to save time, but it fails this question's control point: documenting the governing authority before action."
+          "choiceLabel": "B",
+          "reason": "Consider all quotations or offers, regardless of the time they are received, if they are the most reasonable is incorrect here because it conflicts with the governing rule timing, authority, or scope under FAR Part 13."
         },
         {
           "choiceLabel": "C",
-          "reason": "Choice C is attractive because it appears to save time, but it fails this question's control point: using the correct approval/justification timing."
+          "reason": "Promote the use of current vendors for time-saving purposes is incorrect here because it conflicts with the governing rule timing, authority, or scope under FAR Part 13."
         },
         {
           "choiceLabel": "D",
-          "reason": "Choice D is attractive because it appears to save time, but it fails this question's control point: matching method and authority to the acquisition phase."
+          "reason": "Equally consider all businesses, large or small is incorrect here because it conflicts with the governing rule timing, authority, or scope under FAR Part 13."
         }
       ],
-      "fieldTip": "In live filework, write a one-line rationale tied to FAR 13.003 before routing for signature; it prevents avoidable rework.",
-      "rfoUpdate": "FAR Overhaul is reorganizing presentation, but the decision logic here remains anchored to FAR Part 13."
+      "fieldTip": "When reviewing test items, tie each option to the actual FAR text and ask whether the action is authorized at that point in the process.",
+      "rfoUpdate": {
+        "summary": "No policy conflict for this item under current FAR overhaul framing; use FAR text as primary authority.",
+        "links": [
+          {
+            "label": "FAR Overhaul",
+            "url": "https://www.acquisition.gov/far-overhaul"
+          }
+        ]
+      }
     },
     "explanation": {
-      "whyCorrect": "The keyed answer is correct because it follows FAR Part 13 in the right sequence and preserves an auditable file for the contracting officer.",
-      "keyTakeaway": "Use FAR Part 13 as your primary anchor, then confirm timing and authority.",
-      "commonTrap": "The trap is usually a convenient shortcut that sounds efficient but misses a required pre-action control."
+      "whyCorrect": "The correct answer matches the policy direction in FAR Part 13 and fits both the definition and application context in the question.",
+      "keyTakeaway": "Use FAR Part 13 and FAR 13.104 as your primary anchors for this decision.",
+      "commonTrap": "A distractor often sounds practical but applies the wrong authority, phase, or scope."
     },
     "farRefs": [
       "FAR 13"
@@ -217,14 +241,14 @@
   },
   {
     "id": "q004",
-    "stem": "The contracting office is running a negotiated procurement and must follow evaluation and discussion rules for a defensible award. What is the best contracting action?",
+    "stem": "What is the tool (form) used by DoD to apply a structured profit/fee?",
     "choices": [
-      "Begin discussions before finalizing evaluation factors and competitive-range documentation.",
-      "Establish and follow FAR Part 15 evaluation, discussion, and award documentation procedures.",
-      "Select the lowest-priced offer without documenting how non-price factors were applied.",
-      "Share one offeror’s pricing position with another to accelerate final proposal revisions."
+      "DD Form 1202, Guidelines for Profit Method",
+      "DD Form 1701, Structured Analogy Method",
+      "DD Form 1547, Weighted Guidelines Method",
+      "DD Form 1861, Weighted Profit Analogy"
     ],
-    "correctIndex": 1,
+    "correctIndex": 2,
     "topic": "Contracting by Negotiation",
     "session": "Session 3",
     "tags": [
@@ -241,47 +265,55 @@
         },
         "sections": [
           {
-            "cite": "FAR 15.306",
-            "title": "Exchanges with Offerors",
-            "url": "https://www.acquisition.gov/far/15.306"
+            "cite": "FAR 15.404-4",
+            "title": "Profit",
+            "url": "https://www.acquisition.gov/far/15.404-4"
           }
         ],
         "rfo": [
           {
-            "cite": "FAR Overhaul Initiative",
-            "title": "RFO/FAR Overhaul Resource Hub",
+            "cite": "FAR Overhaul",
+            "title": "Acquisition.gov FAR Overhaul",
             "url": "https://www.acquisition.gov/far-overhaul"
           }
         ]
       },
-      "whatThisTests": "Q004 tests whether you can apply FAR Part 15 to the decision point in the stem without skipping compliance steps.",
+      "whatThisTests": "Understanding the specific rule and decision standard tested in FAR Part 15 for this basic contracting question.",
       "decisionSteps": [
-        "Start with FAR Part 15 and identify the exact decision trigger in the stem.",
-        "Discard options that postpone required documentation, approvals, or determinations until after award/action.",
-        "Select the option that keeps legal sufficiency and mission speed in balance."
+        "Identify the exact rule being tested in the stem.",
+        "Anchor your decision in FAR Part 15 and the cited section.",
+        "Eliminate options that overstate authority, use the wrong phase, or misstate policy scope."
       ],
-      "whyCorrect": "The keyed answer is correct because it follows FAR Part 15 in the right sequence and preserves an auditable file for the contracting officer.",
+      "whyCorrect": "The correct answer matches the policy direction in FAR Part 15 and fits both the definition and application context in the question.",
       "whyWrong": [
         {
           "choiceLabel": "A",
-          "reason": "Choice A is attractive because it appears to save time, but it fails this question's control point: documenting the governing authority before action."
+          "reason": "DD Form 1202, Guidelines for Profit Method is incorrect here because it conflicts with the governing rule timing, authority, or scope under FAR Part 15."
         },
         {
-          "choiceLabel": "C",
-          "reason": "Choice C is attractive because it appears to save time, but it fails this question's control point: using the correct approval/justification timing."
+          "choiceLabel": "B",
+          "reason": "DD Form 1701, Structured Analogy Method is incorrect here because it conflicts with the governing rule timing, authority, or scope under FAR Part 15."
         },
         {
           "choiceLabel": "D",
-          "reason": "Choice D is attractive because it appears to save time, but it fails this question's control point: matching method and authority to the acquisition phase."
+          "reason": "DD Form 1861, Weighted Profit Analogy is incorrect here because it conflicts with the governing rule timing, authority, or scope under FAR Part 15."
         }
       ],
-      "fieldTip": "In live filework, write a one-line rationale tied to FAR 15.306 before routing for signature; it prevents avoidable rework.",
-      "rfoUpdate": "FAR Overhaul is reorganizing presentation, but the decision logic here remains anchored to FAR Part 15."
+      "fieldTip": "When reviewing test items, tie each option to the actual FAR text and ask whether the action is authorized at that point in the process.",
+      "rfoUpdate": {
+        "summary": "No policy conflict for this item under current FAR overhaul framing; use FAR text as primary authority.",
+        "links": [
+          {
+            "label": "FAR Overhaul",
+            "url": "https://www.acquisition.gov/far-overhaul"
+          }
+        ]
+      }
     },
     "explanation": {
-      "whyCorrect": "The keyed answer is correct because it follows FAR Part 15 in the right sequence and preserves an auditable file for the contracting officer.",
-      "keyTakeaway": "Use FAR Part 15 as your primary anchor, then confirm timing and authority.",
-      "commonTrap": "The trap is usually a convenient shortcut that sounds efficient but misses a required pre-action control."
+      "whyCorrect": "The correct answer matches the policy direction in FAR Part 15 and fits both the definition and application context in the question.",
+      "keyTakeaway": "Use FAR Part 15 and FAR 15.404-4 as your primary anchors for this decision.",
+      "commonTrap": "A distractor often sounds practical but applies the wrong authority, phase, or scope."
     },
     "farRefs": [
       "FAR 15"
@@ -289,12 +321,12 @@
   },
   {
     "id": "q005",
-    "stem": "Post-award changes are being requested and the contracting team must choose the correct modification approach and authority. What is the best contracting action?",
+    "stem": "What type(s) of contracts can be awarded when acquiring commercial items of supply?",
     "choices": [
-      "Use FAR Part 43 modification authority and document scope, funding, and pricing before directing work.",
-      "Direct out-of-scope work first and negotiate the modification terms after contractor performance begins.",
-      "Use unilateral administrative-change authority for substantive scope expansion without bilateral agreement.",
-      "Treat all post-award changes as in-scope whenever schedule urgency is mission critical."
+      "Only firm-fixed-price contracts or fixed-price contracts with economic price adjustment",
+      "Any contract type that does not have an incentive",
+      "Any fixed-price contract type",
+      "Any type or combination of types as determined necessary by the contracting officer"
     ],
     "correctIndex": 0,
     "topic": "Contract Modifications",
@@ -307,53 +339,61 @@
     "explanationRich": {
       "farRefs": {
         "part": {
-          "cite": "FAR Part 43",
-          "title": "Contract Modifications",
-          "url": "https://www.acquisition.gov/far/part-43"
+          "cite": "FAR Part 12",
+          "title": "Commercial Products and Services",
+          "url": "https://www.acquisition.gov/far/part-12"
         },
         "sections": [
           {
-            "cite": "FAR 43.102",
-            "title": "Policy",
-            "url": "https://www.acquisition.gov/far/43.102"
+            "cite": "FAR 12.207",
+            "title": "Contract type",
+            "url": "https://www.acquisition.gov/far/12.207"
           }
         ],
         "rfo": [
           {
-            "cite": "FAR Overhaul Initiative",
-            "title": "RFO/FAR Overhaul Resource Hub",
+            "cite": "FAR Overhaul",
+            "title": "Acquisition.gov FAR Overhaul",
             "url": "https://www.acquisition.gov/far-overhaul"
           }
         ]
       },
-      "whatThisTests": "Q005 tests whether you can apply FAR Part 43 to the decision point in the stem without skipping compliance steps.",
+      "whatThisTests": "Understanding the specific rule and decision standard tested in FAR Part 12 for this basic contracting question.",
       "decisionSteps": [
-        "Start with FAR Part 43 and identify the exact decision trigger in the stem.",
-        "Discard options that postpone required documentation, approvals, or determinations until after award/action.",
-        "Select the option that keeps legal sufficiency and mission speed in balance."
+        "Identify the exact rule being tested in the stem.",
+        "Anchor your decision in FAR Part 12 and the cited section.",
+        "Eliminate options that overstate authority, use the wrong phase, or misstate policy scope."
       ],
-      "whyCorrect": "The keyed answer is correct because it follows FAR Part 43 in the right sequence and preserves an auditable file for the contracting officer.",
+      "whyCorrect": "The correct answer matches the policy direction in FAR Part 12 and fits both the definition and application context in the question.",
       "whyWrong": [
         {
           "choiceLabel": "B",
-          "reason": "Choice B is attractive because it appears to save time, but it fails this question's control point: documenting the governing authority before action."
+          "reason": "Any contract type that does not have an incentive is incorrect here because it conflicts with the governing rule timing, authority, or scope under FAR Part 12."
         },
         {
           "choiceLabel": "C",
-          "reason": "Choice C is attractive because it appears to save time, but it fails this question's control point: using the correct approval/justification timing."
+          "reason": "Any fixed-price contract type is incorrect here because it conflicts with the governing rule timing, authority, or scope under FAR Part 12."
         },
         {
           "choiceLabel": "D",
-          "reason": "Choice D is attractive because it appears to save time, but it fails this question's control point: matching method and authority to the acquisition phase."
+          "reason": "Any type or combination of types as determined necessary by the contracting officer is incorrect here because it conflicts with the governing rule timing, authority, or scope under FAR Part 12."
         }
       ],
-      "fieldTip": "In live filework, write a one-line rationale tied to FAR 43.102 before routing for signature; it prevents avoidable rework.",
-      "rfoUpdate": "FAR Overhaul is reorganizing presentation, but the decision logic here remains anchored to FAR Part 43."
+      "fieldTip": "When reviewing test items, tie each option to the actual FAR text and ask whether the action is authorized at that point in the process.",
+      "rfoUpdate": {
+        "summary": "No policy conflict for this item under current FAR overhaul framing; use FAR text as primary authority.",
+        "links": [
+          {
+            "label": "FAR Overhaul",
+            "url": "https://www.acquisition.gov/far-overhaul"
+          }
+        ]
+      }
     },
     "explanation": {
-      "whyCorrect": "The keyed answer is correct because it follows FAR Part 43 in the right sequence and preserves an auditable file for the contracting officer.",
-      "keyTakeaway": "Use FAR Part 43 as your primary anchor, then confirm timing and authority.",
-      "commonTrap": "The trap is usually a convenient shortcut that sounds efficient but misses a required pre-action control."
+      "whyCorrect": "The correct answer matches the policy direction in FAR Part 12 and fits both the definition and application context in the question.",
+      "keyTakeaway": "Use FAR Part 12 and FAR 12.207 as your primary anchors for this decision.",
+      "commonTrap": "A distractor often sounds practical but applies the wrong authority, phase, or scope."
     },
     "farRefs": [
       "FAR 43"
@@ -361,12 +401,12 @@
   },
   {
     "id": "q006",
-    "stem": "A source selection is underway and the record must support evaluation judgments and award rationale. What is the best contracting action?",
+    "stem": "When using invitations for bids (IFBs), what type(s) of contracts can be awarded?",
     "choices": [
-      "Adjust evaluation weighting during source selection to reflect evolving stakeholder preferences.",
-      "Rely on undocumented evaluator impressions instead of recording strengths, weaknesses, and risks.",
-      "Record only final ratings and omit narrative tradeoff analysis between leading proposals.",
-      "Document evaluation findings and tradeoff rationale consistent with FAR 15.3 before award."
+      "Any contract type that does not have an incentive",
+      "Any fixed-price contract type",
+      "Any type or combination of types as determined necessary by the contracting officer",
+      "Only firm-fixed-price contracts or fixed-price contracts with economic price adjustment"
     ],
     "correctIndex": 3,
     "topic": "Source Selection",
@@ -379,53 +419,61 @@
     "explanationRich": {
       "farRefs": {
         "part": {
-          "cite": "FAR 15.3",
-          "title": "Source Selection",
-          "url": "https://www.acquisition.gov/far/subpart-15.3"
+          "cite": "FAR Part 14",
+          "title": "Sealed Bidding",
+          "url": "https://www.acquisition.gov/far/part-14"
         },
         "sections": [
           {
-            "cite": "FAR 15.308",
-            "title": "Source Selection Decision",
-            "url": "https://www.acquisition.gov/far/15.308"
+            "cite": "FAR 14.103-1",
+            "title": "General",
+            "url": "https://www.acquisition.gov/far/14.103-1"
           }
         ],
         "rfo": [
           {
-            "cite": "FAR Overhaul Initiative",
-            "title": "RFO/FAR Overhaul Resource Hub",
+            "cite": "FAR Overhaul",
+            "title": "Acquisition.gov FAR Overhaul",
             "url": "https://www.acquisition.gov/far-overhaul"
           }
         ]
       },
-      "whatThisTests": "Q006 tests whether you can apply FAR 15.3 to the decision point in the stem without skipping compliance steps.",
+      "whatThisTests": "Understanding the specific rule and decision standard tested in FAR Part 14 for this basic contracting question.",
       "decisionSteps": [
-        "Start with FAR 15.3 and identify the exact decision trigger in the stem.",
-        "Discard options that postpone required documentation, approvals, or determinations until after award/action.",
-        "Select the option that keeps legal sufficiency and mission speed in balance."
+        "Identify the exact rule being tested in the stem.",
+        "Anchor your decision in FAR Part 14 and the cited section.",
+        "Eliminate options that overstate authority, use the wrong phase, or misstate policy scope."
       ],
-      "whyCorrect": "The keyed answer is correct because it follows FAR 15.3 in the right sequence and preserves an auditable file for the contracting officer.",
+      "whyCorrect": "The correct answer matches the policy direction in FAR Part 14 and fits both the definition and application context in the question.",
       "whyWrong": [
         {
           "choiceLabel": "A",
-          "reason": "Choice A is attractive because it appears to save time, but it fails this question's control point: documenting the governing authority before action."
+          "reason": "Any contract type that does not have an incentive is incorrect here because it conflicts with the governing rule timing, authority, or scope under FAR Part 14."
         },
         {
           "choiceLabel": "B",
-          "reason": "Choice B is attractive because it appears to save time, but it fails this question's control point: using the correct approval/justification timing."
+          "reason": "Any fixed-price contract type is incorrect here because it conflicts with the governing rule timing, authority, or scope under FAR Part 14."
         },
         {
           "choiceLabel": "C",
-          "reason": "Choice C is attractive because it appears to save time, but it fails this question's control point: matching method and authority to the acquisition phase."
+          "reason": "Any type or combination of types as determined necessary by the contracting officer is incorrect here because it conflicts with the governing rule timing, authority, or scope under FAR Part 14."
         }
       ],
-      "fieldTip": "In live filework, write a one-line rationale tied to FAR 15.308 before routing for signature; it prevents avoidable rework.",
-      "rfoUpdate": "FAR Overhaul is reorganizing presentation, but the decision logic here remains anchored to FAR 15.3."
+      "fieldTip": "When reviewing test items, tie each option to the actual FAR text and ask whether the action is authorized at that point in the process.",
+      "rfoUpdate": {
+        "summary": "No policy conflict for this item under current FAR overhaul framing; use FAR text as primary authority.",
+        "links": [
+          {
+            "label": "FAR Overhaul",
+            "url": "https://www.acquisition.gov/far-overhaul"
+          }
+        ]
+      }
     },
     "explanation": {
-      "whyCorrect": "The keyed answer is correct because it follows FAR 15.3 in the right sequence and preserves an auditable file for the contracting officer.",
-      "keyTakeaway": "Use FAR 15.3 as your primary anchor, then confirm timing and authority.",
-      "commonTrap": "The trap is usually a convenient shortcut that sounds efficient but misses a required pre-action control."
+      "whyCorrect": "The correct answer matches the policy direction in FAR Part 14 and fits both the definition and application context in the question.",
+      "keyTakeaway": "Use FAR Part 14 and FAR 14.103-1 as your primary anchors for this decision.",
+      "commonTrap": "A distractor often sounds practical but applies the wrong authority, phase, or scope."
     },
     "farRefs": [
       "FAR 15.3"
@@ -433,14 +481,14 @@
   },
   {
     "id": "q007",
-    "stem": "The team is deciding whether and how to use commercial-item procedures for a recurring requirement. What is the best contracting action?",
+    "stem": "Which of the following is correct regarding the DFARS Procedures, Guidance, and Information (PGI)?",
     "choices": [
-      "Apply government-unique clauses by default without checking customary commercial practice.",
-      "Use commercial-item procedures while requiring unique redesign elements not sold commercially.",
-      "Validate commercial-item applicability and apply FAR Part 12 procedures using market-based terms.",
-      "Rely only on internal cost estimates instead of market comparability for commercial pricing."
+      "There is no such thing as a DFARS PGI",
+      "The DFARS PGI is a companion resource to the DFARS",
+      "The DFARS PGI is not numbered similarly to the DFARS",
+      "The DFARS PGI is only used by DCMA and DCAA"
     ],
-    "correctIndex": 2,
+    "correctIndex": 1,
     "topic": "Commercial Items",
     "session": "Session 2",
     "tags": [
@@ -451,53 +499,61 @@
     "explanationRich": {
       "farRefs": {
         "part": {
-          "cite": "FAR Part 12",
-          "title": "Commercial Products and Services",
-          "url": "https://www.acquisition.gov/far/part-12"
+          "cite": "DFARS PGI",
+          "title": "Procedures, Guidance, and Information",
+          "url": "https://www.acquisition.gov/dfars"
         },
         "sections": [
           {
-            "cite": "FAR 12.102",
-            "title": "Applicability",
-            "url": "https://www.acquisition.gov/far/12.102"
+            "cite": "DFARS PGI 201",
+            "title": "Companion resource",
+            "url": "https://www.acquisition.gov/dfars/pgi"
           }
         ],
         "rfo": [
           {
-            "cite": "FAR Overhaul Initiative",
-            "title": "RFO/FAR Overhaul Resource Hub",
+            "cite": "FAR Overhaul",
+            "title": "Acquisition.gov FAR Overhaul",
             "url": "https://www.acquisition.gov/far-overhaul"
           }
         ]
       },
-      "whatThisTests": "Q007 tests whether you can apply FAR Part 12 to the decision point in the stem without skipping compliance steps.",
+      "whatThisTests": "Understanding the specific rule and decision standard tested in DFARS PGI for this basic contracting question.",
       "decisionSteps": [
-        "Start with FAR Part 12 and identify the exact decision trigger in the stem.",
-        "Discard options that postpone required documentation, approvals, or determinations until after award/action.",
-        "Select the option that keeps legal sufficiency and mission speed in balance."
+        "Identify the exact rule being tested in the stem.",
+        "Anchor your decision in DFARS PGI and the cited section.",
+        "Eliminate options that overstate authority, use the wrong phase, or misstate policy scope."
       ],
-      "whyCorrect": "The keyed answer is correct because it follows FAR Part 12 in the right sequence and preserves an auditable file for the contracting officer.",
+      "whyCorrect": "The correct answer matches the policy direction in DFARS PGI and fits both the definition and application context in the question.",
       "whyWrong": [
         {
           "choiceLabel": "A",
-          "reason": "Choice A is attractive because it appears to save time, but it fails this question's control point: documenting the governing authority before action."
+          "reason": "There is no such thing as a DFARS PGI is incorrect here because it conflicts with the governing rule timing, authority, or scope under DFARS PGI."
         },
         {
-          "choiceLabel": "B",
-          "reason": "Choice B is attractive because it appears to save time, but it fails this question's control point: using the correct approval/justification timing."
+          "choiceLabel": "C",
+          "reason": "The DFARS PGI is not numbered similarly to the DFARS is incorrect here because it conflicts with the governing rule timing, authority, or scope under DFARS PGI."
         },
         {
           "choiceLabel": "D",
-          "reason": "Choice D is attractive because it appears to save time, but it fails this question's control point: matching method and authority to the acquisition phase."
+          "reason": "The DFARS PGI is only used by DCMA and DCAA is incorrect here because it conflicts with the governing rule timing, authority, or scope under DFARS PGI."
         }
       ],
-      "fieldTip": "In live filework, write a one-line rationale tied to FAR 12.102 before routing for signature; it prevents avoidable rework.",
-      "rfoUpdate": "FAR Overhaul is reorganizing presentation, but the decision logic here remains anchored to FAR Part 12."
+      "fieldTip": "When reviewing test items, tie each option to the actual FAR text and ask whether the action is authorized at that point in the process.",
+      "rfoUpdate": {
+        "summary": "No policy conflict for this item under current FAR overhaul framing; use FAR text as primary authority.",
+        "links": [
+          {
+            "label": "FAR Overhaul",
+            "url": "https://www.acquisition.gov/far-overhaul"
+          }
+        ]
+      }
     },
     "explanation": {
-      "whyCorrect": "The keyed answer is correct because it follows FAR Part 12 in the right sequence and preserves an auditable file for the contracting officer.",
-      "keyTakeaway": "Use FAR Part 12 as your primary anchor, then confirm timing and authority.",
-      "commonTrap": "The trap is usually a convenient shortcut that sounds efficient but misses a required pre-action control."
+      "whyCorrect": "The correct answer matches the policy direction in DFARS PGI and fits both the definition and application context in the question.",
+      "keyTakeaway": "Use DFARS PGI and DFARS PGI 201 as your primary anchors for this decision.",
+      "commonTrap": "A distractor often sounds practical but applies the wrong authority, phase, or scope."
     },
     "farRefs": [
       "FAR 12"
@@ -505,14 +561,14 @@
   },
   {
     "id": "q008",
-    "stem": "During acquisition planning, the team must select a contract type that appropriately allocates performance and cost risk. What is the best contracting action?",
+    "stem": "Which of the following statements is accurate regarding the Government's policy on contract modifications?",
     "choices": [
-      "Select the contract type under FAR Part 16 based on requirement uncertainty and risk allocation.",
-      "Choose firm-fixed-price for unstable requirements mainly to reduce administrative workload.",
-      "Use cost-reimbursement before confirming accounting adequacy and surveillance capability.",
-      "Reuse the prior contract type by default even when technical and cost risk changed materially."
+      "It is preferred that program managers sign modifications in lieu of the contracting officer",
+      "Any contract specialist can direct a contractor to perform work before the execution of the contract modification",
+      "A contracting officer representative is authorized to execute contract modifications on behalf of the Government",
+      "Only contracting officers acting within the scope of their authority are authorized to execute contract modifications on behalf of the Government"
     ],
-    "correctIndex": 0,
+    "correctIndex": 3,
     "topic": "Contract Types",
     "session": "Session 2",
     "tags": [
@@ -523,53 +579,61 @@
     "explanationRich": {
       "farRefs": {
         "part": {
-          "cite": "FAR Part 16",
-          "title": "Types of Contracts",
-          "url": "https://www.acquisition.gov/far/part-16"
+          "cite": "FAR Part 43",
+          "title": "Contract Modifications",
+          "url": "https://www.acquisition.gov/far/part-43"
         },
         "sections": [
           {
-            "cite": "FAR 16.103",
-            "title": "Negotiating Contract Type",
-            "url": "https://www.acquisition.gov/far/16.103"
+            "cite": "FAR 43.102",
+            "title": "Policy",
+            "url": "https://www.acquisition.gov/far/43.102"
           }
         ],
         "rfo": [
           {
-            "cite": "FAR Overhaul Initiative",
-            "title": "RFO/FAR Overhaul Resource Hub",
+            "cite": "FAR Overhaul",
+            "title": "Acquisition.gov FAR Overhaul",
             "url": "https://www.acquisition.gov/far-overhaul"
           }
         ]
       },
-      "whatThisTests": "Q008 tests whether you can apply FAR Part 16 to the decision point in the stem without skipping compliance steps.",
+      "whatThisTests": "Understanding the specific rule and decision standard tested in FAR Part 43 for this basic contracting question.",
       "decisionSteps": [
-        "Start with FAR Part 16 and identify the exact decision trigger in the stem.",
-        "Discard options that postpone required documentation, approvals, or determinations until after award/action.",
-        "Select the option that keeps legal sufficiency and mission speed in balance."
+        "Identify the exact rule being tested in the stem.",
+        "Anchor your decision in FAR Part 43 and the cited section.",
+        "Eliminate options that overstate authority, use the wrong phase, or misstate policy scope."
       ],
-      "whyCorrect": "The keyed answer is correct because it follows FAR Part 16 in the right sequence and preserves an auditable file for the contracting officer.",
+      "whyCorrect": "The correct answer matches the policy direction in FAR Part 43 and fits both the definition and application context in the question.",
       "whyWrong": [
         {
+          "choiceLabel": "A",
+          "reason": "It is preferred that program managers sign modifications in lieu of the contracting officer is incorrect here because it conflicts with the governing rule timing, authority, or scope under FAR Part 43."
+        },
+        {
           "choiceLabel": "B",
-          "reason": "Choice B is attractive because it appears to save time, but it fails this question's control point: documenting the governing authority before action."
+          "reason": "Any contract specialist can direct a contractor to perform work before the execution of the contract modification is incorrect here because it conflicts with the governing rule timing, authority, or scope under FAR Part 43."
         },
         {
           "choiceLabel": "C",
-          "reason": "Choice C is attractive because it appears to save time, but it fails this question's control point: using the correct approval/justification timing."
-        },
-        {
-          "choiceLabel": "D",
-          "reason": "Choice D is attractive because it appears to save time, but it fails this question's control point: matching method and authority to the acquisition phase."
+          "reason": "A contracting officer representative is authorized to execute contract modifications on behalf of the Government is incorrect here because it conflicts with the governing rule timing, authority, or scope under FAR Part 43."
         }
       ],
-      "fieldTip": "In live filework, write a one-line rationale tied to FAR 16.103 before routing for signature; it prevents avoidable rework.",
-      "rfoUpdate": "FAR Overhaul is reorganizing presentation, but the decision logic here remains anchored to FAR Part 16."
+      "fieldTip": "When reviewing test items, tie each option to the actual FAR text and ask whether the action is authorized at that point in the process.",
+      "rfoUpdate": {
+        "summary": "No policy conflict for this item under current FAR overhaul framing; use FAR text as primary authority.",
+        "links": [
+          {
+            "label": "FAR Overhaul",
+            "url": "https://www.acquisition.gov/far-overhaul"
+          }
+        ]
+      }
     },
     "explanation": {
-      "whyCorrect": "The keyed answer is correct because it follows FAR Part 16 in the right sequence and preserves an auditable file for the contracting officer.",
-      "keyTakeaway": "Use FAR Part 16 as your primary anchor, then confirm timing and authority.",
-      "commonTrap": "The trap is usually a convenient shortcut that sounds efficient but misses a required pre-action control."
+      "whyCorrect": "The correct answer matches the policy direction in FAR Part 43 and fits both the definition and application context in the question.",
+      "keyTakeaway": "Use FAR Part 43 and FAR 43.102 as your primary anchors for this decision.",
+      "commonTrap": "A distractor often sounds practical but applies the wrong authority, phase, or scope."
     },
     "farRefs": [
       "FAR 16"
@@ -577,12 +641,12 @@
   },
   {
     "id": "q009",
-    "stem": "Before finalizing an acquisition strategy, the team must confirm available sources, capabilities, and market conditions for the requirement. What is the best contracting action?",
+    "stem": "Which of the following is accurate about unilateral modifications?",
     "choices": [
-      "Document current market research findings under FAR Part 10 before finalizing the acquisition approach.",
-      "Reuse prior-year vendor assumptions without validating current market capability or pricing conditions.",
-      "Issue the solicitation first and collect market research documentation only if protest risk increases.",
-      "Limit outreach to the incumbent because continuity concerns outweigh pre-award market analysis."
+      "Are only signed by a Government contracting officer, not the contractor",
+      "Can be signed by the contract specialist",
+      "Are used to definitize contracts with price changes",
+      "Are used to add scope to a contract"
     ],
     "correctIndex": 0,
     "topic": "Market Research",
@@ -595,53 +659,61 @@
     "explanationRich": {
       "farRefs": {
         "part": {
-          "cite": "FAR Part 10",
-          "title": "Market Research",
-          "url": "https://www.acquisition.gov/far/part-10"
+          "cite": "FAR Part 43",
+          "title": "Contract Modifications",
+          "url": "https://www.acquisition.gov/far/part-43"
         },
         "sections": [
           {
-            "cite": "FAR 10.001",
-            "title": "Policy",
-            "url": "https://www.acquisition.gov/far/10.001"
+            "cite": "FAR 43.103",
+            "title": "Types of contract modifications",
+            "url": "https://www.acquisition.gov/far/43.103"
           }
         ],
         "rfo": [
           {
-            "cite": "FAR Overhaul Initiative",
-            "title": "RFO/FAR Overhaul Resource Hub",
+            "cite": "FAR Overhaul",
+            "title": "Acquisition.gov FAR Overhaul",
             "url": "https://www.acquisition.gov/far-overhaul"
           }
         ]
       },
-      "whatThisTests": "Q009 tests whether you can apply FAR Part 10 to the decision point in the stem without skipping compliance steps.",
+      "whatThisTests": "Understanding the specific rule and decision standard tested in FAR Part 43 for this basic contracting question.",
       "decisionSteps": [
-        "Start with FAR Part 10 and identify the exact decision trigger in the stem.",
-        "Discard options that postpone required documentation, approvals, or determinations until after award/action.",
-        "Select the option that keeps legal sufficiency and mission speed in balance."
+        "Identify the exact rule being tested in the stem.",
+        "Anchor your decision in FAR Part 43 and the cited section.",
+        "Eliminate options that overstate authority, use the wrong phase, or misstate policy scope."
       ],
-      "whyCorrect": "The keyed answer is correct because it follows FAR Part 10 in the right sequence and preserves an auditable file for the contracting officer.",
+      "whyCorrect": "The correct answer matches the policy direction in FAR Part 43 and fits both the definition and application context in the question.",
       "whyWrong": [
         {
           "choiceLabel": "B",
-          "reason": "Choice B is attractive because it appears to save time, but it fails this question's control point: documenting the governing authority before action."
+          "reason": "Can be signed by the contract specialist is incorrect here because it conflicts with the governing rule timing, authority, or scope under FAR Part 43."
         },
         {
           "choiceLabel": "C",
-          "reason": "Choice C is attractive because it appears to save time, but it fails this question's control point: using the correct approval/justification timing."
+          "reason": "Are used to definitize contracts with price changes is incorrect here because it conflicts with the governing rule timing, authority, or scope under FAR Part 43."
         },
         {
           "choiceLabel": "D",
-          "reason": "Choice D is attractive because it appears to save time, but it fails this question's control point: matching method and authority to the acquisition phase."
+          "reason": "Are used to add scope to a contract is incorrect here because it conflicts with the governing rule timing, authority, or scope under FAR Part 43."
         }
       ],
-      "fieldTip": "In live filework, write a one-line rationale tied to FAR 10.001 before routing for signature; it prevents avoidable rework.",
-      "rfoUpdate": "FAR Overhaul is reorganizing presentation, but the decision logic here remains anchored to FAR Part 10."
+      "fieldTip": "When reviewing test items, tie each option to the actual FAR text and ask whether the action is authorized at that point in the process.",
+      "rfoUpdate": {
+        "summary": "No policy conflict for this item under current FAR overhaul framing; use FAR text as primary authority.",
+        "links": [
+          {
+            "label": "FAR Overhaul",
+            "url": "https://www.acquisition.gov/far-overhaul"
+          }
+        ]
+      }
     },
     "explanation": {
-      "whyCorrect": "The keyed answer is correct because it follows FAR Part 10 in the right sequence and preserves an auditable file for the contracting officer.",
-      "keyTakeaway": "Use FAR Part 10 as your primary anchor, then confirm timing and authority.",
-      "commonTrap": "The trap is usually a convenient shortcut that sounds efficient but misses a required pre-action control."
+      "whyCorrect": "The correct answer matches the policy direction in FAR Part 43 and fits both the definition and application context in the question.",
+      "keyTakeaway": "Use FAR Part 43 and FAR 43.103 as your primary anchors for this decision.",
+      "commonTrap": "A distractor often sounds practical but applies the wrong authority, phase, or scope."
     },
     "farRefs": [
       "FAR 10"
@@ -649,14 +721,14 @@
   },
   {
     "id": "q010",
-    "stem": "An acquisition plan is being drafted and the team must decide how to satisfy competition requirements before award decisions are made. What is the best contracting action?",
+    "stem": "Except when authorized otherwise, a Government contract:",
     "choices": [
-      "Restrict sources to known contractors first and justify limiting competition after proposal receipt.",
-      "Use urgency as a default basis to narrow competition without preparing the required approval package.",
-      "Adopt a brand-name-only strategy immediately and defer the justification until contract administration.",
-      "Promote full and open competition and document any authorized exception before award under FAR Part 6."
+      "Need not be in writing",
+      "Must be in writing",
+      "Must be presented as a hard copy on paper",
+      "Must have oral confirmation"
     ],
-    "correctIndex": 3,
+    "correctIndex": 1,
     "topic": "Competition",
     "session": "Session 1",
     "tags": [
@@ -667,53 +739,61 @@
     "explanationRich": {
       "farRefs": {
         "part": {
-          "cite": "FAR Part 6",
-          "title": "Competition Requirements",
-          "url": "https://www.acquisition.gov/far/part-6"
+          "cite": "FAR Part 4",
+          "title": "Administrative Matters",
+          "url": "https://www.acquisition.gov/far/part-4"
         },
         "sections": [
           {
-            "cite": "FAR 6.101",
-            "title": "Policy",
-            "url": "https://www.acquisition.gov/far/6.101"
+            "cite": "FAR 4.101",
+            "title": "Contracting officer signature",
+            "url": "https://www.acquisition.gov/far/4.101"
           }
         ],
         "rfo": [
           {
-            "cite": "FAR Overhaul Initiative",
-            "title": "RFO/FAR Overhaul Resource Hub",
+            "cite": "FAR Overhaul",
+            "title": "Acquisition.gov FAR Overhaul",
             "url": "https://www.acquisition.gov/far-overhaul"
           }
         ]
       },
-      "whatThisTests": "Q010 tests whether you can apply FAR Part 6 to the decision point in the stem without skipping compliance steps.",
+      "whatThisTests": "Understanding the specific rule and decision standard tested in FAR Part 4 for this basic contracting question.",
       "decisionSteps": [
-        "Start with FAR Part 6 and identify the exact decision trigger in the stem.",
-        "Discard options that postpone required documentation, approvals, or determinations until after award/action.",
-        "Select the option that keeps legal sufficiency and mission speed in balance."
+        "Identify the exact rule being tested in the stem.",
+        "Anchor your decision in FAR Part 4 and the cited section.",
+        "Eliminate options that overstate authority, use the wrong phase, or misstate policy scope."
       ],
-      "whyCorrect": "The keyed answer is correct because it follows FAR Part 6 in the right sequence and preserves an auditable file for the contracting officer.",
+      "whyCorrect": "The correct answer matches the policy direction in FAR Part 4 and fits both the definition and application context in the question.",
       "whyWrong": [
         {
           "choiceLabel": "A",
-          "reason": "Choice A is attractive because it appears to save time, but it fails this question's control point: documenting the governing authority before action."
-        },
-        {
-          "choiceLabel": "B",
-          "reason": "Choice B is attractive because it appears to save time, but it fails this question's control point: using the correct approval/justification timing."
+          "reason": "Need not be in writing is incorrect here because it conflicts with the governing rule timing, authority, or scope under FAR Part 4."
         },
         {
           "choiceLabel": "C",
-          "reason": "Choice C is attractive because it appears to save time, but it fails this question's control point: matching method and authority to the acquisition phase."
+          "reason": "Must be presented as a hard copy on paper is incorrect here because it conflicts with the governing rule timing, authority, or scope under FAR Part 4."
+        },
+        {
+          "choiceLabel": "D",
+          "reason": "Must have oral confirmation is incorrect here because it conflicts with the governing rule timing, authority, or scope under FAR Part 4."
         }
       ],
-      "fieldTip": "In live filework, write a one-line rationale tied to FAR 6.101 before routing for signature; it prevents avoidable rework.",
-      "rfoUpdate": "FAR Overhaul is reorganizing presentation, but the decision logic here remains anchored to FAR Part 6."
+      "fieldTip": "When reviewing test items, tie each option to the actual FAR text and ask whether the action is authorized at that point in the process.",
+      "rfoUpdate": {
+        "summary": "No policy conflict for this item under current FAR overhaul framing; use FAR text as primary authority.",
+        "links": [
+          {
+            "label": "FAR Overhaul",
+            "url": "https://www.acquisition.gov/far-overhaul"
+          }
+        ]
+      }
     },
     "explanation": {
-      "whyCorrect": "The keyed answer is correct because it follows FAR Part 6 in the right sequence and preserves an auditable file for the contracting officer.",
-      "keyTakeaway": "Use FAR Part 6 as your primary anchor, then confirm timing and authority.",
-      "commonTrap": "The trap is usually a convenient shortcut that sounds efficient but misses a required pre-action control."
+      "whyCorrect": "The correct answer matches the policy direction in FAR Part 4 and fits both the definition and application context in the question.",
+      "keyTakeaway": "Use FAR Part 4 and FAR 4.101 as your primary anchors for this decision.",
+      "commonTrap": "A distractor often sounds practical but applies the wrong authority, phase, or scope."
     },
     "farRefs": [
       "FAR 6"
@@ -721,14 +801,14 @@
   },
   {
     "id": "q011",
-    "stem": "A buyer is preparing a lower-dollar procurement and must determine how to apply simplified acquisition procedures correctly. What is the best contracting action?",
+    "stem": "Which is NOT a type of contracting officer?",
     "choices": [
-      "Use FAR Part 13 thresholds, solicitation methods, and documentation requirements before award.",
-      "Use simplified procedures above applicable thresholds when mission timelines are compressed.",
-      "Solicit one vendor and complete price reasonableness documentation after performance starts.",
-      "Bundle unrelated requirements solely to keep the buy inside a preferred simplified path."
+      "Contracting officer",
+      "Administrative contracting officer",
+      "Terminating contracting officer",
+      "Executive contracting officer"
     ],
-    "correctIndex": 0,
+    "correctIndex": 3,
     "topic": "Simplified Acquisition",
     "session": "Session 2",
     "tags": [
@@ -739,53 +819,61 @@
     "explanationRich": {
       "farRefs": {
         "part": {
-          "cite": "FAR Part 13",
-          "title": "Simplified Acquisition Procedures",
-          "url": "https://www.acquisition.gov/far/part-13"
+          "cite": "FAR Part 2",
+          "title": "Definitions of Words and Terms",
+          "url": "https://www.acquisition.gov/far/part-2"
         },
         "sections": [
           {
-            "cite": "FAR 13.003",
-            "title": "Policy",
-            "url": "https://www.acquisition.gov/far/13.003"
+            "cite": "FAR 2.101",
+            "title": "Definitions",
+            "url": "https://www.acquisition.gov/far/2.101"
           }
         ],
         "rfo": [
           {
-            "cite": "FAR Overhaul Initiative",
-            "title": "RFO/FAR Overhaul Resource Hub",
+            "cite": "FAR Overhaul",
+            "title": "Acquisition.gov FAR Overhaul",
             "url": "https://www.acquisition.gov/far-overhaul"
           }
         ]
       },
-      "whatThisTests": "Q011 tests whether you can apply FAR Part 13 to the decision point in the stem without skipping compliance steps.",
+      "whatThisTests": "Understanding the specific rule and decision standard tested in FAR Part 2 for this basic contracting question.",
       "decisionSteps": [
-        "Start with FAR Part 13 and identify the exact decision trigger in the stem.",
-        "Discard options that postpone required documentation, approvals, or determinations until after award/action.",
-        "Select the option that keeps legal sufficiency and mission speed in balance."
+        "Identify the exact rule being tested in the stem.",
+        "Anchor your decision in FAR Part 2 and the cited section.",
+        "Eliminate options that overstate authority, use the wrong phase, or misstate policy scope."
       ],
-      "whyCorrect": "The keyed answer is correct because it follows FAR Part 13 in the right sequence and preserves an auditable file for the contracting officer.",
+      "whyCorrect": "The correct answer matches the policy direction in FAR Part 2 and fits both the definition and application context in the question.",
       "whyWrong": [
         {
+          "choiceLabel": "A",
+          "reason": "Contracting officer is incorrect here because it conflicts with the governing rule timing, authority, or scope under FAR Part 2."
+        },
+        {
           "choiceLabel": "B",
-          "reason": "Choice B is attractive because it appears to save time, but it fails this question's control point: documenting the governing authority before action."
+          "reason": "Administrative contracting officer is incorrect here because it conflicts with the governing rule timing, authority, or scope under FAR Part 2."
         },
         {
           "choiceLabel": "C",
-          "reason": "Choice C is attractive because it appears to save time, but it fails this question's control point: using the correct approval/justification timing."
-        },
-        {
-          "choiceLabel": "D",
-          "reason": "Choice D is attractive because it appears to save time, but it fails this question's control point: matching method and authority to the acquisition phase."
+          "reason": "Terminating contracting officer is incorrect here because it conflicts with the governing rule timing, authority, or scope under FAR Part 2."
         }
       ],
-      "fieldTip": "In live filework, write a one-line rationale tied to FAR 13.003 before routing for signature; it prevents avoidable rework.",
-      "rfoUpdate": "FAR Overhaul is reorganizing presentation, but the decision logic here remains anchored to FAR Part 13."
+      "fieldTip": "When reviewing test items, tie each option to the actual FAR text and ask whether the action is authorized at that point in the process.",
+      "rfoUpdate": {
+        "summary": "No policy conflict for this item under current FAR overhaul framing; use FAR text as primary authority.",
+        "links": [
+          {
+            "label": "FAR Overhaul",
+            "url": "https://www.acquisition.gov/far-overhaul"
+          }
+        ]
+      }
     },
     "explanation": {
-      "whyCorrect": "The keyed answer is correct because it follows FAR Part 13 in the right sequence and preserves an auditable file for the contracting officer.",
-      "keyTakeaway": "Use FAR Part 13 as your primary anchor, then confirm timing and authority.",
-      "commonTrap": "The trap is usually a convenient shortcut that sounds efficient but misses a required pre-action control."
+      "whyCorrect": "The correct answer matches the policy direction in FAR Part 2 and fits both the definition and application context in the question.",
+      "keyTakeaway": "Use FAR Part 2 and FAR 2.101 as your primary anchors for this decision.",
+      "commonTrap": "A distractor often sounds practical but applies the wrong authority, phase, or scope."
     },
     "farRefs": [
       "FAR 13"
@@ -793,14 +881,14 @@
   },
   {
     "id": "q012",
-    "stem": "The contracting office is running a negotiated procurement and must follow evaluation and discussion rules for a defensible award. What is the best contracting action?",
+    "stem": "With respect to the requirements of law, executive orders, regulations, and all other applicable procedures, prior to signing a contract, a contracting officer must:",
     "choices": [
-      "Establish and follow FAR Part 15 evaluation, discussion, and award documentation procedures.",
-      "Begin discussions before finalizing evaluation factors and competitive-range documentation.",
-      "Select the lowest-priced offer without documenting how non-price factors were applied.",
-      "Share one offeror’s pricing position with another to accelerate final proposal revisions."
+      "Document noncompliance",
+      "Ensure that each has been met",
+      "Obtain legal validation that each has been met",
+      "Ensure that all statutory requirements have been met and try to ensure all regulations or applicable procedures have been followed"
     ],
-    "correctIndex": 0,
+    "correctIndex": 1,
     "topic": "Contracting by Negotiation",
     "session": "Session 3",
     "tags": [
@@ -811,53 +899,61 @@
     "explanationRich": {
       "farRefs": {
         "part": {
-          "cite": "FAR Part 15",
-          "title": "Contracting by Negotiation",
-          "url": "https://www.acquisition.gov/far/part-15"
+          "cite": "FAR Part 1",
+          "title": "Federal Acquisition Regulations System",
+          "url": "https://www.acquisition.gov/far/part-1"
         },
         "sections": [
           {
-            "cite": "FAR 15.306",
-            "title": "Exchanges with Offerors",
-            "url": "https://www.acquisition.gov/far/15.306"
+            "cite": "FAR 1.602-1",
+            "title": "Authority",
+            "url": "https://www.acquisition.gov/far/1.602-1"
           }
         ],
         "rfo": [
           {
-            "cite": "FAR Overhaul Initiative",
-            "title": "RFO/FAR Overhaul Resource Hub",
+            "cite": "FAR Overhaul",
+            "title": "Acquisition.gov FAR Overhaul",
             "url": "https://www.acquisition.gov/far-overhaul"
           }
         ]
       },
-      "whatThisTests": "Q012 tests whether you can apply FAR Part 15 to the decision point in the stem without skipping compliance steps.",
+      "whatThisTests": "Understanding the specific rule and decision standard tested in FAR Part 1 for this basic contracting question.",
       "decisionSteps": [
-        "Start with FAR Part 15 and identify the exact decision trigger in the stem.",
-        "Discard options that postpone required documentation, approvals, or determinations until after award/action.",
-        "Select the option that keeps legal sufficiency and mission speed in balance."
+        "Identify the exact rule being tested in the stem.",
+        "Anchor your decision in FAR Part 1 and the cited section.",
+        "Eliminate options that overstate authority, use the wrong phase, or misstate policy scope."
       ],
-      "whyCorrect": "The keyed answer is correct because it follows FAR Part 15 in the right sequence and preserves an auditable file for the contracting officer.",
+      "whyCorrect": "The correct answer matches the policy direction in FAR Part 1 and fits both the definition and application context in the question.",
       "whyWrong": [
         {
-          "choiceLabel": "B",
-          "reason": "Choice B is attractive because it appears to save time, but it fails this question's control point: documenting the governing authority before action."
+          "choiceLabel": "A",
+          "reason": "Document noncompliance is incorrect here because it conflicts with the governing rule timing, authority, or scope under FAR Part 1."
         },
         {
           "choiceLabel": "C",
-          "reason": "Choice C is attractive because it appears to save time, but it fails this question's control point: using the correct approval/justification timing."
+          "reason": "Obtain legal validation that each has been met is incorrect here because it conflicts with the governing rule timing, authority, or scope under FAR Part 1."
         },
         {
           "choiceLabel": "D",
-          "reason": "Choice D is attractive because it appears to save time, but it fails this question's control point: matching method and authority to the acquisition phase."
+          "reason": "Ensure that all statutory requirements have been met and try to ensure all regulations or applicable procedures have been followed is incorrect here because it conflicts with the governing rule timing, authority, or scope under FAR Part 1."
         }
       ],
-      "fieldTip": "In live filework, write a one-line rationale tied to FAR 15.306 before routing for signature; it prevents avoidable rework.",
-      "rfoUpdate": "FAR Overhaul is reorganizing presentation, but the decision logic here remains anchored to FAR Part 15."
+      "fieldTip": "When reviewing test items, tie each option to the actual FAR text and ask whether the action is authorized at that point in the process.",
+      "rfoUpdate": {
+        "summary": "No policy conflict for this item under current FAR overhaul framing; use FAR text as primary authority.",
+        "links": [
+          {
+            "label": "FAR Overhaul",
+            "url": "https://www.acquisition.gov/far-overhaul"
+          }
+        ]
+      }
     },
     "explanation": {
-      "whyCorrect": "The keyed answer is correct because it follows FAR Part 15 in the right sequence and preserves an auditable file for the contracting officer.",
-      "keyTakeaway": "Use FAR Part 15 as your primary anchor, then confirm timing and authority.",
-      "commonTrap": "The trap is usually a convenient shortcut that sounds efficient but misses a required pre-action control."
+      "whyCorrect": "The correct answer matches the policy direction in FAR Part 1 and fits both the definition and application context in the question.",
+      "keyTakeaway": "Use FAR Part 1 and FAR 1.602-1 as your primary anchors for this decision.",
+      "commonTrap": "A distractor often sounds practical but applies the wrong authority, phase, or scope."
     },
     "farRefs": [
       "FAR 15"
@@ -865,14 +961,14 @@
   },
   {
     "id": "q013",
-    "stem": "Post-award changes are being requested and the contracting team must choose the correct modification approach and authority. What is the best contracting action?",
+    "stem": "Joan stated that she was working on selecting solicitation provisions. With this in mind, you know the contract:",
     "choices": [
-      "Direct out-of-scope work first and negotiate the modification terms after contractor performance begins.",
-      "Use FAR Part 43 modification authority and document scope, funding, and pricing before directing work.",
-      "Use unilateral administrative-change authority for substantive scope expansion without bilateral agreement.",
-      "Treat all post-award changes as in-scope whenever schedule urgency is mission critical."
+      "Is ready for closeout",
+      "Was recently awarded",
+      "Is nearing completion",
+      "Has not been awarded"
     ],
-    "correctIndex": 1,
+    "correctIndex": 3,
     "topic": "Contract Modifications",
     "session": "Session 4",
     "tags": [
@@ -883,53 +979,61 @@
     "explanationRich": {
       "farRefs": {
         "part": {
-          "cite": "FAR Part 43",
-          "title": "Contract Modifications",
-          "url": "https://www.acquisition.gov/far/part-43"
+          "cite": "FAR Part 52",
+          "title": "Solicitation Provisions and Contract Clauses",
+          "url": "https://www.acquisition.gov/far/part-52"
         },
         "sections": [
           {
-            "cite": "FAR 43.102",
-            "title": "Policy",
-            "url": "https://www.acquisition.gov/far/43.102"
+            "cite": "FAR 52.101",
+            "title": "Using part 52",
+            "url": "https://www.acquisition.gov/far/52.101"
           }
         ],
         "rfo": [
           {
-            "cite": "FAR Overhaul Initiative",
-            "title": "RFO/FAR Overhaul Resource Hub",
+            "cite": "FAR Overhaul",
+            "title": "Acquisition.gov FAR Overhaul",
             "url": "https://www.acquisition.gov/far-overhaul"
           }
         ]
       },
-      "whatThisTests": "Q013 tests whether you can apply FAR Part 43 to the decision point in the stem without skipping compliance steps.",
+      "whatThisTests": "Understanding the specific rule and decision standard tested in FAR Part 52 for this basic contracting question.",
       "decisionSteps": [
-        "Start with FAR Part 43 and identify the exact decision trigger in the stem.",
-        "Discard options that postpone required documentation, approvals, or determinations until after award/action.",
-        "Select the option that keeps legal sufficiency and mission speed in balance."
+        "Identify the exact rule being tested in the stem.",
+        "Anchor your decision in FAR Part 52 and the cited section.",
+        "Eliminate options that overstate authority, use the wrong phase, or misstate policy scope."
       ],
-      "whyCorrect": "The keyed answer is correct because it follows FAR Part 43 in the right sequence and preserves an auditable file for the contracting officer.",
+      "whyCorrect": "The correct answer matches the policy direction in FAR Part 52 and fits both the definition and application context in the question.",
       "whyWrong": [
         {
           "choiceLabel": "A",
-          "reason": "Choice A is attractive because it appears to save time, but it fails this question's control point: documenting the governing authority before action."
+          "reason": "Is ready for closeout is incorrect here because it conflicts with the governing rule timing, authority, or scope under FAR Part 52."
+        },
+        {
+          "choiceLabel": "B",
+          "reason": "Was recently awarded is incorrect here because it conflicts with the governing rule timing, authority, or scope under FAR Part 52."
         },
         {
           "choiceLabel": "C",
-          "reason": "Choice C is attractive because it appears to save time, but it fails this question's control point: using the correct approval/justification timing."
-        },
-        {
-          "choiceLabel": "D",
-          "reason": "Choice D is attractive because it appears to save time, but it fails this question's control point: matching method and authority to the acquisition phase."
+          "reason": "Is nearing completion is incorrect here because it conflicts with the governing rule timing, authority, or scope under FAR Part 52."
         }
       ],
-      "fieldTip": "In live filework, write a one-line rationale tied to FAR 43.102 before routing for signature; it prevents avoidable rework.",
-      "rfoUpdate": "FAR Overhaul is reorganizing presentation, but the decision logic here remains anchored to FAR Part 43."
+      "fieldTip": "When reviewing test items, tie each option to the actual FAR text and ask whether the action is authorized at that point in the process.",
+      "rfoUpdate": {
+        "summary": "No policy conflict for this item under current FAR overhaul framing; use FAR text as primary authority.",
+        "links": [
+          {
+            "label": "FAR Overhaul",
+            "url": "https://www.acquisition.gov/far-overhaul"
+          }
+        ]
+      }
     },
     "explanation": {
-      "whyCorrect": "The keyed answer is correct because it follows FAR Part 43 in the right sequence and preserves an auditable file for the contracting officer.",
-      "keyTakeaway": "Use FAR Part 43 as your primary anchor, then confirm timing and authority.",
-      "commonTrap": "The trap is usually a convenient shortcut that sounds efficient but misses a required pre-action control."
+      "whyCorrect": "The correct answer matches the policy direction in FAR Part 52 and fits both the definition and application context in the question.",
+      "keyTakeaway": "Use FAR Part 52 and FAR 52.101 as your primary anchors for this decision.",
+      "commonTrap": "A distractor often sounds practical but applies the wrong authority, phase, or scope."
     },
     "farRefs": [
       "FAR 43"
@@ -937,14 +1041,14 @@
   },
   {
     "id": "q014",
-    "stem": "A source selection is underway and the record must support evaluation judgments and award rationale. What is the best contracting action?",
+    "stem": "A program manager asked John whether a contract clause is only used in the contract or if it applies to the solicitation as well. John correctly answered by replying with which of the following statements?",
     "choices": [
-      "Adjust evaluation weighting during source selection to reflect evolving stakeholder preferences.",
-      "Rely on undocumented evaluator impressions instead of recording strengths, weaknesses, and risks.",
-      "Record only final ratings and omit narrative tradeoff analysis between leading proposals.",
-      "Document evaluation findings and tradeoff rationale consistent with FAR 15.3 before award."
+      "A contract clause only applies after contract award",
+      "A contract clause applies unless superseded by a solicitation provision",
+      "A contract clause is a term or condition used in contracts, or in both solicitations and contracts, that applies after contract award or both before and after award",
+      "A contract clause is a term or condition used in contracts and solicitations unless the resulting contract is for a commercial item"
     ],
-    "correctIndex": 3,
+    "correctIndex": 2,
     "topic": "Source Selection",
     "session": "Session 3",
     "tags": [
@@ -955,53 +1059,61 @@
     "explanationRich": {
       "farRefs": {
         "part": {
-          "cite": "FAR 15.3",
-          "title": "Source Selection",
-          "url": "https://www.acquisition.gov/far/subpart-15.3"
+          "cite": "FAR Part 2",
+          "title": "Definitions of Words and Terms",
+          "url": "https://www.acquisition.gov/far/part-2"
         },
         "sections": [
           {
-            "cite": "FAR 15.308",
-            "title": "Source Selection Decision",
-            "url": "https://www.acquisition.gov/far/15.308"
+            "cite": "FAR 2.101",
+            "title": "Contract clause definition",
+            "url": "https://www.acquisition.gov/far/2.101"
           }
         ],
         "rfo": [
           {
-            "cite": "FAR Overhaul Initiative",
-            "title": "RFO/FAR Overhaul Resource Hub",
+            "cite": "FAR Overhaul",
+            "title": "Acquisition.gov FAR Overhaul",
             "url": "https://www.acquisition.gov/far-overhaul"
           }
         ]
       },
-      "whatThisTests": "Q014 tests whether you can apply FAR 15.3 to the decision point in the stem without skipping compliance steps.",
+      "whatThisTests": "Understanding the specific rule and decision standard tested in FAR Part 2 for this basic contracting question.",
       "decisionSteps": [
-        "Start with FAR 15.3 and identify the exact decision trigger in the stem.",
-        "Discard options that postpone required documentation, approvals, or determinations until after award/action.",
-        "Select the option that keeps legal sufficiency and mission speed in balance."
+        "Identify the exact rule being tested in the stem.",
+        "Anchor your decision in FAR Part 2 and the cited section.",
+        "Eliminate options that overstate authority, use the wrong phase, or misstate policy scope."
       ],
-      "whyCorrect": "The keyed answer is correct because it follows FAR 15.3 in the right sequence and preserves an auditable file for the contracting officer.",
+      "whyCorrect": "The correct answer matches the policy direction in FAR Part 2 and fits both the definition and application context in the question.",
       "whyWrong": [
         {
           "choiceLabel": "A",
-          "reason": "Choice A is attractive because it appears to save time, but it fails this question's control point: documenting the governing authority before action."
+          "reason": "A contract clause only applies after contract award is incorrect here because it conflicts with the governing rule timing, authority, or scope under FAR Part 2."
         },
         {
           "choiceLabel": "B",
-          "reason": "Choice B is attractive because it appears to save time, but it fails this question's control point: using the correct approval/justification timing."
+          "reason": "A contract clause applies unless superseded by a solicitation provision is incorrect here because it conflicts with the governing rule timing, authority, or scope under FAR Part 2."
         },
         {
-          "choiceLabel": "C",
-          "reason": "Choice C is attractive because it appears to save time, but it fails this question's control point: matching method and authority to the acquisition phase."
+          "choiceLabel": "D",
+          "reason": "A contract clause is a term or condition used in contracts and solicitations unless the resulting contract is for a commercial item is incorrect here because it conflicts with the governing rule timing, authority, or scope under FAR Part 2."
         }
       ],
-      "fieldTip": "In live filework, write a one-line rationale tied to FAR 15.308 before routing for signature; it prevents avoidable rework.",
-      "rfoUpdate": "FAR Overhaul is reorganizing presentation, but the decision logic here remains anchored to FAR 15.3."
+      "fieldTip": "When reviewing test items, tie each option to the actual FAR text and ask whether the action is authorized at that point in the process.",
+      "rfoUpdate": {
+        "summary": "No policy conflict for this item under current FAR overhaul framing; use FAR text as primary authority.",
+        "links": [
+          {
+            "label": "FAR Overhaul",
+            "url": "https://www.acquisition.gov/far-overhaul"
+          }
+        ]
+      }
     },
     "explanation": {
-      "whyCorrect": "The keyed answer is correct because it follows FAR 15.3 in the right sequence and preserves an auditable file for the contracting officer.",
-      "keyTakeaway": "Use FAR 15.3 as your primary anchor, then confirm timing and authority.",
-      "commonTrap": "The trap is usually a convenient shortcut that sounds efficient but misses a required pre-action control."
+      "whyCorrect": "The correct answer matches the policy direction in FAR Part 2 and fits both the definition and application context in the question.",
+      "keyTakeaway": "Use FAR Part 2 and FAR 2.101 as your primary anchors for this decision.",
+      "commonTrap": "A distractor often sounds practical but applies the wrong authority, phase, or scope."
     },
     "farRefs": [
       "FAR 15.3"
@@ -1009,12 +1121,12 @@
   },
   {
     "id": "q015",
-    "stem": "The team is deciding whether and how to use commercial-item procedures for a recurring requirement. What is the best contracting action?",
+    "stem": "A contractor failed to deliver a commercial item within the time specified by the contract. As the Government contracting officer, you plan to terminate the contract. What type of termination would you proceed with?",
     "choices": [
-      "Apply government-unique clauses by default without checking customary commercial practice.",
-      "Use commercial-item procedures while requiring unique redesign elements not sold commercially.",
-      "Validate commercial-item applicability and apply FAR Part 12 procedures using market-based terms.",
-      "Rely only on internal cost estimates instead of market comparability for commercial pricing."
+      "Termination for Convenience",
+      "Termination for Default",
+      "Termination for Cause",
+      "Termination for Late Deliveries - Commercial/Noncommercial"
     ],
     "correctIndex": 2,
     "topic": "Commercial Items",
@@ -1033,47 +1145,55 @@
         },
         "sections": [
           {
-            "cite": "FAR 12.102",
-            "title": "Applicability",
-            "url": "https://www.acquisition.gov/far/12.102"
+            "cite": "FAR 12.403",
+            "title": "Termination",
+            "url": "https://www.acquisition.gov/far/12.403"
           }
         ],
         "rfo": [
           {
-            "cite": "FAR Overhaul Initiative",
-            "title": "RFO/FAR Overhaul Resource Hub",
+            "cite": "FAR Overhaul",
+            "title": "Acquisition.gov FAR Overhaul",
             "url": "https://www.acquisition.gov/far-overhaul"
           }
         ]
       },
-      "whatThisTests": "Q015 tests whether you can apply FAR Part 12 to the decision point in the stem without skipping compliance steps.",
+      "whatThisTests": "Understanding the specific rule and decision standard tested in FAR Part 12 for this basic contracting question.",
       "decisionSteps": [
-        "Start with FAR Part 12 and identify the exact decision trigger in the stem.",
-        "Discard options that postpone required documentation, approvals, or determinations until after award/action.",
-        "Select the option that keeps legal sufficiency and mission speed in balance."
+        "Identify the exact rule being tested in the stem.",
+        "Anchor your decision in FAR Part 12 and the cited section.",
+        "Eliminate options that overstate authority, use the wrong phase, or misstate policy scope."
       ],
-      "whyCorrect": "The keyed answer is correct because it follows FAR Part 12 in the right sequence and preserves an auditable file for the contracting officer.",
+      "whyCorrect": "The correct answer matches the policy direction in FAR Part 12 and fits both the definition and application context in the question.",
       "whyWrong": [
         {
           "choiceLabel": "A",
-          "reason": "Choice A is attractive because it appears to save time, but it fails this question's control point: documenting the governing authority before action."
+          "reason": "Termination for Convenience is incorrect here because it conflicts with the governing rule timing, authority, or scope under FAR Part 12."
         },
         {
           "choiceLabel": "B",
-          "reason": "Choice B is attractive because it appears to save time, but it fails this question's control point: using the correct approval/justification timing."
+          "reason": "Termination for Default is incorrect here because it conflicts with the governing rule timing, authority, or scope under FAR Part 12."
         },
         {
           "choiceLabel": "D",
-          "reason": "Choice D is attractive because it appears to save time, but it fails this question's control point: matching method and authority to the acquisition phase."
+          "reason": "Termination for Late Deliveries - Commercial/Noncommercial is incorrect here because it conflicts with the governing rule timing, authority, or scope under FAR Part 12."
         }
       ],
-      "fieldTip": "In live filework, write a one-line rationale tied to FAR 12.102 before routing for signature; it prevents avoidable rework.",
-      "rfoUpdate": "FAR Overhaul is reorganizing presentation, but the decision logic here remains anchored to FAR Part 12."
+      "fieldTip": "When reviewing test items, tie each option to the actual FAR text and ask whether the action is authorized at that point in the process.",
+      "rfoUpdate": {
+        "summary": "No policy conflict for this item under current FAR overhaul framing; use FAR text as primary authority.",
+        "links": [
+          {
+            "label": "FAR Overhaul",
+            "url": "https://www.acquisition.gov/far-overhaul"
+          }
+        ]
+      }
     },
     "explanation": {
-      "whyCorrect": "The keyed answer is correct because it follows FAR Part 12 in the right sequence and preserves an auditable file for the contracting officer.",
-      "keyTakeaway": "Use FAR Part 12 as your primary anchor, then confirm timing and authority.",
-      "commonTrap": "The trap is usually a convenient shortcut that sounds efficient but misses a required pre-action control."
+      "whyCorrect": "The correct answer matches the policy direction in FAR Part 12 and fits both the definition and application context in the question.",
+      "keyTakeaway": "Use FAR Part 12 and FAR 12.403 as your primary anchors for this decision.",
+      "commonTrap": "A distractor often sounds practical but applies the wrong authority, phase, or scope."
     },
     "farRefs": [
       "FAR 12"
@@ -1081,12 +1201,12 @@
   },
   {
     "id": "q016",
-    "stem": "During acquisition planning, the team must select a contract type that appropriately allocates performance and cost risk. What is the best contracting action?",
+    "stem": "Which FAR part sets forth the basic policies and general information about the Federal Acquisition Regulations System?",
     "choices": [
-      "Select the contract type under FAR Part 16 based on requirement uncertainty and risk allocation.",
-      "Choose firm-fixed-price for unstable requirements mainly to reduce administrative workload.",
-      "Use cost-reimbursement before confirming accounting adequacy and surveillance capability.",
-      "Reuse the prior contract type by default even when technical and cost risk changed materially."
+      "FAR part 1",
+      "FAR part 2",
+      "FAR part 52",
+      "FAR part 53"
     ],
     "correctIndex": 0,
     "topic": "Contract Types",
@@ -1099,53 +1219,61 @@
     "explanationRich": {
       "farRefs": {
         "part": {
-          "cite": "FAR Part 16",
-          "title": "Types of Contracts",
-          "url": "https://www.acquisition.gov/far/part-16"
+          "cite": "FAR Part 1",
+          "title": "Federal Acquisition Regulations System",
+          "url": "https://www.acquisition.gov/far/part-1"
         },
         "sections": [
           {
-            "cite": "FAR 16.103",
-            "title": "Negotiating Contract Type",
-            "url": "https://www.acquisition.gov/far/16.103"
+            "cite": "FAR 1.101",
+            "title": "Purpose",
+            "url": "https://www.acquisition.gov/far/1.101"
           }
         ],
         "rfo": [
           {
-            "cite": "FAR Overhaul Initiative",
-            "title": "RFO/FAR Overhaul Resource Hub",
+            "cite": "FAR Overhaul",
+            "title": "Acquisition.gov FAR Overhaul",
             "url": "https://www.acquisition.gov/far-overhaul"
           }
         ]
       },
-      "whatThisTests": "Q016 tests whether you can apply FAR Part 16 to the decision point in the stem without skipping compliance steps.",
+      "whatThisTests": "Understanding the specific rule and decision standard tested in FAR Part 1 for this basic contracting question.",
       "decisionSteps": [
-        "Start with FAR Part 16 and identify the exact decision trigger in the stem.",
-        "Discard options that postpone required documentation, approvals, or determinations until after award/action.",
-        "Select the option that keeps legal sufficiency and mission speed in balance."
+        "Identify the exact rule being tested in the stem.",
+        "Anchor your decision in FAR Part 1 and the cited section.",
+        "Eliminate options that overstate authority, use the wrong phase, or misstate policy scope."
       ],
-      "whyCorrect": "The keyed answer is correct because it follows FAR Part 16 in the right sequence and preserves an auditable file for the contracting officer.",
+      "whyCorrect": "The correct answer matches the policy direction in FAR Part 1 and fits both the definition and application context in the question.",
       "whyWrong": [
         {
           "choiceLabel": "B",
-          "reason": "Choice B is attractive because it appears to save time, but it fails this question's control point: documenting the governing authority before action."
+          "reason": "FAR part 2 is incorrect here because it conflicts with the governing rule timing, authority, or scope under FAR Part 1."
         },
         {
           "choiceLabel": "C",
-          "reason": "Choice C is attractive because it appears to save time, but it fails this question's control point: using the correct approval/justification timing."
+          "reason": "FAR part 52 is incorrect here because it conflicts with the governing rule timing, authority, or scope under FAR Part 1."
         },
         {
           "choiceLabel": "D",
-          "reason": "Choice D is attractive because it appears to save time, but it fails this question's control point: matching method and authority to the acquisition phase."
+          "reason": "FAR part 53 is incorrect here because it conflicts with the governing rule timing, authority, or scope under FAR Part 1."
         }
       ],
-      "fieldTip": "In live filework, write a one-line rationale tied to FAR 16.103 before routing for signature; it prevents avoidable rework.",
-      "rfoUpdate": "FAR Overhaul is reorganizing presentation, but the decision logic here remains anchored to FAR Part 16."
+      "fieldTip": "When reviewing test items, tie each option to the actual FAR text and ask whether the action is authorized at that point in the process.",
+      "rfoUpdate": {
+        "summary": "No policy conflict for this item under current FAR overhaul framing; use FAR text as primary authority.",
+        "links": [
+          {
+            "label": "FAR Overhaul",
+            "url": "https://www.acquisition.gov/far-overhaul"
+          }
+        ]
+      }
     },
     "explanation": {
-      "whyCorrect": "The keyed answer is correct because it follows FAR Part 16 in the right sequence and preserves an auditable file for the contracting officer.",
-      "keyTakeaway": "Use FAR Part 16 as your primary anchor, then confirm timing and authority.",
-      "commonTrap": "The trap is usually a convenient shortcut that sounds efficient but misses a required pre-action control."
+      "whyCorrect": "The correct answer matches the policy direction in FAR Part 1 and fits both the definition and application context in the question.",
+      "keyTakeaway": "Use FAR Part 1 and FAR 1.101 as your primary anchors for this decision.",
+      "commonTrap": "A distractor often sounds practical but applies the wrong authority, phase, or scope."
     },
     "farRefs": [
       "FAR 16"
@@ -1153,18 +1281,418 @@
   },
   {
     "id": "q017",
-    "stem": "Before finalizing an acquisition strategy, the team must confirm available sources, capabilities, and market conditions for the requirement. What is the best contracting action?",
+    "stem": "Which of the following statements best conveys the convention at FAR 1.108(b) delegation of authority?",
     "choices": [
-      "Document current market research findings under FAR Part 10 before finalizing the acquisition approach.",
-      "Reuse prior-year vendor assumptions without validating current market capability or pricing conditions.",
-      "Issue the solicitation first and collect market research documentation only if protest risk increases.",
-      "Limit outreach to the incumbent because continuity concerns outweigh pre-award market analysis."
+      "Authority is not delegable",
+      "Each authority is delegable down to no lower than one level above the contracting officer",
+      "No authority is delegable unless specifically stated otherwise",
+      "Each authority is delegable unless specifically stated otherwise"
     ],
-    "correctIndex": 0,
+    "correctIndex": 3,
     "topic": "Market Research",
     "session": "Session 1",
     "tags": [
       "market-research",
+      "b2b"
+    ],
+    "source": "CON 3910 themed generator",
+    "explanationRich": {
+      "farRefs": {
+        "part": {
+          "cite": "FAR Part 1",
+          "title": "Federal Acquisition Regulations System",
+          "url": "https://www.acquisition.gov/far/part-1"
+        },
+        "sections": [
+          {
+            "cite": "FAR 1.108",
+            "title": "FAR conventions",
+            "url": "https://www.acquisition.gov/far/1.108"
+          }
+        ],
+        "rfo": [
+          {
+            "cite": "FAR Overhaul",
+            "title": "Acquisition.gov FAR Overhaul",
+            "url": "https://www.acquisition.gov/far-overhaul"
+          }
+        ]
+      },
+      "whatThisTests": "Understanding the specific rule and decision standard tested in FAR Part 1 for this basic contracting question.",
+      "decisionSteps": [
+        "Identify the exact rule being tested in the stem.",
+        "Anchor your decision in FAR Part 1 and the cited section.",
+        "Eliminate options that overstate authority, use the wrong phase, or misstate policy scope."
+      ],
+      "whyCorrect": "The correct answer matches the policy direction in FAR Part 1 and fits both the definition and application context in the question.",
+      "whyWrong": [
+        {
+          "choiceLabel": "A",
+          "reason": "Authority is not delegable is incorrect here because it conflicts with the governing rule timing, authority, or scope under FAR Part 1."
+        },
+        {
+          "choiceLabel": "B",
+          "reason": "Each authority is delegable down to no lower than one level above the contracting officer is incorrect here because it conflicts with the governing rule timing, authority, or scope under FAR Part 1."
+        },
+        {
+          "choiceLabel": "C",
+          "reason": "No authority is delegable unless specifically stated otherwise is incorrect here because it conflicts with the governing rule timing, authority, or scope under FAR Part 1."
+        }
+      ],
+      "fieldTip": "When reviewing test items, tie each option to the actual FAR text and ask whether the action is authorized at that point in the process.",
+      "rfoUpdate": {
+        "summary": "No policy conflict for this item under current FAR overhaul framing; use FAR text as primary authority.",
+        "links": [
+          {
+            "label": "FAR Overhaul",
+            "url": "https://www.acquisition.gov/far-overhaul"
+          }
+        ]
+      }
+    },
+    "explanation": {
+      "whyCorrect": "The correct answer matches the policy direction in FAR Part 1 and fits both the definition and application context in the question.",
+      "keyTakeaway": "Use FAR Part 1 and FAR 1.108 as your primary anchors for this decision.",
+      "commonTrap": "A distractor often sounds practical but applies the wrong authority, phase, or scope."
+    },
+    "farRefs": [
+      "FAR 10"
+    ]
+  },
+  {
+    "id": "q018",
+    "stem": "How many parts are there in the FAR?",
+    "choices": [
+      "52",
+      "53",
+      "2",
+      "10"
+    ],
+    "correctIndex": 1,
+    "topic": "Competition",
+    "session": "Session 1",
+    "tags": [
+      "competition",
+      "b2b"
+    ],
+    "source": "CON 3910 themed generator",
+    "explanationRich": {
+      "farRefs": {
+        "part": {
+          "cite": "FAR Part 1",
+          "title": "Federal Acquisition Regulations System",
+          "url": "https://www.acquisition.gov/far/part-1"
+        },
+        "sections": [
+          {
+            "cite": "FAR 1.104",
+            "title": "Applicability",
+            "url": "https://www.acquisition.gov/far/1.104"
+          }
+        ],
+        "rfo": [
+          {
+            "cite": "FAR Overhaul",
+            "title": "Acquisition.gov FAR Overhaul",
+            "url": "https://www.acquisition.gov/far-overhaul"
+          }
+        ]
+      },
+      "whatThisTests": "Understanding the specific rule and decision standard tested in FAR Part 1 for this basic contracting question.",
+      "decisionSteps": [
+        "Identify the exact rule being tested in the stem.",
+        "Anchor your decision in FAR Part 1 and the cited section.",
+        "Eliminate options that overstate authority, use the wrong phase, or misstate policy scope."
+      ],
+      "whyCorrect": "The correct answer matches the policy direction in FAR Part 1 and fits both the definition and application context in the question.",
+      "whyWrong": [
+        {
+          "choiceLabel": "A",
+          "reason": "52 is incorrect here because it conflicts with the governing rule timing, authority, or scope under FAR Part 1."
+        },
+        {
+          "choiceLabel": "C",
+          "reason": "2 is incorrect here because it conflicts with the governing rule timing, authority, or scope under FAR Part 1."
+        },
+        {
+          "choiceLabel": "D",
+          "reason": "10 is incorrect here because it conflicts with the governing rule timing, authority, or scope under FAR Part 1."
+        }
+      ],
+      "fieldTip": "When reviewing test items, tie each option to the actual FAR text and ask whether the action is authorized at that point in the process.",
+      "rfoUpdate": {
+        "summary": "No policy conflict for this item under current FAR overhaul framing; use FAR text as primary authority.",
+        "links": [
+          {
+            "label": "FAR Overhaul",
+            "url": "https://www.acquisition.gov/far-overhaul"
+          }
+        ]
+      }
+    },
+    "explanation": {
+      "whyCorrect": "The correct answer matches the policy direction in FAR Part 1 and fits both the definition and application context in the question.",
+      "keyTakeaway": "Use FAR Part 1 and FAR 1.104 as your primary anchors for this decision.",
+      "commonTrap": "A distractor often sounds practical but applies the wrong authority, phase, or scope."
+    },
+    "farRefs": [
+      "FAR 6"
+    ]
+  },
+  {
+    "id": "q019",
+    "stem": "What is a Procurement Instrument Identifier (PIID)?",
+    "choices": [
+      "A unique number identifying a contract",
+      "A unique number identifying a policy to a contract clause",
+      "A unique number identifying a funding document",
+      "A unique number identifying each solicitation, contract, agreement, or order and related procurement instrument"
+    ],
+    "correctIndex": 3,
+    "topic": "Simplified Acquisition",
+    "session": "Session 2",
+    "tags": [
+      "simplified-acquisition",
+      "b2b"
+    ],
+    "source": "CON 3910 themed generator",
+    "explanationRich": {
+      "farRefs": {
+        "part": {
+          "cite": "FAR Part 4",
+          "title": "Administrative Matters",
+          "url": "https://www.acquisition.gov/far/part-4"
+        },
+        "sections": [
+          {
+            "cite": "FAR 4.1601",
+            "title": "Policy",
+            "url": "https://www.acquisition.gov/far/4.1601"
+          }
+        ],
+        "rfo": [
+          {
+            "cite": "FAR Overhaul",
+            "title": "Acquisition.gov FAR Overhaul",
+            "url": "https://www.acquisition.gov/far-overhaul"
+          }
+        ]
+      },
+      "whatThisTests": "Understanding the specific rule and decision standard tested in FAR Part 4 for this basic contracting question.",
+      "decisionSteps": [
+        "Identify the exact rule being tested in the stem.",
+        "Anchor your decision in FAR Part 4 and the cited section.",
+        "Eliminate options that overstate authority, use the wrong phase, or misstate policy scope."
+      ],
+      "whyCorrect": "The correct answer matches the policy direction in FAR Part 4 and fits both the definition and application context in the question.",
+      "whyWrong": [
+        {
+          "choiceLabel": "A",
+          "reason": "A unique number identifying a contract is incorrect here because it conflicts with the governing rule timing, authority, or scope under FAR Part 4."
+        },
+        {
+          "choiceLabel": "B",
+          "reason": "A unique number identifying a policy to a contract clause is incorrect here because it conflicts with the governing rule timing, authority, or scope under FAR Part 4."
+        },
+        {
+          "choiceLabel": "C",
+          "reason": "A unique number identifying a funding document is incorrect here because it conflicts with the governing rule timing, authority, or scope under FAR Part 4."
+        }
+      ],
+      "fieldTip": "When reviewing test items, tie each option to the actual FAR text and ask whether the action is authorized at that point in the process.",
+      "rfoUpdate": {
+        "summary": "No policy conflict for this item under current FAR overhaul framing; use FAR text as primary authority.",
+        "links": [
+          {
+            "label": "FAR Overhaul",
+            "url": "https://www.acquisition.gov/far-overhaul"
+          }
+        ]
+      }
+    },
+    "explanation": {
+      "whyCorrect": "The correct answer matches the policy direction in FAR Part 4 and fits both the definition and application context in the question.",
+      "keyTakeaway": "Use FAR Part 4 and FAR 4.1601 as your primary anchors for this decision.",
+      "commonTrap": "A distractor often sounds practical but applies the wrong authority, phase, or scope."
+    },
+    "farRefs": [
+      "FAR 13"
+    ]
+  },
+  {
+    "id": "q020",
+    "stem": "The DoD Procurement Instrument Identifier (PIID) is 13 positions long. Position 9 identifies the type of instrument. If position 9 is a 'D', which of the following types of instruments is representative?",
+    "choices": [
+      "Indefinite-delivery contracts to include IDIQs and requirements contracts",
+      "Contracts of all types except indefinite-delivery contracts",
+      "Invitations for bids (IFBs)",
+      "Blanket purchase agreements (BPAs)"
+    ],
+    "correctIndex": 0,
+    "topic": "Contracting by Negotiation",
+    "session": "Session 3",
+    "tags": [
+      "contracting-by-negotiation",
+      "b2b"
+    ],
+    "source": "CON 3910 themed generator",
+    "explanationRich": {
+      "farRefs": {
+        "part": {
+          "cite": "DFARS 204.16",
+          "title": "Unique Procurement Instrument Identifier",
+          "url": "https://www.acquisition.gov/dfars/subpart-204.16"
+        },
+        "sections": [
+          {
+            "cite": "DFARS 204.1603",
+            "title": "Procedures",
+            "url": "https://www.acquisition.gov/dfars/204.1603"
+          }
+        ],
+        "rfo": [
+          {
+            "cite": "FAR Overhaul",
+            "title": "Acquisition.gov FAR Overhaul",
+            "url": "https://www.acquisition.gov/far-overhaul"
+          }
+        ]
+      },
+      "whatThisTests": "Understanding the specific rule and decision standard tested in DFARS 204.16 for this basic contracting question.",
+      "decisionSteps": [
+        "Identify the exact rule being tested in the stem.",
+        "Anchor your decision in DFARS 204.16 and the cited section.",
+        "Eliminate options that overstate authority, use the wrong phase, or misstate policy scope."
+      ],
+      "whyCorrect": "The correct answer matches the policy direction in DFARS 204.16 and fits both the definition and application context in the question.",
+      "whyWrong": [
+        {
+          "choiceLabel": "B",
+          "reason": "Contracts of all types except indefinite-delivery contracts is incorrect here because it conflicts with the governing rule timing, authority, or scope under DFARS 204.16."
+        },
+        {
+          "choiceLabel": "C",
+          "reason": "Invitations for bids (IFBs) is incorrect here because it conflicts with the governing rule timing, authority, or scope under DFARS 204.16."
+        },
+        {
+          "choiceLabel": "D",
+          "reason": "Blanket purchase agreements (BPAs) is incorrect here because it conflicts with the governing rule timing, authority, or scope under DFARS 204.16."
+        }
+      ],
+      "fieldTip": "When reviewing test items, tie each option to the actual FAR text and ask whether the action is authorized at that point in the process.",
+      "rfoUpdate": {
+        "summary": "No policy conflict for this item under current FAR overhaul framing; use FAR text as primary authority.",
+        "links": [
+          {
+            "label": "FAR Overhaul",
+            "url": "https://www.acquisition.gov/far-overhaul"
+          }
+        ]
+      }
+    },
+    "explanation": {
+      "whyCorrect": "The correct answer matches the policy direction in DFARS 204.16 and fits both the definition and application context in the question.",
+      "keyTakeaway": "Use DFARS 204.16 and DFARS 204.1603 as your primary anchors for this decision.",
+      "commonTrap": "A distractor often sounds practical but applies the wrong authority, phase, or scope."
+    },
+    "farRefs": [
+      "FAR 15"
+    ]
+  },
+  {
+    "id": "q021",
+    "stem": "You are reviewing a contract that utilizes the uniform contract format. In Section J you see an exhibit. How will the exhibit be displayed?",
+    "choices": [
+      "With one or two numeric characters (e.g., Exhibit 1)",
+      "With one or two alpha characters (e.g., Exhibit AA)",
+      "With one alpha and one numeric character (e.g., Exhibit A1)",
+      "Utilizing only Roman numerals (e.g., Exhibit XI)"
+    ],
+    "correctIndex": 1,
+    "topic": "Contract Modifications",
+    "session": "Session 4",
+    "tags": [
+      "contract-modifications",
+      "b2b"
+    ],
+    "source": "CON 3910 themed generator",
+    "explanationRich": {
+      "farRefs": {
+        "part": {
+          "cite": "FAR Part 15",
+          "title": "Contracting by Negotiation",
+          "url": "https://www.acquisition.gov/far/part-15"
+        },
+        "sections": [
+          {
+            "cite": "FAR 15.204",
+            "title": "Uniform contract format",
+            "url": "https://www.acquisition.gov/far/15.204"
+          }
+        ],
+        "rfo": [
+          {
+            "cite": "FAR Overhaul",
+            "title": "Acquisition.gov FAR Overhaul",
+            "url": "https://www.acquisition.gov/far-overhaul"
+          }
+        ]
+      },
+      "whatThisTests": "Understanding the specific rule and decision standard tested in FAR Part 15 for this basic contracting question.",
+      "decisionSteps": [
+        "Identify the exact rule being tested in the stem.",
+        "Anchor your decision in FAR Part 15 and the cited section.",
+        "Eliminate options that overstate authority, use the wrong phase, or misstate policy scope."
+      ],
+      "whyCorrect": "The correct answer matches the policy direction in FAR Part 15 and fits both the definition and application context in the question.",
+      "whyWrong": [
+        {
+          "choiceLabel": "A",
+          "reason": "With one or two numeric characters (e.g., Exhibit 1) is incorrect here because it conflicts with the governing rule timing, authority, or scope under FAR Part 15."
+        },
+        {
+          "choiceLabel": "C",
+          "reason": "With one alpha and one numeric character (e.g., Exhibit A1) is incorrect here because it conflicts with the governing rule timing, authority, or scope under FAR Part 15."
+        },
+        {
+          "choiceLabel": "D",
+          "reason": "Utilizing only Roman numerals (e.g., Exhibit XI) is incorrect here because it conflicts with the governing rule timing, authority, or scope under FAR Part 15."
+        }
+      ],
+      "fieldTip": "When reviewing test items, tie each option to the actual FAR text and ask whether the action is authorized at that point in the process.",
+      "rfoUpdate": {
+        "summary": "No policy conflict for this item under current FAR overhaul framing; use FAR text as primary authority.",
+        "links": [
+          {
+            "label": "FAR Overhaul",
+            "url": "https://www.acquisition.gov/far-overhaul"
+          }
+        ]
+      }
+    },
+    "explanation": {
+      "whyCorrect": "The correct answer matches the policy direction in FAR Part 15 and fits both the definition and application context in the question.",
+      "keyTakeaway": "Use FAR Part 15 and FAR 15.204 as your primary anchors for this decision.",
+      "commonTrap": "A distractor often sounds practical but applies the wrong authority, phase, or scope."
+    },
+    "farRefs": [
+      "FAR 43"
+    ]
+  },
+  {
+    "id": "q022",
+    "stem": "Your customer comes to you anticipating a new requirement, one that has not been purchased recently. You'd like to refer them to the FAR part dealing specifically with market research. Which FAR part do you refer them to?",
+    "choices": [
+      "FAR part 7",
+      "FAR part 8",
+      "FAR part 9",
+      "FAR part 10"
+    ],
+    "correctIndex": 3,
+    "topic": "Source Selection",
+    "session": "Session 3",
+    "tags": [
+      "source-selection",
       "b2b"
     ],
     "source": "CON 3910 themed generator",
@@ -1184,400 +1712,48 @@
         ],
         "rfo": [
           {
-            "cite": "FAR Overhaul Initiative",
-            "title": "RFO/FAR Overhaul Resource Hub",
+            "cite": "FAR Overhaul",
+            "title": "Acquisition.gov FAR Overhaul",
             "url": "https://www.acquisition.gov/far-overhaul"
           }
         ]
       },
-      "whatThisTests": "Q017 tests whether you can apply FAR Part 10 to the decision point in the stem without skipping compliance steps.",
+      "whatThisTests": "Understanding the specific rule and decision standard tested in FAR Part 10 for this basic contracting question.",
       "decisionSteps": [
-        "Start with FAR Part 10 and identify the exact decision trigger in the stem.",
-        "Discard options that postpone required documentation, approvals, or determinations until after award/action.",
-        "Select the option that keeps legal sufficiency and mission speed in balance."
+        "Identify the exact rule being tested in the stem.",
+        "Anchor your decision in FAR Part 10 and the cited section.",
+        "Eliminate options that overstate authority, use the wrong phase, or misstate policy scope."
       ],
-      "whyCorrect": "The keyed answer is correct because it follows FAR Part 10 in the right sequence and preserves an auditable file for the contracting officer.",
-      "whyWrong": [
-        {
-          "choiceLabel": "B",
-          "reason": "Choice B is attractive because it appears to save time, but it fails this question's control point: documenting the governing authority before action."
-        },
-        {
-          "choiceLabel": "C",
-          "reason": "Choice C is attractive because it appears to save time, but it fails this question's control point: using the correct approval/justification timing."
-        },
-        {
-          "choiceLabel": "D",
-          "reason": "Choice D is attractive because it appears to save time, but it fails this question's control point: matching method and authority to the acquisition phase."
-        }
-      ],
-      "fieldTip": "In live filework, write a one-line rationale tied to FAR 10.001 before routing for signature; it prevents avoidable rework.",
-      "rfoUpdate": "FAR Overhaul is reorganizing presentation, but the decision logic here remains anchored to FAR Part 10."
-    },
-    "explanation": {
-      "whyCorrect": "The keyed answer is correct because it follows FAR Part 10 in the right sequence and preserves an auditable file for the contracting officer.",
-      "keyTakeaway": "Use FAR Part 10 as your primary anchor, then confirm timing and authority.",
-      "commonTrap": "The trap is usually a convenient shortcut that sounds efficient but misses a required pre-action control."
-    },
-    "farRefs": [
-      "FAR 10"
-    ]
-  },
-  {
-    "id": "q018",
-    "stem": "An acquisition plan is being drafted and the team must decide how to satisfy competition requirements before award decisions are made. What is the best contracting action?",
-    "choices": [
-      "Restrict sources to known contractors first and justify limiting competition after proposal receipt.",
-      "Use urgency as a default basis to narrow competition without preparing the required approval package.",
-      "Promote full and open competition and document any authorized exception before award under FAR Part 6.",
-      "Adopt a brand-name-only strategy immediately and defer the justification until contract administration."
-    ],
-    "correctIndex": 2,
-    "topic": "Competition",
-    "session": "Session 1",
-    "tags": [
-      "competition",
-      "b2b"
-    ],
-    "source": "CON 3910 themed generator",
-    "explanationRich": {
-      "farRefs": {
-        "part": {
-          "cite": "FAR Part 6",
-          "title": "Competition Requirements",
-          "url": "https://www.acquisition.gov/far/part-6"
-        },
-        "sections": [
-          {
-            "cite": "FAR 6.101",
-            "title": "Policy",
-            "url": "https://www.acquisition.gov/far/6.101"
-          }
-        ],
-        "rfo": [
-          {
-            "cite": "FAR Overhaul Initiative",
-            "title": "RFO/FAR Overhaul Resource Hub",
-            "url": "https://www.acquisition.gov/far-overhaul"
-          }
-        ]
-      },
-      "whatThisTests": "Q018 tests whether you can apply FAR Part 6 to the decision point in the stem without skipping compliance steps.",
-      "decisionSteps": [
-        "Start with FAR Part 6 and identify the exact decision trigger in the stem.",
-        "Discard options that postpone required documentation, approvals, or determinations until after award/action.",
-        "Select the option that keeps legal sufficiency and mission speed in balance."
-      ],
-      "whyCorrect": "The keyed answer is correct because it follows FAR Part 6 in the right sequence and preserves an auditable file for the contracting officer.",
+      "whyCorrect": "The correct answer matches the policy direction in FAR Part 10 and fits both the definition and application context in the question.",
       "whyWrong": [
         {
           "choiceLabel": "A",
-          "reason": "Choice A is attractive because it appears to save time, but it fails this question's control point: documenting the governing authority before action."
+          "reason": "FAR part 7 is incorrect here because it conflicts with the governing rule timing, authority, or scope under FAR Part 10."
         },
         {
           "choiceLabel": "B",
-          "reason": "Choice B is attractive because it appears to save time, but it fails this question's control point: using the correct approval/justification timing."
-        },
-        {
-          "choiceLabel": "D",
-          "reason": "Choice D is attractive because it appears to save time, but it fails this question's control point: matching method and authority to the acquisition phase."
-        }
-      ],
-      "fieldTip": "In live filework, write a one-line rationale tied to FAR 6.101 before routing for signature; it prevents avoidable rework.",
-      "rfoUpdate": "FAR Overhaul is reorganizing presentation, but the decision logic here remains anchored to FAR Part 6."
-    },
-    "explanation": {
-      "whyCorrect": "The keyed answer is correct because it follows FAR Part 6 in the right sequence and preserves an auditable file for the contracting officer.",
-      "keyTakeaway": "Use FAR Part 6 as your primary anchor, then confirm timing and authority.",
-      "commonTrap": "The trap is usually a convenient shortcut that sounds efficient but misses a required pre-action control."
-    },
-    "farRefs": [
-      "FAR 6"
-    ]
-  },
-  {
-    "id": "q019",
-    "stem": "A buyer is preparing a lower-dollar procurement and must determine how to apply simplified acquisition procedures correctly. What is the best contracting action?",
-    "choices": [
-      "Use simplified procedures above applicable thresholds when mission timelines are compressed.",
-      "Solicit one vendor and complete price reasonableness documentation after performance starts.",
-      "Bundle unrelated requirements solely to keep the buy inside a preferred simplified path.",
-      "Use FAR Part 13 thresholds, solicitation methods, and documentation requirements before award."
-    ],
-    "correctIndex": 3,
-    "topic": "Simplified Acquisition",
-    "session": "Session 2",
-    "tags": [
-      "simplified-acquisition",
-      "b2b"
-    ],
-    "source": "CON 3910 themed generator",
-    "explanationRich": {
-      "farRefs": {
-        "part": {
-          "cite": "FAR Part 13",
-          "title": "Simplified Acquisition Procedures",
-          "url": "https://www.acquisition.gov/far/part-13"
-        },
-        "sections": [
-          {
-            "cite": "FAR 13.003",
-            "title": "Policy",
-            "url": "https://www.acquisition.gov/far/13.003"
-          }
-        ],
-        "rfo": [
-          {
-            "cite": "FAR Overhaul Initiative",
-            "title": "RFO/FAR Overhaul Resource Hub",
-            "url": "https://www.acquisition.gov/far-overhaul"
-          }
-        ]
-      },
-      "whatThisTests": "Q019 tests whether you can apply FAR Part 13 to the decision point in the stem without skipping compliance steps.",
-      "decisionSteps": [
-        "Start with FAR Part 13 and identify the exact decision trigger in the stem.",
-        "Discard options that postpone required documentation, approvals, or determinations until after award/action.",
-        "Select the option that keeps legal sufficiency and mission speed in balance."
-      ],
-      "whyCorrect": "The keyed answer is correct because it follows FAR Part 13 in the right sequence and preserves an auditable file for the contracting officer.",
-      "whyWrong": [
-        {
-          "choiceLabel": "A",
-          "reason": "Choice A is attractive because it appears to save time, but it fails this question's control point: documenting the governing authority before action."
-        },
-        {
-          "choiceLabel": "B",
-          "reason": "Choice B is attractive because it appears to save time, but it fails this question's control point: using the correct approval/justification timing."
+          "reason": "FAR part 8 is incorrect here because it conflicts with the governing rule timing, authority, or scope under FAR Part 10."
         },
         {
           "choiceLabel": "C",
-          "reason": "Choice C is attractive because it appears to save time, but it fails this question's control point: matching method and authority to the acquisition phase."
+          "reason": "FAR part 9 is incorrect here because it conflicts with the governing rule timing, authority, or scope under FAR Part 10."
         }
       ],
-      "fieldTip": "In live filework, write a one-line rationale tied to FAR 13.003 before routing for signature; it prevents avoidable rework.",
-      "rfoUpdate": "FAR Overhaul is reorganizing presentation, but the decision logic here remains anchored to FAR Part 13."
-    },
-    "explanation": {
-      "whyCorrect": "The keyed answer is correct because it follows FAR Part 13 in the right sequence and preserves an auditable file for the contracting officer.",
-      "keyTakeaway": "Use FAR Part 13 as your primary anchor, then confirm timing and authority.",
-      "commonTrap": "The trap is usually a convenient shortcut that sounds efficient but misses a required pre-action control."
-    },
-    "farRefs": [
-      "FAR 13"
-    ]
-  },
-  {
-    "id": "q020",
-    "stem": "The contracting office is running a negotiated procurement and must follow evaluation and discussion rules for a defensible award. What is the best contracting action?",
-    "choices": [
-      "Begin discussions before finalizing evaluation factors and competitive-range documentation.",
-      "Establish and follow FAR Part 15 evaluation, discussion, and award documentation procedures.",
-      "Select the lowest-priced offer without documenting how non-price factors were applied.",
-      "Share one offeror’s pricing position with another to accelerate final proposal revisions."
-    ],
-    "correctIndex": 1,
-    "topic": "Contracting by Negotiation",
-    "session": "Session 3",
-    "tags": [
-      "contracting-by-negotiation",
-      "b2b"
-    ],
-    "source": "CON 3910 themed generator",
-    "explanationRich": {
-      "farRefs": {
-        "part": {
-          "cite": "FAR Part 15",
-          "title": "Contracting by Negotiation",
-          "url": "https://www.acquisition.gov/far/part-15"
-        },
-        "sections": [
+      "fieldTip": "When reviewing test items, tie each option to the actual FAR text and ask whether the action is authorized at that point in the process.",
+      "rfoUpdate": {
+        "summary": "No policy conflict for this item under current FAR overhaul framing; use FAR text as primary authority.",
+        "links": [
           {
-            "cite": "FAR 15.306",
-            "title": "Exchanges with Offerors",
-            "url": "https://www.acquisition.gov/far/15.306"
-          }
-        ],
-        "rfo": [
-          {
-            "cite": "FAR Overhaul Initiative",
-            "title": "RFO/FAR Overhaul Resource Hub",
+            "label": "FAR Overhaul",
             "url": "https://www.acquisition.gov/far-overhaul"
           }
         ]
-      },
-      "whatThisTests": "Q020 tests whether you can apply FAR Part 15 to the decision point in the stem without skipping compliance steps.",
-      "decisionSteps": [
-        "Start with FAR Part 15 and identify the exact decision trigger in the stem.",
-        "Discard options that postpone required documentation, approvals, or determinations until after award/action.",
-        "Select the option that keeps legal sufficiency and mission speed in balance."
-      ],
-      "whyCorrect": "The keyed answer is correct because it follows FAR Part 15 in the right sequence and preserves an auditable file for the contracting officer.",
-      "whyWrong": [
-        {
-          "choiceLabel": "A",
-          "reason": "Choice A is attractive because it appears to save time, but it fails this question's control point: documenting the governing authority before action."
-        },
-        {
-          "choiceLabel": "C",
-          "reason": "Choice C is attractive because it appears to save time, but it fails this question's control point: using the correct approval/justification timing."
-        },
-        {
-          "choiceLabel": "D",
-          "reason": "Choice D is attractive because it appears to save time, but it fails this question's control point: matching method and authority to the acquisition phase."
-        }
-      ],
-      "fieldTip": "In live filework, write a one-line rationale tied to FAR 15.306 before routing for signature; it prevents avoidable rework.",
-      "rfoUpdate": "FAR Overhaul is reorganizing presentation, but the decision logic here remains anchored to FAR Part 15."
+      }
     },
     "explanation": {
-      "whyCorrect": "The keyed answer is correct because it follows FAR Part 15 in the right sequence and preserves an auditable file for the contracting officer.",
-      "keyTakeaway": "Use FAR Part 15 as your primary anchor, then confirm timing and authority.",
-      "commonTrap": "The trap is usually a convenient shortcut that sounds efficient but misses a required pre-action control."
-    },
-    "farRefs": [
-      "FAR 15"
-    ]
-  },
-  {
-    "id": "q021",
-    "stem": "Post-award changes are being requested and the contracting team must choose the correct modification approach and authority. What is the best contracting action?",
-    "choices": [
-      "Use FAR Part 43 modification authority and document scope, funding, and pricing before directing work.",
-      "Direct out-of-scope work first and negotiate the modification terms after contractor performance begins.",
-      "Use unilateral administrative-change authority for substantive scope expansion without bilateral agreement.",
-      "Treat all post-award changes as in-scope whenever schedule urgency is mission critical."
-    ],
-    "correctIndex": 0,
-    "topic": "Contract Modifications",
-    "session": "Session 4",
-    "tags": [
-      "contract-modifications",
-      "b2b"
-    ],
-    "source": "CON 3910 themed generator",
-    "explanationRich": {
-      "farRefs": {
-        "part": {
-          "cite": "FAR Part 43",
-          "title": "Contract Modifications",
-          "url": "https://www.acquisition.gov/far/part-43"
-        },
-        "sections": [
-          {
-            "cite": "FAR 43.102",
-            "title": "Policy",
-            "url": "https://www.acquisition.gov/far/43.102"
-          }
-        ],
-        "rfo": [
-          {
-            "cite": "FAR Overhaul Initiative",
-            "title": "RFO/FAR Overhaul Resource Hub",
-            "url": "https://www.acquisition.gov/far-overhaul"
-          }
-        ]
-      },
-      "whatThisTests": "Q021 tests whether you can apply FAR Part 43 to the decision point in the stem without skipping compliance steps.",
-      "decisionSteps": [
-        "Start with FAR Part 43 and identify the exact decision trigger in the stem.",
-        "Discard options that postpone required documentation, approvals, or determinations until after award/action.",
-        "Select the option that keeps legal sufficiency and mission speed in balance."
-      ],
-      "whyCorrect": "The keyed answer is correct because it follows FAR Part 43 in the right sequence and preserves an auditable file for the contracting officer.",
-      "whyWrong": [
-        {
-          "choiceLabel": "B",
-          "reason": "Choice B is attractive because it appears to save time, but it fails this question's control point: documenting the governing authority before action."
-        },
-        {
-          "choiceLabel": "C",
-          "reason": "Choice C is attractive because it appears to save time, but it fails this question's control point: using the correct approval/justification timing."
-        },
-        {
-          "choiceLabel": "D",
-          "reason": "Choice D is attractive because it appears to save time, but it fails this question's control point: matching method and authority to the acquisition phase."
-        }
-      ],
-      "fieldTip": "In live filework, write a one-line rationale tied to FAR 43.102 before routing for signature; it prevents avoidable rework.",
-      "rfoUpdate": "FAR Overhaul is reorganizing presentation, but the decision logic here remains anchored to FAR Part 43."
-    },
-    "explanation": {
-      "whyCorrect": "The keyed answer is correct because it follows FAR Part 43 in the right sequence and preserves an auditable file for the contracting officer.",
-      "keyTakeaway": "Use FAR Part 43 as your primary anchor, then confirm timing and authority.",
-      "commonTrap": "The trap is usually a convenient shortcut that sounds efficient but misses a required pre-action control."
-    },
-    "farRefs": [
-      "FAR 43"
-    ]
-  },
-  {
-    "id": "q022",
-    "stem": "A source selection is underway and the record must support evaluation judgments and award rationale. What is the best contracting action?",
-    "choices": [
-      "Adjust evaluation weighting during source selection to reflect evolving stakeholder preferences.",
-      "Rely on undocumented evaluator impressions instead of recording strengths, weaknesses, and risks.",
-      "Document evaluation findings and tradeoff rationale consistent with FAR 15.3 before award.",
-      "Record only final ratings and omit narrative tradeoff analysis between leading proposals."
-    ],
-    "correctIndex": 2,
-    "topic": "Source Selection",
-    "session": "Session 3",
-    "tags": [
-      "source-selection",
-      "b2b"
-    ],
-    "source": "CON 3910 themed generator",
-    "explanationRich": {
-      "farRefs": {
-        "part": {
-          "cite": "FAR 15.3",
-          "title": "Source Selection",
-          "url": "https://www.acquisition.gov/far/subpart-15.3"
-        },
-        "sections": [
-          {
-            "cite": "FAR 15.308",
-            "title": "Source Selection Decision",
-            "url": "https://www.acquisition.gov/far/15.308"
-          }
-        ],
-        "rfo": [
-          {
-            "cite": "FAR Overhaul Initiative",
-            "title": "RFO/FAR Overhaul Resource Hub",
-            "url": "https://www.acquisition.gov/far-overhaul"
-          }
-        ]
-      },
-      "whatThisTests": "Q022 tests whether you can apply FAR 15.3 to the decision point in the stem without skipping compliance steps.",
-      "decisionSteps": [
-        "Start with FAR 15.3 and identify the exact decision trigger in the stem.",
-        "Discard options that postpone required documentation, approvals, or determinations until after award/action.",
-        "Select the option that keeps legal sufficiency and mission speed in balance."
-      ],
-      "whyCorrect": "The keyed answer is correct because it follows FAR 15.3 in the right sequence and preserves an auditable file for the contracting officer.",
-      "whyWrong": [
-        {
-          "choiceLabel": "A",
-          "reason": "Choice A is attractive because it appears to save time, but it fails this question's control point: documenting the governing authority before action."
-        },
-        {
-          "choiceLabel": "B",
-          "reason": "Choice B is attractive because it appears to save time, but it fails this question's control point: using the correct approval/justification timing."
-        },
-        {
-          "choiceLabel": "D",
-          "reason": "Choice D is attractive because it appears to save time, but it fails this question's control point: matching method and authority to the acquisition phase."
-        }
-      ],
-      "fieldTip": "In live filework, write a one-line rationale tied to FAR 15.308 before routing for signature; it prevents avoidable rework.",
-      "rfoUpdate": "FAR Overhaul is reorganizing presentation, but the decision logic here remains anchored to FAR 15.3."
-    },
-    "explanation": {
-      "whyCorrect": "The keyed answer is correct because it follows FAR 15.3 in the right sequence and preserves an auditable file for the contracting officer.",
-      "keyTakeaway": "Use FAR 15.3 as your primary anchor, then confirm timing and authority.",
-      "commonTrap": "The trap is usually a convenient shortcut that sounds efficient but misses a required pre-action control."
+      "whyCorrect": "The correct answer matches the policy direction in FAR Part 10 and fits both the definition and application context in the question.",
+      "keyTakeaway": "Use FAR Part 10 and FAR 10.001 as your primary anchors for this decision.",
+      "commonTrap": "A distractor often sounds practical but applies the wrong authority, phase, or scope."
     },
     "farRefs": [
       "FAR 15.3"
@@ -1585,14 +1761,14 @@
   },
   {
     "id": "q023",
-    "stem": "The team is deciding whether and how to use commercial-item procedures for a recurring requirement. What is the best contracting action?",
+    "stem": "Of the following types of contracts, which shall not be used in Government contracting?",
     "choices": [
-      "Apply government-unique clauses by default without checking customary commercial practice.",
-      "Use commercial-item procedures while requiring unique redesign elements not sold commercially.",
-      "Validate commercial-item applicability and apply FAR Part 12 procedures using market-based terms.",
-      "Rely only on internal cost estimates instead of market comparability for commercial pricing."
+      "Cost-plus-fixed-fee",
+      "Cost-plus-a-percentage-of-cost",
+      "Cost-plus-award-fee",
+      "Cost-reimbursement"
     ],
-    "correctIndex": 2,
+    "correctIndex": 1,
     "topic": "Commercial Items",
     "session": "Session 2",
     "tags": [
@@ -1603,53 +1779,61 @@
     "explanationRich": {
       "farRefs": {
         "part": {
-          "cite": "FAR Part 12",
-          "title": "Commercial Products and Services",
-          "url": "https://www.acquisition.gov/far/part-12"
+          "cite": "FAR Part 16",
+          "title": "Types of Contracts",
+          "url": "https://www.acquisition.gov/far/part-16"
         },
         "sections": [
           {
-            "cite": "FAR 12.102",
-            "title": "Applicability",
-            "url": "https://www.acquisition.gov/far/12.102"
+            "cite": "FAR 16.102",
+            "title": "Policies",
+            "url": "https://www.acquisition.gov/far/16.102"
           }
         ],
         "rfo": [
           {
-            "cite": "FAR Overhaul Initiative",
-            "title": "RFO/FAR Overhaul Resource Hub",
+            "cite": "FAR Overhaul",
+            "title": "Acquisition.gov FAR Overhaul",
             "url": "https://www.acquisition.gov/far-overhaul"
           }
         ]
       },
-      "whatThisTests": "Q023 tests whether you can apply FAR Part 12 to the decision point in the stem without skipping compliance steps.",
+      "whatThisTests": "Understanding the specific rule and decision standard tested in FAR Part 16 for this basic contracting question.",
       "decisionSteps": [
-        "Start with FAR Part 12 and identify the exact decision trigger in the stem.",
-        "Discard options that postpone required documentation, approvals, or determinations until after award/action.",
-        "Select the option that keeps legal sufficiency and mission speed in balance."
+        "Identify the exact rule being tested in the stem.",
+        "Anchor your decision in FAR Part 16 and the cited section.",
+        "Eliminate options that overstate authority, use the wrong phase, or misstate policy scope."
       ],
-      "whyCorrect": "The keyed answer is correct because it follows FAR Part 12 in the right sequence and preserves an auditable file for the contracting officer.",
+      "whyCorrect": "The correct answer matches the policy direction in FAR Part 16 and fits both the definition and application context in the question.",
       "whyWrong": [
         {
           "choiceLabel": "A",
-          "reason": "Choice A is attractive because it appears to save time, but it fails this question's control point: documenting the governing authority before action."
+          "reason": "Cost-plus-fixed-fee is incorrect here because it conflicts with the governing rule timing, authority, or scope under FAR Part 16."
         },
         {
-          "choiceLabel": "B",
-          "reason": "Choice B is attractive because it appears to save time, but it fails this question's control point: using the correct approval/justification timing."
+          "choiceLabel": "C",
+          "reason": "Cost-plus-award-fee is incorrect here because it conflicts with the governing rule timing, authority, or scope under FAR Part 16."
         },
         {
           "choiceLabel": "D",
-          "reason": "Choice D is attractive because it appears to save time, but it fails this question's control point: matching method and authority to the acquisition phase."
+          "reason": "Cost-reimbursement is incorrect here because it conflicts with the governing rule timing, authority, or scope under FAR Part 16."
         }
       ],
-      "fieldTip": "In live filework, write a one-line rationale tied to FAR 12.102 before routing for signature; it prevents avoidable rework.",
-      "rfoUpdate": "FAR Overhaul is reorganizing presentation, but the decision logic here remains anchored to FAR Part 12."
+      "fieldTip": "When reviewing test items, tie each option to the actual FAR text and ask whether the action is authorized at that point in the process.",
+      "rfoUpdate": {
+        "summary": "No policy conflict for this item under current FAR overhaul framing; use FAR text as primary authority.",
+        "links": [
+          {
+            "label": "FAR Overhaul",
+            "url": "https://www.acquisition.gov/far-overhaul"
+          }
+        ]
+      }
     },
     "explanation": {
-      "whyCorrect": "The keyed answer is correct because it follows FAR Part 12 in the right sequence and preserves an auditable file for the contracting officer.",
-      "keyTakeaway": "Use FAR Part 12 as your primary anchor, then confirm timing and authority.",
-      "commonTrap": "The trap is usually a convenient shortcut that sounds efficient but misses a required pre-action control."
+      "whyCorrect": "The correct answer matches the policy direction in FAR Part 16 and fits both the definition and application context in the question.",
+      "keyTakeaway": "Use FAR Part 16 and FAR 16.102 as your primary anchors for this decision.",
+      "commonTrap": "A distractor often sounds practical but applies the wrong authority, phase, or scope."
     },
     "farRefs": [
       "FAR 12"
@@ -1657,14 +1841,14 @@
   },
   {
     "id": "q024",
-    "stem": "During acquisition planning, the team must select a contract type that appropriately allocates performance and cost risk. What is the best contracting action?",
+    "stem": "When can a time-and-materials (T&M) contract be used?",
     "choices": [
-      "Choose firm-fixed-price for unstable requirements mainly to reduce administrative workload.",
-      "Select the contract type under FAR Part 16 based on requirement uncertainty and risk allocation.",
-      "Use cost-reimbursement before confirming accounting adequacy and surveillance capability.",
-      "Reuse the prior contract type by default even when technical and cost risk changed materially."
+      "A T&M contract is best used on construction projects that require extensive materials",
+      "A T&M contract shall be used only when DCAA has conducted an audit of the labor and material for the acquisition",
+      "A T&M contract may be used only when it is not possible at the time of placing the contract to estimate accurately the extent or duration of the work or to anticipate costs",
+      "A T&M contract shall only be used on personal service contracts"
     ],
-    "correctIndex": 1,
+    "correctIndex": 2,
     "topic": "Contract Types",
     "session": "Session 2",
     "tags": [
@@ -1681,47 +1865,55 @@
         },
         "sections": [
           {
-            "cite": "FAR 16.103",
-            "title": "Negotiating Contract Type",
-            "url": "https://www.acquisition.gov/far/16.103"
+            "cite": "FAR 16.601",
+            "title": "Time-and-materials contracts",
+            "url": "https://www.acquisition.gov/far/16.601"
           }
         ],
         "rfo": [
           {
-            "cite": "FAR Overhaul Initiative",
-            "title": "RFO/FAR Overhaul Resource Hub",
+            "cite": "FAR Overhaul",
+            "title": "Acquisition.gov FAR Overhaul",
             "url": "https://www.acquisition.gov/far-overhaul"
           }
         ]
       },
-      "whatThisTests": "Q024 tests whether you can apply FAR Part 16 to the decision point in the stem without skipping compliance steps.",
+      "whatThisTests": "Understanding the specific rule and decision standard tested in FAR Part 16 for this basic contracting question.",
       "decisionSteps": [
-        "Start with FAR Part 16 and identify the exact decision trigger in the stem.",
-        "Discard options that postpone required documentation, approvals, or determinations until after award/action.",
-        "Select the option that keeps legal sufficiency and mission speed in balance."
+        "Identify the exact rule being tested in the stem.",
+        "Anchor your decision in FAR Part 16 and the cited section.",
+        "Eliminate options that overstate authority, use the wrong phase, or misstate policy scope."
       ],
-      "whyCorrect": "The keyed answer is correct because it follows FAR Part 16 in the right sequence and preserves an auditable file for the contracting officer.",
+      "whyCorrect": "The correct answer matches the policy direction in FAR Part 16 and fits both the definition and application context in the question.",
       "whyWrong": [
         {
           "choiceLabel": "A",
-          "reason": "Choice A is attractive because it appears to save time, but it fails this question's control point: documenting the governing authority before action."
+          "reason": "A T&M contract is best used on construction projects that require extensive materials is incorrect here because it conflicts with the governing rule timing, authority, or scope under FAR Part 16."
         },
         {
-          "choiceLabel": "C",
-          "reason": "Choice C is attractive because it appears to save time, but it fails this question's control point: using the correct approval/justification timing."
+          "choiceLabel": "B",
+          "reason": "A T&M contract shall be used only when DCAA has conducted an audit of the labor and material for the acquisition is incorrect here because it conflicts with the governing rule timing, authority, or scope under FAR Part 16."
         },
         {
           "choiceLabel": "D",
-          "reason": "Choice D is attractive because it appears to save time, but it fails this question's control point: matching method and authority to the acquisition phase."
+          "reason": "A T&M contract shall only be used on personal service contracts is incorrect here because it conflicts with the governing rule timing, authority, or scope under FAR Part 16."
         }
       ],
-      "fieldTip": "In live filework, write a one-line rationale tied to FAR 16.103 before routing for signature; it prevents avoidable rework.",
-      "rfoUpdate": "FAR Overhaul is reorganizing presentation, but the decision logic here remains anchored to FAR Part 16."
+      "fieldTip": "When reviewing test items, tie each option to the actual FAR text and ask whether the action is authorized at that point in the process.",
+      "rfoUpdate": {
+        "summary": "No policy conflict for this item under current FAR overhaul framing; use FAR text as primary authority.",
+        "links": [
+          {
+            "label": "FAR Overhaul",
+            "url": "https://www.acquisition.gov/far-overhaul"
+          }
+        ]
+      }
     },
     "explanation": {
-      "whyCorrect": "The keyed answer is correct because it follows FAR Part 16 in the right sequence and preserves an auditable file for the contracting officer.",
-      "keyTakeaway": "Use FAR Part 16 as your primary anchor, then confirm timing and authority.",
-      "commonTrap": "The trap is usually a convenient shortcut that sounds efficient but misses a required pre-action control."
+      "whyCorrect": "The correct answer matches the policy direction in FAR Part 16 and fits both the definition and application context in the question.",
+      "keyTakeaway": "Use FAR Part 16 and FAR 16.601 as your primary anchors for this decision.",
+      "commonTrap": "A distractor often sounds practical but applies the wrong authority, phase, or scope."
     },
     "farRefs": [
       "FAR 16"
@@ -1729,14 +1921,14 @@
   },
   {
     "id": "q025",
-    "stem": "Before finalizing an acquisition strategy, the team must confirm available sources, capabilities, and market conditions for the requirement. What is the best contracting action?",
+    "stem": "What underlying principle should the contracting officer follow to avoid organizational conflicts of interest?",
     "choices": [
-      "Reuse prior-year vendor assumptions without validating current market capability or pricing conditions.",
-      "Issue the solicitation first and collect market research documentation only if protest risk increases.",
-      "Document current market research findings under FAR Part 10 before finalizing the acquisition approach.",
-      "Limit outreach to the incumbent because continuity concerns outweigh pre-award market analysis."
+      "Prevent sole source follow-on acquisitions",
+      "Prevent contractor teaming arrangements",
+      "Prevent the use of proprietary information in award considerations",
+      "Prevent unfair competitive advantage"
     ],
-    "correctIndex": 2,
+    "correctIndex": 3,
     "topic": "Market Research",
     "session": "Session 1",
     "tags": [
@@ -1747,53 +1939,61 @@
     "explanationRich": {
       "farRefs": {
         "part": {
-          "cite": "FAR Part 10",
-          "title": "Market Research",
-          "url": "https://www.acquisition.gov/far/part-10"
+          "cite": "FAR Part 9",
+          "title": "Contractor Qualifications",
+          "url": "https://www.acquisition.gov/far/part-9"
         },
         "sections": [
           {
-            "cite": "FAR 10.001",
-            "title": "Policy",
-            "url": "https://www.acquisition.gov/far/10.001"
+            "cite": "FAR 9.505",
+            "title": "General rules",
+            "url": "https://www.acquisition.gov/far/9.505"
           }
         ],
         "rfo": [
           {
-            "cite": "FAR Overhaul Initiative",
-            "title": "RFO/FAR Overhaul Resource Hub",
+            "cite": "FAR Overhaul",
+            "title": "Acquisition.gov FAR Overhaul",
             "url": "https://www.acquisition.gov/far-overhaul"
           }
         ]
       },
-      "whatThisTests": "Q025 tests whether you can apply FAR Part 10 to the decision point in the stem without skipping compliance steps.",
+      "whatThisTests": "Understanding the specific rule and decision standard tested in FAR Part 9 for this basic contracting question.",
       "decisionSteps": [
-        "Start with FAR Part 10 and identify the exact decision trigger in the stem.",
-        "Discard options that postpone required documentation, approvals, or determinations until after award/action.",
-        "Select the option that keeps legal sufficiency and mission speed in balance."
+        "Identify the exact rule being tested in the stem.",
+        "Anchor your decision in FAR Part 9 and the cited section.",
+        "Eliminate options that overstate authority, use the wrong phase, or misstate policy scope."
       ],
-      "whyCorrect": "The keyed answer is correct because it follows FAR Part 10 in the right sequence and preserves an auditable file for the contracting officer.",
+      "whyCorrect": "The correct answer matches the policy direction in FAR Part 9 and fits both the definition and application context in the question.",
       "whyWrong": [
         {
           "choiceLabel": "A",
-          "reason": "Choice A is attractive because it appears to save time, but it fails this question's control point: documenting the governing authority before action."
+          "reason": "Prevent sole source follow-on acquisitions is incorrect here because it conflicts with the governing rule timing, authority, or scope under FAR Part 9."
         },
         {
           "choiceLabel": "B",
-          "reason": "Choice B is attractive because it appears to save time, but it fails this question's control point: using the correct approval/justification timing."
+          "reason": "Prevent contractor teaming arrangements is incorrect here because it conflicts with the governing rule timing, authority, or scope under FAR Part 9."
         },
         {
-          "choiceLabel": "D",
-          "reason": "Choice D is attractive because it appears to save time, but it fails this question's control point: matching method and authority to the acquisition phase."
+          "choiceLabel": "C",
+          "reason": "Prevent the use of proprietary information in award considerations is incorrect here because it conflicts with the governing rule timing, authority, or scope under FAR Part 9."
         }
       ],
-      "fieldTip": "In live filework, write a one-line rationale tied to FAR 10.001 before routing for signature; it prevents avoidable rework.",
-      "rfoUpdate": "FAR Overhaul is reorganizing presentation, but the decision logic here remains anchored to FAR Part 10."
+      "fieldTip": "When reviewing test items, tie each option to the actual FAR text and ask whether the action is authorized at that point in the process.",
+      "rfoUpdate": {
+        "summary": "No policy conflict for this item under current FAR overhaul framing; use FAR text as primary authority.",
+        "links": [
+          {
+            "label": "FAR Overhaul",
+            "url": "https://www.acquisition.gov/far-overhaul"
+          }
+        ]
+      }
     },
     "explanation": {
-      "whyCorrect": "The keyed answer is correct because it follows FAR Part 10 in the right sequence and preserves an auditable file for the contracting officer.",
-      "keyTakeaway": "Use FAR Part 10 as your primary anchor, then confirm timing and authority.",
-      "commonTrap": "The trap is usually a convenient shortcut that sounds efficient but misses a required pre-action control."
+      "whyCorrect": "The correct answer matches the policy direction in FAR Part 9 and fits both the definition and application context in the question.",
+      "keyTakeaway": "Use FAR Part 9 and FAR 9.505 as your primary anchors for this decision.",
+      "commonTrap": "A distractor often sounds practical but applies the wrong authority, phase, or scope."
     },
     "farRefs": [
       "FAR 10"
@@ -1801,162 +2001,18 @@
   },
   {
     "id": "q026",
-    "stem": "An acquisition plan is being drafted and the team must decide how to satisfy competition requirements before award decisions are made. What is the best contracting action?",
+    "stem": "Terms that address specific types of exchanges with offerors after receipt of proposals include:",
     "choices": [
-      "Restrict sources to known contractors first and justify limiting competition after proposal receipt.",
-      "Promote full and open competition and document any authorized exception before award under FAR Part 6.",
-      "Use urgency as a default basis to narrow competition without preparing the required approval package.",
-      "Adopt a brand-name-only strategy immediately and defer the justification until contract administration."
+      "Communications, discussions, and clarifications",
+      "Discussions, explanations, and communications",
+      "Clarifications, discussions, and explanations",
+      "Conversations, clarifications, and discussions"
     ],
-    "correctIndex": 1,
+    "correctIndex": 0,
     "topic": "Competition",
     "session": "Session 1",
     "tags": [
       "competition",
-      "b2b"
-    ],
-    "source": "CON 3910 themed generator",
-    "explanationRich": {
-      "farRefs": {
-        "part": {
-          "cite": "FAR Part 6",
-          "title": "Competition Requirements",
-          "url": "https://www.acquisition.gov/far/part-6"
-        },
-        "sections": [
-          {
-            "cite": "FAR 6.101",
-            "title": "Policy",
-            "url": "https://www.acquisition.gov/far/6.101"
-          }
-        ],
-        "rfo": [
-          {
-            "cite": "FAR Overhaul Initiative",
-            "title": "RFO/FAR Overhaul Resource Hub",
-            "url": "https://www.acquisition.gov/far-overhaul"
-          }
-        ]
-      },
-      "whatThisTests": "Q026 tests whether you can apply FAR Part 6 to the decision point in the stem without skipping compliance steps.",
-      "decisionSteps": [
-        "Start with FAR Part 6 and identify the exact decision trigger in the stem.",
-        "Discard options that postpone required documentation, approvals, or determinations until after award/action.",
-        "Select the option that keeps legal sufficiency and mission speed in balance."
-      ],
-      "whyCorrect": "The keyed answer is correct because it follows FAR Part 6 in the right sequence and preserves an auditable file for the contracting officer.",
-      "whyWrong": [
-        {
-          "choiceLabel": "A",
-          "reason": "Choice A is attractive because it appears to save time, but it fails this question's control point: documenting the governing authority before action."
-        },
-        {
-          "choiceLabel": "C",
-          "reason": "Choice C is attractive because it appears to save time, but it fails this question's control point: using the correct approval/justification timing."
-        },
-        {
-          "choiceLabel": "D",
-          "reason": "Choice D is attractive because it appears to save time, but it fails this question's control point: matching method and authority to the acquisition phase."
-        }
-      ],
-      "fieldTip": "In live filework, write a one-line rationale tied to FAR 6.101 before routing for signature; it prevents avoidable rework.",
-      "rfoUpdate": "FAR Overhaul is reorganizing presentation, but the decision logic here remains anchored to FAR Part 6."
-    },
-    "explanation": {
-      "whyCorrect": "The keyed answer is correct because it follows FAR Part 6 in the right sequence and preserves an auditable file for the contracting officer.",
-      "keyTakeaway": "Use FAR Part 6 as your primary anchor, then confirm timing and authority.",
-      "commonTrap": "The trap is usually a convenient shortcut that sounds efficient but misses a required pre-action control."
-    },
-    "farRefs": [
-      "FAR 6"
-    ]
-  },
-  {
-    "id": "q027",
-    "stem": "A buyer is preparing a lower-dollar procurement and must determine how to apply simplified acquisition procedures correctly. What is the best contracting action?",
-    "choices": [
-      "Use FAR Part 13 thresholds, solicitation methods, and documentation requirements before award.",
-      "Use simplified procedures above applicable thresholds when mission timelines are compressed.",
-      "Solicit one vendor and complete price reasonableness documentation after performance starts.",
-      "Bundle unrelated requirements solely to keep the buy inside a preferred simplified path."
-    ],
-    "correctIndex": 0,
-    "topic": "Simplified Acquisition",
-    "session": "Session 2",
-    "tags": [
-      "simplified-acquisition",
-      "b2b"
-    ],
-    "source": "CON 3910 themed generator",
-    "explanationRich": {
-      "farRefs": {
-        "part": {
-          "cite": "FAR Part 13",
-          "title": "Simplified Acquisition Procedures",
-          "url": "https://www.acquisition.gov/far/part-13"
-        },
-        "sections": [
-          {
-            "cite": "FAR 13.003",
-            "title": "Policy",
-            "url": "https://www.acquisition.gov/far/13.003"
-          }
-        ],
-        "rfo": [
-          {
-            "cite": "FAR Overhaul Initiative",
-            "title": "RFO/FAR Overhaul Resource Hub",
-            "url": "https://www.acquisition.gov/far-overhaul"
-          }
-        ]
-      },
-      "whatThisTests": "Q027 tests whether you can apply FAR Part 13 to the decision point in the stem without skipping compliance steps.",
-      "decisionSteps": [
-        "Start with FAR Part 13 and identify the exact decision trigger in the stem.",
-        "Discard options that postpone required documentation, approvals, or determinations until after award/action.",
-        "Select the option that keeps legal sufficiency and mission speed in balance."
-      ],
-      "whyCorrect": "The keyed answer is correct because it follows FAR Part 13 in the right sequence and preserves an auditable file for the contracting officer.",
-      "whyWrong": [
-        {
-          "choiceLabel": "B",
-          "reason": "Choice B is attractive because it appears to save time, but it fails this question's control point: documenting the governing authority before action."
-        },
-        {
-          "choiceLabel": "C",
-          "reason": "Choice C is attractive because it appears to save time, but it fails this question's control point: using the correct approval/justification timing."
-        },
-        {
-          "choiceLabel": "D",
-          "reason": "Choice D is attractive because it appears to save time, but it fails this question's control point: matching method and authority to the acquisition phase."
-        }
-      ],
-      "fieldTip": "In live filework, write a one-line rationale tied to FAR 13.003 before routing for signature; it prevents avoidable rework.",
-      "rfoUpdate": "FAR Overhaul is reorganizing presentation, but the decision logic here remains anchored to FAR Part 13."
-    },
-    "explanation": {
-      "whyCorrect": "The keyed answer is correct because it follows FAR Part 13 in the right sequence and preserves an auditable file for the contracting officer.",
-      "keyTakeaway": "Use FAR Part 13 as your primary anchor, then confirm timing and authority.",
-      "commonTrap": "The trap is usually a convenient shortcut that sounds efficient but misses a required pre-action control."
-    },
-    "farRefs": [
-      "FAR 13"
-    ]
-  },
-  {
-    "id": "q028",
-    "stem": "The contracting office is running a negotiated procurement and must follow evaluation and discussion rules for a defensible award. What is the best contracting action?",
-    "choices": [
-      "Begin discussions before finalizing evaluation factors and competitive-range documentation.",
-      "Select the lowest-priced offer without documenting how non-price factors were applied.",
-      "Share one offeror’s pricing position with another to accelerate final proposal revisions.",
-      "Establish and follow FAR Part 15 evaluation, discussion, and award documentation procedures."
-    ],
-    "correctIndex": 3,
-    "topic": "Contracting by Negotiation",
-    "session": "Session 3",
-    "tags": [
-      "contracting-by-negotiation",
       "b2b"
     ],
     "source": "CON 3910 themed generator",
@@ -1970,46 +2026,214 @@
         "sections": [
           {
             "cite": "FAR 15.306",
-            "title": "Exchanges with Offerors",
+            "title": "Exchanges with offerors",
             "url": "https://www.acquisition.gov/far/15.306"
           }
         ],
         "rfo": [
           {
-            "cite": "FAR Overhaul Initiative",
-            "title": "RFO/FAR Overhaul Resource Hub",
+            "cite": "FAR Overhaul",
+            "title": "Acquisition.gov FAR Overhaul",
             "url": "https://www.acquisition.gov/far-overhaul"
           }
         ]
       },
-      "whatThisTests": "Q028 tests whether you can apply FAR Part 15 to the decision point in the stem without skipping compliance steps.",
+      "whatThisTests": "Understanding the specific rule and decision standard tested in FAR Part 15 for this basic contracting question.",
       "decisionSteps": [
-        "Start with FAR Part 15 and identify the exact decision trigger in the stem.",
-        "Discard options that postpone required documentation, approvals, or determinations until after award/action.",
-        "Select the option that keeps legal sufficiency and mission speed in balance."
+        "Identify the exact rule being tested in the stem.",
+        "Anchor your decision in FAR Part 15 and the cited section.",
+        "Eliminate options that overstate authority, use the wrong phase, or misstate policy scope."
       ],
-      "whyCorrect": "The keyed answer is correct because it follows FAR Part 15 in the right sequence and preserves an auditable file for the contracting officer.",
+      "whyCorrect": "The correct answer matches the policy direction in FAR Part 15 and fits both the definition and application context in the question.",
       "whyWrong": [
         {
-          "choiceLabel": "A",
-          "reason": "Choice A is attractive because it appears to save time, but it fails this question's control point: documenting the governing authority before action."
-        },
-        {
           "choiceLabel": "B",
-          "reason": "Choice B is attractive because it appears to save time, but it fails this question's control point: using the correct approval/justification timing."
+          "reason": "Discussions, explanations, and communications is incorrect here because it conflicts with the governing rule timing, authority, or scope under FAR Part 15."
         },
         {
           "choiceLabel": "C",
-          "reason": "Choice C is attractive because it appears to save time, but it fails this question's control point: matching method and authority to the acquisition phase."
+          "reason": "Clarifications, discussions, and explanations is incorrect here because it conflicts with the governing rule timing, authority, or scope under FAR Part 15."
+        },
+        {
+          "choiceLabel": "D",
+          "reason": "Conversations, clarifications, and discussions is incorrect here because it conflicts with the governing rule timing, authority, or scope under FAR Part 15."
         }
       ],
-      "fieldTip": "In live filework, write a one-line rationale tied to FAR 15.306 before routing for signature; it prevents avoidable rework.",
-      "rfoUpdate": "FAR Overhaul is reorganizing presentation, but the decision logic here remains anchored to FAR Part 15."
+      "fieldTip": "When reviewing test items, tie each option to the actual FAR text and ask whether the action is authorized at that point in the process.",
+      "rfoUpdate": {
+        "summary": "No policy conflict for this item under current FAR overhaul framing; use FAR text as primary authority.",
+        "links": [
+          {
+            "label": "FAR Overhaul",
+            "url": "https://www.acquisition.gov/far-overhaul"
+          }
+        ]
+      }
     },
     "explanation": {
-      "whyCorrect": "The keyed answer is correct because it follows FAR Part 15 in the right sequence and preserves an auditable file for the contracting officer.",
-      "keyTakeaway": "Use FAR Part 15 as your primary anchor, then confirm timing and authority.",
-      "commonTrap": "The trap is usually a convenient shortcut that sounds efficient but misses a required pre-action control."
+      "whyCorrect": "The correct answer matches the policy direction in FAR Part 15 and fits both the definition and application context in the question.",
+      "keyTakeaway": "Use FAR Part 15 and FAR 15.306 as your primary anchors for this decision.",
+      "commonTrap": "A distractor often sounds practical but applies the wrong authority, phase, or scope."
+    },
+    "farRefs": [
+      "FAR 6"
+    ]
+  },
+  {
+    "id": "q027",
+    "stem": "With limited exceptions as authorized by agency regulations, what does the FAR say about Government employees soliciting and accepting gifts from contractors? Government employees:",
+    "choices": [
+      "May solicit and accept gifts if in accordance with commercial business practices",
+      "May solicit and accept gifts in overseas countries where bribery is legal",
+      "May not solicit or accept gifts",
+      "May not solicit gifts, but may accept gifts if their performance exceeds standards"
+    ],
+    "correctIndex": 2,
+    "topic": "Simplified Acquisition",
+    "session": "Session 2",
+    "tags": [
+      "simplified-acquisition",
+      "b2b"
+    ],
+    "source": "CON 3910 themed generator",
+    "explanationRich": {
+      "farRefs": {
+        "part": {
+          "cite": "FAR Part 3",
+          "title": "Improper Business Practices",
+          "url": "https://www.acquisition.gov/far/part-3"
+        },
+        "sections": [
+          {
+            "cite": "FAR 3.101-2",
+            "title": "Solicitation and acceptance of gratuities",
+            "url": "https://www.acquisition.gov/far/3.101-2"
+          }
+        ],
+        "rfo": [
+          {
+            "cite": "FAR Overhaul",
+            "title": "Acquisition.gov FAR Overhaul",
+            "url": "https://www.acquisition.gov/far-overhaul"
+          }
+        ]
+      },
+      "whatThisTests": "Understanding the specific rule and decision standard tested in FAR Part 3 for this basic contracting question.",
+      "decisionSteps": [
+        "Identify the exact rule being tested in the stem.",
+        "Anchor your decision in FAR Part 3 and the cited section.",
+        "Eliminate options that overstate authority, use the wrong phase, or misstate policy scope."
+      ],
+      "whyCorrect": "The correct answer matches the policy direction in FAR Part 3 and fits both the definition and application context in the question.",
+      "whyWrong": [
+        {
+          "choiceLabel": "A",
+          "reason": "May solicit and accept gifts if in accordance with commercial business practices is incorrect here because it conflicts with the governing rule timing, authority, or scope under FAR Part 3."
+        },
+        {
+          "choiceLabel": "B",
+          "reason": "May solicit and accept gifts in overseas countries where bribery is legal is incorrect here because it conflicts with the governing rule timing, authority, or scope under FAR Part 3."
+        },
+        {
+          "choiceLabel": "D",
+          "reason": "May not solicit gifts, but may accept gifts if their performance exceeds standards is incorrect here because it conflicts with the governing rule timing, authority, or scope under FAR Part 3."
+        }
+      ],
+      "fieldTip": "When reviewing test items, tie each option to the actual FAR text and ask whether the action is authorized at that point in the process.",
+      "rfoUpdate": {
+        "summary": "No policy conflict for this item under current FAR overhaul framing; use FAR text as primary authority.",
+        "links": [
+          {
+            "label": "FAR Overhaul",
+            "url": "https://www.acquisition.gov/far-overhaul"
+          }
+        ]
+      }
+    },
+    "explanation": {
+      "whyCorrect": "The correct answer matches the policy direction in FAR Part 3 and fits both the definition and application context in the question.",
+      "keyTakeaway": "Use FAR Part 3 and FAR 3.101-2 as your primary anchors for this decision.",
+      "commonTrap": "A distractor often sounds practical but applies the wrong authority, phase, or scope."
+    },
+    "farRefs": [
+      "FAR 13"
+    ]
+  },
+  {
+    "id": "q028",
+    "stem": "What is the general guidance provided by the FAR for contractor bid or proposal information?",
+    "choices": [
+      "It may not be disclosed to anyone unless they are authorized to receive it",
+      "It may only be disclosed to those authorized to receive it and their supervisors",
+      "It may be disclosed to anyone with the appropriate security clearance level",
+      "It may not be disclosed to anyone outside the agency"
+    ],
+    "correctIndex": 0,
+    "topic": "Contracting by Negotiation",
+    "session": "Session 3",
+    "tags": [
+      "contracting-by-negotiation",
+      "b2b"
+    ],
+    "source": "CON 3910 themed generator",
+    "explanationRich": {
+      "farRefs": {
+        "part": {
+          "cite": "FAR Part 3",
+          "title": "Improper Business Practices",
+          "url": "https://www.acquisition.gov/far/part-3"
+        },
+        "sections": [
+          {
+            "cite": "FAR 3.104-4",
+            "title": "Disclosure, protection, and marking",
+            "url": "https://www.acquisition.gov/far/3.104-4"
+          }
+        ],
+        "rfo": [
+          {
+            "cite": "FAR Overhaul",
+            "title": "Acquisition.gov FAR Overhaul",
+            "url": "https://www.acquisition.gov/far-overhaul"
+          }
+        ]
+      },
+      "whatThisTests": "Understanding the specific rule and decision standard tested in FAR Part 3 for this basic contracting question.",
+      "decisionSteps": [
+        "Identify the exact rule being tested in the stem.",
+        "Anchor your decision in FAR Part 3 and the cited section.",
+        "Eliminate options that overstate authority, use the wrong phase, or misstate policy scope."
+      ],
+      "whyCorrect": "The correct answer matches the policy direction in FAR Part 3 and fits both the definition and application context in the question.",
+      "whyWrong": [
+        {
+          "choiceLabel": "B",
+          "reason": "It may only be disclosed to those authorized to receive it and their supervisors is incorrect here because it conflicts with the governing rule timing, authority, or scope under FAR Part 3."
+        },
+        {
+          "choiceLabel": "C",
+          "reason": "It may be disclosed to anyone with the appropriate security clearance level is incorrect here because it conflicts with the governing rule timing, authority, or scope under FAR Part 3."
+        },
+        {
+          "choiceLabel": "D",
+          "reason": "It may not be disclosed to anyone outside the agency is incorrect here because it conflicts with the governing rule timing, authority, or scope under FAR Part 3."
+        }
+      ],
+      "fieldTip": "When reviewing test items, tie each option to the actual FAR text and ask whether the action is authorized at that point in the process.",
+      "rfoUpdate": {
+        "summary": "No policy conflict for this item under current FAR overhaul framing; use FAR text as primary authority.",
+        "links": [
+          {
+            "label": "FAR Overhaul",
+            "url": "https://www.acquisition.gov/far-overhaul"
+          }
+        ]
+      }
+    },
+    "explanation": {
+      "whyCorrect": "The correct answer matches the policy direction in FAR Part 3 and fits both the definition and application context in the question.",
+      "keyTakeaway": "Use FAR Part 3 and FAR 3.104-4 as your primary anchors for this decision.",
+      "commonTrap": "A distractor often sounds practical but applies the wrong authority, phase, or scope."
     },
     "farRefs": [
       "FAR 15"
@@ -2017,12 +2241,12 @@
   },
   {
     "id": "q029",
-    "stem": "Post-award changes are being requested and the contracting team must choose the correct modification approach and authority. What is the best contracting action?",
+    "stem": "With few exceptions, which one of the following statements is true regarding awarding contracts to U.S. Government employees?",
     "choices": [
-      "Direct out-of-scope work first and negotiate the modification terms after contractor performance begins.",
-      "Use unilateral administrative-change authority for substantive scope expansion without bilateral agreement.",
-      "Treat all post-award changes as in-scope whenever schedule urgency is mission critical.",
-      "Use FAR Part 43 modification authority and document scope, funding, and pricing before directing work."
+      "A contracting officer shall not knowingly award a contract to a Government employee unless the purchase amount is less than the micro-purchase threshold",
+      "A Government employee can receive a Government contract",
+      "A Government employee can receive a Government contract as long as they have incorporated",
+      "A contracting officer shall not knowingly award a contract to a Government employee"
     ],
     "correctIndex": 3,
     "topic": "Contract Modifications",
@@ -2035,53 +2259,61 @@
     "explanationRich": {
       "farRefs": {
         "part": {
-          "cite": "FAR Part 43",
-          "title": "Contract Modifications",
-          "url": "https://www.acquisition.gov/far/part-43"
+          "cite": "FAR Part 3",
+          "title": "Improper Business Practices",
+          "url": "https://www.acquisition.gov/far/part-3"
         },
         "sections": [
           {
-            "cite": "FAR 43.102",
+            "cite": "FAR 3.601",
             "title": "Policy",
-            "url": "https://www.acquisition.gov/far/43.102"
+            "url": "https://www.acquisition.gov/far/3.601"
           }
         ],
         "rfo": [
           {
-            "cite": "FAR Overhaul Initiative",
-            "title": "RFO/FAR Overhaul Resource Hub",
+            "cite": "FAR Overhaul",
+            "title": "Acquisition.gov FAR Overhaul",
             "url": "https://www.acquisition.gov/far-overhaul"
           }
         ]
       },
-      "whatThisTests": "Q029 tests whether you can apply FAR Part 43 to the decision point in the stem without skipping compliance steps.",
+      "whatThisTests": "Understanding the specific rule and decision standard tested in FAR Part 3 for this basic contracting question.",
       "decisionSteps": [
-        "Start with FAR Part 43 and identify the exact decision trigger in the stem.",
-        "Discard options that postpone required documentation, approvals, or determinations until after award/action.",
-        "Select the option that keeps legal sufficiency and mission speed in balance."
+        "Identify the exact rule being tested in the stem.",
+        "Anchor your decision in FAR Part 3 and the cited section.",
+        "Eliminate options that overstate authority, use the wrong phase, or misstate policy scope."
       ],
-      "whyCorrect": "The keyed answer is correct because it follows FAR Part 43 in the right sequence and preserves an auditable file for the contracting officer.",
+      "whyCorrect": "The correct answer matches the policy direction in FAR Part 3 and fits both the definition and application context in the question.",
       "whyWrong": [
         {
           "choiceLabel": "A",
-          "reason": "Choice A is attractive because it appears to save time, but it fails this question's control point: documenting the governing authority before action."
+          "reason": "A contracting officer shall not knowingly award a contract to a Government employee unless the purchase amount is less than the micro-purchase threshold is incorrect here because it conflicts with the governing rule timing, authority, or scope under FAR Part 3."
         },
         {
           "choiceLabel": "B",
-          "reason": "Choice B is attractive because it appears to save time, but it fails this question's control point: using the correct approval/justification timing."
+          "reason": "A Government employee can receive a Government contract is incorrect here because it conflicts with the governing rule timing, authority, or scope under FAR Part 3."
         },
         {
           "choiceLabel": "C",
-          "reason": "Choice C is attractive because it appears to save time, but it fails this question's control point: matching method and authority to the acquisition phase."
+          "reason": "A Government employee can receive a Government contract as long as they have incorporated is incorrect here because it conflicts with the governing rule timing, authority, or scope under FAR Part 3."
         }
       ],
-      "fieldTip": "In live filework, write a one-line rationale tied to FAR 43.102 before routing for signature; it prevents avoidable rework.",
-      "rfoUpdate": "FAR Overhaul is reorganizing presentation, but the decision logic here remains anchored to FAR Part 43."
+      "fieldTip": "When reviewing test items, tie each option to the actual FAR text and ask whether the action is authorized at that point in the process.",
+      "rfoUpdate": {
+        "summary": "No policy conflict for this item under current FAR overhaul framing; use FAR text as primary authority.",
+        "links": [
+          {
+            "label": "FAR Overhaul",
+            "url": "https://www.acquisition.gov/far-overhaul"
+          }
+        ]
+      }
     },
     "explanation": {
-      "whyCorrect": "The keyed answer is correct because it follows FAR Part 43 in the right sequence and preserves an auditable file for the contracting officer.",
-      "keyTakeaway": "Use FAR Part 43 as your primary anchor, then confirm timing and authority.",
-      "commonTrap": "The trap is usually a convenient shortcut that sounds efficient but misses a required pre-action control."
+      "whyCorrect": "The correct answer matches the policy direction in FAR Part 3 and fits both the definition and application context in the question.",
+      "keyTakeaway": "Use FAR Part 3 and FAR 3.601 as your primary anchors for this decision.",
+      "commonTrap": "A distractor often sounds practical but applies the wrong authority, phase, or scope."
     },
     "farRefs": [
       "FAR 43"
@@ -2089,12 +2321,12 @@
   },
   {
     "id": "q030",
-    "stem": "A source selection is underway and the record must support evaluation judgments and award rationale. What is the best contracting action?",
+    "stem": "Which of the following would represent, or potentially represent, an organizational conflict of interest (OCI)?",
     "choices": [
-      "Adjust evaluation weighting during source selection to reflect evolving stakeholder preferences.",
-      "Document evaluation findings and tradeoff rationale consistent with FAR 15.3 before award.",
-      "Rely on undocumented evaluator impressions instead of recording strengths, weaknesses, and risks.",
-      "Record only final ratings and omit narrative tradeoff analysis between leading proposals."
+      "A contractor (contractor X) is hired to develop and produce a particular product for the Government that currently does not exist. In developing the product, the contractor uses its own proprietary methods.",
+      "An engineering support contractor (contractor A) is hired to assist in the development of Government specifications for a new requirement. Contractor A writes the specifications in such a way as to require the Government's use of contractor A's proprietary processes even though there are other solutions.",
+      "A contractor (contractor X) is hired to fill an order of 50 widgets. In filling the order, the contractor supplies its own proprietary product.",
+      "An engineering support contractor (contractor A) is hired to develop specifications for a new requirement. Contractor A writes the specifications and does not later submit a proposal in response to an RFP for the new requirement."
     ],
     "correctIndex": 1,
     "topic": "Source Selection",
@@ -2107,53 +2339,61 @@
     "explanationRich": {
       "farRefs": {
         "part": {
-          "cite": "FAR 15.3",
-          "title": "Source Selection",
-          "url": "https://www.acquisition.gov/far/subpart-15.3"
+          "cite": "FAR Part 9",
+          "title": "Contractor Qualifications",
+          "url": "https://www.acquisition.gov/far/part-9"
         },
         "sections": [
           {
-            "cite": "FAR 15.308",
-            "title": "Source Selection Decision",
-            "url": "https://www.acquisition.gov/far/15.308"
+            "cite": "FAR 9.505-2",
+            "title": "Preparing specifications or work statements",
+            "url": "https://www.acquisition.gov/far/9.505-2"
           }
         ],
         "rfo": [
           {
-            "cite": "FAR Overhaul Initiative",
-            "title": "RFO/FAR Overhaul Resource Hub",
+            "cite": "FAR Overhaul",
+            "title": "Acquisition.gov FAR Overhaul",
             "url": "https://www.acquisition.gov/far-overhaul"
           }
         ]
       },
-      "whatThisTests": "Q030 tests whether you can apply FAR 15.3 to the decision point in the stem without skipping compliance steps.",
+      "whatThisTests": "Understanding the specific rule and decision standard tested in FAR Part 9 for this basic contracting question.",
       "decisionSteps": [
-        "Start with FAR 15.3 and identify the exact decision trigger in the stem.",
-        "Discard options that postpone required documentation, approvals, or determinations until after award/action.",
-        "Select the option that keeps legal sufficiency and mission speed in balance."
+        "Identify the exact rule being tested in the stem.",
+        "Anchor your decision in FAR Part 9 and the cited section.",
+        "Eliminate options that overstate authority, use the wrong phase, or misstate policy scope."
       ],
-      "whyCorrect": "The keyed answer is correct because it follows FAR 15.3 in the right sequence and preserves an auditable file for the contracting officer.",
+      "whyCorrect": "The correct answer matches the policy direction in FAR Part 9 and fits both the definition and application context in the question.",
       "whyWrong": [
         {
           "choiceLabel": "A",
-          "reason": "Choice A is attractive because it appears to save time, but it fails this question's control point: documenting the governing authority before action."
+          "reason": "A contractor (contractor X) is hired to develop and produce a particular product for the Government that currently does not exist. In developing the product, the contractor uses its own proprietary methods. is incorrect here because it conflicts with the governing rule timing, authority, or scope under FAR Part 9."
         },
         {
           "choiceLabel": "C",
-          "reason": "Choice C is attractive because it appears to save time, but it fails this question's control point: using the correct approval/justification timing."
+          "reason": "A contractor (contractor X) is hired to fill an order of 50 widgets. In filling the order, the contractor supplies its own proprietary product. is incorrect here because it conflicts with the governing rule timing, authority, or scope under FAR Part 9."
         },
         {
           "choiceLabel": "D",
-          "reason": "Choice D is attractive because it appears to save time, but it fails this question's control point: matching method and authority to the acquisition phase."
+          "reason": "An engineering support contractor (contractor A) is hired to develop specifications for a new requirement. Contractor A writes the specifications and does not later submit a proposal in response to an RFP for the new requirement. is incorrect here because it conflicts with the governing rule timing, authority, or scope under FAR Part 9."
         }
       ],
-      "fieldTip": "In live filework, write a one-line rationale tied to FAR 15.308 before routing for signature; it prevents avoidable rework.",
-      "rfoUpdate": "FAR Overhaul is reorganizing presentation, but the decision logic here remains anchored to FAR 15.3."
+      "fieldTip": "When reviewing test items, tie each option to the actual FAR text and ask whether the action is authorized at that point in the process.",
+      "rfoUpdate": {
+        "summary": "No policy conflict for this item under current FAR overhaul framing; use FAR text as primary authority.",
+        "links": [
+          {
+            "label": "FAR Overhaul",
+            "url": "https://www.acquisition.gov/far-overhaul"
+          }
+        ]
+      }
     },
     "explanation": {
-      "whyCorrect": "The keyed answer is correct because it follows FAR 15.3 in the right sequence and preserves an auditable file for the contracting officer.",
-      "keyTakeaway": "Use FAR 15.3 as your primary anchor, then confirm timing and authority.",
-      "commonTrap": "The trap is usually a convenient shortcut that sounds efficient but misses a required pre-action control."
+      "whyCorrect": "The correct answer matches the policy direction in FAR Part 9 and fits both the definition and application context in the question.",
+      "keyTakeaway": "Use FAR Part 9 and FAR 9.505-2 as your primary anchors for this decision.",
+      "commonTrap": "A distractor often sounds practical but applies the wrong authority, phase, or scope."
     },
     "farRefs": [
       "FAR 15.3"

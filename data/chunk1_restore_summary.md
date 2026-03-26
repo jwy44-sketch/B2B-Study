@@ -1,6 +1,6 @@
 # Chunk 1 Restore Summary
 
-- Total questions restored: 30 (q001-q030)
-- Scenario contamination removed from regular Learn chunk: yes
-- explanationRich upgraded to preferred style sections: yes
-- Direct Acquisition.gov links included: yes
+- Total questions restored in chunk 1: 30
+- Scenario contamination removed for q001-q030: yes
+- explanationRich restored in rich style: yes
+- Direct Acquisition.gov FAR links added: yes

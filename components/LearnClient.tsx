@@ -159,7 +159,18 @@ export default function LearnClient() {
                 </ul>
                 <p><span className="font-semibold text-slate-100">Field tip:</span> {presented.question.explanationRich.fieldTip}</p>
                 {presented.question.explanationRich.rfoUpdate ? (
-                  <p><span className="font-semibold text-slate-100">RFO Update:</span> {presented.question.explanationRich.rfoUpdate}</p>
+                  <div>
+                    <p><span className="font-semibold text-slate-100">RFO Update:</span> {presented.question.explanationRich.rfoUpdate.summary}</p>
+                    <ul className="list-disc pl-5">
+                      {presented.question.explanationRich.rfoUpdate.links.map((link) => (
+                        <li key={link.url}>
+                          <a href={link.url} target="_blank" rel="noreferrer" className="text-brand underline">
+                            {link.label}
+                          </a>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
                 ) : null}
               </div>
             ) : (
