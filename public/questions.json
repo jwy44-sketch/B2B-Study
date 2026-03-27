@@ -4426,14 +4426,14 @@
   },
   {
     "id": "q061",
-    "stem": "Post-award changes are being requested and the contracting team must choose the correct modification approach and authority. What is the best contracting action?",
+    "stem": "Whenever a contracting officer is required to publicize notice of proposed contract actions in the Governmentwide point of entry (GPE), they must:",
     "choices": [
-      "Direct out-of-scope work first and negotiate the modification terms after contractor performance begins.",
-      "Use unilateral administrative-change authority for substantive scope expansion without bilateral agreement.",
-      "Use FAR Part 43 modification authority and document scope, funding, and pricing before directing work.",
-      "Treat all post-award changes as in-scope whenever schedule urgency is mission critical."
+      "Allow a different response time for each potential offeror in order to promote better competition",
+      "Establish a common response time for all offerors from the date of publication",
+      "Include the independent Government estimate for the requirement",
+      "Include the most current budget for the resulting contract"
     ],
-    "correctIndex": 2,
+    "correctIndex": 1,
     "topic": "Contract Modifications",
     "session": "Session 4",
     "tags": [
@@ -4444,65 +4444,69 @@
     "explanationRich": {
       "farRefs": {
         "part": {
-          "cite": "FAR Part 43",
-          "title": "Contract Modifications",
-          "url": "https://www.acquisition.gov/far/part-43"
+          "cite": "FAR Part 5",
+          "title": "Publicizing Contract Actions",
+          "url": "https://www.acquisition.gov/far/part-5"
         },
         "sections": [
           {
-            "cite": "FAR 43.102",
-            "title": "Policy",
-            "url": "https://www.acquisition.gov/far/43.102"
-          }
-        ],
-        "rfo": [
-          {
-            "cite": "FAR Overhaul Initiative",
-            "title": "RFO/FAR Overhaul Resource Hub",
-            "url": "https://www.acquisition.gov/far-overhaul"
+            "cite": "5.203",
+            "title": "Publicizing and response time",
+            "url": "https://www.acquisition.gov/far/5.203"
           }
         ]
       },
-      "whatThisTests": "Selecting the compliant contract modifications action by applying governing policy, timing, and documentation rules.",
+      "whatThisTests": "Applying FAR Part 5 rules to identify the compliant answer for this specific acquisition scenario.",
       "decisionSteps": [
-        "Identify the governing authority (FAR Part 43) and the specific decision gate in the prompt.",
-        "Eliminate options that defer required approvals, documentation, or scope validation.",
-        "Choose the option that remains compliant while still supporting timely mission execution."
+        "Pinpoint the governing FAR part and the specific section tied to the prompt.",
+        "Eliminate choices that conflict with authority, timing, or documentation rules.",
+        "Select the option that directly matches the cited FAR policy text."
       ],
-      "whyCorrect": "This option directly applies FAR Part 43 requirements and preserves a defensible acquisition record.",
+      "whyCorrect": "Choice B aligns with the FAR rule and the procedural requirement being tested.",
       "whyWrong": [
         {
           "choiceLabel": "A",
-          "reason": "This option is a near-miss because it bypasses or mis-times a required control under FAR Part 43."
+          "reason": "Different deadlines by offeror violate equal treatment and can prejudice competition."
         },
         {
-          "choiceLabel": "B",
-          "reason": "This option is a near-miss because it bypasses or mis-times a required control under FAR Part 43."
+          "choiceLabel": "C",
+          "reason": "IGE disclosure is not a publication-time requirement and can compromise procurement integrity."
         },
         {
           "choiceLabel": "D",
-          "reason": "This option is a near-miss because it bypasses or mis-times a required control under FAR Part 43."
+          "reason": "Budget details are not required as synopsis content for offerors."
         }
       ],
-      "fieldTip": "When pressure increases, cite FAR 43.102 in your file documentation and note any transition context from the FAR Overhaul page."
+      "fieldTip": "On exam items, first identify the FAR trigger (part/section), then test each distractor against that trigger.",
+      "rfoUpdate": {
+        "summary": "As FAR Overhaul progresses, numbering/wording may move, so confirm current citations while preserving policy meaning.",
+        "links": [
+          {
+            "label": "FAR Overhaul (Acquisition.gov)",
+            "url": "https://www.acquisition.gov/far-overhaul"
+          }
+        ]
+      }
     },
     "explanation": {
-      "whyCorrect": "This option directly applies FAR Part 43 requirements and preserves a defensible acquisition record.",
-      "keyTakeaway": "Anchor decisions to FAR Part 43 and document the rationale before award or direction is issued.",
-      "commonTrap": "Do not trade compliance gates for speed; most wrong options delay or skip required acquisition controls."
+      "whyCorrect": "Choice B aligns with the FAR rule and the procedural requirement being tested.",
+      "keyTakeaway": "Applying FAR Part 5 rules to identify the compliant answer for this specific acquisition scenario.",
+      "commonTrap": "Different deadlines by offeror violate equal treatment and can prejudice competition."
     },
     "farRefs": [
-      "FAR 43"
-    ]
+      "FAR Part 5",
+      "5.203"
+    ],
+    "prompt": "Whenever a contracting officer is required to publicize notice of proposed contract actions in the Governmentwide point of entry (GPE), they must:"
   },
   {
     "id": "q062",
-    "stem": "A source selection is underway and the record must support evaluation judgments and award rationale. What is the best contracting action?",
+    "stem": "One day after publicizing and releasing a solicitation, the contracting officer realizes that the contract line items need to be reorganized. The contracting officer must:",
     "choices": [
-      "Adjust evaluation weighting during source selection to reflect evolving stakeholder preferences.",
-      "Rely on undocumented evaluator impressions instead of recording strengths, weaknesses, and risks.",
-      "Document evaluation findings and tradeoff rationale consistent with FAR 15.3 before award.",
-      "Record only final ratings and omit narrative tradeoff analysis between leading proposals."
+      "Leave the solicitation as is and plan to modify the contract after award",
+      "Wait to see if offerors have issues with the current contract line-item structure",
+      "Amend the solicitation, changing the contract line item",
+      "Publicize an advisory letter with the new contract line-item structure"
     ],
     "correctIndex": 2,
     "topic": "Source Selection",
@@ -4515,67 +4519,62 @@
     "explanationRich": {
       "farRefs": {
         "part": {
-          "cite": "FAR 15.3",
-          "title": "Source Selection",
-          "url": "https://www.acquisition.gov/far/subpart-15.3"
+          "cite": "FAR Part 15",
+          "title": "Contracting by Negotiation",
+          "url": "https://www.acquisition.gov/far/part-15"
         },
         "sections": [
           {
-            "cite": "FAR 15.308",
-            "title": "Source Selection Decision",
-            "url": "https://www.acquisition.gov/far/15.308"
-          }
-        ],
-        "rfo": [
-          {
-            "cite": "FAR Overhaul Initiative",
-            "title": "RFO/FAR Overhaul Resource Hub",
-            "url": "https://www.acquisition.gov/far-overhaul"
+            "cite": "15.206",
+            "title": "Amending the solicitation",
+            "url": "https://www.acquisition.gov/far/15.206"
           }
         ]
       },
-      "whatThisTests": "Selecting the compliant source selection action by applying governing policy, timing, and documentation rules.",
+      "whatThisTests": "Applying FAR Part 15 rules to identify the compliant answer for this specific acquisition scenario.",
       "decisionSteps": [
-        "Identify the governing authority (FAR 15.3) and the specific decision gate in the prompt.",
-        "Eliminate options that defer required approvals, documentation, or scope validation.",
-        "Choose the option that remains compliant while still supporting timely mission execution."
+        "Pinpoint the governing FAR part and the specific section tied to the prompt.",
+        "Eliminate choices that conflict with authority, timing, or documentation rules.",
+        "Select the option that directly matches the cited FAR policy text."
       ],
-      "whyCorrect": "This option directly applies FAR 15.3 requirements and preserves a defensible acquisition record.",
+      "whyCorrect": "Choice C aligns with the FAR rule and the procedural requirement being tested.",
       "whyWrong": [
         {
           "choiceLabel": "A",
-          "reason": "This option is a near-miss because it bypasses or mis-times a required control under FAR 15.3."
+          "reason": "Defects in the solicitation should be corrected before award, not deferred to postaward mods."
         },
         {
           "choiceLabel": "B",
-          "reason": "This option is a near-miss because it bypasses or mis-times a required control under FAR 15.3."
+          "reason": "CO must correct known errors proactively; waiting invites unequal proposals."
         },
         {
           "choiceLabel": "D",
-          "reason": "This option is a near-miss because it bypasses or mis-times a required control under FAR 15.3."
+          "reason": "An advisory letter does not replace a formal solicitation amendment."
         }
       ],
-      "fieldTip": "When pressure increases, cite FAR 15.308 in your file documentation and note any transition context from the FAR Overhaul page."
+      "fieldTip": "On exam items, first identify the FAR trigger (part/section), then test each distractor against that trigger."
     },
     "explanation": {
-      "whyCorrect": "This option directly applies FAR 15.3 requirements and preserves a defensible acquisition record.",
-      "keyTakeaway": "Anchor decisions to FAR 15.3 and document the rationale before award or direction is issued.",
-      "commonTrap": "Do not trade compliance gates for speed; most wrong options delay or skip required acquisition controls."
+      "whyCorrect": "Choice C aligns with the FAR rule and the procedural requirement being tested.",
+      "keyTakeaway": "Applying FAR Part 15 rules to identify the compliant answer for this specific acquisition scenario.",
+      "commonTrap": "Defects in the solicitation should be corrected before award, not deferred to postaward mods."
     },
     "farRefs": [
-      "FAR 15.3"
-    ]
+      "FAR Part 15",
+      "15.206"
+    ],
+    "prompt": "One day after publicizing and releasing a solicitation, the contracting officer realizes that the contract line items need to be reorganized. The contracting officer must:"
   },
   {
     "id": "q063",
-    "stem": "The team is deciding whether and how to use commercial-item procedures for a recurring requirement. What is the best contracting action?",
+    "stem": "Which FAR part is the best source of information regarding competition requirements?",
     "choices": [
-      "Validate commercial-item applicability and apply FAR Part 12 procedures using market-based terms.",
-      "Apply government-unique clauses by default without checking customary commercial practice.",
-      "Use commercial-item procedures while requiring unique redesign elements not sold commercially.",
-      "Rely only on internal cost estimates instead of market comparability for commercial pricing."
+      "FAR part 1",
+      "FAR part 6",
+      "FAR part 7",
+      "FAR part 13"
     ],
-    "correctIndex": 0,
+    "correctIndex": 1,
     "topic": "Commercial Items",
     "session": "Session 2",
     "tags": [
@@ -4586,65 +4585,69 @@
     "explanationRich": {
       "farRefs": {
         "part": {
-          "cite": "FAR Part 12",
-          "title": "Commercial Products and Services",
-          "url": "https://www.acquisition.gov/far/part-12"
+          "cite": "FAR Part 6",
+          "title": "Competition Requirements",
+          "url": "https://www.acquisition.gov/far/part-6"
         },
         "sections": [
           {
-            "cite": "FAR 12.102",
-            "title": "Applicability",
-            "url": "https://www.acquisition.gov/far/12.102"
-          }
-        ],
-        "rfo": [
-          {
-            "cite": "FAR Overhaul Initiative",
-            "title": "RFO/FAR Overhaul Resource Hub",
-            "url": "https://www.acquisition.gov/far-overhaul"
+            "cite": "6.101",
+            "title": "Policy",
+            "url": "https://www.acquisition.gov/far/6.101"
           }
         ]
       },
-      "whatThisTests": "Selecting the compliant commercial items action by applying governing policy, timing, and documentation rules.",
+      "whatThisTests": "Applying FAR Part 6 rules to identify the compliant answer for this specific acquisition scenario.",
       "decisionSteps": [
-        "Identify the governing authority (FAR Part 12) and the specific decision gate in the prompt.",
-        "Eliminate options that defer required approvals, documentation, or scope validation.",
-        "Choose the option that remains compliant while still supporting timely mission execution."
+        "Pinpoint the governing FAR part and the specific section tied to the prompt.",
+        "Eliminate choices that conflict with authority, timing, or documentation rules.",
+        "Select the option that directly matches the cited FAR policy text."
       ],
-      "whyCorrect": "This option directly applies FAR Part 12 requirements and preserves a defensible acquisition record.",
+      "whyCorrect": "Choice B aligns with the FAR rule and the procedural requirement being tested.",
       "whyWrong": [
         {
-          "choiceLabel": "B",
-          "reason": "This option is a near-miss because it bypasses or mis-times a required control under FAR Part 12."
+          "choiceLabel": "A",
+          "reason": "Part 1 provides system-wide principles, not detailed competition procedures."
         },
         {
           "choiceLabel": "C",
-          "reason": "This option is a near-miss because it bypasses or mis-times a required control under FAR Part 12."
+          "reason": "Part 7 covers acquisition planning, not the core competition framework."
         },
         {
           "choiceLabel": "D",
-          "reason": "This option is a near-miss because it bypasses or mis-times a required control under FAR Part 12."
+          "reason": "Part 13 addresses SAP methods, not overarching Part 6 competition requirements."
         }
       ],
-      "fieldTip": "When pressure increases, cite FAR 12.102 in your file documentation and note any transition context from the FAR Overhaul page."
+      "fieldTip": "On exam items, first identify the FAR trigger (part/section), then test each distractor against that trigger.",
+      "rfoUpdate": {
+        "summary": "As FAR Overhaul progresses, numbering/wording may move, so confirm current citations while preserving policy meaning.",
+        "links": [
+          {
+            "label": "FAR Overhaul (Acquisition.gov)",
+            "url": "https://www.acquisition.gov/far-overhaul"
+          }
+        ]
+      }
     },
     "explanation": {
-      "whyCorrect": "This option directly applies FAR Part 12 requirements and preserves a defensible acquisition record.",
-      "keyTakeaway": "Anchor decisions to FAR Part 12 and document the rationale before award or direction is issued.",
-      "commonTrap": "Do not trade compliance gates for speed; most wrong options delay or skip required acquisition controls."
+      "whyCorrect": "Choice B aligns with the FAR rule and the procedural requirement being tested.",
+      "keyTakeaway": "Applying FAR Part 6 rules to identify the compliant answer for this specific acquisition scenario.",
+      "commonTrap": "Part 1 provides system-wide principles, not detailed competition procedures."
     },
     "farRefs": [
-      "FAR 12"
-    ]
+      "FAR Part 6",
+      "6.101"
+    ],
+    "prompt": "Which FAR part is the best source of information regarding competition requirements?"
   },
   {
     "id": "q064",
-    "stem": "During acquisition planning, the team must select a contract type that appropriately allocates performance and cost risk. What is the best contracting action?",
+    "stem": "You have determined that FAR part 12 applies to your commercial item requirement. Which of the following contract types is appropriate when using FAR part 12 procedures?",
     "choices": [
-      "Choose firm-fixed-price for unstable requirements mainly to reduce administrative workload.",
-      "Use cost-reimbursement before confirming accounting adequacy and surveillance capability.",
-      "Select the contract type under FAR Part 16 based on requirement uncertainty and risk allocation.",
-      "Reuse the prior contract type by default even when technical and cost risk changed materially."
+      "Fixed-price incentive",
+      "Firm-fixed price, level-of-effort",
+      "Firm-fixed-price",
+      "Cost-plus-fixed-fee"
     ],
     "correctIndex": 2,
     "topic": "Contract Types",
@@ -4657,65 +4660,60 @@
     "explanationRich": {
       "farRefs": {
         "part": {
-          "cite": "FAR Part 16",
-          "title": "Types of Contracts",
-          "url": "https://www.acquisition.gov/far/part-16"
+          "cite": "FAR Part 12",
+          "title": "Commercial Products and Services",
+          "url": "https://www.acquisition.gov/far/part-12"
         },
         "sections": [
           {
-            "cite": "FAR 16.103",
-            "title": "Negotiating Contract Type",
-            "url": "https://www.acquisition.gov/far/16.103"
-          }
-        ],
-        "rfo": [
-          {
-            "cite": "FAR Overhaul Initiative",
-            "title": "RFO/FAR Overhaul Resource Hub",
-            "url": "https://www.acquisition.gov/far-overhaul"
+            "cite": "12.207",
+            "title": "Contract type",
+            "url": "https://www.acquisition.gov/far/12.207"
           }
         ]
       },
-      "whatThisTests": "Selecting the compliant contract types action by applying governing policy, timing, and documentation rules.",
+      "whatThisTests": "Applying FAR Part 12 rules to identify the compliant answer for this specific acquisition scenario.",
       "decisionSteps": [
-        "Identify the governing authority (FAR Part 16) and the specific decision gate in the prompt.",
-        "Eliminate options that defer required approvals, documentation, or scope validation.",
-        "Choose the option that remains compliant while still supporting timely mission execution."
+        "Pinpoint the governing FAR part and the specific section tied to the prompt.",
+        "Eliminate choices that conflict with authority, timing, or documentation rules.",
+        "Select the option that directly matches the cited FAR policy text."
       ],
-      "whyCorrect": "This option directly applies FAR Part 16 requirements and preserves a defensible acquisition record.",
+      "whyCorrect": "Choice C aligns with the FAR rule and the procedural requirement being tested.",
       "whyWrong": [
         {
           "choiceLabel": "A",
-          "reason": "This option is a near-miss because it bypasses or mis-times a required control under FAR Part 16."
+          "reason": "FAR 12 generally uses firm-fixed-price or fixed-price with EPA, not this type as listed."
         },
         {
           "choiceLabel": "B",
-          "reason": "This option is a near-miss because it bypasses or mis-times a required control under FAR Part 16."
+          "reason": "FFP level-of-effort is tied to specific service constructs, not typical commercial supply buys."
         },
         {
           "choiceLabel": "D",
-          "reason": "This option is a near-miss because it bypasses or mis-times a required control under FAR Part 16."
+          "reason": "CPFF is generally inconsistent with FAR 12 commercial acquisition policy."
         }
       ],
-      "fieldTip": "When pressure increases, cite FAR 16.103 in your file documentation and note any transition context from the FAR Overhaul page."
+      "fieldTip": "On exam items, first identify the FAR trigger (part/section), then test each distractor against that trigger."
     },
     "explanation": {
-      "whyCorrect": "This option directly applies FAR Part 16 requirements and preserves a defensible acquisition record.",
-      "keyTakeaway": "Anchor decisions to FAR Part 16 and document the rationale before award or direction is issued.",
-      "commonTrap": "Do not trade compliance gates for speed; most wrong options delay or skip required acquisition controls."
+      "whyCorrect": "Choice C aligns with the FAR rule and the procedural requirement being tested.",
+      "keyTakeaway": "Applying FAR Part 12 rules to identify the compliant answer for this specific acquisition scenario.",
+      "commonTrap": "FAR 12 generally uses firm-fixed-price or fixed-price with EPA, not this type as listed."
     },
     "farRefs": [
-      "FAR 16"
-    ]
+      "FAR Part 12",
+      "12.207"
+    ],
+    "prompt": "You have determined that FAR part 12 applies to your commercial item requirement. Which of the following contract types is appropriate when using FAR part 12 procedures?"
   },
   {
     "id": "q065",
-    "stem": "Before finalizing an acquisition strategy, the team must confirm available sources, capabilities, and market conditions for the requirement. What is the best contracting action?",
+    "stem": "You are a DoD contracting officer and have used simplified acquisition procedures under FAR part 13 to award a commercial purchase order for supplies. Given only this information, which form is most appropriate to use should you need to modify your purchase order?",
     "choices": [
-      "Document current market research findings under FAR Part 10 before finalizing the acquisition approach.",
-      "Reuse prior-year vendor assumptions without validating current market capability or pricing conditions.",
-      "Issue the solicitation first and collect market research documentation only if protest risk increases.",
-      "Limit outreach to the incumbent because continuity concerns outweigh pre-award market analysis."
+      "Standard Form 30, Amendment of Solicitation/Modification of Contract",
+      "Standard Form 1449, Solicitation/Contract/Order for Commercial Items",
+      "Standard Form 33, Solicitation, Offer and Award",
+      "DD Form 1155, Order for Supplies or Services"
     ],
     "correctIndex": 0,
     "topic": "Market Research",
@@ -4728,65 +4726,60 @@
     "explanationRich": {
       "farRefs": {
         "part": {
-          "cite": "FAR Part 10",
-          "title": "Market Research",
-          "url": "https://www.acquisition.gov/far/part-10"
+          "cite": "FAR Part 43",
+          "title": "Contract Modifications",
+          "url": "https://www.acquisition.gov/far/part-43"
         },
         "sections": [
           {
-            "cite": "FAR 10.001",
-            "title": "Policy",
-            "url": "https://www.acquisition.gov/far/10.001"
-          }
-        ],
-        "rfo": [
-          {
-            "cite": "FAR Overhaul Initiative",
-            "title": "RFO/FAR Overhaul Resource Hub",
-            "url": "https://www.acquisition.gov/far-overhaul"
+            "cite": "43.301",
+            "title": "Use of forms",
+            "url": "https://www.acquisition.gov/far/43.301"
           }
         ]
       },
-      "whatThisTests": "Selecting the compliant market research action by applying governing policy, timing, and documentation rules.",
+      "whatThisTests": "Applying FAR Part 43 rules to identify the compliant answer for this specific acquisition scenario.",
       "decisionSteps": [
-        "Identify the governing authority (FAR Part 10) and the specific decision gate in the prompt.",
-        "Eliminate options that defer required approvals, documentation, or scope validation.",
-        "Choose the option that remains compliant while still supporting timely mission execution."
+        "Pinpoint the governing FAR part and the specific section tied to the prompt.",
+        "Eliminate choices that conflict with authority, timing, or documentation rules.",
+        "Select the option that directly matches the cited FAR policy text."
       ],
-      "whyCorrect": "This option directly applies FAR Part 10 requirements and preserves a defensible acquisition record.",
+      "whyCorrect": "Choice A aligns with the FAR rule and the procedural requirement being tested.",
       "whyWrong": [
         {
           "choiceLabel": "B",
-          "reason": "This option is a near-miss because it bypasses or mis-times a required control under FAR Part 10."
+          "reason": "SF 1449 is primarily for solicitation/award/order creation, not the standard bilateral/unilateral mod instrument."
         },
         {
           "choiceLabel": "C",
-          "reason": "This option is a near-miss because it bypasses or mis-times a required control under FAR Part 10."
+          "reason": "SF 33 is a sealed-bid offer/award form, not a purchase-order modification form."
         },
         {
           "choiceLabel": "D",
-          "reason": "This option is a near-miss because it bypasses or mis-times a required control under FAR Part 10."
+          "reason": "DD 1155 is an order form; modifications are generally executed on SF 30."
         }
       ],
-      "fieldTip": "When pressure increases, cite FAR 10.001 in your file documentation and note any transition context from the FAR Overhaul page."
+      "fieldTip": "On exam items, first identify the FAR trigger (part/section), then test each distractor against that trigger."
     },
     "explanation": {
-      "whyCorrect": "This option directly applies FAR Part 10 requirements and preserves a defensible acquisition record.",
-      "keyTakeaway": "Anchor decisions to FAR Part 10 and document the rationale before award or direction is issued.",
-      "commonTrap": "Do not trade compliance gates for speed; most wrong options delay or skip required acquisition controls."
+      "whyCorrect": "Choice A aligns with the FAR rule and the procedural requirement being tested.",
+      "keyTakeaway": "Applying FAR Part 43 rules to identify the compliant answer for this specific acquisition scenario.",
+      "commonTrap": "SF 1449 is primarily for solicitation/award/order creation, not the standard bilateral/unilateral mod instrument."
     },
     "farRefs": [
-      "FAR 10"
-    ]
+      "FAR Part 43",
+      "43.301"
+    ],
+    "prompt": "You are a DoD contracting officer and have used simplified acquisition procedures under FAR part 13 to award a commercial purchase order for supplies. Given only this information, which form is most appropriate to use should you need to modify your purchase order?"
   },
   {
     "id": "q066",
-    "stem": "An acquisition plan is being drafted and the team must decide how to satisfy competition requirements before award decisions are made. What is the best contracting action?",
+    "stem": "You're administering a large dollar non-commercial weapons contract. The contracting officer asks to see the Contract Data Requirements List (CDRL) in Exhibit B. Which uniform contract format (UCF) section in your contract would you refer to?",
     "choices": [
-      "Restrict sources to known contractors first and justify limiting competition after proposal receipt.",
-      "Use urgency as a default basis to narrow competition without preparing the required approval package.",
-      "Adopt a brand-name-only strategy immediately and defer the justification until contract administration.",
-      "Promote full and open competition and document any authorized exception before award under FAR Part 6."
+      "Section A",
+      "Section C",
+      "Section I",
+      "Section J"
     ],
     "correctIndex": 3,
     "topic": "Competition",
@@ -4799,67 +4792,62 @@
     "explanationRich": {
       "farRefs": {
         "part": {
-          "cite": "FAR Part 6",
-          "title": "Competition Requirements",
-          "url": "https://www.acquisition.gov/far/part-6"
+          "cite": "FAR Part 15",
+          "title": "Contracting by Negotiation",
+          "url": "https://www.acquisition.gov/far/part-15"
         },
         "sections": [
           {
-            "cite": "FAR 6.101",
-            "title": "Policy",
-            "url": "https://www.acquisition.gov/far/6.101"
-          }
-        ],
-        "rfo": [
-          {
-            "cite": "FAR Overhaul Initiative",
-            "title": "RFO/FAR Overhaul Resource Hub",
-            "url": "https://www.acquisition.gov/far-overhaul"
+            "cite": "15.204-1",
+            "title": "Uniform contract format",
+            "url": "https://www.acquisition.gov/far/15.204-1"
           }
         ]
       },
-      "whatThisTests": "Selecting the compliant competition action by applying governing policy, timing, and documentation rules.",
+      "whatThisTests": "Applying FAR Part 15 rules to identify the compliant answer for this specific acquisition scenario.",
       "decisionSteps": [
-        "Identify the governing authority (FAR Part 6) and the specific decision gate in the prompt.",
-        "Eliminate options that defer required approvals, documentation, or scope validation.",
-        "Choose the option that remains compliant while still supporting timely mission execution."
+        "Pinpoint the governing FAR part and the specific section tied to the prompt.",
+        "Eliminate choices that conflict with authority, timing, or documentation rules.",
+        "Select the option that directly matches the cited FAR policy text."
       ],
-      "whyCorrect": "This option directly applies FAR Part 6 requirements and preserves a defensible acquisition record.",
+      "whyCorrect": "Choice D aligns with the FAR rule and the procedural requirement being tested.",
       "whyWrong": [
         {
           "choiceLabel": "A",
-          "reason": "This option is a near-miss because it bypasses or mis-times a required control under FAR Part 6."
+          "reason": "Section A is solicitation/contract form information, not exhibit attachments."
         },
         {
           "choiceLabel": "B",
-          "reason": "This option is a near-miss because it bypasses or mis-times a required control under FAR Part 6."
+          "reason": "Section C is performance work description, not repository for exhibits."
         },
         {
           "choiceLabel": "C",
-          "reason": "This option is a near-miss because it bypasses or mis-times a required control under FAR Part 6."
+          "reason": "Section I contains clauses, not attachment/exhibit listings like CDRLs."
         }
       ],
-      "fieldTip": "When pressure increases, cite FAR 6.101 in your file documentation and note any transition context from the FAR Overhaul page."
+      "fieldTip": "On exam items, first identify the FAR trigger (part/section), then test each distractor against that trigger."
     },
     "explanation": {
-      "whyCorrect": "This option directly applies FAR Part 6 requirements and preserves a defensible acquisition record.",
-      "keyTakeaway": "Anchor decisions to FAR Part 6 and document the rationale before award or direction is issued.",
-      "commonTrap": "Do not trade compliance gates for speed; most wrong options delay or skip required acquisition controls."
+      "whyCorrect": "Choice D aligns with the FAR rule and the procedural requirement being tested.",
+      "keyTakeaway": "Applying FAR Part 15 rules to identify the compliant answer for this specific acquisition scenario.",
+      "commonTrap": "Section A is solicitation/contract form information, not exhibit attachments."
     },
     "farRefs": [
-      "FAR 6"
-    ]
+      "FAR Part 15",
+      "15.204-1"
+    ],
+    "prompt": "You're administering a large dollar non-commercial weapons contract. The contracting officer asks to see the Contract Data Requirements List (CDRL) in Exhibit B. Which uniform contract format (UCF) section in your contract would you refer to?"
   },
   {
     "id": "q067",
-    "stem": "A buyer is preparing a lower-dollar procurement and must determine how to apply simplified acquisition procedures correctly. What is the best contracting action?",
+    "stem": "Which of the following is specifically set up to help firms view current Government business opportunities?",
     "choices": [
-      "Use simplified procedures above applicable thresholds when mission timelines are compressed.",
-      "Solicit one vendor and complete price reasonableness documentation after performance starts.",
-      "Bundle unrelated requirements solely to keep the buy inside a preferred simplified path.",
-      "Use FAR Part 13 thresholds, solicitation methods, and documentation requirements before award."
+      "The Governmentwide Point of Entry (GPE)",
+      "The local office of the Small Business Administration (SBA)",
+      "The Chamber of Commerce",
+      "GSA Advantage"
     ],
-    "correctIndex": 3,
+    "correctIndex": 0,
     "topic": "Simplified Acquisition",
     "session": "Session 2",
     "tags": [
@@ -4870,67 +4858,62 @@
     "explanationRich": {
       "farRefs": {
         "part": {
-          "cite": "FAR Part 13",
-          "title": "Simplified Acquisition Procedures",
-          "url": "https://www.acquisition.gov/far/part-13"
+          "cite": "FAR Part 5",
+          "title": "Publicizing Contract Actions",
+          "url": "https://www.acquisition.gov/far/part-5"
         },
         "sections": [
           {
-            "cite": "FAR 13.003",
-            "title": "Policy",
-            "url": "https://www.acquisition.gov/far/13.003"
-          }
-        ],
-        "rfo": [
-          {
-            "cite": "FAR Overhaul Initiative",
-            "title": "RFO/FAR Overhaul Resource Hub",
-            "url": "https://www.acquisition.gov/far-overhaul"
+            "cite": "5.101",
+            "title": "Methods",
+            "url": "https://www.acquisition.gov/far/5.101"
           }
         ]
       },
-      "whatThisTests": "Selecting the compliant simplified acquisition action by applying governing policy, timing, and documentation rules.",
+      "whatThisTests": "Applying FAR Part 5 rules to identify the compliant answer for this specific acquisition scenario.",
       "decisionSteps": [
-        "Identify the governing authority (FAR Part 13) and the specific decision gate in the prompt.",
-        "Eliminate options that defer required approvals, documentation, or scope validation.",
-        "Choose the option that remains compliant while still supporting timely mission execution."
+        "Pinpoint the governing FAR part and the specific section tied to the prompt.",
+        "Eliminate choices that conflict with authority, timing, or documentation rules.",
+        "Select the option that directly matches the cited FAR policy text."
       ],
-      "whyCorrect": "This option directly applies FAR Part 13 requirements and preserves a defensible acquisition record.",
+      "whyCorrect": "Choice A aligns with the FAR rule and the procedural requirement being tested.",
       "whyWrong": [
         {
-          "choiceLabel": "A",
-          "reason": "This option is a near-miss because it bypasses or mis-times a required control under FAR Part 13."
-        },
-        {
           "choiceLabel": "B",
-          "reason": "This option is a near-miss because it bypasses or mis-times a required control under FAR Part 13."
+          "reason": "SBA offices counsel firms but are not the centralized Government opportunities posting site."
         },
         {
           "choiceLabel": "C",
-          "reason": "This option is a near-miss because it bypasses or mis-times a required control under FAR Part 13."
+          "reason": "Chambers are private/local business networks, not the federal notice portal."
+        },
+        {
+          "choiceLabel": "D",
+          "reason": "GSA Advantage is a catalog platform, not the broad publicizing portal for opportunities."
         }
       ],
-      "fieldTip": "When pressure increases, cite FAR 13.003 in your file documentation and note any transition context from the FAR Overhaul page."
+      "fieldTip": "On exam items, first identify the FAR trigger (part/section), then test each distractor against that trigger."
     },
     "explanation": {
-      "whyCorrect": "This option directly applies FAR Part 13 requirements and preserves a defensible acquisition record.",
-      "keyTakeaway": "Anchor decisions to FAR Part 13 and document the rationale before award or direction is issued.",
-      "commonTrap": "Do not trade compliance gates for speed; most wrong options delay or skip required acquisition controls."
+      "whyCorrect": "Choice A aligns with the FAR rule and the procedural requirement being tested.",
+      "keyTakeaway": "Applying FAR Part 5 rules to identify the compliant answer for this specific acquisition scenario.",
+      "commonTrap": "SBA offices counsel firms but are not the centralized Government opportunities posting site."
     },
     "farRefs": [
-      "FAR 13"
-    ]
+      "FAR Part 5",
+      "5.101"
+    ],
+    "prompt": "Which of the following is specifically set up to help firms view current Government business opportunities?"
   },
   {
     "id": "q068",
-    "stem": "The contracting office is running a negotiated procurement and must follow evaluation and discussion rules for a defensible award. What is the best contracting action?",
+    "stem": "In evaluating a solicitation, which section of the uniform contract format (UCF) would contain information to the offeror regarding the evaluation factors and subfactors the Government will use to evaluate the offeror's proposal?",
     "choices": [
-      "Begin discussions before finalizing evaluation factors and competitive-range documentation.",
-      "Establish and follow FAR Part 15 evaluation, discussion, and award documentation procedures.",
-      "Select the lowest-priced offer without documenting how non-price factors were applied.",
-      "Share one offeror\u2019s pricing position with another to accelerate final proposal revisions."
+      "Section A",
+      "Section I",
+      "Section L",
+      "Section M"
     ],
-    "correctIndex": 1,
+    "correctIndex": 3,
     "topic": "Contracting by Negotiation",
     "session": "Session 3",
     "tags": [
@@ -4947,61 +4930,56 @@
         },
         "sections": [
           {
-            "cite": "FAR 15.306",
-            "title": "Exchanges with Offerors",
-            "url": "https://www.acquisition.gov/far/15.306"
-          }
-        ],
-        "rfo": [
-          {
-            "cite": "FAR Overhaul Initiative",
-            "title": "RFO/FAR Overhaul Resource Hub",
-            "url": "https://www.acquisition.gov/far-overhaul"
+            "cite": "15.204-5",
+            "title": "Part IV - Representations and instructions",
+            "url": "https://www.acquisition.gov/far/15.204-5"
           }
         ]
       },
-      "whatThisTests": "Selecting the compliant contracting by negotiation action by applying governing policy, timing, and documentation rules.",
+      "whatThisTests": "Applying FAR Part 15 rules to identify the compliant answer for this specific acquisition scenario.",
       "decisionSteps": [
-        "Identify the governing authority (FAR Part 15) and the specific decision gate in the prompt.",
-        "Eliminate options that defer required approvals, documentation, or scope validation.",
-        "Choose the option that remains compliant while still supporting timely mission execution."
+        "Pinpoint the governing FAR part and the specific section tied to the prompt.",
+        "Eliminate choices that conflict with authority, timing, or documentation rules.",
+        "Select the option that directly matches the cited FAR policy text."
       ],
-      "whyCorrect": "This option directly applies FAR Part 15 requirements and preserves a defensible acquisition record.",
+      "whyCorrect": "Choice D aligns with the FAR rule and the procedural requirement being tested.",
       "whyWrong": [
         {
           "choiceLabel": "A",
-          "reason": "This option is a near-miss because it bypasses or mis-times a required control under FAR Part 15."
+          "reason": "Section A is basic form info, not evaluation factors."
+        },
+        {
+          "choiceLabel": "B",
+          "reason": "Section I houses clauses, not source-selection factor tables."
         },
         {
           "choiceLabel": "C",
-          "reason": "This option is a near-miss because it bypasses or mis-times a required control under FAR Part 15."
-        },
-        {
-          "choiceLabel": "D",
-          "reason": "This option is a near-miss because it bypasses or mis-times a required control under FAR Part 15."
+          "reason": "Section L provides proposal instructions; Section M states evaluation factors/subfactors."
         }
       ],
-      "fieldTip": "When pressure increases, cite FAR 15.306 in your file documentation and note any transition context from the FAR Overhaul page."
+      "fieldTip": "On exam items, first identify the FAR trigger (part/section), then test each distractor against that trigger."
     },
     "explanation": {
-      "whyCorrect": "This option directly applies FAR Part 15 requirements and preserves a defensible acquisition record.",
-      "keyTakeaway": "Anchor decisions to FAR Part 15 and document the rationale before award or direction is issued.",
-      "commonTrap": "Do not trade compliance gates for speed; most wrong options delay or skip required acquisition controls."
+      "whyCorrect": "Choice D aligns with the FAR rule and the procedural requirement being tested.",
+      "keyTakeaway": "Applying FAR Part 15 rules to identify the compliant answer for this specific acquisition scenario.",
+      "commonTrap": "Section A is basic form info, not evaluation factors."
     },
     "farRefs": [
-      "FAR 15"
-    ]
+      "FAR Part 15",
+      "15.204-5"
+    ],
+    "prompt": "In evaluating a solicitation, which section of the uniform contract format (UCF) would contain information to the offeror regarding the evaluation factors and subfactors the Government will use to evaluate the offeror's proposal?"
   },
   {
     "id": "q069",
-    "stem": "Post-award changes are being requested and the contracting team must choose the correct modification approach and authority. What is the best contracting action?",
+    "stem": "You are a proposal manager for a large defense contractor, leading your company's effort to win a contract. In order to determine the page limit for your proposal, which section in the request for proposal should you review?",
     "choices": [
-      "Direct out-of-scope work first and negotiate the modification terms after contractor performance begins.",
-      "Use unilateral administrative-change authority for substantive scope expansion without bilateral agreement.",
-      "Treat all post-award changes as in-scope whenever schedule urgency is mission critical.",
-      "Use FAR Part 43 modification authority and document scope, funding, and pricing before directing work."
+      "Section H - Special contract requirements",
+      "Section I - Contract clauses",
+      "Section L - Instructions, conditions, and notices to offerors or respondents",
+      "Section M - Evaluation factors for award"
     ],
-    "correctIndex": 3,
+    "correctIndex": 2,
     "topic": "Contract Modifications",
     "session": "Session 4",
     "tags": [
@@ -5012,67 +4990,62 @@
     "explanationRich": {
       "farRefs": {
         "part": {
-          "cite": "FAR Part 43",
-          "title": "Contract Modifications",
-          "url": "https://www.acquisition.gov/far/part-43"
+          "cite": "FAR Part 15",
+          "title": "Contracting by Negotiation",
+          "url": "https://www.acquisition.gov/far/part-15"
         },
         "sections": [
           {
-            "cite": "FAR 43.102",
-            "title": "Policy",
-            "url": "https://www.acquisition.gov/far/43.102"
-          }
-        ],
-        "rfo": [
-          {
-            "cite": "FAR Overhaul Initiative",
-            "title": "RFO/FAR Overhaul Resource Hub",
-            "url": "https://www.acquisition.gov/far-overhaul"
+            "cite": "15.204-5",
+            "title": "Section L instructions",
+            "url": "https://www.acquisition.gov/far/15.204-5"
           }
         ]
       },
-      "whatThisTests": "Selecting the compliant contract modifications action by applying governing policy, timing, and documentation rules.",
+      "whatThisTests": "Applying FAR Part 15 rules to identify the compliant answer for this specific acquisition scenario.",
       "decisionSteps": [
-        "Identify the governing authority (FAR Part 43) and the specific decision gate in the prompt.",
-        "Eliminate options that defer required approvals, documentation, or scope validation.",
-        "Choose the option that remains compliant while still supporting timely mission execution."
+        "Pinpoint the governing FAR part and the specific section tied to the prompt.",
+        "Eliminate choices that conflict with authority, timing, or documentation rules.",
+        "Select the option that directly matches the cited FAR policy text."
       ],
-      "whyCorrect": "This option directly applies FAR Part 43 requirements and preserves a defensible acquisition record.",
+      "whyCorrect": "Choice C aligns with the FAR rule and the procedural requirement being tested.",
       "whyWrong": [
         {
           "choiceLabel": "A",
-          "reason": "This option is a near-miss because it bypasses or mis-times a required control under FAR Part 43."
+          "reason": "Section H contains special requirements, not proposal formatting/page-limit instructions."
         },
         {
           "choiceLabel": "B",
-          "reason": "This option is a near-miss because it bypasses or mis-times a required control under FAR Part 43."
+          "reason": "Section I has clauses, not submission instructions."
         },
         {
-          "choiceLabel": "C",
-          "reason": "This option is a near-miss because it bypasses or mis-times a required control under FAR Part 43."
+          "choiceLabel": "D",
+          "reason": "Section M tells how Government evaluates, not how offerors format proposals."
         }
       ],
-      "fieldTip": "When pressure increases, cite FAR 43.102 in your file documentation and note any transition context from the FAR Overhaul page."
+      "fieldTip": "On exam items, first identify the FAR trigger (part/section), then test each distractor against that trigger."
     },
     "explanation": {
-      "whyCorrect": "This option directly applies FAR Part 43 requirements and preserves a defensible acquisition record.",
-      "keyTakeaway": "Anchor decisions to FAR Part 43 and document the rationale before award or direction is issued.",
-      "commonTrap": "Do not trade compliance gates for speed; most wrong options delay or skip required acquisition controls."
+      "whyCorrect": "Choice C aligns with the FAR rule and the procedural requirement being tested.",
+      "keyTakeaway": "Applying FAR Part 15 rules to identify the compliant answer for this specific acquisition scenario.",
+      "commonTrap": "Section H contains special requirements, not proposal formatting/page-limit instructions."
     },
     "farRefs": [
-      "FAR 43"
-    ]
+      "FAR Part 15",
+      "15.204-5"
+    ],
+    "prompt": "You are a proposal manager for a large defense contractor, leading your company's effort to win a contract. In order to determine the page limit for your proposal, which section in the request for proposal should you review?"
   },
   {
     "id": "q070",
-    "stem": "A source selection is underway and the record must support evaluation judgments and award rationale. What is the best contracting action?",
+    "stem": "A contractor is developing their pricing strategy in a competitive environment. Knowing the required effort will result in follow-on contracts, the contractor submits an offer below anticipated costs with the plan to recover any losses by increasing the price on follow-on efforts. This pricing strategy is referred to as:",
     "choices": [
-      "Adjust evaluation weighting during source selection to reflect evolving stakeholder preferences.",
-      "Rely on undocumented evaluator impressions instead of recording strengths, weaknesses, and risks.",
-      "Record only final ratings and omit narrative tradeoff analysis between leading proposals.",
-      "Document evaluation findings and tradeoff rationale consistent with FAR 15.3 before award."
+      "Unbalanced pricing",
+      "Buying-in",
+      "Defective pricing",
+      "Marginal value pricing"
     ],
-    "correctIndex": 3,
+    "correctIndex": 1,
     "topic": "Source Selection",
     "session": "Session 3",
     "tags": [
@@ -5083,67 +5056,62 @@
     "explanationRich": {
       "farRefs": {
         "part": {
-          "cite": "FAR 15.3",
-          "title": "Source Selection",
-          "url": "https://www.acquisition.gov/far/subpart-15.3"
+          "cite": "FAR Part 3",
+          "title": "Improper Business Practices",
+          "url": "https://www.acquisition.gov/far/part-3"
         },
         "sections": [
           {
-            "cite": "FAR 15.308",
-            "title": "Source Selection Decision",
-            "url": "https://www.acquisition.gov/far/15.308"
-          }
-        ],
-        "rfo": [
-          {
-            "cite": "FAR Overhaul Initiative",
-            "title": "RFO/FAR Overhaul Resource Hub",
-            "url": "https://www.acquisition.gov/far-overhaul"
+            "cite": "3.501-1",
+            "title": "Definition of buying-in",
+            "url": "https://www.acquisition.gov/far/3.501-1"
           }
         ]
       },
-      "whatThisTests": "Selecting the compliant source selection action by applying governing policy, timing, and documentation rules.",
+      "whatThisTests": "Applying FAR Part 3 rules to identify the compliant answer for this specific acquisition scenario.",
       "decisionSteps": [
-        "Identify the governing authority (FAR 15.3) and the specific decision gate in the prompt.",
-        "Eliminate options that defer required approvals, documentation, or scope validation.",
-        "Choose the option that remains compliant while still supporting timely mission execution."
+        "Pinpoint the governing FAR part and the specific section tied to the prompt.",
+        "Eliminate choices that conflict with authority, timing, or documentation rules.",
+        "Select the option that directly matches the cited FAR policy text."
       ],
-      "whyCorrect": "This option directly applies FAR 15.3 requirements and preserves a defensible acquisition record.",
+      "whyCorrect": "Choice B aligns with the FAR rule and the procedural requirement being tested.",
       "whyWrong": [
         {
           "choiceLabel": "A",
-          "reason": "This option is a near-miss because it bypasses or mis-times a required control under FAR 15.3."
-        },
-        {
-          "choiceLabel": "B",
-          "reason": "This option is a near-miss because it bypasses or mis-times a required control under FAR 15.3."
+          "reason": "Unbalanced pricing concerns line-item price distortion, not below-cost strategy for follow-on recovery."
         },
         {
           "choiceLabel": "C",
-          "reason": "This option is a near-miss because it bypasses or mis-times a required control under FAR 15.3."
+          "reason": "Defective pricing involves inaccurate/incomplete certified data, a different concept."
+        },
+        {
+          "choiceLabel": "D",
+          "reason": "Marginal value pricing is not the FAR term for this practice."
         }
       ],
-      "fieldTip": "When pressure increases, cite FAR 15.308 in your file documentation and note any transition context from the FAR Overhaul page."
+      "fieldTip": "On exam items, first identify the FAR trigger (part/section), then test each distractor against that trigger."
     },
     "explanation": {
-      "whyCorrect": "This option directly applies FAR 15.3 requirements and preserves a defensible acquisition record.",
-      "keyTakeaway": "Anchor decisions to FAR 15.3 and document the rationale before award or direction is issued.",
-      "commonTrap": "Do not trade compliance gates for speed; most wrong options delay or skip required acquisition controls."
+      "whyCorrect": "Choice B aligns with the FAR rule and the procedural requirement being tested.",
+      "keyTakeaway": "Applying FAR Part 3 rules to identify the compliant answer for this specific acquisition scenario.",
+      "commonTrap": "Unbalanced pricing concerns line-item price distortion, not below-cost strategy for follow-on recovery."
     },
     "farRefs": [
-      "FAR 15.3"
-    ]
+      "FAR Part 3",
+      "3.501-1"
+    ],
+    "prompt": "A contractor is developing their pricing strategy in a competitive environment. Knowing the required effort will result in follow-on contracts, the contractor submits an offer below anticipated costs with the plan to recover any losses by increasing the price on follow-on efforts. This pricing strategy is referred to as:"
   },
   {
     "id": "q071",
-    "stem": "The team is deciding whether and how to use commercial-item procedures for a recurring requirement. What is the best contracting action?",
+    "stem": "What type of contract should be used for an item that uses a very large amount of gold and other precious metals in the manufacturing process?",
     "choices": [
-      "Apply government-unique clauses by default without checking customary commercial practice.",
-      "Validate commercial-item applicability and apply FAR Part 12 procedures using market-based terms.",
-      "Use commercial-item procedures while requiring unique redesign elements not sold commercially.",
-      "Rely only on internal cost estimates instead of market comparability for commercial pricing."
+      "Fixed-price with economic price adjustment",
+      "Firm-fixed-price with performance-based payments",
+      "Cost plus award fee",
+      "Time and materials"
     ],
-    "correctIndex": 1,
+    "correctIndex": 0,
     "topic": "Commercial Items",
     "session": "Session 2",
     "tags": [
@@ -5154,65 +5122,60 @@
     "explanationRich": {
       "farRefs": {
         "part": {
-          "cite": "FAR Part 12",
-          "title": "Commercial Products and Services",
-          "url": "https://www.acquisition.gov/far/part-12"
+          "cite": "FAR Part 16",
+          "title": "Types of Contracts",
+          "url": "https://www.acquisition.gov/far/part-16"
         },
         "sections": [
           {
-            "cite": "FAR 12.102",
-            "title": "Applicability",
-            "url": "https://www.acquisition.gov/far/12.102"
-          }
-        ],
-        "rfo": [
-          {
-            "cite": "FAR Overhaul Initiative",
-            "title": "RFO/FAR Overhaul Resource Hub",
-            "url": "https://www.acquisition.gov/far-overhaul"
+            "cite": "16.203",
+            "title": "Fixed-price with EPA",
+            "url": "https://www.acquisition.gov/far/16.203"
           }
         ]
       },
-      "whatThisTests": "Selecting the compliant commercial items action by applying governing policy, timing, and documentation rules.",
+      "whatThisTests": "Applying FAR Part 16 rules to identify the compliant answer for this specific acquisition scenario.",
       "decisionSteps": [
-        "Identify the governing authority (FAR Part 12) and the specific decision gate in the prompt.",
-        "Eliminate options that defer required approvals, documentation, or scope validation.",
-        "Choose the option that remains compliant while still supporting timely mission execution."
+        "Pinpoint the governing FAR part and the specific section tied to the prompt.",
+        "Eliminate choices that conflict with authority, timing, or documentation rules.",
+        "Select the option that directly matches the cited FAR policy text."
       ],
-      "whyCorrect": "This option directly applies FAR Part 12 requirements and preserves a defensible acquisition record.",
+      "whyCorrect": "Choice A aligns with the FAR rule and the procedural requirement being tested.",
       "whyWrong": [
         {
-          "choiceLabel": "A",
-          "reason": "This option is a near-miss because it bypasses or mis-times a required control under FAR Part 12."
+          "choiceLabel": "B",
+          "reason": "FFP with performance-based payments does not directly address volatile commodity-price risk."
         },
         {
           "choiceLabel": "C",
-          "reason": "This option is a near-miss because it bypasses or mis-times a required control under FAR Part 12."
+          "reason": "Cost-plus-award-fee keeps more cost risk with Government."
         },
         {
           "choiceLabel": "D",
-          "reason": "This option is a near-miss because it bypasses or mis-times a required control under FAR Part 12."
+          "reason": "T&M is used when scope uncertainty prevents fixed pricing, not mainly for commodity volatility."
         }
       ],
-      "fieldTip": "When pressure increases, cite FAR 12.102 in your file documentation and note any transition context from the FAR Overhaul page."
+      "fieldTip": "On exam items, first identify the FAR trigger (part/section), then test each distractor against that trigger."
     },
     "explanation": {
-      "whyCorrect": "This option directly applies FAR Part 12 requirements and preserves a defensible acquisition record.",
-      "keyTakeaway": "Anchor decisions to FAR Part 12 and document the rationale before award or direction is issued.",
-      "commonTrap": "Do not trade compliance gates for speed; most wrong options delay or skip required acquisition controls."
+      "whyCorrect": "Choice A aligns with the FAR rule and the procedural requirement being tested.",
+      "keyTakeaway": "Applying FAR Part 16 rules to identify the compliant answer for this specific acquisition scenario.",
+      "commonTrap": "FFP with performance-based payments does not directly address volatile commodity-price risk."
     },
     "farRefs": [
-      "FAR 12"
-    ]
+      "FAR Part 16",
+      "16.203"
+    ],
+    "prompt": "What type of contract should be used for an item that uses a very large amount of gold and other precious metals in the manufacturing process?"
   },
   {
     "id": "q072",
-    "stem": "During acquisition planning, the team must select a contract type that appropriately allocates performance and cost risk. What is the best contracting action?",
+    "stem": "When a potential contractor is developing a proposal where cost analysis will be performed, the potential contractor will need to ensure it has excluded from the proposal any costs that are:",
     "choices": [
-      "Choose firm-fixed-price for unstable requirements mainly to reduce administrative workload.",
-      "Use cost-reimbursement before confirming accounting adequacy and surveillance capability.",
-      "Reuse the prior contract type by default even when technical and cost risk changed materially.",
-      "Select the contract type under FAR Part 16 based on requirement uncertainty and risk allocation."
+      "Undefinitized",
+      "Fee bearing",
+      "Indirect to the acquisition",
+      "Expressly unallowable"
     ],
     "correctIndex": 3,
     "topic": "Contract Types",
@@ -5225,67 +5188,62 @@
     "explanationRich": {
       "farRefs": {
         "part": {
-          "cite": "FAR Part 16",
-          "title": "Types of Contracts",
-          "url": "https://www.acquisition.gov/far/part-16"
+          "cite": "FAR Part 31",
+          "title": "Contract Cost Principles",
+          "url": "https://www.acquisition.gov/far/part-31"
         },
         "sections": [
           {
-            "cite": "FAR 16.103",
-            "title": "Negotiating Contract Type",
-            "url": "https://www.acquisition.gov/far/16.103"
-          }
-        ],
-        "rfo": [
-          {
-            "cite": "FAR Overhaul Initiative",
-            "title": "RFO/FAR Overhaul Resource Hub",
-            "url": "https://www.acquisition.gov/far-overhaul"
+            "cite": "31.201-6",
+            "title": "Accounting for unallowable costs",
+            "url": "https://www.acquisition.gov/far/31.201-6"
           }
         ]
       },
-      "whatThisTests": "Selecting the compliant contract types action by applying governing policy, timing, and documentation rules.",
+      "whatThisTests": "Applying FAR Part 31 rules to identify the compliant answer for this specific acquisition scenario.",
       "decisionSteps": [
-        "Identify the governing authority (FAR Part 16) and the specific decision gate in the prompt.",
-        "Eliminate options that defer required approvals, documentation, or scope validation.",
-        "Choose the option that remains compliant while still supporting timely mission execution."
+        "Pinpoint the governing FAR part and the specific section tied to the prompt.",
+        "Eliminate choices that conflict with authority, timing, or documentation rules.",
+        "Select the option that directly matches the cited FAR policy text."
       ],
-      "whyCorrect": "This option directly applies FAR Part 16 requirements and preserves a defensible acquisition record.",
+      "whyCorrect": "Choice D aligns with the FAR rule and the procedural requirement being tested.",
       "whyWrong": [
         {
           "choiceLabel": "A",
-          "reason": "This option is a near-miss because it bypasses or mis-times a required control under FAR Part 16."
+          "reason": "Undefinitized is a contract action concept, not a cost allowability category."
         },
         {
           "choiceLabel": "B",
-          "reason": "This option is a near-miss because it bypasses or mis-times a required control under FAR Part 16."
+          "reason": "Fee-bearing is not the tested allowability exclusion term."
         },
         {
           "choiceLabel": "C",
-          "reason": "This option is a near-miss because it bypasses or mis-times a required control under FAR Part 16."
+          "reason": "Indirect costs may be allowable if allocable/reasonable; not automatically excluded."
         }
       ],
-      "fieldTip": "When pressure increases, cite FAR 16.103 in your file documentation and note any transition context from the FAR Overhaul page."
+      "fieldTip": "On exam items, first identify the FAR trigger (part/section), then test each distractor against that trigger."
     },
     "explanation": {
-      "whyCorrect": "This option directly applies FAR Part 16 requirements and preserves a defensible acquisition record.",
-      "keyTakeaway": "Anchor decisions to FAR Part 16 and document the rationale before award or direction is issued.",
-      "commonTrap": "Do not trade compliance gates for speed; most wrong options delay or skip required acquisition controls."
+      "whyCorrect": "Choice D aligns with the FAR rule and the procedural requirement being tested.",
+      "keyTakeaway": "Applying FAR Part 31 rules to identify the compliant answer for this specific acquisition scenario.",
+      "commonTrap": "Undefinitized is a contract action concept, not a cost allowability category."
     },
     "farRefs": [
-      "FAR 16"
-    ]
+      "FAR Part 31",
+      "31.201-6"
+    ],
+    "prompt": "When a potential contractor is developing a proposal where cost analysis will be performed, the potential contractor will need to ensure it has excluded from the proposal any costs that are:"
   },
   {
     "id": "q073",
-    "stem": "Before finalizing an acquisition strategy, the team must confirm available sources, capabilities, and market conditions for the requirement. What is the best contracting action?",
+    "stem": "It is the Government's pricing policy to purchase supplies and services at fair and reasonable prices from:",
     "choices": [
-      "Reuse prior-year vendor assumptions without validating current market capability or pricing conditions.",
-      "Issue the solicitation first and collect market research documentation only if protest risk increases.",
-      "Document current market research findings under FAR Part 10 before finalizing the acquisition approach.",
-      "Limit outreach to the incumbent because continuity concerns outweigh pre-award market analysis."
+      "Responsive sources",
+      "Responsible sources",
+      "Sources that offer the lowest possible price",
+      "The smallest set of sources"
     ],
-    "correctIndex": 2,
+    "correctIndex": 1,
     "topic": "Market Research",
     "session": "Session 1",
     "tags": [
@@ -5296,67 +5254,62 @@
     "explanationRich": {
       "farRefs": {
         "part": {
-          "cite": "FAR Part 10",
-          "title": "Market Research",
-          "url": "https://www.acquisition.gov/far/part-10"
+          "cite": "FAR Part 15",
+          "title": "Contracting by Negotiation",
+          "url": "https://www.acquisition.gov/far/part-15"
         },
         "sections": [
           {
-            "cite": "FAR 10.001",
-            "title": "Policy",
-            "url": "https://www.acquisition.gov/far/10.001"
-          }
-        ],
-        "rfo": [
-          {
-            "cite": "FAR Overhaul Initiative",
-            "title": "RFO/FAR Overhaul Resource Hub",
-            "url": "https://www.acquisition.gov/far-overhaul"
+            "cite": "15.402",
+            "title": "Pricing policy",
+            "url": "https://www.acquisition.gov/far/15.402"
           }
         ]
       },
-      "whatThisTests": "Selecting the compliant market research action by applying governing policy, timing, and documentation rules.",
+      "whatThisTests": "Applying FAR Part 15 rules to identify the compliant answer for this specific acquisition scenario.",
       "decisionSteps": [
-        "Identify the governing authority (FAR Part 10) and the specific decision gate in the prompt.",
-        "Eliminate options that defer required approvals, documentation, or scope validation.",
-        "Choose the option that remains compliant while still supporting timely mission execution."
+        "Pinpoint the governing FAR part and the specific section tied to the prompt.",
+        "Eliminate choices that conflict with authority, timing, or documentation rules.",
+        "Select the option that directly matches the cited FAR policy text."
       ],
-      "whyCorrect": "This option directly applies FAR Part 10 requirements and preserves a defensible acquisition record.",
+      "whyCorrect": "Choice B aligns with the FAR rule and the procedural requirement being tested.",
       "whyWrong": [
         {
           "choiceLabel": "A",
-          "reason": "This option is a near-miss because it bypasses or mis-times a required control under FAR Part 10."
+          "reason": "Responsiveness is a sealed-bidding concept; pricing policy here emphasizes responsible sources."
         },
         {
-          "choiceLabel": "B",
-          "reason": "This option is a near-miss because it bypasses or mis-times a required control under FAR Part 10."
+          "choiceLabel": "C",
+          "reason": "Lowest possible price is not required if it sacrifices reasonableness or best value considerations."
         },
         {
           "choiceLabel": "D",
-          "reason": "This option is a near-miss because it bypasses or mis-times a required control under FAR Part 10."
+          "reason": "Policy does not favor the smallest source pool; it seeks responsible sources at fair/reasonable prices."
         }
       ],
-      "fieldTip": "When pressure increases, cite FAR 10.001 in your file documentation and note any transition context from the FAR Overhaul page."
+      "fieldTip": "On exam items, first identify the FAR trigger (part/section), then test each distractor against that trigger."
     },
     "explanation": {
-      "whyCorrect": "This option directly applies FAR Part 10 requirements and preserves a defensible acquisition record.",
-      "keyTakeaway": "Anchor decisions to FAR Part 10 and document the rationale before award or direction is issued.",
-      "commonTrap": "Do not trade compliance gates for speed; most wrong options delay or skip required acquisition controls."
+      "whyCorrect": "Choice B aligns with the FAR rule and the procedural requirement being tested.",
+      "keyTakeaway": "Applying FAR Part 15 rules to identify the compliant answer for this specific acquisition scenario.",
+      "commonTrap": "Responsiveness is a sealed-bidding concept; pricing policy here emphasizes responsible sources."
     },
     "farRefs": [
-      "FAR 10"
-    ]
+      "FAR Part 15",
+      "15.402"
+    ],
+    "prompt": "It is the Government's pricing policy to purchase supplies and services at fair and reasonable prices from:"
   },
   {
     "id": "q074",
-    "stem": "An acquisition plan is being drafted and the team must decide how to satisfy competition requirements before award decisions are made. What is the best contracting action?",
+    "stem": "What are the two types of negotiated acquisitions?",
     "choices": [
-      "Restrict sources to known contractors first and justify limiting competition after proposal receipt.",
-      "Use urgency as a default basis to narrow competition without preparing the required approval package.",
-      "Adopt a brand-name-only strategy immediately and defer the justification until contract administration.",
-      "Promote full and open competition and document any authorized exception before award under FAR Part 6."
+      "Sole source and competitive",
+      "Sole source and single source",
+      "Source selection and competitive",
+      "Single source and face-to-face"
     ],
-    "correctIndex": 3,
+    "correctIndex": 0,
     "topic": "Competition",
     "session": "Session 1",
     "tags": [
@@ -5367,67 +5320,71 @@
     "explanationRich": {
       "farRefs": {
         "part": {
-          "cite": "FAR Part 6",
-          "title": "Competition Requirements",
-          "url": "https://www.acquisition.gov/far/part-6"
+          "cite": "FAR Part 15",
+          "title": "Contracting by Negotiation",
+          "url": "https://www.acquisition.gov/far/part-15"
         },
         "sections": [
           {
-            "cite": "FAR 6.101",
-            "title": "Policy",
-            "url": "https://www.acquisition.gov/far/6.101"
-          }
-        ],
-        "rfo": [
-          {
-            "cite": "FAR Overhaul Initiative",
-            "title": "RFO/FAR Overhaul Resource Hub",
-            "url": "https://www.acquisition.gov/far-overhaul"
+            "cite": "15.000",
+            "title": "Scope of part",
+            "url": "https://www.acquisition.gov/far/part-15"
           }
         ]
       },
-      "whatThisTests": "Selecting the compliant competition action by applying governing policy, timing, and documentation rules.",
+      "whatThisTests": "Applying FAR Part 15 rules to identify the compliant answer for this specific acquisition scenario.",
       "decisionSteps": [
-        "Identify the governing authority (FAR Part 6) and the specific decision gate in the prompt.",
-        "Eliminate options that defer required approvals, documentation, or scope validation.",
-        "Choose the option that remains compliant while still supporting timely mission execution."
+        "Pinpoint the governing FAR part and the specific section tied to the prompt.",
+        "Eliminate choices that conflict with authority, timing, or documentation rules.",
+        "Select the option that directly matches the cited FAR policy text."
       ],
-      "whyCorrect": "This option directly applies FAR Part 6 requirements and preserves a defensible acquisition record.",
+      "whyCorrect": "Choice A aligns with the FAR rule and the procedural requirement being tested.",
       "whyWrong": [
         {
-          "choiceLabel": "A",
-          "reason": "This option is a near-miss because it bypasses or mis-times a required control under FAR Part 6."
-        },
-        {
           "choiceLabel": "B",
-          "reason": "This option is a near-miss because it bypasses or mis-times a required control under FAR Part 6."
+          "reason": "\"Sole source\" and \"single source\" are redundant, not two FAR categories."
         },
         {
           "choiceLabel": "C",
-          "reason": "This option is a near-miss because it bypasses or mis-times a required control under FAR Part 6."
+          "reason": "Source selection is a process, not one of the two acquisition types listed."
+        },
+        {
+          "choiceLabel": "D",
+          "reason": "Face-to-face is a negotiation method, not a category of negotiated acquisition."
         }
       ],
-      "fieldTip": "When pressure increases, cite FAR 6.101 in your file documentation and note any transition context from the FAR Overhaul page."
+      "fieldTip": "On exam items, first identify the FAR trigger (part/section), then test each distractor against that trigger.",
+      "rfoUpdate": {
+        "summary": "As FAR Overhaul progresses, numbering/wording may move, so confirm current citations while preserving policy meaning.",
+        "links": [
+          {
+            "label": "FAR Overhaul (Acquisition.gov)",
+            "url": "https://www.acquisition.gov/far-overhaul"
+          }
+        ]
+      }
     },
     "explanation": {
-      "whyCorrect": "This option directly applies FAR Part 6 requirements and preserves a defensible acquisition record.",
-      "keyTakeaway": "Anchor decisions to FAR Part 6 and document the rationale before award or direction is issued.",
-      "commonTrap": "Do not trade compliance gates for speed; most wrong options delay or skip required acquisition controls."
+      "whyCorrect": "Choice A aligns with the FAR rule and the procedural requirement being tested.",
+      "keyTakeaway": "Applying FAR Part 15 rules to identify the compliant answer for this specific acquisition scenario.",
+      "commonTrap": "\"Sole source\" and \"single source\" are redundant, not two FAR categories."
     },
     "farRefs": [
-      "FAR 6"
-    ]
+      "FAR Part 15",
+      "15.000"
+    ],
+    "prompt": "What are the two types of negotiated acquisitions?"
   },
   {
     "id": "q075",
-    "stem": "A buyer is preparing a lower-dollar procurement and must determine how to apply simplified acquisition procedures correctly. What is the best contracting action?",
+    "stem": "What is the objective of a source selection?",
     "choices": [
-      "Use FAR Part 13 thresholds, solicitation methods, and documentation requirements before award.",
-      "Use simplified procedures above applicable thresholds when mission timelines are compressed.",
-      "Solicit one vendor and complete price reasonableness documentation after performance starts.",
-      "Bundle unrelated requirements solely to keep the buy inside a preferred simplified path."
+      "To select the proposal with the lowest price",
+      "To select the proposal with advancements in technology",
+      "To select the proposal that represents the best value",
+      "To select the proposal with the fewest rewrites"
     ],
-    "correctIndex": 0,
+    "correctIndex": 2,
     "topic": "Simplified Acquisition",
     "session": "Session 2",
     "tags": [
@@ -5438,355 +5395,66 @@
     "explanationRich": {
       "farRefs": {
         "part": {
-          "cite": "FAR Part 13",
-          "title": "Simplified Acquisition Procedures",
-          "url": "https://www.acquisition.gov/far/part-13"
+          "cite": "FAR Part 15",
+          "title": "Contracting by Negotiation",
+          "url": "https://www.acquisition.gov/far/part-15"
         },
         "sections": [
           {
-            "cite": "FAR 13.003",
-            "title": "Policy",
-            "url": "https://www.acquisition.gov/far/13.003"
-          }
-        ],
-        "rfo": [
-          {
-            "cite": "FAR Overhaul Initiative",
-            "title": "RFO/FAR Overhaul Resource Hub",
-            "url": "https://www.acquisition.gov/far-overhaul"
+            "cite": "15.302",
+            "title": "Source selection objective",
+            "url": "https://www.acquisition.gov/far/15.302"
           }
         ]
       },
-      "whatThisTests": "Selecting the compliant simplified acquisition action by applying governing policy, timing, and documentation rules.",
+      "whatThisTests": "Applying FAR Part 15 rules to identify the compliant answer for this specific acquisition scenario.",
       "decisionSteps": [
-        "Identify the governing authority (FAR Part 13) and the specific decision gate in the prompt.",
-        "Eliminate options that defer required approvals, documentation, or scope validation.",
-        "Choose the option that remains compliant while still supporting timely mission execution."
+        "Pinpoint the governing FAR part and the specific section tied to the prompt.",
+        "Eliminate choices that conflict with authority, timing, or documentation rules.",
+        "Select the option that directly matches the cited FAR policy text."
       ],
-      "whyCorrect": "This option directly applies FAR Part 13 requirements and preserves a defensible acquisition record.",
+      "whyCorrect": "Choice C aligns with the FAR rule and the procedural requirement being tested.",
       "whyWrong": [
         {
-          "choiceLabel": "B",
-          "reason": "This option is a near-miss because it bypasses or mis-times a required control under FAR Part 13."
+          "choiceLabel": "A",
+          "reason": "Lowest price alone is not the universal objective under negotiated source selection."
         },
         {
-          "choiceLabel": "C",
-          "reason": "This option is a near-miss because it bypasses or mis-times a required control under FAR Part 13."
+          "choiceLabel": "B",
+          "reason": "Technology advancement alone is not the selection objective unless tied to value criteria."
         },
         {
           "choiceLabel": "D",
-          "reason": "This option is a near-miss because it bypasses or mis-times a required control under FAR Part 13."
+          "reason": "Fewest rewrites is process convenience, not source-selection objective."
         }
       ],
-      "fieldTip": "When pressure increases, cite FAR 13.003 in your file documentation and note any transition context from the FAR Overhaul page."
+      "fieldTip": "On exam items, first identify the FAR trigger (part/section), then test each distractor against that trigger."
     },
     "explanation": {
-      "whyCorrect": "This option directly applies FAR Part 13 requirements and preserves a defensible acquisition record.",
-      "keyTakeaway": "Anchor decisions to FAR Part 13 and document the rationale before award or direction is issued.",
-      "commonTrap": "Do not trade compliance gates for speed; most wrong options delay or skip required acquisition controls."
+      "whyCorrect": "Choice C aligns with the FAR rule and the procedural requirement being tested.",
+      "keyTakeaway": "Applying FAR Part 15 rules to identify the compliant answer for this specific acquisition scenario.",
+      "commonTrap": "Lowest price alone is not the universal objective under negotiated source selection."
     },
     "farRefs": [
-      "FAR 13"
-    ]
+      "FAR Part 15",
+      "15.302"
+    ],
+    "prompt": "What is the objective of a source selection?"
   },
   {
     "id": "q076",
-    "stem": "The contracting office is running a negotiated procurement and must follow evaluation and discussion rules for a defensible award. What is the best contracting action?",
+    "stem": "Which contract type shifts cost risk from the Government to the contractor?",
     "choices": [
-      "Establish and follow FAR Part 15 evaluation, discussion, and award documentation procedures.",
-      "Begin discussions before finalizing evaluation factors and competitive-range documentation.",
-      "Select the lowest-priced offer without documenting how non-price factors were applied.",
-      "Share one offeror\u2019s pricing position with another to accelerate final proposal revisions."
+      "Labor-hour",
+      "Fixed-price",
+      "Time-and-materials",
+      "Cost-reimbursements"
     ],
-    "correctIndex": 0,
+    "correctIndex": 1,
     "topic": "Contracting by Negotiation",
     "session": "Session 3",
     "tags": [
       "contracting-by-negotiation",
-      "b2b"
-    ],
-    "source": "CON 3910 themed generator",
-    "explanationRich": {
-      "farRefs": {
-        "part": {
-          "cite": "FAR Part 15",
-          "title": "Contracting by Negotiation",
-          "url": "https://www.acquisition.gov/far/part-15"
-        },
-        "sections": [
-          {
-            "cite": "FAR 15.306",
-            "title": "Exchanges with Offerors",
-            "url": "https://www.acquisition.gov/far/15.306"
-          }
-        ],
-        "rfo": [
-          {
-            "cite": "FAR Overhaul Initiative",
-            "title": "RFO/FAR Overhaul Resource Hub",
-            "url": "https://www.acquisition.gov/far-overhaul"
-          }
-        ]
-      },
-      "whatThisTests": "Selecting the compliant contracting by negotiation action by applying governing policy, timing, and documentation rules.",
-      "decisionSteps": [
-        "Identify the governing authority (FAR Part 15) and the specific decision gate in the prompt.",
-        "Eliminate options that defer required approvals, documentation, or scope validation.",
-        "Choose the option that remains compliant while still supporting timely mission execution."
-      ],
-      "whyCorrect": "This option directly applies FAR Part 15 requirements and preserves a defensible acquisition record.",
-      "whyWrong": [
-        {
-          "choiceLabel": "B",
-          "reason": "This option is a near-miss because it bypasses or mis-times a required control under FAR Part 15."
-        },
-        {
-          "choiceLabel": "C",
-          "reason": "This option is a near-miss because it bypasses or mis-times a required control under FAR Part 15."
-        },
-        {
-          "choiceLabel": "D",
-          "reason": "This option is a near-miss because it bypasses or mis-times a required control under FAR Part 15."
-        }
-      ],
-      "fieldTip": "When pressure increases, cite FAR 15.306 in your file documentation and note any transition context from the FAR Overhaul page."
-    },
-    "explanation": {
-      "whyCorrect": "This option directly applies FAR Part 15 requirements and preserves a defensible acquisition record.",
-      "keyTakeaway": "Anchor decisions to FAR Part 15 and document the rationale before award or direction is issued.",
-      "commonTrap": "Do not trade compliance gates for speed; most wrong options delay or skip required acquisition controls."
-    },
-    "farRefs": [
-      "FAR 15"
-    ]
-  },
-  {
-    "id": "q077",
-    "stem": "Post-award changes are being requested and the contracting team must choose the correct modification approach and authority. What is the best contracting action?",
-    "choices": [
-      "Direct out-of-scope work first and negotiate the modification terms after contractor performance begins.",
-      "Use FAR Part 43 modification authority and document scope, funding, and pricing before directing work.",
-      "Use unilateral administrative-change authority for substantive scope expansion without bilateral agreement.",
-      "Treat all post-award changes as in-scope whenever schedule urgency is mission critical."
-    ],
-    "correctIndex": 1,
-    "topic": "Contract Modifications",
-    "session": "Session 4",
-    "tags": [
-      "contract-modifications",
-      "b2b"
-    ],
-    "source": "CON 3910 themed generator",
-    "explanationRich": {
-      "farRefs": {
-        "part": {
-          "cite": "FAR Part 43",
-          "title": "Contract Modifications",
-          "url": "https://www.acquisition.gov/far/part-43"
-        },
-        "sections": [
-          {
-            "cite": "FAR 43.102",
-            "title": "Policy",
-            "url": "https://www.acquisition.gov/far/43.102"
-          }
-        ],
-        "rfo": [
-          {
-            "cite": "FAR Overhaul Initiative",
-            "title": "RFO/FAR Overhaul Resource Hub",
-            "url": "https://www.acquisition.gov/far-overhaul"
-          }
-        ]
-      },
-      "whatThisTests": "Selecting the compliant contract modifications action by applying governing policy, timing, and documentation rules.",
-      "decisionSteps": [
-        "Identify the governing authority (FAR Part 43) and the specific decision gate in the prompt.",
-        "Eliminate options that defer required approvals, documentation, or scope validation.",
-        "Choose the option that remains compliant while still supporting timely mission execution."
-      ],
-      "whyCorrect": "This option directly applies FAR Part 43 requirements and preserves a defensible acquisition record.",
-      "whyWrong": [
-        {
-          "choiceLabel": "A",
-          "reason": "This option is a near-miss because it bypasses or mis-times a required control under FAR Part 43."
-        },
-        {
-          "choiceLabel": "C",
-          "reason": "This option is a near-miss because it bypasses or mis-times a required control under FAR Part 43."
-        },
-        {
-          "choiceLabel": "D",
-          "reason": "This option is a near-miss because it bypasses or mis-times a required control under FAR Part 43."
-        }
-      ],
-      "fieldTip": "When pressure increases, cite FAR 43.102 in your file documentation and note any transition context from the FAR Overhaul page."
-    },
-    "explanation": {
-      "whyCorrect": "This option directly applies FAR Part 43 requirements and preserves a defensible acquisition record.",
-      "keyTakeaway": "Anchor decisions to FAR Part 43 and document the rationale before award or direction is issued.",
-      "commonTrap": "Do not trade compliance gates for speed; most wrong options delay or skip required acquisition controls."
-    },
-    "farRefs": [
-      "FAR 43"
-    ]
-  },
-  {
-    "id": "q078",
-    "stem": "A source selection is underway and the record must support evaluation judgments and award rationale. What is the best contracting action?",
-    "choices": [
-      "Adjust evaluation weighting during source selection to reflect evolving stakeholder preferences.",
-      "Rely on undocumented evaluator impressions instead of recording strengths, weaknesses, and risks.",
-      "Document evaluation findings and tradeoff rationale consistent with FAR 15.3 before award.",
-      "Record only final ratings and omit narrative tradeoff analysis between leading proposals."
-    ],
-    "correctIndex": 2,
-    "topic": "Source Selection",
-    "session": "Session 3",
-    "tags": [
-      "source-selection",
-      "b2b"
-    ],
-    "source": "CON 3910 themed generator",
-    "explanationRich": {
-      "farRefs": {
-        "part": {
-          "cite": "FAR 15.3",
-          "title": "Source Selection",
-          "url": "https://www.acquisition.gov/far/subpart-15.3"
-        },
-        "sections": [
-          {
-            "cite": "FAR 15.308",
-            "title": "Source Selection Decision",
-            "url": "https://www.acquisition.gov/far/15.308"
-          }
-        ],
-        "rfo": [
-          {
-            "cite": "FAR Overhaul Initiative",
-            "title": "RFO/FAR Overhaul Resource Hub",
-            "url": "https://www.acquisition.gov/far-overhaul"
-          }
-        ]
-      },
-      "whatThisTests": "Selecting the compliant source selection action by applying governing policy, timing, and documentation rules.",
-      "decisionSteps": [
-        "Identify the governing authority (FAR 15.3) and the specific decision gate in the prompt.",
-        "Eliminate options that defer required approvals, documentation, or scope validation.",
-        "Choose the option that remains compliant while still supporting timely mission execution."
-      ],
-      "whyCorrect": "This option directly applies FAR 15.3 requirements and preserves a defensible acquisition record.",
-      "whyWrong": [
-        {
-          "choiceLabel": "A",
-          "reason": "This option is a near-miss because it bypasses or mis-times a required control under FAR 15.3."
-        },
-        {
-          "choiceLabel": "B",
-          "reason": "This option is a near-miss because it bypasses or mis-times a required control under FAR 15.3."
-        },
-        {
-          "choiceLabel": "D",
-          "reason": "This option is a near-miss because it bypasses or mis-times a required control under FAR 15.3."
-        }
-      ],
-      "fieldTip": "When pressure increases, cite FAR 15.308 in your file documentation and note any transition context from the FAR Overhaul page."
-    },
-    "explanation": {
-      "whyCorrect": "This option directly applies FAR 15.3 requirements and preserves a defensible acquisition record.",
-      "keyTakeaway": "Anchor decisions to FAR 15.3 and document the rationale before award or direction is issued.",
-      "commonTrap": "Do not trade compliance gates for speed; most wrong options delay or skip required acquisition controls."
-    },
-    "farRefs": [
-      "FAR 15.3"
-    ]
-  },
-  {
-    "id": "q079",
-    "stem": "The team is deciding whether and how to use commercial-item procedures for a recurring requirement. What is the best contracting action?",
-    "choices": [
-      "Validate commercial-item applicability and apply FAR Part 12 procedures using market-based terms.",
-      "Apply government-unique clauses by default without checking customary commercial practice.",
-      "Use commercial-item procedures while requiring unique redesign elements not sold commercially.",
-      "Rely only on internal cost estimates instead of market comparability for commercial pricing."
-    ],
-    "correctIndex": 0,
-    "topic": "Commercial Items",
-    "session": "Session 2",
-    "tags": [
-      "commercial-items",
-      "b2b"
-    ],
-    "source": "CON 3910 themed generator",
-    "explanationRich": {
-      "farRefs": {
-        "part": {
-          "cite": "FAR Part 12",
-          "title": "Commercial Products and Services",
-          "url": "https://www.acquisition.gov/far/part-12"
-        },
-        "sections": [
-          {
-            "cite": "FAR 12.102",
-            "title": "Applicability",
-            "url": "https://www.acquisition.gov/far/12.102"
-          }
-        ],
-        "rfo": [
-          {
-            "cite": "FAR Overhaul Initiative",
-            "title": "RFO/FAR Overhaul Resource Hub",
-            "url": "https://www.acquisition.gov/far-overhaul"
-          }
-        ]
-      },
-      "whatThisTests": "Selecting the compliant commercial items action by applying governing policy, timing, and documentation rules.",
-      "decisionSteps": [
-        "Identify the governing authority (FAR Part 12) and the specific decision gate in the prompt.",
-        "Eliminate options that defer required approvals, documentation, or scope validation.",
-        "Choose the option that remains compliant while still supporting timely mission execution."
-      ],
-      "whyCorrect": "This option directly applies FAR Part 12 requirements and preserves a defensible acquisition record.",
-      "whyWrong": [
-        {
-          "choiceLabel": "B",
-          "reason": "This option is a near-miss because it bypasses or mis-times a required control under FAR Part 12."
-        },
-        {
-          "choiceLabel": "C",
-          "reason": "This option is a near-miss because it bypasses or mis-times a required control under FAR Part 12."
-        },
-        {
-          "choiceLabel": "D",
-          "reason": "This option is a near-miss because it bypasses or mis-times a required control under FAR Part 12."
-        }
-      ],
-      "fieldTip": "When pressure increases, cite FAR 12.102 in your file documentation and note any transition context from the FAR Overhaul page."
-    },
-    "explanation": {
-      "whyCorrect": "This option directly applies FAR Part 12 requirements and preserves a defensible acquisition record.",
-      "keyTakeaway": "Anchor decisions to FAR Part 12 and document the rationale before award or direction is issued.",
-      "commonTrap": "Do not trade compliance gates for speed; most wrong options delay or skip required acquisition controls."
-    },
-    "farRefs": [
-      "FAR 12"
-    ]
-  },
-  {
-    "id": "q080",
-    "stem": "During acquisition planning, the team must select a contract type that appropriately allocates performance and cost risk. What is the best contracting action?",
-    "choices": [
-      "Select the contract type under FAR Part 16 based on requirement uncertainty and risk allocation.",
-      "Choose firm-fixed-price for unstable requirements mainly to reduce administrative workload.",
-      "Use cost-reimbursement before confirming accounting adequacy and surveillance capability.",
-      "Reuse the prior contract type by default even when technical and cost risk changed materially."
-    ],
-    "correctIndex": 0,
-    "topic": "Contract Types",
-    "session": "Session 2",
-    "tags": [
-      "contract-types",
       "b2b"
     ],
     "source": "CON 3910 themed generator",
@@ -5799,207 +5467,192 @@
         },
         "sections": [
           {
-            "cite": "FAR 16.103",
-            "title": "Negotiating Contract Type",
-            "url": "https://www.acquisition.gov/far/16.103"
-          }
-        ],
-        "rfo": [
-          {
-            "cite": "FAR Overhaul Initiative",
-            "title": "RFO/FAR Overhaul Resource Hub",
-            "url": "https://www.acquisition.gov/far-overhaul"
+            "cite": "16.104",
+            "title": "Factors in selecting contract types",
+            "url": "https://www.acquisition.gov/far/16.104"
           }
         ]
       },
-      "whatThisTests": "Selecting the compliant contract types action by applying governing policy, timing, and documentation rules.",
+      "whatThisTests": "Applying FAR Part 16 rules to identify the compliant answer for this specific acquisition scenario.",
       "decisionSteps": [
-        "Identify the governing authority (FAR Part 16) and the specific decision gate in the prompt.",
-        "Eliminate options that defer required approvals, documentation, or scope validation.",
-        "Choose the option that remains compliant while still supporting timely mission execution."
+        "Pinpoint the governing FAR part and the specific section tied to the prompt.",
+        "Eliminate choices that conflict with authority, timing, or documentation rules.",
+        "Select the option that directly matches the cited FAR policy text."
       ],
-      "whyCorrect": "This option directly applies FAR Part 16 requirements and preserves a defensible acquisition record.",
+      "whyCorrect": "Choice B aligns with the FAR rule and the procedural requirement being tested.",
       "whyWrong": [
         {
-          "choiceLabel": "B",
-          "reason": "This option is a near-miss because it bypasses or mis-times a required control under FAR Part 16."
+          "choiceLabel": "A",
+          "reason": "Labor-hour keeps significant cost risk with Government because hours drive payment."
         },
         {
           "choiceLabel": "C",
-          "reason": "This option is a near-miss because it bypasses or mis-times a required control under FAR Part 16."
+          "reason": "T&M similarly leaves substantial risk with Government."
         },
         {
           "choiceLabel": "D",
-          "reason": "This option is a near-miss because it bypasses or mis-times a required control under FAR Part 16."
+          "reason": "Cost-reimbursement places most cost risk on Government, opposite of prompt."
         }
       ],
-      "fieldTip": "When pressure increases, cite FAR 16.103 in your file documentation and note any transition context from the FAR Overhaul page."
+      "fieldTip": "On exam items, first identify the FAR trigger (part/section), then test each distractor against that trigger."
     },
     "explanation": {
-      "whyCorrect": "This option directly applies FAR Part 16 requirements and preserves a defensible acquisition record.",
-      "keyTakeaway": "Anchor decisions to FAR Part 16 and document the rationale before award or direction is issued.",
-      "commonTrap": "Do not trade compliance gates for speed; most wrong options delay or skip required acquisition controls."
+      "whyCorrect": "Choice B aligns with the FAR rule and the procedural requirement being tested.",
+      "keyTakeaway": "Applying FAR Part 16 rules to identify the compliant answer for this specific acquisition scenario.",
+      "commonTrap": "Labor-hour keeps significant cost risk with Government because hours drive payment."
     },
     "farRefs": [
-      "FAR 16"
-    ]
+      "FAR Part 16",
+      "16.104"
+    ],
+    "prompt": "Which contract type shifts cost risk from the Government to the contractor?"
   },
   {
-    "id": "q081",
-    "stem": "Before finalizing an acquisition strategy, the team must confirm available sources, capabilities, and market conditions for the requirement. What is the best contracting action?",
+    "id": "q077",
+    "stem": "Which of the following best describes the purpose of proposal analysis?",
     "choices": [
-      "Document current market research findings under FAR Part 10 before finalizing the acquisition approach.",
-      "Reuse prior-year vendor assumptions without validating current market capability or pricing conditions.",
-      "Issue the solicitation first and collect market research documentation only if protest risk increases.",
-      "Limit outreach to the incumbent because continuity concerns outweigh pre-award market analysis."
-    ],
-    "correctIndex": 0,
-    "topic": "Market Research",
-    "session": "Session 1",
-    "tags": [
-      "market-research",
-      "b2b"
-    ],
-    "source": "CON 3910 themed generator",
-    "explanationRich": {
-      "farRefs": {
-        "part": {
-          "cite": "FAR Part 10",
-          "title": "Market Research",
-          "url": "https://www.acquisition.gov/far/part-10"
-        },
-        "sections": [
-          {
-            "cite": "FAR 10.001",
-            "title": "Policy",
-            "url": "https://www.acquisition.gov/far/10.001"
-          }
-        ],
-        "rfo": [
-          {
-            "cite": "FAR Overhaul Initiative",
-            "title": "RFO/FAR Overhaul Resource Hub",
-            "url": "https://www.acquisition.gov/far-overhaul"
-          }
-        ]
-      },
-      "whatThisTests": "Selecting the compliant market research action by applying governing policy, timing, and documentation rules.",
-      "decisionSteps": [
-        "Identify the governing authority (FAR Part 10) and the specific decision gate in the prompt.",
-        "Eliminate options that defer required approvals, documentation, or scope validation.",
-        "Choose the option that remains compliant while still supporting timely mission execution."
-      ],
-      "whyCorrect": "This option directly applies FAR Part 10 requirements and preserves a defensible acquisition record.",
-      "whyWrong": [
-        {
-          "choiceLabel": "B",
-          "reason": "This option is a near-miss because it bypasses or mis-times a required control under FAR Part 10."
-        },
-        {
-          "choiceLabel": "C",
-          "reason": "This option is a near-miss because it bypasses or mis-times a required control under FAR Part 10."
-        },
-        {
-          "choiceLabel": "D",
-          "reason": "This option is a near-miss because it bypasses or mis-times a required control under FAR Part 10."
-        }
-      ],
-      "fieldTip": "When pressure increases, cite FAR 10.001 in your file documentation and note any transition context from the FAR Overhaul page."
-    },
-    "explanation": {
-      "whyCorrect": "This option directly applies FAR Part 10 requirements and preserves a defensible acquisition record.",
-      "keyTakeaway": "Anchor decisions to FAR Part 10 and document the rationale before award or direction is issued.",
-      "commonTrap": "Do not trade compliance gates for speed; most wrong options delay or skip required acquisition controls."
-    },
-    "farRefs": [
-      "FAR 10"
-    ]
-  },
-  {
-    "id": "q082",
-    "stem": "An acquisition plan is being drafted and the team must decide how to satisfy competition requirements before award decisions are made. What is the best contracting action?",
-    "choices": [
-      "Promote full and open competition and document any authorized exception before award under FAR Part 6.",
-      "Restrict sources to known contractors first and justify limiting competition after proposal receipt.",
-      "Use urgency as a default basis to narrow competition without preparing the required approval package.",
-      "Adopt a brand-name-only strategy immediately and defer the justification until contract administration."
-    ],
-    "correctIndex": 0,
-    "topic": "Competition",
-    "session": "Session 1",
-    "tags": [
-      "competition",
-      "b2b"
-    ],
-    "source": "CON 3910 themed generator",
-    "explanationRich": {
-      "farRefs": {
-        "part": {
-          "cite": "FAR Part 6",
-          "title": "Competition Requirements",
-          "url": "https://www.acquisition.gov/far/part-6"
-        },
-        "sections": [
-          {
-            "cite": "FAR 6.101",
-            "title": "Policy",
-            "url": "https://www.acquisition.gov/far/6.101"
-          }
-        ],
-        "rfo": [
-          {
-            "cite": "FAR Overhaul Initiative",
-            "title": "RFO/FAR Overhaul Resource Hub",
-            "url": "https://www.acquisition.gov/far-overhaul"
-          }
-        ]
-      },
-      "whatThisTests": "Selecting the compliant competition action by applying governing policy, timing, and documentation rules.",
-      "decisionSteps": [
-        "Identify the governing authority (FAR Part 6) and the specific decision gate in the prompt.",
-        "Eliminate options that defer required approvals, documentation, or scope validation.",
-        "Choose the option that remains compliant while still supporting timely mission execution."
-      ],
-      "whyCorrect": "This option directly applies FAR Part 6 requirements and preserves a defensible acquisition record.",
-      "whyWrong": [
-        {
-          "choiceLabel": "B",
-          "reason": "This option is a near-miss because it bypasses or mis-times a required control under FAR Part 6."
-        },
-        {
-          "choiceLabel": "C",
-          "reason": "This option is a near-miss because it bypasses or mis-times a required control under FAR Part 6."
-        },
-        {
-          "choiceLabel": "D",
-          "reason": "This option is a near-miss because it bypasses or mis-times a required control under FAR Part 6."
-        }
-      ],
-      "fieldTip": "When pressure increases, cite FAR 6.101 in your file documentation and note any transition context from the FAR Overhaul page."
-    },
-    "explanation": {
-      "whyCorrect": "This option directly applies FAR Part 6 requirements and preserves a defensible acquisition record.",
-      "keyTakeaway": "Anchor decisions to FAR Part 6 and document the rationale before award or direction is issued.",
-      "commonTrap": "Do not trade compliance gates for speed; most wrong options delay or skip required acquisition controls."
-    },
-    "farRefs": [
-      "FAR 6"
-    ]
-  },
-  {
-    "id": "q083",
-    "stem": "A buyer is preparing a lower-dollar procurement and must determine how to apply simplified acquisition procedures correctly. What is the best contracting action?",
-    "choices": [
-      "Use simplified procedures above applicable thresholds when mission timelines are compressed.",
-      "Use FAR Part 13 thresholds, solicitation methods, and documentation requirements before award.",
-      "Solicit one vendor and complete price reasonableness documentation after performance starts.",
-      "Bundle unrelated requirements solely to keep the buy inside a preferred simplified path."
+      "To ensure the price is fair and reasonable",
+      "To validate the Government requirement is met",
+      "To determine if the proposal follows commercial practices",
+      "To evaluate the specifications of the product or service"
     ],
     "correctIndex": 1,
-    "topic": "Simplified Acquisition",
+    "topic": "Contract Modifications",
+    "session": "Session 4",
+    "tags": [
+      "contract-modifications",
+      "b2b"
+    ],
+    "source": "CON 3910 themed generator",
+    "explanationRich": {
+      "farRefs": {
+        "part": {
+          "cite": "FAR Part 15",
+          "title": "Contracting by Negotiation",
+          "url": "https://www.acquisition.gov/far/part-15"
+        },
+        "sections": [
+          {
+            "cite": "15.404-1",
+            "title": "Proposal analysis techniques",
+            "url": "https://www.acquisition.gov/far/15.404-1"
+          }
+        ]
+      },
+      "whatThisTests": "Applying FAR Part 15 rules to identify the compliant answer for this specific acquisition scenario.",
+      "decisionSteps": [
+        "Pinpoint the governing FAR part and the specific section tied to the prompt.",
+        "Eliminate choices that conflict with authority, timing, or documentation rules.",
+        "Select the option that directly matches the cited FAR policy text."
+      ],
+      "whyCorrect": "Choice B aligns with the FAR rule and the procedural requirement being tested.",
+      "whyWrong": [
+        {
+          "choiceLabel": "A",
+          "reason": "Fair and reasonable price is an output of price analysis, not the broader purpose statement tested."
+        },
+        {
+          "choiceLabel": "C",
+          "reason": "Commercial practice checks can inform analysis but are not the primary definition here."
+        },
+        {
+          "choiceLabel": "D",
+          "reason": "Technical specification evaluation belongs to technical evaluation, not proposal-analysis purpose."
+        }
+      ],
+      "fieldTip": "On exam items, first identify the FAR trigger (part/section), then test each distractor against that trigger."
+    },
+    "explanation": {
+      "whyCorrect": "Choice B aligns with the FAR rule and the procedural requirement being tested.",
+      "keyTakeaway": "Applying FAR Part 15 rules to identify the compliant answer for this specific acquisition scenario.",
+      "commonTrap": "Fair and reasonable price is an output of price analysis, not the broader purpose statement tested."
+    },
+    "farRefs": [
+      "FAR Part 15",
+      "15.404-1"
+    ],
+    "prompt": "Which of the following best describes the purpose of proposal analysis?"
+  },
+  {
+    "id": "q078",
+    "stem": "Which type of solicitation may require the submission of certified cost or pricing data?",
+    "choices": [
+      "Micropurchase request",
+      "Invitation for bids",
+      "Request for quotations",
+      "Request for proposals"
+    ],
+    "correctIndex": 3,
+    "topic": "Source Selection",
+    "session": "Session 3",
+    "tags": [
+      "source-selection",
+      "b2b"
+    ],
+    "source": "CON 3910 themed generator",
+    "explanationRich": {
+      "farRefs": {
+        "part": {
+          "cite": "FAR Part 15",
+          "title": "Contracting by Negotiation",
+          "url": "https://www.acquisition.gov/far/part-15"
+        },
+        "sections": [
+          {
+            "cite": "15.403",
+            "title": "Obtaining cost or pricing data",
+            "url": "https://www.acquisition.gov/far/15.403"
+          }
+        ]
+      },
+      "whatThisTests": "Applying FAR Part 15 rules to identify the compliant answer for this specific acquisition scenario.",
+      "decisionSteps": [
+        "Pinpoint the governing FAR part and the specific section tied to the prompt.",
+        "Eliminate choices that conflict with authority, timing, or documentation rules.",
+        "Select the option that directly matches the cited FAR policy text."
+      ],
+      "whyCorrect": "Choice D aligns with the FAR rule and the procedural requirement being tested.",
+      "whyWrong": [
+        {
+          "choiceLabel": "A",
+          "reason": "Micropurchases do not require certified cost or pricing data."
+        },
+        {
+          "choiceLabel": "B",
+          "reason": "IFBs are generally price-competition environments where certified data is uncommon."
+        },
+        {
+          "choiceLabel": "C",
+          "reason": "RFQs under SAP typically do not trigger certified data requirements."
+        }
+      ],
+      "fieldTip": "On exam items, first identify the FAR trigger (part/section), then test each distractor against that trigger."
+    },
+    "explanation": {
+      "whyCorrect": "Choice D aligns with the FAR rule and the procedural requirement being tested.",
+      "keyTakeaway": "Applying FAR Part 15 rules to identify the compliant answer for this specific acquisition scenario.",
+      "commonTrap": "Micropurchases do not require certified cost or pricing data."
+    },
+    "farRefs": [
+      "FAR Part 15",
+      "15.403"
+    ],
+    "prompt": "Which type of solicitation may require the submission of certified cost or pricing data?"
+  },
+  {
+    "id": "q079",
+    "stem": "A contracting officer has the broadest discretion in fashioning suitable evaluation procedures when considering:",
+    "choices": [
+      "Proposals",
+      "Bids",
+      "Unsolicited proposals",
+      "Quotations"
+    ],
+    "correctIndex": 3,
+    "topic": "Commercial Items",
     "session": "Session 2",
     "tags": [
-      "simplified-acquisition",
+      "commercial-items",
       "b2b"
     ],
     "source": "CON 3910 themed generator",
@@ -6012,61 +5665,320 @@
         },
         "sections": [
           {
-            "cite": "FAR 13.003",
-            "title": "Policy",
-            "url": "https://www.acquisition.gov/far/13.003"
-          }
-        ],
-        "rfo": [
-          {
-            "cite": "FAR Overhaul Initiative",
-            "title": "RFO/FAR Overhaul Resource Hub",
-            "url": "https://www.acquisition.gov/far-overhaul"
+            "cite": "13.106-2",
+            "title": "Evaluation of quotations",
+            "url": "https://www.acquisition.gov/far/13.106-2"
           }
         ]
       },
-      "whatThisTests": "Selecting the compliant simplified acquisition action by applying governing policy, timing, and documentation rules.",
+      "whatThisTests": "Applying FAR Part 13 rules to identify the compliant answer for this specific acquisition scenario.",
       "decisionSteps": [
-        "Identify the governing authority (FAR Part 13) and the specific decision gate in the prompt.",
-        "Eliminate options that defer required approvals, documentation, or scope validation.",
-        "Choose the option that remains compliant while still supporting timely mission execution."
+        "Pinpoint the governing FAR part and the specific section tied to the prompt.",
+        "Eliminate choices that conflict with authority, timing, or documentation rules.",
+        "Select the option that directly matches the cited FAR policy text."
       ],
-      "whyCorrect": "This option directly applies FAR Part 13 requirements and preserves a defensible acquisition record.",
+      "whyCorrect": "Choice D aligns with the FAR rule and the procedural requirement being tested.",
       "whyWrong": [
         {
           "choiceLabel": "A",
-          "reason": "This option is a near-miss because it bypasses or mis-times a required control under FAR Part 13."
+          "reason": "Proposals under Part 15 follow more structured evaluation procedures."
+        },
+        {
+          "choiceLabel": "B",
+          "reason": "Bids under Part 14 are highly prescriptive and least discretionary."
         },
         {
           "choiceLabel": "C",
-          "reason": "This option is a near-miss because it bypasses or mis-times a required control under FAR Part 13."
+          "reason": "Unsolicited proposals follow distinct rules and are not the quotation-discretion context tested."
+        }
+      ],
+      "fieldTip": "On exam items, first identify the FAR trigger (part/section), then test each distractor against that trigger."
+    },
+    "explanation": {
+      "whyCorrect": "Choice D aligns with the FAR rule and the procedural requirement being tested.",
+      "keyTakeaway": "Applying FAR Part 13 rules to identify the compliant answer for this specific acquisition scenario.",
+      "commonTrap": "Proposals under Part 15 follow more structured evaluation procedures."
+    },
+    "farRefs": [
+      "FAR Part 13",
+      "13.106-2"
+    ],
+    "prompt": "A contracting officer has the broadest discretion in fashioning suitable evaluation procedures when considering:"
+  },
+  {
+    "id": "q080",
+    "stem": "Which acquisition situation would warrant an exception to the requirement for certified cost or pricing data?",
+    "choices": [
+      "Sole source award",
+      "Commercial item acquisition",
+      "Major weapon system acquisition",
+      "Small business award"
+    ],
+    "correctIndex": 1,
+    "topic": "Contract Types",
+    "session": "Session 2",
+    "tags": [
+      "contract-types",
+      "b2b"
+    ],
+    "source": "CON 3910 themed generator",
+    "explanationRich": {
+      "farRefs": {
+        "part": {
+          "cite": "FAR Part 15",
+          "title": "Contracting by Negotiation",
+          "url": "https://www.acquisition.gov/far/part-15"
+        },
+        "sections": [
+          {
+            "cite": "15.403-1",
+            "title": "Exceptions",
+            "url": "https://www.acquisition.gov/far/15.403-1"
+          }
+        ]
+      },
+      "whatThisTests": "Applying FAR Part 15 rules to identify the compliant answer for this specific acquisition scenario.",
+      "decisionSteps": [
+        "Pinpoint the governing FAR part and the specific section tied to the prompt.",
+        "Eliminate choices that conflict with authority, timing, or documentation rules.",
+        "Select the option that directly matches the cited FAR policy text."
+      ],
+      "whyCorrect": "Choice B aligns with the FAR rule and the procedural requirement being tested.",
+      "whyWrong": [
+        {
+          "choiceLabel": "A",
+          "reason": "Sole source usually increases likelihood of certified data unless another exception applies."
+        },
+        {
+          "choiceLabel": "C",
+          "reason": "Major weapons systems are not an automatic exception category."
         },
         {
           "choiceLabel": "D",
-          "reason": "This option is a near-miss because it bypasses or mis-times a required control under FAR Part 13."
+          "reason": "Small-business status alone is not an exception."
         }
       ],
-      "fieldTip": "When pressure increases, cite FAR 13.003 in your file documentation and note any transition context from the FAR Overhaul page."
+      "fieldTip": "On exam items, first identify the FAR trigger (part/section), then test each distractor against that trigger."
     },
     "explanation": {
-      "whyCorrect": "This option directly applies FAR Part 13 requirements and preserves a defensible acquisition record.",
-      "keyTakeaway": "Anchor decisions to FAR Part 13 and document the rationale before award or direction is issued.",
-      "commonTrap": "Do not trade compliance gates for speed; most wrong options delay or skip required acquisition controls."
+      "whyCorrect": "Choice B aligns with the FAR rule and the procedural requirement being tested.",
+      "keyTakeaway": "Applying FAR Part 15 rules to identify the compliant answer for this specific acquisition scenario.",
+      "commonTrap": "Sole source usually increases likelihood of certified data unless another exception applies."
     },
     "farRefs": [
-      "FAR 13"
-    ]
+      "FAR Part 15",
+      "15.403-1"
+    ],
+    "prompt": "Which acquisition situation would warrant an exception to the requirement for certified cost or pricing data?"
+  },
+  {
+    "id": "q081",
+    "stem": "A proposal submission time and date of 2 p.m. on February 3, 2020, appeared on the cover page of a Government solicitation. Based on the information provided at FAR 52.215-1, Instructions to Offerors - Competitive Acquisitions, which of the following proposals is late?",
+    "choices": [
+      "The contractor provided its proposal at 2:15 p.m. on February 3, 2020.",
+      "The contractor provided its proposal on January 25, 2020.",
+      "The contractor sent a proposal electronically at 1:30 p.m. on February 2, 2020; however, the Government did not receive the proposal until February 4, 2020, due to the Government server being down for repairs. The contractor had proof of the server failure.",
+      "The contractor physically delivered their proposal at 11 a.m. on Tuesday on February 4, 2020, due to the fact that at 1 p.m. on Friday, February 3, there was a bomb scare that shut down the Government contracts office for the remainder of the day precluding physical delivery of their proposal."
+    ],
+    "correctIndex": 0,
+    "topic": "Market Research",
+    "session": "Session 1",
+    "tags": [
+      "market-research",
+      "b2b"
+    ],
+    "source": "CON 3910 themed generator",
+    "explanationRich": {
+      "farRefs": {
+        "part": {
+          "cite": "FAR Part 52",
+          "title": "Solicitation Provisions and Clauses",
+          "url": "https://www.acquisition.gov/far/part-52"
+        },
+        "sections": [
+          {
+            "cite": "52.215-1",
+            "title": "Instructions to Offerors",
+            "url": "https://www.acquisition.gov/far/52.215-1"
+          }
+        ]
+      },
+      "whatThisTests": "Applying FAR Part 52 rules to identify the compliant answer for this specific acquisition scenario.",
+      "decisionSteps": [
+        "Pinpoint the governing FAR part and the specific section tied to the prompt.",
+        "Eliminate choices that conflict with authority, timing, or documentation rules.",
+        "Select the option that directly matches the cited FAR policy text."
+      ],
+      "whyCorrect": "Choice A aligns with the FAR rule and the procedural requirement being tested.",
+      "whyWrong": [
+        {
+          "choiceLabel": "B",
+          "reason": "This proposal was submitted before the deadline date/time, so it is not late."
+        },
+        {
+          "choiceLabel": "C",
+          "reason": "Government control/server outage facts can support a late-proposal exception under FAR 52.215-1."
+        },
+        {
+          "choiceLabel": "D",
+          "reason": "Office closure (e.g., bomb scare) can support consideration under the late-proposal exception framework."
+        }
+      ],
+      "fieldTip": "On exam items, first identify the FAR trigger (part/section), then test each distractor against that trigger."
+    },
+    "explanation": {
+      "whyCorrect": "Choice A aligns with the FAR rule and the procedural requirement being tested.",
+      "keyTakeaway": "Applying FAR Part 52 rules to identify the compliant answer for this specific acquisition scenario.",
+      "commonTrap": "This proposal was submitted before the deadline date/time, so it is not late."
+    },
+    "farRefs": [
+      "FAR Part 52",
+      "52.215-1"
+    ],
+    "prompt": "A proposal submission time and date of 2 p.m. on February 3, 2020, appeared on the cover page of a Government solicitation. Based on the information provided at FAR 52.215-1, Instructions to Offerors - Competitive Acquisitions, which of the following proposals is late?"
+  },
+  {
+    "id": "q082",
+    "stem": "When a contractor submits a Certificate of Current Cost or Pricing data, it is certifying that:",
+    "choices": [
+      "All contractor data \"sweeps\" have been accomplished.",
+      "Negotiations have been completed, and the parties have come to agreement.",
+      "The data submitted in support of a negotiations are current, accurate, and complete.",
+      "The data it submitted to support negotiations has been properly notarized."
+    ],
+    "correctIndex": 2,
+    "topic": "Competition",
+    "session": "Session 1",
+    "tags": [
+      "competition",
+      "b2b"
+    ],
+    "source": "CON 3910 themed generator",
+    "explanationRich": {
+      "farRefs": {
+        "part": {
+          "cite": "FAR Part 15",
+          "title": "Contracting by Negotiation",
+          "url": "https://www.acquisition.gov/far/part-15"
+        },
+        "sections": [
+          {
+            "cite": "15.406-2",
+            "title": "Certificate of current cost or pricing data",
+            "url": "https://www.acquisition.gov/far/15.406-2"
+          }
+        ]
+      },
+      "whatThisTests": "Applying FAR Part 15 rules to identify the compliant answer for this specific acquisition scenario.",
+      "decisionSteps": [
+        "Pinpoint the governing FAR part and the specific section tied to the prompt.",
+        "Eliminate choices that conflict with authority, timing, or documentation rules.",
+        "Select the option that directly matches the cited FAR policy text."
+      ],
+      "whyCorrect": "Choice C aligns with the FAR rule and the procedural requirement being tested.",
+      "whyWrong": [
+        {
+          "choiceLabel": "A",
+          "reason": "Data sweeps support process discipline but are not what the certificate legally certifies."
+        },
+        {
+          "choiceLabel": "B",
+          "reason": "Agreement completion is not the certification statement itself."
+        },
+        {
+          "choiceLabel": "D",
+          "reason": "Notarization is not the legal content of the FAR certificate."
+        }
+      ],
+      "fieldTip": "On exam items, first identify the FAR trigger (part/section), then test each distractor against that trigger."
+    },
+    "explanation": {
+      "whyCorrect": "Choice C aligns with the FAR rule and the procedural requirement being tested.",
+      "keyTakeaway": "Applying FAR Part 15 rules to identify the compliant answer for this specific acquisition scenario.",
+      "commonTrap": "Data sweeps support process discipline but are not what the certificate legally certifies."
+    },
+    "farRefs": [
+      "FAR Part 15",
+      "15.406-2"
+    ],
+    "prompt": "When a contractor submits a Certificate of Current Cost or Pricing data, it is certifying that:"
+  },
+  {
+    "id": "q083",
+    "stem": "Which of the following are limited exchanges between the Government and offerors that may occur when award without discussions is contemplated?",
+    "choices": [
+      "Negotiations",
+      "Discussions",
+      "Clarifications",
+      "Communications"
+    ],
+    "correctIndex": 2,
+    "topic": "Simplified Acquisition",
+    "session": "Session 2",
+    "tags": [
+      "simplified-acquisition",
+      "b2b"
+    ],
+    "source": "CON 3910 themed generator",
+    "explanationRich": {
+      "farRefs": {
+        "part": {
+          "cite": "FAR Part 15",
+          "title": "Contracting by Negotiation",
+          "url": "https://www.acquisition.gov/far/part-15"
+        },
+        "sections": [
+          {
+            "cite": "15.306",
+            "title": "Exchanges with offerors",
+            "url": "https://www.acquisition.gov/far/15.306"
+          }
+        ]
+      },
+      "whatThisTests": "Applying FAR Part 15 rules to identify the compliant answer for this specific acquisition scenario.",
+      "decisionSteps": [
+        "Pinpoint the governing FAR part and the specific section tied to the prompt.",
+        "Eliminate choices that conflict with authority, timing, or documentation rules.",
+        "Select the option that directly matches the cited FAR policy text."
+      ],
+      "whyCorrect": "Choice C aligns with the FAR rule and the procedural requirement being tested.",
+      "whyWrong": [
+        {
+          "choiceLabel": "A",
+          "reason": "Negotiations/discussions are broader exchanges, not the limited exchange type when no discussions are planned."
+        },
+        {
+          "choiceLabel": "B",
+          "reason": "Discussions allow proposal revisions; clarifications are narrower and limited."
+        },
+        {
+          "choiceLabel": "D",
+          "reason": "Communications typically occur before competitive range establishment under defined circumstances."
+        }
+      ],
+      "fieldTip": "On exam items, first identify the FAR trigger (part/section), then test each distractor against that trigger."
+    },
+    "explanation": {
+      "whyCorrect": "Choice C aligns with the FAR rule and the procedural requirement being tested.",
+      "keyTakeaway": "Applying FAR Part 15 rules to identify the compliant answer for this specific acquisition scenario.",
+      "commonTrap": "Negotiations/discussions are broader exchanges, not the limited exchange type when no discussions are planned."
+    },
+    "farRefs": [
+      "FAR Part 15",
+      "15.306"
+    ],
+    "prompt": "Which of the following are limited exchanges between the Government and offerors that may occur when award without discussions is contemplated?"
   },
   {
     "id": "q084",
-    "stem": "The contracting office is running a negotiated procurement and must follow evaluation and discussion rules for a defensible award. What is the best contracting action?",
+    "stem": "Negotiating positions should be developed through which of the following?",
     "choices": [
-      "Begin discussions before finalizing evaluation factors and competitive-range documentation.",
-      "Select the lowest-priced offer without documenting how non-price factors were applied.",
-      "Establish and follow FAR Part 15 evaluation, discussion, and award documentation procedures.",
-      "Share one offeror\u2019s pricing position with another to accelerate final proposal revisions."
+      "Price or cost analysis",
+      "The independent Government cost estimate (IGCE)",
+      "Always using a should cost analysis",
+      "Solely on the price analyst's judgment"
     ],
-    "correctIndex": 2,
+    "correctIndex": 0,
     "topic": "Contracting by Negotiation",
     "session": "Session 3",
     "tags": [
@@ -6083,61 +5995,56 @@
         },
         "sections": [
           {
-            "cite": "FAR 15.306",
-            "title": "Exchanges with Offerors",
-            "url": "https://www.acquisition.gov/far/15.306"
-          }
-        ],
-        "rfo": [
-          {
-            "cite": "FAR Overhaul Initiative",
-            "title": "RFO/FAR Overhaul Resource Hub",
-            "url": "https://www.acquisition.gov/far-overhaul"
+            "cite": "15.406-1",
+            "title": "Prenegotiation objectives",
+            "url": "https://www.acquisition.gov/far/15.406-1"
           }
         ]
       },
-      "whatThisTests": "Selecting the compliant contracting by negotiation action by applying governing policy, timing, and documentation rules.",
+      "whatThisTests": "Applying FAR Part 15 rules to identify the compliant answer for this specific acquisition scenario.",
       "decisionSteps": [
-        "Identify the governing authority (FAR Part 15) and the specific decision gate in the prompt.",
-        "Eliminate options that defer required approvals, documentation, or scope validation.",
-        "Choose the option that remains compliant while still supporting timely mission execution."
+        "Pinpoint the governing FAR part and the specific section tied to the prompt.",
+        "Eliminate choices that conflict with authority, timing, or documentation rules.",
+        "Select the option that directly matches the cited FAR policy text."
       ],
-      "whyCorrect": "This option directly applies FAR Part 15 requirements and preserves a defensible acquisition record.",
+      "whyCorrect": "Choice A aligns with the FAR rule and the procedural requirement being tested.",
       "whyWrong": [
         {
-          "choiceLabel": "A",
-          "reason": "This option is a near-miss because it bypasses or mis-times a required control under FAR Part 15."
+          "choiceLabel": "B",
+          "reason": "IGCE informs the Government view but cannot replace full price/cost analysis."
         },
         {
-          "choiceLabel": "B",
-          "reason": "This option is a near-miss because it bypasses or mis-times a required control under FAR Part 15."
+          "choiceLabel": "C",
+          "reason": "Should-cost is optional and situational, not always mandatory."
         },
         {
           "choiceLabel": "D",
-          "reason": "This option is a near-miss because it bypasses or mis-times a required control under FAR Part 15."
+          "reason": "Negotiation positions cannot rest solely on one analyst judgment without analysis support."
         }
       ],
-      "fieldTip": "When pressure increases, cite FAR 15.306 in your file documentation and note any transition context from the FAR Overhaul page."
+      "fieldTip": "On exam items, first identify the FAR trigger (part/section), then test each distractor against that trigger."
     },
     "explanation": {
-      "whyCorrect": "This option directly applies FAR Part 15 requirements and preserves a defensible acquisition record.",
-      "keyTakeaway": "Anchor decisions to FAR Part 15 and document the rationale before award or direction is issued.",
-      "commonTrap": "Do not trade compliance gates for speed; most wrong options delay or skip required acquisition controls."
+      "whyCorrect": "Choice A aligns with the FAR rule and the procedural requirement being tested.",
+      "keyTakeaway": "Applying FAR Part 15 rules to identify the compliant answer for this specific acquisition scenario.",
+      "commonTrap": "IGCE informs the Government view but cannot replace full price/cost analysis."
     },
     "farRefs": [
-      "FAR 15"
-    ]
+      "FAR Part 15",
+      "15.406-1"
+    ],
+    "prompt": "Negotiating positions should be developed through which of the following?"
   },
   {
     "id": "q085",
-    "stem": "Post-award changes are being requested and the contracting team must choose the correct modification approach and authority. What is the best contracting action?",
+    "stem": "Which of the following documents would the contracting officer use to document the purpose, description, and outcome of negotiations?",
     "choices": [
-      "Direct out-of-scope work first and negotiate the modification terms after contractor performance begins.",
-      "Use FAR Part 43 modification authority and document scope, funding, and pricing before directing work.",
-      "Use unilateral administrative-change authority for substantive scope expansion without bilateral agreement.",
-      "Treat all post-award changes as in-scope whenever schedule urgency is mission critical."
+      "Price Negotiation Memorandum",
+      "Standard Form 1409, Abstract of Offers",
+      "Certificate of Current Cost or Pricing Data",
+      "Standard Form 30, Amendment of Solicitation/Modification of Contract"
     ],
-    "correctIndex": 1,
+    "correctIndex": 0,
     "topic": "Contract Modifications",
     "session": "Session 4",
     "tags": [
@@ -6148,65 +6055,60 @@
     "explanationRich": {
       "farRefs": {
         "part": {
-          "cite": "FAR Part 43",
-          "title": "Contract Modifications",
-          "url": "https://www.acquisition.gov/far/part-43"
+          "cite": "FAR Part 15",
+          "title": "Contracting by Negotiation",
+          "url": "https://www.acquisition.gov/far/part-15"
         },
         "sections": [
           {
-            "cite": "FAR 43.102",
-            "title": "Policy",
-            "url": "https://www.acquisition.gov/far/43.102"
-          }
-        ],
-        "rfo": [
-          {
-            "cite": "FAR Overhaul Initiative",
-            "title": "RFO/FAR Overhaul Resource Hub",
-            "url": "https://www.acquisition.gov/far-overhaul"
+            "cite": "15.406-3",
+            "title": "Documenting negotiations",
+            "url": "https://www.acquisition.gov/far/15.406-3"
           }
         ]
       },
-      "whatThisTests": "Selecting the compliant contract modifications action by applying governing policy, timing, and documentation rules.",
+      "whatThisTests": "Applying FAR Part 15 rules to identify the compliant answer for this specific acquisition scenario.",
       "decisionSteps": [
-        "Identify the governing authority (FAR Part 43) and the specific decision gate in the prompt.",
-        "Eliminate options that defer required approvals, documentation, or scope validation.",
-        "Choose the option that remains compliant while still supporting timely mission execution."
+        "Pinpoint the governing FAR part and the specific section tied to the prompt.",
+        "Eliminate choices that conflict with authority, timing, or documentation rules.",
+        "Select the option that directly matches the cited FAR policy text."
       ],
-      "whyCorrect": "This option directly applies FAR Part 43 requirements and preserves a defensible acquisition record.",
+      "whyCorrect": "Choice A aligns with the FAR rule and the procedural requirement being tested.",
       "whyWrong": [
         {
-          "choiceLabel": "A",
-          "reason": "This option is a near-miss because it bypasses or mis-times a required control under FAR Part 43."
+          "choiceLabel": "B",
+          "reason": "SF 1409 abstracts offers; it does not document negotiation purpose/outcomes."
         },
         {
           "choiceLabel": "C",
-          "reason": "This option is a near-miss because it bypasses or mis-times a required control under FAR Part 43."
+          "reason": "Certificate of cost/pricing data is contractor certification, not Government negotiation record."
         },
         {
           "choiceLabel": "D",
-          "reason": "This option is a near-miss because it bypasses or mis-times a required control under FAR Part 43."
+          "reason": "SF 30 executes amendments/mods; it does not replace the PNM narrative documentation."
         }
       ],
-      "fieldTip": "When pressure increases, cite FAR 43.102 in your file documentation and note any transition context from the FAR Overhaul page."
+      "fieldTip": "On exam items, first identify the FAR trigger (part/section), then test each distractor against that trigger."
     },
     "explanation": {
-      "whyCorrect": "This option directly applies FAR Part 43 requirements and preserves a defensible acquisition record.",
-      "keyTakeaway": "Anchor decisions to FAR Part 43 and document the rationale before award or direction is issued.",
-      "commonTrap": "Do not trade compliance gates for speed; most wrong options delay or skip required acquisition controls."
+      "whyCorrect": "Choice A aligns with the FAR rule and the procedural requirement being tested.",
+      "keyTakeaway": "Applying FAR Part 15 rules to identify the compliant answer for this specific acquisition scenario.",
+      "commonTrap": "SF 1409 abstracts offers; it does not document negotiation purpose/outcomes."
     },
     "farRefs": [
-      "FAR 43"
-    ]
+      "FAR Part 15",
+      "15.406-3"
+    ],
+    "prompt": "Which of the following documents would the contracting officer use to document the purpose, description, and outcome of negotiations?"
   },
   {
     "id": "q086",
-    "stem": "A source selection is underway and the record must support evaluation judgments and award rationale. What is the best contracting action?",
+    "stem": "Where in the FAR is contracting by negotiation covered?",
     "choices": [
-      "Adjust evaluation weighting during source selection to reflect evolving stakeholder preferences.",
-      "Rely on undocumented evaluator impressions instead of recording strengths, weaknesses, and risks.",
-      "Record only final ratings and omit narrative tradeoff analysis between leading proposals.",
-      "Document evaluation findings and tradeoff rationale consistent with FAR 15.3 before award."
+      "FAR part 12",
+      "FAR part 13",
+      "FAR part 14",
+      "FAR part 15"
     ],
     "correctIndex": 3,
     "topic": "Source Selection",
@@ -6219,67 +6121,71 @@
     "explanationRich": {
       "farRefs": {
         "part": {
-          "cite": "FAR 15.3",
-          "title": "Source Selection",
-          "url": "https://www.acquisition.gov/far/subpart-15.3"
+          "cite": "FAR Part 15",
+          "title": "Contracting by Negotiation",
+          "url": "https://www.acquisition.gov/far/part-15"
         },
         "sections": [
           {
-            "cite": "FAR 15.308",
-            "title": "Source Selection Decision",
-            "url": "https://www.acquisition.gov/far/15.308"
-          }
-        ],
-        "rfo": [
-          {
-            "cite": "FAR Overhaul Initiative",
-            "title": "RFO/FAR Overhaul Resource Hub",
-            "url": "https://www.acquisition.gov/far-overhaul"
+            "cite": "15.000",
+            "title": "Scope of part",
+            "url": "https://www.acquisition.gov/far/part-15"
           }
         ]
       },
-      "whatThisTests": "Selecting the compliant source selection action by applying governing policy, timing, and documentation rules.",
+      "whatThisTests": "Applying FAR Part 15 rules to identify the compliant answer for this specific acquisition scenario.",
       "decisionSteps": [
-        "Identify the governing authority (FAR 15.3) and the specific decision gate in the prompt.",
-        "Eliminate options that defer required approvals, documentation, or scope validation.",
-        "Choose the option that remains compliant while still supporting timely mission execution."
+        "Pinpoint the governing FAR part and the specific section tied to the prompt.",
+        "Eliminate choices that conflict with authority, timing, or documentation rules.",
+        "Select the option that directly matches the cited FAR policy text."
       ],
-      "whyCorrect": "This option directly applies FAR 15.3 requirements and preserves a defensible acquisition record.",
+      "whyCorrect": "Choice D aligns with the FAR rule and the procedural requirement being tested.",
       "whyWrong": [
         {
           "choiceLabel": "A",
-          "reason": "This option is a near-miss because it bypasses or mis-times a required control under FAR 15.3."
+          "reason": "Part 12 is commercial items, not general contracting by negotiation coverage."
         },
         {
           "choiceLabel": "B",
-          "reason": "This option is a near-miss because it bypasses or mis-times a required control under FAR 15.3."
+          "reason": "Part 13 is simplified acquisition procedures."
         },
         {
           "choiceLabel": "C",
-          "reason": "This option is a near-miss because it bypasses or mis-times a required control under FAR 15.3."
+          "reason": "Part 14 is sealed bidding."
         }
       ],
-      "fieldTip": "When pressure increases, cite FAR 15.308 in your file documentation and note any transition context from the FAR Overhaul page."
+      "fieldTip": "On exam items, first identify the FAR trigger (part/section), then test each distractor against that trigger.",
+      "rfoUpdate": {
+        "summary": "As FAR Overhaul progresses, numbering/wording may move, so confirm current citations while preserving policy meaning.",
+        "links": [
+          {
+            "label": "FAR Overhaul (Acquisition.gov)",
+            "url": "https://www.acquisition.gov/far-overhaul"
+          }
+        ]
+      }
     },
     "explanation": {
-      "whyCorrect": "This option directly applies FAR 15.3 requirements and preserves a defensible acquisition record.",
-      "keyTakeaway": "Anchor decisions to FAR 15.3 and document the rationale before award or direction is issued.",
-      "commonTrap": "Do not trade compliance gates for speed; most wrong options delay or skip required acquisition controls."
+      "whyCorrect": "Choice D aligns with the FAR rule and the procedural requirement being tested.",
+      "keyTakeaway": "Applying FAR Part 15 rules to identify the compliant answer for this specific acquisition scenario.",
+      "commonTrap": "Part 12 is commercial items, not general contracting by negotiation coverage."
     },
     "farRefs": [
-      "FAR 15.3"
-    ]
+      "FAR Part 15",
+      "15.000"
+    ],
+    "prompt": "Where in the FAR is contracting by negotiation covered?"
   },
   {
     "id": "q087",
-    "stem": "The team is deciding whether and how to use commercial-item procedures for a recurring requirement. What is the best contracting action?",
+    "stem": "During discussions, the contracting officer:",
     "choices": [
-      "Apply government-unique clauses by default without checking customary commercial practice.",
-      "Validate commercial-item applicability and apply FAR Part 12 procedures using market-based terms.",
-      "Use commercial-item procedures while requiring unique redesign elements not sold commercially.",
-      "Rely only on internal cost estimates instead of market comparability for commercial pricing."
+      "Should discuss aspects of an offeror's proposal if alterations or explanations would enhance the proposal's potential for award",
+      "Must pursue obtaining what is best for the Government value irrespective of the evaluation factors set forth in the solicitation",
+      "May not negotiate with offerors for increased performance beyond mandatory minimums",
+      "May favor one offeror over another during discussions"
     ],
-    "correctIndex": 1,
+    "correctIndex": 0,
     "topic": "Commercial Items",
     "session": "Session 2",
     "tags": [
@@ -6290,67 +6196,62 @@
     "explanationRich": {
       "farRefs": {
         "part": {
-          "cite": "FAR Part 12",
-          "title": "Commercial Products and Services",
-          "url": "https://www.acquisition.gov/far/part-12"
+          "cite": "FAR Part 15",
+          "title": "Contracting by Negotiation",
+          "url": "https://www.acquisition.gov/far/part-15"
         },
         "sections": [
           {
-            "cite": "FAR 12.102",
-            "title": "Applicability",
-            "url": "https://www.acquisition.gov/far/12.102"
-          }
-        ],
-        "rfo": [
-          {
-            "cite": "FAR Overhaul Initiative",
-            "title": "RFO/FAR Overhaul Resource Hub",
-            "url": "https://www.acquisition.gov/far-overhaul"
+            "cite": "15.306",
+            "title": "Exchanges with offerors",
+            "url": "https://www.acquisition.gov/far/15.306"
           }
         ]
       },
-      "whatThisTests": "Selecting the compliant commercial items action by applying governing policy, timing, and documentation rules.",
+      "whatThisTests": "Applying FAR Part 15 rules to identify the compliant answer for this specific acquisition scenario.",
       "decisionSteps": [
-        "Identify the governing authority (FAR Part 12) and the specific decision gate in the prompt.",
-        "Eliminate options that defer required approvals, documentation, or scope validation.",
-        "Choose the option that remains compliant while still supporting timely mission execution."
+        "Pinpoint the governing FAR part and the specific section tied to the prompt.",
+        "Eliminate choices that conflict with authority, timing, or documentation rules.",
+        "Select the option that directly matches the cited FAR policy text."
       ],
-      "whyCorrect": "This option directly applies FAR Part 12 requirements and preserves a defensible acquisition record.",
+      "whyCorrect": "Choice A aligns with the FAR rule and the procedural requirement being tested.",
       "whyWrong": [
         {
-          "choiceLabel": "A",
-          "reason": "This option is a near-miss because it bypasses or mis-times a required control under FAR Part 12."
+          "choiceLabel": "B",
+          "reason": "CO must stay within solicitation evaluation factors and cannot ignore them."
         },
         {
           "choiceLabel": "C",
-          "reason": "This option is a near-miss because it bypasses or mis-times a required control under FAR Part 12."
+          "reason": "CO may negotiate performance terms where appropriate; blanket prohibition is incorrect."
         },
         {
           "choiceLabel": "D",
-          "reason": "This option is a near-miss because it bypasses or mis-times a required control under FAR Part 12."
+          "reason": "Favoring one offeror violates fairness and procurement integrity."
         }
       ],
-      "fieldTip": "When pressure increases, cite FAR 12.102 in your file documentation and note any transition context from the FAR Overhaul page."
+      "fieldTip": "On exam items, first identify the FAR trigger (part/section), then test each distractor against that trigger."
     },
     "explanation": {
-      "whyCorrect": "This option directly applies FAR Part 12 requirements and preserves a defensible acquisition record.",
-      "keyTakeaway": "Anchor decisions to FAR Part 12 and document the rationale before award or direction is issued.",
-      "commonTrap": "Do not trade compliance gates for speed; most wrong options delay or skip required acquisition controls."
+      "whyCorrect": "Choice A aligns with the FAR rule and the procedural requirement being tested.",
+      "keyTakeaway": "Applying FAR Part 15 rules to identify the compliant answer for this specific acquisition scenario.",
+      "commonTrap": "CO must stay within solicitation evaluation factors and cannot ignore them."
     },
     "farRefs": [
-      "FAR 12"
-    ]
+      "FAR Part 15",
+      "15.306"
+    ],
+    "prompt": "During discussions, the contracting officer:"
   },
   {
     "id": "q088",
-    "stem": "During acquisition planning, the team must select a contract type that appropriately allocates performance and cost risk. What is the best contracting action?",
+    "stem": "Prenegotiation objectives:",
     "choices": [
-      "Choose firm-fixed-price for unstable requirements mainly to reduce administrative workload.",
-      "Use cost-reimbursement before confirming accounting adequacy and surveillance capability.",
-      "Select the contract type under FAR Part 16 based on requirement uncertainty and risk allocation.",
-      "Reuse the prior contract type by default even when technical and cost risk changed materially."
+      "Document the elements of the negotiated agreement",
+      "Establish the Government's initial negotiation position",
+      "Establish the Government's final negotiation position",
+      "Are unnecessary if submission of certified cost or pricing data is required"
     ],
-    "correctIndex": 2,
+    "correctIndex": 1,
     "topic": "Contract Types",
     "session": "Session 2",
     "tags": [
@@ -6361,65 +6262,60 @@
     "explanationRich": {
       "farRefs": {
         "part": {
-          "cite": "FAR Part 16",
-          "title": "Types of Contracts",
-          "url": "https://www.acquisition.gov/far/part-16"
+          "cite": "FAR Part 15",
+          "title": "Contracting by Negotiation",
+          "url": "https://www.acquisition.gov/far/part-15"
         },
         "sections": [
           {
-            "cite": "FAR 16.103",
-            "title": "Negotiating Contract Type",
-            "url": "https://www.acquisition.gov/far/16.103"
-          }
-        ],
-        "rfo": [
-          {
-            "cite": "FAR Overhaul Initiative",
-            "title": "RFO/FAR Overhaul Resource Hub",
-            "url": "https://www.acquisition.gov/far-overhaul"
+            "cite": "15.406-1",
+            "title": "Prenegotiation objectives",
+            "url": "https://www.acquisition.gov/far/15.406-1"
           }
         ]
       },
-      "whatThisTests": "Selecting the compliant contract types action by applying governing policy, timing, and documentation rules.",
+      "whatThisTests": "Applying FAR Part 15 rules to identify the compliant answer for this specific acquisition scenario.",
       "decisionSteps": [
-        "Identify the governing authority (FAR Part 16) and the specific decision gate in the prompt.",
-        "Eliminate options that defer required approvals, documentation, or scope validation.",
-        "Choose the option that remains compliant while still supporting timely mission execution."
+        "Pinpoint the governing FAR part and the specific section tied to the prompt.",
+        "Eliminate choices that conflict with authority, timing, or documentation rules.",
+        "Select the option that directly matches the cited FAR policy text."
       ],
-      "whyCorrect": "This option directly applies FAR Part 16 requirements and preserves a defensible acquisition record.",
+      "whyCorrect": "Choice B aligns with the FAR rule and the procedural requirement being tested.",
       "whyWrong": [
         {
           "choiceLabel": "A",
-          "reason": "This option is a near-miss because it bypasses or mis-times a required control under FAR Part 16."
+          "reason": "PNM documents results after negotiation; prenegotiation objectives set starting position before talks."
         },
         {
-          "choiceLabel": "B",
-          "reason": "This option is a near-miss because it bypasses or mis-times a required control under FAR Part 16."
+          "choiceLabel": "C",
+          "reason": "Final position comes after negotiation evolution, not at prenegotiation objective stage."
         },
         {
           "choiceLabel": "D",
-          "reason": "This option is a near-miss because it bypasses or mis-times a required control under FAR Part 16."
+          "reason": "Prenegotiation objectives are required even when certified data is involved."
         }
       ],
-      "fieldTip": "When pressure increases, cite FAR 16.103 in your file documentation and note any transition context from the FAR Overhaul page."
+      "fieldTip": "On exam items, first identify the FAR trigger (part/section), then test each distractor against that trigger."
     },
     "explanation": {
-      "whyCorrect": "This option directly applies FAR Part 16 requirements and preserves a defensible acquisition record.",
-      "keyTakeaway": "Anchor decisions to FAR Part 16 and document the rationale before award or direction is issued.",
-      "commonTrap": "Do not trade compliance gates for speed; most wrong options delay or skip required acquisition controls."
+      "whyCorrect": "Choice B aligns with the FAR rule and the procedural requirement being tested.",
+      "keyTakeaway": "Applying FAR Part 15 rules to identify the compliant answer for this specific acquisition scenario.",
+      "commonTrap": "PNM documents results after negotiation; prenegotiation objectives set starting position before talks."
     },
     "farRefs": [
-      "FAR 16"
-    ]
+      "FAR Part 15",
+      "15.406-1"
+    ],
+    "prompt": "Prenegotiation objectives:"
   },
   {
     "id": "q089",
-    "stem": "Before finalizing an acquisition strategy, the team must confirm available sources, capabilities, and market conditions for the requirement. What is the best contracting action?",
+    "stem": "The competitive range for competitive negotiations must be established:",
     "choices": [
-      "Reuse prior-year vendor assumptions without validating current market capability or pricing conditions.",
-      "Issue the solicitation first and collect market research documentation only if protest risk increases.",
-      "Limit outreach to the incumbent because continuity concerns outweigh pre-award market analysis.",
-      "Document current market research findings under FAR Part 10 before finalizing the acquisition approach."
+      "The competitive range for competitive negotiations must be established:",
+      "When clarifications are complete",
+      "Before initiating communications",
+      "Prior to entering into discussions"
     ],
     "correctIndex": 3,
     "topic": "Market Research",
@@ -6432,67 +6328,62 @@
     "explanationRich": {
       "farRefs": {
         "part": {
-          "cite": "FAR Part 10",
-          "title": "Market Research",
-          "url": "https://www.acquisition.gov/far/part-10"
+          "cite": "FAR Part 15",
+          "title": "Contracting by Negotiation",
+          "url": "https://www.acquisition.gov/far/part-15"
         },
         "sections": [
           {
-            "cite": "FAR 10.001",
-            "title": "Policy",
-            "url": "https://www.acquisition.gov/far/10.001"
-          }
-        ],
-        "rfo": [
-          {
-            "cite": "FAR Overhaul Initiative",
-            "title": "RFO/FAR Overhaul Resource Hub",
-            "url": "https://www.acquisition.gov/far-overhaul"
+            "cite": "15.306",
+            "title": "Exchanges with offerors",
+            "url": "https://www.acquisition.gov/far/15.306"
           }
         ]
       },
-      "whatThisTests": "Selecting the compliant market research action by applying governing policy, timing, and documentation rules.",
+      "whatThisTests": "Applying FAR Part 15 rules to identify the compliant answer for this specific acquisition scenario.",
       "decisionSteps": [
-        "Identify the governing authority (FAR Part 10) and the specific decision gate in the prompt.",
-        "Eliminate options that defer required approvals, documentation, or scope validation.",
-        "Choose the option that remains compliant while still supporting timely mission execution."
+        "Pinpoint the governing FAR part and the specific section tied to the prompt.",
+        "Eliminate choices that conflict with authority, timing, or documentation rules.",
+        "Select the option that directly matches the cited FAR policy text."
       ],
-      "whyCorrect": "This option directly applies FAR Part 10 requirements and preserves a defensible acquisition record.",
+      "whyCorrect": "Choice D aligns with the FAR rule and the procedural requirement being tested.",
       "whyWrong": [
         {
           "choiceLabel": "A",
-          "reason": "This option is a near-miss because it bypasses or mis-times a required control under FAR Part 10."
+          "reason": "This repeats the stem and is not an actionable timing rule answer."
         },
         {
           "choiceLabel": "B",
-          "reason": "This option is a near-miss because it bypasses or mis-times a required control under FAR Part 10."
+          "reason": "Clarifications can occur without establishing competitive range timing requirement."
         },
         {
           "choiceLabel": "C",
-          "reason": "This option is a near-miss because it bypasses or mis-times a required control under FAR Part 10."
+          "reason": "Communications occur before range establishment; range must precede discussions."
         }
       ],
-      "fieldTip": "When pressure increases, cite FAR 10.001 in your file documentation and note any transition context from the FAR Overhaul page."
+      "fieldTip": "On exam items, first identify the FAR trigger (part/section), then test each distractor against that trigger."
     },
     "explanation": {
-      "whyCorrect": "This option directly applies FAR Part 10 requirements and preserves a defensible acquisition record.",
-      "keyTakeaway": "Anchor decisions to FAR Part 10 and document the rationale before award or direction is issued.",
-      "commonTrap": "Do not trade compliance gates for speed; most wrong options delay or skip required acquisition controls."
+      "whyCorrect": "Choice D aligns with the FAR rule and the procedural requirement being tested.",
+      "keyTakeaway": "Applying FAR Part 15 rules to identify the compliant answer for this specific acquisition scenario.",
+      "commonTrap": "This repeats the stem and is not an actionable timing rule answer."
     },
     "farRefs": [
-      "FAR 10"
-    ]
+      "FAR Part 15",
+      "15.306"
+    ],
+    "prompt": "The competitive range for competitive negotiations must be established:"
   },
   {
     "id": "q090",
-    "stem": "An acquisition plan is being drafted and the team must decide how to satisfy competition requirements before award decisions are made. What is the best contracting action?",
+    "stem": "In the FAR, the term \"discussions\" is synonymous with which of the following?",
     "choices": [
-      "Restrict sources to known contractors first and justify limiting competition after proposal receipt.",
-      "Promote full and open competition and document any authorized exception before award under FAR Part 6.",
-      "Use urgency as a default basis to narrow competition without preparing the required approval package.",
-      "Adopt a brand-name-only strategy immediately and defer the justification until contract administration."
+      "Banter",
+      "Exchanges",
+      "Fact-findings",
+      "Negotiations"
     ],
-    "correctIndex": 1,
+    "correctIndex": 3,
     "topic": "Competition",
     "session": "Session 1",
     "tags": [
@@ -6503,56 +6394,60 @@
     "explanationRich": {
       "farRefs": {
         "part": {
-          "cite": "FAR Part 6",
-          "title": "Competition Requirements",
-          "url": "https://www.acquisition.gov/far/part-6"
+          "cite": "FAR Part 15",
+          "title": "Contracting by Negotiation",
+          "url": "https://www.acquisition.gov/far/part-15"
         },
         "sections": [
           {
-            "cite": "FAR 6.101",
-            "title": "Policy",
-            "url": "https://www.acquisition.gov/far/6.101"
-          }
-        ],
-        "rfo": [
-          {
-            "cite": "FAR Overhaul Initiative",
-            "title": "RFO/FAR Overhaul Resource Hub",
-            "url": "https://www.acquisition.gov/far-overhaul"
+            "cite": "15.306",
+            "title": "Discussions",
+            "url": "https://www.acquisition.gov/far/15.306"
           }
         ]
       },
-      "whatThisTests": "Selecting the compliant competition action by applying governing policy, timing, and documentation rules.",
+      "whatThisTests": "Applying FAR Part 15 rules to identify the compliant answer for this specific acquisition scenario.",
       "decisionSteps": [
-        "Identify the governing authority (FAR Part 6) and the specific decision gate in the prompt.",
-        "Eliminate options that defer required approvals, documentation, or scope validation.",
-        "Choose the option that remains compliant while still supporting timely mission execution."
+        "Pinpoint the governing FAR part and the specific section tied to the prompt.",
+        "Eliminate choices that conflict with authority, timing, or documentation rules.",
+        "Select the option that directly matches the cited FAR policy text."
       ],
-      "whyCorrect": "This option directly applies FAR Part 6 requirements and preserves a defensible acquisition record.",
+      "whyCorrect": "Choice D aligns with the FAR rule and the procedural requirement being tested.",
       "whyWrong": [
         {
           "choiceLabel": "A",
-          "reason": "This option is a near-miss because it bypasses or mis-times a required control under FAR Part 6."
+          "reason": "Banter is informal conversation, not FAR terminology."
+        },
+        {
+          "choiceLabel": "B",
+          "reason": "Exchanges is broader terminology; the FAR synonym in this context is negotiations."
         },
         {
           "choiceLabel": "C",
-          "reason": "This option is a near-miss because it bypasses or mis-times a required control under FAR Part 6."
-        },
-        {
-          "choiceLabel": "D",
-          "reason": "This option is a near-miss because it bypasses or mis-times a required control under FAR Part 6."
+          "reason": "Fact-finding is a specific activity, not the defined synonym."
         }
       ],
-      "fieldTip": "When pressure increases, cite FAR 6.101 in your file documentation and note any transition context from the FAR Overhaul page."
+      "fieldTip": "On exam items, first identify the FAR trigger (part/section), then test each distractor against that trigger.",
+      "rfoUpdate": {
+        "summary": "As FAR Overhaul progresses, numbering/wording may move, so confirm current citations while preserving policy meaning.",
+        "links": [
+          {
+            "label": "FAR Overhaul (Acquisition.gov)",
+            "url": "https://www.acquisition.gov/far-overhaul"
+          }
+        ]
+      }
     },
     "explanation": {
-      "whyCorrect": "This option directly applies FAR Part 6 requirements and preserves a defensible acquisition record.",
-      "keyTakeaway": "Anchor decisions to FAR Part 6 and document the rationale before award or direction is issued.",
-      "commonTrap": "Do not trade compliance gates for speed; most wrong options delay or skip required acquisition controls."
+      "whyCorrect": "Choice D aligns with the FAR rule and the procedural requirement being tested.",
+      "keyTakeaway": "Applying FAR Part 15 rules to identify the compliant answer for this specific acquisition scenario.",
+      "commonTrap": "Banter is informal conversation, not FAR terminology."
     },
     "farRefs": [
-      "FAR 6"
-    ]
+      "FAR Part 15",
+      "15.306"
+    ],
+    "prompt": "In the FAR, the term \"discussions\" is synonymous with which of the following?"
   },
   {
     "id": "q091",
