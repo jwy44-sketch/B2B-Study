@@ -85,7 +85,7 @@ export default function LearnClient() {
 
   return (
     <div>
-      <ProgressHeader current={index} total={BATCH_SIZE} streak={streak} />
+      {mode === 'IN_BATCH' ? <ProgressHeader current={index} total={BATCH_SIZE} streak={streak} /> : null}
       <label className="mb-3 block text-sm">
         <input type="checkbox" checked={focusWeak} onChange={(e) => setFocusWeak(e.target.checked)} className="mr-2" />
         Focus Weak Areas
