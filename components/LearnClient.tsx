@@ -126,7 +126,7 @@ export default function LearnClient() {
 
       <AnimatePresence>
         {mode === 'FEEDBACK' && (
-          <motion.div initial={reduceMotion ? false : { y: 60, opacity: 0 }} animate={{ y: 0, opacity: 1 }} className="fixed inset-x-0 bottom-0 mx-auto max-w-4xl rounded-t-xl border border-slate-700 bg-slate-900 p-4">
+          <motion.div initial={reduceMotion ? false : { y: 60, opacity: 0 }} animate={{ y: 0, opacity: 1 }} className="fixed inset-x-0 bottom-0 top-16 mx-auto max-w-4xl overflow-y-auto rounded-t-xl border border-slate-700 bg-slate-900 p-4 pb-[max(1rem,env(safe-area-inset-bottom))]">
             <p className={`mb-2 inline-block rounded px-3 py-1 text-sm font-bold ${selected === presented.presentedCorrectIndex ? 'bg-emerald-900/40 text-emerald-300 border border-emerald-600/60' : 'bg-rose-900/40 text-rose-300 border border-rose-600/60'}`}>
               {selected === presented.presentedCorrectIndex ? 'Correct' : 'Incorrect'}
             </p>
