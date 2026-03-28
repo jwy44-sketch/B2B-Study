@@ -161,7 +161,7 @@
   },
   {
     "id": "q003",
-    "stem": "Simplified Acquisition Procedures (SAP) should:",
+    "stem": "RFO Part 13 simplified procedures for non-commercial acquisitions should:",
     "choices": [
       "Promote competition to the maximum extent practicable",
       "Consider all quotations or offers, regardless of the time they are received, if they are the most reasonable",
@@ -321,7 +321,7 @@
   },
   {
     "id": "q005",
-    "stem": "What type(s) of contracts can be awarded when acquiring commercial items of supply?",
+    "stem": "What type(s) of contracts can be awarded when acquiring commercial products?",
     "choices": [
       "Only firm-fixed-price contracts or fixed-price contracts with economic price adjustment",
       "Any contract type that does not have an incentive",
@@ -1121,7 +1121,7 @@
   },
   {
     "id": "q015",
-    "stem": "A contractor failed to deliver a commercial item within the time specified by the contract. As the Government contracting officer, you plan to terminate the contract. What type of termination would you proceed with?",
+    "stem": "A contractor failed to deliver a commercial product within the time specified by the contract. As the Government contracting officer, you plan to terminate the contract. What type of termination would you proceed with?",
     "choices": [
       "Termination for Convenience",
       "Termination for Default",
@@ -3271,7 +3271,7 @@
     "stem": "What would be the preferred way to acquire an item in Government contracting?",
     "choices": [
       "Purchase the requirement as a noncommercial item.",
-      "Purchase the requirement as a commercial item.",
+      "Purchase the requirement as a commercial product or commercial service.",
       "Purchase the item as an other transactional authority acquisition.",
       "Purchase the item as a developmental item."
     ],
@@ -3880,7 +3880,7 @@
   },
   {
     "id": "q053",
-    "stem": "When using FAR part 12 procedures, the technical evaluation would normally include examination of such things as product literature, product samples (if requested), technical features, and:",
+    "stem": "When using RFO Part 12 commercial acquisition procedures, the technical evaluation would normally include examination of such things as product literature, product samples (if requested), technical features, and:",
     "choices": [
       "Management plans",
       "Manufacturing plans",
@@ -3942,7 +3942,7 @@
       "FAR Part 12",
       "12.209"
     ],
-    "prompt": "When using FAR part 12 procedures, the technical evaluation would normally include examination of such things as product literature, product samples (if requested), technical features, and:"
+    "prompt": "When using RFO Part 12 commercial acquisition procedures, the technical evaluation would normally include examination of such things as product literature, product samples (if requested), technical features, and:"
   },
   {
     "id": "q054",
@@ -4642,7 +4642,7 @@
   },
   {
     "id": "q064",
-    "stem": "You have determined that FAR part 12 applies to your commercial item requirement. Which of the following contract types is appropriate when using FAR part 12 procedures?",
+    "stem": "You have determined that FAR part 12 applies to your commercial product or commercial service requirement. Which of the following contract types is appropriate when using FAR part 12 procedures?",
     "choices": [
       "Fixed-price incentive",
       "Firm-fixed price, level-of-effort",
@@ -4704,11 +4704,11 @@
       "FAR Part 12",
       "12.207"
     ],
-    "prompt": "You have determined that FAR part 12 applies to your commercial item requirement. Which of the following contract types is appropriate when using FAR part 12 procedures?"
+    "prompt": "You have determined that FAR part 12 applies to your commercial product or commercial service requirement. Which of the following contract types is appropriate when using FAR part 12 procedures?"
   },
   {
     "id": "q065",
-    "stem": "You are a DoD contracting officer and have used simplified acquisition procedures under FAR part 13 to award a commercial purchase order for supplies. Given only this information, which form is most appropriate to use should you need to modify your purchase order?",
+    "stem": "You are a DoD contracting officer and have used RFO Part 12 commercial acquisition procedures to award a commercial purchase order for supplies. Given only this information, which form is most appropriate to use should you need to modify your purchase order?",
     "choices": [
       "Standard Form 30, Amendment of Solicitation/Modification of Contract",
       "Standard Form 1449, Solicitation/Contract/Order for Commercial Items",
@@ -4770,7 +4770,7 @@
       "FAR Part 43",
       "43.301"
     ],
-    "prompt": "You are a DoD contracting officer and have used simplified acquisition procedures under FAR part 13 to award a commercial purchase order for supplies. Given only this information, which form is most appropriate to use should you need to modify your purchase order?"
+    "prompt": "You are a DoD contracting officer and have used RFO Part 12 commercial acquisition procedures to award a commercial purchase order for supplies. Given only this information, which form is most appropriate to use should you need to modify your purchase order?"
   },
   {
     "id": "q066",
@@ -5302,9 +5302,9 @@
   },
   {
     "id": "q074",
-    "stem": "What are the two types of negotiated acquisitions?",
+    "stem": "What are the two competitive award paths?",
     "choices": [
-      "Sole source and competitive",
+      "Competitive award without negotiation and competitive award with negotiation",
       "Sole source and single source",
       "Source selection and competitive",
       "Single source and face-to-face"
@@ -5373,7 +5373,7 @@
       "FAR Part 15",
       "15.000"
     ],
-    "prompt": "What are the two types of negotiated acquisitions?"
+    "prompt": "What are the two competitive award paths?"
   },
   {
     "id": "q075",
@@ -5905,7 +5905,7 @@
   },
   {
     "id": "q083",
-    "stem": "Which of the following are limited exchanges between the Government and offerors that may occur when award without discussions is contemplated?",
+    "stem": "Which of the following are limited exchanges between the Government and offerors that may occur when award without negotiations is contemplated?",
     "choices": [
       "Negotiations",
       "Discussions",
@@ -5967,7 +5967,7 @@
       "FAR Part 15",
       "15.306"
     ],
-    "prompt": "Which of the following are limited exchanges between the Government and offerors that may occur when award without discussions is contemplated?"
+    "prompt": "Which of the following are limited exchanges between the Government and offerors that may occur when award without negotiations is contemplated?"
   },
   {
     "id": "q084",
@@ -6178,7 +6178,7 @@
   },
   {
     "id": "q087",
-    "stem": "During discussions, the contracting officer:",
+    "stem": "During negotiations, the contracting officer:",
     "choices": [
       "Should discuss aspects of an offeror's proposal if alterations or explanations would enhance the proposal's potential for award",
       "Must pursue obtaining what is best for the Government value irrespective of the evaluation factors set forth in the solicitation",
@@ -6240,7 +6240,7 @@
       "FAR Part 15",
       "15.306"
     ],
-    "prompt": "During discussions, the contracting officer:"
+    "prompt": "During negotiations, the contracting officer:"
   },
   {
     "id": "q088",
@@ -6315,7 +6315,7 @@
       "The competitive range for competitive negotiations must be established:",
       "When clarifications are complete",
       "Before initiating communications",
-      "Prior to entering into discussions"
+      "Prior to entering into negotiations"
     ],
     "correctIndex": 3,
     "topic": "Market Research",
@@ -6376,7 +6376,7 @@
   },
   {
     "id": "q090",
-    "stem": "In the FAR, the term \"discussions\" is synonymous with which of the following?",
+    "stem": "Under RFO terminology, what replaces the legacy term \"discussions\"?",
     "choices": [
       "Banter",
       "Exchanges",
@@ -6447,11 +6447,11 @@
       "FAR Part 15",
       "15.306"
     ],
-    "prompt": "In the FAR, the term \"discussions\" is synonymous with which of the following?"
+    "prompt": "Under RFO terminology, what replaces the legacy term \"discussions\"?"
   },
   {
     "id": "q091",
-    "stem": "In a competitive source selection, does the FAR require you to have the exact same \"discussions\" with each offeror in the competitive range?",
+    "stem": "In a competitive source selection, does the FAR require you to have the exact same negotiations with each offeror in the competitive range?",
     "choices": [
       "No, you are only required to hold discussions with those that have an opportunity to improve their proposals",
       "No, discussions are tailored to each offeror's proposal.",
@@ -6522,11 +6522,11 @@
       "FAR Part 15",
       "15.306"
     ],
-    "prompt": "In a competitive source selection, does the FAR require you to have the exact same \"discussions\" with each offeror in the competitive range?"
+    "prompt": "In a competitive source selection, does the FAR require you to have the exact same negotiations with each offeror in the competitive range?"
   },
   {
     "id": "q092",
-    "stem": "When holding discussions with offerors in a source selection, all the following must be discussed EXCEPT:",
+    "stem": "When holding negotiations with offerors in a source selection, all the following must be discussed EXCEPT:",
     "choices": [
       "Adverse past performance information to which the offeror has not yet had an opportunity to respond",
       "Deficiencies",
@@ -6588,7 +6588,7 @@
       "FAR Part 15",
       "15.306"
     ],
-    "prompt": "When holding discussions with offerors in a source selection, all the following must be discussed EXCEPT:"
+    "prompt": "When holding negotiations with offerors in a source selection, all the following must be discussed EXCEPT:"
   },
   {
     "id": "q093",
@@ -7122,7 +7122,7 @@
     "id": "q101",
     "stem": "The Government team is ready to request final proposal revisions. As a result, we know that:",
     "choices": [
-      "Discussions have concluded",
+      "Negotiations have concluded",
       "The competitive range is to be determined next",
       "The final round of discussions is about to commence",
       "Discussions will commence next"
@@ -8071,7 +8071,7 @@
   },
   {
     "id": "q115",
-    "stem": "When acquiring commercial items, quality assurance is primarily the responsibility of:",
+    "stem": "When acquiring commercial products and commercial services, quality assurance is primarily the responsibility of:",
     "choices": [
       "The contracting officer",
       "The contracting officer's representative (COR)",
@@ -8133,7 +8133,7 @@
       "FAR Part 12",
       "12.208"
     ],
-    "prompt": "When acquiring commercial items, quality assurance is primarily the responsibility of:"
+    "prompt": "When acquiring commercial products and commercial services, quality assurance is primarily the responsibility of:"
   },
   {
     "id": "q116",
@@ -10162,7 +10162,7 @@
   },
   {
     "id": "q146",
-    "stem": "You are a contracting officer who has a $260,000 commercial contract. You decide you need to terminate the contract because the contractor has failed to perform. What is the name of this type of termination?",
+    "stem": "You are a contracting officer who has a $260,000 contract for commercial products or commercial services. You decide you need to terminate the contract because the contractor has failed to perform. What is the name of this type of termination?",
     "choices": [
       "For Noncompliance",
       "For Cause",
@@ -10224,7 +10224,7 @@
       "FAR Part 12",
       "12.403"
     ],
-    "prompt": "You are a contracting officer who has a $260,000 commercial contract. You decide you need to terminate the contract because the contractor has failed to perform. What is the name of this type of termination?"
+    "prompt": "You are a contracting officer who has a $260,000 contract for commercial products or commercial services. You decide you need to terminate the contract because the contractor has failed to perform. What is the name of this type of termination?"
   },
   {
     "id": "q147",
@@ -10360,7 +10360,7 @@
   },
   {
     "id": "q149",
-    "stem": "Contract files for contracts using simplified acquisition procedures should be considered closed when the contracting officer receives evidence of two things. The first is receipt of the property or service. What is the second?",
+    "stem": "Contract files for contracts using RFO Part 13 simplified procedures for non-commercial acquisitions should be considered closed when the contracting officer receives evidence of two things. The first is receipt of the property or service. What is the second?",
     "choices": [
       "Final acceptance",
       "Final inspection",
@@ -10422,7 +10422,7 @@
       "FAR Part 4",
       "4.804-4"
     ],
-    "prompt": "Contract files for contracts using simplified acquisition procedures should be considered closed when the contracting officer receives evidence of two things. The first is receipt of the property or service. What is the second?"
+    "prompt": "Contract files for contracts using RFO Part 13 simplified procedures for non-commercial acquisitions should be considered closed when the contracting officer receives evidence of two things. The first is receipt of the property or service. What is the second?"
   },
   {
     "id": "q150",
