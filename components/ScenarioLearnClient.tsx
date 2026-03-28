@@ -217,7 +217,9 @@ export default function ScenarioLearnClient() {
 
         {isSubmitted && (
           <div className="space-y-2 rounded border border-slate-700 p-3">
-            <p className="font-semibold">{selectedChoiceId === currentQuestion.correctChoiceId ? 'Correct' : 'Incorrect'}</p>
+            <p className={`inline-block rounded px-3 py-1 text-sm font-bold ${selectedChoiceId === currentQuestion.correctChoiceId ? 'bg-emerald-900/40 text-emerald-300 border border-emerald-600/60' : 'bg-rose-900/40 text-rose-300 border border-rose-600/60'}`}>
+              {selectedChoiceId === currentQuestion.correctChoiceId ? 'Correct' : 'Incorrect'}
+            </p>
             <p className="text-sm text-slate-300">Correct answer: {correctChoice?.text}</p>
             <p className="text-sm text-slate-300 whitespace-pre-line">{currentQuestion.explanation}</p>
             <button className="btn" onClick={advance}>Next</button>

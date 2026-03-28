@@ -127,7 +127,9 @@ export default function LearnClient() {
       <AnimatePresence>
         {mode === 'FEEDBACK' && (
           <motion.div initial={reduceMotion ? false : { y: 60, opacity: 0 }} animate={{ y: 0, opacity: 1 }} className="fixed inset-x-0 bottom-0 mx-auto max-w-4xl rounded-t-xl border border-slate-700 bg-slate-900 p-4">
-            <p className="font-semibold">{selected === presented.presentedCorrectIndex ? 'Correct' : 'Incorrect'}</p>
+            <p className={`mb-2 inline-block rounded px-3 py-1 text-sm font-bold ${selected === presented.presentedCorrectIndex ? 'bg-emerald-900/40 text-emerald-300 border border-emerald-600/60' : 'bg-rose-900/40 text-rose-300 border border-rose-600/60'}`}>
+              {selected === presented.presentedCorrectIndex ? 'Correct' : 'Incorrect'}
+            </p>
             {presented.question.explanationRich ? (
               <div className="space-y-2 text-sm text-slate-300">
                 <p><span className="font-semibold text-slate-100">What this tests:</span> {presented.question.explanationRich.whatThisTests}</p>
