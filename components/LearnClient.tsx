@@ -11,6 +11,16 @@ type Mode = 'LOADING' | 'IN_BATCH' | 'FEEDBACK' | 'BATCH_SUMMARY' | 'SESSION_COM
 
 const BATCH_SIZE = 10;
 
+
+function shuffleBatch<T>(items: T[]): T[] {
+  const copy = [...items];
+  for (let i = copy.length - 1; i > 0; i -= 1) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [copy[i], copy[j]] = [copy[j], copy[i]];
+  }
+  return copy;
+}
+
 export default function LearnClient() {
   const [mode, setMode] = useState<Mode>('LOADING');
   const [allQuestions, setAllQuestions] = useState<Question[]>([]);
@@ -26,7 +36,7 @@ export default function LearnClient() {
   useEffect(() => {
     loadQuestions().then((data) => {
       setAllQuestions(data);
-      setQueue(data.slice(0, BATCH_SIZE));
+      setQueue(shuffleBatch(data.slice(0, BATCH_SIZE)));
       setMode('IN_BATCH');
     });
   }, []);
@@ -64,7 +74,7 @@ export default function LearnClient() {
   const nextBatch = () => {
     const pool = focusWeak && missed.length ? missed : allQuestions;
     const start = Math.floor(Math.random() * Math.max(1, pool.length - BATCH_SIZE));
-    setQueue(pool.slice(start, start + BATCH_SIZE));
+    setQueue(shuffleBatch(pool.slice(start, start + BATCH_SIZE)));
     setIndex(0);
     setCorrect(0);
     setMissed([]);
@@ -191,7 +201,7 @@ export default function LearnClient() {
           <p>Accuracy: {Math.round((correct / BATCH_SIZE) * 100)}%</p>
           <p>Missed: {missed.length}</p>
           <div className="flex gap-2">
-            <button className="btn" onClick={() => { setQueue(missed.slice(0, BATCH_SIZE)); setIndex(0); setMode(missed.length ? 'IN_BATCH' : 'SESSION_COMPLETE'); }}>
+            <button className="btn" onClick={() => { setQueue(shuffleBatch(missed.slice(0, BATCH_SIZE))); setIndex(0); setMode(missed.length ? 'IN_BATCH' : 'SESSION_COMPLETE'); }}>
               Retry Missed
             </button>
             <button className="btn" onClick={nextBatch}>Next Batch</button>
