@@ -4,6 +4,7 @@ import { useEffect, useMemo, useState } from 'react';
 import { loadQuestions } from '@/lib/questions';
 import { presentQuestion } from '@/lib/presentQuestion';
 import type { Question } from '@/lib/types';
+import { loadJson, storageKeys } from '@/lib/storage';
 
 export default function ExamPage() {
   const [questions, setQuestions] = useState<Question[]>([]);
@@ -17,7 +18,7 @@ export default function ExamPage() {
 
   const pool = useMemo(() => {
     if (!bookmarkedOnly) return questions;
-    const bookmarks = typeof window === 'undefined' ? [] : JSON.parse(localStorage.getItem('b2b_bookmarks_v1') || '[]');
+    const bookmarks = loadJson<string[]>(storageKeys.bookmarks, []);
     return questions.filter((q) => bookmarks.includes(q.id));
   }, [questions, bookmarkedOnly]);
 
