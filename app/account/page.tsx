@@ -4,7 +4,6 @@ import { FormEvent, useEffect, useState } from 'react';
 import {
   getCurrentUser,
   hasSupabaseConfig,
-  resetPasswordForEmail,
   signInWithPassword,
   signOut,
   signUpWithPassword,
@@ -13,17 +12,17 @@ import {
 import { buildScopedKey } from '@/lib/storage';
 
 export default function AccountPage() {
-  const [email, setEmail] = useState('');
+  const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');
   const [message, setMessage] = useState('');
   const [loading, setLoading] = useState(false);
-  const [userEmail, setUserEmail] = useState<string | null>(null);
+  const [userId, setUserId] = useState<string | null>(null);
 
   const configured = hasSupabaseConfig();
 
   const refreshUser = async () => {
     const user = await getCurrentUser();
-    setUserEmail(user?.email ?? null);
+    setUserId(user?.id ?? null);
   };
 
   useEffect(() => {
@@ -48,16 +47,13 @@ export default function AccountPage() {
 
   const submitLogin = (e: FormEvent) => {
     e.preventDefault();
-    void handle(() => signInWithPassword(email, password), 'Logged in successfully.');
+    void handle(() => signInWithPassword(username, password), 'Logged in successfully.');
   };
 
   const submitSignup = () => {
-    void handle(() => signUpWithPassword(email, password), 'Account created. Check email if confirmation is enabled.');
+    void handle(() => signUpWithPassword(username, password), 'Account created successfully.');
   };
 
-  const submitReset = () => {
-    void handle(() => resetPasswordForEmail(email), 'Password reset email requested.');
-  };
 
   const submitLogout = () => {
     void handle(() => signOut(), 'Logged out.');
@@ -73,17 +69,18 @@ export default function AccountPage() {
       ) : null}
 
       <div className="card space-y-3">
-        <p className="text-sm text-slate-300">Status: {userEmail ? `Signed in as ${userEmail}` : 'Signed out'}</p>
+        <p className="text-sm text-slate-300">Status: {userId ? 'Signed in' : 'Signed out'}</p>
         <form className="grid gap-2" onSubmit={submitLogin}>
-          <input className="rounded border border-slate-700 bg-slate-800 p-2" type="email" placeholder="Email" value={email} onChange={(e) => setEmail(e.target.value)} required />
+          <input className="rounded border border-slate-700 bg-slate-800 p-2" type="text" placeholder="Username" value={username} onChange={(e) => setUsername(e.target.value)} required />
           <input className="rounded border border-slate-700 bg-slate-800 p-2" type="password" placeholder="Password" value={password} onChange={(e) => setPassword(e.target.value)} required />
           <div className="flex flex-wrap gap-2">
             <button className="btn" type="submit" disabled={loading || !configured}>Log in</button>
             <button className="btn" type="button" onClick={submitSignup} disabled={loading || !configured}>Sign up</button>
-            <button className="btn" type="button" onClick={submitReset} disabled={loading || !configured || !email}>Forgot password</button>
-            <button className="btn" type="button" onClick={submitLogout} disabled={loading || !configured || !userEmail}>Log out</button>
+            <button className="btn" type="button" onClick={submitLogout} disabled={loading || !configured || !userId}>Log out</button>
           </div>
         </form>
+          <p className="text-sm text-slate-300">Password recovery is not yet self-service for username-only accounts.</p>
+          <p className="text-sm text-slate-400">Self-service recovery can be added later without changing study content.</p>
         {message ? <p className="text-sm text-slate-300">{message}</p> : null}
       </div>
 

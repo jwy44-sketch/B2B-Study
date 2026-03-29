@@ -96,7 +96,20 @@ export function getCurrentUserId(): string | null {
   return getStoredSession()?.userId ?? null;
 }
 
-export async function signUpWithPassword(email: string, password: string): Promise<void> {
+function normalizeUsername(username: string): string {
+  return username.trim().toLowerCase();
+}
+
+function buildAuthEmailAlias(username: string): string {
+  const normalized = normalizeUsername(username);
+  if (!normalized) {
+    throw new Error('Username is required');
+  }
+  return `${encodeURIComponent(normalized)}@username.local`;
+}
+
+export async function signUpWithPassword(username: string, password: string): Promise<void> {
+  const email = buildAuthEmailAlias(username);
   const res = await authFetch('/auth/v1/signup', {
     method: 'POST',
     body: JSON.stringify({ email, password })
@@ -108,7 +121,8 @@ export async function signUpWithPassword(email: string, password: string): Promi
   }
 }
 
-export async function signInWithPassword(email: string, password: string): Promise<void> {
+export async function signInWithPassword(username: string, password: string): Promise<void> {
+  const email = buildAuthEmailAlias(username);
   const res = await authFetch('/auth/v1/token?grant_type=password', {
     method: 'POST',
     body: JSON.stringify({ email, password })
@@ -116,15 +130,6 @@ export async function signInWithPassword(email: string, password: string): Promi
   const data = await res.json();
   if (!res.ok) throw new Error(data?.msg ?? data?.error_description ?? 'Log in failed');
   setStoredSession(buildSessionFromAuthResponse(data));
-}
-
-export async function resetPasswordForEmail(email: string): Promise<void> {
-  const res = await authFetch('/auth/v1/recover', {
-    method: 'POST',
-    body: JSON.stringify({ email })
-  });
-  const data = await res.json();
-  if (!res.ok) throw new Error(data?.msg ?? data?.error_description ?? 'Password reset request failed');
 }
 
 async function refreshIfNeeded(session: StoredSession): Promise<StoredSession | null> {
