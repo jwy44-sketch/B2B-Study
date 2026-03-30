@@ -1,0 +1,1409 @@
+{
+  "generatedAt": "2026-03-26T20:13:08.024Z",
+  "totalRestored": 200,
+  "restoreSource": "reconstruction from current bank + prior explanation content",
+  "scenarioContaminationRemoved": true,
+  "explanationRichRestored": true,
+  "items": [
+    {
+      "id": "q001",
+      "currentBrokenVersionSummary": "In market research scenario #1, what is the best contracting action?",
+      "restoredVersionSummary": "Before finalizing an acquisition strategy, the team must confirm available sources, capabilities, and market conditions for the requirement. What is the best contracting action?",
+      "explanationRichRestored": true,
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "q002",
+      "currentBrokenVersionSummary": "In competition scenario #2, what is the best contracting action?",
+      "restoredVersionSummary": "An acquisition plan is being drafted and the team must decide how to satisfy competition requirements before award decisions are made. What is the best contracting action?",
+      "explanationRichRestored": true,
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "q003",
+      "currentBrokenVersionSummary": "In simplified acquisition scenario #3, what is the best contracting action?",
+      "restoredVersionSummary": "A buyer is preparing a lower-dollar procurement and must determine how to apply simplified acquisition procedures correctly. What is the best contracting action?",
+      "explanationRichRestored": true,
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "q004",
+      "currentBrokenVersionSummary": "In contracting by negotiation scenario #4, what is the best contracting action?",
+      "restoredVersionSummary": "The contracting office is running a negotiated procurement and must follow evaluation and discussion rules for a defensible award. What is the best contracting action?",
+      "explanationRichRestored": true,
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "q005",
+      "currentBrokenVersionSummary": "In contract modifications scenario #5, what is the best contracting action?",
+      "restoredVersionSummary": "Post-award changes are being requested and the contracting team must choose the correct modification approach and authority. What is the best contracting action?",
+      "explanationRichRestored": true,
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "q006",
+      "currentBrokenVersionSummary": "In source selection scenario #6, what is the best contracting action?",
+      "restoredVersionSummary": "A source selection is underway and the record must support evaluation judgments and award rationale. What is the best contracting action?",
+      "explanationRichRestored": true,
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "q007",
+      "currentBrokenVersionSummary": "In commercial items scenario #7, what is the best contracting action?",
+      "restoredVersionSummary": "The team is deciding whether and how to use commercial-item procedures for a recurring requirement. What is the best contracting action?",
+      "explanationRichRestored": true,
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "q008",
+      "currentBrokenVersionSummary": "In contract types scenario #8, what is the best contracting action?",
+      "restoredVersionSummary": "During acquisition planning, the team must select a contract type that appropriately allocates performance and cost risk. What is the best contracting action?",
+      "explanationRichRestored": true,
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "q009",
+      "currentBrokenVersionSummary": "In market research scenario #9, what is the best contracting action?",
+      "restoredVersionSummary": "Before finalizing an acquisition strategy, the team must confirm available sources, capabilities, and market conditions for the requirement. What is the best contracting action?",
+      "explanationRichRestored": true,
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "q010",
+      "currentBrokenVersionSummary": "In competition scenario #10, what is the best contracting action?",
+      "restoredVersionSummary": "An acquisition plan is being drafted and the team must decide how to satisfy competition requirements before award decisions are made. What is the best contracting action?",
+      "explanationRichRestored": true,
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "q011",
+      "currentBrokenVersionSummary": "In simplified acquisition scenario #11, what is the best contracting action?",
+      "restoredVersionSummary": "A buyer is preparing a lower-dollar procurement and must determine how to apply simplified acquisition procedures correctly. What is the best contracting action?",
+      "explanationRichRestored": true,
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "q012",
+      "currentBrokenVersionSummary": "In contracting by negotiation scenario #12, what is the best contracting action?",
+      "restoredVersionSummary": "The contracting office is running a negotiated procurement and must follow evaluation and discussion rules for a defensible award. What is the best contracting action?",
+      "explanationRichRestored": true,
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "q013",
+      "currentBrokenVersionSummary": "In contract modifications scenario #13, what is the best contracting action?",
+      "restoredVersionSummary": "Post-award changes are being requested and the contracting team must choose the correct modification approach and authority. What is the best contracting action?",
+      "explanationRichRestored": true,
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "q014",
+      "currentBrokenVersionSummary": "In source selection scenario #14, what is the best contracting action?",
+      "restoredVersionSummary": "A source selection is underway and the record must support evaluation judgments and award rationale. What is the best contracting action?",
+      "explanationRichRestored": true,
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "q015",
+      "currentBrokenVersionSummary": "In commercial items scenario #15, what is the best contracting action?",
+      "restoredVersionSummary": "The team is deciding whether and how to use commercial-item procedures for a recurring requirement. What is the best contracting action?",
+      "explanationRichRestored": true,
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "q016",
+      "currentBrokenVersionSummary": "In contract types scenario #16, what is the best contracting action?",
+      "restoredVersionSummary": "During acquisition planning, the team must select a contract type that appropriately allocates performance and cost risk. What is the best contracting action?",
+      "explanationRichRestored": true,
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "q017",
+      "currentBrokenVersionSummary": "In market research scenario #17, what is the best contracting action?",
+      "restoredVersionSummary": "Before finalizing an acquisition strategy, the team must confirm available sources, capabilities, and market conditions for the requirement. What is the best contracting action?",
+      "explanationRichRestored": true,
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "q018",
+      "currentBrokenVersionSummary": "In competition scenario #18, what is the best contracting action?",
+      "restoredVersionSummary": "An acquisition plan is being drafted and the team must decide how to satisfy competition requirements before award decisions are made. What is the best contracting action?",
+      "explanationRichRestored": true,
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "q019",
+      "currentBrokenVersionSummary": "In simplified acquisition scenario #19, what is the best contracting action?",
+      "restoredVersionSummary": "A buyer is preparing a lower-dollar procurement and must determine how to apply simplified acquisition procedures correctly. What is the best contracting action?",
+      "explanationRichRestored": true,
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "q020",
+      "currentBrokenVersionSummary": "In contracting by negotiation scenario #20, what is the best contracting action?",
+      "restoredVersionSummary": "The contracting office is running a negotiated procurement and must follow evaluation and discussion rules for a defensible award. What is the best contracting action?",
+      "explanationRichRestored": true,
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "q021",
+      "currentBrokenVersionSummary": "In contract modifications scenario #21, what is the best contracting action?",
+      "restoredVersionSummary": "Post-award changes are being requested and the contracting team must choose the correct modification approach and authority. What is the best contracting action?",
+      "explanationRichRestored": true,
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "q022",
+      "currentBrokenVersionSummary": "In source selection scenario #22, what is the best contracting action?",
+      "restoredVersionSummary": "A source selection is underway and the record must support evaluation judgments and award rationale. What is the best contracting action?",
+      "explanationRichRestored": true,
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "q023",
+      "currentBrokenVersionSummary": "In commercial items scenario #23, what is the best contracting action?",
+      "restoredVersionSummary": "The team is deciding whether and how to use commercial-item procedures for a recurring requirement. What is the best contracting action?",
+      "explanationRichRestored": true,
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "q024",
+      "currentBrokenVersionSummary": "In contract types scenario #24, what is the best contracting action?",
+      "restoredVersionSummary": "During acquisition planning, the team must select a contract type that appropriately allocates performance and cost risk. What is the best contracting action?",
+      "explanationRichRestored": true,
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "q025",
+      "currentBrokenVersionSummary": "In market research scenario #25, what is the best contracting action?",
+      "restoredVersionSummary": "Before finalizing an acquisition strategy, the team must confirm available sources, capabilities, and market conditions for the requirement. What is the best contracting action?",
+      "explanationRichRestored": true,
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "q026",
+      "currentBrokenVersionSummary": "In competition scenario #26, what is the best contracting action?",
+      "restoredVersionSummary": "An acquisition plan is being drafted and the team must decide how to satisfy competition requirements before award decisions are made. What is the best contracting action?",
+      "explanationRichRestored": true,
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "q027",
+      "currentBrokenVersionSummary": "In simplified acquisition scenario #27, what is the best contracting action?",
+      "restoredVersionSummary": "A buyer is preparing a lower-dollar procurement and must determine how to apply simplified acquisition procedures correctly. What is the best contracting action?",
+      "explanationRichRestored": true,
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "q028",
+      "currentBrokenVersionSummary": "In contracting by negotiation scenario #28, what is the best contracting action?",
+      "restoredVersionSummary": "The contracting office is running a negotiated procurement and must follow evaluation and discussion rules for a defensible award. What is the best contracting action?",
+      "explanationRichRestored": true,
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "q029",
+      "currentBrokenVersionSummary": "In contract modifications scenario #29, what is the best contracting action?",
+      "restoredVersionSummary": "Post-award changes are being requested and the contracting team must choose the correct modification approach and authority. What is the best contracting action?",
+      "explanationRichRestored": true,
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "q030",
+      "currentBrokenVersionSummary": "In source selection scenario #30, what is the best contracting action?",
+      "restoredVersionSummary": "A source selection is underway and the record must support evaluation judgments and award rationale. What is the best contracting action?",
+      "explanationRichRestored": true,
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "q031",
+      "currentBrokenVersionSummary": "In commercial items scenario #31, what is the best contracting action?",
+      "restoredVersionSummary": "The team is deciding whether and how to use commercial-item procedures for a recurring requirement. What is the best contracting action?",
+      "explanationRichRestored": true,
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "q032",
+      "currentBrokenVersionSummary": "In contract types scenario #32, what is the best contracting action?",
+      "restoredVersionSummary": "During acquisition planning, the team must select a contract type that appropriately allocates performance and cost risk. What is the best contracting action?",
+      "explanationRichRestored": true,
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "q033",
+      "currentBrokenVersionSummary": "In market research scenario #33, what is the best contracting action?",
+      "restoredVersionSummary": "Before finalizing an acquisition strategy, the team must confirm available sources, capabilities, and market conditions for the requirement. What is the best contracting action?",
+      "explanationRichRestored": true,
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "q034",
+      "currentBrokenVersionSummary": "In competition scenario #34, what is the best contracting action?",
+      "restoredVersionSummary": "An acquisition plan is being drafted and the team must decide how to satisfy competition requirements before award decisions are made. What is the best contracting action?",
+      "explanationRichRestored": true,
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "q035",
+      "currentBrokenVersionSummary": "In simplified acquisition scenario #35, what is the best contracting action?",
+      "restoredVersionSummary": "A buyer is preparing a lower-dollar procurement and must determine how to apply simplified acquisition procedures correctly. What is the best contracting action?",
+      "explanationRichRestored": true,
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "q036",
+      "currentBrokenVersionSummary": "In contracting by negotiation scenario #36, what is the best contracting action?",
+      "restoredVersionSummary": "The contracting office is running a negotiated procurement and must follow evaluation and discussion rules for a defensible award. What is the best contracting action?",
+      "explanationRichRestored": true,
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "q037",
+      "currentBrokenVersionSummary": "In contract modifications scenario #37, what is the best contracting action?",
+      "restoredVersionSummary": "Post-award changes are being requested and the contracting team must choose the correct modification approach and authority. What is the best contracting action?",
+      "explanationRichRestored": true,
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "q038",
+      "currentBrokenVersionSummary": "In source selection scenario #38, what is the best contracting action?",
+      "restoredVersionSummary": "A source selection is underway and the record must support evaluation judgments and award rationale. What is the best contracting action?",
+      "explanationRichRestored": true,
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "q039",
+      "currentBrokenVersionSummary": "In commercial items scenario #39, what is the best contracting action?",
+      "restoredVersionSummary": "The team is deciding whether and how to use commercial-item procedures for a recurring requirement. What is the best contracting action?",
+      "explanationRichRestored": true,
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "q040",
+      "currentBrokenVersionSummary": "In contract types scenario #40, what is the best contracting action?",
+      "restoredVersionSummary": "During acquisition planning, the team must select a contract type that appropriately allocates performance and cost risk. What is the best contracting action?",
+      "explanationRichRestored": true,
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "q041",
+      "currentBrokenVersionSummary": "In market research scenario #41, what is the best contracting action?",
+      "restoredVersionSummary": "Before finalizing an acquisition strategy, the team must confirm available sources, capabilities, and market conditions for the requirement. What is the best contracting action?",
+      "explanationRichRestored": true,
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "q042",
+      "currentBrokenVersionSummary": "In competition scenario #42, what is the best contracting action?",
+      "restoredVersionSummary": "An acquisition plan is being drafted and the team must decide how to satisfy competition requirements before award decisions are made. What is the best contracting action?",
+      "explanationRichRestored": true,
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "q043",
+      "currentBrokenVersionSummary": "In simplified acquisition scenario #43, what is the best contracting action?",
+      "restoredVersionSummary": "A buyer is preparing a lower-dollar procurement and must determine how to apply simplified acquisition procedures correctly. What is the best contracting action?",
+      "explanationRichRestored": true,
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "q044",
+      "currentBrokenVersionSummary": "In contracting by negotiation scenario #44, what is the best contracting action?",
+      "restoredVersionSummary": "The contracting office is running a negotiated procurement and must follow evaluation and discussion rules for a defensible award. What is the best contracting action?",
+      "explanationRichRestored": true,
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "q045",
+      "currentBrokenVersionSummary": "In contract modifications scenario #45, what is the best contracting action?",
+      "restoredVersionSummary": "Post-award changes are being requested and the contracting team must choose the correct modification approach and authority. What is the best contracting action?",
+      "explanationRichRestored": true,
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "q046",
+      "currentBrokenVersionSummary": "In source selection scenario #46, what is the best contracting action?",
+      "restoredVersionSummary": "A source selection is underway and the record must support evaluation judgments and award rationale. What is the best contracting action?",
+      "explanationRichRestored": true,
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "q047",
+      "currentBrokenVersionSummary": "In commercial items scenario #47, what is the best contracting action?",
+      "restoredVersionSummary": "The team is deciding whether and how to use commercial-item procedures for a recurring requirement. What is the best contracting action?",
+      "explanationRichRestored": true,
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "q048",
+      "currentBrokenVersionSummary": "In contract types scenario #48, what is the best contracting action?",
+      "restoredVersionSummary": "During acquisition planning, the team must select a contract type that appropriately allocates performance and cost risk. What is the best contracting action?",
+      "explanationRichRestored": true,
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "q049",
+      "currentBrokenVersionSummary": "In market research scenario #49, what is the best contracting action?",
+      "restoredVersionSummary": "Before finalizing an acquisition strategy, the team must confirm available sources, capabilities, and market conditions for the requirement. What is the best contracting action?",
+      "explanationRichRestored": true,
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "q050",
+      "currentBrokenVersionSummary": "In competition scenario #50, what is the best contracting action?",
+      "restoredVersionSummary": "An acquisition plan is being drafted and the team must decide how to satisfy competition requirements before award decisions are made. What is the best contracting action?",
+      "explanationRichRestored": true,
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "q051",
+      "currentBrokenVersionSummary": "In simplified acquisition scenario #51, what is the best contracting action?",
+      "restoredVersionSummary": "A buyer is preparing a lower-dollar procurement and must determine how to apply simplified acquisition procedures correctly. What is the best contracting action?",
+      "explanationRichRestored": true,
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "q052",
+      "currentBrokenVersionSummary": "In contracting by negotiation scenario #52, what is the best contracting action?",
+      "restoredVersionSummary": "The contracting office is running a negotiated procurement and must follow evaluation and discussion rules for a defensible award. What is the best contracting action?",
+      "explanationRichRestored": true,
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "q053",
+      "currentBrokenVersionSummary": "In contract modifications scenario #53, what is the best contracting action?",
+      "restoredVersionSummary": "Post-award changes are being requested and the contracting team must choose the correct modification approach and authority. What is the best contracting action?",
+      "explanationRichRestored": true,
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "q054",
+      "currentBrokenVersionSummary": "In source selection scenario #54, what is the best contracting action?",
+      "restoredVersionSummary": "A source selection is underway and the record must support evaluation judgments and award rationale. What is the best contracting action?",
+      "explanationRichRestored": true,
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "q055",
+      "currentBrokenVersionSummary": "In commercial items scenario #55, what is the best contracting action?",
+      "restoredVersionSummary": "The team is deciding whether and how to use commercial-item procedures for a recurring requirement. What is the best contracting action?",
+      "explanationRichRestored": true,
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "q056",
+      "currentBrokenVersionSummary": "In contract types scenario #56, what is the best contracting action?",
+      "restoredVersionSummary": "During acquisition planning, the team must select a contract type that appropriately allocates performance and cost risk. What is the best contracting action?",
+      "explanationRichRestored": true,
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "q057",
+      "currentBrokenVersionSummary": "In market research scenario #57, what is the best contracting action?",
+      "restoredVersionSummary": "Before finalizing an acquisition strategy, the team must confirm available sources, capabilities, and market conditions for the requirement. What is the best contracting action?",
+      "explanationRichRestored": true,
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "q058",
+      "currentBrokenVersionSummary": "In competition scenario #58, what is the best contracting action?",
+      "restoredVersionSummary": "An acquisition plan is being drafted and the team must decide how to satisfy competition requirements before award decisions are made. What is the best contracting action?",
+      "explanationRichRestored": true,
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "q059",
+      "currentBrokenVersionSummary": "In simplified acquisition scenario #59, what is the best contracting action?",
+      "restoredVersionSummary": "A buyer is preparing a lower-dollar procurement and must determine how to apply simplified acquisition procedures correctly. What is the best contracting action?",
+      "explanationRichRestored": true,
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "q060",
+      "currentBrokenVersionSummary": "In contracting by negotiation scenario #60, what is the best contracting action?",
+      "restoredVersionSummary": "The contracting office is running a negotiated procurement and must follow evaluation and discussion rules for a defensible award. What is the best contracting action?",
+      "explanationRichRestored": true,
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "q061",
+      "currentBrokenVersionSummary": "In contract modifications scenario #61, what is the best contracting action?",
+      "restoredVersionSummary": "Post-award changes are being requested and the contracting team must choose the correct modification approach and authority. What is the best contracting action?",
+      "explanationRichRestored": true,
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "q062",
+      "currentBrokenVersionSummary": "In source selection scenario #62, what is the best contracting action?",
+      "restoredVersionSummary": "A source selection is underway and the record must support evaluation judgments and award rationale. What is the best contracting action?",
+      "explanationRichRestored": true,
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "q063",
+      "currentBrokenVersionSummary": "In commercial items scenario #63, what is the best contracting action?",
+      "restoredVersionSummary": "The team is deciding whether and how to use commercial-item procedures for a recurring requirement. What is the best contracting action?",
+      "explanationRichRestored": true,
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "q064",
+      "currentBrokenVersionSummary": "In contract types scenario #64, what is the best contracting action?",
+      "restoredVersionSummary": "During acquisition planning, the team must select a contract type that appropriately allocates performance and cost risk. What is the best contracting action?",
+      "explanationRichRestored": true,
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "q065",
+      "currentBrokenVersionSummary": "In market research scenario #65, what is the best contracting action?",
+      "restoredVersionSummary": "Before finalizing an acquisition strategy, the team must confirm available sources, capabilities, and market conditions for the requirement. What is the best contracting action?",
+      "explanationRichRestored": true,
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "q066",
+      "currentBrokenVersionSummary": "In competition scenario #66, what is the best contracting action?",
+      "restoredVersionSummary": "An acquisition plan is being drafted and the team must decide how to satisfy competition requirements before award decisions are made. What is the best contracting action?",
+      "explanationRichRestored": true,
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "q067",
+      "currentBrokenVersionSummary": "In simplified acquisition scenario #67, what is the best contracting action?",
+      "restoredVersionSummary": "A buyer is preparing a lower-dollar procurement and must determine how to apply simplified acquisition procedures correctly. What is the best contracting action?",
+      "explanationRichRestored": true,
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "q068",
+      "currentBrokenVersionSummary": "In contracting by negotiation scenario #68, what is the best contracting action?",
+      "restoredVersionSummary": "The contracting office is running a negotiated procurement and must follow evaluation and discussion rules for a defensible award. What is the best contracting action?",
+      "explanationRichRestored": true,
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "q069",
+      "currentBrokenVersionSummary": "In contract modifications scenario #69, what is the best contracting action?",
+      "restoredVersionSummary": "Post-award changes are being requested and the contracting team must choose the correct modification approach and authority. What is the best contracting action?",
+      "explanationRichRestored": true,
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "q070",
+      "currentBrokenVersionSummary": "In source selection scenario #70, what is the best contracting action?",
+      "restoredVersionSummary": "A source selection is underway and the record must support evaluation judgments and award rationale. What is the best contracting action?",
+      "explanationRichRestored": true,
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "q071",
+      "currentBrokenVersionSummary": "In commercial items scenario #71, what is the best contracting action?",
+      "restoredVersionSummary": "The team is deciding whether and how to use commercial-item procedures for a recurring requirement. What is the best contracting action?",
+      "explanationRichRestored": true,
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "q072",
+      "currentBrokenVersionSummary": "In contract types scenario #72, what is the best contracting action?",
+      "restoredVersionSummary": "During acquisition planning, the team must select a contract type that appropriately allocates performance and cost risk. What is the best contracting action?",
+      "explanationRichRestored": true,
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "q073",
+      "currentBrokenVersionSummary": "In market research scenario #73, what is the best contracting action?",
+      "restoredVersionSummary": "Before finalizing an acquisition strategy, the team must confirm available sources, capabilities, and market conditions for the requirement. What is the best contracting action?",
+      "explanationRichRestored": true,
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "q074",
+      "currentBrokenVersionSummary": "In competition scenario #74, what is the best contracting action?",
+      "restoredVersionSummary": "An acquisition plan is being drafted and the team must decide how to satisfy competition requirements before award decisions are made. What is the best contracting action?",
+      "explanationRichRestored": true,
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "q075",
+      "currentBrokenVersionSummary": "In simplified acquisition scenario #75, what is the best contracting action?",
+      "restoredVersionSummary": "A buyer is preparing a lower-dollar procurement and must determine how to apply simplified acquisition procedures correctly. What is the best contracting action?",
+      "explanationRichRestored": true,
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "q076",
+      "currentBrokenVersionSummary": "In contracting by negotiation scenario #76, what is the best contracting action?",
+      "restoredVersionSummary": "The contracting office is running a negotiated procurement and must follow evaluation and discussion rules for a defensible award. What is the best contracting action?",
+      "explanationRichRestored": true,
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "q077",
+      "currentBrokenVersionSummary": "In contract modifications scenario #77, what is the best contracting action?",
+      "restoredVersionSummary": "Post-award changes are being requested and the contracting team must choose the correct modification approach and authority. What is the best contracting action?",
+      "explanationRichRestored": true,
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "q078",
+      "currentBrokenVersionSummary": "In source selection scenario #78, what is the best contracting action?",
+      "restoredVersionSummary": "A source selection is underway and the record must support evaluation judgments and award rationale. What is the best contracting action?",
+      "explanationRichRestored": true,
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "q079",
+      "currentBrokenVersionSummary": "In commercial items scenario #79, what is the best contracting action?",
+      "restoredVersionSummary": "The team is deciding whether and how to use commercial-item procedures for a recurring requirement. What is the best contracting action?",
+      "explanationRichRestored": true,
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "q080",
+      "currentBrokenVersionSummary": "In contract types scenario #80, what is the best contracting action?",
+      "restoredVersionSummary": "During acquisition planning, the team must select a contract type that appropriately allocates performance and cost risk. What is the best contracting action?",
+      "explanationRichRestored": true,
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "q081",
+      "currentBrokenVersionSummary": "In market research scenario #81, what is the best contracting action?",
+      "restoredVersionSummary": "Before finalizing an acquisition strategy, the team must confirm available sources, capabilities, and market conditions for the requirement. What is the best contracting action?",
+      "explanationRichRestored": true,
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "q082",
+      "currentBrokenVersionSummary": "In competition scenario #82, what is the best contracting action?",
+      "restoredVersionSummary": "An acquisition plan is being drafted and the team must decide how to satisfy competition requirements before award decisions are made. What is the best contracting action?",
+      "explanationRichRestored": true,
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "q083",
+      "currentBrokenVersionSummary": "In simplified acquisition scenario #83, what is the best contracting action?",
+      "restoredVersionSummary": "A buyer is preparing a lower-dollar procurement and must determine how to apply simplified acquisition procedures correctly. What is the best contracting action?",
+      "explanationRichRestored": true,
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "q084",
+      "currentBrokenVersionSummary": "In contracting by negotiation scenario #84, what is the best contracting action?",
+      "restoredVersionSummary": "The contracting office is running a negotiated procurement and must follow evaluation and discussion rules for a defensible award. What is the best contracting action?",
+      "explanationRichRestored": true,
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "q085",
+      "currentBrokenVersionSummary": "In contract modifications scenario #85, what is the best contracting action?",
+      "restoredVersionSummary": "Post-award changes are being requested and the contracting team must choose the correct modification approach and authority. What is the best contracting action?",
+      "explanationRichRestored": true,
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "q086",
+      "currentBrokenVersionSummary": "In source selection scenario #86, what is the best contracting action?",
+      "restoredVersionSummary": "A source selection is underway and the record must support evaluation judgments and award rationale. What is the best contracting action?",
+      "explanationRichRestored": true,
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "q087",
+      "currentBrokenVersionSummary": "In commercial items scenario #87, what is the best contracting action?",
+      "restoredVersionSummary": "The team is deciding whether and how to use commercial-item procedures for a recurring requirement. What is the best contracting action?",
+      "explanationRichRestored": true,
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "q088",
+      "currentBrokenVersionSummary": "In contract types scenario #88, what is the best contracting action?",
+      "restoredVersionSummary": "During acquisition planning, the team must select a contract type that appropriately allocates performance and cost risk. What is the best contracting action?",
+      "explanationRichRestored": true,
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "q089",
+      "currentBrokenVersionSummary": "In market research scenario #89, what is the best contracting action?",
+      "restoredVersionSummary": "Before finalizing an acquisition strategy, the team must confirm available sources, capabilities, and market conditions for the requirement. What is the best contracting action?",
+      "explanationRichRestored": true,
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "q090",
+      "currentBrokenVersionSummary": "In competition scenario #90, what is the best contracting action?",
+      "restoredVersionSummary": "An acquisition plan is being drafted and the team must decide how to satisfy competition requirements before award decisions are made. What is the best contracting action?",
+      "explanationRichRestored": true,
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "q091",
+      "currentBrokenVersionSummary": "In simplified acquisition scenario #91, what is the best contracting action?",
+      "restoredVersionSummary": "A buyer is preparing a lower-dollar procurement and must determine how to apply simplified acquisition procedures correctly. What is the best contracting action?",
+      "explanationRichRestored": true,
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "q092",
+      "currentBrokenVersionSummary": "In contracting by negotiation scenario #92, what is the best contracting action?",
+      "restoredVersionSummary": "The contracting office is running a negotiated procurement and must follow evaluation and discussion rules for a defensible award. What is the best contracting action?",
+      "explanationRichRestored": true,
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "q093",
+      "currentBrokenVersionSummary": "In contract modifications scenario #93, what is the best contracting action?",
+      "restoredVersionSummary": "Post-award changes are being requested and the contracting team must choose the correct modification approach and authority. What is the best contracting action?",
+      "explanationRichRestored": true,
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "q094",
+      "currentBrokenVersionSummary": "In source selection scenario #94, what is the best contracting action?",
+      "restoredVersionSummary": "A source selection is underway and the record must support evaluation judgments and award rationale. What is the best contracting action?",
+      "explanationRichRestored": true,
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "q095",
+      "currentBrokenVersionSummary": "In commercial items scenario #95, what is the best contracting action?",
+      "restoredVersionSummary": "The team is deciding whether and how to use commercial-item procedures for a recurring requirement. What is the best contracting action?",
+      "explanationRichRestored": true,
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "q096",
+      "currentBrokenVersionSummary": "In contract types scenario #96, what is the best contracting action?",
+      "restoredVersionSummary": "During acquisition planning, the team must select a contract type that appropriately allocates performance and cost risk. What is the best contracting action?",
+      "explanationRichRestored": true,
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "q097",
+      "currentBrokenVersionSummary": "In market research scenario #97, what is the best contracting action?",
+      "restoredVersionSummary": "Before finalizing an acquisition strategy, the team must confirm available sources, capabilities, and market conditions for the requirement. What is the best contracting action?",
+      "explanationRichRestored": true,
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "q098",
+      "currentBrokenVersionSummary": "In competition scenario #98, what is the best contracting action?",
+      "restoredVersionSummary": "An acquisition plan is being drafted and the team must decide how to satisfy competition requirements before award decisions are made. What is the best contracting action?",
+      "explanationRichRestored": true,
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "q099",
+      "currentBrokenVersionSummary": "In simplified acquisition scenario #99, what is the best contracting action?",
+      "restoredVersionSummary": "A buyer is preparing a lower-dollar procurement and must determine how to apply simplified acquisition procedures correctly. What is the best contracting action?",
+      "explanationRichRestored": true,
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "q100",
+      "currentBrokenVersionSummary": "In contracting by negotiation scenario #100, what is the best contracting action?",
+      "restoredVersionSummary": "The contracting office is running a negotiated procurement and must follow evaluation and discussion rules for a defensible award. What is the best contracting action?",
+      "explanationRichRestored": true,
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "q101",
+      "currentBrokenVersionSummary": "In contract modifications scenario #101, what is the best contracting action?",
+      "restoredVersionSummary": "Post-award changes are being requested and the contracting team must choose the correct modification approach and authority. What is the best contracting action?",
+      "explanationRichRestored": true,
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "q102",
+      "currentBrokenVersionSummary": "In source selection scenario #102, what is the best contracting action?",
+      "restoredVersionSummary": "A source selection is underway and the record must support evaluation judgments and award rationale. What is the best contracting action?",
+      "explanationRichRestored": true,
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "q103",
+      "currentBrokenVersionSummary": "In commercial items scenario #103, what is the best contracting action?",
+      "restoredVersionSummary": "The team is deciding whether and how to use commercial-item procedures for a recurring requirement. What is the best contracting action?",
+      "explanationRichRestored": true,
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "q104",
+      "currentBrokenVersionSummary": "In contract types scenario #104, what is the best contracting action?",
+      "restoredVersionSummary": "During acquisition planning, the team must select a contract type that appropriately allocates performance and cost risk. What is the best contracting action?",
+      "explanationRichRestored": true,
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "q105",
+      "currentBrokenVersionSummary": "In market research scenario #105, what is the best contracting action?",
+      "restoredVersionSummary": "Before finalizing an acquisition strategy, the team must confirm available sources, capabilities, and market conditions for the requirement. What is the best contracting action?",
+      "explanationRichRestored": true,
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "q106",
+      "currentBrokenVersionSummary": "In competition scenario #106, what is the best contracting action?",
+      "restoredVersionSummary": "An acquisition plan is being drafted and the team must decide how to satisfy competition requirements before award decisions are made. What is the best contracting action?",
+      "explanationRichRestored": true,
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "q107",
+      "currentBrokenVersionSummary": "In simplified acquisition scenario #107, what is the best contracting action?",
+      "restoredVersionSummary": "A buyer is preparing a lower-dollar procurement and must determine how to apply simplified acquisition procedures correctly. What is the best contracting action?",
+      "explanationRichRestored": true,
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "q108",
+      "currentBrokenVersionSummary": "In contracting by negotiation scenario #108, what is the best contracting action?",
+      "restoredVersionSummary": "The contracting office is running a negotiated procurement and must follow evaluation and discussion rules for a defensible award. What is the best contracting action?",
+      "explanationRichRestored": true,
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "q109",
+      "currentBrokenVersionSummary": "In contract modifications scenario #109, what is the best contracting action?",
+      "restoredVersionSummary": "Post-award changes are being requested and the contracting team must choose the correct modification approach and authority. What is the best contracting action?",
+      "explanationRichRestored": true,
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "q110",
+      "currentBrokenVersionSummary": "In source selection scenario #110, what is the best contracting action?",
+      "restoredVersionSummary": "A source selection is underway and the record must support evaluation judgments and award rationale. What is the best contracting action?",
+      "explanationRichRestored": true,
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "q111",
+      "currentBrokenVersionSummary": "In commercial items scenario #111, what is the best contracting action?",
+      "restoredVersionSummary": "The team is deciding whether and how to use commercial-item procedures for a recurring requirement. What is the best contracting action?",
+      "explanationRichRestored": true,
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "q112",
+      "currentBrokenVersionSummary": "In contract types scenario #112, what is the best contracting action?",
+      "restoredVersionSummary": "During acquisition planning, the team must select a contract type that appropriately allocates performance and cost risk. What is the best contracting action?",
+      "explanationRichRestored": true,
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "q113",
+      "currentBrokenVersionSummary": "In market research scenario #113, what is the best contracting action?",
+      "restoredVersionSummary": "Before finalizing an acquisition strategy, the team must confirm available sources, capabilities, and market conditions for the requirement. What is the best contracting action?",
+      "explanationRichRestored": true,
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "q114",
+      "currentBrokenVersionSummary": "In competition scenario #114, what is the best contracting action?",
+      "restoredVersionSummary": "An acquisition plan is being drafted and the team must decide how to satisfy competition requirements before award decisions are made. What is the best contracting action?",
+      "explanationRichRestored": true,
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "q115",
+      "currentBrokenVersionSummary": "In simplified acquisition scenario #115, what is the best contracting action?",
+      "restoredVersionSummary": "A buyer is preparing a lower-dollar procurement and must determine how to apply simplified acquisition procedures correctly. What is the best contracting action?",
+      "explanationRichRestored": true,
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "q116",
+      "currentBrokenVersionSummary": "In contracting by negotiation scenario #116, what is the best contracting action?",
+      "restoredVersionSummary": "The contracting office is running a negotiated procurement and must follow evaluation and discussion rules for a defensible award. What is the best contracting action?",
+      "explanationRichRestored": true,
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "q117",
+      "currentBrokenVersionSummary": "In contract modifications scenario #117, what is the best contracting action?",
+      "restoredVersionSummary": "Post-award changes are being requested and the contracting team must choose the correct modification approach and authority. What is the best contracting action?",
+      "explanationRichRestored": true,
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "q118",
+      "currentBrokenVersionSummary": "In source selection scenario #118, what is the best contracting action?",
+      "restoredVersionSummary": "A source selection is underway and the record must support evaluation judgments and award rationale. What is the best contracting action?",
+      "explanationRichRestored": true,
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "q119",
+      "currentBrokenVersionSummary": "In commercial items scenario #119, what is the best contracting action?",
+      "restoredVersionSummary": "The team is deciding whether and how to use commercial-item procedures for a recurring requirement. What is the best contracting action?",
+      "explanationRichRestored": true,
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "q120",
+      "currentBrokenVersionSummary": "In contract types scenario #120, what is the best contracting action?",
+      "restoredVersionSummary": "During acquisition planning, the team must select a contract type that appropriately allocates performance and cost risk. What is the best contracting action?",
+      "explanationRichRestored": true,
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "q121",
+      "currentBrokenVersionSummary": "In market research scenario #121, what is the best contracting action?",
+      "restoredVersionSummary": "Before finalizing an acquisition strategy, the team must confirm available sources, capabilities, and market conditions for the requirement. What is the best contracting action?",
+      "explanationRichRestored": true,
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "q122",
+      "currentBrokenVersionSummary": "In competition scenario #122, what is the best contracting action?",
+      "restoredVersionSummary": "An acquisition plan is being drafted and the team must decide how to satisfy competition requirements before award decisions are made. What is the best contracting action?",
+      "explanationRichRestored": true,
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "q123",
+      "currentBrokenVersionSummary": "In simplified acquisition scenario #123, what is the best contracting action?",
+      "restoredVersionSummary": "A buyer is preparing a lower-dollar procurement and must determine how to apply simplified acquisition procedures correctly. What is the best contracting action?",
+      "explanationRichRestored": true,
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "q124",
+      "currentBrokenVersionSummary": "In contracting by negotiation scenario #124, what is the best contracting action?",
+      "restoredVersionSummary": "The contracting office is running a negotiated procurement and must follow evaluation and discussion rules for a defensible award. What is the best contracting action?",
+      "explanationRichRestored": true,
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "q125",
+      "currentBrokenVersionSummary": "In contract modifications scenario #125, what is the best contracting action?",
+      "restoredVersionSummary": "Post-award changes are being requested and the contracting team must choose the correct modification approach and authority. What is the best contracting action?",
+      "explanationRichRestored": true,
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "q126",
+      "currentBrokenVersionSummary": "In source selection scenario #126, what is the best contracting action?",
+      "restoredVersionSummary": "A source selection is underway and the record must support evaluation judgments and award rationale. What is the best contracting action?",
+      "explanationRichRestored": true,
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "q127",
+      "currentBrokenVersionSummary": "In commercial items scenario #127, what is the best contracting action?",
+      "restoredVersionSummary": "The team is deciding whether and how to use commercial-item procedures for a recurring requirement. What is the best contracting action?",
+      "explanationRichRestored": true,
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "q128",
+      "currentBrokenVersionSummary": "In contract types scenario #128, what is the best contracting action?",
+      "restoredVersionSummary": "During acquisition planning, the team must select a contract type that appropriately allocates performance and cost risk. What is the best contracting action?",
+      "explanationRichRestored": true,
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "q129",
+      "currentBrokenVersionSummary": "In market research scenario #129, what is the best contracting action?",
+      "restoredVersionSummary": "Before finalizing an acquisition strategy, the team must confirm available sources, capabilities, and market conditions for the requirement. What is the best contracting action?",
+      "explanationRichRestored": true,
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "q130",
+      "currentBrokenVersionSummary": "In competition scenario #130, what is the best contracting action?",
+      "restoredVersionSummary": "An acquisition plan is being drafted and the team must decide how to satisfy competition requirements before award decisions are made. What is the best contracting action?",
+      "explanationRichRestored": true,
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "q131",
+      "currentBrokenVersionSummary": "In simplified acquisition scenario #131, what is the best contracting action?",
+      "restoredVersionSummary": "A buyer is preparing a lower-dollar procurement and must determine how to apply simplified acquisition procedures correctly. What is the best contracting action?",
+      "explanationRichRestored": true,
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "q132",
+      "currentBrokenVersionSummary": "In contracting by negotiation scenario #132, what is the best contracting action?",
+      "restoredVersionSummary": "The contracting office is running a negotiated procurement and must follow evaluation and discussion rules for a defensible award. What is the best contracting action?",
+      "explanationRichRestored": true,
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "q133",
+      "currentBrokenVersionSummary": "In contract modifications scenario #133, what is the best contracting action?",
+      "restoredVersionSummary": "Post-award changes are being requested and the contracting team must choose the correct modification approach and authority. What is the best contracting action?",
+      "explanationRichRestored": true,
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "q134",
+      "currentBrokenVersionSummary": "In source selection scenario #134, what is the best contracting action?",
+      "restoredVersionSummary": "A source selection is underway and the record must support evaluation judgments and award rationale. What is the best contracting action?",
+      "explanationRichRestored": true,
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "q135",
+      "currentBrokenVersionSummary": "In commercial items scenario #135, what is the best contracting action?",
+      "restoredVersionSummary": "The team is deciding whether and how to use commercial-item procedures for a recurring requirement. What is the best contracting action?",
+      "explanationRichRestored": true,
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "q136",
+      "currentBrokenVersionSummary": "In contract types scenario #136, what is the best contracting action?",
+      "restoredVersionSummary": "During acquisition planning, the team must select a contract type that appropriately allocates performance and cost risk. What is the best contracting action?",
+      "explanationRichRestored": true,
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "q137",
+      "currentBrokenVersionSummary": "In market research scenario #137, what is the best contracting action?",
+      "restoredVersionSummary": "Before finalizing an acquisition strategy, the team must confirm available sources, capabilities, and market conditions for the requirement. What is the best contracting action?",
+      "explanationRichRestored": true,
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "q138",
+      "currentBrokenVersionSummary": "In competition scenario #138, what is the best contracting action?",
+      "restoredVersionSummary": "An acquisition plan is being drafted and the team must decide how to satisfy competition requirements before award decisions are made. What is the best contracting action?",
+      "explanationRichRestored": true,
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "q139",
+      "currentBrokenVersionSummary": "In simplified acquisition scenario #139, what is the best contracting action?",
+      "restoredVersionSummary": "A buyer is preparing a lower-dollar procurement and must determine how to apply simplified acquisition procedures correctly. What is the best contracting action?",
+      "explanationRichRestored": true,
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "q140",
+      "currentBrokenVersionSummary": "In contracting by negotiation scenario #140, what is the best contracting action?",
+      "restoredVersionSummary": "The contracting office is running a negotiated procurement and must follow evaluation and discussion rules for a defensible award. What is the best contracting action?",
+      "explanationRichRestored": true,
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "q141",
+      "currentBrokenVersionSummary": "In contract modifications scenario #141, what is the best contracting action?",
+      "restoredVersionSummary": "Post-award changes are being requested and the contracting team must choose the correct modification approach and authority. What is the best contracting action?",
+      "explanationRichRestored": true,
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "q142",
+      "currentBrokenVersionSummary": "In source selection scenario #142, what is the best contracting action?",
+      "restoredVersionSummary": "A source selection is underway and the record must support evaluation judgments and award rationale. What is the best contracting action?",
+      "explanationRichRestored": true,
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "q143",
+      "currentBrokenVersionSummary": "In commercial items scenario #143, what is the best contracting action?",
+      "restoredVersionSummary": "The team is deciding whether and how to use commercial-item procedures for a recurring requirement. What is the best contracting action?",
+      "explanationRichRestored": true,
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "q144",
+      "currentBrokenVersionSummary": "In contract types scenario #144, what is the best contracting action?",
+      "restoredVersionSummary": "During acquisition planning, the team must select a contract type that appropriately allocates performance and cost risk. What is the best contracting action?",
+      "explanationRichRestored": true,
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "q145",
+      "currentBrokenVersionSummary": "In market research scenario #145, what is the best contracting action?",
+      "restoredVersionSummary": "Before finalizing an acquisition strategy, the team must confirm available sources, capabilities, and market conditions for the requirement. What is the best contracting action?",
+      "explanationRichRestored": true,
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "q146",
+      "currentBrokenVersionSummary": "In competition scenario #146, what is the best contracting action?",
+      "restoredVersionSummary": "An acquisition plan is being drafted and the team must decide how to satisfy competition requirements before award decisions are made. What is the best contracting action?",
+      "explanationRichRestored": true,
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "q147",
+      "currentBrokenVersionSummary": "In simplified acquisition scenario #147, what is the best contracting action?",
+      "restoredVersionSummary": "A buyer is preparing a lower-dollar procurement and must determine how to apply simplified acquisition procedures correctly. What is the best contracting action?",
+      "explanationRichRestored": true,
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "q148",
+      "currentBrokenVersionSummary": "In contracting by negotiation scenario #148, what is the best contracting action?",
+      "restoredVersionSummary": "The contracting office is running a negotiated procurement and must follow evaluation and discussion rules for a defensible award. What is the best contracting action?",
+      "explanationRichRestored": true,
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "q149",
+      "currentBrokenVersionSummary": "In contract modifications scenario #149, what is the best contracting action?",
+      "restoredVersionSummary": "Post-award changes are being requested and the contracting team must choose the correct modification approach and authority. What is the best contracting action?",
+      "explanationRichRestored": true,
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "q150",
+      "currentBrokenVersionSummary": "In source selection scenario #150, what is the best contracting action?",
+      "restoredVersionSummary": "A source selection is underway and the record must support evaluation judgments and award rationale. What is the best contracting action?",
+      "explanationRichRestored": true,
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "q151",
+      "currentBrokenVersionSummary": "In commercial items scenario #151, what is the best contracting action?",
+      "restoredVersionSummary": "The team is deciding whether and how to use commercial-item procedures for a recurring requirement. What is the best contracting action?",
+      "explanationRichRestored": true,
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "q152",
+      "currentBrokenVersionSummary": "In contract types scenario #152, what is the best contracting action?",
+      "restoredVersionSummary": "During acquisition planning, the team must select a contract type that appropriately allocates performance and cost risk. What is the best contracting action?",
+      "explanationRichRestored": true,
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "q153",
+      "currentBrokenVersionSummary": "In market research scenario #153, what is the best contracting action?",
+      "restoredVersionSummary": "Before finalizing an acquisition strategy, the team must confirm available sources, capabilities, and market conditions for the requirement. What is the best contracting action?",
+      "explanationRichRestored": true,
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "q154",
+      "currentBrokenVersionSummary": "In competition scenario #154, what is the best contracting action?",
+      "restoredVersionSummary": "An acquisition plan is being drafted and the team must decide how to satisfy competition requirements before award decisions are made. What is the best contracting action?",
+      "explanationRichRestored": true,
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "q155",
+      "currentBrokenVersionSummary": "In simplified acquisition scenario #155, what is the best contracting action?",
+      "restoredVersionSummary": "A buyer is preparing a lower-dollar procurement and must determine how to apply simplified acquisition procedures correctly. What is the best contracting action?",
+      "explanationRichRestored": true,
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "q156",
+      "currentBrokenVersionSummary": "In contracting by negotiation scenario #156, what is the best contracting action?",
+      "restoredVersionSummary": "The contracting office is running a negotiated procurement and must follow evaluation and discussion rules for a defensible award. What is the best contracting action?",
+      "explanationRichRestored": true,
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "q157",
+      "currentBrokenVersionSummary": "In contract modifications scenario #157, what is the best contracting action?",
+      "restoredVersionSummary": "Post-award changes are being requested and the contracting team must choose the correct modification approach and authority. What is the best contracting action?",
+      "explanationRichRestored": true,
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "q158",
+      "currentBrokenVersionSummary": "In source selection scenario #158, what is the best contracting action?",
+      "restoredVersionSummary": "A source selection is underway and the record must support evaluation judgments and award rationale. What is the best contracting action?",
+      "explanationRichRestored": true,
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "q159",
+      "currentBrokenVersionSummary": "In commercial items scenario #159, what is the best contracting action?",
+      "restoredVersionSummary": "The team is deciding whether and how to use commercial-item procedures for a recurring requirement. What is the best contracting action?",
+      "explanationRichRestored": true,
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "q160",
+      "currentBrokenVersionSummary": "In contract types scenario #160, what is the best contracting action?",
+      "restoredVersionSummary": "During acquisition planning, the team must select a contract type that appropriately allocates performance and cost risk. What is the best contracting action?",
+      "explanationRichRestored": true,
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "q161",
+      "currentBrokenVersionSummary": "In market research scenario #161, what is the best contracting action?",
+      "restoredVersionSummary": "Before finalizing an acquisition strategy, the team must confirm available sources, capabilities, and market conditions for the requirement. What is the best contracting action?",
+      "explanationRichRestored": true,
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "q162",
+      "currentBrokenVersionSummary": "In competition scenario #162, what is the best contracting action?",
+      "restoredVersionSummary": "An acquisition plan is being drafted and the team must decide how to satisfy competition requirements before award decisions are made. What is the best contracting action?",
+      "explanationRichRestored": true,
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "q163",
+      "currentBrokenVersionSummary": "In simplified acquisition scenario #163, what is the best contracting action?",
+      "restoredVersionSummary": "A buyer is preparing a lower-dollar procurement and must determine how to apply simplified acquisition procedures correctly. What is the best contracting action?",
+      "explanationRichRestored": true,
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "q164",
+      "currentBrokenVersionSummary": "In contracting by negotiation scenario #164, what is the best contracting action?",
+      "restoredVersionSummary": "The contracting office is running a negotiated procurement and must follow evaluation and discussion rules for a defensible award. What is the best contracting action?",
+      "explanationRichRestored": true,
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "q165",
+      "currentBrokenVersionSummary": "In contract modifications scenario #165, what is the best contracting action?",
+      "restoredVersionSummary": "Post-award changes are being requested and the contracting team must choose the correct modification approach and authority. What is the best contracting action?",
+      "explanationRichRestored": true,
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "q166",
+      "currentBrokenVersionSummary": "In source selection scenario #166, what is the best contracting action?",
+      "restoredVersionSummary": "A source selection is underway and the record must support evaluation judgments and award rationale. What is the best contracting action?",
+      "explanationRichRestored": true,
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "q167",
+      "currentBrokenVersionSummary": "In commercial items scenario #167, what is the best contracting action?",
+      "restoredVersionSummary": "The team is deciding whether and how to use commercial-item procedures for a recurring requirement. What is the best contracting action?",
+      "explanationRichRestored": true,
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "q168",
+      "currentBrokenVersionSummary": "In contract types scenario #168, what is the best contracting action?",
+      "restoredVersionSummary": "During acquisition planning, the team must select a contract type that appropriately allocates performance and cost risk. What is the best contracting action?",
+      "explanationRichRestored": true,
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "q169",
+      "currentBrokenVersionSummary": "In market research scenario #169, what is the best contracting action?",
+      "restoredVersionSummary": "Before finalizing an acquisition strategy, the team must confirm available sources, capabilities, and market conditions for the requirement. What is the best contracting action?",
+      "explanationRichRestored": true,
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "q170",
+      "currentBrokenVersionSummary": "In competition scenario #170, what is the best contracting action?",
+      "restoredVersionSummary": "An acquisition plan is being drafted and the team must decide how to satisfy competition requirements before award decisions are made. What is the best contracting action?",
+      "explanationRichRestored": true,
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "q171",
+      "currentBrokenVersionSummary": "In simplified acquisition scenario #171, what is the best contracting action?",
+      "restoredVersionSummary": "A buyer is preparing a lower-dollar procurement and must determine how to apply simplified acquisition procedures correctly. What is the best contracting action?",
+      "explanationRichRestored": true,
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "q172",
+      "currentBrokenVersionSummary": "In contracting by negotiation scenario #172, what is the best contracting action?",
+      "restoredVersionSummary": "The contracting office is running a negotiated procurement and must follow evaluation and discussion rules for a defensible award. What is the best contracting action?",
+      "explanationRichRestored": true,
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "q173",
+      "currentBrokenVersionSummary": "In contract modifications scenario #173, what is the best contracting action?",
+      "restoredVersionSummary": "Post-award changes are being requested and the contracting team must choose the correct modification approach and authority. What is the best contracting action?",
+      "explanationRichRestored": true,
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "q174",
+      "currentBrokenVersionSummary": "In source selection scenario #174, what is the best contracting action?",
+      "restoredVersionSummary": "A source selection is underway and the record must support evaluation judgments and award rationale. What is the best contracting action?",
+      "explanationRichRestored": true,
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "q175",
+      "currentBrokenVersionSummary": "In commercial items scenario #175, what is the best contracting action?",
+      "restoredVersionSummary": "The team is deciding whether and how to use commercial-item procedures for a recurring requirement. What is the best contracting action?",
+      "explanationRichRestored": true,
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "q176",
+      "currentBrokenVersionSummary": "In contract types scenario #176, what is the best contracting action?",
+      "restoredVersionSummary": "During acquisition planning, the team must select a contract type that appropriately allocates performance and cost risk. What is the best contracting action?",
+      "explanationRichRestored": true,
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "q177",
+      "currentBrokenVersionSummary": "In market research scenario #177, what is the best contracting action?",
+      "restoredVersionSummary": "Before finalizing an acquisition strategy, the team must confirm available sources, capabilities, and market conditions for the requirement. What is the best contracting action?",
+      "explanationRichRestored": true,
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "q178",
+      "currentBrokenVersionSummary": "In competition scenario #178, what is the best contracting action?",
+      "restoredVersionSummary": "An acquisition plan is being drafted and the team must decide how to satisfy competition requirements before award decisions are made. What is the best contracting action?",
+      "explanationRichRestored": true,
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "q179",
+      "currentBrokenVersionSummary": "In simplified acquisition scenario #179, what is the best contracting action?",
+      "restoredVersionSummary": "A buyer is preparing a lower-dollar procurement and must determine how to apply simplified acquisition procedures correctly. What is the best contracting action?",
+      "explanationRichRestored": true,
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "q180",
+      "currentBrokenVersionSummary": "In contracting by negotiation scenario #180, what is the best contracting action?",
+      "restoredVersionSummary": "The contracting office is running a negotiated procurement and must follow evaluation and discussion rules for a defensible award. What is the best contracting action?",
+      "explanationRichRestored": true,
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "q181",
+      "currentBrokenVersionSummary": "In contract modifications scenario #181, what is the best contracting action?",
+      "restoredVersionSummary": "Post-award changes are being requested and the contracting team must choose the correct modification approach and authority. What is the best contracting action?",
+      "explanationRichRestored": true,
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "q182",
+      "currentBrokenVersionSummary": "In source selection scenario #182, what is the best contracting action?",
+      "restoredVersionSummary": "A source selection is underway and the record must support evaluation judgments and award rationale. What is the best contracting action?",
+      "explanationRichRestored": true,
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "q183",
+      "currentBrokenVersionSummary": "In commercial items scenario #183, what is the best contracting action?",
+      "restoredVersionSummary": "The team is deciding whether and how to use commercial-item procedures for a recurring requirement. What is the best contracting action?",
+      "explanationRichRestored": true,
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "q184",
+      "currentBrokenVersionSummary": "In contract types scenario #184, what is the best contracting action?",
+      "restoredVersionSummary": "During acquisition planning, the team must select a contract type that appropriately allocates performance and cost risk. What is the best contracting action?",
+      "explanationRichRestored": true,
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "q185",
+      "currentBrokenVersionSummary": "In market research scenario #185, what is the best contracting action?",
+      "restoredVersionSummary": "Before finalizing an acquisition strategy, the team must confirm available sources, capabilities, and market conditions for the requirement. What is the best contracting action?",
+      "explanationRichRestored": true,
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "q186",
+      "currentBrokenVersionSummary": "In competition scenario #186, what is the best contracting action?",
+      "restoredVersionSummary": "An acquisition plan is being drafted and the team must decide how to satisfy competition requirements before award decisions are made. What is the best contracting action?",
+      "explanationRichRestored": true,
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "q187",
+      "currentBrokenVersionSummary": "In simplified acquisition scenario #187, what is the best contracting action?",
+      "restoredVersionSummary": "A buyer is preparing a lower-dollar procurement and must determine how to apply simplified acquisition procedures correctly. What is the best contracting action?",
+      "explanationRichRestored": true,
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "q188",
+      "currentBrokenVersionSummary": "In contracting by negotiation scenario #188, what is the best contracting action?",
+      "restoredVersionSummary": "The contracting office is running a negotiated procurement and must follow evaluation and discussion rules for a defensible award. What is the best contracting action?",
+      "explanationRichRestored": true,
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "q189",
+      "currentBrokenVersionSummary": "In contract modifications scenario #189, what is the best contracting action?",
+      "restoredVersionSummary": "Post-award changes are being requested and the contracting team must choose the correct modification approach and authority. What is the best contracting action?",
+      "explanationRichRestored": true,
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "q190",
+      "currentBrokenVersionSummary": "In source selection scenario #190, what is the best contracting action?",
+      "restoredVersionSummary": "A source selection is underway and the record must support evaluation judgments and award rationale. What is the best contracting action?",
+      "explanationRichRestored": true,
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "q191",
+      "currentBrokenVersionSummary": "In commercial items scenario #191, what is the best contracting action?",
+      "restoredVersionSummary": "The team is deciding whether and how to use commercial-item procedures for a recurring requirement. What is the best contracting action?",
+      "explanationRichRestored": true,
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "q192",
+      "currentBrokenVersionSummary": "In contract types scenario #192, what is the best contracting action?",
+      "restoredVersionSummary": "During acquisition planning, the team must select a contract type that appropriately allocates performance and cost risk. What is the best contracting action?",
+      "explanationRichRestored": true,
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "q193",
+      "currentBrokenVersionSummary": "In market research scenario #193, what is the best contracting action?",
+      "restoredVersionSummary": "Before finalizing an acquisition strategy, the team must confirm available sources, capabilities, and market conditions for the requirement. What is the best contracting action?",
+      "explanationRichRestored": true,
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "q194",
+      "currentBrokenVersionSummary": "In competition scenario #194, what is the best contracting action?",
+      "restoredVersionSummary": "An acquisition plan is being drafted and the team must decide how to satisfy competition requirements before award decisions are made. What is the best contracting action?",
+      "explanationRichRestored": true,
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "q195",
+      "currentBrokenVersionSummary": "In simplified acquisition scenario #195, what is the best contracting action?",
+      "restoredVersionSummary": "A buyer is preparing a lower-dollar procurement and must determine how to apply simplified acquisition procedures correctly. What is the best contracting action?",
+      "explanationRichRestored": true,
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "q196",
+      "currentBrokenVersionSummary": "In contracting by negotiation scenario #196, what is the best contracting action?",
+      "restoredVersionSummary": "The contracting office is running a negotiated procurement and must follow evaluation and discussion rules for a defensible award. What is the best contracting action?",
+      "explanationRichRestored": true,
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "q197",
+      "currentBrokenVersionSummary": "In contract modifications scenario #197, what is the best contracting action?",
+      "restoredVersionSummary": "Post-award changes are being requested and the contracting team must choose the correct modification approach and authority. What is the best contracting action?",
+      "explanationRichRestored": true,
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "q198",
+      "currentBrokenVersionSummary": "In source selection scenario #198, what is the best contracting action?",
+      "restoredVersionSummary": "A source selection is underway and the record must support evaluation judgments and award rationale. What is the best contracting action?",
+      "explanationRichRestored": true,
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "q199",
+      "currentBrokenVersionSummary": "In commercial items scenario #199, what is the best contracting action?",
+      "restoredVersionSummary": "The team is deciding whether and how to use commercial-item procedures for a recurring requirement. What is the best contracting action?",
+      "explanationRichRestored": true,
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "q200",
+      "currentBrokenVersionSummary": "In contract types scenario #200, what is the best contracting action?",
+      "restoredVersionSummary": "During acquisition planning, the team must select a contract type that appropriately allocates performance and cost risk. What is the best contracting action?",
+      "explanationRichRestored": true,
+      "correctAnswerChanged": false
+    }
+  ]
+}
