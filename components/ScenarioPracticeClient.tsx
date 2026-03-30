@@ -59,6 +59,15 @@ function normalizeSavedProgress(saved: ScenarioPracticeProgress, questions: Scen
   };
 }
 
+
+function findNextUnansweredIndex(progress: ScenarioPracticeProgress, fromIndex = 0): number {
+  for (let i = fromIndex; i < progress.questionOrder.length; i += 1) {
+    const questionId = progress.questionOrder[i];
+    if (!progress.answers[questionId]) return i;
+  }
+  return -1;
+}
+
 function isValidSavedProgress(saved: ScenarioPracticeProgress | null, questions: ScenarioQuestion[]): saved is ScenarioPracticeProgress {
   if (!saved) return false;
   const questionIds = new Set(questions.map((q) => q.id));
@@ -94,11 +103,16 @@ export default function ScenarioPracticeClient() {
 
   const mapById = useMemo(() => new Map(questions.map((q) => [q.id, q])), [questions]);
 
+  const activeIndex = useMemo(() => {
+    if (!progress || progress.completed) return -1;
+    return findNextUnansweredIndex(progress, progress.currentIndex);
+  }, [progress]);
+
   const currentQuestion = useMemo(() => {
-    if (!progress || progress.completed) return null;
-    const id = progress.questionOrder[progress.currentIndex];
+    if (!progress || progress.completed || activeIndex < 0) return null;
+    const id = progress.questionOrder[activeIndex];
     return id ? mapById.get(id) ?? null : null;
-  }, [mapById, progress]);
+  }, [activeIndex, mapById, progress]);
 
   const orderedChoices = useMemo(() => {
     if (!currentQuestion || !progress) return [];
@@ -145,7 +159,7 @@ export default function ScenarioPracticeClient() {
   const isSubmitted = Boolean(selected);
 
   const submit = (choiceId: string) => {
-    if (!progress || isSubmitted) return;
+    if (!progress || isSubmitted || progress.answers[currentQuestion.id]) return;
     const isCorrect = choiceId === currentQuestion.correctChoiceId;
     setSubmittedChoiceId(choiceId);
     setProgress({
@@ -160,12 +174,12 @@ export default function ScenarioPracticeClient() {
   const next = () => {
     if (!progress) return;
     setSubmittedChoiceId(null);
-    const isLastQuestion = progress.currentIndex + 1 >= progress.questionOrder.length;
-    if (isLastQuestion) {
+    const nextIndex = findNextUnansweredIndex(progress, activeIndex + 1);
+    if (nextIndex === -1) {
       setProgress({ ...progress, completed: true, currentIndex: progress.questionOrder.length });
       return;
     }
-    setProgress({ ...progress, currentIndex: progress.currentIndex + 1 });
+    setProgress({ ...progress, currentIndex: nextIndex });
   };
 
   const correctChoice = currentQuestion.choices.find((c) => c.id === currentQuestion.correctChoiceId);
@@ -176,7 +190,7 @@ export default function ScenarioPracticeClient() {
       <div className="card space-y-2">
         <h2 className="text-xl font-semibold">Scenario Practice</h2>
         <p className="text-sm text-slate-300">DAU-style scenario questions for CON 3990V</p>
-        <p className="text-sm text-slate-300">Question {progress.currentIndex + 1} of {total} • Answered {answeredCount}</p>
+        <p className="text-sm text-slate-300">Question {activeIndex + 1} of {total} • Answered {answeredCount}</p>
         <div className="flex gap-2 text-xs">
           <span className="rounded bg-slate-800 px-2 py-1">{currentQuestion.topic}</span>
           <span className="rounded bg-slate-800 px-2 py-1">{currentQuestion.sessionSource}</span>
@@ -222,7 +236,7 @@ export default function ScenarioPracticeClient() {
             <p className="text-sm text-slate-300 whitespace-pre-line">{currentQuestion.explanation}</p>
             <p className="text-xs text-slate-400">{currentQuestion.topic} • {currentQuestion.sessionSource}</p>
             <button className="btn" onClick={next}>
-              {progress.currentIndex + 1 >= total ? 'Finish Run' : 'Next Question'}
+              {activeIndex + 1 >= total ? 'Finish Run' : 'Next Question'}
             </button>
           </div>
         )}
