@@ -2,6 +2,7 @@ import { describe, expect, it } from 'vitest';
 import {
   findNextUnansweredIndex,
   normalizeSavedScenarioPracticeProgress,
+  selectScenarioPracticeChunkQuestions,
   type ScenarioPracticeProgress
 } from '@/lib/scenarioPracticeState';
 import type { ScenarioQuestion } from '@/lib/scenarioTypes';
@@ -51,6 +52,20 @@ describe('scenario practice state', () => {
     const normalized = normalizeSavedScenarioPracticeProgress(saved, questions);
     expect(normalized.currentIndex).toBe(1);
     expect(normalized.completed).toBe(false);
+  });
+
+
+
+  it('selects the fixed Q001-Q030/SCN-001-SCN-030 chunk order', () => {
+    const mixed = [
+      { ...questions[1], id: 'SCN-030' },
+      { ...questions[0], id: 'Q001' },
+      { ...questions[1], id: 'SCN-001' },
+      { ...questions[0], id: 'Q030' }
+    ];
+
+    const selected = selectScenarioPracticeChunkQuestions(mixed);
+    expect(selected.map((q) => q.id)).toEqual(['Q001', 'Q030']);
   });
 
   it('finds next unanswered and returns -1 when all answered', () => {

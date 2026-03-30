@@ -1,5 +1,24 @@
 import type { ScenarioQuestion } from './scenarioTypes';
 
+
+const CHUNK_NUMBERS = Array.from({ length: 30 }, (_, i) => i + 1);
+
+function normalizeId(id: string): string {
+  return id.replace(/[^A-Za-z0-9]/g, '').toUpperCase();
+}
+
+function expectedChunkTokens(n: number): string[] {
+  const padded = String(n).padStart(3, '0');
+  return [`Q${padded}`, `SCN${padded}`];
+}
+
+export function selectScenarioPracticeChunkQuestions(questions: ScenarioQuestion[]): ScenarioQuestion[] {
+  const byNormalizedId = new Map(questions.map((q) => [normalizeId(q.id), q]));
+  return CHUNK_NUMBERS
+    .map((n) => expectedChunkTokens(n).map((token) => byNormalizedId.get(token)).find(Boolean) ?? null)
+    .filter((q): q is ScenarioQuestion => Boolean(q));
+}
+
 export type ScenarioPracticeProgress = {
   sessionId: string;
   questionOrder: string[];

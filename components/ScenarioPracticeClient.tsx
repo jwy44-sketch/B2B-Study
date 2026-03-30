@@ -9,6 +9,7 @@ import {
   findNextUnansweredIndex,
   isValidSavedScenarioPracticeProgress,
   normalizeSavedScenarioPracticeProgress,
+  selectScenarioPracticeChunkQuestions,
   type ScenarioPracticeProgress
 } from '@/lib/scenarioPracticeState';
 
@@ -22,12 +23,13 @@ export default function ScenarioPracticeClient() {
 
   useEffect(() => {
     loadScenarioQuestions().then((data) => {
-      setQuestions(data);
+      const chunkQuestions = selectScenarioPracticeChunkQuestions(data);
+      setQuestions(chunkQuestions);
       const saved = loadJson<ScenarioPracticeProgress | null>(storageKeys.scenarioPracticeProgress, null);
-      if (isValidSavedScenarioPracticeProgress(saved, data)) {
-        setProgress(normalizeSavedScenarioPracticeProgress(saved, data));
+      if (isValidSavedScenarioPracticeProgress(saved, chunkQuestions)) {
+        setProgress(normalizeSavedScenarioPracticeProgress(saved, chunkQuestions));
       } else {
-        setProgress(createScenarioPracticeProgress(data));
+        setProgress(createScenarioPracticeProgress(chunkQuestions));
       }
     });
   }, []);
