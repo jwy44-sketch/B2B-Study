@@ -6,10 +6,12 @@ import type { ScenarioQuestion } from '@/lib/scenarioTypes';
 import { loadJson, saveJson, storageKeys } from '@/lib/storage';
 
 type ScenarioPracticeProgress = {
+  sessionId: string;
   questionOrder: string[];
   choiceOrderByQuestion: Record<string, string[]>;
   currentIndex: number;
   answers: Record<string, { selectedChoiceId: string; isCorrect: boolean }>;
+  completed: boolean;
 };
 
 const labelForIndex = ['A', 'B', 'C', 'D'];
@@ -23,18 +25,32 @@ function shuffle<T>(input: T[]): T[] {
   return copy;
 }
 
-function initProgress(questions: ScenarioQuestion[]): ScenarioPracticeProgress {
-  const questionOrder = shuffle(questions.map((q) => q.id));
-  const choiceOrderByQuestion = Object.fromEntries(
+function buildChoiceOrderByQuestion(questions: ScenarioQuestion[]): Record<string, string[]> {
+  return Object.fromEntries(
     questions.map((q) => [q.id, shuffle(q.choices.map((c) => c.id))])
   );
+}
 
+function createProgress(questions: ScenarioQuestion[], questionOrder?: string[]): ScenarioPracticeProgress {
   return {
-    questionOrder,
-    choiceOrderByQuestion,
+    sessionId: `${Date.now()}-${Math.random().toString(36).slice(2, 10)}`,
+    questionOrder: questionOrder ?? shuffle(questions.map((q) => q.id)),
+    choiceOrderByQuestion: buildChoiceOrderByQuestion(questions),
     currentIndex: 0,
-    answers: {}
+    answers: {},
+    completed: false
   };
+}
+
+function isValidSavedProgress(saved: ScenarioPracticeProgress | null, questions: ScenarioQuestion[]): saved is ScenarioPracticeProgress {
+  if (!saved) return false;
+  const questionIds = new Set(questions.map((q) => q.id));
+  if (saved.questionOrder.length !== questions.length) return false;
+  if (new Set(saved.questionOrder).size !== saved.questionOrder.length) return false;
+  if (!saved.questionOrder.every((id) => questionIds.has(id))) return false;
+  if (Object.keys(saved.choiceOrderByQuestion).length !== questions.length) return false;
+  if (saved.currentIndex < 0 || saved.currentIndex > questions.length) return false;
+  return true;
 }
 
 export default function ScenarioPracticeClient() {
@@ -46,14 +62,10 @@ export default function ScenarioPracticeClient() {
     loadScenarioQuestions().then((data) => {
       setQuestions(data);
       const saved = loadJson<ScenarioPracticeProgress | null>(storageKeys.scenarioPracticeProgress, null);
-      if (
-        saved &&
-        saved.questionOrder.length === data.length &&
-        Object.keys(saved.choiceOrderByQuestion).length === data.length
-      ) {
+      if (isValidSavedProgress(saved, data)) {
         setProgress(saved);
       } else {
-        setProgress(initProgress(data));
+        setProgress(createProgress(data));
       }
     });
   }, []);
@@ -66,7 +78,7 @@ export default function ScenarioPracticeClient() {
   const mapById = useMemo(() => new Map(questions.map((q) => [q.id, q])), [questions]);
 
   const currentQuestion = useMemo(() => {
-    if (!progress) return null;
+    if (!progress || progress.completed) return null;
     const id = progress.questionOrder[progress.currentIndex];
     return id ? mapById.get(id) ?? null : null;
   }, [mapById, progress]);
@@ -79,10 +91,38 @@ export default function ScenarioPracticeClient() {
       .filter((c): c is NonNullable<typeof c> => Boolean(c));
   }, [currentQuestion, progress]);
 
-  if (!progress || !currentQuestion) return <div>Loading scenario practice…</div>;
+  if (!progress || questions.length === 0) return <div>Loading scenario practice…</div>;
 
   const total = progress.questionOrder.length;
   const answeredCount = Object.keys(progress.answers).length;
+
+  const startOverSameOrder = () => {
+    setSubmittedChoiceId(null);
+    setProgress(createProgress(questions, progress.questionOrder));
+  };
+
+  const startNewShuffledRun = () => {
+    setSubmittedChoiceId(null);
+    setProgress(createProgress(questions));
+  };
+
+  if (progress.completed || !currentQuestion) {
+    return (
+      <div className="space-y-3">
+        <div className="card space-y-2">
+          <h2 className="text-xl font-semibold">Scenario Practice</h2>
+          <p className="text-sm text-slate-300">DAU-style scenario questions for CON 3990V</p>
+          <p className="text-sm text-slate-300">Run complete: {answeredCount} of {total} answered.</p>
+          <div className="flex flex-wrap gap-2">
+            <button className="btn" onClick={startOverSameOrder}>Start Over</button>
+            <button className="btn" onClick={startNewShuffledRun}>New Shuffled Run</button>
+            <a className="btn" href="/">Back to Home</a>
+          </div>
+        </div>
+      </div>
+    );
+  }
+
   const selectedBefore = progress.answers[currentQuestion.id]?.selectedChoiceId ?? null;
   const selected = submittedChoiceId ?? selectedBefore;
   const isSubmitted = Boolean(selected);
@@ -103,14 +143,12 @@ export default function ScenarioPracticeClient() {
   const next = () => {
     if (!progress) return;
     setSubmittedChoiceId(null);
-    if (progress.currentIndex + 1 >= progress.questionOrder.length) return;
+    const isLastQuestion = progress.currentIndex + 1 >= progress.questionOrder.length;
+    if (isLastQuestion) {
+      setProgress({ ...progress, completed: true, currentIndex: progress.questionOrder.length });
+      return;
+    }
     setProgress({ ...progress, currentIndex: progress.currentIndex + 1 });
-  };
-
-  const restart = () => {
-    const fresh = initProgress(questions);
-    setSubmittedChoiceId(null);
-    setProgress(fresh);
   };
 
   const correctChoice = currentQuestion.choices.find((c) => c.id === currentQuestion.correctChoiceId);
@@ -127,7 +165,8 @@ export default function ScenarioPracticeClient() {
           <span className="rounded bg-slate-800 px-2 py-1">{currentQuestion.sessionSource}</span>
         </div>
         <div className="flex gap-2">
-          <button className="btn" onClick={restart}>Restart Session</button>
+          <button className="btn" onClick={startOverSameOrder}>Start Over</button>
+          <button className="btn" onClick={startNewShuffledRun}>New Shuffled Run</button>
           {progress.currentIndex > 0 && <span className="text-xs text-slate-400 self-center">Resumed previous scenario practice progress.</span>}
         </div>
       </div>
@@ -166,7 +205,7 @@ export default function ScenarioPracticeClient() {
             <p className="text-sm text-slate-300 whitespace-pre-line">{currentQuestion.explanation}</p>
             <p className="text-xs text-slate-400">{currentQuestion.topic} • {currentQuestion.sessionSource}</p>
             <button className="btn" onClick={next}>
-              {progress.currentIndex + 1 >= total ? 'Review Complete' : 'Next Question'}
+              {progress.currentIndex + 1 >= total ? 'Finish Run' : 'Next Question'}
             </button>
           </div>
         )}
