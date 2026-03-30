@@ -42,6 +42,23 @@ function createProgress(questions: ScenarioQuestion[], questionOrder?: string[])
   };
 }
 
+
+function normalizeSavedProgress(saved: ScenarioPracticeProgress, questions: ScenarioQuestion[]): ScenarioPracticeProgress {
+  const questionIds = new Set(questions.map((q) => q.id));
+  const sanitizedAnswers = Object.fromEntries(
+    Object.entries(saved.answers).filter(([questionId]) => questionIds.has(questionId))
+  );
+  const firstUnansweredIndex = saved.questionOrder.findIndex((questionId) => !sanitizedAnswers[questionId]);
+  const allAnswered = firstUnansweredIndex === -1;
+
+  return {
+    ...saved,
+    answers: sanitizedAnswers,
+    currentIndex: allAnswered ? saved.questionOrder.length : firstUnansweredIndex,
+    completed: saved.completed || allAnswered
+  };
+}
+
 function isValidSavedProgress(saved: ScenarioPracticeProgress | null, questions: ScenarioQuestion[]): saved is ScenarioPracticeProgress {
   if (!saved) return false;
   const questionIds = new Set(questions.map((q) => q.id));
@@ -63,7 +80,7 @@ export default function ScenarioPracticeClient() {
       setQuestions(data);
       const saved = loadJson<ScenarioPracticeProgress | null>(storageKeys.scenarioPracticeProgress, null);
       if (isValidSavedProgress(saved, data)) {
-        setProgress(saved);
+        setProgress(normalizeSavedProgress(saved, data));
       } else {
         setProgress(createProgress(data));
       }
