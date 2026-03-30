@@ -4,94 +4,30 @@ import { useEffect, useMemo, useState } from 'react';
 import { loadScenarioQuestions } from '@/lib/scenarioQuestions';
 import type { ScenarioQuestion } from '@/lib/scenarioTypes';
 import { loadJson, saveJson, storageKeys } from '@/lib/storage';
-
-type ScenarioPracticeProgress = {
-  sessionId: string;
-  questionOrder: string[];
-  choiceOrderByQuestion: Record<string, string[]>;
-  currentIndex: number;
-  answers: Record<string, { selectedChoiceId: string; isCorrect: boolean }>;
-  completed: boolean;
-};
+import {
+  createScenarioPracticeProgress,
+  findNextUnansweredIndex,
+  isValidSavedScenarioPracticeProgress,
+  normalizeSavedScenarioPracticeProgress,
+  type ScenarioPracticeProgress
+} from '@/lib/scenarioPracticeState';
 
 const labelForIndex = ['A', 'B', 'C', 'D'];
-
-function shuffle<T>(input: T[]): T[] {
-  const copy = [...input];
-  for (let i = copy.length - 1; i > 0; i -= 1) {
-    const j = Math.floor(Math.random() * (i + 1));
-    [copy[i], copy[j]] = [copy[j], copy[i]];
-  }
-  return copy;
-}
-
-function buildChoiceOrderByQuestion(questions: ScenarioQuestion[]): Record<string, string[]> {
-  return Object.fromEntries(
-    questions.map((q) => [q.id, shuffle(q.choices.map((c) => c.id))])
-  );
-}
-
-function createProgress(questions: ScenarioQuestion[], questionOrder?: string[]): ScenarioPracticeProgress {
-  return {
-    sessionId: `${Date.now()}-${Math.random().toString(36).slice(2, 10)}`,
-    questionOrder: questionOrder ?? shuffle(questions.map((q) => q.id)),
-    choiceOrderByQuestion: buildChoiceOrderByQuestion(questions),
-    currentIndex: 0,
-    answers: {},
-    completed: false
-  };
-}
-
-
-function normalizeSavedProgress(saved: ScenarioPracticeProgress, questions: ScenarioQuestion[]): ScenarioPracticeProgress {
-  const questionIds = new Set(questions.map((q) => q.id));
-  const sanitizedAnswers = Object.fromEntries(
-    Object.entries(saved.answers).filter(([questionId]) => questionIds.has(questionId))
-  );
-  const firstUnansweredIndex = saved.questionOrder.findIndex((questionId) => !sanitizedAnswers[questionId]);
-  const allAnswered = firstUnansweredIndex === -1;
-
-  return {
-    ...saved,
-    answers: sanitizedAnswers,
-    currentIndex: allAnswered ? saved.questionOrder.length : firstUnansweredIndex,
-    completed: saved.completed || allAnswered
-  };
-}
-
-
-function findNextUnansweredIndex(progress: ScenarioPracticeProgress, fromIndex = 0): number {
-  for (let i = fromIndex; i < progress.questionOrder.length; i += 1) {
-    const questionId = progress.questionOrder[i];
-    if (!progress.answers[questionId]) return i;
-  }
-  return -1;
-}
-
-function isValidSavedProgress(saved: ScenarioPracticeProgress | null, questions: ScenarioQuestion[]): saved is ScenarioPracticeProgress {
-  if (!saved) return false;
-  const questionIds = new Set(questions.map((q) => q.id));
-  if (saved.questionOrder.length !== questions.length) return false;
-  if (new Set(saved.questionOrder).size !== saved.questionOrder.length) return false;
-  if (!saved.questionOrder.every((id) => questionIds.has(id))) return false;
-  if (Object.keys(saved.choiceOrderByQuestion).length !== questions.length) return false;
-  if (saved.currentIndex < 0 || saved.currentIndex > questions.length) return false;
-  return true;
-}
 
 export default function ScenarioPracticeClient() {
   const [questions, setQuestions] = useState<ScenarioQuestion[]>([]);
   const [progress, setProgress] = useState<ScenarioPracticeProgress | null>(null);
   const [submittedChoiceId, setSubmittedChoiceId] = useState<string | null>(null);
+  const [lockedQuestionId, setLockedQuestionId] = useState<string | null>(null);
 
   useEffect(() => {
     loadScenarioQuestions().then((data) => {
       setQuestions(data);
       const saved = loadJson<ScenarioPracticeProgress | null>(storageKeys.scenarioPracticeProgress, null);
-      if (isValidSavedProgress(saved, data)) {
-        setProgress(normalizeSavedProgress(saved, data));
+      if (isValidSavedScenarioPracticeProgress(saved, data)) {
+        setProgress(normalizeSavedScenarioPracticeProgress(saved, data));
       } else {
-        setProgress(createProgress(data));
+        setProgress(createScenarioPracticeProgress(data));
       }
     });
   }, []);
@@ -105,8 +41,9 @@ export default function ScenarioPracticeClient() {
 
   const activeIndex = useMemo(() => {
     if (!progress || progress.completed) return -1;
+    if (lockedQuestionId) return progress.questionOrder.indexOf(lockedQuestionId);
     return findNextUnansweredIndex(progress, progress.currentIndex);
-  }, [progress]);
+  }, [lockedQuestionId, progress]);
 
   const currentQuestion = useMemo(() => {
     if (!progress || progress.completed || activeIndex < 0) return null;
@@ -129,12 +66,14 @@ export default function ScenarioPracticeClient() {
 
   const startOverSameOrder = () => {
     setSubmittedChoiceId(null);
-    setProgress(createProgress(questions, progress.questionOrder));
+    setLockedQuestionId(null);
+    setProgress(createScenarioPracticeProgress(questions, progress.questionOrder));
   };
 
   const startNewShuffledRun = () => {
     setSubmittedChoiceId(null);
-    setProgress(createProgress(questions));
+    setLockedQuestionId(null);
+    setProgress(createScenarioPracticeProgress(questions));
   };
 
   if (progress.completed || !currentQuestion) {
@@ -156,17 +95,21 @@ export default function ScenarioPracticeClient() {
 
   const selectedBefore = progress.answers[currentQuestion.id]?.selectedChoiceId ?? null;
   const selected = submittedChoiceId ?? selectedBefore;
-  const isSubmitted = Boolean(selected);
+  const isSubmitted = lockedQuestionId === currentQuestion.id && Boolean(selected);
 
   const submit = (choiceId: string) => {
     if (!progress || isSubmitted || progress.answers[currentQuestion.id]) return;
+
+    const questionIdAtSubmit = currentQuestion.id;
     const isCorrect = choiceId === currentQuestion.correctChoiceId;
+
+    setLockedQuestionId(questionIdAtSubmit);
     setSubmittedChoiceId(choiceId);
     setProgress({
       ...progress,
       answers: {
         ...progress.answers,
-        [currentQuestion.id]: { selectedChoiceId: choiceId, isCorrect }
+        [questionIdAtSubmit]: { selectedChoiceId: choiceId, isCorrect }
       }
     });
   };
@@ -174,6 +117,7 @@ export default function ScenarioPracticeClient() {
   const next = () => {
     if (!progress) return;
     setSubmittedChoiceId(null);
+    setLockedQuestionId(null);
     const nextIndex = findNextUnansweredIndex(progress, activeIndex + 1);
     if (nextIndex === -1) {
       setProgress({ ...progress, completed: true, currentIndex: progress.questionOrder.length });
