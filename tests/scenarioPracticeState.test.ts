@@ -56,16 +56,16 @@ describe('scenario practice state', () => {
 
 
 
-  it('selects the fixed Q031-Q060/SCN-031-SCN-060 chunk order', () => {
+  it('selects the fixed Q061-Q090/SCN-061-SCN-090 chunk order', () => {
     const mixed = [
-      { ...questions[1], id: 'SCN-060' },
-      { ...questions[0], id: 'Q031' },
-      { ...questions[1], id: 'SCN-031' },
-      { ...questions[0], id: 'Q060' }
+      { ...questions[1], id: 'SCN-090' },
+      { ...questions[0], id: 'Q061' },
+      { ...questions[1], id: 'SCN-061' },
+      { ...questions[0], id: 'Q090' }
     ];
 
     const selected = selectScenarioPracticeChunkQuestions(mixed);
-    expect(selected.map((q) => q.id)).toEqual(['Q031', 'Q060']);
+    expect(selected.map((q) => q.id)).toEqual(['Q061', 'Q090']);
   });
 
   it('finds next unanswered and returns -1 when all answered', () => {
