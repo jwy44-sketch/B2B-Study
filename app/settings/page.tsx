@@ -1,11 +1,11 @@
 'use client';
 
-import { storageKeys } from '@/lib/storage';
+import { loadJson, removeJson, storageKeys } from '@/lib/storage';
 
 export default function SettingsPage() {
-  const reset = () => Object.values(storageKeys).forEach((key) => localStorage.removeItem(key));
+  const reset = () => Object.values(storageKeys).forEach((key) => removeJson(key));
   const exportFlags = () => {
-    const data = localStorage.getItem(storageKeys.flagged) || '[]';
+    const data = JSON.stringify(loadJson(storageKeys.flagged, []));
     const blob = new Blob([data], { type: 'application/json' });
     const a = document.createElement('a');
     a.href = URL.createObjectURL(blob);

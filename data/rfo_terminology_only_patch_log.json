@@ -1,0 +1,218 @@
+[
+  {
+    "bank": "regular_learn",
+    "question_id": "q003",
+    "field_changed": "stem",
+    "before_text": "Simplified Acquisition Procedures (SAP)",
+    "after_text": "RFO Part 13 simplified procedures for non-commercial acquisitions",
+    "status": "applied"
+  },
+  {
+    "bank": "regular_learn",
+    "question_id": "q005",
+    "field_changed": "stem",
+    "before_text": "commercial items of supply",
+    "after_text": "commercial products",
+    "status": "applied"
+  },
+  {
+    "bank": "regular_learn",
+    "question_id": "q015",
+    "field_changed": "stem",
+    "before_text": "commercial item",
+    "after_text": "commercial product",
+    "status": "applied"
+  },
+  {
+    "bank": "regular_learn",
+    "question_id": "q044",
+    "field_changed": "choices[1]",
+    "before_text": "commercial item",
+    "after_text": "commercial product or commercial service",
+    "status": "applied"
+  },
+  {
+    "bank": "regular_learn",
+    "question_id": "q053",
+    "field_changed": "stem",
+    "before_text": "When using FAR part 12 procedures",
+    "after_text": "When using RFO Part 12 commercial acquisition procedures",
+    "status": "applied"
+  },
+  {
+    "bank": "regular_learn",
+    "question_id": "q064",
+    "field_changed": "stem",
+    "before_text": "commercial item requirement",
+    "after_text": "commercial product or commercial service requirement",
+    "status": "applied"
+  },
+  {
+    "bank": "regular_learn",
+    "question_id": "q065",
+    "field_changed": "stem",
+    "before_text": "used simplified acquisition procedures under FAR part 13 to award a commercial purchase order",
+    "after_text": "used RFO Part 12 commercial acquisition procedures to award a commercial purchase order",
+    "status": "applied"
+  },
+  {
+    "bank": "regular_learn",
+    "question_id": "q074",
+    "field_changed": "stem",
+    "before_text": "two types of negotiated acquisitions",
+    "after_text": "two competitive award paths",
+    "status": "applied"
+  },
+  {
+    "bank": "regular_learn",
+    "question_id": "q074",
+    "field_changed": "choices[0]",
+    "before_text": "Sole source and competitive",
+    "after_text": "Competitive award without negotiation and competitive award with negotiation",
+    "status": "applied"
+  },
+  {
+    "bank": "regular_learn",
+    "question_id": "q083",
+    "field_changed": "stem",
+    "before_text": "award without discussions",
+    "after_text": "award without negotiations",
+    "status": "applied"
+  },
+  {
+    "bank": "regular_learn",
+    "question_id": "q087",
+    "field_changed": "stem",
+    "before_text": "During discussions, the contracting officer",
+    "after_text": "During negotiations, the contracting officer",
+    "status": "applied"
+  },
+  {
+    "bank": "regular_learn",
+    "question_id": "q089",
+    "field_changed": "choices[3]",
+    "before_text": "Prior to entering into discussions",
+    "after_text": "Prior to entering into negotiations",
+    "status": "applied"
+  },
+  {
+    "bank": "regular_learn",
+    "question_id": "q090",
+    "field_changed": "stem",
+    "before_text": "In the FAR, the term \"discussions\" is synonymous with which of the following?",
+    "after_text": "Under RFO terminology, what replaces the legacy term \"discussions\"?",
+    "status": "applied"
+  },
+  {
+    "bank": "regular_learn",
+    "question_id": "q091",
+    "field_changed": "stem",
+    "before_text": "the exact same \"discussions\" with each offeror",
+    "after_text": "the exact same negotiations with each offeror",
+    "status": "applied"
+  },
+  {
+    "bank": "regular_learn",
+    "question_id": "q092",
+    "field_changed": "stem",
+    "before_text": "When holding discussions with offerors",
+    "after_text": "When holding negotiations with offerors",
+    "status": "applied"
+  },
+  {
+    "bank": "regular_learn",
+    "question_id": "q101",
+    "field_changed": "choices[0]",
+    "before_text": "Discussions have concluded",
+    "after_text": "Negotiations have concluded",
+    "status": "applied"
+  },
+  {
+    "bank": "regular_learn",
+    "question_id": "q115",
+    "field_changed": "stem",
+    "before_text": "When acquiring commercial items",
+    "after_text": "When acquiring commercial products and commercial services",
+    "status": "applied"
+  },
+  {
+    "bank": "regular_learn",
+    "question_id": "q146",
+    "field_changed": "stem",
+    "before_text": "commercial contract",
+    "after_text": "contract for commercial products or commercial services",
+    "status": "applied"
+  },
+  {
+    "bank": "regular_learn",
+    "question_id": "q149",
+    "field_changed": "stem",
+    "before_text": "contracts using simplified acquisition procedures",
+    "after_text": "contracts using RFO Part 13 simplified procedures for non-commercial acquisitions",
+    "status": "applied"
+  },
+  {
+    "bank": "scenario_based",
+    "question_id": "SCN-047",
+    "field_changed": "choices[*].text",
+    "before_text": "Issue the short deadline and fix fairness later in discussions.",
+    "after_text": "Issue the short deadline and fix fairness later in negotiations.",
+    "status": "not found"
+  },
+  {
+    "bank": "scenario_based",
+    "question_id": "SCN-061",
+    "field_changed": "stem",
+    "before_text": "A commercial item purchase order issued under SAP",
+    "after_text": "A commercial purchase order issued using RFO Part 12 commercial procedures",
+    "status": "not found"
+  },
+  {
+    "bank": "scenario_based",
+    "question_id": "SCN-075",
+    "field_changed": "stem",
+    "before_text": "a simplified procedure buy",
+    "after_text": "an RFO Part 13 simplified non-commercial acquisition",
+    "status": "not found"
+  },
+  {
+    "bank": "scenario_based",
+    "question_id": "SCN-090",
+    "field_changed": "stem",
+    "before_text": "the old idea of discussions in competitive award with proposal revisions",
+    "after_text": "the legacy term discussions in competitive award with proposal revisions",
+    "status": "not found"
+  },
+  {
+    "bank": "scenario_based",
+    "question_id": "SCN-093",
+    "field_changed": "choices[*].text",
+    "before_text": "Source selection discussions with competitive range.",
+    "after_text": "Competitive negotiations with a competitive range.",
+    "status": "not found"
+  },
+  {
+    "bank": "scenario_based",
+    "question_id": "SCN-127",
+    "field_changed": "stem",
+    "before_text": "A commercial services contract is underway",
+    "after_text": "A contract for commercial services is underway",
+    "status": "not found"
+  },
+  {
+    "bank": "scenario_based",
+    "question_id": "SCN-139",
+    "field_changed": "stem",
+    "before_text": "commercial contract",
+    "after_text": "contract for commercial products or commercial services",
+    "status": "not found"
+  },
+  {
+    "bank": "scenario_based",
+    "question_id": "SCN-144",
+    "field_changed": "stem",
+    "before_text": "commercial contract",
+    "after_text": "contract for commercial products or commercial services",
+    "status": "not found"
+  }
+]

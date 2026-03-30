@@ -15,7 +15,7 @@ export default function BankPage() {
   useEffect(() => { loadQuestions().then(setQuestions); }, []);
   const topics = useMemo(() => ['All', ...new Set(questions.map((q) => q.topic))], [questions]);
   const filtered = useMemo(() => {
-    let out = questions.filter((q) => (topic === 'All' || q.topic === topic) && q.prompt.toLowerCase().includes(search.toLowerCase()));
+    let out = questions.filter((q) => (topic === 'All' || q.topic === topic) && q.stem.toLowerCase().includes(search.toLowerCase()));
     if (sort === 'bookmarked') out = [...out].sort((a, b) => Number(lookup.has(b.id)) - Number(lookup.has(a.id)));
     return out;
   }, [questions, topic, search, sort, lookup]);
@@ -34,7 +34,7 @@ export default function BankPage() {
         </div>
         {filtered.slice(0, 80).map((q) => (
           <details key={q.id} className="card">
-            <summary className="cursor-pointer">{q.prompt}</summary>
+            <summary className="cursor-pointer">{q.stem}</summary>
             <button onClick={() => toggle(q.id)}>{lookup.has(q.id) ? '★' : '☆'}</button>
             <ul className="list-disc pl-5">{q.choices.map((c) => <li key={c}>{c}</li>)}</ul>
             <p>Answer: {q.choices[q.correctIndex]}</p>

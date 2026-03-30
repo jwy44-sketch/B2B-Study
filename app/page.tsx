@@ -3,6 +3,8 @@ import Link from 'next/link';
 const cards = [
   { href: '/learn', title: 'Learn', desc: 'Quizlet-style 10 question batches' },
   { href: '/exam', title: 'Exam Sprint', desc: 'Timed optional exam sets' },
+  { href: '/scenario-practice', title: 'Scenario Practice', desc: 'DAU-style scenario questions for CON 3990V' },
+  { href: '/scenario-learn', title: 'Scenario Learn', desc: 'Batch-based scenario learning for CON 3990V' },
   { href: '/flashcards', title: 'Flashcards', desc: 'Topic cards with reveal controls' },
   { href: '/bank', title: 'Question Bank', desc: 'Browse and bookmark by topic' },
   { href: '/bookmarks', title: 'Bookmarks', desc: 'Review your saved items' },

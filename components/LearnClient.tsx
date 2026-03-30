@@ -11,6 +11,16 @@ type Mode = 'LOADING' | 'IN_BATCH' | 'FEEDBACK' | 'BATCH_SUMMARY' | 'SESSION_COM
 
 const BATCH_SIZE = 10;
 
+
+function shuffleBatch<T>(items: T[]): T[] {
+  const copy = [...items];
+  for (let i = copy.length - 1; i > 0; i -= 1) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [copy[i], copy[j]] = [copy[j], copy[i]];
+  }
+  return copy;
+}
+
 export default function LearnClient() {
   const [mode, setMode] = useState<Mode>('LOADING');
   const [allQuestions, setAllQuestions] = useState<Question[]>([]);
@@ -26,7 +36,7 @@ export default function LearnClient() {
   useEffect(() => {
     loadQuestions().then((data) => {
       setAllQuestions(data);
-      setQueue(data.slice(0, BATCH_SIZE));
+      setQueue(shuffleBatch(data.slice(0, BATCH_SIZE)));
       setMode('IN_BATCH');
     });
   }, []);
@@ -64,7 +74,7 @@ export default function LearnClient() {
   const nextBatch = () => {
     const pool = focusWeak && missed.length ? missed : allQuestions;
     const start = Math.floor(Math.random() * Math.max(1, pool.length - BATCH_SIZE));
-    setQueue(pool.slice(start, start + BATCH_SIZE));
+    setQueue(shuffleBatch(pool.slice(start, start + BATCH_SIZE)));
     setIndex(0);
     setCorrect(0);
     setMissed([]);
@@ -85,7 +95,7 @@ export default function LearnClient() {
 
   return (
     <div>
-      <ProgressHeader current={index} total={BATCH_SIZE} streak={streak} />
+      {mode === 'IN_BATCH' ? <ProgressHeader current={index} total={BATCH_SIZE} streak={streak} /> : null}
       <label className="mb-3 block text-sm">
         <input type="checkbox" checked={focusWeak} onChange={(e) => setFocusWeak(e.target.checked)} className="mr-2" />
         Focus Weak Areas
@@ -100,7 +110,7 @@ export default function LearnClient() {
           transition={{ duration: 0.24 }}
           className="card space-y-3"
         >
-          <h2 className="text-xl font-semibold">{presented.question.prompt}</h2>
+          <h2 className="text-xl font-semibold">{presented.question.stem}</h2>
           <div className="grid gap-2">
             {presented.presentedChoices.map((choice, i) => (
               <button key={choice} disabled={mode === 'FEEDBACK'} onClick={() => onAnswer(i)} className="rounded-lg border border-slate-700 p-3 text-left hover:border-brand">
@@ -116,11 +126,72 @@ export default function LearnClient() {
 
       <AnimatePresence>
         {mode === 'FEEDBACK' && (
-          <motion.div initial={reduceMotion ? false : { y: 60, opacity: 0 }} animate={{ y: 0, opacity: 1 }} className="fixed inset-x-0 bottom-0 mx-auto max-w-4xl rounded-t-xl border border-slate-700 bg-slate-900 p-4">
-            <p className="font-semibold">{selected === presented.presentedCorrectIndex ? 'Correct' : 'Incorrect'}</p>
-            <p className="text-sm text-slate-300">{presented.question.explanation.whyCorrect}</p>
-            <p className="text-sm text-slate-300">Key takeaway: {presented.question.explanation.keyTakeaway}</p>
-            <p className="text-sm text-slate-300">Common trap: {presented.question.explanation.commonTrap}</p>
+          <motion.div initial={reduceMotion ? false : { y: 60, opacity: 0 }} animate={{ y: 0, opacity: 1 }} className="fixed inset-x-0 bottom-0 top-16 mx-auto max-w-4xl overflow-y-auto rounded-t-xl border border-slate-700 bg-slate-900 p-4 pb-[max(1rem,env(safe-area-inset-bottom))]">
+            <p className={`mb-2 inline-block rounded px-3 py-1 text-sm font-bold ${selected === presented.presentedCorrectIndex ? 'bg-emerald-900/40 text-emerald-300 border border-emerald-600/60' : 'bg-rose-900/40 text-rose-300 border border-rose-600/60'}`}>
+              {selected === presented.presentedCorrectIndex ? 'Correct' : 'Incorrect'}
+            </p>
+            {presented.question.explanationRich ? (
+              <div className="space-y-2 text-sm text-slate-300">
+                <p><span className="font-semibold text-slate-100">What this tests:</span> {presented.question.explanationRich.whatThisTests}</p>
+                <p>
+                  <span className="font-semibold text-slate-100">FAR reference:</span>{' '}
+                  <a href={presented.question.explanationRich.farRefs.part.url} target="_blank" rel="noreferrer" className="text-brand underline">
+                    {presented.question.explanationRich.farRefs.part.cite} — {presented.question.explanationRich.farRefs.part.title}
+                  </a>
+                </p>
+                <ul className="list-disc pl-5">
+                  {presented.question.explanationRich.farRefs.sections.map((section) => (
+                    <li key={section.cite}>
+                      <a href={section.url} target="_blank" rel="noreferrer" className="text-brand underline">
+                        {section.cite} — {section.title}
+                      </a>
+                    </li>
+                  ))}
+                </ul>
+                {presented.question.explanationRich.farRefs.rfo?.length ? (
+                  <ul className="list-disc pl-5">
+                    {presented.question.explanationRich.farRefs.rfo.map((ref) => (
+                      <li key={ref.cite}>
+                        <a href={ref.url} target="_blank" rel="noreferrer" className="text-brand underline">
+                          {ref.cite} — {ref.title}
+                        </a>
+                      </li>
+                    ))}
+                  </ul>
+                ) : null}
+                <p><span className="font-semibold text-slate-100">How to decide (DAU thinking):</span></p>
+                <ol className="list-decimal pl-5">{presented.question.explanationRich.decisionSteps.map((step) => <li key={step}>{step}</li>)}</ol>
+                <p><span className="font-semibold text-slate-100">Why correct:</span> {presented.question.explanationRich.whyCorrect}</p>
+                <ul className="list-disc pl-5">
+                  {presented.question.explanationRich.whyWrong.map((item) => (
+                    <li key={`${item.choiceLabel}-${item.reason}`}>
+                      <span className="font-semibold">{item.choiceLabel}:</span> {item.reason}
+                    </li>
+                  ))}
+                </ul>
+                <p><span className="font-semibold text-slate-100">Field tip:</span> {presented.question.explanationRich.fieldTip}</p>
+                {presented.question.explanationRich.rfoUpdate ? (
+                  <div>
+                    <p><span className="font-semibold text-slate-100">RFO Update:</span> {presented.question.explanationRich.rfoUpdate.summary}</p>
+                    <ul className="list-disc pl-5">
+                      {presented.question.explanationRich.rfoUpdate.links.map((link) => (
+                        <li key={link.url}>
+                          <a href={link.url} target="_blank" rel="noreferrer" className="text-brand underline">
+                            {link.label}
+                          </a>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                ) : null}
+              </div>
+            ) : (
+              <>
+                <p className="text-sm text-slate-300">{presented.question.explanation.whyCorrect}</p>
+                <p className="text-sm text-slate-300">Key takeaway: {presented.question.explanation.keyTakeaway}</p>
+                <p className="text-sm text-slate-300">Common trap: {presented.question.explanation.commonTrap}</p>
+              </>
+            )}
             <button className="btn mt-3" onClick={next}>Next (N / Enter)</button>
           </motion.div>
         )}
@@ -132,7 +203,7 @@ export default function LearnClient() {
           <p>Accuracy: {Math.round((correct / BATCH_SIZE) * 100)}%</p>
           <p>Missed: {missed.length}</p>
           <div className="flex gap-2">
-            <button className="btn" onClick={() => { setQueue(missed.slice(0, BATCH_SIZE)); setIndex(0); setMode(missed.length ? 'IN_BATCH' : 'SESSION_COMPLETE'); }}>
+            <button className="btn" onClick={() => { setQueue(shuffleBatch(missed.slice(0, BATCH_SIZE))); setIndex(0); setMode(missed.length ? 'IN_BATCH' : 'SESSION_COMPLETE'); }}>
               Retry Missed
             </button>
             <button className="btn" onClick={nextBatch}>Next Batch</button>

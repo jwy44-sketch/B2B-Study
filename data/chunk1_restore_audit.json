@@ -1,0 +1,607 @@
+{
+  "generatedAt": "2026-03-26T23:53:00.543Z",
+  "chunk": "Q1-Q30",
+  "totalRestored": 30,
+  "items": [
+    {
+      "id": "q001",
+      "oldBrokenStemSummary": "Before finalizing an acquisition strategy, the team must confirm available sources, capabilities, and market conditions for the requirement. What is the best contracting action?",
+      "restoredStemSummary": "Market research is conducted during which phase of acquisition?",
+      "oldBrokenChoicesSummary": [
+        "Reuse prior-year vendor assumptions without validating current market capability or pricing conditions.",
+        "Document current market research findings under FAR Part 10 before finalizing the acquisition approach.",
+        "Issue the solicitation first and collect market research documentation only if protest risk increases.",
+        "Limit outreach to the incumbent because continuity concerns outweigh pre-award market analysis."
+      ],
+      "restoredChoicesSummary": [
+        "When requirements are being developed",
+        "All phases of the acquisition",
+        "After award to ensure that a contractor's product or service is sufficient",
+        "During negotiations to ensure that a contractor's proposal is fair and reasonable"
+      ],
+      "correctAnswer": "All phases of the acquisition",
+      "primaryFarPart": "FAR Part 10",
+      "rfoTransitionAdded": true
+    },
+    {
+      "id": "q002",
+      "oldBrokenStemSummary": "An acquisition plan is being drafted and the team must decide how to satisfy competition requirements before award decisions are made. What is the best contracting action?",
+      "restoredStemSummary": "What is the use of a procedure that is inconsistent with the FAR?",
+      "oldBrokenChoicesSummary": [
+        "Restrict sources to known contractors first and justify limiting competition after proposal receipt.",
+        "Use urgency as a default basis to narrow competition without preparing the required approval package.",
+        "Adopt a brand-name-only strategy immediately and defer the justification until contract administration.",
+        "Promote full and open competition and document any authorized exception before award under FAR Part 6."
+      ],
+      "restoredChoicesSummary": [
+        "Extraordinary action",
+        "Exception",
+        "Deviation",
+        "Abnormal action"
+      ],
+      "correctAnswer": "Deviation",
+      "primaryFarPart": "FAR Part 1",
+      "rfoTransitionAdded": true
+    },
+    {
+      "id": "q003",
+      "oldBrokenStemSummary": "A buyer is preparing a lower-dollar procurement and must determine how to apply simplified acquisition procedures correctly. What is the best contracting action?",
+      "restoredStemSummary": "Simplified Acquisition Procedures (SAP) should:",
+      "oldBrokenChoicesSummary": [
+        "Use simplified procedures above applicable thresholds when mission timelines are compressed.",
+        "Use FAR Part 13 thresholds, solicitation methods, and documentation requirements before award.",
+        "Solicit one vendor and complete price reasonableness documentation after performance starts.",
+        "Bundle unrelated requirements solely to keep the buy inside a preferred simplified path."
+      ],
+      "restoredChoicesSummary": [
+        "Promote competition to the maximum extent practicable",
+        "Consider all quotations or offers, regardless of the time they are received, if they are the most reasonable",
+        "Promote the use of current vendors for time-saving purposes",
+        "Equally consider all businesses, large or small"
+      ],
+      "correctAnswer": "Promote competition to the maximum extent practicable",
+      "primaryFarPart": "FAR Part 13",
+      "rfoTransitionAdded": true
+    },
+    {
+      "id": "q004",
+      "oldBrokenStemSummary": "The contracting office is running a negotiated procurement and must follow evaluation and discussion rules for a defensible award. What is the best contracting action?",
+      "restoredStemSummary": "What is the tool (form) used by DoD to apply a structured profit/fee?",
+      "oldBrokenChoicesSummary": [
+        "Begin discussions before finalizing evaluation factors and competitive-range documentation.",
+        "Establish and follow FAR Part 15 evaluation, discussion, and award documentation procedures.",
+        "Select the lowest-priced offer without documenting how non-price factors were applied.",
+        "Share one offeror’s pricing position with another to accelerate final proposal revisions."
+      ],
+      "restoredChoicesSummary": [
+        "DD Form 1202, Guidelines for Profit Method",
+        "DD Form 1701, Structured Analogy Method",
+        "DD Form 1547, Weighted Guidelines Method",
+        "DD Form 1861, Weighted Profit Analogy"
+      ],
+      "correctAnswer": "DD Form 1547, Weighted Guidelines Method",
+      "primaryFarPart": "FAR Part 15",
+      "rfoTransitionAdded": true
+    },
+    {
+      "id": "q005",
+      "oldBrokenStemSummary": "Post-award changes are being requested and the contracting team must choose the correct modification approach and authority. What is the best contracting action?",
+      "restoredStemSummary": "What type(s) of contracts can be awarded when acquiring commercial items of supply?",
+      "oldBrokenChoicesSummary": [
+        "Use FAR Part 43 modification authority and document scope, funding, and pricing before directing work.",
+        "Direct out-of-scope work first and negotiate the modification terms after contractor performance begins.",
+        "Use unilateral administrative-change authority for substantive scope expansion without bilateral agreement.",
+        "Treat all post-award changes as in-scope whenever schedule urgency is mission critical."
+      ],
+      "restoredChoicesSummary": [
+        "Only firm-fixed-price contracts or fixed-price contracts with economic price adjustment",
+        "Any contract type that does not have an incentive",
+        "Any fixed-price contract type",
+        "Any type or combination of types as determined necessary by the contracting officer"
+      ],
+      "correctAnswer": "Only firm-fixed-price contracts or fixed-price contracts with economic price adjustment",
+      "primaryFarPart": "FAR Part 12",
+      "rfoTransitionAdded": true
+    },
+    {
+      "id": "q006",
+      "oldBrokenStemSummary": "A source selection is underway and the record must support evaluation judgments and award rationale. What is the best contracting action?",
+      "restoredStemSummary": "When using invitations for bids (IFBs), what type(s) of contracts can be awarded?",
+      "oldBrokenChoicesSummary": [
+        "Adjust evaluation weighting during source selection to reflect evolving stakeholder preferences.",
+        "Rely on undocumented evaluator impressions instead of recording strengths, weaknesses, and risks.",
+        "Record only final ratings and omit narrative tradeoff analysis between leading proposals.",
+        "Document evaluation findings and tradeoff rationale consistent with FAR 15.3 before award."
+      ],
+      "restoredChoicesSummary": [
+        "Any contract type that does not have an incentive",
+        "Any fixed-price contract type",
+        "Any type or combination of types as determined necessary by the contracting officer",
+        "Only firm-fixed-price contracts or fixed-price contracts with economic price adjustment"
+      ],
+      "correctAnswer": "Only firm-fixed-price contracts or fixed-price contracts with economic price adjustment",
+      "primaryFarPart": "FAR Part 14",
+      "rfoTransitionAdded": true
+    },
+    {
+      "id": "q007",
+      "oldBrokenStemSummary": "The team is deciding whether and how to use commercial-item procedures for a recurring requirement. What is the best contracting action?",
+      "restoredStemSummary": "Which of the following is correct regarding the DFARS Procedures, Guidance, and Information (PGI)?",
+      "oldBrokenChoicesSummary": [
+        "Apply government-unique clauses by default without checking customary commercial practice.",
+        "Use commercial-item procedures while requiring unique redesign elements not sold commercially.",
+        "Validate commercial-item applicability and apply FAR Part 12 procedures using market-based terms.",
+        "Rely only on internal cost estimates instead of market comparability for commercial pricing."
+      ],
+      "restoredChoicesSummary": [
+        "There is no such thing as a DFARS PGI",
+        "The DFARS PGI is a companion resource to the DFARS",
+        "The DFARS PGI is not numbered similarly to the DFARS",
+        "The DFARS PGI is only used by DCMA and DCAA"
+      ],
+      "correctAnswer": "The DFARS PGI is a companion resource to the DFARS",
+      "primaryFarPart": "DFARS PGI",
+      "rfoTransitionAdded": true
+    },
+    {
+      "id": "q008",
+      "oldBrokenStemSummary": "During acquisition planning, the team must select a contract type that appropriately allocates performance and cost risk. What is the best contracting action?",
+      "restoredStemSummary": "Which of the following statements is accurate regarding the Government's policy on contract modifications?",
+      "oldBrokenChoicesSummary": [
+        "Select the contract type under FAR Part 16 based on requirement uncertainty and risk allocation.",
+        "Choose firm-fixed-price for unstable requirements mainly to reduce administrative workload.",
+        "Use cost-reimbursement before confirming accounting adequacy and surveillance capability.",
+        "Reuse the prior contract type by default even when technical and cost risk changed materially."
+      ],
+      "restoredChoicesSummary": [
+        "It is preferred that program managers sign modifications in lieu of the contracting officer",
+        "Any contract specialist can direct a contractor to perform work before the execution of the contract modification",
+        "A contracting officer representative is authorized to execute contract modifications on behalf of the Government",
+        "Only contracting officers acting within the scope of their authority are authorized to execute contract modifications on behalf of the Government"
+      ],
+      "correctAnswer": "Only contracting officers acting within the scope of their authority are authorized to execute contract modifications on behalf of the Government",
+      "primaryFarPart": "FAR Part 43",
+      "rfoTransitionAdded": true
+    },
+    {
+      "id": "q009",
+      "oldBrokenStemSummary": "Before finalizing an acquisition strategy, the team must confirm available sources, capabilities, and market conditions for the requirement. What is the best contracting action?",
+      "restoredStemSummary": "Which of the following is accurate about unilateral modifications?",
+      "oldBrokenChoicesSummary": [
+        "Document current market research findings under FAR Part 10 before finalizing the acquisition approach.",
+        "Reuse prior-year vendor assumptions without validating current market capability or pricing conditions.",
+        "Issue the solicitation first and collect market research documentation only if protest risk increases.",
+        "Limit outreach to the incumbent because continuity concerns outweigh pre-award market analysis."
+      ],
+      "restoredChoicesSummary": [
+        "Are only signed by a Government contracting officer, not the contractor",
+        "Can be signed by the contract specialist",
+        "Are used to definitize contracts with price changes",
+        "Are used to add scope to a contract"
+      ],
+      "correctAnswer": "Are only signed by a Government contracting officer, not the contractor",
+      "primaryFarPart": "FAR Part 43",
+      "rfoTransitionAdded": true
+    },
+    {
+      "id": "q010",
+      "oldBrokenStemSummary": "An acquisition plan is being drafted and the team must decide how to satisfy competition requirements before award decisions are made. What is the best contracting action?",
+      "restoredStemSummary": "Except when authorized otherwise, a Government contract:",
+      "oldBrokenChoicesSummary": [
+        "Restrict sources to known contractors first and justify limiting competition after proposal receipt.",
+        "Use urgency as a default basis to narrow competition without preparing the required approval package.",
+        "Adopt a brand-name-only strategy immediately and defer the justification until contract administration.",
+        "Promote full and open competition and document any authorized exception before award under FAR Part 6."
+      ],
+      "restoredChoicesSummary": [
+        "Need not be in writing",
+        "Must be in writing",
+        "Must be presented as a hard copy on paper",
+        "Must have oral confirmation"
+      ],
+      "correctAnswer": "Must be in writing",
+      "primaryFarPart": "FAR Part 4",
+      "rfoTransitionAdded": true
+    },
+    {
+      "id": "q011",
+      "oldBrokenStemSummary": "A buyer is preparing a lower-dollar procurement and must determine how to apply simplified acquisition procedures correctly. What is the best contracting action?",
+      "restoredStemSummary": "Which is NOT a type of contracting officer?",
+      "oldBrokenChoicesSummary": [
+        "Use FAR Part 13 thresholds, solicitation methods, and documentation requirements before award.",
+        "Use simplified procedures above applicable thresholds when mission timelines are compressed.",
+        "Solicit one vendor and complete price reasonableness documentation after performance starts.",
+        "Bundle unrelated requirements solely to keep the buy inside a preferred simplified path."
+      ],
+      "restoredChoicesSummary": [
+        "Contracting officer",
+        "Administrative contracting officer",
+        "Terminating contracting officer",
+        "Executive contracting officer"
+      ],
+      "correctAnswer": "Executive contracting officer",
+      "primaryFarPart": "FAR Part 2",
+      "rfoTransitionAdded": true
+    },
+    {
+      "id": "q012",
+      "oldBrokenStemSummary": "The contracting office is running a negotiated procurement and must follow evaluation and discussion rules for a defensible award. What is the best contracting action?",
+      "restoredStemSummary": "With respect to the requirements of law, executive orders, regulations, and all other applicable procedures, prior to signing a contract, a contracting officer must:",
+      "oldBrokenChoicesSummary": [
+        "Establish and follow FAR Part 15 evaluation, discussion, and award documentation procedures.",
+        "Begin discussions before finalizing evaluation factors and competitive-range documentation.",
+        "Select the lowest-priced offer without documenting how non-price factors were applied.",
+        "Share one offeror’s pricing position with another to accelerate final proposal revisions."
+      ],
+      "restoredChoicesSummary": [
+        "Document noncompliance",
+        "Ensure that each has been met",
+        "Obtain legal validation that each has been met",
+        "Ensure that all statutory requirements have been met and try to ensure all regulations or applicable procedures have been followed"
+      ],
+      "correctAnswer": "Ensure that each has been met",
+      "primaryFarPart": "FAR Part 1",
+      "rfoTransitionAdded": true
+    },
+    {
+      "id": "q013",
+      "oldBrokenStemSummary": "Post-award changes are being requested and the contracting team must choose the correct modification approach and authority. What is the best contracting action?",
+      "restoredStemSummary": "Joan stated that she was working on selecting solicitation provisions. With this in mind, you know the contract:",
+      "oldBrokenChoicesSummary": [
+        "Direct out-of-scope work first and negotiate the modification terms after contractor performance begins.",
+        "Use FAR Part 43 modification authority and document scope, funding, and pricing before directing work.",
+        "Use unilateral administrative-change authority for substantive scope expansion without bilateral agreement.",
+        "Treat all post-award changes as in-scope whenever schedule urgency is mission critical."
+      ],
+      "restoredChoicesSummary": [
+        "Is ready for closeout",
+        "Was recently awarded",
+        "Is nearing completion",
+        "Has not been awarded"
+      ],
+      "correctAnswer": "Has not been awarded",
+      "primaryFarPart": "FAR Part 52",
+      "rfoTransitionAdded": true
+    },
+    {
+      "id": "q014",
+      "oldBrokenStemSummary": "A source selection is underway and the record must support evaluation judgments and award rationale. What is the best contracting action?",
+      "restoredStemSummary": "A program manager asked John whether a contract clause is only used in the contract or if it applies to the solicitation as well. John correctly answered by replying with which of the following statements?",
+      "oldBrokenChoicesSummary": [
+        "Adjust evaluation weighting during source selection to reflect evolving stakeholder preferences.",
+        "Rely on undocumented evaluator impressions instead of recording strengths, weaknesses, and risks.",
+        "Record only final ratings and omit narrative tradeoff analysis between leading proposals.",
+        "Document evaluation findings and tradeoff rationale consistent with FAR 15.3 before award."
+      ],
+      "restoredChoicesSummary": [
+        "A contract clause only applies after contract award",
+        "A contract clause applies unless superseded by a solicitation provision",
+        "A contract clause is a term or condition used in contracts, or in both solicitations and contracts, that applies after contract award or both before and after award",
+        "A contract clause is a term or condition used in contracts and solicitations unless the resulting contract is for a commercial item"
+      ],
+      "correctAnswer": "A contract clause is a term or condition used in contracts, or in both solicitations and contracts, that applies after contract award or both before and after award",
+      "primaryFarPart": "FAR Part 2",
+      "rfoTransitionAdded": true
+    },
+    {
+      "id": "q015",
+      "oldBrokenStemSummary": "The team is deciding whether and how to use commercial-item procedures for a recurring requirement. What is the best contracting action?",
+      "restoredStemSummary": "A contractor failed to deliver a commercial item within the time specified by the contract. As the Government contracting officer, you plan to terminate the contract. What type of termination would you proceed with?",
+      "oldBrokenChoicesSummary": [
+        "Apply government-unique clauses by default without checking customary commercial practice.",
+        "Use commercial-item procedures while requiring unique redesign elements not sold commercially.",
+        "Validate commercial-item applicability and apply FAR Part 12 procedures using market-based terms.",
+        "Rely only on internal cost estimates instead of market comparability for commercial pricing."
+      ],
+      "restoredChoicesSummary": [
+        "Termination for Convenience",
+        "Termination for Default",
+        "Termination for Cause",
+        "Termination for Late Deliveries - Commercial/Noncommercial"
+      ],
+      "correctAnswer": "Termination for Cause",
+      "primaryFarPart": "FAR Part 12",
+      "rfoTransitionAdded": true
+    },
+    {
+      "id": "q016",
+      "oldBrokenStemSummary": "During acquisition planning, the team must select a contract type that appropriately allocates performance and cost risk. What is the best contracting action?",
+      "restoredStemSummary": "Which FAR part sets forth the basic policies and general information about the Federal Acquisition Regulations System?",
+      "oldBrokenChoicesSummary": [
+        "Select the contract type under FAR Part 16 based on requirement uncertainty and risk allocation.",
+        "Choose firm-fixed-price for unstable requirements mainly to reduce administrative workload.",
+        "Use cost-reimbursement before confirming accounting adequacy and surveillance capability.",
+        "Reuse the prior contract type by default even when technical and cost risk changed materially."
+      ],
+      "restoredChoicesSummary": [
+        "FAR part 1",
+        "FAR part 2",
+        "FAR part 52",
+        "FAR part 53"
+      ],
+      "correctAnswer": "FAR part 1",
+      "primaryFarPart": "FAR Part 1",
+      "rfoTransitionAdded": true
+    },
+    {
+      "id": "q017",
+      "oldBrokenStemSummary": "Before finalizing an acquisition strategy, the team must confirm available sources, capabilities, and market conditions for the requirement. What is the best contracting action?",
+      "restoredStemSummary": "Which of the following statements best conveys the convention at FAR 1.108(b) delegation of authority?",
+      "oldBrokenChoicesSummary": [
+        "Document current market research findings under FAR Part 10 before finalizing the acquisition approach.",
+        "Reuse prior-year vendor assumptions without validating current market capability or pricing conditions.",
+        "Issue the solicitation first and collect market research documentation only if protest risk increases.",
+        "Limit outreach to the incumbent because continuity concerns outweigh pre-award market analysis."
+      ],
+      "restoredChoicesSummary": [
+        "Authority is not delegable",
+        "Each authority is delegable down to no lower than one level above the contracting officer",
+        "No authority is delegable unless specifically stated otherwise",
+        "Each authority is delegable unless specifically stated otherwise"
+      ],
+      "correctAnswer": "Each authority is delegable unless specifically stated otherwise",
+      "primaryFarPart": "FAR Part 1",
+      "rfoTransitionAdded": true
+    },
+    {
+      "id": "q018",
+      "oldBrokenStemSummary": "An acquisition plan is being drafted and the team must decide how to satisfy competition requirements before award decisions are made. What is the best contracting action?",
+      "restoredStemSummary": "How many parts are there in the FAR?",
+      "oldBrokenChoicesSummary": [
+        "Restrict sources to known contractors first and justify limiting competition after proposal receipt.",
+        "Use urgency as a default basis to narrow competition without preparing the required approval package.",
+        "Promote full and open competition and document any authorized exception before award under FAR Part 6.",
+        "Adopt a brand-name-only strategy immediately and defer the justification until contract administration."
+      ],
+      "restoredChoicesSummary": [
+        "52",
+        "53",
+        "2",
+        "10"
+      ],
+      "correctAnswer": "53",
+      "primaryFarPart": "FAR Part 1",
+      "rfoTransitionAdded": true
+    },
+    {
+      "id": "q019",
+      "oldBrokenStemSummary": "A buyer is preparing a lower-dollar procurement and must determine how to apply simplified acquisition procedures correctly. What is the best contracting action?",
+      "restoredStemSummary": "What is a Procurement Instrument Identifier (PIID)?",
+      "oldBrokenChoicesSummary": [
+        "Use simplified procedures above applicable thresholds when mission timelines are compressed.",
+        "Solicit one vendor and complete price reasonableness documentation after performance starts.",
+        "Bundle unrelated requirements solely to keep the buy inside a preferred simplified path.",
+        "Use FAR Part 13 thresholds, solicitation methods, and documentation requirements before award."
+      ],
+      "restoredChoicesSummary": [
+        "A unique number identifying a contract",
+        "A unique number identifying a policy to a contract clause",
+        "A unique number identifying a funding document",
+        "A unique number identifying each solicitation, contract, agreement, or order and related procurement instrument"
+      ],
+      "correctAnswer": "A unique number identifying each solicitation, contract, agreement, or order and related procurement instrument",
+      "primaryFarPart": "FAR Part 4",
+      "rfoTransitionAdded": true
+    },
+    {
+      "id": "q020",
+      "oldBrokenStemSummary": "The contracting office is running a negotiated procurement and must follow evaluation and discussion rules for a defensible award. What is the best contracting action?",
+      "restoredStemSummary": "The DoD Procurement Instrument Identifier (PIID) is 13 positions long. Position 9 identifies the type of instrument. If position 9 is a 'D', which of the following types of instruments is representative?",
+      "oldBrokenChoicesSummary": [
+        "Begin discussions before finalizing evaluation factors and competitive-range documentation.",
+        "Establish and follow FAR Part 15 evaluation, discussion, and award documentation procedures.",
+        "Select the lowest-priced offer without documenting how non-price factors were applied.",
+        "Share one offeror’s pricing position with another to accelerate final proposal revisions."
+      ],
+      "restoredChoicesSummary": [
+        "Indefinite-delivery contracts to include IDIQs and requirements contracts",
+        "Contracts of all types except indefinite-delivery contracts",
+        "Invitations for bids (IFBs)",
+        "Blanket purchase agreements (BPAs)"
+      ],
+      "correctAnswer": "Indefinite-delivery contracts to include IDIQs and requirements contracts",
+      "primaryFarPart": "DFARS 204.16",
+      "rfoTransitionAdded": true
+    },
+    {
+      "id": "q021",
+      "oldBrokenStemSummary": "Post-award changes are being requested and the contracting team must choose the correct modification approach and authority. What is the best contracting action?",
+      "restoredStemSummary": "You are reviewing a contract that utilizes the uniform contract format. In Section J you see an exhibit. How will the exhibit be displayed?",
+      "oldBrokenChoicesSummary": [
+        "Use FAR Part 43 modification authority and document scope, funding, and pricing before directing work.",
+        "Direct out-of-scope work first and negotiate the modification terms after contractor performance begins.",
+        "Use unilateral administrative-change authority for substantive scope expansion without bilateral agreement.",
+        "Treat all post-award changes as in-scope whenever schedule urgency is mission critical."
+      ],
+      "restoredChoicesSummary": [
+        "With one or two numeric characters (e.g., Exhibit 1)",
+        "With one or two alpha characters (e.g., Exhibit AA)",
+        "With one alpha and one numeric character (e.g., Exhibit A1)",
+        "Utilizing only Roman numerals (e.g., Exhibit XI)"
+      ],
+      "correctAnswer": "With one or two alpha characters (e.g., Exhibit AA)",
+      "primaryFarPart": "FAR Part 15",
+      "rfoTransitionAdded": true
+    },
+    {
+      "id": "q022",
+      "oldBrokenStemSummary": "A source selection is underway and the record must support evaluation judgments and award rationale. What is the best contracting action?",
+      "restoredStemSummary": "Your customer comes to you anticipating a new requirement, one that has not been purchased recently. You'd like to refer them to the FAR part dealing specifically with market research. Which FAR part do you refer them to?",
+      "oldBrokenChoicesSummary": [
+        "Adjust evaluation weighting during source selection to reflect evolving stakeholder preferences.",
+        "Rely on undocumented evaluator impressions instead of recording strengths, weaknesses, and risks.",
+        "Document evaluation findings and tradeoff rationale consistent with FAR 15.3 before award.",
+        "Record only final ratings and omit narrative tradeoff analysis between leading proposals."
+      ],
+      "restoredChoicesSummary": [
+        "FAR part 7",
+        "FAR part 8",
+        "FAR part 9",
+        "FAR part 10"
+      ],
+      "correctAnswer": "FAR part 10",
+      "primaryFarPart": "FAR Part 10",
+      "rfoTransitionAdded": true
+    },
+    {
+      "id": "q023",
+      "oldBrokenStemSummary": "The team is deciding whether and how to use commercial-item procedures for a recurring requirement. What is the best contracting action?",
+      "restoredStemSummary": "Of the following types of contracts, which shall not be used in Government contracting?",
+      "oldBrokenChoicesSummary": [
+        "Apply government-unique clauses by default without checking customary commercial practice.",
+        "Use commercial-item procedures while requiring unique redesign elements not sold commercially.",
+        "Validate commercial-item applicability and apply FAR Part 12 procedures using market-based terms.",
+        "Rely only on internal cost estimates instead of market comparability for commercial pricing."
+      ],
+      "restoredChoicesSummary": [
+        "Cost-plus-fixed-fee",
+        "Cost-plus-a-percentage-of-cost",
+        "Cost-plus-award-fee",
+        "Cost-reimbursement"
+      ],
+      "correctAnswer": "Cost-plus-a-percentage-of-cost",
+      "primaryFarPart": "FAR Part 16",
+      "rfoTransitionAdded": true
+    },
+    {
+      "id": "q024",
+      "oldBrokenStemSummary": "During acquisition planning, the team must select a contract type that appropriately allocates performance and cost risk. What is the best contracting action?",
+      "restoredStemSummary": "When can a time-and-materials (T&M) contract be used?",
+      "oldBrokenChoicesSummary": [
+        "Choose firm-fixed-price for unstable requirements mainly to reduce administrative workload.",
+        "Select the contract type under FAR Part 16 based on requirement uncertainty and risk allocation.",
+        "Use cost-reimbursement before confirming accounting adequacy and surveillance capability.",
+        "Reuse the prior contract type by default even when technical and cost risk changed materially."
+      ],
+      "restoredChoicesSummary": [
+        "A T&M contract is best used on construction projects that require extensive materials",
+        "A T&M contract shall be used only when DCAA has conducted an audit of the labor and material for the acquisition",
+        "A T&M contract may be used only when it is not possible at the time of placing the contract to estimate accurately the extent or duration of the work or to anticipate costs",
+        "A T&M contract shall only be used on personal service contracts"
+      ],
+      "correctAnswer": "A T&M contract may be used only when it is not possible at the time of placing the contract to estimate accurately the extent or duration of the work or to anticipate costs",
+      "primaryFarPart": "FAR Part 16",
+      "rfoTransitionAdded": true
+    },
+    {
+      "id": "q025",
+      "oldBrokenStemSummary": "Before finalizing an acquisition strategy, the team must confirm available sources, capabilities, and market conditions for the requirement. What is the best contracting action?",
+      "restoredStemSummary": "What underlying principle should the contracting officer follow to avoid organizational conflicts of interest?",
+      "oldBrokenChoicesSummary": [
+        "Reuse prior-year vendor assumptions without validating current market capability or pricing conditions.",
+        "Issue the solicitation first and collect market research documentation only if protest risk increases.",
+        "Document current market research findings under FAR Part 10 before finalizing the acquisition approach.",
+        "Limit outreach to the incumbent because continuity concerns outweigh pre-award market analysis."
+      ],
+      "restoredChoicesSummary": [
+        "Prevent sole source follow-on acquisitions",
+        "Prevent contractor teaming arrangements",
+        "Prevent the use of proprietary information in award considerations",
+        "Prevent unfair competitive advantage"
+      ],
+      "correctAnswer": "Prevent unfair competitive advantage",
+      "primaryFarPart": "FAR Part 9",
+      "rfoTransitionAdded": true
+    },
+    {
+      "id": "q026",
+      "oldBrokenStemSummary": "An acquisition plan is being drafted and the team must decide how to satisfy competition requirements before award decisions are made. What is the best contracting action?",
+      "restoredStemSummary": "Terms that address specific types of exchanges with offerors after receipt of proposals include:",
+      "oldBrokenChoicesSummary": [
+        "Restrict sources to known contractors first and justify limiting competition after proposal receipt.",
+        "Promote full and open competition and document any authorized exception before award under FAR Part 6.",
+        "Use urgency as a default basis to narrow competition without preparing the required approval package.",
+        "Adopt a brand-name-only strategy immediately and defer the justification until contract administration."
+      ],
+      "restoredChoicesSummary": [
+        "Communications, discussions, and clarifications",
+        "Discussions, explanations, and communications",
+        "Clarifications, discussions, and explanations",
+        "Conversations, clarifications, and discussions"
+      ],
+      "correctAnswer": "Communications, discussions, and clarifications",
+      "primaryFarPart": "FAR Part 15",
+      "rfoTransitionAdded": true
+    },
+    {
+      "id": "q027",
+      "oldBrokenStemSummary": "A buyer is preparing a lower-dollar procurement and must determine how to apply simplified acquisition procedures correctly. What is the best contracting action?",
+      "restoredStemSummary": "With limited exceptions as authorized by agency regulations, what does the FAR say about Government employees soliciting and accepting gifts from contractors? Government employees:",
+      "oldBrokenChoicesSummary": [
+        "Use FAR Part 13 thresholds, solicitation methods, and documentation requirements before award.",
+        "Use simplified procedures above applicable thresholds when mission timelines are compressed.",
+        "Solicit one vendor and complete price reasonableness documentation after performance starts.",
+        "Bundle unrelated requirements solely to keep the buy inside a preferred simplified path."
+      ],
+      "restoredChoicesSummary": [
+        "May solicit and accept gifts if in accordance with commercial business practices",
+        "May solicit and accept gifts in overseas countries where bribery is legal",
+        "May not solicit or accept gifts",
+        "May not solicit gifts, but may accept gifts if their performance exceeds standards"
+      ],
+      "correctAnswer": "May not solicit or accept gifts",
+      "primaryFarPart": "FAR Part 3",
+      "rfoTransitionAdded": true
+    },
+    {
+      "id": "q028",
+      "oldBrokenStemSummary": "The contracting office is running a negotiated procurement and must follow evaluation and discussion rules for a defensible award. What is the best contracting action?",
+      "restoredStemSummary": "What is the general guidance provided by the FAR for contractor bid or proposal information?",
+      "oldBrokenChoicesSummary": [
+        "Begin discussions before finalizing evaluation factors and competitive-range documentation.",
+        "Select the lowest-priced offer without documenting how non-price factors were applied.",
+        "Share one offeror’s pricing position with another to accelerate final proposal revisions.",
+        "Establish and follow FAR Part 15 evaluation, discussion, and award documentation procedures."
+      ],
+      "restoredChoicesSummary": [
+        "It may not be disclosed to anyone unless they are authorized to receive it",
+        "It may only be disclosed to those authorized to receive it and their supervisors",
+        "It may be disclosed to anyone with the appropriate security clearance level",
+        "It may not be disclosed to anyone outside the agency"
+      ],
+      "correctAnswer": "It may not be disclosed to anyone unless they are authorized to receive it",
+      "primaryFarPart": "FAR Part 3",
+      "rfoTransitionAdded": true
+    },
+    {
+      "id": "q029",
+      "oldBrokenStemSummary": "Post-award changes are being requested and the contracting team must choose the correct modification approach and authority. What is the best contracting action?",
+      "restoredStemSummary": "With few exceptions, which one of the following statements is true regarding awarding contracts to U.S. Government employees?",
+      "oldBrokenChoicesSummary": [
+        "Direct out-of-scope work first and negotiate the modification terms after contractor performance begins.",
+        "Use unilateral administrative-change authority for substantive scope expansion without bilateral agreement.",
+        "Treat all post-award changes as in-scope whenever schedule urgency is mission critical.",
+        "Use FAR Part 43 modification authority and document scope, funding, and pricing before directing work."
+      ],
+      "restoredChoicesSummary": [
+        "A contracting officer shall not knowingly award a contract to a Government employee unless the purchase amount is less than the micro-purchase threshold",
+        "A Government employee can receive a Government contract",
+        "A Government employee can receive a Government contract as long as they have incorporated",
+        "A contracting officer shall not knowingly award a contract to a Government employee"
+      ],
+      "correctAnswer": "A contracting officer shall not knowingly award a contract to a Government employee",
+      "primaryFarPart": "FAR Part 3",
+      "rfoTransitionAdded": true
+    },
+    {
+      "id": "q030",
+      "oldBrokenStemSummary": "A source selection is underway and the record must support evaluation judgments and award rationale. What is the best contracting action?",
+      "restoredStemSummary": "Which of the following would represent, or potentially represent, an organizational conflict of interest (OCI)?",
+      "oldBrokenChoicesSummary": [
+        "Adjust evaluation weighting during source selection to reflect evolving stakeholder preferences.",
+        "Document evaluation findings and tradeoff rationale consistent with FAR 15.3 before award.",
+        "Rely on undocumented evaluator impressions instead of recording strengths, weaknesses, and risks.",
+        "Record only final ratings and omit narrative tradeoff analysis between leading proposals."
+      ],
+      "restoredChoicesSummary": [
+        "A contractor (contractor X) is hired to develop and produce a particular product for the Government that currently does not exist. In developing the product, the contractor uses its own proprietary methods.",
+        "An engineering support contractor (contractor A) is hired to assist in the development of Government specifications for a new requirement. Contractor A writes the specifications in such a way as to require the Government's use of contractor A's proprietary processes even though there are other solutions.",
+        "A contractor (contractor X) is hired to fill an order of 50 widgets. In filling the order, the contractor supplies its own proprietary product.",
+        "An engineering support contractor (contractor A) is hired to develop specifications for a new requirement. Contractor A writes the specifications and does not later submit a proposal in response to an RFP for the new requirement."
+      ],
+      "correctAnswer": "An engineering support contractor (contractor A) is hired to assist in the development of Government specifications for a new requirement. Contractor A writes the specifications in such a way as to require the Government's use of contractor A's proprietary processes even though there are other solutions.",
+      "primaryFarPart": "FAR Part 9",
+      "rfoTransitionAdded": true
+    }
+  ]
+}
