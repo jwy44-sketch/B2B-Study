@@ -63,7 +63,7 @@ export default function LearnClient() {
 
   const next = () => {
     setSelected(null);
-    if (index + 1 >= BATCH_SIZE) {
+    if (index + 1 >= queue.length) {
       setMode('BATCH_SUMMARY');
       return;
     }
@@ -73,6 +73,10 @@ export default function LearnClient() {
 
   const nextBatch = () => {
     const pool = focusWeak && missed.length ? missed : allQuestions;
+    if (!pool.length) {
+      setMode('SESSION_COMPLETE');
+      return;
+    }
     const start = Math.floor(Math.random() * Math.max(1, pool.length - BATCH_SIZE));
     setQueue(shuffleBatch(pool.slice(start, start + BATCH_SIZE)));
     setIndex(0);
@@ -80,6 +84,13 @@ export default function LearnClient() {
     setMissed([]);
     setMode('IN_BATCH');
   };
+
+  useEffect(() => {
+    if (mode !== 'IN_BATCH') return;
+    if (!presented) {
+      setMode(queue.length ? 'BATCH_SUMMARY' : 'SESSION_COMPLETE');
+    }
+  }, [mode, presented, queue.length]);
 
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => {
@@ -95,7 +106,7 @@ export default function LearnClient() {
 
   return (
     <div>
-      {mode === 'IN_BATCH' ? <ProgressHeader current={index} total={BATCH_SIZE} streak={streak} /> : null}
+      {mode === 'IN_BATCH' ? <ProgressHeader current={index} total={queue.length} streak={streak} /> : null}
       <label className="mb-3 block text-sm">
         <input type="checkbox" checked={focusWeak} onChange={(e) => setFocusWeak(e.target.checked)} className="mr-2" />
         Focus Weak Areas
@@ -200,7 +211,7 @@ export default function LearnClient() {
       {mode === 'BATCH_SUMMARY' && (
         <div className="card mt-4 space-y-2">
           <h3 className="text-lg font-semibold">Batch Summary</h3>
-          <p>Accuracy: {Math.round((correct / BATCH_SIZE) * 100)}%</p>
+          <p>Accuracy: {queue.length ? Math.round((correct / queue.length) * 100) : 0}%</p>
           <p>Missed: {missed.length}</p>
           <div className="flex gap-2">
             <button className="btn" onClick={() => { setQueue(shuffleBatch(missed.slice(0, BATCH_SIZE))); setIndex(0); setMode(missed.length ? 'IN_BATCH' : 'SESSION_COMPLETE'); }}>
