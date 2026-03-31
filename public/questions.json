@@ -44,7 +44,7 @@
         "Anchor your decision in FAR Part 10 and the cited section.",
         "Eliminate options that overstate authority, use the wrong phase, or misstate policy scope."
       ],
-      "whyCorrect": "The correct answer matches the policy direction in FAR Part 10 and fits both the definition and application context in the question.",
+      "whyCorrect": "This answer is correct because market research is not a one-time pre-solicitation event; it informs requirement development, competition planning, solicitation strategy, and later acquisition decisions as facts change. The wrong choices each confine market research to a single phase or a single purpose, which is narrower than the FAR policy and course framing.",
       "whyWrong": [
         {
           "choiceLabel": "A",
@@ -124,7 +124,7 @@
         "Anchor your decision in FAR Part 1 and the cited section.",
         "Eliminate options that overstate authority, use the wrong phase, or misstate policy scope."
       ],
-      "whyCorrect": "The correct answer matches the policy direction in FAR Part 1 and fits both the definition and application context in the question.",
+      "whyCorrect": "This answer is correct because the FAR calls an inconsistent procedure a deviation. The other choices sound like ordinary-language descriptions of something unusual, but they are not the FAR term of art the question is testing.",
       "whyWrong": [
         {
           "choiceLabel": "A",
@@ -204,7 +204,7 @@
         "Anchor your decision in FAR Part 13 and the cited section.",
         "Eliminate options that overstate authority, use the wrong phase, or misstate policy scope."
       ],
-      "whyCorrect": "The correct answer matches the policy direction in FAR Part 13 and fits both the definition and application context in the question.",
+      "whyCorrect": "This answer is correct because SAP is designed to promote competition to the maximum extent practicable, not to favor incumbents, ignore lateness rules, or balance every socioeconomic category equally in every buy. The question is testing the core SAP competition principle, and this choice states it directly.",
       "whyWrong": [
         {
           "choiceLabel": "B",
@@ -284,7 +284,7 @@
         "Anchor your decision in FAR Part 15 and the cited section.",
         "Eliminate options that overstate authority, use the wrong phase, or misstate policy scope."
       ],
-      "whyCorrect": "The correct answer matches the policy direction in FAR Part 15 and fits both the definition and application context in the question.",
+      "whyCorrect": "This answer is correct because DD Form 1547 is the DoD weighted-guidelines tool used to support structured profit analysis. The other form numbers are distractors that may look official, but they are not the profit-analysis form tied to this pricing function.",
       "whyWrong": [
         {
           "choiceLabel": "A",
@@ -364,7 +364,7 @@
         "Anchor your decision in FAR Part 12 and the cited section.",
         "Eliminate options that overstate authority, use the wrong phase, or misstate policy scope."
       ],
-      "whyCorrect": "The correct answer matches the policy direction in FAR Part 12 and fits both the definition and application context in the question.",
+      "whyCorrect": "This answer is correct because FAR Part 12 does not open the door to every possible contract type; it specifically permits firm-fixed-price contracts and fixed-price contracts with economic price adjustment for commercial item acquisitions. The broader fixed-price and full-discretion options are tempting because they sound flexible, but the rule here is narrower.",
       "whyWrong": [
         {
           "choiceLabel": "B",
@@ -444,7 +444,7 @@
         "Anchor your decision in FAR Part 14 and the cited section.",
         "Eliminate options that overstate authority, use the wrong phase, or misstate policy scope."
       ],
-      "whyCorrect": "The correct answer matches the policy direction in FAR Part 14 and fits both the definition and application context in the question.",
+      "whyCorrect": "This answer is correct because sealed bidding results in fixed-price contracting, and the rule is framed around firm-fixed-price or fixed-price contracts with economic price adjustment. The other options are too broad and would allow contract-type flexibility that the IFB framework does not provide here.",
       "whyWrong": [
         {
           "choiceLabel": "A",
@@ -524,7 +524,7 @@
         "Anchor your decision in DFARS PGI and the cited section.",
         "Eliminate options that overstate authority, use the wrong phase, or misstate policy scope."
       ],
-      "whyCorrect": "The correct answer matches the policy direction in DFARS PGI and fits both the definition and application context in the question.",
+      "whyCorrect": "This answer is correct because the PGI is a companion resource to the DFARS; it supplements DFARS coverage rather than replacing it or existing as a separate, unrelated source. The distractors are wrong because they either deny the PGI exists or describe it inaccurately.",
       "whyWrong": [
         {
           "choiceLabel": "A",
@@ -604,7 +604,7 @@
         "Anchor your decision in FAR Part 43 and the cited section.",
         "Eliminate options that overstate authority, use the wrong phase, or misstate policy scope."
       ],
-      "whyCorrect": "The correct answer matches the policy direction in FAR Part 43 and fits both the definition and application context in the question.",
+      "whyCorrect": "This answer is correct because only contracting officers acting within the scope of their authority may execute contract modifications on behalf of the Government. The other options confuse support roles or informal direction with the legal authority needed to bind the Government.",
       "whyWrong": [
         {
           "choiceLabel": "A",
@@ -684,7 +684,7 @@
         "Anchor your decision in FAR Part 43 and the cited section.",
         "Eliminate options that overstate authority, use the wrong phase, or misstate policy scope."
       ],
-      "whyCorrect": "The correct answer matches the policy direction in FAR Part 43 and fits both the definition and application context in the question.",
+      "whyCorrect": "This answer is correct because a unilateral modification is signed only by the Government contracting officer; it does not require the contractor's signature. The other choices describe actions or authorities that either require bilateral agreement or exceed what a unilateral modification is used for.",
       "whyWrong": [
         {
           "choiceLabel": "B",
@@ -764,7 +764,7 @@
         "Anchor your decision in FAR Part 4 and the cited section.",
         "Eliminate options that overstate authority, use the wrong phase, or misstate policy scope."
       ],
-      "whyCorrect": "The correct answer matches the policy direction in FAR Part 4 and fits both the definition and application context in the question.",
+      "whyCorrect": "This answer is correct because the default FAR rule is that Government contracts must be in writing unless an authorized exception applies. The other options either remove the writing requirement entirely or add extra conditions—like hard copy or oral confirmation—that the rule does not impose.",
       "whyWrong": [
         {
           "choiceLabel": "A",
@@ -844,7 +844,7 @@
         "Anchor your decision in FAR Part 2 and the cited section.",
         "Eliminate options that overstate authority, use the wrong phase, or misstate policy scope."
       ],
-      "whyCorrect": "The correct answer matches the policy direction in FAR Part 2 and fits both the definition and application context in the question.",
+      "whyCorrect": "This answer is correct because 'Executive contracting officer' is not one of the standard contracting officer categories used in the FAR framework. The other listed titles are recognized contracting officer roles, so this option is the only one that does not belong.",
       "whyWrong": [
         {
           "choiceLabel": "A",
@@ -924,7 +924,7 @@
         "Anchor your decision in FAR Part 1 and the cited section.",
         "Eliminate options that overstate authority, use the wrong phase, or misstate policy scope."
       ],
-      "whyCorrect": "The correct answer matches the policy direction in FAR Part 1 and fits both the definition and application context in the question.",
+      "whyCorrect": "This answer is correct because the contracting officer is responsible for ensuring applicable legal, regulatory, and procedural requirements have been met before signing. The other choices either weaken that responsibility, narrow it too much, or shift it to a validation step the rule does not require.",
       "whyWrong": [
         {
           "choiceLabel": "A",
@@ -1004,7 +1004,7 @@
         "Anchor your decision in FAR Part 52 and the cited section.",
         "Eliminate options that overstate authority, use the wrong phase, or misstate policy scope."
       ],
-      "whyCorrect": "The correct answer matches the policy direction in FAR Part 52 and fits both the definition and application context in the question.",
+      "whyCorrect": "This answer is correct because a contract clause can appear in contracts alone or in both solicitations and contracts, depending on its function and effect before or after award. The wrong answers are too narrow or create exclusions that do not match how clauses actually operate.",
       "whyWrong": [
         {
           "choiceLabel": "A",
@@ -1084,7 +1084,7 @@
         "Anchor your decision in FAR Part 2 and the cited section.",
         "Eliminate options that overstate authority, use the wrong phase, or misstate policy scope."
       ],
-      "whyCorrect": "The correct answer matches the policy direction in FAR Part 2 and fits both the definition and application context in the question.",
+      "whyCorrect": "This answer is correct because a contract clause can appear in contracts alone or in both solicitations and contracts, depending on its function and effect before or after award. The wrong answers are too narrow or create exclusions that do not match how clauses actually operate.",
       "whyWrong": [
         {
           "choiceLabel": "A",
@@ -1164,7 +1164,7 @@
         "Anchor your decision in FAR Part 12 and the cited section.",
         "Eliminate options that overstate authority, use the wrong phase, or misstate policy scope."
       ],
-      "whyCorrect": "The correct answer matches the policy direction in FAR Part 12 and fits both the definition and application context in the question.",
+      "whyCorrect": "This answer is correct because under a commercial contract, contractor default is addressed as termination for cause. The other termination labels either apply to a different contract context or describe a different basis for ending performance.",
       "whyWrong": [
         {
           "choiceLabel": "A",
@@ -1244,7 +1244,7 @@
         "Anchor your decision in FAR Part 1 and the cited section.",
         "Eliminate options that overstate authority, use the wrong phase, or misstate policy scope."
       ],
-      "whyCorrect": "The correct answer matches the policy direction in FAR Part 1 and fits both the definition and application context in the question.",
+      "whyCorrect": "This answer is correct because FAR Part 1 is the part that establishes the basic policies, structure, and overarching information for the Federal Acquisition Regulations System. The other parts cited are real FAR sections, but they do not play this system-wide foundational role.",
       "whyWrong": [
         {
           "choiceLabel": "B",
@@ -1324,7 +1324,7 @@
         "Anchor your decision in FAR Part 1 and the cited section.",
         "Eliminate options that overstate authority, use the wrong phase, or misstate policy scope."
       ],
-      "whyCorrect": "The correct answer matches the policy direction in FAR Part 1 and fits both the definition and application context in the question.",
+      "whyCorrect": "This answer is correct because FAR 1.108(b) establishes the default convention that authority is delegable unless the FAR or another source specifically says otherwise. The wrong answers reverse that presumption or add limits the convention does not state.",
       "whyWrong": [
         {
           "choiceLabel": "A",
@@ -1404,7 +1404,7 @@
         "Anchor your decision in FAR Part 1 and the cited section.",
         "Eliminate options that overstate authority, use the wrong phase, or misstate policy scope."
       ],
-      "whyCorrect": "The correct answer matches the policy direction in FAR Part 1 and fits both the definition and application context in the question.",
+      "whyCorrect": "This answer is correct because the FAR is organized into 53 parts. The wrong options either confuse parts with subparts or use numbers that do not reflect the overall FAR structure.",
       "whyWrong": [
         {
           "choiceLabel": "A",
@@ -1484,7 +1484,7 @@
         "Anchor your decision in FAR Part 4 and the cited section.",
         "Eliminate options that overstate authority, use the wrong phase, or misstate policy scope."
       ],
-      "whyCorrect": "The correct answer matches the policy direction in FAR Part 4 and fits both the definition and application context in the question.",
+      "whyCorrect": "This answer is correct because a PIID uniquely identifies each solicitation, contract, agreement, order, or related procurement instrument. The wrong answers are too narrow because they describe only one kind of document rather than the full PIID function.",
       "whyWrong": [
         {
           "choiceLabel": "A",
@@ -1564,7 +1564,7 @@
         "Anchor your decision in DFARS 204.16 and the cited section.",
         "Eliminate options that overstate authority, use the wrong phase, or misstate policy scope."
       ],
-      "whyCorrect": "The correct answer matches the policy direction in DFARS 204.16 and fits both the definition and application context in the question.",
+      "whyCorrect": "This answer is correct because a PIID uniquely identifies each solicitation, contract, agreement, order, or related procurement instrument. The wrong answers are too narrow because they describe only one kind of document rather than the full PIID function.",
       "whyWrong": [
         {
           "choiceLabel": "B",
@@ -1644,7 +1644,7 @@
         "Anchor your decision in FAR Part 15 and the cited section.",
         "Eliminate options that overstate authority, use the wrong phase, or misstate policy scope."
       ],
-      "whyCorrect": "The correct answer matches the policy direction in FAR Part 15 and fits both the definition and application context in the question.",
+      "whyCorrect": "This answer is correct because exhibits in Section J are lettered with one or two alpha characters, such as Exhibit AA. The other options describe numbering conventions that are not used for UCF exhibits.",
       "whyWrong": [
         {
           "choiceLabel": "A",
@@ -1724,7 +1724,7 @@
         "Anchor your decision in FAR Part 10 and the cited section.",
         "Eliminate options that overstate authority, use the wrong phase, or misstate policy scope."
       ],
-      "whyCorrect": "The correct answer matches the policy direction in FAR Part 10 and fits both the definition and application context in the question.",
+      "whyCorrect": "This answer is correct because FAR Part 10 is the FAR location dedicated to market research. The other parts cover different acquisition topics, so they may sound familiar but are not where this guidance lives.",
       "whyWrong": [
         {
           "choiceLabel": "A",
@@ -1804,7 +1804,7 @@
         "Anchor your decision in FAR Part 16 and the cited section.",
         "Eliminate options that overstate authority, use the wrong phase, or misstate policy scope."
       ],
-      "whyCorrect": "The correct answer matches the policy direction in FAR Part 16 and fits both the definition and application context in the question.",
+      "whyCorrect": "This answer is correct because cost-plus-a-percentage-of-cost contracting is prohibited. The other listed contract types may be used in the right context, so this option is the one that captures the actual prohibition.",
       "whyWrong": [
         {
           "choiceLabel": "A",
@@ -1884,7 +1884,7 @@
         "Anchor your decision in FAR Part 16 and the cited section.",
         "Eliminate options that overstate authority, use the wrong phase, or misstate policy scope."
       ],
-      "whyCorrect": "The correct answer matches the policy direction in FAR Part 16 and fits both the definition and application context in the question.",
+      "whyCorrect": "This answer is correct because a T&M contract is appropriate only when the Government cannot accurately estimate the extent or duration of the work, making more precise pricing impracticable at the time of award. The other choices either overstate when T&M is appropriate or attach conditions the FAR does not impose.",
       "whyWrong": [
         {
           "choiceLabel": "A",
@@ -1964,7 +1964,7 @@
         "Anchor your decision in FAR Part 9 and the cited section.",
         "Eliminate options that overstate authority, use the wrong phase, or misstate policy scope."
       ],
-      "whyCorrect": "The correct answer matches the policy direction in FAR Part 9 and fits both the definition and application context in the question.",
+      "whyCorrect": "This answer is correct because the key OCI concern is preventing unfair competitive advantage. The other answers describe narrower acquisition concerns, but they do not capture the core principle the question is testing.",
       "whyWrong": [
         {
           "choiceLabel": "A",
@@ -2044,7 +2044,7 @@
         "Anchor your decision in FAR Part 15 and the cited section.",
         "Eliminate options that overstate authority, use the wrong phase, or misstate policy scope."
       ],
-      "whyCorrect": "The correct answer matches the policy direction in FAR Part 15 and fits both the definition and application context in the question.",
+      "whyCorrect": "This answer is correct because those are the FAR terms for the main types of post-receipt exchanges with offerors. The other choices substitute ordinary-language synonyms, but the question is testing the precise FAR vocabulary.",
       "whyWrong": [
         {
           "choiceLabel": "B",
@@ -2124,7 +2124,7 @@
         "Anchor your decision in FAR Part 3 and the cited section.",
         "Eliminate options that overstate authority, use the wrong phase, or misstate policy scope."
       ],
-      "whyCorrect": "The correct answer matches the policy direction in FAR Part 3 and fits both the definition and application context in the question.",
+      "whyCorrect": "This answer is correct because Government personnel generally may not solicit or accept gifts from contractors absent a valid exception. The other options try to create circumstances that would excuse the conduct, but they do not match the FAR ethics rule being tested.",
       "whyWrong": [
         {
           "choiceLabel": "A",
@@ -2204,7 +2204,7 @@
         "Anchor your decision in FAR Part 3 and the cited section.",
         "Eliminate options that overstate authority, use the wrong phase, or misstate policy scope."
       ],
-      "whyCorrect": "The correct answer matches the policy direction in FAR Part 3 and fits both the definition and application context in the question.",
+      "whyCorrect": "This answer is correct because contractor bid or proposal information may not be disclosed except to those authorized to receive it. The wrong answers either broaden who may receive it or add limitations not found in the rule.",
       "whyWrong": [
         {
           "choiceLabel": "B",
@@ -2284,7 +2284,7 @@
         "Anchor your decision in FAR Part 3 and the cited section.",
         "Eliminate options that overstate authority, use the wrong phase, or misstate policy scope."
       ],
-      "whyCorrect": "The correct answer matches the policy direction in FAR Part 3 and fits both the definition and application context in the question.",
+      "whyCorrect": "This answer is correct because, with limited exceptions, a contracting officer shall not knowingly award a contract to a Government employee. The other options invent carveouts or conditions that do not reflect the actual restriction.",
       "whyWrong": [
         {
           "choiceLabel": "A",
@@ -2364,7 +2364,7 @@
         "Anchor your decision in FAR Part 9 and the cited section.",
         "Eliminate options that overstate authority, use the wrong phase, or misstate policy scope."
       ],
-      "whyCorrect": "The correct answer matches the policy direction in FAR Part 9 and fits both the definition and application context in the question.",
+      "whyCorrect": "This answer is correct because the key OCI concern is preventing unfair competitive advantage. The other answers describe narrower acquisition concerns, but they do not capture the core principle the question is testing.",
       "whyWrong": [
         {
           "choiceLabel": "A",
@@ -9053,7 +9053,7 @@
       "whyWrong": [
         {
           "choiceLabel": "A",
-          "reason": "Commercial contracting relies primarily on contractor\u2019s quality system."
+          "reason": "Commercial contracting relies primarily on contractor’s quality system."
         },
         {
           "choiceLabel": "C",
@@ -9061,7 +9061,7 @@
         },
         {
           "choiceLabel": "D",
-          "reason": "ISO may be used by firms, but FAR answer here is contractor\u2019s system."
+          "reason": "ISO may be used by firms, but FAR answer here is contractor’s system."
         }
       ],
       "fieldTip": "When options are close, anchor on the exact FAR term (e.g., acceptance, responsibility, bilateral) before deciding."
@@ -9069,7 +9069,7 @@
     "explanation": {
       "whyCorrect": "Choice B tracks the FAR requirement tested in this item.",
       "keyTakeaway": "Applying FAR Part 12 and its cited section to pick the compliant acquisition answer.",
-      "commonTrap": "Commercial contracting relies primarily on contractor\u2019s quality system."
+      "commonTrap": "Commercial contracting relies primarily on contractor’s quality system."
     },
     "farRefs": [
       "FAR Part 12",
@@ -9722,7 +9722,7 @@
       "whyWrong": [
         {
           "choiceLabel": "A",
-          "reason": "These are not the FAR\u2019s two modification categories."
+          "reason": "These are not the FAR’s two modification categories."
         },
         {
           "choiceLabel": "B",
@@ -9747,7 +9747,7 @@
     "explanation": {
       "whyCorrect": "Choice D tracks the FAR requirement tested in this item.",
       "keyTakeaway": "Applying FAR Part 43 and its cited section to pick the compliant acquisition answer.",
-      "commonTrap": "These are not the FAR\u2019s two modification categories."
+      "commonTrap": "These are not the FAR’s two modification categories."
     },
     "farRefs": [
       "FAR Part 43",
@@ -9980,7 +9980,7 @@
         "sections": [
           {
             "cite": "33.211",
-            "title": "Contracting officer\u2019s decision",
+            "title": "Contracting officer’s decision",
             "url": "https://www.acquisition.gov/far/33.211"
           }
         ]
@@ -10861,7 +10861,7 @@
       "Begin discussions before finalizing evaluation factors and competitive-range documentation.",
       "Establish and follow FAR Part 15 evaluation, discussion, and award documentation procedures.",
       "Select the lowest-priced offer without documenting how non-price factors were applied.",
-      "Share one offeror\u2019s pricing position with another to accelerate final proposal revisions."
+      "Share one offeror’s pricing position with another to accelerate final proposal revisions."
     ],
     "correctIndex": 1,
     "topic": "Contracting by Negotiation",
@@ -11428,7 +11428,7 @@
     "choices": [
       "Begin discussions before finalizing evaluation factors and competitive-range documentation.",
       "Select the lowest-priced offer without documenting how non-price factors were applied.",
-      "Share one offeror\u2019s pricing position with another to accelerate final proposal revisions.",
+      "Share one offeror’s pricing position with another to accelerate final proposal revisions.",
       "Establish and follow FAR Part 15 evaluation, discussion, and award documentation procedures."
     ],
     "correctIndex": 3,
@@ -11997,7 +11997,7 @@
       "Begin discussions before finalizing evaluation factors and competitive-range documentation.",
       "Select the lowest-priced offer without documenting how non-price factors were applied.",
       "Establish and follow FAR Part 15 evaluation, discussion, and award documentation procedures.",
-      "Share one offeror\u2019s pricing position with another to accelerate final proposal revisions."
+      "Share one offeror’s pricing position with another to accelerate final proposal revisions."
     ],
     "correctIndex": 2,
     "topic": "Contracting by Negotiation",
@@ -12565,7 +12565,7 @@
       "Begin discussions before finalizing evaluation factors and competitive-range documentation.",
       "Select the lowest-priced offer without documenting how non-price factors were applied.",
       "Establish and follow FAR Part 15 evaluation, discussion, and award documentation procedures.",
-      "Share one offeror\u2019s pricing position with another to accelerate final proposal revisions."
+      "Share one offeror’s pricing position with another to accelerate final proposal revisions."
     ],
     "correctIndex": 2,
     "topic": "Contracting by Negotiation",
@@ -13133,7 +13133,7 @@
       "Begin discussions before finalizing evaluation factors and competitive-range documentation.",
       "Establish and follow FAR Part 15 evaluation, discussion, and award documentation procedures.",
       "Select the lowest-priced offer without documenting how non-price factors were applied.",
-      "Share one offeror\u2019s pricing position with another to accelerate final proposal revisions."
+      "Share one offeror’s pricing position with another to accelerate final proposal revisions."
     ],
     "correctIndex": 1,
     "topic": "Contracting by Negotiation",
@@ -13700,7 +13700,7 @@
     "choices": [
       "Begin discussions before finalizing evaluation factors and competitive-range documentation.",
       "Select the lowest-priced offer without documenting how non-price factors were applied.",
-      "Share one offeror\u2019s pricing position with another to accelerate final proposal revisions.",
+      "Share one offeror’s pricing position with another to accelerate final proposal revisions.",
       "Establish and follow FAR Part 15 evaluation, discussion, and award documentation procedures."
     ],
     "correctIndex": 3,

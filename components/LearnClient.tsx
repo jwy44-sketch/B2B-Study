@@ -3,7 +3,6 @@
 import { AnimatePresence, motion, useReducedMotion } from 'framer-motion';
 import { useEffect, useMemo, useState } from 'react';
 import { loadQuestions } from '@/lib/questions';
-import { buildLearnReasoning } from '@/lib/learnReasoning';
 import { presentQuestion } from '@/lib/presentQuestion';
 import type { Question } from '@/lib/types';
 import { ProgressHeader } from './ProgressHeader';
@@ -43,15 +42,6 @@ export default function LearnClient() {
   }, []);
 
   const presented = useMemo(() => (queue[index] ? presentQuestion(queue[index], { shuffleChoices: true }) : null), [queue, index]);
-  const learnReasoning = useMemo(() => {
-    if (!presented?.question.explanationRich) return null;
-    return buildLearnReasoning(
-      presented.question.stem,
-      presented.presentedChoices,
-      presented.presentedCorrectIndex,
-      presented.question.explanationRich
-    );
-  }, [presented]);
 
   const onAnswer = (idx: number | null) => {
     if (!presented) return;
@@ -181,10 +171,10 @@ export default function LearnClient() {
                   </ul>
                 ) : null}
                 <p><span className="font-semibold text-slate-100">How to decide (DAU thinking):</span></p>
-                <ol className="list-decimal pl-5">{(learnReasoning?.decisionSteps ?? presented.question.explanationRich.decisionSteps).map((step) => <li key={step}>{step}</li>)}</ol>
-                <p><span className="font-semibold text-slate-100">Why correct:</span> {learnReasoning?.whyCorrect ?? presented.question.explanationRich.whyCorrect}</p>
+                <ol className="list-decimal pl-5">{presented.question.explanationRich.decisionSteps.map((step) => <li key={step}>{step}</li>)}</ol>
+                <p><span className="font-semibold text-slate-100">Why correct:</span> {presented.question.explanationRich.whyCorrect}</p>
                 <ul className="list-disc pl-5">
-                  {(learnReasoning?.whyWrong ?? presented.question.explanationRich.whyWrong).map((item) => (
+                  {presented.question.explanationRich.whyWrong.map((item) => (
                     <li key={`${item.choiceLabel}-${item.reason}`}>
                       <span className="font-semibold">{item.choiceLabel}:</span> {item.reason}
                     </li>
