@@ -6,6 +6,7 @@ describe('presentQuestion', () => {
   it('keeps correct answer text aligned after 100 shuffles', () => {
     const q: Question = {
       id: 'q1',
+      stem: 'test',
       prompt: 'test',
       choices: ['A', 'B', 'C', 'D'],
       correctIndex: 2,
