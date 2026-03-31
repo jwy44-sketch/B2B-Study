@@ -1,0 +1,1056 @@
+{
+  "generatedAt": "2026-03-26T19:39:30.794Z",
+  "totalRewritten": 150,
+  "items": [
+    {
+      "id": "SCN-001",
+      "sourceBank": "public/scenario-questions.json",
+      "oldStem": "In market research scenario #1, what is the best contracting action?",
+      "newStem": "A program office needs to acquire cybersecurity support in less than 90 days, and the team is debating whether market research can be abbreviated to save schedule. What is the best contracting action?",
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "SCN-002",
+      "sourceBank": "public/scenario-questions.json",
+      "oldStem": "In competition scenario #2, what is the best contracting action?",
+      "newStem": "Your team is considering a brand-name approach for schedule reasons and plans to justify reduced competition after proposals are received. What is the best contracting action?",
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "SCN-003",
+      "sourceBank": "public/scenario-questions.json",
+      "oldStem": "In simplified acquisition scenario #3, what is the best contracting action?",
+      "newStem": "The office is packaging several needs into one action and assumes simplified procedures still apply because each component seems routine. What is the best contracting action?",
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "SCN-004",
+      "sourceBank": "public/scenario-questions.json",
+      "oldStem": "In contracting by negotiation scenario #4, what is the best contracting action?",
+      "newStem": "The source selection schedule is compressed, and leadership suggests skipping key negotiation planning steps to meet award dates. What is the best contracting action?",
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "SCN-005",
+      "sourceBank": "public/scenario-questions.json",
+      "oldStem": "In contract modifications scenario #5, what is the best contracting action?",
+      "newStem": "After award, the requiring activity asks the contractor to start changed work immediately while the pricing and scope determination are still pending. What is the best contracting action?",
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "SCN-006",
+      "sourceBank": "public/scenario-questions.json",
+      "oldStem": "In source selection scenario #6, what is the best contracting action?",
+      "newStem": "Evaluators are prepared to rely on general impressions rather than documented strengths, weaknesses, and risks in the official record. What is the best contracting action?",
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "SCN-007",
+      "sourceBank": "public/scenario-questions.json",
+      "oldStem": "In commercial items scenario #7, what is the best contracting action?",
+      "newStem": "Price analysis planning assumes internal estimates alone are sufficient without validating market comparability for commercial offerings. What is the best contracting action?",
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "SCN-008",
+      "sourceBank": "public/scenario-questions.json",
+      "oldStem": "In contract types scenario #8, what is the best contracting action?",
+      "newStem": "A mixed-risk requirement is being finalized, and stakeholders want a contract type decision driven mainly by administrative convenience. What is the best contracting action?",
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "SCN-009",
+      "sourceBank": "public/scenario-questions.json",
+      "oldStem": "In market research scenario #9, what is the best contracting action?",
+      "newStem": "A program office needs to acquire cybersecurity support in less than 90 days, and the team is debating whether market research can be abbreviated to save schedule. What is the best contracting action?",
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "SCN-010",
+      "sourceBank": "public/scenario-questions.json",
+      "oldStem": "In competition scenario #10, what is the best contracting action?",
+      "newStem": "Your team is considering a brand-name approach for schedule reasons and plans to justify reduced competition after proposals are received. What is the best contracting action?",
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "SCN-011",
+      "sourceBank": "public/scenario-questions.json",
+      "oldStem": "In simplified acquisition scenario #11, what is the best contracting action?",
+      "newStem": "The office is packaging several needs into one action and assumes simplified procedures still apply because each component seems routine. What is the best contracting action?",
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "SCN-012",
+      "sourceBank": "public/scenario-questions.json",
+      "oldStem": "In contracting by negotiation scenario #12, what is the best contracting action?",
+      "newStem": "The source selection schedule is compressed, and leadership suggests skipping key negotiation planning steps to meet award dates. What is the best contracting action?",
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "SCN-013",
+      "sourceBank": "public/scenario-questions.json",
+      "oldStem": "In contract modifications scenario #13, what is the best contracting action?",
+      "newStem": "After award, the requiring activity asks the contractor to start changed work immediately while the pricing and scope determination are still pending. What is the best contracting action?",
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "SCN-014",
+      "sourceBank": "public/scenario-questions.json",
+      "oldStem": "In source selection scenario #14, what is the best contracting action?",
+      "newStem": "Evaluators are prepared to rely on general impressions rather than documented strengths, weaknesses, and risks in the official record. What is the best contracting action?",
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "SCN-015",
+      "sourceBank": "public/scenario-questions.json",
+      "oldStem": "In commercial items scenario #15, what is the best contracting action?",
+      "newStem": "Price analysis planning assumes internal estimates alone are sufficient without validating market comparability for commercial offerings. What is the best contracting action?",
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "SCN-016",
+      "sourceBank": "public/scenario-questions.json",
+      "oldStem": "In contract types scenario #16, what is the best contracting action?",
+      "newStem": "A mixed-risk requirement is being finalized, and stakeholders want a contract type decision driven mainly by administrative convenience. What is the best contracting action?",
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "SCN-017",
+      "sourceBank": "public/scenario-questions.json",
+      "oldStem": "In market research scenario #17, what is the best contracting action?",
+      "newStem": "A program office needs to acquire cybersecurity support in less than 90 days, and the team is debating whether market research can be abbreviated to save schedule. What is the best contracting action?",
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "SCN-018",
+      "sourceBank": "public/scenario-questions.json",
+      "oldStem": "In competition scenario #18, what is the best contracting action?",
+      "newStem": "Your team is considering a brand-name approach for schedule reasons and plans to justify reduced competition after proposals are received. What is the best contracting action?",
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "SCN-019",
+      "sourceBank": "public/scenario-questions.json",
+      "oldStem": "In simplified acquisition scenario #19, what is the best contracting action?",
+      "newStem": "The office is packaging several needs into one action and assumes simplified procedures still apply because each component seems routine. What is the best contracting action?",
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "SCN-020",
+      "sourceBank": "public/scenario-questions.json",
+      "oldStem": "In contracting by negotiation scenario #20, what is the best contracting action?",
+      "newStem": "The source selection schedule is compressed, and leadership suggests skipping key negotiation planning steps to meet award dates. What is the best contracting action?",
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "SCN-021",
+      "sourceBank": "public/scenario-questions.json",
+      "oldStem": "In contract modifications scenario #21, what is the best contracting action?",
+      "newStem": "After award, the requiring activity asks the contractor to start changed work immediately while the pricing and scope determination are still pending. What is the best contracting action?",
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "SCN-022",
+      "sourceBank": "public/scenario-questions.json",
+      "oldStem": "In source selection scenario #22, what is the best contracting action?",
+      "newStem": "Evaluators are prepared to rely on general impressions rather than documented strengths, weaknesses, and risks in the official record. What is the best contracting action?",
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "SCN-023",
+      "sourceBank": "public/scenario-questions.json",
+      "oldStem": "In commercial items scenario #23, what is the best contracting action?",
+      "newStem": "Price analysis planning assumes internal estimates alone are sufficient without validating market comparability for commercial offerings. What is the best contracting action?",
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "SCN-024",
+      "sourceBank": "public/scenario-questions.json",
+      "oldStem": "In contract types scenario #24, what is the best contracting action?",
+      "newStem": "A mixed-risk requirement is being finalized, and stakeholders want a contract type decision driven mainly by administrative convenience. What is the best contracting action?",
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "SCN-025",
+      "sourceBank": "public/scenario-questions.json",
+      "oldStem": "In market research scenario #25, what is the best contracting action?",
+      "newStem": "A program office needs to acquire cybersecurity support in less than 90 days, and the team is debating whether market research can be abbreviated to save schedule. What is the best contracting action?",
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "SCN-026",
+      "sourceBank": "public/scenario-questions.json",
+      "oldStem": "In competition scenario #26, what is the best contracting action?",
+      "newStem": "Your team is considering a brand-name approach for schedule reasons and plans to justify reduced competition after proposals are received. What is the best contracting action?",
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "SCN-027",
+      "sourceBank": "public/scenario-questions.json",
+      "oldStem": "In simplified acquisition scenario #27, what is the best contracting action?",
+      "newStem": "The office is packaging several needs into one action and assumes simplified procedures still apply because each component seems routine. What is the best contracting action?",
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "SCN-028",
+      "sourceBank": "public/scenario-questions.json",
+      "oldStem": "In contracting by negotiation scenario #28, what is the best contracting action?",
+      "newStem": "The source selection schedule is compressed, and leadership suggests skipping key negotiation planning steps to meet award dates. What is the best contracting action?",
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "SCN-029",
+      "sourceBank": "public/scenario-questions.json",
+      "oldStem": "In contract modifications scenario #29, what is the best contracting action?",
+      "newStem": "After award, the requiring activity asks the contractor to start changed work immediately while the pricing and scope determination are still pending. What is the best contracting action?",
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "SCN-030",
+      "sourceBank": "public/scenario-questions.json",
+      "oldStem": "In source selection scenario #30, what is the best contracting action?",
+      "newStem": "Evaluators are prepared to rely on general impressions rather than documented strengths, weaknesses, and risks in the official record. What is the best contracting action?",
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "SCN-031",
+      "sourceBank": "public/scenario-questions.json",
+      "oldStem": "In commercial items scenario #31, what is the best contracting action?",
+      "newStem": "Price analysis planning assumes internal estimates alone are sufficient without validating market comparability for commercial offerings. What is the best contracting action?",
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "SCN-032",
+      "sourceBank": "public/scenario-questions.json",
+      "oldStem": "In contract types scenario #32, what is the best contracting action?",
+      "newStem": "A mixed-risk requirement is being finalized, and stakeholders want a contract type decision driven mainly by administrative convenience. What is the best contracting action?",
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "SCN-033",
+      "sourceBank": "public/scenario-questions.json",
+      "oldStem": "In market research scenario #33, what is the best contracting action?",
+      "newStem": "A program office needs to acquire cybersecurity support in less than 90 days, and the team is debating whether market research can be abbreviated to save schedule. What is the best contracting action?",
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "SCN-034",
+      "sourceBank": "public/scenario-questions.json",
+      "oldStem": "In competition scenario #34, what is the best contracting action?",
+      "newStem": "Your team is considering a brand-name approach for schedule reasons and plans to justify reduced competition after proposals are received. What is the best contracting action?",
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "SCN-035",
+      "sourceBank": "public/scenario-questions.json",
+      "oldStem": "In simplified acquisition scenario #35, what is the best contracting action?",
+      "newStem": "The office is packaging several needs into one action and assumes simplified procedures still apply because each component seems routine. What is the best contracting action?",
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "SCN-036",
+      "sourceBank": "public/scenario-questions.json",
+      "oldStem": "In contracting by negotiation scenario #36, what is the best contracting action?",
+      "newStem": "The source selection schedule is compressed, and leadership suggests skipping key negotiation planning steps to meet award dates. What is the best contracting action?",
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "SCN-037",
+      "sourceBank": "public/scenario-questions.json",
+      "oldStem": "In contract modifications scenario #37, what is the best contracting action?",
+      "newStem": "After award, the requiring activity asks the contractor to start changed work immediately while the pricing and scope determination are still pending. What is the best contracting action?",
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "SCN-038",
+      "sourceBank": "public/scenario-questions.json",
+      "oldStem": "In source selection scenario #38, what is the best contracting action?",
+      "newStem": "Evaluators are prepared to rely on general impressions rather than documented strengths, weaknesses, and risks in the official record. What is the best contracting action?",
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "SCN-039",
+      "sourceBank": "public/scenario-questions.json",
+      "oldStem": "In commercial items scenario #39, what is the best contracting action?",
+      "newStem": "Price analysis planning assumes internal estimates alone are sufficient without validating market comparability for commercial offerings. What is the best contracting action?",
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "SCN-040",
+      "sourceBank": "public/scenario-questions.json",
+      "oldStem": "In contract types scenario #40, what is the best contracting action?",
+      "newStem": "A mixed-risk requirement is being finalized, and stakeholders want a contract type decision driven mainly by administrative convenience. What is the best contracting action?",
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "SCN-041",
+      "sourceBank": "public/scenario-questions.json",
+      "oldStem": "In market research scenario #41, what is the best contracting action?",
+      "newStem": "A program office needs to acquire cybersecurity support in less than 90 days, and the team is debating whether market research can be abbreviated to save schedule. What is the best contracting action?",
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "SCN-042",
+      "sourceBank": "public/scenario-questions.json",
+      "oldStem": "In competition scenario #42, what is the best contracting action?",
+      "newStem": "Your team is considering a brand-name approach for schedule reasons and plans to justify reduced competition after proposals are received. What is the best contracting action?",
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "SCN-043",
+      "sourceBank": "public/scenario-questions.json",
+      "oldStem": "In simplified acquisition scenario #43, what is the best contracting action?",
+      "newStem": "The office is packaging several needs into one action and assumes simplified procedures still apply because each component seems routine. What is the best contracting action?",
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "SCN-044",
+      "sourceBank": "public/scenario-questions.json",
+      "oldStem": "In contracting by negotiation scenario #44, what is the best contracting action?",
+      "newStem": "The source selection schedule is compressed, and leadership suggests skipping key negotiation planning steps to meet award dates. What is the best contracting action?",
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "SCN-045",
+      "sourceBank": "public/scenario-questions.json",
+      "oldStem": "In contract modifications scenario #45, what is the best contracting action?",
+      "newStem": "After award, the requiring activity asks the contractor to start changed work immediately while the pricing and scope determination are still pending. What is the best contracting action?",
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "SCN-046",
+      "sourceBank": "public/scenario-questions.json",
+      "oldStem": "In source selection scenario #46, what is the best contracting action?",
+      "newStem": "Evaluators are prepared to rely on general impressions rather than documented strengths, weaknesses, and risks in the official record. What is the best contracting action?",
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "SCN-047",
+      "sourceBank": "public/scenario-questions.json",
+      "oldStem": "In commercial items scenario #47, what is the best contracting action?",
+      "newStem": "Price analysis planning assumes internal estimates alone are sufficient without validating market comparability for commercial offerings. What is the best contracting action?",
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "SCN-048",
+      "sourceBank": "public/scenario-questions.json",
+      "oldStem": "In contract types scenario #48, what is the best contracting action?",
+      "newStem": "A mixed-risk requirement is being finalized, and stakeholders want a contract type decision driven mainly by administrative convenience. What is the best contracting action?",
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "SCN-049",
+      "sourceBank": "public/scenario-questions.json",
+      "oldStem": "In market research scenario #49, what is the best contracting action?",
+      "newStem": "A program office needs to acquire cybersecurity support in less than 90 days, and the team is debating whether market research can be abbreviated to save schedule. What is the best contracting action?",
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "SCN-050",
+      "sourceBank": "public/scenario-questions.json",
+      "oldStem": "In competition scenario #50, what is the best contracting action?",
+      "newStem": "Your team is considering a brand-name approach for schedule reasons and plans to justify reduced competition after proposals are received. What is the best contracting action?",
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "SCN-051",
+      "sourceBank": "public/scenario-questions.json",
+      "oldStem": "In simplified acquisition scenario #51, what is the best contracting action?",
+      "newStem": "The office is packaging several needs into one action and assumes simplified procedures still apply because each component seems routine. What is the best contracting action?",
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "SCN-052",
+      "sourceBank": "public/scenario-questions.json",
+      "oldStem": "In contracting by negotiation scenario #52, what is the best contracting action?",
+      "newStem": "The source selection schedule is compressed, and leadership suggests skipping key negotiation planning steps to meet award dates. What is the best contracting action?",
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "SCN-053",
+      "sourceBank": "public/scenario-questions.json",
+      "oldStem": "In contract modifications scenario #53, what is the best contracting action?",
+      "newStem": "After award, the requiring activity asks the contractor to start changed work immediately while the pricing and scope determination are still pending. What is the best contracting action?",
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "SCN-054",
+      "sourceBank": "public/scenario-questions.json",
+      "oldStem": "In source selection scenario #54, what is the best contracting action?",
+      "newStem": "Evaluators are prepared to rely on general impressions rather than documented strengths, weaknesses, and risks in the official record. What is the best contracting action?",
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "SCN-055",
+      "sourceBank": "public/scenario-questions.json",
+      "oldStem": "In commercial items scenario #55, what is the best contracting action?",
+      "newStem": "Price analysis planning assumes internal estimates alone are sufficient without validating market comparability for commercial offerings. What is the best contracting action?",
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "SCN-056",
+      "sourceBank": "public/scenario-questions.json",
+      "oldStem": "In contract types scenario #56, what is the best contracting action?",
+      "newStem": "A mixed-risk requirement is being finalized, and stakeholders want a contract type decision driven mainly by administrative convenience. What is the best contracting action?",
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "SCN-057",
+      "sourceBank": "public/scenario-questions.json",
+      "oldStem": "In market research scenario #57, what is the best contracting action?",
+      "newStem": "A program office needs to acquire cybersecurity support in less than 90 days, and the team is debating whether market research can be abbreviated to save schedule. What is the best contracting action?",
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "SCN-058",
+      "sourceBank": "public/scenario-questions.json",
+      "oldStem": "In competition scenario #58, what is the best contracting action?",
+      "newStem": "Your team is considering a brand-name approach for schedule reasons and plans to justify reduced competition after proposals are received. What is the best contracting action?",
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "SCN-059",
+      "sourceBank": "public/scenario-questions.json",
+      "oldStem": "In simplified acquisition scenario #59, what is the best contracting action?",
+      "newStem": "The office is packaging several needs into one action and assumes simplified procedures still apply because each component seems routine. What is the best contracting action?",
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "SCN-060",
+      "sourceBank": "public/scenario-questions.json",
+      "oldStem": "In contracting by negotiation scenario #60, what is the best contracting action?",
+      "newStem": "The source selection schedule is compressed, and leadership suggests skipping key negotiation planning steps to meet award dates. What is the best contracting action?",
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "SCN-061",
+      "sourceBank": "public/scenario-questions.json",
+      "oldStem": "In contract modifications scenario #61, what is the best contracting action?",
+      "newStem": "After award, the requiring activity asks the contractor to start changed work immediately while the pricing and scope determination are still pending. What is the best contracting action?",
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "SCN-062",
+      "sourceBank": "public/scenario-questions.json",
+      "oldStem": "In source selection scenario #62, what is the best contracting action?",
+      "newStem": "Evaluators are prepared to rely on general impressions rather than documented strengths, weaknesses, and risks in the official record. What is the best contracting action?",
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "SCN-063",
+      "sourceBank": "public/scenario-questions.json",
+      "oldStem": "In commercial items scenario #63, what is the best contracting action?",
+      "newStem": "Price analysis planning assumes internal estimates alone are sufficient without validating market comparability for commercial offerings. What is the best contracting action?",
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "SCN-064",
+      "sourceBank": "public/scenario-questions.json",
+      "oldStem": "In contract types scenario #64, what is the best contracting action?",
+      "newStem": "A mixed-risk requirement is being finalized, and stakeholders want a contract type decision driven mainly by administrative convenience. What is the best contracting action?",
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "SCN-065",
+      "sourceBank": "public/scenario-questions.json",
+      "oldStem": "In market research scenario #65, what is the best contracting action?",
+      "newStem": "A program office needs to acquire cybersecurity support in less than 90 days, and the team is debating whether market research can be abbreviated to save schedule. What is the best contracting action?",
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "SCN-066",
+      "sourceBank": "public/scenario-questions.json",
+      "oldStem": "In competition scenario #66, what is the best contracting action?",
+      "newStem": "Your team is considering a brand-name approach for schedule reasons and plans to justify reduced competition after proposals are received. What is the best contracting action?",
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "SCN-067",
+      "sourceBank": "public/scenario-questions.json",
+      "oldStem": "In simplified acquisition scenario #67, what is the best contracting action?",
+      "newStem": "The office is packaging several needs into one action and assumes simplified procedures still apply because each component seems routine. What is the best contracting action?",
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "SCN-068",
+      "sourceBank": "public/scenario-questions.json",
+      "oldStem": "In contracting by negotiation scenario #68, what is the best contracting action?",
+      "newStem": "The source selection schedule is compressed, and leadership suggests skipping key negotiation planning steps to meet award dates. What is the best contracting action?",
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "SCN-069",
+      "sourceBank": "public/scenario-questions.json",
+      "oldStem": "In contract modifications scenario #69, what is the best contracting action?",
+      "newStem": "After award, the requiring activity asks the contractor to start changed work immediately while the pricing and scope determination are still pending. What is the best contracting action?",
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "SCN-070",
+      "sourceBank": "public/scenario-questions.json",
+      "oldStem": "In source selection scenario #70, what is the best contracting action?",
+      "newStem": "Evaluators are prepared to rely on general impressions rather than documented strengths, weaknesses, and risks in the official record. What is the best contracting action?",
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "SCN-071",
+      "sourceBank": "public/scenario-questions.json",
+      "oldStem": "In commercial items scenario #71, what is the best contracting action?",
+      "newStem": "Price analysis planning assumes internal estimates alone are sufficient without validating market comparability for commercial offerings. What is the best contracting action?",
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "SCN-072",
+      "sourceBank": "public/scenario-questions.json",
+      "oldStem": "In contract types scenario #72, what is the best contracting action?",
+      "newStem": "A mixed-risk requirement is being finalized, and stakeholders want a contract type decision driven mainly by administrative convenience. What is the best contracting action?",
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "SCN-073",
+      "sourceBank": "public/scenario-questions.json",
+      "oldStem": "In market research scenario #73, what is the best contracting action?",
+      "newStem": "A program office needs to acquire cybersecurity support in less than 90 days, and the team is debating whether market research can be abbreviated to save schedule. What is the best contracting action?",
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "SCN-074",
+      "sourceBank": "public/scenario-questions.json",
+      "oldStem": "In competition scenario #74, what is the best contracting action?",
+      "newStem": "Your team is considering a brand-name approach for schedule reasons and plans to justify reduced competition after proposals are received. What is the best contracting action?",
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "SCN-075",
+      "sourceBank": "public/scenario-questions.json",
+      "oldStem": "In simplified acquisition scenario #75, what is the best contracting action?",
+      "newStem": "The office is packaging several needs into one action and assumes simplified procedures still apply because each component seems routine. What is the best contracting action?",
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "SCN-076",
+      "sourceBank": "public/scenario-questions.json",
+      "oldStem": "In contracting by negotiation scenario #76, what is the best contracting action?",
+      "newStem": "The source selection schedule is compressed, and leadership suggests skipping key negotiation planning steps to meet award dates. What is the best contracting action?",
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "SCN-077",
+      "sourceBank": "public/scenario-questions.json",
+      "oldStem": "In contract modifications scenario #77, what is the best contracting action?",
+      "newStem": "After award, the requiring activity asks the contractor to start changed work immediately while the pricing and scope determination are still pending. What is the best contracting action?",
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "SCN-078",
+      "sourceBank": "public/scenario-questions.json",
+      "oldStem": "In source selection scenario #78, what is the best contracting action?",
+      "newStem": "Evaluators are prepared to rely on general impressions rather than documented strengths, weaknesses, and risks in the official record. What is the best contracting action?",
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "SCN-079",
+      "sourceBank": "public/scenario-questions.json",
+      "oldStem": "In commercial items scenario #79, what is the best contracting action?",
+      "newStem": "Price analysis planning assumes internal estimates alone are sufficient without validating market comparability for commercial offerings. What is the best contracting action?",
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "SCN-080",
+      "sourceBank": "public/scenario-questions.json",
+      "oldStem": "In contract types scenario #80, what is the best contracting action?",
+      "newStem": "A mixed-risk requirement is being finalized, and stakeholders want a contract type decision driven mainly by administrative convenience. What is the best contracting action?",
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "SCN-081",
+      "sourceBank": "public/scenario-questions.json",
+      "oldStem": "In market research scenario #81, what is the best contracting action?",
+      "newStem": "A program office needs to acquire cybersecurity support in less than 90 days, and the team is debating whether market research can be abbreviated to save schedule. What is the best contracting action?",
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "SCN-082",
+      "sourceBank": "public/scenario-questions.json",
+      "oldStem": "In competition scenario #82, what is the best contracting action?",
+      "newStem": "Your team is considering a brand-name approach for schedule reasons and plans to justify reduced competition after proposals are received. What is the best contracting action?",
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "SCN-083",
+      "sourceBank": "public/scenario-questions.json",
+      "oldStem": "In simplified acquisition scenario #83, what is the best contracting action?",
+      "newStem": "The office is packaging several needs into one action and assumes simplified procedures still apply because each component seems routine. What is the best contracting action?",
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "SCN-084",
+      "sourceBank": "public/scenario-questions.json",
+      "oldStem": "In contracting by negotiation scenario #84, what is the best contracting action?",
+      "newStem": "The source selection schedule is compressed, and leadership suggests skipping key negotiation planning steps to meet award dates. What is the best contracting action?",
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "SCN-085",
+      "sourceBank": "public/scenario-questions.json",
+      "oldStem": "In contract modifications scenario #85, what is the best contracting action?",
+      "newStem": "After award, the requiring activity asks the contractor to start changed work immediately while the pricing and scope determination are still pending. What is the best contracting action?",
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "SCN-086",
+      "sourceBank": "public/scenario-questions.json",
+      "oldStem": "In source selection scenario #86, what is the best contracting action?",
+      "newStem": "Evaluators are prepared to rely on general impressions rather than documented strengths, weaknesses, and risks in the official record. What is the best contracting action?",
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "SCN-087",
+      "sourceBank": "public/scenario-questions.json",
+      "oldStem": "In commercial items scenario #87, what is the best contracting action?",
+      "newStem": "Price analysis planning assumes internal estimates alone are sufficient without validating market comparability for commercial offerings. What is the best contracting action?",
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "SCN-088",
+      "sourceBank": "public/scenario-questions.json",
+      "oldStem": "In contract types scenario #88, what is the best contracting action?",
+      "newStem": "A mixed-risk requirement is being finalized, and stakeholders want a contract type decision driven mainly by administrative convenience. What is the best contracting action?",
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "SCN-089",
+      "sourceBank": "public/scenario-questions.json",
+      "oldStem": "In market research scenario #89, what is the best contracting action?",
+      "newStem": "A program office needs to acquire cybersecurity support in less than 90 days, and the team is debating whether market research can be abbreviated to save schedule. What is the best contracting action?",
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "SCN-090",
+      "sourceBank": "public/scenario-questions.json",
+      "oldStem": "In competition scenario #90, what is the best contracting action?",
+      "newStem": "Your team is considering a brand-name approach for schedule reasons and plans to justify reduced competition after proposals are received. What is the best contracting action?",
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "SCN-091",
+      "sourceBank": "public/scenario-questions.json",
+      "oldStem": "In simplified acquisition scenario #91, what is the best contracting action?",
+      "newStem": "The office is packaging several needs into one action and assumes simplified procedures still apply because each component seems routine. What is the best contracting action?",
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "SCN-092",
+      "sourceBank": "public/scenario-questions.json",
+      "oldStem": "In contracting by negotiation scenario #92, what is the best contracting action?",
+      "newStem": "The source selection schedule is compressed, and leadership suggests skipping key negotiation planning steps to meet award dates. What is the best contracting action?",
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "SCN-093",
+      "sourceBank": "public/scenario-questions.json",
+      "oldStem": "In contract modifications scenario #93, what is the best contracting action?",
+      "newStem": "After award, the requiring activity asks the contractor to start changed work immediately while the pricing and scope determination are still pending. What is the best contracting action?",
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "SCN-094",
+      "sourceBank": "public/scenario-questions.json",
+      "oldStem": "In source selection scenario #94, what is the best contracting action?",
+      "newStem": "Evaluators are prepared to rely on general impressions rather than documented strengths, weaknesses, and risks in the official record. What is the best contracting action?",
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "SCN-095",
+      "sourceBank": "public/scenario-questions.json",
+      "oldStem": "In commercial items scenario #95, what is the best contracting action?",
+      "newStem": "Price analysis planning assumes internal estimates alone are sufficient without validating market comparability for commercial offerings. What is the best contracting action?",
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "SCN-096",
+      "sourceBank": "public/scenario-questions.json",
+      "oldStem": "In contract types scenario #96, what is the best contracting action?",
+      "newStem": "A mixed-risk requirement is being finalized, and stakeholders want a contract type decision driven mainly by administrative convenience. What is the best contracting action?",
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "SCN-097",
+      "sourceBank": "public/scenario-questions.json",
+      "oldStem": "In market research scenario #97, what is the best contracting action?",
+      "newStem": "A program office needs to acquire cybersecurity support in less than 90 days, and the team is debating whether market research can be abbreviated to save schedule. What is the best contracting action?",
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "SCN-098",
+      "sourceBank": "public/scenario-questions.json",
+      "oldStem": "In competition scenario #98, what is the best contracting action?",
+      "newStem": "Your team is considering a brand-name approach for schedule reasons and plans to justify reduced competition after proposals are received. What is the best contracting action?",
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "SCN-099",
+      "sourceBank": "public/scenario-questions.json",
+      "oldStem": "In simplified acquisition scenario #99, what is the best contracting action?",
+      "newStem": "The office is packaging several needs into one action and assumes simplified procedures still apply because each component seems routine. What is the best contracting action?",
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "SCN-100",
+      "sourceBank": "public/scenario-questions.json",
+      "oldStem": "In contracting by negotiation scenario #100, what is the best contracting action?",
+      "newStem": "The source selection schedule is compressed, and leadership suggests skipping key negotiation planning steps to meet award dates. What is the best contracting action?",
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "SCN-101",
+      "sourceBank": "public/scenario-questions.json",
+      "oldStem": "In contract modifications scenario #101, what is the best contracting action?",
+      "newStem": "After award, the requiring activity asks the contractor to start changed work immediately while the pricing and scope determination are still pending. What is the best contracting action?",
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "SCN-102",
+      "sourceBank": "public/scenario-questions.json",
+      "oldStem": "In source selection scenario #102, what is the best contracting action?",
+      "newStem": "Evaluators are prepared to rely on general impressions rather than documented strengths, weaknesses, and risks in the official record. What is the best contracting action?",
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "SCN-103",
+      "sourceBank": "public/scenario-questions.json",
+      "oldStem": "In commercial items scenario #103, what is the best contracting action?",
+      "newStem": "Price analysis planning assumes internal estimates alone are sufficient without validating market comparability for commercial offerings. What is the best contracting action?",
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "SCN-104",
+      "sourceBank": "public/scenario-questions.json",
+      "oldStem": "In contract types scenario #104, what is the best contracting action?",
+      "newStem": "A mixed-risk requirement is being finalized, and stakeholders want a contract type decision driven mainly by administrative convenience. What is the best contracting action?",
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "SCN-105",
+      "sourceBank": "public/scenario-questions.json",
+      "oldStem": "In market research scenario #105, what is the best contracting action?",
+      "newStem": "A program office needs to acquire cybersecurity support in less than 90 days, and the team is debating whether market research can be abbreviated to save schedule. What is the best contracting action?",
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "SCN-106",
+      "sourceBank": "public/scenario-questions.json",
+      "oldStem": "In competition scenario #106, what is the best contracting action?",
+      "newStem": "Your team is considering a brand-name approach for schedule reasons and plans to justify reduced competition after proposals are received. What is the best contracting action?",
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "SCN-107",
+      "sourceBank": "public/scenario-questions.json",
+      "oldStem": "In simplified acquisition scenario #107, what is the best contracting action?",
+      "newStem": "The office is packaging several needs into one action and assumes simplified procedures still apply because each component seems routine. What is the best contracting action?",
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "SCN-108",
+      "sourceBank": "public/scenario-questions.json",
+      "oldStem": "In contracting by negotiation scenario #108, what is the best contracting action?",
+      "newStem": "The source selection schedule is compressed, and leadership suggests skipping key negotiation planning steps to meet award dates. What is the best contracting action?",
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "SCN-109",
+      "sourceBank": "public/scenario-questions.json",
+      "oldStem": "In contract modifications scenario #109, what is the best contracting action?",
+      "newStem": "After award, the requiring activity asks the contractor to start changed work immediately while the pricing and scope determination are still pending. What is the best contracting action?",
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "SCN-110",
+      "sourceBank": "public/scenario-questions.json",
+      "oldStem": "In source selection scenario #110, what is the best contracting action?",
+      "newStem": "Evaluators are prepared to rely on general impressions rather than documented strengths, weaknesses, and risks in the official record. What is the best contracting action?",
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "SCN-111",
+      "sourceBank": "public/scenario-questions.json",
+      "oldStem": "In commercial items scenario #111, what is the best contracting action?",
+      "newStem": "Price analysis planning assumes internal estimates alone are sufficient without validating market comparability for commercial offerings. What is the best contracting action?",
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "SCN-112",
+      "sourceBank": "public/scenario-questions.json",
+      "oldStem": "In contract types scenario #112, what is the best contracting action?",
+      "newStem": "A mixed-risk requirement is being finalized, and stakeholders want a contract type decision driven mainly by administrative convenience. What is the best contracting action?",
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "SCN-113",
+      "sourceBank": "public/scenario-questions.json",
+      "oldStem": "In market research scenario #113, what is the best contracting action?",
+      "newStem": "A program office needs to acquire cybersecurity support in less than 90 days, and the team is debating whether market research can be abbreviated to save schedule. What is the best contracting action?",
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "SCN-114",
+      "sourceBank": "public/scenario-questions.json",
+      "oldStem": "In competition scenario #114, what is the best contracting action?",
+      "newStem": "Your team is considering a brand-name approach for schedule reasons and plans to justify reduced competition after proposals are received. What is the best contracting action?",
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "SCN-115",
+      "sourceBank": "public/scenario-questions.json",
+      "oldStem": "In simplified acquisition scenario #115, what is the best contracting action?",
+      "newStem": "The office is packaging several needs into one action and assumes simplified procedures still apply because each component seems routine. What is the best contracting action?",
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "SCN-116",
+      "sourceBank": "public/scenario-questions.json",
+      "oldStem": "In contracting by negotiation scenario #116, what is the best contracting action?",
+      "newStem": "The source selection schedule is compressed, and leadership suggests skipping key negotiation planning steps to meet award dates. What is the best contracting action?",
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "SCN-117",
+      "sourceBank": "public/scenario-questions.json",
+      "oldStem": "In contract modifications scenario #117, what is the best contracting action?",
+      "newStem": "After award, the requiring activity asks the contractor to start changed work immediately while the pricing and scope determination are still pending. What is the best contracting action?",
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "SCN-118",
+      "sourceBank": "public/scenario-questions.json",
+      "oldStem": "In source selection scenario #118, what is the best contracting action?",
+      "newStem": "Evaluators are prepared to rely on general impressions rather than documented strengths, weaknesses, and risks in the official record. What is the best contracting action?",
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "SCN-119",
+      "sourceBank": "public/scenario-questions.json",
+      "oldStem": "In commercial items scenario #119, what is the best contracting action?",
+      "newStem": "Price analysis planning assumes internal estimates alone are sufficient without validating market comparability for commercial offerings. What is the best contracting action?",
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "SCN-120",
+      "sourceBank": "public/scenario-questions.json",
+      "oldStem": "In contract types scenario #120, what is the best contracting action?",
+      "newStem": "A mixed-risk requirement is being finalized, and stakeholders want a contract type decision driven mainly by administrative convenience. What is the best contracting action?",
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "SCN-121",
+      "sourceBank": "public/scenario-questions.json",
+      "oldStem": "In market research scenario #121, what is the best contracting action?",
+      "newStem": "A program office needs to acquire cybersecurity support in less than 90 days, and the team is debating whether market research can be abbreviated to save schedule. What is the best contracting action?",
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "SCN-122",
+      "sourceBank": "public/scenario-questions.json",
+      "oldStem": "In competition scenario #122, what is the best contracting action?",
+      "newStem": "Your team is considering a brand-name approach for schedule reasons and plans to justify reduced competition after proposals are received. What is the best contracting action?",
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "SCN-123",
+      "sourceBank": "public/scenario-questions.json",
+      "oldStem": "In simplified acquisition scenario #123, what is the best contracting action?",
+      "newStem": "The office is packaging several needs into one action and assumes simplified procedures still apply because each component seems routine. What is the best contracting action?",
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "SCN-124",
+      "sourceBank": "public/scenario-questions.json",
+      "oldStem": "In contracting by negotiation scenario #124, what is the best contracting action?",
+      "newStem": "The source selection schedule is compressed, and leadership suggests skipping key negotiation planning steps to meet award dates. What is the best contracting action?",
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "SCN-125",
+      "sourceBank": "public/scenario-questions.json",
+      "oldStem": "In contract modifications scenario #125, what is the best contracting action?",
+      "newStem": "After award, the requiring activity asks the contractor to start changed work immediately while the pricing and scope determination are still pending. What is the best contracting action?",
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "SCN-126",
+      "sourceBank": "public/scenario-questions.json",
+      "oldStem": "In source selection scenario #126, what is the best contracting action?",
+      "newStem": "Evaluators are prepared to rely on general impressions rather than documented strengths, weaknesses, and risks in the official record. What is the best contracting action?",
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "SCN-127",
+      "sourceBank": "public/scenario-questions.json",
+      "oldStem": "In commercial items scenario #127, what is the best contracting action?",
+      "newStem": "Price analysis planning assumes internal estimates alone are sufficient without validating market comparability for commercial offerings. What is the best contracting action?",
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "SCN-128",
+      "sourceBank": "public/scenario-questions.json",
+      "oldStem": "In contract types scenario #128, what is the best contracting action?",
+      "newStem": "A mixed-risk requirement is being finalized, and stakeholders want a contract type decision driven mainly by administrative convenience. What is the best contracting action?",
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "SCN-129",
+      "sourceBank": "public/scenario-questions.json",
+      "oldStem": "In market research scenario #129, what is the best contracting action?",
+      "newStem": "A program office needs to acquire cybersecurity support in less than 90 days, and the team is debating whether market research can be abbreviated to save schedule. What is the best contracting action?",
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "SCN-130",
+      "sourceBank": "public/scenario-questions.json",
+      "oldStem": "In competition scenario #130, what is the best contracting action?",
+      "newStem": "Your team is considering a brand-name approach for schedule reasons and plans to justify reduced competition after proposals are received. What is the best contracting action?",
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "SCN-131",
+      "sourceBank": "public/scenario-questions.json",
+      "oldStem": "In simplified acquisition scenario #131, what is the best contracting action?",
+      "newStem": "The office is packaging several needs into one action and assumes simplified procedures still apply because each component seems routine. What is the best contracting action?",
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "SCN-132",
+      "sourceBank": "public/scenario-questions.json",
+      "oldStem": "In contracting by negotiation scenario #132, what is the best contracting action?",
+      "newStem": "The source selection schedule is compressed, and leadership suggests skipping key negotiation planning steps to meet award dates. What is the best contracting action?",
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "SCN-133",
+      "sourceBank": "public/scenario-questions.json",
+      "oldStem": "In contract modifications scenario #133, what is the best contracting action?",
+      "newStem": "After award, the requiring activity asks the contractor to start changed work immediately while the pricing and scope determination are still pending. What is the best contracting action?",
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "SCN-134",
+      "sourceBank": "public/scenario-questions.json",
+      "oldStem": "In source selection scenario #134, what is the best contracting action?",
+      "newStem": "Evaluators are prepared to rely on general impressions rather than documented strengths, weaknesses, and risks in the official record. What is the best contracting action?",
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "SCN-135",
+      "sourceBank": "public/scenario-questions.json",
+      "oldStem": "In commercial items scenario #135, what is the best contracting action?",
+      "newStem": "Price analysis planning assumes internal estimates alone are sufficient without validating market comparability for commercial offerings. What is the best contracting action?",
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "SCN-136",
+      "sourceBank": "public/scenario-questions.json",
+      "oldStem": "In contract types scenario #136, what is the best contracting action?",
+      "newStem": "A mixed-risk requirement is being finalized, and stakeholders want a contract type decision driven mainly by administrative convenience. What is the best contracting action?",
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "SCN-137",
+      "sourceBank": "public/scenario-questions.json",
+      "oldStem": "In market research scenario #137, what is the best contracting action?",
+      "newStem": "A program office needs to acquire cybersecurity support in less than 90 days, and the team is debating whether market research can be abbreviated to save schedule. What is the best contracting action?",
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "SCN-138",
+      "sourceBank": "public/scenario-questions.json",
+      "oldStem": "In competition scenario #138, what is the best contracting action?",
+      "newStem": "Your team is considering a brand-name approach for schedule reasons and plans to justify reduced competition after proposals are received. What is the best contracting action?",
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "SCN-139",
+      "sourceBank": "public/scenario-questions.json",
+      "oldStem": "In simplified acquisition scenario #139, what is the best contracting action?",
+      "newStem": "The office is packaging several needs into one action and assumes simplified procedures still apply because each component seems routine. What is the best contracting action?",
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "SCN-140",
+      "sourceBank": "public/scenario-questions.json",
+      "oldStem": "In contracting by negotiation scenario #140, what is the best contracting action?",
+      "newStem": "The source selection schedule is compressed, and leadership suggests skipping key negotiation planning steps to meet award dates. What is the best contracting action?",
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "SCN-141",
+      "sourceBank": "public/scenario-questions.json",
+      "oldStem": "In contract modifications scenario #141, what is the best contracting action?",
+      "newStem": "After award, the requiring activity asks the contractor to start changed work immediately while the pricing and scope determination are still pending. What is the best contracting action?",
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "SCN-142",
+      "sourceBank": "public/scenario-questions.json",
+      "oldStem": "In source selection scenario #142, what is the best contracting action?",
+      "newStem": "Evaluators are prepared to rely on general impressions rather than documented strengths, weaknesses, and risks in the official record. What is the best contracting action?",
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "SCN-143",
+      "sourceBank": "public/scenario-questions.json",
+      "oldStem": "In commercial items scenario #143, what is the best contracting action?",
+      "newStem": "Price analysis planning assumes internal estimates alone are sufficient without validating market comparability for commercial offerings. What is the best contracting action?",
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "SCN-144",
+      "sourceBank": "public/scenario-questions.json",
+      "oldStem": "In contract types scenario #144, what is the best contracting action?",
+      "newStem": "A mixed-risk requirement is being finalized, and stakeholders want a contract type decision driven mainly by administrative convenience. What is the best contracting action?",
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "SCN-145",
+      "sourceBank": "public/scenario-questions.json",
+      "oldStem": "In market research scenario #145, what is the best contracting action?",
+      "newStem": "A program office needs to acquire cybersecurity support in less than 90 days, and the team is debating whether market research can be abbreviated to save schedule. What is the best contracting action?",
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "SCN-146",
+      "sourceBank": "public/scenario-questions.json",
+      "oldStem": "In competition scenario #146, what is the best contracting action?",
+      "newStem": "Your team is considering a brand-name approach for schedule reasons and plans to justify reduced competition after proposals are received. What is the best contracting action?",
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "SCN-147",
+      "sourceBank": "public/scenario-questions.json",
+      "oldStem": "In simplified acquisition scenario #147, what is the best contracting action?",
+      "newStem": "The office is packaging several needs into one action and assumes simplified procedures still apply because each component seems routine. What is the best contracting action?",
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "SCN-148",
+      "sourceBank": "public/scenario-questions.json",
+      "oldStem": "In contracting by negotiation scenario #148, what is the best contracting action?",
+      "newStem": "The source selection schedule is compressed, and leadership suggests skipping key negotiation planning steps to meet award dates. What is the best contracting action?",
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "SCN-149",
+      "sourceBank": "public/scenario-questions.json",
+      "oldStem": "In contract modifications scenario #149, what is the best contracting action?",
+      "newStem": "After award, the requiring activity asks the contractor to start changed work immediately while the pricing and scope determination are still pending. What is the best contracting action?",
+      "correctAnswerChanged": false
+    },
+    {
+      "id": "SCN-150",
+      "sourceBank": "public/scenario-questions.json",
+      "oldStem": "In source selection scenario #150, what is the best contracting action?",
+      "newStem": "Evaluators are prepared to rely on general impressions rather than documented strengths, weaknesses, and risks in the official record. What is the best contracting action?",
+      "correctAnswerChanged": false
+    }
+  ]
+}

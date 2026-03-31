@@ -1,0 +1,3611 @@
+{
+  "generatedAt": "2026-03-26T20:50:19.550Z",
+  "totalQuestionsRepaired": 350,
+  "sourceUsed": "PNG only (PDF not accessible in workspace)",
+  "banks": [
+    "public/questions.json",
+    "public/scenario-questions.json"
+  ],
+  "items": [
+    {
+      "id": "q001",
+      "source": "PNG",
+      "oldBrokenSummary": [
+        "Delay acquisition planning until after solicitation",
+        "Apply FAR 10 procedures with documented rationale",
+        "Use sole-source automatically without justification",
+        "Skip documentation to accelerate award"
+      ],
+      "newSummary": [
+        "Reuse prior-year vendor assumptions without validating current market capability or pricing conditions.",
+        "Document current market research findings under FAR Part 10 before finalizing the acquisition approach.",
+        "Issue the solicitation first and collect market research documentation only if protest risk increases.",
+        "Limit outreach to the incumbent because continuity concerns outweigh pre-award market analysis."
+      ],
+      "correctAnswerChanged": false,
+      "explanationRichRestored": true
+    },
+    {
+      "id": "q002",
+      "source": "PNG",
+      "oldBrokenSummary": [
+        "Skip documentation to accelerate award",
+        "Use sole-source automatically without justification",
+        "Delay acquisition planning until after solicitation",
+        "Apply FAR 6 procedures with documented rationale"
+      ],
+      "newSummary": [
+        "Restrict sources to known contractors first and justify limiting competition after proposal receipt.",
+        "Use urgency as a default basis to narrow competition without preparing the required approval package.",
+        "Adopt a brand-name-only strategy immediately and defer the justification until contract administration.",
+        "Promote full and open competition and document any authorized exception before award under FAR Part 6."
+      ],
+      "correctAnswerChanged": false,
+      "explanationRichRestored": true
+    },
+    {
+      "id": "q003",
+      "source": "PNG",
+      "oldBrokenSummary": [
+        "Delay acquisition planning until after solicitation",
+        "Apply FAR 13 procedures with documented rationale",
+        "Use sole-source automatically without justification",
+        "Skip documentation to accelerate award"
+      ],
+      "newSummary": [
+        "Use simplified procedures above applicable thresholds when mission timelines are compressed.",
+        "Apply FAR Part 13 thresholds, solicitation methods, and documentation requirements before award.",
+        "Solicit one vendor and complete price reasonableness documentation after performance starts.",
+        "Bundle unrelated requirements solely to keep the buy inside a preferred simplified path."
+      ],
+      "correctAnswerChanged": false,
+      "explanationRichRestored": true
+    },
+    {
+      "id": "q004",
+      "source": "PNG",
+      "oldBrokenSummary": [
+        "Use sole-source automatically without justification",
+        "Apply FAR 15 procedures with documented rationale",
+        "Delay acquisition planning until after solicitation",
+        "Skip documentation to accelerate award"
+      ],
+      "newSummary": [
+        "Begin discussions before finalizing evaluation factors and competitive-range documentation.",
+        "Establish and follow FAR Part 15 evaluation, discussion, and award documentation procedures.",
+        "Select the lowest-priced offer without documenting how non-price factors were applied.",
+        "Share one offeror’s pricing position with another to accelerate final proposal revisions."
+      ],
+      "correctAnswerChanged": false,
+      "explanationRichRestored": true
+    },
+    {
+      "id": "q005",
+      "source": "PNG",
+      "oldBrokenSummary": [
+        "Apply FAR 43 procedures with documented rationale",
+        "Skip documentation to accelerate award",
+        "Delay acquisition planning until after solicitation",
+        "Use sole-source automatically without justification"
+      ],
+      "newSummary": [
+        "Use FAR Part 43 modification authority and document scope, funding, and pricing before directing work.",
+        "Direct out-of-scope work first and negotiate the modification terms after contractor performance begins.",
+        "Use unilateral administrative-change authority for substantive scope expansion without bilateral agreement.",
+        "Treat all post-award changes as in-scope whenever schedule urgency is mission critical."
+      ],
+      "correctAnswerChanged": false,
+      "explanationRichRestored": true
+    },
+    {
+      "id": "q006",
+      "source": "PNG",
+      "oldBrokenSummary": [
+        "Delay acquisition planning until after solicitation",
+        "Use sole-source automatically without justification",
+        "Skip documentation to accelerate award",
+        "Apply FAR 15.3 procedures with documented rationale"
+      ],
+      "newSummary": [
+        "Adjust evaluation weighting during source selection to reflect evolving stakeholder preferences.",
+        "Rely on undocumented evaluator impressions instead of recording strengths, weaknesses, and risks.",
+        "Record only final ratings and omit narrative tradeoff analysis between leading proposals.",
+        "Document evaluation findings and tradeoff rationale consistent with FAR 15.3 before award."
+      ],
+      "correctAnswerChanged": false,
+      "explanationRichRestored": true
+    },
+    {
+      "id": "q007",
+      "source": "PNG",
+      "oldBrokenSummary": [
+        "Delay acquisition planning until after solicitation",
+        "Skip documentation to accelerate award",
+        "Apply FAR 12 procedures with documented rationale",
+        "Use sole-source automatically without justification"
+      ],
+      "newSummary": [
+        "Apply government-unique clauses by default without checking customary commercial practice.",
+        "Use commercial-item procedures while requiring unique redesign elements not sold commercially.",
+        "Validate commercial-item applicability and apply FAR Part 12 procedures using market-based terms.",
+        "Rely only on internal cost estimates instead of market comparability for commercial pricing."
+      ],
+      "correctAnswerChanged": false,
+      "explanationRichRestored": true
+    },
+    {
+      "id": "q008",
+      "source": "PNG",
+      "oldBrokenSummary": [
+        "Apply FAR 16 procedures with documented rationale",
+        "Use sole-source automatically without justification",
+        "Delay acquisition planning until after solicitation",
+        "Skip documentation to accelerate award"
+      ],
+      "newSummary": [
+        "Select the contract type under FAR Part 16 based on requirement uncertainty and risk allocation.",
+        "Choose firm-fixed-price for unstable requirements mainly to reduce administrative workload.",
+        "Use cost-reimbursement before confirming accounting adequacy and surveillance capability.",
+        "Reuse the prior contract type by default even when technical and cost risk changed materially."
+      ],
+      "correctAnswerChanged": false,
+      "explanationRichRestored": true
+    },
+    {
+      "id": "q009",
+      "source": "PNG",
+      "oldBrokenSummary": [
+        "Apply FAR 10 procedures with documented rationale",
+        "Skip documentation to accelerate award",
+        "Use sole-source automatically without justification",
+        "Delay acquisition planning until after solicitation"
+      ],
+      "newSummary": [
+        "Document current market research findings under FAR Part 10 before finalizing the acquisition approach.",
+        "Reuse prior-year vendor assumptions without validating current market capability or pricing conditions.",
+        "Issue the solicitation first and collect market research documentation only if protest risk increases.",
+        "Limit outreach to the incumbent because continuity concerns outweigh pre-award market analysis."
+      ],
+      "correctAnswerChanged": false,
+      "explanationRichRestored": true
+    },
+    {
+      "id": "q010",
+      "source": "PNG",
+      "oldBrokenSummary": [
+        "Delay acquisition planning until after solicitation",
+        "Use sole-source automatically without justification",
+        "Skip documentation to accelerate award",
+        "Apply FAR 6 procedures with documented rationale"
+      ],
+      "newSummary": [
+        "Restrict sources to known contractors first and justify limiting competition after proposal receipt.",
+        "Use urgency as a default basis to narrow competition without preparing the required approval package.",
+        "Adopt a brand-name-only strategy immediately and defer the justification until contract administration.",
+        "Promote full and open competition and document any authorized exception before award under FAR Part 6."
+      ],
+      "correctAnswerChanged": false,
+      "explanationRichRestored": true
+    },
+    {
+      "id": "q011",
+      "source": "PNG",
+      "oldBrokenSummary": [
+        "Apply FAR 13 procedures with documented rationale",
+        "Skip documentation to accelerate award",
+        "Use sole-source automatically without justification",
+        "Delay acquisition planning until after solicitation"
+      ],
+      "newSummary": [
+        "Apply FAR Part 13 thresholds, solicitation methods, and documentation requirements before award.",
+        "Use simplified procedures above applicable thresholds when mission timelines are compressed.",
+        "Solicit one vendor and complete price reasonableness documentation after performance starts.",
+        "Bundle unrelated requirements solely to keep the buy inside a preferred simplified path."
+      ],
+      "correctAnswerChanged": false,
+      "explanationRichRestored": true
+    },
+    {
+      "id": "q012",
+      "source": "PNG",
+      "oldBrokenSummary": [
+        "Apply FAR 15 procedures with documented rationale",
+        "Use sole-source automatically without justification",
+        "Skip documentation to accelerate award",
+        "Delay acquisition planning until after solicitation"
+      ],
+      "newSummary": [
+        "Establish and follow FAR Part 15 evaluation, discussion, and award documentation procedures.",
+        "Begin discussions before finalizing evaluation factors and competitive-range documentation.",
+        "Select the lowest-priced offer without documenting how non-price factors were applied.",
+        "Share one offeror’s pricing position with another to accelerate final proposal revisions."
+      ],
+      "correctAnswerChanged": false,
+      "explanationRichRestored": true
+    },
+    {
+      "id": "q013",
+      "source": "PNG",
+      "oldBrokenSummary": [
+        "Delay acquisition planning until after solicitation",
+        "Apply FAR 43 procedures with documented rationale",
+        "Skip documentation to accelerate award",
+        "Use sole-source automatically without justification"
+      ],
+      "newSummary": [
+        "Direct out-of-scope work first and negotiate the modification terms after contractor performance begins.",
+        "Use FAR Part 43 modification authority and document scope, funding, and pricing before directing work.",
+        "Use unilateral administrative-change authority for substantive scope expansion without bilateral agreement.",
+        "Treat all post-award changes as in-scope whenever schedule urgency is mission critical."
+      ],
+      "correctAnswerChanged": false,
+      "explanationRichRestored": true
+    },
+    {
+      "id": "q014",
+      "source": "PNG",
+      "oldBrokenSummary": [
+        "Skip documentation to accelerate award",
+        "Delay acquisition planning until after solicitation",
+        "Use sole-source automatically without justification",
+        "Apply FAR 15.3 procedures with documented rationale"
+      ],
+      "newSummary": [
+        "Adjust evaluation weighting during source selection to reflect evolving stakeholder preferences.",
+        "Rely on undocumented evaluator impressions instead of recording strengths, weaknesses, and risks.",
+        "Record only final ratings and omit narrative tradeoff analysis between leading proposals.",
+        "Document evaluation findings and tradeoff rationale consistent with FAR 15.3 before award."
+      ],
+      "correctAnswerChanged": false,
+      "explanationRichRestored": true
+    },
+    {
+      "id": "q015",
+      "source": "PNG",
+      "oldBrokenSummary": [
+        "Delay acquisition planning until after solicitation",
+        "Use sole-source automatically without justification",
+        "Apply FAR 12 procedures with documented rationale",
+        "Skip documentation to accelerate award"
+      ],
+      "newSummary": [
+        "Apply government-unique clauses by default without checking customary commercial practice.",
+        "Use commercial-item procedures while requiring unique redesign elements not sold commercially.",
+        "Validate commercial-item applicability and apply FAR Part 12 procedures using market-based terms.",
+        "Rely only on internal cost estimates instead of market comparability for commercial pricing."
+      ],
+      "correctAnswerChanged": false,
+      "explanationRichRestored": true
+    },
+    {
+      "id": "q016",
+      "source": "PNG",
+      "oldBrokenSummary": [
+        "Apply FAR 16 procedures with documented rationale",
+        "Delay acquisition planning until after solicitation",
+        "Skip documentation to accelerate award",
+        "Use sole-source automatically without justification"
+      ],
+      "newSummary": [
+        "Select the contract type under FAR Part 16 based on requirement uncertainty and risk allocation.",
+        "Choose firm-fixed-price for unstable requirements mainly to reduce administrative workload.",
+        "Use cost-reimbursement before confirming accounting adequacy and surveillance capability.",
+        "Reuse the prior contract type by default even when technical and cost risk changed materially."
+      ],
+      "correctAnswerChanged": false,
+      "explanationRichRestored": true
+    },
+    {
+      "id": "q017",
+      "source": "PNG",
+      "oldBrokenSummary": [
+        "Apply FAR 10 procedures with documented rationale",
+        "Use sole-source automatically without justification",
+        "Skip documentation to accelerate award",
+        "Delay acquisition planning until after solicitation"
+      ],
+      "newSummary": [
+        "Document current market research findings under FAR Part 10 before finalizing the acquisition approach.",
+        "Reuse prior-year vendor assumptions without validating current market capability or pricing conditions.",
+        "Issue the solicitation first and collect market research documentation only if protest risk increases.",
+        "Limit outreach to the incumbent because continuity concerns outweigh pre-award market analysis."
+      ],
+      "correctAnswerChanged": false,
+      "explanationRichRestored": true
+    },
+    {
+      "id": "q018",
+      "source": "PNG",
+      "oldBrokenSummary": [
+        "Use sole-source automatically without justification",
+        "Delay acquisition planning until after solicitation",
+        "Apply FAR 6 procedures with documented rationale",
+        "Skip documentation to accelerate award"
+      ],
+      "newSummary": [
+        "Restrict sources to known contractors first and justify limiting competition after proposal receipt.",
+        "Use urgency as a default basis to narrow competition without preparing the required approval package.",
+        "Promote full and open competition and document any authorized exception before award under FAR Part 6.",
+        "Adopt a brand-name-only strategy immediately and defer the justification until contract administration."
+      ],
+      "correctAnswerChanged": false,
+      "explanationRichRestored": true
+    },
+    {
+      "id": "q019",
+      "source": "PNG",
+      "oldBrokenSummary": [
+        "Skip documentation to accelerate award",
+        "Delay acquisition planning until after solicitation",
+        "Use sole-source automatically without justification",
+        "Apply FAR 13 procedures with documented rationale"
+      ],
+      "newSummary": [
+        "Use simplified procedures above applicable thresholds when mission timelines are compressed.",
+        "Solicit one vendor and complete price reasonableness documentation after performance starts.",
+        "Bundle unrelated requirements solely to keep the buy inside a preferred simplified path.",
+        "Apply FAR Part 13 thresholds, solicitation methods, and documentation requirements before award."
+      ],
+      "correctAnswerChanged": false,
+      "explanationRichRestored": true
+    },
+    {
+      "id": "q020",
+      "source": "PNG",
+      "oldBrokenSummary": [
+        "Use sole-source automatically without justification",
+        "Apply FAR 15 procedures with documented rationale",
+        "Delay acquisition planning until after solicitation",
+        "Skip documentation to accelerate award"
+      ],
+      "newSummary": [
+        "Begin discussions before finalizing evaluation factors and competitive-range documentation.",
+        "Establish and follow FAR Part 15 evaluation, discussion, and award documentation procedures.",
+        "Select the lowest-priced offer without documenting how non-price factors were applied.",
+        "Share one offeror’s pricing position with another to accelerate final proposal revisions."
+      ],
+      "correctAnswerChanged": false,
+      "explanationRichRestored": true
+    },
+    {
+      "id": "q021",
+      "source": "PNG",
+      "oldBrokenSummary": [
+        "Apply FAR 43 procedures with documented rationale",
+        "Use sole-source automatically without justification",
+        "Delay acquisition planning until after solicitation",
+        "Skip documentation to accelerate award"
+      ],
+      "newSummary": [
+        "Use FAR Part 43 modification authority and document scope, funding, and pricing before directing work.",
+        "Direct out-of-scope work first and negotiate the modification terms after contractor performance begins.",
+        "Use unilateral administrative-change authority for substantive scope expansion without bilateral agreement.",
+        "Treat all post-award changes as in-scope whenever schedule urgency is mission critical."
+      ],
+      "correctAnswerChanged": false,
+      "explanationRichRestored": true
+    },
+    {
+      "id": "q022",
+      "source": "PNG",
+      "oldBrokenSummary": [
+        "Delay acquisition planning until after solicitation",
+        "Use sole-source automatically without justification",
+        "Apply FAR 15.3 procedures with documented rationale",
+        "Skip documentation to accelerate award"
+      ],
+      "newSummary": [
+        "Adjust evaluation weighting during source selection to reflect evolving stakeholder preferences.",
+        "Rely on undocumented evaluator impressions instead of recording strengths, weaknesses, and risks.",
+        "Document evaluation findings and tradeoff rationale consistent with FAR 15.3 before award.",
+        "Record only final ratings and omit narrative tradeoff analysis between leading proposals."
+      ],
+      "correctAnswerChanged": false,
+      "explanationRichRestored": true
+    },
+    {
+      "id": "q023",
+      "source": "PNG",
+      "oldBrokenSummary": [
+        "Skip documentation to accelerate award",
+        "Delay acquisition planning until after solicitation",
+        "Apply FAR 12 procedures with documented rationale",
+        "Use sole-source automatically without justification"
+      ],
+      "newSummary": [
+        "Apply government-unique clauses by default without checking customary commercial practice.",
+        "Use commercial-item procedures while requiring unique redesign elements not sold commercially.",
+        "Validate commercial-item applicability and apply FAR Part 12 procedures using market-based terms.",
+        "Rely only on internal cost estimates instead of market comparability for commercial pricing."
+      ],
+      "correctAnswerChanged": false,
+      "explanationRichRestored": true
+    },
+    {
+      "id": "q024",
+      "source": "PNG",
+      "oldBrokenSummary": [
+        "Skip documentation to accelerate award",
+        "Apply FAR 16 procedures with documented rationale",
+        "Use sole-source automatically without justification",
+        "Delay acquisition planning until after solicitation"
+      ],
+      "newSummary": [
+        "Choose firm-fixed-price for unstable requirements mainly to reduce administrative workload.",
+        "Select the contract type under FAR Part 16 based on requirement uncertainty and risk allocation.",
+        "Use cost-reimbursement before confirming accounting adequacy and surveillance capability.",
+        "Reuse the prior contract type by default even when technical and cost risk changed materially."
+      ],
+      "correctAnswerChanged": false,
+      "explanationRichRestored": true
+    },
+    {
+      "id": "q025",
+      "source": "PNG",
+      "oldBrokenSummary": [
+        "Skip documentation to accelerate award",
+        "Use sole-source automatically without justification",
+        "Apply FAR 10 procedures with documented rationale",
+        "Delay acquisition planning until after solicitation"
+      ],
+      "newSummary": [
+        "Reuse prior-year vendor assumptions without validating current market capability or pricing conditions.",
+        "Issue the solicitation first and collect market research documentation only if protest risk increases.",
+        "Document current market research findings under FAR Part 10 before finalizing the acquisition approach.",
+        "Limit outreach to the incumbent because continuity concerns outweigh pre-award market analysis."
+      ],
+      "correctAnswerChanged": false,
+      "explanationRichRestored": true
+    },
+    {
+      "id": "q026",
+      "source": "PNG",
+      "oldBrokenSummary": [
+        "Delay acquisition planning until after solicitation",
+        "Apply FAR 6 procedures with documented rationale",
+        "Use sole-source automatically without justification",
+        "Skip documentation to accelerate award"
+      ],
+      "newSummary": [
+        "Restrict sources to known contractors first and justify limiting competition after proposal receipt.",
+        "Promote full and open competition and document any authorized exception before award under FAR Part 6.",
+        "Use urgency as a default basis to narrow competition without preparing the required approval package.",
+        "Adopt a brand-name-only strategy immediately and defer the justification until contract administration."
+      ],
+      "correctAnswerChanged": false,
+      "explanationRichRestored": true
+    },
+    {
+      "id": "q027",
+      "source": "PNG",
+      "oldBrokenSummary": [
+        "Apply FAR 13 procedures with documented rationale",
+        "Skip documentation to accelerate award",
+        "Use sole-source automatically without justification",
+        "Delay acquisition planning until after solicitation"
+      ],
+      "newSummary": [
+        "Apply FAR Part 13 thresholds, solicitation methods, and documentation requirements before award.",
+        "Use simplified procedures above applicable thresholds when mission timelines are compressed.",
+        "Solicit one vendor and complete price reasonableness documentation after performance starts.",
+        "Bundle unrelated requirements solely to keep the buy inside a preferred simplified path."
+      ],
+      "correctAnswerChanged": false,
+      "explanationRichRestored": true
+    },
+    {
+      "id": "q028",
+      "source": "PNG",
+      "oldBrokenSummary": [
+        "Skip documentation to accelerate award",
+        "Delay acquisition planning until after solicitation",
+        "Use sole-source automatically without justification",
+        "Apply FAR 15 procedures with documented rationale"
+      ],
+      "newSummary": [
+        "Begin discussions before finalizing evaluation factors and competitive-range documentation.",
+        "Select the lowest-priced offer without documenting how non-price factors were applied.",
+        "Share one offeror’s pricing position with another to accelerate final proposal revisions.",
+        "Establish and follow FAR Part 15 evaluation, discussion, and award documentation procedures."
+      ],
+      "correctAnswerChanged": false,
+      "explanationRichRestored": true
+    },
+    {
+      "id": "q029",
+      "source": "PNG",
+      "oldBrokenSummary": [
+        "Delay acquisition planning until after solicitation",
+        "Use sole-source automatically without justification",
+        "Skip documentation to accelerate award",
+        "Apply FAR 43 procedures with documented rationale"
+      ],
+      "newSummary": [
+        "Direct out-of-scope work first and negotiate the modification terms after contractor performance begins.",
+        "Use unilateral administrative-change authority for substantive scope expansion without bilateral agreement.",
+        "Treat all post-award changes as in-scope whenever schedule urgency is mission critical.",
+        "Use FAR Part 43 modification authority and document scope, funding, and pricing before directing work."
+      ],
+      "correctAnswerChanged": false,
+      "explanationRichRestored": true
+    },
+    {
+      "id": "q030",
+      "source": "PNG",
+      "oldBrokenSummary": [
+        "Skip documentation to accelerate award",
+        "Apply FAR 15.3 procedures with documented rationale",
+        "Delay acquisition planning until after solicitation",
+        "Use sole-source automatically without justification"
+      ],
+      "newSummary": [
+        "Adjust evaluation weighting during source selection to reflect evolving stakeholder preferences.",
+        "Document evaluation findings and tradeoff rationale consistent with FAR 15.3 before award.",
+        "Rely on undocumented evaluator impressions instead of recording strengths, weaknesses, and risks.",
+        "Record only final ratings and omit narrative tradeoff analysis between leading proposals."
+      ],
+      "correctAnswerChanged": false,
+      "explanationRichRestored": true
+    },
+    {
+      "id": "q031",
+      "source": "PNG",
+      "oldBrokenSummary": [
+        "Use sole-source automatically without justification",
+        "Delay acquisition planning until after solicitation",
+        "Skip documentation to accelerate award",
+        "Apply FAR 12 procedures with documented rationale"
+      ],
+      "newSummary": [
+        "Apply government-unique clauses by default without checking customary commercial practice.",
+        "Use commercial-item procedures while requiring unique redesign elements not sold commercially.",
+        "Rely only on internal cost estimates instead of market comparability for commercial pricing.",
+        "Validate commercial-item applicability and apply FAR Part 12 procedures using market-based terms."
+      ],
+      "correctAnswerChanged": false,
+      "explanationRichRestored": true
+    },
+    {
+      "id": "q032",
+      "source": "PNG",
+      "oldBrokenSummary": [
+        "Skip documentation to accelerate award",
+        "Use sole-source automatically without justification",
+        "Delay acquisition planning until after solicitation",
+        "Apply FAR 16 procedures with documented rationale"
+      ],
+      "newSummary": [
+        "Choose firm-fixed-price for unstable requirements mainly to reduce administrative workload.",
+        "Use cost-reimbursement before confirming accounting adequacy and surveillance capability.",
+        "Reuse the prior contract type by default even when technical and cost risk changed materially.",
+        "Select the contract type under FAR Part 16 based on requirement uncertainty and risk allocation."
+      ],
+      "correctAnswerChanged": false,
+      "explanationRichRestored": true
+    },
+    {
+      "id": "q033",
+      "source": "PNG",
+      "oldBrokenSummary": [
+        "Delay acquisition planning until after solicitation",
+        "Apply FAR 10 procedures with documented rationale",
+        "Use sole-source automatically without justification",
+        "Skip documentation to accelerate award"
+      ],
+      "newSummary": [
+        "Reuse prior-year vendor assumptions without validating current market capability or pricing conditions.",
+        "Document current market research findings under FAR Part 10 before finalizing the acquisition approach.",
+        "Issue the solicitation first and collect market research documentation only if protest risk increases.",
+        "Limit outreach to the incumbent because continuity concerns outweigh pre-award market analysis."
+      ],
+      "correctAnswerChanged": false,
+      "explanationRichRestored": true
+    },
+    {
+      "id": "q034",
+      "source": "PNG",
+      "oldBrokenSummary": [
+        "Skip documentation to accelerate award",
+        "Apply FAR 6 procedures with documented rationale",
+        "Delay acquisition planning until after solicitation",
+        "Use sole-source automatically without justification"
+      ],
+      "newSummary": [
+        "Restrict sources to known contractors first and justify limiting competition after proposal receipt.",
+        "Promote full and open competition and document any authorized exception before award under FAR Part 6.",
+        "Use urgency as a default basis to narrow competition without preparing the required approval package.",
+        "Adopt a brand-name-only strategy immediately and defer the justification until contract administration."
+      ],
+      "correctAnswerChanged": false,
+      "explanationRichRestored": true
+    },
+    {
+      "id": "q035",
+      "source": "PNG",
+      "oldBrokenSummary": [
+        "Delay acquisition planning until after solicitation",
+        "Skip documentation to accelerate award",
+        "Apply FAR 13 procedures with documented rationale",
+        "Use sole-source automatically without justification"
+      ],
+      "newSummary": [
+        "Use simplified procedures above applicable thresholds when mission timelines are compressed.",
+        "Solicit one vendor and complete price reasonableness documentation after performance starts.",
+        "Apply FAR Part 13 thresholds, solicitation methods, and documentation requirements before award.",
+        "Bundle unrelated requirements solely to keep the buy inside a preferred simplified path."
+      ],
+      "correctAnswerChanged": false,
+      "explanationRichRestored": true
+    },
+    {
+      "id": "q036",
+      "source": "PNG",
+      "oldBrokenSummary": [
+        "Skip documentation to accelerate award",
+        "Delay acquisition planning until after solicitation",
+        "Apply FAR 15 procedures with documented rationale",
+        "Use sole-source automatically without justification"
+      ],
+      "newSummary": [
+        "Begin discussions before finalizing evaluation factors and competitive-range documentation.",
+        "Select the lowest-priced offer without documenting how non-price factors were applied.",
+        "Establish and follow FAR Part 15 evaluation, discussion, and award documentation procedures.",
+        "Share one offeror’s pricing position with another to accelerate final proposal revisions."
+      ],
+      "correctAnswerChanged": false,
+      "explanationRichRestored": true
+    },
+    {
+      "id": "q037",
+      "source": "PNG",
+      "oldBrokenSummary": [
+        "Skip documentation to accelerate award",
+        "Delay acquisition planning until after solicitation",
+        "Use sole-source automatically without justification",
+        "Apply FAR 43 procedures with documented rationale"
+      ],
+      "newSummary": [
+        "Direct out-of-scope work first and negotiate the modification terms after contractor performance begins.",
+        "Use unilateral administrative-change authority for substantive scope expansion without bilateral agreement.",
+        "Treat all post-award changes as in-scope whenever schedule urgency is mission critical.",
+        "Use FAR Part 43 modification authority and document scope, funding, and pricing before directing work."
+      ],
+      "correctAnswerChanged": false,
+      "explanationRichRestored": true
+    },
+    {
+      "id": "q038",
+      "source": "PNG",
+      "oldBrokenSummary": [
+        "Use sole-source automatically without justification",
+        "Apply FAR 15.3 procedures with documented rationale",
+        "Skip documentation to accelerate award",
+        "Delay acquisition planning until after solicitation"
+      ],
+      "newSummary": [
+        "Adjust evaluation weighting during source selection to reflect evolving stakeholder preferences.",
+        "Document evaluation findings and tradeoff rationale consistent with FAR 15.3 before award.",
+        "Rely on undocumented evaluator impressions instead of recording strengths, weaknesses, and risks.",
+        "Record only final ratings and omit narrative tradeoff analysis between leading proposals."
+      ],
+      "correctAnswerChanged": false,
+      "explanationRichRestored": true
+    },
+    {
+      "id": "q039",
+      "source": "PNG",
+      "oldBrokenSummary": [
+        "Apply FAR 12 procedures with documented rationale",
+        "Use sole-source automatically without justification",
+        "Delay acquisition planning until after solicitation",
+        "Skip documentation to accelerate award"
+      ],
+      "newSummary": [
+        "Validate commercial-item applicability and apply FAR Part 12 procedures using market-based terms.",
+        "Apply government-unique clauses by default without checking customary commercial practice.",
+        "Use commercial-item procedures while requiring unique redesign elements not sold commercially.",
+        "Rely only on internal cost estimates instead of market comparability for commercial pricing."
+      ],
+      "correctAnswerChanged": false,
+      "explanationRichRestored": true
+    },
+    {
+      "id": "q040",
+      "source": "PNG",
+      "oldBrokenSummary": [
+        "Skip documentation to accelerate award",
+        "Apply FAR 16 procedures with documented rationale",
+        "Use sole-source automatically without justification",
+        "Delay acquisition planning until after solicitation"
+      ],
+      "newSummary": [
+        "Choose firm-fixed-price for unstable requirements mainly to reduce administrative workload.",
+        "Select the contract type under FAR Part 16 based on requirement uncertainty and risk allocation.",
+        "Use cost-reimbursement before confirming accounting adequacy and surveillance capability.",
+        "Reuse the prior contract type by default even when technical and cost risk changed materially."
+      ],
+      "correctAnswerChanged": false,
+      "explanationRichRestored": true
+    },
+    {
+      "id": "q041",
+      "source": "PNG",
+      "oldBrokenSummary": [
+        "Use sole-source automatically without justification",
+        "Apply FAR 10 procedures with documented rationale",
+        "Skip documentation to accelerate award",
+        "Delay acquisition planning until after solicitation"
+      ],
+      "newSummary": [
+        "Reuse prior-year vendor assumptions without validating current market capability or pricing conditions.",
+        "Document current market research findings under FAR Part 10 before finalizing the acquisition approach.",
+        "Issue the solicitation first and collect market research documentation only if protest risk increases.",
+        "Limit outreach to the incumbent because continuity concerns outweigh pre-award market analysis."
+      ],
+      "correctAnswerChanged": false,
+      "explanationRichRestored": true
+    },
+    {
+      "id": "q042",
+      "source": "PNG",
+      "oldBrokenSummary": [
+        "Use sole-source automatically without justification",
+        "Skip documentation to accelerate award",
+        "Delay acquisition planning until after solicitation",
+        "Apply FAR 6 procedures with documented rationale"
+      ],
+      "newSummary": [
+        "Restrict sources to known contractors first and justify limiting competition after proposal receipt.",
+        "Use urgency as a default basis to narrow competition without preparing the required approval package.",
+        "Adopt a brand-name-only strategy immediately and defer the justification until contract administration.",
+        "Promote full and open competition and document any authorized exception before award under FAR Part 6."
+      ],
+      "correctAnswerChanged": false,
+      "explanationRichRestored": true
+    },
+    {
+      "id": "q043",
+      "source": "PNG",
+      "oldBrokenSummary": [
+        "Use sole-source automatically without justification",
+        "Delay acquisition planning until after solicitation",
+        "Skip documentation to accelerate award",
+        "Apply FAR 13 procedures with documented rationale"
+      ],
+      "newSummary": [
+        "Use simplified procedures above applicable thresholds when mission timelines are compressed.",
+        "Solicit one vendor and complete price reasonableness documentation after performance starts.",
+        "Bundle unrelated requirements solely to keep the buy inside a preferred simplified path.",
+        "Apply FAR Part 13 thresholds, solicitation methods, and documentation requirements before award."
+      ],
+      "correctAnswerChanged": false,
+      "explanationRichRestored": true
+    },
+    {
+      "id": "q044",
+      "source": "PNG",
+      "oldBrokenSummary": [
+        "Skip documentation to accelerate award",
+        "Apply FAR 15 procedures with documented rationale",
+        "Use sole-source automatically without justification",
+        "Delay acquisition planning until after solicitation"
+      ],
+      "newSummary": [
+        "Begin discussions before finalizing evaluation factors and competitive-range documentation.",
+        "Establish and follow FAR Part 15 evaluation, discussion, and award documentation procedures.",
+        "Select the lowest-priced offer without documenting how non-price factors were applied.",
+        "Share one offeror’s pricing position with another to accelerate final proposal revisions."
+      ],
+      "correctAnswerChanged": false,
+      "explanationRichRestored": true
+    },
+    {
+      "id": "q045",
+      "source": "PNG",
+      "oldBrokenSummary": [
+        "Apply FAR 43 procedures with documented rationale",
+        "Delay acquisition planning until after solicitation",
+        "Skip documentation to accelerate award",
+        "Use sole-source automatically without justification"
+      ],
+      "newSummary": [
+        "Use FAR Part 43 modification authority and document scope, funding, and pricing before directing work.",
+        "Direct out-of-scope work first and negotiate the modification terms after contractor performance begins.",
+        "Use unilateral administrative-change authority for substantive scope expansion without bilateral agreement.",
+        "Treat all post-award changes as in-scope whenever schedule urgency is mission critical."
+      ],
+      "correctAnswerChanged": false,
+      "explanationRichRestored": true
+    },
+    {
+      "id": "q046",
+      "source": "PNG",
+      "oldBrokenSummary": [
+        "Use sole-source automatically without justification",
+        "Delay acquisition planning until after solicitation",
+        "Skip documentation to accelerate award",
+        "Apply FAR 15.3 procedures with documented rationale"
+      ],
+      "newSummary": [
+        "Adjust evaluation weighting during source selection to reflect evolving stakeholder preferences.",
+        "Rely on undocumented evaluator impressions instead of recording strengths, weaknesses, and risks.",
+        "Record only final ratings and omit narrative tradeoff analysis between leading proposals.",
+        "Document evaluation findings and tradeoff rationale consistent with FAR 15.3 before award."
+      ],
+      "correctAnswerChanged": false,
+      "explanationRichRestored": true
+    },
+    {
+      "id": "q047",
+      "source": "PNG",
+      "oldBrokenSummary": [
+        "Delay acquisition planning until after solicitation",
+        "Skip documentation to accelerate award",
+        "Apply FAR 12 procedures with documented rationale",
+        "Use sole-source automatically without justification"
+      ],
+      "newSummary": [
+        "Apply government-unique clauses by default without checking customary commercial practice.",
+        "Use commercial-item procedures while requiring unique redesign elements not sold commercially.",
+        "Validate commercial-item applicability and apply FAR Part 12 procedures using market-based terms.",
+        "Rely only on internal cost estimates instead of market comparability for commercial pricing."
+      ],
+      "correctAnswerChanged": false,
+      "explanationRichRestored": true
+    },
+    {
+      "id": "q048",
+      "source": "PNG",
+      "oldBrokenSummary": [
+        "Delay acquisition planning until after solicitation",
+        "Skip documentation to accelerate award",
+        "Apply FAR 16 procedures with documented rationale",
+        "Use sole-source automatically without justification"
+      ],
+      "newSummary": [
+        "Choose firm-fixed-price for unstable requirements mainly to reduce administrative workload.",
+        "Use cost-reimbursement before confirming accounting adequacy and surveillance capability.",
+        "Select the contract type under FAR Part 16 based on requirement uncertainty and risk allocation.",
+        "Reuse the prior contract type by default even when technical and cost risk changed materially."
+      ],
+      "correctAnswerChanged": false,
+      "explanationRichRestored": true
+    },
+    {
+      "id": "q049",
+      "source": "PNG",
+      "oldBrokenSummary": [
+        "Delay acquisition planning until after solicitation",
+        "Use sole-source automatically without justification",
+        "Skip documentation to accelerate award",
+        "Apply FAR 10 procedures with documented rationale"
+      ],
+      "newSummary": [
+        "Reuse prior-year vendor assumptions without validating current market capability or pricing conditions.",
+        "Issue the solicitation first and collect market research documentation only if protest risk increases.",
+        "Limit outreach to the incumbent because continuity concerns outweigh pre-award market analysis.",
+        "Document current market research findings under FAR Part 10 before finalizing the acquisition approach."
+      ],
+      "correctAnswerChanged": false,
+      "explanationRichRestored": true
+    },
+    {
+      "id": "q050",
+      "source": "PNG",
+      "oldBrokenSummary": [
+        "Apply FAR 6 procedures with documented rationale",
+        "Use sole-source automatically without justification",
+        "Skip documentation to accelerate award",
+        "Delay acquisition planning until after solicitation"
+      ],
+      "newSummary": [
+        "Promote full and open competition and document any authorized exception before award under FAR Part 6.",
+        "Restrict sources to known contractors first and justify limiting competition after proposal receipt.",
+        "Use urgency as a default basis to narrow competition without preparing the required approval package.",
+        "Adopt a brand-name-only strategy immediately and defer the justification until contract administration."
+      ],
+      "correctAnswerChanged": false,
+      "explanationRichRestored": true
+    },
+    {
+      "id": "q051",
+      "source": "PNG",
+      "oldBrokenSummary": [
+        "Delay acquisition planning until after solicitation",
+        "Apply FAR 13 procedures with documented rationale",
+        "Use sole-source automatically without justification",
+        "Skip documentation to accelerate award"
+      ],
+      "newSummary": [
+        "Use simplified procedures above applicable thresholds when mission timelines are compressed.",
+        "Apply FAR Part 13 thresholds, solicitation methods, and documentation requirements before award.",
+        "Solicit one vendor and complete price reasonableness documentation after performance starts.",
+        "Bundle unrelated requirements solely to keep the buy inside a preferred simplified path."
+      ],
+      "correctAnswerChanged": false,
+      "explanationRichRestored": true
+    },
+    {
+      "id": "q052",
+      "source": "PNG",
+      "oldBrokenSummary": [
+        "Delay acquisition planning until after solicitation",
+        "Skip documentation to accelerate award",
+        "Apply FAR 15 procedures with documented rationale",
+        "Use sole-source automatically without justification"
+      ],
+      "newSummary": [
+        "Begin discussions before finalizing evaluation factors and competitive-range documentation.",
+        "Select the lowest-priced offer without documenting how non-price factors were applied.",
+        "Establish and follow FAR Part 15 evaluation, discussion, and award documentation procedures.",
+        "Share one offeror’s pricing position with another to accelerate final proposal revisions."
+      ],
+      "correctAnswerChanged": false,
+      "explanationRichRestored": true
+    },
+    {
+      "id": "q053",
+      "source": "PNG",
+      "oldBrokenSummary": [
+        "Apply FAR 43 procedures with documented rationale",
+        "Use sole-source automatically without justification",
+        "Delay acquisition planning until after solicitation",
+        "Skip documentation to accelerate award"
+      ],
+      "newSummary": [
+        "Use FAR Part 43 modification authority and document scope, funding, and pricing before directing work.",
+        "Direct out-of-scope work first and negotiate the modification terms after contractor performance begins.",
+        "Use unilateral administrative-change authority for substantive scope expansion without bilateral agreement.",
+        "Treat all post-award changes as in-scope whenever schedule urgency is mission critical."
+      ],
+      "correctAnswerChanged": false,
+      "explanationRichRestored": true
+    },
+    {
+      "id": "q054",
+      "source": "PNG",
+      "oldBrokenSummary": [
+        "Apply FAR 15.3 procedures with documented rationale",
+        "Use sole-source automatically without justification",
+        "Delay acquisition planning until after solicitation",
+        "Skip documentation to accelerate award"
+      ],
+      "newSummary": [
+        "Document evaluation findings and tradeoff rationale consistent with FAR 15.3 before award.",
+        "Adjust evaluation weighting during source selection to reflect evolving stakeholder preferences.",
+        "Rely on undocumented evaluator impressions instead of recording strengths, weaknesses, and risks.",
+        "Record only final ratings and omit narrative tradeoff analysis between leading proposals."
+      ],
+      "correctAnswerChanged": false,
+      "explanationRichRestored": true
+    },
+    {
+      "id": "q055",
+      "source": "PNG",
+      "oldBrokenSummary": [
+        "Skip documentation to accelerate award",
+        "Use sole-source automatically without justification",
+        "Delay acquisition planning until after solicitation",
+        "Apply FAR 12 procedures with documented rationale"
+      ],
+      "newSummary": [
+        "Apply government-unique clauses by default without checking customary commercial practice.",
+        "Use commercial-item procedures while requiring unique redesign elements not sold commercially.",
+        "Rely only on internal cost estimates instead of market comparability for commercial pricing.",
+        "Validate commercial-item applicability and apply FAR Part 12 procedures using market-based terms."
+      ],
+      "correctAnswerChanged": false,
+      "explanationRichRestored": true
+    },
+    {
+      "id": "q056",
+      "source": "PNG",
+      "oldBrokenSummary": [
+        "Delay acquisition planning until after solicitation",
+        "Use sole-source automatically without justification",
+        "Skip documentation to accelerate award",
+        "Apply FAR 16 procedures with documented rationale"
+      ],
+      "newSummary": [
+        "Choose firm-fixed-price for unstable requirements mainly to reduce administrative workload.",
+        "Use cost-reimbursement before confirming accounting adequacy and surveillance capability.",
+        "Reuse the prior contract type by default even when technical and cost risk changed materially.",
+        "Select the contract type under FAR Part 16 based on requirement uncertainty and risk allocation."
+      ],
+      "correctAnswerChanged": false,
+      "explanationRichRestored": true
+    },
+    {
+      "id": "q057",
+      "source": "PNG",
+      "oldBrokenSummary": [
+        "Use sole-source automatically without justification",
+        "Delay acquisition planning until after solicitation",
+        "Skip documentation to accelerate award",
+        "Apply FAR 10 procedures with documented rationale"
+      ],
+      "newSummary": [
+        "Reuse prior-year vendor assumptions without validating current market capability or pricing conditions.",
+        "Issue the solicitation first and collect market research documentation only if protest risk increases.",
+        "Limit outreach to the incumbent because continuity concerns outweigh pre-award market analysis.",
+        "Document current market research findings under FAR Part 10 before finalizing the acquisition approach."
+      ],
+      "correctAnswerChanged": false,
+      "explanationRichRestored": true
+    },
+    {
+      "id": "q058",
+      "source": "PNG",
+      "oldBrokenSummary": [
+        "Delay acquisition planning until after solicitation",
+        "Use sole-source automatically without justification",
+        "Apply FAR 6 procedures with documented rationale",
+        "Skip documentation to accelerate award"
+      ],
+      "newSummary": [
+        "Restrict sources to known contractors first and justify limiting competition after proposal receipt.",
+        "Use urgency as a default basis to narrow competition without preparing the required approval package.",
+        "Promote full and open competition and document any authorized exception before award under FAR Part 6.",
+        "Adopt a brand-name-only strategy immediately and defer the justification until contract administration."
+      ],
+      "correctAnswerChanged": false,
+      "explanationRichRestored": true
+    },
+    {
+      "id": "q059",
+      "source": "PNG",
+      "oldBrokenSummary": [
+        "Use sole-source automatically without justification",
+        "Delay acquisition planning until after solicitation",
+        "Apply FAR 13 procedures with documented rationale",
+        "Skip documentation to accelerate award"
+      ],
+      "newSummary": [
+        "Use simplified procedures above applicable thresholds when mission timelines are compressed.",
+        "Solicit one vendor and complete price reasonableness documentation after performance starts.",
+        "Apply FAR Part 13 thresholds, solicitation methods, and documentation requirements before award.",
+        "Bundle unrelated requirements solely to keep the buy inside a preferred simplified path."
+      ],
+      "correctAnswerChanged": false,
+      "explanationRichRestored": true
+    },
+    {
+      "id": "q060",
+      "source": "PNG",
+      "oldBrokenSummary": [
+        "Delay acquisition planning until after solicitation",
+        "Apply FAR 15 procedures with documented rationale",
+        "Skip documentation to accelerate award",
+        "Use sole-source automatically without justification"
+      ],
+      "newSummary": [
+        "Begin discussions before finalizing evaluation factors and competitive-range documentation.",
+        "Establish and follow FAR Part 15 evaluation, discussion, and award documentation procedures.",
+        "Select the lowest-priced offer without documenting how non-price factors were applied.",
+        "Share one offeror’s pricing position with another to accelerate final proposal revisions."
+      ],
+      "correctAnswerChanged": false,
+      "explanationRichRestored": true
+    },
+    {
+      "id": "q061",
+      "source": "PNG",
+      "oldBrokenSummary": [
+        "Skip documentation to accelerate award",
+        "Use sole-source automatically without justification",
+        "Apply FAR 43 procedures with documented rationale",
+        "Delay acquisition planning until after solicitation"
+      ],
+      "newSummary": [
+        "Direct out-of-scope work first and negotiate the modification terms after contractor performance begins.",
+        "Use unilateral administrative-change authority for substantive scope expansion without bilateral agreement.",
+        "Use FAR Part 43 modification authority and document scope, funding, and pricing before directing work.",
+        "Treat all post-award changes as in-scope whenever schedule urgency is mission critical."
+      ],
+      "correctAnswerChanged": false,
+      "explanationRichRestored": true
+    },
+    {
+      "id": "q062",
+      "source": "PNG",
+      "oldBrokenSummary": [
+        "Delay acquisition planning until after solicitation",
+        "Use sole-source automatically without justification",
+        "Apply FAR 15.3 procedures with documented rationale",
+        "Skip documentation to accelerate award"
+      ],
+      "newSummary": [
+        "Adjust evaluation weighting during source selection to reflect evolving stakeholder preferences.",
+        "Rely on undocumented evaluator impressions instead of recording strengths, weaknesses, and risks.",
+        "Document evaluation findings and tradeoff rationale consistent with FAR 15.3 before award.",
+        "Record only final ratings and omit narrative tradeoff analysis between leading proposals."
+      ],
+      "correctAnswerChanged": false,
+      "explanationRichRestored": true
+    },
+    {
+      "id": "q063",
+      "source": "PNG",
+      "oldBrokenSummary": [
+        "Apply FAR 12 procedures with documented rationale",
+        "Use sole-source automatically without justification",
+        "Skip documentation to accelerate award",
+        "Delay acquisition planning until after solicitation"
+      ],
+      "newSummary": [
+        "Validate commercial-item applicability and apply FAR Part 12 procedures using market-based terms.",
+        "Apply government-unique clauses by default without checking customary commercial practice.",
+        "Use commercial-item procedures while requiring unique redesign elements not sold commercially.",
+        "Rely only on internal cost estimates instead of market comparability for commercial pricing."
+      ],
+      "correctAnswerChanged": false,
+      "explanationRichRestored": true
+    },
+    {
+      "id": "q064",
+      "source": "PNG",
+      "oldBrokenSummary": [
+        "Use sole-source automatically without justification",
+        "Skip documentation to accelerate award",
+        "Apply FAR 16 procedures with documented rationale",
+        "Delay acquisition planning until after solicitation"
+      ],
+      "newSummary": [
+        "Choose firm-fixed-price for unstable requirements mainly to reduce administrative workload.",
+        "Use cost-reimbursement before confirming accounting adequacy and surveillance capability.",
+        "Select the contract type under FAR Part 16 based on requirement uncertainty and risk allocation.",
+        "Reuse the prior contract type by default even when technical and cost risk changed materially."
+      ],
+      "correctAnswerChanged": false,
+      "explanationRichRestored": true
+    },
+    {
+      "id": "q065",
+      "source": "PNG",
+      "oldBrokenSummary": [
+        "Apply FAR 10 procedures with documented rationale",
+        "Use sole-source automatically without justification",
+        "Skip documentation to accelerate award",
+        "Delay acquisition planning until after solicitation"
+      ],
+      "newSummary": [
+        "Document current market research findings under FAR Part 10 before finalizing the acquisition approach.",
+        "Reuse prior-year vendor assumptions without validating current market capability or pricing conditions.",
+        "Issue the solicitation first and collect market research documentation only if protest risk increases.",
+        "Limit outreach to the incumbent because continuity concerns outweigh pre-award market analysis."
+      ],
+      "correctAnswerChanged": false,
+      "explanationRichRestored": true
+    },
+    {
+      "id": "q066",
+      "source": "PNG",
+      "oldBrokenSummary": [
+        "Delay acquisition planning until after solicitation",
+        "Use sole-source automatically without justification",
+        "Skip documentation to accelerate award",
+        "Apply FAR 6 procedures with documented rationale"
+      ],
+      "newSummary": [
+        "Restrict sources to known contractors first and justify limiting competition after proposal receipt.",
+        "Use urgency as a default basis to narrow competition without preparing the required approval package.",
+        "Adopt a brand-name-only strategy immediately and defer the justification until contract administration.",
+        "Promote full and open competition and document any authorized exception before award under FAR Part 6."
+      ],
+      "correctAnswerChanged": false,
+      "explanationRichRestored": true
+    },
+    {
+      "id": "q067",
+      "source": "PNG",
+      "oldBrokenSummary": [
+        "Use sole-source automatically without justification",
+        "Skip documentation to accelerate award",
+        "Delay acquisition planning until after solicitation",
+        "Apply FAR 13 procedures with documented rationale"
+      ],
+      "newSummary": [
+        "Use simplified procedures above applicable thresholds when mission timelines are compressed.",
+        "Solicit one vendor and complete price reasonableness documentation after performance starts.",
+        "Bundle unrelated requirements solely to keep the buy inside a preferred simplified path.",
+        "Apply FAR Part 13 thresholds, solicitation methods, and documentation requirements before award."
+      ],
+      "correctAnswerChanged": false,
+      "explanationRichRestored": true
+    },
+    {
+      "id": "q068",
+      "source": "PNG",
+      "oldBrokenSummary": [
+        "Skip documentation to accelerate award",
+        "Apply FAR 15 procedures with documented rationale",
+        "Use sole-source automatically without justification",
+        "Delay acquisition planning until after solicitation"
+      ],
+      "newSummary": [
+        "Begin discussions before finalizing evaluation factors and competitive-range documentation.",
+        "Establish and follow FAR Part 15 evaluation, discussion, and award documentation procedures.",
+        "Select the lowest-priced offer without documenting how non-price factors were applied.",
+        "Share one offeror’s pricing position with another to accelerate final proposal revisions."
+      ],
+      "correctAnswerChanged": false,
+      "explanationRichRestored": true
+    },
+    {
+      "id": "q069",
+      "source": "PNG",
+      "oldBrokenSummary": [
+        "Skip documentation to accelerate award",
+        "Use sole-source automatically without justification",
+        "Delay acquisition planning until after solicitation",
+        "Apply FAR 43 procedures with documented rationale"
+      ],
+      "newSummary": [
+        "Direct out-of-scope work first and negotiate the modification terms after contractor performance begins.",
+        "Use unilateral administrative-change authority for substantive scope expansion without bilateral agreement.",
+        "Treat all post-award changes as in-scope whenever schedule urgency is mission critical.",
+        "Use FAR Part 43 modification authority and document scope, funding, and pricing before directing work."
+      ],
+      "correctAnswerChanged": false,
+      "explanationRichRestored": true
+    },
+    {
+      "id": "q070",
+      "source": "PNG",
+      "oldBrokenSummary": [
+        "Delay acquisition planning until after solicitation",
+        "Use sole-source automatically without justification",
+        "Skip documentation to accelerate award",
+        "Apply FAR 15.3 procedures with documented rationale"
+      ],
+      "newSummary": [
+        "Adjust evaluation weighting during source selection to reflect evolving stakeholder preferences.",
+        "Rely on undocumented evaluator impressions instead of recording strengths, weaknesses, and risks.",
+        "Record only final ratings and omit narrative tradeoff analysis between leading proposals.",
+        "Document evaluation findings and tradeoff rationale consistent with FAR 15.3 before award."
+      ],
+      "correctAnswerChanged": false,
+      "explanationRichRestored": true
+    },
+    {
+      "id": "q071",
+      "source": "PNG",
+      "oldBrokenSummary": [
+        "Skip documentation to accelerate award",
+        "Apply FAR 12 procedures with documented rationale",
+        "Delay acquisition planning until after solicitation",
+        "Use sole-source automatically without justification"
+      ],
+      "newSummary": [
+        "Apply government-unique clauses by default without checking customary commercial practice.",
+        "Validate commercial-item applicability and apply FAR Part 12 procedures using market-based terms.",
+        "Use commercial-item procedures while requiring unique redesign elements not sold commercially.",
+        "Rely only on internal cost estimates instead of market comparability for commercial pricing."
+      ],
+      "correctAnswerChanged": false,
+      "explanationRichRestored": true
+    },
+    {
+      "id": "q072",
+      "source": "PNG",
+      "oldBrokenSummary": [
+        "Skip documentation to accelerate award",
+        "Delay acquisition planning until after solicitation",
+        "Use sole-source automatically without justification",
+        "Apply FAR 16 procedures with documented rationale"
+      ],
+      "newSummary": [
+        "Choose firm-fixed-price for unstable requirements mainly to reduce administrative workload.",
+        "Use cost-reimbursement before confirming accounting adequacy and surveillance capability.",
+        "Reuse the prior contract type by default even when technical and cost risk changed materially.",
+        "Select the contract type under FAR Part 16 based on requirement uncertainty and risk allocation."
+      ],
+      "correctAnswerChanged": false,
+      "explanationRichRestored": true
+    },
+    {
+      "id": "q073",
+      "source": "PNG",
+      "oldBrokenSummary": [
+        "Delay acquisition planning until after solicitation",
+        "Skip documentation to accelerate award",
+        "Apply FAR 10 procedures with documented rationale",
+        "Use sole-source automatically without justification"
+      ],
+      "newSummary": [
+        "Reuse prior-year vendor assumptions without validating current market capability or pricing conditions.",
+        "Issue the solicitation first and collect market research documentation only if protest risk increases.",
+        "Document current market research findings under FAR Part 10 before finalizing the acquisition approach.",
+        "Limit outreach to the incumbent because continuity concerns outweigh pre-award market analysis."
+      ],
+      "correctAnswerChanged": false,
+      "explanationRichRestored": true
+    },
+    {
+      "id": "q074",
+      "source": "PNG",
+      "oldBrokenSummary": [
+        "Use sole-source automatically without justification",
+        "Delay acquisition planning until after solicitation",
+        "Skip documentation to accelerate award",
+        "Apply FAR 6 procedures with documented rationale"
+      ],
+      "newSummary": [
+        "Restrict sources to known contractors first and justify limiting competition after proposal receipt.",
+        "Use urgency as a default basis to narrow competition without preparing the required approval package.",
+        "Adopt a brand-name-only strategy immediately and defer the justification until contract administration.",
+        "Promote full and open competition and document any authorized exception before award under FAR Part 6."
+      ],
+      "correctAnswerChanged": false,
+      "explanationRichRestored": true
+    },
+    {
+      "id": "q075",
+      "source": "PNG",
+      "oldBrokenSummary": [
+        "Apply FAR 13 procedures with documented rationale",
+        "Skip documentation to accelerate award",
+        "Use sole-source automatically without justification",
+        "Delay acquisition planning until after solicitation"
+      ],
+      "newSummary": [
+        "Apply FAR Part 13 thresholds, solicitation methods, and documentation requirements before award.",
+        "Use simplified procedures above applicable thresholds when mission timelines are compressed.",
+        "Solicit one vendor and complete price reasonableness documentation after performance starts.",
+        "Bundle unrelated requirements solely to keep the buy inside a preferred simplified path."
+      ],
+      "correctAnswerChanged": false,
+      "explanationRichRestored": true
+    },
+    {
+      "id": "q076",
+      "source": "PNG",
+      "oldBrokenSummary": [
+        "Apply FAR 15 procedures with documented rationale",
+        "Delay acquisition planning until after solicitation",
+        "Skip documentation to accelerate award",
+        "Use sole-source automatically without justification"
+      ],
+      "newSummary": [
+        "Establish and follow FAR Part 15 evaluation, discussion, and award documentation procedures.",
+        "Begin discussions before finalizing evaluation factors and competitive-range documentation.",
+        "Select the lowest-priced offer without documenting how non-price factors were applied.",
+        "Share one offeror’s pricing position with another to accelerate final proposal revisions."
+      ],
+      "correctAnswerChanged": false,
+      "explanationRichRestored": true
+    },
+    {
+      "id": "q077",
+      "source": "PNG",
+      "oldBrokenSummary": [
+        "Delay acquisition planning until after solicitation",
+        "Apply FAR 43 procedures with documented rationale",
+        "Skip documentation to accelerate award",
+        "Use sole-source automatically without justification"
+      ],
+      "newSummary": [
+        "Direct out-of-scope work first and negotiate the modification terms after contractor performance begins.",
+        "Use FAR Part 43 modification authority and document scope, funding, and pricing before directing work.",
+        "Use unilateral administrative-change authority for substantive scope expansion without bilateral agreement.",
+        "Treat all post-award changes as in-scope whenever schedule urgency is mission critical."
+      ],
+      "correctAnswerChanged": false,
+      "explanationRichRestored": true
+    },
+    {
+      "id": "q078",
+      "source": "PNG",
+      "oldBrokenSummary": [
+        "Use sole-source automatically without justification",
+        "Delay acquisition planning until after solicitation",
+        "Apply FAR 15.3 procedures with documented rationale",
+        "Skip documentation to accelerate award"
+      ],
+      "newSummary": [
+        "Adjust evaluation weighting during source selection to reflect evolving stakeholder preferences.",
+        "Rely on undocumented evaluator impressions instead of recording strengths, weaknesses, and risks.",
+        "Document evaluation findings and tradeoff rationale consistent with FAR 15.3 before award.",
+        "Record only final ratings and omit narrative tradeoff analysis between leading proposals."
+      ],
+      "correctAnswerChanged": false,
+      "explanationRichRestored": true
+    },
+    {
+      "id": "q079",
+      "source": "PNG",
+      "oldBrokenSummary": [
+        "Apply FAR 12 procedures with documented rationale",
+        "Use sole-source automatically without justification",
+        "Delay acquisition planning until after solicitation",
+        "Skip documentation to accelerate award"
+      ],
+      "newSummary": [
+        "Validate commercial-item applicability and apply FAR Part 12 procedures using market-based terms.",
+        "Apply government-unique clauses by default without checking customary commercial practice.",
+        "Use commercial-item procedures while requiring unique redesign elements not sold commercially.",
+        "Rely only on internal cost estimates instead of market comparability for commercial pricing."
+      ],
+      "correctAnswerChanged": false,
+      "explanationRichRestored": true
+    },
+    {
+      "id": "q080",
+      "source": "PNG",
+      "oldBrokenSummary": [
+        "Apply FAR 16 procedures with documented rationale",
+        "Delay acquisition planning until after solicitation",
+        "Skip documentation to accelerate award",
+        "Use sole-source automatically without justification"
+      ],
+      "newSummary": [
+        "Select the contract type under FAR Part 16 based on requirement uncertainty and risk allocation.",
+        "Choose firm-fixed-price for unstable requirements mainly to reduce administrative workload.",
+        "Use cost-reimbursement before confirming accounting adequacy and surveillance capability.",
+        "Reuse the prior contract type by default even when technical and cost risk changed materially."
+      ],
+      "correctAnswerChanged": false,
+      "explanationRichRestored": true
+    },
+    {
+      "id": "q081",
+      "source": "PNG",
+      "oldBrokenSummary": [
+        "Apply FAR 10 procedures with documented rationale",
+        "Use sole-source automatically without justification",
+        "Skip documentation to accelerate award",
+        "Delay acquisition planning until after solicitation"
+      ],
+      "newSummary": [
+        "Document current market research findings under FAR Part 10 before finalizing the acquisition approach.",
+        "Reuse prior-year vendor assumptions without validating current market capability or pricing conditions.",
+        "Issue the solicitation first and collect market research documentation only if protest risk increases.",
+        "Limit outreach to the incumbent because continuity concerns outweigh pre-award market analysis."
+      ],
+      "correctAnswerChanged": false,
+      "explanationRichRestored": true
+    },
+    {
+      "id": "q082",
+      "source": "PNG",
+      "oldBrokenSummary": [
+        "Apply FAR 6 procedures with documented rationale",
+        "Use sole-source automatically without justification",
+        "Delay acquisition planning until after solicitation",
+        "Skip documentation to accelerate award"
+      ],
+      "newSummary": [
+        "Promote full and open competition and document any authorized exception before award under FAR Part 6.",
+        "Restrict sources to known contractors first and justify limiting competition after proposal receipt.",
+        "Use urgency as a default basis to narrow competition without preparing the required approval package.",
+        "Adopt a brand-name-only strategy immediately and defer the justification until contract administration."
+      ],
+      "correctAnswerChanged": false,
+      "explanationRichRestored": true
+    },
+    {
+      "id": "q083",
+      "source": "PNG",
+      "oldBrokenSummary": [
+        "Use sole-source automatically without justification",
+        "Apply FAR 13 procedures with documented rationale",
+        "Skip documentation to accelerate award",
+        "Delay acquisition planning until after solicitation"
+      ],
+      "newSummary": [
+        "Use simplified procedures above applicable thresholds when mission timelines are compressed.",
+        "Apply FAR Part 13 thresholds, solicitation methods, and documentation requirements before award.",
+        "Solicit one vendor and complete price reasonableness documentation after performance starts.",
+        "Bundle unrelated requirements solely to keep the buy inside a preferred simplified path."
+      ],
+      "correctAnswerChanged": false,
+      "explanationRichRestored": true
+    },
+    {
+      "id": "q084",
+      "source": "PNG",
+      "oldBrokenSummary": [
+        "Delay acquisition planning until after solicitation",
+        "Skip documentation to accelerate award",
+        "Apply FAR 15 procedures with documented rationale",
+        "Use sole-source automatically without justification"
+      ],
+      "newSummary": [
+        "Begin discussions before finalizing evaluation factors and competitive-range documentation.",
+        "Select the lowest-priced offer without documenting how non-price factors were applied.",
+        "Establish and follow FAR Part 15 evaluation, discussion, and award documentation procedures.",
+        "Share one offeror’s pricing position with another to accelerate final proposal revisions."
+      ],
+      "correctAnswerChanged": false,
+      "explanationRichRestored": true
+    },
+    {
+      "id": "q085",
+      "source": "PNG",
+      "oldBrokenSummary": [
+        "Delay acquisition planning until after solicitation",
+        "Apply FAR 43 procedures with documented rationale",
+        "Use sole-source automatically without justification",
+        "Skip documentation to accelerate award"
+      ],
+      "newSummary": [
+        "Direct out-of-scope work first and negotiate the modification terms after contractor performance begins.",
+        "Use FAR Part 43 modification authority and document scope, funding, and pricing before directing work.",
+        "Use unilateral administrative-change authority for substantive scope expansion without bilateral agreement.",
+        "Treat all post-award changes as in-scope whenever schedule urgency is mission critical."
+      ],
+      "correctAnswerChanged": false,
+      "explanationRichRestored": true
+    },
+    {
+      "id": "q086",
+      "source": "PNG",
+      "oldBrokenSummary": [
+        "Delay acquisition planning until after solicitation",
+        "Skip documentation to accelerate award",
+        "Use sole-source automatically without justification",
+        "Apply FAR 15.3 procedures with documented rationale"
+      ],
+      "newSummary": [
+        "Adjust evaluation weighting during source selection to reflect evolving stakeholder preferences.",
+        "Rely on undocumented evaluator impressions instead of recording strengths, weaknesses, and risks.",
+        "Record only final ratings and omit narrative tradeoff analysis between leading proposals.",
+        "Document evaluation findings and tradeoff rationale consistent with FAR 15.3 before award."
+      ],
+      "correctAnswerChanged": false,
+      "explanationRichRestored": true
+    },
+    {
+      "id": "q087",
+      "source": "PNG",
+      "oldBrokenSummary": [
+        "Delay acquisition planning until after solicitation",
+        "Apply FAR 12 procedures with documented rationale",
+        "Use sole-source automatically without justification",
+        "Skip documentation to accelerate award"
+      ],
+      "newSummary": [
+        "Apply government-unique clauses by default without checking customary commercial practice.",
+        "Validate commercial-item applicability and apply FAR Part 12 procedures using market-based terms.",
+        "Use commercial-item procedures while requiring unique redesign elements not sold commercially.",
+        "Rely only on internal cost estimates instead of market comparability for commercial pricing."
+      ],
+      "correctAnswerChanged": false,
+      "explanationRichRestored": true
+    },
+    {
+      "id": "q088",
+      "source": "PNG",
+      "oldBrokenSummary": [
+        "Use sole-source automatically without justification",
+        "Skip documentation to accelerate award",
+        "Apply FAR 16 procedures with documented rationale",
+        "Delay acquisition planning until after solicitation"
+      ],
+      "newSummary": [
+        "Choose firm-fixed-price for unstable requirements mainly to reduce administrative workload.",
+        "Use cost-reimbursement before confirming accounting adequacy and surveillance capability.",
+        "Select the contract type under FAR Part 16 based on requirement uncertainty and risk allocation.",
+        "Reuse the prior contract type by default even when technical and cost risk changed materially."
+      ],
+      "correctAnswerChanged": false,
+      "explanationRichRestored": true
+    },
+    {
+      "id": "q089",
+      "source": "PNG",
+      "oldBrokenSummary": [
+        "Delay acquisition planning until after solicitation",
+        "Skip documentation to accelerate award",
+        "Use sole-source automatically without justification",
+        "Apply FAR 10 procedures with documented rationale"
+      ],
+      "newSummary": [
+        "Reuse prior-year vendor assumptions without validating current market capability or pricing conditions.",
+        "Issue the solicitation first and collect market research documentation only if protest risk increases.",
+        "Limit outreach to the incumbent because continuity concerns outweigh pre-award market analysis.",
+        "Document current market research findings under FAR Part 10 before finalizing the acquisition approach."
+      ],
+      "correctAnswerChanged": false,
+      "explanationRichRestored": true
+    },
+    {
+      "id": "q090",
+      "source": "PNG",
+      "oldBrokenSummary": [
+        "Delay acquisition planning until after solicitation",
+        "Apply FAR 6 procedures with documented rationale",
+        "Use sole-source automatically without justification",
+        "Skip documentation to accelerate award"
+      ],
+      "newSummary": [
+        "Restrict sources to known contractors first and justify limiting competition after proposal receipt.",
+        "Promote full and open competition and document any authorized exception before award under FAR Part 6.",
+        "Use urgency as a default basis to narrow competition without preparing the required approval package.",
+        "Adopt a brand-name-only strategy immediately and defer the justification until contract administration."
+      ],
+      "correctAnswerChanged": false,
+      "explanationRichRestored": true
+    },
+    {
+      "id": "q091",
+      "source": "PNG",
+      "oldBrokenSummary": [
+        "Skip documentation to accelerate award",
+        "Delay acquisition planning until after solicitation",
+        "Use sole-source automatically without justification",
+        "Apply FAR 13 procedures with documented rationale"
+      ],
+      "newSummary": [
+        "Use simplified procedures above applicable thresholds when mission timelines are compressed.",
+        "Solicit one vendor and complete price reasonableness documentation after performance starts.",
+        "Bundle unrelated requirements solely to keep the buy inside a preferred simplified path.",
+        "Apply FAR Part 13 thresholds, solicitation methods, and documentation requirements before award."
+      ],
+      "correctAnswerChanged": false,
+      "explanationRichRestored": true
+    },
+    {
+      "id": "q092",
+      "source": "PNG",
+      "oldBrokenSummary": [
+        "Apply FAR 15 procedures with documented rationale",
+        "Skip documentation to accelerate award",
+        "Use sole-source automatically without justification",
+        "Delay acquisition planning until after solicitation"
+      ],
+      "newSummary": [
+        "Establish and follow FAR Part 15 evaluation, discussion, and award documentation procedures.",
+        "Begin discussions before finalizing evaluation factors and competitive-range documentation.",
+        "Select the lowest-priced offer without documenting how non-price factors were applied.",
+        "Share one offeror’s pricing position with another to accelerate final proposal revisions."
+      ],
+      "correctAnswerChanged": false,
+      "explanationRichRestored": true
+    },
+    {
+      "id": "q093",
+      "source": "PNG",
+      "oldBrokenSummary": [
+        "Apply FAR 43 procedures with documented rationale",
+        "Skip documentation to accelerate award",
+        "Use sole-source automatically without justification",
+        "Delay acquisition planning until after solicitation"
+      ],
+      "newSummary": [
+        "Use FAR Part 43 modification authority and document scope, funding, and pricing before directing work.",
+        "Direct out-of-scope work first and negotiate the modification terms after contractor performance begins.",
+        "Use unilateral administrative-change authority for substantive scope expansion without bilateral agreement.",
+        "Treat all post-award changes as in-scope whenever schedule urgency is mission critical."
+      ],
+      "correctAnswerChanged": false,
+      "explanationRichRestored": true
+    },
+    {
+      "id": "q094",
+      "source": "PNG",
+      "oldBrokenSummary": [
+        "Use sole-source automatically without justification",
+        "Delay acquisition planning until after solicitation",
+        "Apply FAR 15.3 procedures with documented rationale",
+        "Skip documentation to accelerate award"
+      ],
+      "newSummary": [
+        "Adjust evaluation weighting during source selection to reflect evolving stakeholder preferences.",
+        "Rely on undocumented evaluator impressions instead of recording strengths, weaknesses, and risks.",
+        "Document evaluation findings and tradeoff rationale consistent with FAR 15.3 before award.",
+        "Record only final ratings and omit narrative tradeoff analysis between leading proposals."
+      ],
+      "correctAnswerChanged": false,
+      "explanationRichRestored": true
+    },
+    {
+      "id": "q095",
+      "source": "PNG",
+      "oldBrokenSummary": [
+        "Use sole-source automatically without justification",
+        "Apply FAR 12 procedures with documented rationale",
+        "Delay acquisition planning until after solicitation",
+        "Skip documentation to accelerate award"
+      ],
+      "newSummary": [
+        "Apply government-unique clauses by default without checking customary commercial practice.",
+        "Validate commercial-item applicability and apply FAR Part 12 procedures using market-based terms.",
+        "Use commercial-item procedures while requiring unique redesign elements not sold commercially.",
+        "Rely only on internal cost estimates instead of market comparability for commercial pricing."
+      ],
+      "correctAnswerChanged": false,
+      "explanationRichRestored": true
+    },
+    {
+      "id": "q096",
+      "source": "PNG",
+      "oldBrokenSummary": [
+        "Apply FAR 16 procedures with documented rationale",
+        "Delay acquisition planning until after solicitation",
+        "Skip documentation to accelerate award",
+        "Use sole-source automatically without justification"
+      ],
+      "newSummary": [
+        "Select the contract type under FAR Part 16 based on requirement uncertainty and risk allocation.",
+        "Choose firm-fixed-price for unstable requirements mainly to reduce administrative workload.",
+        "Use cost-reimbursement before confirming accounting adequacy and surveillance capability.",
+        "Reuse the prior contract type by default even when technical and cost risk changed materially."
+      ],
+      "correctAnswerChanged": false,
+      "explanationRichRestored": true
+    },
+    {
+      "id": "q097",
+      "source": "PNG",
+      "oldBrokenSummary": [
+        "Apply FAR 10 procedures with documented rationale",
+        "Use sole-source automatically without justification",
+        "Delay acquisition planning until after solicitation",
+        "Skip documentation to accelerate award"
+      ],
+      "newSummary": [
+        "Document current market research findings under FAR Part 10 before finalizing the acquisition approach.",
+        "Reuse prior-year vendor assumptions without validating current market capability or pricing conditions.",
+        "Issue the solicitation first and collect market research documentation only if protest risk increases.",
+        "Limit outreach to the incumbent because continuity concerns outweigh pre-award market analysis."
+      ],
+      "correctAnswerChanged": false,
+      "explanationRichRestored": true
+    },
+    {
+      "id": "q098",
+      "source": "PNG",
+      "oldBrokenSummary": [
+        "Skip documentation to accelerate award",
+        "Apply FAR 6 procedures with documented rationale",
+        "Delay acquisition planning until after solicitation",
+        "Use sole-source automatically without justification"
+      ],
+      "newSummary": [
+        "Restrict sources to known contractors first and justify limiting competition after proposal receipt.",
+        "Promote full and open competition and document any authorized exception before award under FAR Part 6.",
+        "Use urgency as a default basis to narrow competition without preparing the required approval package.",
+        "Adopt a brand-name-only strategy immediately and defer the justification until contract administration."
+      ],
+      "correctAnswerChanged": false,
+      "explanationRichRestored": true
+    },
+    {
+      "id": "q099",
+      "source": "PNG",
+      "oldBrokenSummary": [
+        "Use sole-source automatically without justification",
+        "Apply FAR 13 procedures with documented rationale",
+        "Skip documentation to accelerate award",
+        "Delay acquisition planning until after solicitation"
+      ],
+      "newSummary": [
+        "Use simplified procedures above applicable thresholds when mission timelines are compressed.",
+        "Apply FAR Part 13 thresholds, solicitation methods, and documentation requirements before award.",
+        "Solicit one vendor and complete price reasonableness documentation after performance starts.",
+        "Bundle unrelated requirements solely to keep the buy inside a preferred simplified path."
+      ],
+      "correctAnswerChanged": false,
+      "explanationRichRestored": true
+    },
+    {
+      "id": "q100",
+      "source": "PNG",
+      "oldBrokenSummary": [
+        "Apply FAR 15 procedures with documented rationale",
+        "Use sole-source automatically without justification",
+        "Delay acquisition planning until after solicitation",
+        "Skip documentation to accelerate award"
+      ],
+      "newSummary": [
+        "Establish and follow FAR Part 15 evaluation, discussion, and award documentation procedures.",
+        "Begin discussions before finalizing evaluation factors and competitive-range documentation.",
+        "Select the lowest-priced offer without documenting how non-price factors were applied.",
+        "Share one offeror’s pricing position with another to accelerate final proposal revisions."
+      ],
+      "correctAnswerChanged": false,
+      "explanationRichRestored": true
+    },
+    {
+      "id": "q101",
+      "source": "PNG",
+      "oldBrokenSummary": [
+        "Apply FAR 43 procedures with documented rationale",
+        "Delay acquisition planning until after solicitation",
+        "Use sole-source automatically without justification",
+        "Skip documentation to accelerate award"
+      ],
+      "newSummary": [
+        "Use FAR Part 43 modification authority and document scope, funding, and pricing before directing work.",
+        "Direct out-of-scope work first and negotiate the modification terms after contractor performance begins.",
+        "Use unilateral administrative-change authority for substantive scope expansion without bilateral agreement.",
+        "Treat all post-award changes as in-scope whenever schedule urgency is mission critical."
+      ],
+      "correctAnswerChanged": false,
+      "explanationRichRestored": true
+    },
+    {
+      "id": "q102",
+      "source": "PNG",
+      "oldBrokenSummary": [
+        "Apply FAR 15.3 procedures with documented rationale",
+        "Delay acquisition planning until after solicitation",
+        "Use sole-source automatically without justification",
+        "Skip documentation to accelerate award"
+      ],
+      "newSummary": [
+        "Document evaluation findings and tradeoff rationale consistent with FAR 15.3 before award.",
+        "Adjust evaluation weighting during source selection to reflect evolving stakeholder preferences.",
+        "Rely on undocumented evaluator impressions instead of recording strengths, weaknesses, and risks.",
+        "Record only final ratings and omit narrative tradeoff analysis between leading proposals."
+      ],
+      "correctAnswerChanged": false,
+      "explanationRichRestored": true
+    },
+    {
+      "id": "q103",
+      "source": "PNG",
+      "oldBrokenSummary": [
+        "Skip documentation to accelerate award",
+        "Apply FAR 12 procedures with documented rationale",
+        "Use sole-source automatically without justification",
+        "Delay acquisition planning until after solicitation"
+      ],
+      "newSummary": [
+        "Apply government-unique clauses by default without checking customary commercial practice.",
+        "Validate commercial-item applicability and apply FAR Part 12 procedures using market-based terms.",
+        "Use commercial-item procedures while requiring unique redesign elements not sold commercially.",
+        "Rely only on internal cost estimates instead of market comparability for commercial pricing."
+      ],
+      "correctAnswerChanged": false,
+      "explanationRichRestored": true
+    },
+    {
+      "id": "q104",
+      "source": "PNG",
+      "oldBrokenSummary": [
+        "Skip documentation to accelerate award",
+        "Use sole-source automatically without justification",
+        "Delay acquisition planning until after solicitation",
+        "Apply FAR 16 procedures with documented rationale"
+      ],
+      "newSummary": [
+        "Choose firm-fixed-price for unstable requirements mainly to reduce administrative workload.",
+        "Use cost-reimbursement before confirming accounting adequacy and surveillance capability.",
+        "Reuse the prior contract type by default even when technical and cost risk changed materially.",
+        "Select the contract type under FAR Part 16 based on requirement uncertainty and risk allocation."
+      ],
+      "correctAnswerChanged": false,
+      "explanationRichRestored": true
+    },
+    {
+      "id": "q105",
+      "source": "PNG",
+      "oldBrokenSummary": [
+        "Skip documentation to accelerate award",
+        "Apply FAR 10 procedures with documented rationale",
+        "Delay acquisition planning until after solicitation",
+        "Use sole-source automatically without justification"
+      ],
+      "newSummary": [
+        "Reuse prior-year vendor assumptions without validating current market capability or pricing conditions.",
+        "Document current market research findings under FAR Part 10 before finalizing the acquisition approach.",
+        "Issue the solicitation first and collect market research documentation only if protest risk increases.",
+        "Limit outreach to the incumbent because continuity concerns outweigh pre-award market analysis."
+      ],
+      "correctAnswerChanged": false,
+      "explanationRichRestored": true
+    },
+    {
+      "id": "q106",
+      "source": "PNG",
+      "oldBrokenSummary": [
+        "Use sole-source automatically without justification",
+        "Skip documentation to accelerate award",
+        "Apply FAR 6 procedures with documented rationale",
+        "Delay acquisition planning until after solicitation"
+      ],
+      "newSummary": [
+        "Restrict sources to known contractors first and justify limiting competition after proposal receipt.",
+        "Use urgency as a default basis to narrow competition without preparing the required approval package.",
+        "Promote full and open competition and document any authorized exception before award under FAR Part 6.",
+        "Adopt a brand-name-only strategy immediately and defer the justification until contract administration."
+      ],
+      "correctAnswerChanged": false,
+      "explanationRichRestored": true
+    },
+    {
+      "id": "q107",
+      "source": "PNG",
+      "oldBrokenSummary": [
+        "Apply FAR 13 procedures with documented rationale",
+        "Delay acquisition planning until after solicitation",
+        "Use sole-source automatically without justification",
+        "Skip documentation to accelerate award"
+      ],
+      "newSummary": [
+        "Apply FAR Part 13 thresholds, solicitation methods, and documentation requirements before award.",
+        "Use simplified procedures above applicable thresholds when mission timelines are compressed.",
+        "Solicit one vendor and complete price reasonableness documentation after performance starts.",
+        "Bundle unrelated requirements solely to keep the buy inside a preferred simplified path."
+      ],
+      "correctAnswerChanged": false,
+      "explanationRichRestored": true
+    },
+    {
+      "id": "q108",
+      "source": "PNG",
+      "oldBrokenSummary": [
+        "Delay acquisition planning until after solicitation",
+        "Apply FAR 15 procedures with documented rationale",
+        "Use sole-source automatically without justification",
+        "Skip documentation to accelerate award"
+      ],
+      "newSummary": [
+        "Begin discussions before finalizing evaluation factors and competitive-range documentation.",
+        "Establish and follow FAR Part 15 evaluation, discussion, and award documentation procedures.",
+        "Select the lowest-priced offer without documenting how non-price factors were applied.",
+        "Share one offeror’s pricing position with another to accelerate final proposal revisions."
+      ],
+      "correctAnswerChanged": false,
+      "explanationRichRestored": true
+    },
+    {
+      "id": "q109",
+      "source": "PNG",
+      "oldBrokenSummary": [
+        "Delay acquisition planning until after solicitation",
+        "Skip documentation to accelerate award",
+        "Apply FAR 43 procedures with documented rationale",
+        "Use sole-source automatically without justification"
+      ],
+      "newSummary": [
+        "Direct out-of-scope work first and negotiate the modification terms after contractor performance begins.",
+        "Use unilateral administrative-change authority for substantive scope expansion without bilateral agreement.",
+        "Use FAR Part 43 modification authority and document scope, funding, and pricing before directing work.",
+        "Treat all post-award changes as in-scope whenever schedule urgency is mission critical."
+      ],
+      "correctAnswerChanged": false,
+      "explanationRichRestored": true
+    },
+    {
+      "id": "q110",
+      "source": "PNG",
+      "oldBrokenSummary": [
+        "Skip documentation to accelerate award",
+        "Apply FAR 15.3 procedures with documented rationale",
+        "Use sole-source automatically without justification",
+        "Delay acquisition planning until after solicitation"
+      ],
+      "newSummary": [
+        "Adjust evaluation weighting during source selection to reflect evolving stakeholder preferences.",
+        "Document evaluation findings and tradeoff rationale consistent with FAR 15.3 before award.",
+        "Rely on undocumented evaluator impressions instead of recording strengths, weaknesses, and risks.",
+        "Record only final ratings and omit narrative tradeoff analysis between leading proposals."
+      ],
+      "correctAnswerChanged": false,
+      "explanationRichRestored": true
+    },
+    {
+      "id": "q111",
+      "source": "PNG",
+      "oldBrokenSummary": [
+        "Apply FAR 12 procedures with documented rationale",
+        "Use sole-source automatically without justification",
+        "Delay acquisition planning until after solicitation",
+        "Skip documentation to accelerate award"
+      ],
+      "newSummary": [
+        "Validate commercial-item applicability and apply FAR Part 12 procedures using market-based terms.",
+        "Apply government-unique clauses by default without checking customary commercial practice.",
+        "Use commercial-item procedures while requiring unique redesign elements not sold commercially.",
+        "Rely only on internal cost estimates instead of market comparability for commercial pricing."
+      ],
+      "correctAnswerChanged": false,
+      "explanationRichRestored": true
+    },
+    {
+      "id": "q112",
+      "source": "PNG",
+      "oldBrokenSummary": [
+        "Apply FAR 16 procedures with documented rationale",
+        "Skip documentation to accelerate award",
+        "Use sole-source automatically without justification",
+        "Delay acquisition planning until after solicitation"
+      ],
+      "newSummary": [
+        "Select the contract type under FAR Part 16 based on requirement uncertainty and risk allocation.",
+        "Choose firm-fixed-price for unstable requirements mainly to reduce administrative workload.",
+        "Use cost-reimbursement before confirming accounting adequacy and surveillance capability.",
+        "Reuse the prior contract type by default even when technical and cost risk changed materially."
+      ],
+      "correctAnswerChanged": false,
+      "explanationRichRestored": true
+    },
+    {
+      "id": "q113",
+      "source": "PNG",
+      "oldBrokenSummary": [
+        "Delay acquisition planning until after solicitation",
+        "Skip documentation to accelerate award",
+        "Use sole-source automatically without justification",
+        "Apply FAR 10 procedures with documented rationale"
+      ],
+      "newSummary": [
+        "Reuse prior-year vendor assumptions without validating current market capability or pricing conditions.",
+        "Issue the solicitation first and collect market research documentation only if protest risk increases.",
+        "Limit outreach to the incumbent because continuity concerns outweigh pre-award market analysis.",
+        "Document current market research findings under FAR Part 10 before finalizing the acquisition approach."
+      ],
+      "correctAnswerChanged": false,
+      "explanationRichRestored": true
+    },
+    {
+      "id": "q114",
+      "source": "PNG",
+      "oldBrokenSummary": [
+        "Delay acquisition planning until after solicitation",
+        "Apply FAR 6 procedures with documented rationale",
+        "Use sole-source automatically without justification",
+        "Skip documentation to accelerate award"
+      ],
+      "newSummary": [
+        "Restrict sources to known contractors first and justify limiting competition after proposal receipt.",
+        "Promote full and open competition and document any authorized exception before award under FAR Part 6.",
+        "Use urgency as a default basis to narrow competition without preparing the required approval package.",
+        "Adopt a brand-name-only strategy immediately and defer the justification until contract administration."
+      ],
+      "correctAnswerChanged": false,
+      "explanationRichRestored": true
+    },
+    {
+      "id": "q115",
+      "source": "PNG",
+      "oldBrokenSummary": [
+        "Skip documentation to accelerate award",
+        "Delay acquisition planning until after solicitation",
+        "Apply FAR 13 procedures with documented rationale",
+        "Use sole-source automatically without justification"
+      ],
+      "newSummary": [
+        "Use simplified procedures above applicable thresholds when mission timelines are compressed.",
+        "Solicit one vendor and complete price reasonableness documentation after performance starts.",
+        "Apply FAR Part 13 thresholds, solicitation methods, and documentation requirements before award.",
+        "Bundle unrelated requirements solely to keep the buy inside a preferred simplified path."
+      ],
+      "correctAnswerChanged": false,
+      "explanationRichRestored": true
+    },
+    {
+      "id": "q116",
+      "source": "PNG",
+      "oldBrokenSummary": [
+        "Skip documentation to accelerate award",
+        "Delay acquisition planning until after solicitation",
+        "Apply FAR 15 procedures with documented rationale",
+        "Use sole-source automatically without justification"
+      ],
+      "newSummary": [
+        "Begin discussions before finalizing evaluation factors and competitive-range documentation.",
+        "Select the lowest-priced offer without documenting how non-price factors were applied.",
+        "Establish and follow FAR Part 15 evaluation, discussion, and award documentation procedures.",
+        "Share one offeror’s pricing position with another to accelerate final proposal revisions."
+      ],
+      "correctAnswerChanged": false,
+      "explanationRichRestored": true
+    },
+    {
+      "id": "q117",
+      "source": "PNG",
+      "oldBrokenSummary": [
+        "Delay acquisition planning until after solicitation",
+        "Use sole-source automatically without justification",
+        "Apply FAR 43 procedures with documented rationale",
+        "Skip documentation to accelerate award"
+      ],
+      "newSummary": [
+        "Direct out-of-scope work first and negotiate the modification terms after contractor performance begins.",
+        "Use unilateral administrative-change authority for substantive scope expansion without bilateral agreement.",
+        "Use FAR Part 43 modification authority and document scope, funding, and pricing before directing work.",
+        "Treat all post-award changes as in-scope whenever schedule urgency is mission critical."
+      ],
+      "correctAnswerChanged": false,
+      "explanationRichRestored": true
+    },
+    {
+      "id": "q118",
+      "source": "PNG",
+      "oldBrokenSummary": [
+        "Use sole-source automatically without justification",
+        "Apply FAR 15.3 procedures with documented rationale",
+        "Delay acquisition planning until after solicitation",
+        "Skip documentation to accelerate award"
+      ],
+      "newSummary": [
+        "Adjust evaluation weighting during source selection to reflect evolving stakeholder preferences.",
+        "Document evaluation findings and tradeoff rationale consistent with FAR 15.3 before award.",
+        "Rely on undocumented evaluator impressions instead of recording strengths, weaknesses, and risks.",
+        "Record only final ratings and omit narrative tradeoff analysis between leading proposals."
+      ],
+      "correctAnswerChanged": false,
+      "explanationRichRestored": true
+    },
+    {
+      "id": "q119",
+      "source": "PNG",
+      "oldBrokenSummary": [
+        "Delay acquisition planning until after solicitation",
+        "Skip documentation to accelerate award",
+        "Apply FAR 12 procedures with documented rationale",
+        "Use sole-source automatically without justification"
+      ],
+      "newSummary": [
+        "Apply government-unique clauses by default without checking customary commercial practice.",
+        "Use commercial-item procedures while requiring unique redesign elements not sold commercially.",
+        "Validate commercial-item applicability and apply FAR Part 12 procedures using market-based terms.",
+        "Rely only on internal cost estimates instead of market comparability for commercial pricing."
+      ],
+      "correctAnswerChanged": false,
+      "explanationRichRestored": true
+    },
+    {
+      "id": "q120",
+      "source": "PNG",
+      "oldBrokenSummary": [
+        "Use sole-source automatically without justification",
+        "Delay acquisition planning until after solicitation",
+        "Apply FAR 16 procedures with documented rationale",
+        "Skip documentation to accelerate award"
+      ],
+      "newSummary": [
+        "Choose firm-fixed-price for unstable requirements mainly to reduce administrative workload.",
+        "Use cost-reimbursement before confirming accounting adequacy and surveillance capability.",
+        "Select the contract type under FAR Part 16 based on requirement uncertainty and risk allocation.",
+        "Reuse the prior contract type by default even when technical and cost risk changed materially."
+      ],
+      "correctAnswerChanged": false,
+      "explanationRichRestored": true
+    },
+    {
+      "id": "q121",
+      "source": "PNG",
+      "oldBrokenSummary": [
+        "Use sole-source automatically without justification",
+        "Skip documentation to accelerate award",
+        "Delay acquisition planning until after solicitation",
+        "Apply FAR 10 procedures with documented rationale"
+      ],
+      "newSummary": [
+        "Reuse prior-year vendor assumptions without validating current market capability or pricing conditions.",
+        "Issue the solicitation first and collect market research documentation only if protest risk increases.",
+        "Limit outreach to the incumbent because continuity concerns outweigh pre-award market analysis.",
+        "Document current market research findings under FAR Part 10 before finalizing the acquisition approach."
+      ],
+      "correctAnswerChanged": false,
+      "explanationRichRestored": true
+    },
+    {
+      "id": "q122",
+      "source": "PNG",
+      "oldBrokenSummary": [
+        "Apply FAR 6 procedures with documented rationale",
+        "Delay acquisition planning until after solicitation",
+        "Use sole-source automatically without justification",
+        "Skip documentation to accelerate award"
+      ],
+      "newSummary": [
+        "Promote full and open competition and document any authorized exception before award under FAR Part 6.",
+        "Restrict sources to known contractors first and justify limiting competition after proposal receipt.",
+        "Use urgency as a default basis to narrow competition without preparing the required approval package.",
+        "Adopt a brand-name-only strategy immediately and defer the justification until contract administration."
+      ],
+      "correctAnswerChanged": false,
+      "explanationRichRestored": true
+    },
+    {
+      "id": "q123",
+      "source": "PNG",
+      "oldBrokenSummary": [
+        "Use sole-source automatically without justification",
+        "Delay acquisition planning until after solicitation",
+        "Skip documentation to accelerate award",
+        "Apply FAR 13 procedures with documented rationale"
+      ],
+      "newSummary": [
+        "Use simplified procedures above applicable thresholds when mission timelines are compressed.",
+        "Solicit one vendor and complete price reasonableness documentation after performance starts.",
+        "Bundle unrelated requirements solely to keep the buy inside a preferred simplified path.",
+        "Apply FAR Part 13 thresholds, solicitation methods, and documentation requirements before award."
+      ],
+      "correctAnswerChanged": false,
+      "explanationRichRestored": true
+    },
+    {
+      "id": "q124",
+      "source": "PNG",
+      "oldBrokenSummary": [
+        "Skip documentation to accelerate award",
+        "Apply FAR 15 procedures with documented rationale",
+        "Delay acquisition planning until after solicitation",
+        "Use sole-source automatically without justification"
+      ],
+      "newSummary": [
+        "Begin discussions before finalizing evaluation factors and competitive-range documentation.",
+        "Establish and follow FAR Part 15 evaluation, discussion, and award documentation procedures.",
+        "Select the lowest-priced offer without documenting how non-price factors were applied.",
+        "Share one offeror’s pricing position with another to accelerate final proposal revisions."
+      ],
+      "correctAnswerChanged": false,
+      "explanationRichRestored": true
+    },
+    {
+      "id": "q125",
+      "source": "PNG",
+      "oldBrokenSummary": [
+        "Use sole-source automatically without justification",
+        "Delay acquisition planning until after solicitation",
+        "Apply FAR 43 procedures with documented rationale",
+        "Skip documentation to accelerate award"
+      ],
+      "newSummary": [
+        "Direct out-of-scope work first and negotiate the modification terms after contractor performance begins.",
+        "Use unilateral administrative-change authority for substantive scope expansion without bilateral agreement.",
+        "Use FAR Part 43 modification authority and document scope, funding, and pricing before directing work.",
+        "Treat all post-award changes as in-scope whenever schedule urgency is mission critical."
+      ],
+      "correctAnswerChanged": false,
+      "explanationRichRestored": true
+    },
+    {
+      "id": "q126",
+      "source": "PNG",
+      "oldBrokenSummary": [
+        "Delay acquisition planning until after solicitation",
+        "Skip documentation to accelerate award",
+        "Use sole-source automatically without justification",
+        "Apply FAR 15.3 procedures with documented rationale"
+      ],
+      "newSummary": [
+        "Adjust evaluation weighting during source selection to reflect evolving stakeholder preferences.",
+        "Rely on undocumented evaluator impressions instead of recording strengths, weaknesses, and risks.",
+        "Record only final ratings and omit narrative tradeoff analysis between leading proposals.",
+        "Document evaluation findings and tradeoff rationale consistent with FAR 15.3 before award."
+      ],
+      "correctAnswerChanged": false,
+      "explanationRichRestored": true
+    },
+    {
+      "id": "q127",
+      "source": "PNG",
+      "oldBrokenSummary": [
+        "Skip documentation to accelerate award",
+        "Delay acquisition planning until after solicitation",
+        "Use sole-source automatically without justification",
+        "Apply FAR 12 procedures with documented rationale"
+      ],
+      "newSummary": [
+        "Apply government-unique clauses by default without checking customary commercial practice.",
+        "Use commercial-item procedures while requiring unique redesign elements not sold commercially.",
+        "Rely only on internal cost estimates instead of market comparability for commercial pricing.",
+        "Validate commercial-item applicability and apply FAR Part 12 procedures using market-based terms."
+      ],
+      "correctAnswerChanged": false,
+      "explanationRichRestored": true
+    },
+    {
+      "id": "q128",
+      "source": "PNG",
+      "oldBrokenSummary": [
+        "Apply FAR 16 procedures with documented rationale",
+        "Use sole-source automatically without justification",
+        "Delay acquisition planning until after solicitation",
+        "Skip documentation to accelerate award"
+      ],
+      "newSummary": [
+        "Select the contract type under FAR Part 16 based on requirement uncertainty and risk allocation.",
+        "Choose firm-fixed-price for unstable requirements mainly to reduce administrative workload.",
+        "Use cost-reimbursement before confirming accounting adequacy and surveillance capability.",
+        "Reuse the prior contract type by default even when technical and cost risk changed materially."
+      ],
+      "correctAnswerChanged": false,
+      "explanationRichRestored": true
+    },
+    {
+      "id": "q129",
+      "source": "PNG",
+      "oldBrokenSummary": [
+        "Delay acquisition planning until after solicitation",
+        "Skip documentation to accelerate award",
+        "Apply FAR 10 procedures with documented rationale",
+        "Use sole-source automatically without justification"
+      ],
+      "newSummary": [
+        "Reuse prior-year vendor assumptions without validating current market capability or pricing conditions.",
+        "Issue the solicitation first and collect market research documentation only if protest risk increases.",
+        "Document current market research findings under FAR Part 10 before finalizing the acquisition approach.",
+        "Limit outreach to the incumbent because continuity concerns outweigh pre-award market analysis."
+      ],
+      "correctAnswerChanged": false,
+      "explanationRichRestored": true
+    },
+    {
+      "id": "q130",
+      "source": "PNG",
+      "oldBrokenSummary": [
+        "Apply FAR 6 procedures with documented rationale",
+        "Use sole-source automatically without justification",
+        "Skip documentation to accelerate award",
+        "Delay acquisition planning until after solicitation"
+      ],
+      "newSummary": [
+        "Promote full and open competition and document any authorized exception before award under FAR Part 6.",
+        "Restrict sources to known contractors first and justify limiting competition after proposal receipt.",
+        "Use urgency as a default basis to narrow competition without preparing the required approval package.",
+        "Adopt a brand-name-only strategy immediately and defer the justification until contract administration."
+      ],
+      "correctAnswerChanged": false,
+      "explanationRichRestored": true
+    },
+    {
+      "id": "q131",
+      "source": "PNG",
+      "oldBrokenSummary": [
+        "Delay acquisition planning until after solicitation",
+        "Apply FAR 13 procedures with documented rationale",
+        "Skip documentation to accelerate award",
+        "Use sole-source automatically without justification"
+      ],
+      "newSummary": [
+        "Use simplified procedures above applicable thresholds when mission timelines are compressed.",
+        "Apply FAR Part 13 thresholds, solicitation methods, and documentation requirements before award.",
+        "Solicit one vendor and complete price reasonableness documentation after performance starts.",
+        "Bundle unrelated requirements solely to keep the buy inside a preferred simplified path."
+      ],
+      "correctAnswerChanged": false,
+      "explanationRichRestored": true
+    },
+    {
+      "id": "q132",
+      "source": "PNG",
+      "oldBrokenSummary": [
+        "Use sole-source automatically without justification",
+        "Skip documentation to accelerate award",
+        "Apply FAR 15 procedures with documented rationale",
+        "Delay acquisition planning until after solicitation"
+      ],
+      "newSummary": [
+        "Begin discussions before finalizing evaluation factors and competitive-range documentation.",
+        "Select the lowest-priced offer without documenting how non-price factors were applied.",
+        "Establish and follow FAR Part 15 evaluation, discussion, and award documentation procedures.",
+        "Share one offeror’s pricing position with another to accelerate final proposal revisions."
+      ],
+      "correctAnswerChanged": false,
+      "explanationRichRestored": true
+    },
+    {
+      "id": "q133",
+      "source": "PNG",
+      "oldBrokenSummary": [
+        "Apply FAR 43 procedures with documented rationale",
+        "Use sole-source automatically without justification",
+        "Skip documentation to accelerate award",
+        "Delay acquisition planning until after solicitation"
+      ],
+      "newSummary": [
+        "Use FAR Part 43 modification authority and document scope, funding, and pricing before directing work.",
+        "Direct out-of-scope work first and negotiate the modification terms after contractor performance begins.",
+        "Use unilateral administrative-change authority for substantive scope expansion without bilateral agreement.",
+        "Treat all post-award changes as in-scope whenever schedule urgency is mission critical."
+      ],
+      "correctAnswerChanged": false,
+      "explanationRichRestored": true
+    },
+    {
+      "id": "q134",
+      "source": "PNG",
+      "oldBrokenSummary": [
+        "Skip documentation to accelerate award",
+        "Apply FAR 15.3 procedures with documented rationale",
+        "Use sole-source automatically without justification",
+        "Delay acquisition planning until after solicitation"
+      ],
+      "newSummary": [
+        "Adjust evaluation weighting during source selection to reflect evolving stakeholder preferences.",
+        "Document evaluation findings and tradeoff rationale consistent with FAR 15.3 before award.",
+        "Rely on undocumented evaluator impressions instead of recording strengths, weaknesses, and risks.",
+        "Record only final ratings and omit narrative tradeoff analysis between leading proposals."
+      ],
+      "correctAnswerChanged": false,
+      "explanationRichRestored": true
+    },
+    {
+      "id": "q135",
+      "source": "PNG",
+      "oldBrokenSummary": [
+        "Apply FAR 12 procedures with documented rationale",
+        "Skip documentation to accelerate award",
+        "Delay acquisition planning until after solicitation",
+        "Use sole-source automatically without justification"
+      ],
+      "newSummary": [
+        "Validate commercial-item applicability and apply FAR Part 12 procedures using market-based terms.",
+        "Apply government-unique clauses by default without checking customary commercial practice.",
+        "Use commercial-item procedures while requiring unique redesign elements not sold commercially.",
+        "Rely only on internal cost estimates instead of market comparability for commercial pricing."
+      ],
+      "correctAnswerChanged": false,
+      "explanationRichRestored": true
+    },
+    {
+      "id": "q136",
+      "source": "PNG",
+      "oldBrokenSummary": [
+        "Skip documentation to accelerate award",
+        "Apply FAR 16 procedures with documented rationale",
+        "Use sole-source automatically without justification",
+        "Delay acquisition planning until after solicitation"
+      ],
+      "newSummary": [
+        "Choose firm-fixed-price for unstable requirements mainly to reduce administrative workload.",
+        "Select the contract type under FAR Part 16 based on requirement uncertainty and risk allocation.",
+        "Use cost-reimbursement before confirming accounting adequacy and surveillance capability.",
+        "Reuse the prior contract type by default even when technical and cost risk changed materially."
+      ],
+      "correctAnswerChanged": false,
+      "explanationRichRestored": true
+    },
+    {
+      "id": "q137",
+      "source": "PNG",
+      "oldBrokenSummary": [
+        "Use sole-source automatically without justification",
+        "Skip documentation to accelerate award",
+        "Delay acquisition planning until after solicitation",
+        "Apply FAR 10 procedures with documented rationale"
+      ],
+      "newSummary": [
+        "Reuse prior-year vendor assumptions without validating current market capability or pricing conditions.",
+        "Issue the solicitation first and collect market research documentation only if protest risk increases.",
+        "Limit outreach to the incumbent because continuity concerns outweigh pre-award market analysis.",
+        "Document current market research findings under FAR Part 10 before finalizing the acquisition approach."
+      ],
+      "correctAnswerChanged": false,
+      "explanationRichRestored": true
+    },
+    {
+      "id": "q138",
+      "source": "PNG",
+      "oldBrokenSummary": [
+        "Apply FAR 6 procedures with documented rationale",
+        "Use sole-source automatically without justification",
+        "Delay acquisition planning until after solicitation",
+        "Skip documentation to accelerate award"
+      ],
+      "newSummary": [
+        "Promote full and open competition and document any authorized exception before award under FAR Part 6.",
+        "Restrict sources to known contractors first and justify limiting competition after proposal receipt.",
+        "Use urgency as a default basis to narrow competition without preparing the required approval package.",
+        "Adopt a brand-name-only strategy immediately and defer the justification until contract administration."
+      ],
+      "correctAnswerChanged": false,
+      "explanationRichRestored": true
+    },
+    {
+      "id": "q139",
+      "source": "PNG",
+      "oldBrokenSummary": [
+        "Delay acquisition planning until after solicitation",
+        "Skip documentation to accelerate award",
+        "Use sole-source automatically without justification",
+        "Apply FAR 13 procedures with documented rationale"
+      ],
+      "newSummary": [
+        "Use simplified procedures above applicable thresholds when mission timelines are compressed.",
+        "Solicit one vendor and complete price reasonableness documentation after performance starts.",
+        "Bundle unrelated requirements solely to keep the buy inside a preferred simplified path.",
+        "Apply FAR Part 13 thresholds, solicitation methods, and documentation requirements before award."
+      ],
+      "correctAnswerChanged": false,
+      "explanationRichRestored": true
+    },
+    {
+      "id": "q140",
+      "source": "PNG",
+      "oldBrokenSummary": [
+        "Use sole-source automatically without justification",
+        "Skip documentation to accelerate award",
+        "Delay acquisition planning until after solicitation",
+        "Apply FAR 15 procedures with documented rationale"
+      ],
+      "newSummary": [
+        "Begin discussions before finalizing evaluation factors and competitive-range documentation.",
+        "Select the lowest-priced offer without documenting how non-price factors were applied.",
+        "Share one offeror’s pricing position with another to accelerate final proposal revisions.",
+        "Establish and follow FAR Part 15 evaluation, discussion, and award documentation procedures."
+      ],
+      "correctAnswerChanged": false,
+      "explanationRichRestored": true
+    },
+    {
+      "id": "q141",
+      "source": "PNG",
+      "oldBrokenSummary": [
+        "Delay acquisition planning until after solicitation",
+        "Skip documentation to accelerate award",
+        "Use sole-source automatically without justification",
+        "Apply FAR 43 procedures with documented rationale"
+      ],
+      "newSummary": [
+        "Direct out-of-scope work first and negotiate the modification terms after contractor performance begins.",
+        "Use unilateral administrative-change authority for substantive scope expansion without bilateral agreement.",
+        "Treat all post-award changes as in-scope whenever schedule urgency is mission critical.",
+        "Use FAR Part 43 modification authority and document scope, funding, and pricing before directing work."
+      ],
+      "correctAnswerChanged": false,
+      "explanationRichRestored": true
+    },
+    {
+      "id": "q142",
+      "source": "PNG",
+      "oldBrokenSummary": [
+        "Use sole-source automatically without justification",
+        "Skip documentation to accelerate award",
+        "Apply FAR 15.3 procedures with documented rationale",
+        "Delay acquisition planning until after solicitation"
+      ],
+      "newSummary": [
+        "Adjust evaluation weighting during source selection to reflect evolving stakeholder preferences.",
+        "Rely on undocumented evaluator impressions instead of recording strengths, weaknesses, and risks.",
+        "Document evaluation findings and tradeoff rationale consistent with FAR 15.3 before award.",
+        "Record only final ratings and omit narrative tradeoff analysis between leading proposals."
+      ],
+      "correctAnswerChanged": false,
+      "explanationRichRestored": true
+    },
+    {
+      "id": "q143",
+      "source": "PNG",
+      "oldBrokenSummary": [
+        "Delay acquisition planning until after solicitation",
+        "Use sole-source automatically without justification",
+        "Apply FAR 12 procedures with documented rationale",
+        "Skip documentation to accelerate award"
+      ],
+      "newSummary": [
+        "Apply government-unique clauses by default without checking customary commercial practice.",
+        "Use commercial-item procedures while requiring unique redesign elements not sold commercially.",
+        "Validate commercial-item applicability and apply FAR Part 12 procedures using market-based terms.",
+        "Rely only on internal cost estimates instead of market comparability for commercial pricing."
+      ],
+      "correctAnswerChanged": false,
+      "explanationRichRestored": true
+    },
+    {
+      "id": "q144",
+      "source": "PNG",
+      "oldBrokenSummary": [
+        "Use sole-source automatically without justification",
+        "Skip documentation to accelerate award",
+        "Apply FAR 16 procedures with documented rationale",
+        "Delay acquisition planning until after solicitation"
+      ],
+      "newSummary": [
+        "Choose firm-fixed-price for unstable requirements mainly to reduce administrative workload.",
+        "Use cost-reimbursement before confirming accounting adequacy and surveillance capability.",
+        "Select the contract type under FAR Part 16 based on requirement uncertainty and risk allocation.",
+        "Reuse the prior contract type by default even when technical and cost risk changed materially."
+      ],
+      "correctAnswerChanged": false,
+      "explanationRichRestored": true
+    },
+    {
+      "id": "q145",
+      "source": "PNG",
+      "oldBrokenSummary": [
+        "Skip documentation to accelerate award",
+        "Apply FAR 10 procedures with documented rationale",
+        "Use sole-source automatically without justification",
+        "Delay acquisition planning until after solicitation"
+      ],
+      "newSummary": [
+        "Reuse prior-year vendor assumptions without validating current market capability or pricing conditions.",
+        "Document current market research findings under FAR Part 10 before finalizing the acquisition approach.",
+        "Issue the solicitation first and collect market research documentation only if protest risk increases.",
+        "Limit outreach to the incumbent because continuity concerns outweigh pre-award market analysis."
+      ],
+      "correctAnswerChanged": false,
+      "explanationRichRestored": true
+    },
+    {
+      "id": "q146",
+      "source": "PNG",
+      "oldBrokenSummary": [
+        "Use sole-source automatically without justification",
+        "Delay acquisition planning until after solicitation",
+        "Apply FAR 6 procedures with documented rationale",
+        "Skip documentation to accelerate award"
+      ],
+      "newSummary": [
+        "Restrict sources to known contractors first and justify limiting competition after proposal receipt.",
+        "Use urgency as a default basis to narrow competition without preparing the required approval package.",
+        "Promote full and open competition and document any authorized exception before award under FAR Part 6.",
+        "Adopt a brand-name-only strategy immediately and defer the justification until contract administration."
+      ],
+      "correctAnswerChanged": false,
+      "explanationRichRestored": true
+    },
+    {
+      "id": "q147",
+      "source": "PNG",
+      "oldBrokenSummary": [
+        "Apply FAR 13 procedures with documented rationale",
+        "Use sole-source automatically without justification",
+        "Delay acquisition planning until after solicitation",
+        "Skip documentation to accelerate award"
+      ],
+      "newSummary": [
+        "Apply FAR Part 13 thresholds, solicitation methods, and documentation requirements before award.",
+        "Use simplified procedures above applicable thresholds when mission timelines are compressed.",
+        "Solicit one vendor and complete price reasonableness documentation after performance starts.",
+        "Bundle unrelated requirements solely to keep the buy inside a preferred simplified path."
+      ],
+      "correctAnswerChanged": false,
+      "explanationRichRestored": true
+    },
+    {
+      "id": "q148",
+      "source": "PNG",
+      "oldBrokenSummary": [
+        "Skip documentation to accelerate award",
+        "Apply FAR 15 procedures with documented rationale",
+        "Use sole-source automatically without justification",
+        "Delay acquisition planning until after solicitation"
+      ],
+      "newSummary": [
+        "Begin discussions before finalizing evaluation factors and competitive-range documentation.",
+        "Establish and follow FAR Part 15 evaluation, discussion, and award documentation procedures.",
+        "Select the lowest-priced offer without documenting how non-price factors were applied.",
+        "Share one offeror’s pricing position with another to accelerate final proposal revisions."
+      ],
+      "correctAnswerChanged": false,
+      "explanationRichRestored": true
+    },
+    {
+      "id": "q149",
+      "source": "PNG",
+      "oldBrokenSummary": [
+        "Use sole-source automatically without justification",
+        "Skip documentation to accelerate award",
+        "Delay acquisition planning until after solicitation",
+        "Apply FAR 43 procedures with documented rationale"
+      ],
+      "newSummary": [
+        "Direct out-of-scope work first and negotiate the modification terms after contractor performance begins.",
+        "Use unilateral administrative-change authority for substantive scope expansion without bilateral agreement.",
+        "Treat all post-award changes as in-scope whenever schedule urgency is mission critical.",
+        "Use FAR Part 43 modification authority and document scope, funding, and pricing before directing work."
+      ],
+      "correctAnswerChanged": false,
+      "explanationRichRestored": true
+    },
+    {
+      "id": "q150",
+      "source": "PNG",
+      "oldBrokenSummary": [
+        "Delay acquisition planning until after solicitation",
+        "Apply FAR 15.3 procedures with documented rationale",
+        "Skip documentation to accelerate award",
+        "Use sole-source automatically without justification"
+      ],
+      "newSummary": [
+        "Adjust evaluation weighting during source selection to reflect evolving stakeholder preferences.",
+        "Document evaluation findings and tradeoff rationale consistent with FAR 15.3 before award.",
+        "Rely on undocumented evaluator impressions instead of recording strengths, weaknesses, and risks.",
+        "Record only final ratings and omit narrative tradeoff analysis between leading proposals."
+      ],
+      "correctAnswerChanged": false,
+      "explanationRichRestored": true
+    },
+    {
+      "id": "q151",
+      "source": "PNG",
+      "oldBrokenSummary": [
+        "Skip documentation to accelerate award",
+        "Apply FAR 12 procedures with documented rationale",
+        "Use sole-source automatically without justification",
+        "Delay acquisition planning until after solicitation"
+      ],
+      "newSummary": [
+        "Apply government-unique clauses by default without checking customary commercial practice.",
+        "Validate commercial-item applicability and apply FAR Part 12 procedures using market-based terms.",
+        "Use commercial-item procedures while requiring unique redesign elements not sold commercially.",
+        "Rely only on internal cost estimates instead of market comparability for commercial pricing."
+      ],
+      "correctAnswerChanged": false,
+      "explanationRichRestored": true
+    },
+    {
+      "id": "q152",
+      "source": "PNG",
+      "oldBrokenSummary": [
+        "Skip documentation to accelerate award",
+        "Apply FAR 16 procedures with documented rationale",
+        "Use sole-source automatically without justification",
+        "Delay acquisition planning until after solicitation"
+      ],
+      "newSummary": [
+        "Choose firm-fixed-price for unstable requirements mainly to reduce administrative workload.",
+        "Select the contract type under FAR Part 16 based on requirement uncertainty and risk allocation.",
+        "Use cost-reimbursement before confirming accounting adequacy and surveillance capability.",
+        "Reuse the prior contract type by default even when technical and cost risk changed materially."
+      ],
+      "correctAnswerChanged": false,
+      "explanationRichRestored": true
+    },
+    {
+      "id": "q153",
+      "source": "PNG",
+      "oldBrokenSummary": [
+        "Skip documentation to accelerate award",
+        "Use sole-source automatically without justification",
+        "Apply FAR 10 procedures with documented rationale",
+        "Delay acquisition planning until after solicitation"
+      ],
+      "newSummary": [
+        "Reuse prior-year vendor assumptions without validating current market capability or pricing conditions.",
+        "Issue the solicitation first and collect market research documentation only if protest risk increases.",
+        "Document current market research findings under FAR Part 10 before finalizing the acquisition approach.",
+        "Limit outreach to the incumbent because continuity concerns outweigh pre-award market analysis."
+      ],
+      "correctAnswerChanged": false,
+      "explanationRichRestored": true
+    },
+    {
+      "id": "q154",
+      "source": "PNG",
+      "oldBrokenSummary": [
+        "Apply FAR 6 procedures with documented rationale",
+        "Use sole-source automatically without justification",
+        "Delay acquisition planning until after solicitation",
+        "Skip documentation to accelerate award"
+      ],
+      "newSummary": [
+        "Promote full and open competition and document any authorized exception before award under FAR Part 6.",
+        "Restrict sources to known contractors first and justify limiting competition after proposal receipt.",
+        "Use urgency as a default basis to narrow competition without preparing the required approval package.",
+        "Adopt a brand-name-only strategy immediately and defer the justification until contract administration."
+      ],
+      "correctAnswerChanged": false,
+      "explanationRichRestored": true
+    },
+    {
+      "id": "q155",
+      "source": "PNG",
+      "oldBrokenSummary": [
+        "Apply FAR 13 procedures with documented rationale",
+        "Skip documentation to accelerate award",
+        "Delay acquisition planning until after solicitation",
+        "Use sole-source automatically without justification"
+      ],
+      "newSummary": [
+        "Apply FAR Part 13 thresholds, solicitation methods, and documentation requirements before award.",
+        "Use simplified procedures above applicable thresholds when mission timelines are compressed.",
+        "Solicit one vendor and complete price reasonableness documentation after performance starts.",
+        "Bundle unrelated requirements solely to keep the buy inside a preferred simplified path."
+      ],
+      "correctAnswerChanged": false,
+      "explanationRichRestored": true
+    },
+    {
+      "id": "q156",
+      "source": "PNG",
+      "oldBrokenSummary": [
+        "Use sole-source automatically without justification",
+        "Apply FAR 15 procedures with documented rationale",
+        "Skip documentation to accelerate award",
+        "Delay acquisition planning until after solicitation"
+      ],
+      "newSummary": [
+        "Begin discussions before finalizing evaluation factors and competitive-range documentation.",
+        "Establish and follow FAR Part 15 evaluation, discussion, and award documentation procedures.",
+        "Select the lowest-priced offer without documenting how non-price factors were applied.",
+        "Share one offeror’s pricing position with another to accelerate final proposal revisions."
+      ],
+      "correctAnswerChanged": false,
+      "explanationRichRestored": true
+    },
+    {
+      "id": "q157",
+      "source": "PNG",
+      "oldBrokenSummary": [
+        "Skip documentation to accelerate award",
+        "Use sole-source automatically without justification",
+        "Apply FAR 43 procedures with documented rationale",
+        "Delay acquisition planning until after solicitation"
+      ],
+      "newSummary": [
+        "Direct out-of-scope work first and negotiate the modification terms after contractor performance begins.",
+        "Use unilateral administrative-change authority for substantive scope expansion without bilateral agreement.",
+        "Use FAR Part 43 modification authority and document scope, funding, and pricing before directing work.",
+        "Treat all post-award changes as in-scope whenever schedule urgency is mission critical."
+      ],
+      "correctAnswerChanged": false,
+      "explanationRichRestored": true
+    },
+    {
+      "id": "q158",
+      "source": "PNG",
+      "oldBrokenSummary": [
+        "Delay acquisition planning until after solicitation",
+        "Use sole-source automatically without justification",
+        "Apply FAR 15.3 procedures with documented rationale",
+        "Skip documentation to accelerate award"
+      ],
+      "newSummary": [
+        "Adjust evaluation weighting during source selection to reflect evolving stakeholder preferences.",
+        "Rely on undocumented evaluator impressions instead of recording strengths, weaknesses, and risks.",
+        "Document evaluation findings and tradeoff rationale consistent with FAR 15.3 before award.",
+        "Record only final ratings and omit narrative tradeoff analysis between leading proposals."
+      ],
+      "correctAnswerChanged": false,
+      "explanationRichRestored": true
+    },
+    {
+      "id": "q159",
+      "source": "PNG",
+      "oldBrokenSummary": [
+        "Use sole-source automatically without justification",
+        "Skip documentation to accelerate award",
+        "Apply FAR 12 procedures with documented rationale",
+        "Delay acquisition planning until after solicitation"
+      ],
+      "newSummary": [
+        "Apply government-unique clauses by default without checking customary commercial practice.",
+        "Use commercial-item procedures while requiring unique redesign elements not sold commercially.",
+        "Validate commercial-item applicability and apply FAR Part 12 procedures using market-based terms.",
+        "Rely only on internal cost estimates instead of market comparability for commercial pricing."
+      ],
+      "correctAnswerChanged": false,
+      "explanationRichRestored": true
+    },
+    {
+      "id": "q160",
+      "source": "PNG",
+      "oldBrokenSummary": [
+        "Delay acquisition planning until after solicitation",
+        "Skip documentation to accelerate award",
+        "Use sole-source automatically without justification",
+        "Apply FAR 16 procedures with documented rationale"
+      ],
+      "newSummary": [
+        "Choose firm-fixed-price for unstable requirements mainly to reduce administrative workload.",
+        "Use cost-reimbursement before confirming accounting adequacy and surveillance capability.",
+        "Reuse the prior contract type by default even when technical and cost risk changed materially.",
+        "Select the contract type under FAR Part 16 based on requirement uncertainty and risk allocation."
+      ],
+      "correctAnswerChanged": false,
+      "explanationRichRestored": true
+    },
+    {
+      "id": "q161",
+      "source": "PNG",
+      "oldBrokenSummary": [
+        "Delay acquisition planning until after solicitation",
+        "Apply FAR 10 procedures with documented rationale",
+        "Use sole-source automatically without justification",
+        "Skip documentation to accelerate award"
+      ],
+      "newSummary": [
+        "Reuse prior-year vendor assumptions without validating current market capability or pricing conditions.",
+        "Document current market research findings under FAR Part 10 before finalizing the acquisition approach.",
+        "Issue the solicitation first and collect market research documentation only if protest risk increases.",
+        "Limit outreach to the incumbent because continuity concerns outweigh pre-award market analysis."
+      ],
+      "correctAnswerChanged": false,
+      "explanationRichRestored": true
+    },
+    {
+      "id": "q162",
+      "source": "PNG",
+      "oldBrokenSummary": [
+        "Skip documentation to accelerate award",
+        "Delay acquisition planning until after solicitation",
+        "Use sole-source automatically without justification",
+        "Apply FAR 6 procedures with documented rationale"
+      ],
+      "newSummary": [
+        "Restrict sources to known contractors first and justify limiting competition after proposal receipt.",
+        "Use urgency as a default basis to narrow competition without preparing the required approval package.",
+        "Adopt a brand-name-only strategy immediately and defer the justification until contract administration.",
+        "Promote full and open competition and document any authorized exception before award under FAR Part 6."
+      ],
+      "correctAnswerChanged": false,
+      "explanationRichRestored": true
+    },
+    {
+      "id": "q163",
+      "source": "PNG",
+      "oldBrokenSummary": [
+        "Skip documentation to accelerate award",
+        "Apply FAR 13 procedures with documented rationale",
+        "Use sole-source automatically without justification",
+        "Delay acquisition planning until after solicitation"
+      ],
+      "newSummary": [
+        "Use simplified procedures above applicable thresholds when mission timelines are compressed.",
+        "Apply FAR Part 13 thresholds, solicitation methods, and documentation requirements before award.",
+        "Solicit one vendor and complete price reasonableness documentation after performance starts.",
+        "Bundle unrelated requirements solely to keep the buy inside a preferred simplified path."
+      ],
+      "correctAnswerChanged": false,
+      "explanationRichRestored": true
+    },
+    {
+      "id": "q164",
+      "source": "PNG",
+      "oldBrokenSummary": [
+        "Delay acquisition planning until after solicitation",
+        "Skip documentation to accelerate award",
+        "Use sole-source automatically without justification",
+        "Apply FAR 15 procedures with documented rationale"
+      ],
+      "newSummary": [
+        "Begin discussions before finalizing evaluation factors and competitive-range documentation.",
+        "Select the lowest-priced offer without documenting how non-price factors were applied.",
+        "Share one offeror’s pricing position with another to accelerate final proposal revisions.",
+        "Establish and follow FAR Part 15 evaluation, discussion, and award documentation procedures."
+      ],
+      "correctAnswerChanged": false,
+      "explanationRichRestored": true
+    },
+    {
+      "id": "q165",
+      "source": "PNG",
+      "oldBrokenSummary": [
+        "Use sole-source automatically without justification",
+        "Skip documentation to accelerate award",
+        "Delay acquisition planning until after solicitation",
+        "Apply FAR 43 procedures with documented rationale"
+      ],
+      "newSummary": [
+        "Direct out-of-scope work first and negotiate the modification terms after contractor performance begins.",
+        "Use unilateral administrative-change authority for substantive scope expansion without bilateral agreement.",
+        "Treat all post-award changes as in-scope whenever schedule urgency is mission critical.",
+        "Use FAR Part 43 modification authority and document scope, funding, and pricing before directing work."
+      ],
+      "correctAnswerChanged": false,
+      "explanationRichRestored": true
+    },
+    {
+      "id": "q166",
+      "source": "PNG",
+      "oldBrokenSummary": [
+        "Apply FAR 15.3 procedures with documented rationale",
+        "Delay acquisition planning until after solicitation",
+        "Use sole-source automatically without justification",
+        "Skip documentation to accelerate award"
+      ],
+      "newSummary": [
+        "Document evaluation findings and tradeoff rationale consistent with FAR 15.3 before award.",
+        "Adjust evaluation weighting during source selection to reflect evolving stakeholder preferences.",
+        "Rely on undocumented evaluator impressions instead of recording strengths, weaknesses, and risks.",
+        "Record only final ratings and omit narrative tradeoff analysis between leading proposals."
+      ],
+      "correctAnswerChanged": false,
+      "explanationRichRestored": true
+    },
+    {
+      "id": "q167",
+      "source": "PNG",
+      "oldBrokenSummary": [
+        "Use sole-source automatically without justification",
+        "Delay acquisition planning until after solicitation",
+        "Apply FAR 12 procedures with documented rationale",
+        "Skip documentation to accelerate award"
+      ],
+      "newSummary": [
+        "Apply government-unique clauses by default without checking customary commercial practice.",
+        "Use commercial-item procedures while requiring unique redesign elements not sold commercially.",
+        "Validate commercial-item applicability and apply FAR Part 12 procedures using market-based terms.",
+        "Rely only on internal cost estimates instead of market comparability for commercial pricing."
+      ],
+      "correctAnswerChanged": false,
+      "explanationRichRestored": true
+    },
+    {
+      "id": "q168",
+      "source": "PNG",
+      "oldBrokenSummary": [
+        "Delay acquisition planning until after solicitation",
+        "Skip documentation to accelerate award",
+        "Use sole-source automatically without justification",
+        "Apply FAR 16 procedures with documented rationale"
+      ],
+      "newSummary": [
+        "Choose firm-fixed-price for unstable requirements mainly to reduce administrative workload.",
+        "Use cost-reimbursement before confirming accounting adequacy and surveillance capability.",
+        "Reuse the prior contract type by default even when technical and cost risk changed materially.",
+        "Select the contract type under FAR Part 16 based on requirement uncertainty and risk allocation."
+      ],
+      "correctAnswerChanged": false,
+      "explanationRichRestored": true
+    },
+    {
+      "id": "q169",
+      "source": "PNG",
+      "oldBrokenSummary": [
+        "Skip documentation to accelerate award",
+        "Apply FAR 10 procedures with documented rationale",
+        "Delay acquisition planning until after solicitation",
+        "Use sole-source automatically without justification"
+      ],
+      "newSummary": [
+        "Reuse prior-year vendor assumptions without validating current market capability or pricing conditions.",
+        "Document current market research findings under FAR Part 10 before finalizing the acquisition approach.",
+        "Issue the solicitation first and collect market research documentation only if protest risk increases.",
+        "Limit outreach to the incumbent because continuity concerns outweigh pre-award market analysis."
+      ],
+      "correctAnswerChanged": false,
+      "explanationRichRestored": true
+    },
+    {
+      "id": "q170",
+      "source": "PNG",
+      "oldBrokenSummary": [
+        "Apply FAR 6 procedures with documented rationale",
+        "Skip documentation to accelerate award",
+        "Delay acquisition planning until after solicitation",
+        "Use sole-source automatically without justification"
+      ],
+      "newSummary": [
+        "Promote full and open competition and document any authorized exception before award under FAR Part 6.",
+        "Restrict sources to known contractors first and justify limiting competition after proposal receipt.",
+        "Use urgency as a default basis to narrow competition without preparing the required approval package.",
+        "Adopt a brand-name-only strategy immediately and defer the justification until contract administration."
+      ],
+      "correctAnswerChanged": false,
+      "explanationRichRestored": true
+    },
+    {
+      "id": "q171",
+      "source": "PNG",
+      "oldBrokenSummary": [
+        "Use sole-source automatically without justification",
+        "Apply FAR 13 procedures with documented rationale",
+        "Skip documentation to accelerate award",
+        "Delay acquisition planning until after solicitation"
+      ],
+      "newSummary": [
+        "Use simplified procedures above applicable thresholds when mission timelines are compressed.",
+        "Apply FAR Part 13 thresholds, solicitation methods, and documentation requirements before award.",
+        "Solicit one vendor and complete price reasonableness documentation after performance starts.",
+        "Bundle unrelated requirements solely to keep the buy inside a preferred simplified path."
+      ],
+      "correctAnswerChanged": false,
+      "explanationRichRestored": true
+    },
+    {
+      "id": "q172",
+      "source": "PNG",
+      "oldBrokenSummary": [
+        "Skip documentation to accelerate award",
+        "Delay acquisition planning until after solicitation",
+        "Apply FAR 15 procedures with documented rationale",
+        "Use sole-source automatically without justification"
+      ],
+      "newSummary": [
+        "Begin discussions before finalizing evaluation factors and competitive-range documentation.",
+        "Select the lowest-priced offer without documenting how non-price factors were applied.",
+        "Establish and follow FAR Part 15 evaluation, discussion, and award documentation procedures.",
+        "Share one offeror’s pricing position with another to accelerate final proposal revisions."
+      ],
+      "correctAnswerChanged": false,
+      "explanationRichRestored": true
+    },
+    {
+      "id": "q173",
+      "source": "PNG",
+      "oldBrokenSummary": [
+        "Apply FAR 43 procedures with documented rationale",
+        "Delay acquisition planning until after solicitation",
+        "Skip documentation to accelerate award",
+        "Use sole-source automatically without justification"
+      ],
+      "newSummary": [
+        "Use FAR Part 43 modification authority and document scope, funding, and pricing before directing work.",
+        "Direct out-of-scope work first and negotiate the modification terms after contractor performance begins.",
+        "Use unilateral administrative-change authority for substantive scope expansion without bilateral agreement.",
+        "Treat all post-award changes as in-scope whenever schedule urgency is mission critical."
+      ],
+      "correctAnswerChanged": false,
+      "explanationRichRestored": true
+    },
+    {
+      "id": "q174",
+      "source": "PNG",
+      "oldBrokenSummary": [
+        "Use sole-source automatically without justification",
+        "Delay acquisition planning until after solicitation",
+        "Skip documentation to accelerate award",
+        "Apply FAR 15.3 procedures with documented rationale"
+      ],
+      "newSummary": [
+        "Adjust evaluation weighting during source selection to reflect evolving stakeholder preferences.",
+        "Rely on undocumented evaluator impressions instead of recording strengths, weaknesses, and risks.",
+        "Record only final ratings and omit narrative tradeoff analysis between leading proposals.",
+        "Document evaluation findings and tradeoff rationale consistent with FAR 15.3 before award."
+      ],
+      "correctAnswerChanged": false,
+      "explanationRichRestored": true
+    },
+    {
+      "id": "q175",
+      "source": "PNG",
+      "oldBrokenSummary": [
+        "Skip documentation to accelerate award",
+        "Use sole-source automatically without justification",
+        "Apply FAR 12 procedures with documented rationale",
+        "Delay acquisition planning until after solicitation"
+      ],
+      "newSummary": [
+        "Apply government-unique clauses by default without checking customary commercial practice.",
+        "Use commercial-item procedures while requiring unique redesign elements not sold commercially.",
+        "Validate commercial-item applicability and apply FAR Part 12 procedures using market-based terms.",
+        "Rely only on internal cost estimates instead of market comparability for commercial pricing."
+      ],
+      "correctAnswerChanged": false,
+      "explanationRichRestored": true
+    },
+    {
+      "id": "q176",
+      "source": "PNG",
+      "oldBrokenSummary": [
+        "Skip documentation to accelerate award",
+        "Use sole-source automatically without justification",
+        "Delay acquisition planning until after solicitation",
+        "Apply FAR 16 procedures with documented rationale"
+      ],
+      "newSummary": [
+        "Choose firm-fixed-price for unstable requirements mainly to reduce administrative workload.",
+        "Use cost-reimbursement before confirming accounting adequacy and surveillance capability.",
+        "Reuse the prior contract type by default even when technical and cost risk changed materially.",
+        "Select the contract type under FAR Part 16 based on requirement uncertainty and risk allocation."
+      ],
+      "correctAnswerChanged": false,
+      "explanationRichRestored": true
+    },
+    {
+      "id": "q177",
+      "source": "PNG",
+      "oldBrokenSummary": [
+        "Apply FAR 10 procedures with documented rationale",
+        "Use sole-source automatically without justification",
+        "Delay acquisition planning until after solicitation",
+        "Skip documentation to accelerate award"
+      ],
+      "newSummary": [
+        "Document current market research findings under FAR Part 10 before finalizing the acquisition approach.",
+        "Reuse prior-year vendor assumptions without validating current market capability or pricing conditions.",
+        "Issue the solicitation first and collect market research documentation only if protest risk increases.",
+        "Limit outreach to the incumbent because continuity concerns outweigh pre-award market analysis."
+      ],
+      "correctAnswerChanged": false,
+      "explanationRichRestored": true
+    },
+    {
+      "id": "q178",
+      "source": "PNG",
+      "oldBrokenSummary": [
+        "Delay acquisition planning until after solicitation",
+        "Skip documentation to accelerate award",
+        "Use sole-source automatically without justification",
+        "Apply FAR 6 procedures with documented rationale"
+      ],
+      "newSummary": [
+        "Restrict sources to known contractors first and justify limiting competition after proposal receipt.",
+        "Use urgency as a default basis to narrow competition without preparing the required approval package.",
+        "Adopt a brand-name-only strategy immediately and defer the justification until contract administration.",
+        "Promote full and open competition and document any authorized exception before award under FAR Part 6."
+      ],
+      "correctAnswerChanged": false,
+      "explanationRichRestored": true
+    },
+    {
+      "id": "q179",
+      "source": "PNG",
+      "oldBrokenSummary": [
+        "Delay acquisition planning until after solicitation",
+        "Use sole-source automatically without justification",
+        "Apply FAR 13 procedures with documented rationale",
+        "Skip documentation to accelerate award"
+      ],
+      "newSummary": [
+        "Use simplified procedures above applicable thresholds when mission timelines are compressed.",
+        "Solicit one vendor and complete price reasonableness documentation after performance starts.",
+        "Apply FAR Part 13 thresholds, solicitation methods, and documentation requirements before award.",
+        "Bundle unrelated requirements solely to keep the buy inside a preferred simplified path."
+      ],
+      "correctAnswerChanged": false,
+      "explanationRichRestored": true
+    },
+    {
+      "id": "q180",
+      "source": "PNG",
+      "oldBrokenSummary": [
+        "Delay acquisition planning until after solicitation",
+        "Use sole-source automatically without justification",
+        "Apply FAR 15 procedures with documented rationale",
+        "Skip documentation to accelerate award"
+      ],
+      "newSummary": [
+        "Begin discussions before finalizing evaluation factors and competitive-range documentation.",
+        "Select the lowest-priced offer without documenting how non-price factors were applied.",
+        "Establish and follow FAR Part 15 evaluation, discussion, and award documentation procedures.",
+        "Share one offeror’s pricing position with another to accelerate final proposal revisions."
+      ],
+      "correctAnswerChanged": false,
+      "explanationRichRestored": true
+    },
+    {
+      "id": "q181",
+      "source": "PNG",
+      "oldBrokenSummary": [
+        "Use sole-source automatically without justification",
+        "Skip documentation to accelerate award",
+        "Delay acquisition planning until after solicitation",
+        "Apply FAR 43 procedures with documented rationale"
+      ],
+      "newSummary": [
+        "Direct out-of-scope work first and negotiate the modification terms after contractor performance begins.",
+        "Use unilateral administrative-change authority for substantive scope expansion without bilateral agreement.",
+        "Treat all post-award changes as in-scope whenever schedule urgency is mission critical.",
+        "Use FAR Part 43 modification authority and document scope, funding, and pricing before directing work."
+      ],
+      "correctAnswerChanged": false,
+      "explanationRichRestored": true
+    },
+    {
+      "id": "q182",
+      "source": "PNG",
+      "oldBrokenSummary": [
+        "Use sole-source automatically without justification",
+        "Apply FAR 15.3 procedures with documented rationale",
+        "Skip documentation to accelerate award",
+        "Delay acquisition planning until after solicitation"
+      ],
+      "newSummary": [
+        "Adjust evaluation weighting during source selection to reflect evolving stakeholder preferences.",
+        "Document evaluation findings and tradeoff rationale consistent with FAR 15.3 before award.",
+        "Rely on undocumented evaluator impressions instead of recording strengths, weaknesses, and risks.",
+        "Record only final ratings and omit narrative tradeoff analysis between leading proposals."
+      ],
+      "correctAnswerChanged": false,
+      "explanationRichRestored": true
+    },
+    {
+      "id": "q183",
+      "source": "PNG",
+      "oldBrokenSummary": [
+        "Skip documentation to accelerate award",
+        "Use sole-source automatically without justification",
+        "Delay acquisition planning until after solicitation",
+        "Apply FAR 12 procedures with documented rationale"
+      ],
+      "newSummary": [
+        "Apply government-unique clauses by default without checking customary commercial practice.",
+        "Use commercial-item procedures while requiring unique redesign elements not sold commercially.",
+        "Rely only on internal cost estimates instead of market comparability for commercial pricing.",
+        "Validate commercial-item applicability and apply FAR Part 12 procedures using market-based terms."
+      ],
+      "correctAnswerChanged": false,
+      "explanationRichRestored": true
+    },
+    {
+      "id": "q184",
+      "source": "PNG",
+      "oldBrokenSummary": [
+        "Skip documentation to accelerate award",
+        "Delay acquisition planning until after solicitation",
+        "Apply FAR 16 procedures with documented rationale",
+        "Use sole-source automatically without justification"
+      ],
+      "newSummary": [
+        "Choose firm-fixed-price for unstable requirements mainly to reduce administrative workload.",
+        "Use cost-reimbursement before confirming accounting adequacy and surveillance capability.",
+        "Select the contract type under FAR Part 16 based on requirement uncertainty and risk allocation.",
+        "Reuse the prior contract type by default even when technical and cost risk changed materially."
+      ],
+      "correctAnswerChanged": false,
+      "explanationRichRestored": true
+    },
+    {
+      "id": "q185",
+      "source": "PNG",
+      "oldBrokenSummary": [
+        "Skip documentation to accelerate award",
+        "Use sole-source automatically without justification",
+        "Delay acquisition planning until after solicitation",
+        "Apply FAR 10 procedures with documented rationale"
+      ],
+      "newSummary": [
+        "Reuse prior-year vendor assumptions without validating current market capability or pricing conditions.",
+        "Issue the solicitation first and collect market research documentation only if protest risk increases.",
+        "Limit outreach to the incumbent because continuity concerns outweigh pre-award market analysis.",
+        "Document current market research findings under FAR Part 10 before finalizing the acquisition approach."
+      ],
+      "correctAnswerChanged": false,
+      "explanationRichRestored": true
+    },
+    {
+      "id": "q186",
+      "source": "PNG",
+      "oldBrokenSummary": [
+        "Apply FAR 6 procedures with documented rationale",
+        "Skip documentation to accelerate award",
+        "Delay acquisition planning until after solicitation",
+        "Use sole-source automatically without justification"
+      ],
+      "newSummary": [
+        "Promote full and open competition and document any authorized exception before award under FAR Part 6.",
+        "Restrict sources to known contractors first and justify limiting competition after proposal receipt.",
+        "Use urgency as a default basis to narrow competition without preparing the required approval package.",
+        "Adopt a brand-name-only strategy immediately and defer the justification until contract administration."
+      ],
+      "correctAnswerChanged": false,
+      "explanationRichRestored": true
+    },
+    {
+      "id": "q187",
+      "source": "PNG",
+      "oldBrokenSummary": [
+        "Delay acquisition planning until after solicitation",
+        "Apply FAR 13 procedures with documented rationale",
+        "Skip documentation to accelerate award",
+        "Use sole-source automatically without justification"
+      ],
+      "newSummary": [
+        "Use simplified procedures above applicable thresholds when mission timelines are compressed.",
+        "Apply FAR Part 13 thresholds, solicitation methods, and documentation requirements before award.",
+        "Solicit one vendor and complete price reasonableness documentation after performance starts.",
+        "Bundle unrelated requirements solely to keep the buy inside a preferred simplified path."
+      ],
+      "correctAnswerChanged": false,
+      "explanationRichRestored": true
+    },
+    {
+      "id": "q188",
+      "source": "PNG",
+      "oldBrokenSummary": [
+        "Use sole-source automatically without justification",
+        "Apply FAR 15 procedures with documented rationale",
+        "Delay acquisition planning until after solicitation",
+        "Skip documentation to accelerate award"
+      ],
+      "newSummary": [
+        "Begin discussions before finalizing evaluation factors and competitive-range documentation.",
+        "Establish and follow FAR Part 15 evaluation, discussion, and award documentation procedures.",
+        "Select the lowest-priced offer without documenting how non-price factors were applied.",
+        "Share one offeror’s pricing position with another to accelerate final proposal revisions."
+      ],
+      "correctAnswerChanged": false,
+      "explanationRichRestored": true
+    },
+    {
+      "id": "q189",
+      "source": "PNG",
+      "oldBrokenSummary": [
+        "Apply FAR 43 procedures with documented rationale",
+        "Skip documentation to accelerate award",
+        "Use sole-source automatically without justification",
+        "Delay acquisition planning until after solicitation"
+      ],
+      "newSummary": [
+        "Use FAR Part 43 modification authority and document scope, funding, and pricing before directing work.",
+        "Direct out-of-scope work first and negotiate the modification terms after contractor performance begins.",
+        "Use unilateral administrative-change authority for substantive scope expansion without bilateral agreement.",
+        "Treat all post-award changes as in-scope whenever schedule urgency is mission critical."
+      ],
+      "correctAnswerChanged": false,
+      "explanationRichRestored": true
+    },
+    {
+      "id": "q190",
+      "source": "PNG",
+      "oldBrokenSummary": [
+        "Use sole-source automatically without justification",
+        "Skip documentation to accelerate award",
+        "Delay acquisition planning until after solicitation",
+        "Apply FAR 15.3 procedures with documented rationale"
+      ],
+      "newSummary": [
+        "Adjust evaluation weighting during source selection to reflect evolving stakeholder preferences.",
+        "Rely on undocumented evaluator impressions instead of recording strengths, weaknesses, and risks.",
+        "Record only final ratings and omit narrative tradeoff analysis between leading proposals.",
+        "Document evaluation findings and tradeoff rationale consistent with FAR 15.3 before award."
+      ],
+      "correctAnswerChanged": false,
+      "explanationRichRestored": true
+    },
+    {
+      "id": "q191",
+      "source": "PNG",
+      "oldBrokenSummary": [
+        "Apply FAR 12 procedures with documented rationale",
+        "Use sole-source automatically without justification",
+        "Delay acquisition planning until after solicitation",
+        "Skip documentation to accelerate award"
+      ],
+      "newSummary": [
+        "Validate commercial-item applicability and apply FAR Part 12 procedures using market-based terms.",
+        "Apply government-unique clauses by default without checking customary commercial practice.",
+        "Use commercial-item procedures while requiring unique redesign elements not sold commercially.",
+        "Rely only on internal cost estimates instead of market comparability for commercial pricing."
+      ],
+      "correctAnswerChanged": false,
+      "explanationRichRestored": true
+    },
+    {
+      "id": "q192",
+      "source": "PNG",
+      "oldBrokenSummary": [
+        "Delay acquisition planning until after solicitation",
+        "Apply FAR 16 procedures with documented rationale",
+        "Skip documentation to accelerate award",
+        "Use sole-source automatically without justification"
+      ],
+      "newSummary": [
+        "Choose firm-fixed-price for unstable requirements mainly to reduce administrative workload.",
+        "Select the contract type under FAR Part 16 based on requirement uncertainty and risk allocation.",
+        "Use cost-reimbursement before confirming accounting adequacy and surveillance capability.",
+        "Reuse the prior contract type by default even when technical and cost risk changed materially."
+      ],
+      "correctAnswerChanged": false,
+      "explanationRichRestored": true
+    },
+    {
+      "id": "q193",
+      "source": "PNG",
+      "oldBrokenSummary": [
+        "Use sole-source automatically without justification",
+        "Skip documentation to accelerate award",
+        "Apply FAR 10 procedures with documented rationale",
+        "Delay acquisition planning until after solicitation"
+      ],
+      "newSummary": [
+        "Reuse prior-year vendor assumptions without validating current market capability or pricing conditions.",
+        "Issue the solicitation first and collect market research documentation only if protest risk increases.",
+        "Document current market research findings under FAR Part 10 before finalizing the acquisition approach.",
+        "Limit outreach to the incumbent because continuity concerns outweigh pre-award market analysis."
+      ],
+      "correctAnswerChanged": false,
+      "explanationRichRestored": true
+    },
+    {
+      "id": "q194",
+      "source": "PNG",
+      "oldBrokenSummary": [
+        "Skip documentation to accelerate award",
+        "Delay acquisition planning until after solicitation",
+        "Use sole-source automatically without justification",
+        "Apply FAR 6 procedures with documented rationale"
+      ],
+      "newSummary": [
+        "Restrict sources to known contractors first and justify limiting competition after proposal receipt.",
+        "Use urgency as a default basis to narrow competition without preparing the required approval package.",
+        "Adopt a brand-name-only strategy immediately and defer the justification until contract administration.",
+        "Promote full and open competition and document any authorized exception before award under FAR Part 6."
+      ],
+      "correctAnswerChanged": false,
+      "explanationRichRestored": true
+    },
+    {
+      "id": "q195",
+      "source": "PNG",
+      "oldBrokenSummary": [
+        "Skip documentation to accelerate award",
+        "Use sole-source automatically without justification",
+        "Apply FAR 13 procedures with documented rationale",
+        "Delay acquisition planning until after solicitation"
+      ],
+      "newSummary": [
+        "Use simplified procedures above applicable thresholds when mission timelines are compressed.",
+        "Solicit one vendor and complete price reasonableness documentation after performance starts.",
+        "Apply FAR Part 13 thresholds, solicitation methods, and documentation requirements before award.",
+        "Bundle unrelated requirements solely to keep the buy inside a preferred simplified path."
+      ],
+      "correctAnswerChanged": false,
+      "explanationRichRestored": true
+    },
+    {
+      "id": "q196",
+      "source": "PNG",
+      "oldBrokenSummary": [
+        "Use sole-source automatically without justification",
+        "Skip documentation to accelerate award",
+        "Delay acquisition planning until after solicitation",
+        "Apply FAR 15 procedures with documented rationale"
+      ],
+      "newSummary": [
+        "Begin discussions before finalizing evaluation factors and competitive-range documentation.",
+        "Select the lowest-priced offer without documenting how non-price factors were applied.",
+        "Share one offeror’s pricing position with another to accelerate final proposal revisions.",
+        "Establish and follow FAR Part 15 evaluation, discussion, and award documentation procedures."
+      ],
+      "correctAnswerChanged": false,
+      "explanationRichRestored": true
+    },
+    {
+      "id": "q197",
+      "source": "PNG",
+      "oldBrokenSummary": [
+        "Skip documentation to accelerate award",
+        "Use sole-source automatically without justification",
+        "Delay acquisition planning until after solicitation",
+        "Apply FAR 43 procedures with documented rationale"
+      ],
+      "newSummary": [
+        "Direct out-of-scope work first and negotiate the modification terms after contractor performance begins.",
+        "Use unilateral administrative-change authority for substantive scope expansion without bilateral agreement.",
+        "Treat all post-award changes as in-scope whenever schedule urgency is mission critical.",
+        "Use FAR Part 43 modification authority and document scope, funding, and pricing before directing work."
+      ],
+      "correctAnswerChanged": false,
+      "explanationRichRestored": true
+    },
+    {
+      "id": "q198",
+      "source": "PNG",
+      "oldBrokenSummary": [
+        "Delay acquisition planning until after solicitation",
+        "Skip documentation to accelerate award",
+        "Use sole-source automatically without justification",
+        "Apply FAR 15.3 procedures with documented rationale"
+      ],
+      "newSummary": [
+        "Adjust evaluation weighting during source selection to reflect evolving stakeholder preferences.",
+        "Rely on undocumented evaluator impressions instead of recording strengths, weaknesses, and risks.",
+        "Record only final ratings and omit narrative tradeoff analysis between leading proposals.",
+        "Document evaluation findings and tradeoff rationale consistent with FAR 15.3 before award."
+      ],
+      "correctAnswerChanged": false,
+      "explanationRichRestored": true
+    },
+    {
+      "id": "q199",
+      "source": "PNG",
+      "oldBrokenSummary": [
+        "Apply FAR 12 procedures with documented rationale",
+        "Skip documentation to accelerate award",
+        "Delay acquisition planning until after solicitation",
+        "Use sole-source automatically without justification"
+      ],
+      "newSummary": [
+        "Validate commercial-item applicability and apply FAR Part 12 procedures using market-based terms.",
+        "Apply government-unique clauses by default without checking customary commercial practice.",
+        "Use commercial-item procedures while requiring unique redesign elements not sold commercially.",
+        "Rely only on internal cost estimates instead of market comparability for commercial pricing."
+      ],
+      "correctAnswerChanged": false,
+      "explanationRichRestored": true
+    },
+    {
+      "id": "q200",
+      "source": "PNG",
+      "oldBrokenSummary": [
+        "Skip documentation to accelerate award",
+        "Use sole-source automatically without justification",
+        "Delay acquisition planning until after solicitation",
+        "Apply FAR 16 procedures with documented rationale"
+      ],
+      "newSummary": [
+        "Choose firm-fixed-price for unstable requirements mainly to reduce administrative workload.",
+        "Use cost-reimbursement before confirming accounting adequacy and surveillance capability.",
+        "Reuse the prior contract type by default even when technical and cost risk changed materially.",
+        "Select the contract type under FAR Part 16 based on requirement uncertainty and risk allocation."
+      ],
+      "correctAnswerChanged": false,
+      "explanationRichRestored": true
+    }
+  ]
+}

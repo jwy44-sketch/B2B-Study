@@ -1,17 +1,19 @@
 import './globals.css';
 import Link from 'next/link';
+import AuthSessionBridge from '@/components/AuthSessionBridge';
 
 export const metadata = {
   title: 'Back2Basics Learn',
   description: 'USAF contracting study app'
 };
 
-const links = ['/', '/learn', '/exam', '/flashcards', '/bank', '/bookmarks', '/settings'];
+const links = ['/', '/learn', '/exam', '/flashcards', '/bank', '/bookmarks', '/settings', '/account'];
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
       <body>
+        <AuthSessionBridge />
         <header className="sticky top-0 z-40 border-b border-slate-800 bg-slate-950/90 backdrop-blur">
           <nav className="mx-auto flex max-w-6xl gap-3 overflow-auto p-3 text-sm">
             {links.map((href) => (

@@ -1,0 +1,3207 @@
+{
+  "generatedAt": "2026-03-26T19:39:30.778Z",
+  "source": "public/questions.json",
+  "totalReverted": 200,
+  "items": [
+    {
+      "id": "Q001",
+      "oldDistractorEditedVersion": [
+        "Rely on prior contract files and skip current vendor outreach for this requirement.",
+        "Apply FAR 10 procedures with documented rationale",
+        "Post the solicitation first, then document market research only if questions arise.",
+        "Adopt the incumbent's approach without validating current commercial capabilities."
+      ],
+      "revertedVersion": [
+        "Delay acquisition planning until after solicitation",
+        "Apply FAR 10 procedures with documented rationale",
+        "Use sole-source automatically without justification",
+        "Skip documentation to accelerate award"
+      ],
+      "notes": "Restored regular Learn bank choices to pre-distractor-pass version from previous commit."
+    },
+    {
+      "id": "Q002",
+      "oldDistractorEditedVersion": [
+        "Restrict competition to known vendors before documenting a valid exclusion rationale.",
+        "Issue a brand-name requirement and complete the justification after award.",
+        "Prioritize schedule urgency and reduce competition without obtaining required approvals.",
+        "Apply FAR 6 procedures with documented rationale"
+      ],
+      "revertedVersion": [
+        "Skip documentation to accelerate award",
+        "Use sole-source automatically without justification",
+        "Delay acquisition planning until after solicitation",
+        "Apply FAR 6 procedures with documented rationale"
+      ],
+      "notes": "Restored regular Learn bank choices to pre-distractor-pass version from previous commit."
+    },
+    {
+      "id": "Q003",
+      "oldDistractorEditedVersion": [
+        "Use simplified procedures above threshold limits because administrative speed is critical.",
+        "Apply FAR 13 procedures with documented rationale",
+        "Solicit only one local source and document price reasonableness after award.",
+        "Combine unrelated needs into one buy to stay within a preferred buying method."
+      ],
+      "revertedVersion": [
+        "Delay acquisition planning until after solicitation",
+        "Apply FAR 13 procedures with documented rationale",
+        "Use sole-source automatically without justification",
+        "Skip documentation to accelerate award"
+      ],
+      "notes": "Restored regular Learn bank choices to pre-distractor-pass version from previous commit."
+    },
+    {
+      "id": "Q004",
+      "oldDistractorEditedVersion": [
+        "Begin negotiations before establishing evaluation factors and competitive range strategy.",
+        "Apply FAR 15 procedures with documented rationale",
+        "Award on lowest price alone when tradeoff criteria were announced in the solicitation.",
+        "Disclose one offeror's pricing details to accelerate final proposal revisions."
+      ],
+      "revertedVersion": [
+        "Use sole-source automatically without justification",
+        "Apply FAR 15 procedures with documented rationale",
+        "Delay acquisition planning until after solicitation",
+        "Skip documentation to accelerate award"
+      ],
+      "notes": "Restored regular Learn bank choices to pre-distractor-pass version from previous commit."
+    },
+    {
+      "id": "Q005",
+      "oldDistractorEditedVersion": [
+        "Apply FAR 43 procedures with documented rationale",
+        "Direct the contractor to perform new scope first and negotiate pricing later.",
+        "Use unilateral administrative authority for substantive scope changes outside the contract.",
+        "Treat every change as within scope when mission urgency supports continuity."
+      ],
+      "revertedVersion": [
+        "Apply FAR 43 procedures with documented rationale",
+        "Skip documentation to accelerate award",
+        "Delay acquisition planning until after solicitation",
+        "Use sole-source automatically without justification"
+      ],
+      "notes": "Restored regular Learn bank choices to pre-distractor-pass version from previous commit."
+    },
+    {
+      "id": "Q006",
+      "oldDistractorEditedVersion": [
+        "Adjust evaluation weights during discussions to align with evolving preferences.",
+        "Allow evaluators to rely on undocumented impressions instead of the source selection plan.",
+        "Limit tradeoff documentation to final ratings without comparing proposal strengths and risks.",
+        "Apply FAR 15.3 procedures with documented rationale"
+      ],
+      "revertedVersion": [
+        "Delay acquisition planning until after solicitation",
+        "Use sole-source automatically without justification",
+        "Skip documentation to accelerate award",
+        "Apply FAR 15.3 procedures with documented rationale"
+      ],
+      "notes": "Restored regular Learn bank choices to pre-distractor-pass version from previous commit."
+    },
+    {
+      "id": "Q007",
+      "oldDistractorEditedVersion": [
+        "Require noncommercial clauses by default without determining market customary practice.",
+        "Use commercial procedures while demanding unique government-only technical redesigns.",
+        "Apply FAR 12 procedures with documented rationale",
+        "Skip market comparability analysis and rely solely on internal cost estimates."
+      ],
+      "revertedVersion": [
+        "Delay acquisition planning until after solicitation",
+        "Skip documentation to accelerate award",
+        "Apply FAR 12 procedures with documented rationale",
+        "Use sole-source automatically without justification"
+      ],
+      "notes": "Restored regular Learn bank choices to pre-distractor-pass version from previous commit."
+    },
+    {
+      "id": "Q008",
+      "oldDistractorEditedVersion": [
+        "Apply FAR 16 procedures with documented rationale",
+        "Select firm-fixed-price when requirements remain unstable and technical risk is high.",
+        "Use cost-reimbursement without documenting adequate surveillance and accounting capability.",
+        "Choose contract type based on historical preference rather than current risk allocation."
+      ],
+      "revertedVersion": [
+        "Apply FAR 16 procedures with documented rationale",
+        "Use sole-source automatically without justification",
+        "Delay acquisition planning until after solicitation",
+        "Skip documentation to accelerate award"
+      ],
+      "notes": "Restored regular Learn bank choices to pre-distractor-pass version from previous commit."
+    },
+    {
+      "id": "Q009",
+      "oldDistractorEditedVersion": [
+        "Apply FAR 10 procedures with documented rationale",
+        "Rely on prior contract files and skip current vendor outreach for this requirement.",
+        "Post the solicitation first, then document market research only if questions arise.",
+        "Adopt the incumbent's approach without validating current commercial capabilities."
+      ],
+      "revertedVersion": [
+        "Apply FAR 10 procedures with documented rationale",
+        "Skip documentation to accelerate award",
+        "Use sole-source automatically without justification",
+        "Delay acquisition planning until after solicitation"
+      ],
+      "notes": "Restored regular Learn bank choices to pre-distractor-pass version from previous commit."
+    },
+    {
+      "id": "Q010",
+      "oldDistractorEditedVersion": [
+        "Restrict competition to known vendors before documenting a valid exclusion rationale.",
+        "Issue a brand-name requirement and complete the justification after award.",
+        "Prioritize schedule urgency and reduce competition without obtaining required approvals.",
+        "Apply FAR 6 procedures with documented rationale"
+      ],
+      "revertedVersion": [
+        "Delay acquisition planning until after solicitation",
+        "Use sole-source automatically without justification",
+        "Skip documentation to accelerate award",
+        "Apply FAR 6 procedures with documented rationale"
+      ],
+      "notes": "Restored regular Learn bank choices to pre-distractor-pass version from previous commit."
+    },
+    {
+      "id": "Q011",
+      "oldDistractorEditedVersion": [
+        "Apply FAR 13 procedures with documented rationale",
+        "Use simplified procedures above threshold limits because administrative speed is critical.",
+        "Solicit only one local source and document price reasonableness after award.",
+        "Combine unrelated needs into one buy to stay within a preferred buying method."
+      ],
+      "revertedVersion": [
+        "Apply FAR 13 procedures with documented rationale",
+        "Skip documentation to accelerate award",
+        "Use sole-source automatically without justification",
+        "Delay acquisition planning until after solicitation"
+      ],
+      "notes": "Restored regular Learn bank choices to pre-distractor-pass version from previous commit."
+    },
+    {
+      "id": "Q012",
+      "oldDistractorEditedVersion": [
+        "Apply FAR 15 procedures with documented rationale",
+        "Begin negotiations before establishing evaluation factors and competitive range strategy.",
+        "Award on lowest price alone when tradeoff criteria were announced in the solicitation.",
+        "Disclose one offeror's pricing details to accelerate final proposal revisions."
+      ],
+      "revertedVersion": [
+        "Apply FAR 15 procedures with documented rationale",
+        "Use sole-source automatically without justification",
+        "Skip documentation to accelerate award",
+        "Delay acquisition planning until after solicitation"
+      ],
+      "notes": "Restored regular Learn bank choices to pre-distractor-pass version from previous commit."
+    },
+    {
+      "id": "Q013",
+      "oldDistractorEditedVersion": [
+        "Direct the contractor to perform new scope first and negotiate pricing later.",
+        "Apply FAR 43 procedures with documented rationale",
+        "Use unilateral administrative authority for substantive scope changes outside the contract.",
+        "Treat every change as within scope when mission urgency supports continuity."
+      ],
+      "revertedVersion": [
+        "Delay acquisition planning until after solicitation",
+        "Apply FAR 43 procedures with documented rationale",
+        "Skip documentation to accelerate award",
+        "Use sole-source automatically without justification"
+      ],
+      "notes": "Restored regular Learn bank choices to pre-distractor-pass version from previous commit."
+    },
+    {
+      "id": "Q014",
+      "oldDistractorEditedVersion": [
+        "Adjust evaluation weights during discussions to align with evolving preferences.",
+        "Allow evaluators to rely on undocumented impressions instead of the source selection plan.",
+        "Limit tradeoff documentation to final ratings without comparing proposal strengths and risks.",
+        "Apply FAR 15.3 procedures with documented rationale"
+      ],
+      "revertedVersion": [
+        "Skip documentation to accelerate award",
+        "Delay acquisition planning until after solicitation",
+        "Use sole-source automatically without justification",
+        "Apply FAR 15.3 procedures with documented rationale"
+      ],
+      "notes": "Restored regular Learn bank choices to pre-distractor-pass version from previous commit."
+    },
+    {
+      "id": "Q015",
+      "oldDistractorEditedVersion": [
+        "Require noncommercial clauses by default without determining market customary practice.",
+        "Use commercial procedures while demanding unique government-only technical redesigns.",
+        "Apply FAR 12 procedures with documented rationale",
+        "Skip market comparability analysis and rely solely on internal cost estimates."
+      ],
+      "revertedVersion": [
+        "Delay acquisition planning until after solicitation",
+        "Use sole-source automatically without justification",
+        "Apply FAR 12 procedures with documented rationale",
+        "Skip documentation to accelerate award"
+      ],
+      "notes": "Restored regular Learn bank choices to pre-distractor-pass version from previous commit."
+    },
+    {
+      "id": "Q016",
+      "oldDistractorEditedVersion": [
+        "Apply FAR 16 procedures with documented rationale",
+        "Select firm-fixed-price when requirements remain unstable and technical risk is high.",
+        "Use cost-reimbursement without documenting adequate surveillance and accounting capability.",
+        "Choose contract type based on historical preference rather than current risk allocation."
+      ],
+      "revertedVersion": [
+        "Apply FAR 16 procedures with documented rationale",
+        "Delay acquisition planning until after solicitation",
+        "Skip documentation to accelerate award",
+        "Use sole-source automatically without justification"
+      ],
+      "notes": "Restored regular Learn bank choices to pre-distractor-pass version from previous commit."
+    },
+    {
+      "id": "Q017",
+      "oldDistractorEditedVersion": [
+        "Apply FAR 10 procedures with documented rationale",
+        "Rely on prior contract files and skip current vendor outreach for this requirement.",
+        "Post the solicitation first, then document market research only if questions arise.",
+        "Adopt the incumbent's approach without validating current commercial capabilities."
+      ],
+      "revertedVersion": [
+        "Apply FAR 10 procedures with documented rationale",
+        "Use sole-source automatically without justification",
+        "Skip documentation to accelerate award",
+        "Delay acquisition planning until after solicitation"
+      ],
+      "notes": "Restored regular Learn bank choices to pre-distractor-pass version from previous commit."
+    },
+    {
+      "id": "Q018",
+      "oldDistractorEditedVersion": [
+        "Restrict competition to known vendors before documenting a valid exclusion rationale.",
+        "Issue a brand-name requirement and complete the justification after award.",
+        "Apply FAR 6 procedures with documented rationale",
+        "Prioritize schedule urgency and reduce competition without obtaining required approvals."
+      ],
+      "revertedVersion": [
+        "Use sole-source automatically without justification",
+        "Delay acquisition planning until after solicitation",
+        "Apply FAR 6 procedures with documented rationale",
+        "Skip documentation to accelerate award"
+      ],
+      "notes": "Restored regular Learn bank choices to pre-distractor-pass version from previous commit."
+    },
+    {
+      "id": "Q019",
+      "oldDistractorEditedVersion": [
+        "Use simplified procedures above threshold limits because administrative speed is critical.",
+        "Solicit only one local source and document price reasonableness after award.",
+        "Combine unrelated needs into one buy to stay within a preferred buying method.",
+        "Apply FAR 13 procedures with documented rationale"
+      ],
+      "revertedVersion": [
+        "Skip documentation to accelerate award",
+        "Delay acquisition planning until after solicitation",
+        "Use sole-source automatically without justification",
+        "Apply FAR 13 procedures with documented rationale"
+      ],
+      "notes": "Restored regular Learn bank choices to pre-distractor-pass version from previous commit."
+    },
+    {
+      "id": "Q020",
+      "oldDistractorEditedVersion": [
+        "Begin negotiations before establishing evaluation factors and competitive range strategy.",
+        "Apply FAR 15 procedures with documented rationale",
+        "Award on lowest price alone when tradeoff criteria were announced in the solicitation.",
+        "Disclose one offeror's pricing details to accelerate final proposal revisions."
+      ],
+      "revertedVersion": [
+        "Use sole-source automatically without justification",
+        "Apply FAR 15 procedures with documented rationale",
+        "Delay acquisition planning until after solicitation",
+        "Skip documentation to accelerate award"
+      ],
+      "notes": "Restored regular Learn bank choices to pre-distractor-pass version from previous commit."
+    },
+    {
+      "id": "Q021",
+      "oldDistractorEditedVersion": [
+        "Apply FAR 43 procedures with documented rationale",
+        "Direct the contractor to perform new scope first and negotiate pricing later.",
+        "Use unilateral administrative authority for substantive scope changes outside the contract.",
+        "Treat every change as within scope when mission urgency supports continuity."
+      ],
+      "revertedVersion": [
+        "Apply FAR 43 procedures with documented rationale",
+        "Use sole-source automatically without justification",
+        "Delay acquisition planning until after solicitation",
+        "Skip documentation to accelerate award"
+      ],
+      "notes": "Restored regular Learn bank choices to pre-distractor-pass version from previous commit."
+    },
+    {
+      "id": "Q022",
+      "oldDistractorEditedVersion": [
+        "Adjust evaluation weights during discussions to align with evolving preferences.",
+        "Allow evaluators to rely on undocumented impressions instead of the source selection plan.",
+        "Apply FAR 15.3 procedures with documented rationale",
+        "Limit tradeoff documentation to final ratings without comparing proposal strengths and risks."
+      ],
+      "revertedVersion": [
+        "Delay acquisition planning until after solicitation",
+        "Use sole-source automatically without justification",
+        "Apply FAR 15.3 procedures with documented rationale",
+        "Skip documentation to accelerate award"
+      ],
+      "notes": "Restored regular Learn bank choices to pre-distractor-pass version from previous commit."
+    },
+    {
+      "id": "Q023",
+      "oldDistractorEditedVersion": [
+        "Require noncommercial clauses by default without determining market customary practice.",
+        "Use commercial procedures while demanding unique government-only technical redesigns.",
+        "Apply FAR 12 procedures with documented rationale",
+        "Skip market comparability analysis and rely solely on internal cost estimates."
+      ],
+      "revertedVersion": [
+        "Skip documentation to accelerate award",
+        "Delay acquisition planning until after solicitation",
+        "Apply FAR 12 procedures with documented rationale",
+        "Use sole-source automatically without justification"
+      ],
+      "notes": "Restored regular Learn bank choices to pre-distractor-pass version from previous commit."
+    },
+    {
+      "id": "Q024",
+      "oldDistractorEditedVersion": [
+        "Select firm-fixed-price when requirements remain unstable and technical risk is high.",
+        "Apply FAR 16 procedures with documented rationale",
+        "Use cost-reimbursement without documenting adequate surveillance and accounting capability.",
+        "Choose contract type based on historical preference rather than current risk allocation."
+      ],
+      "revertedVersion": [
+        "Skip documentation to accelerate award",
+        "Apply FAR 16 procedures with documented rationale",
+        "Use sole-source automatically without justification",
+        "Delay acquisition planning until after solicitation"
+      ],
+      "notes": "Restored regular Learn bank choices to pre-distractor-pass version from previous commit."
+    },
+    {
+      "id": "Q025",
+      "oldDistractorEditedVersion": [
+        "Rely on prior contract files and skip current vendor outreach for this requirement.",
+        "Post the solicitation first, then document market research only if questions arise.",
+        "Apply FAR 10 procedures with documented rationale",
+        "Adopt the incumbent's approach without validating current commercial capabilities."
+      ],
+      "revertedVersion": [
+        "Skip documentation to accelerate award",
+        "Use sole-source automatically without justification",
+        "Apply FAR 10 procedures with documented rationale",
+        "Delay acquisition planning until after solicitation"
+      ],
+      "notes": "Restored regular Learn bank choices to pre-distractor-pass version from previous commit."
+    },
+    {
+      "id": "Q026",
+      "oldDistractorEditedVersion": [
+        "Restrict competition to known vendors before documenting a valid exclusion rationale.",
+        "Apply FAR 6 procedures with documented rationale",
+        "Issue a brand-name requirement and complete the justification after award.",
+        "Prioritize schedule urgency and reduce competition without obtaining required approvals."
+      ],
+      "revertedVersion": [
+        "Delay acquisition planning until after solicitation",
+        "Apply FAR 6 procedures with documented rationale",
+        "Use sole-source automatically without justification",
+        "Skip documentation to accelerate award"
+      ],
+      "notes": "Restored regular Learn bank choices to pre-distractor-pass version from previous commit."
+    },
+    {
+      "id": "Q027",
+      "oldDistractorEditedVersion": [
+        "Apply FAR 13 procedures with documented rationale",
+        "Use simplified procedures above threshold limits because administrative speed is critical.",
+        "Solicit only one local source and document price reasonableness after award.",
+        "Combine unrelated needs into one buy to stay within a preferred buying method."
+      ],
+      "revertedVersion": [
+        "Apply FAR 13 procedures with documented rationale",
+        "Skip documentation to accelerate award",
+        "Use sole-source automatically without justification",
+        "Delay acquisition planning until after solicitation"
+      ],
+      "notes": "Restored regular Learn bank choices to pre-distractor-pass version from previous commit."
+    },
+    {
+      "id": "Q028",
+      "oldDistractorEditedVersion": [
+        "Begin negotiations before establishing evaluation factors and competitive range strategy.",
+        "Award on lowest price alone when tradeoff criteria were announced in the solicitation.",
+        "Disclose one offeror's pricing details to accelerate final proposal revisions.",
+        "Apply FAR 15 procedures with documented rationale"
+      ],
+      "revertedVersion": [
+        "Skip documentation to accelerate award",
+        "Delay acquisition planning until after solicitation",
+        "Use sole-source automatically without justification",
+        "Apply FAR 15 procedures with documented rationale"
+      ],
+      "notes": "Restored regular Learn bank choices to pre-distractor-pass version from previous commit."
+    },
+    {
+      "id": "Q029",
+      "oldDistractorEditedVersion": [
+        "Direct the contractor to perform new scope first and negotiate pricing later.",
+        "Use unilateral administrative authority for substantive scope changes outside the contract.",
+        "Treat every change as within scope when mission urgency supports continuity.",
+        "Apply FAR 43 procedures with documented rationale"
+      ],
+      "revertedVersion": [
+        "Delay acquisition planning until after solicitation",
+        "Use sole-source automatically without justification",
+        "Skip documentation to accelerate award",
+        "Apply FAR 43 procedures with documented rationale"
+      ],
+      "notes": "Restored regular Learn bank choices to pre-distractor-pass version from previous commit."
+    },
+    {
+      "id": "Q030",
+      "oldDistractorEditedVersion": [
+        "Adjust evaluation weights during discussions to align with evolving preferences.",
+        "Apply FAR 15.3 procedures with documented rationale",
+        "Allow evaluators to rely on undocumented impressions instead of the source selection plan.",
+        "Limit tradeoff documentation to final ratings without comparing proposal strengths and risks."
+      ],
+      "revertedVersion": [
+        "Skip documentation to accelerate award",
+        "Apply FAR 15.3 procedures with documented rationale",
+        "Delay acquisition planning until after solicitation",
+        "Use sole-source automatically without justification"
+      ],
+      "notes": "Restored regular Learn bank choices to pre-distractor-pass version from previous commit."
+    },
+    {
+      "id": "Q031",
+      "oldDistractorEditedVersion": [
+        "Require noncommercial clauses by default without determining market customary practice.",
+        "Use commercial procedures while demanding unique government-only technical redesigns.",
+        "Skip market comparability analysis and rely solely on internal cost estimates.",
+        "Apply FAR 12 procedures with documented rationale"
+      ],
+      "revertedVersion": [
+        "Use sole-source automatically without justification",
+        "Delay acquisition planning until after solicitation",
+        "Skip documentation to accelerate award",
+        "Apply FAR 12 procedures with documented rationale"
+      ],
+      "notes": "Restored regular Learn bank choices to pre-distractor-pass version from previous commit."
+    },
+    {
+      "id": "Q032",
+      "oldDistractorEditedVersion": [
+        "Select firm-fixed-price when requirements remain unstable and technical risk is high.",
+        "Use cost-reimbursement without documenting adequate surveillance and accounting capability.",
+        "Choose contract type based on historical preference rather than current risk allocation.",
+        "Apply FAR 16 procedures with documented rationale"
+      ],
+      "revertedVersion": [
+        "Skip documentation to accelerate award",
+        "Use sole-source automatically without justification",
+        "Delay acquisition planning until after solicitation",
+        "Apply FAR 16 procedures with documented rationale"
+      ],
+      "notes": "Restored regular Learn bank choices to pre-distractor-pass version from previous commit."
+    },
+    {
+      "id": "Q033",
+      "oldDistractorEditedVersion": [
+        "Rely on prior contract files and skip current vendor outreach for this requirement.",
+        "Apply FAR 10 procedures with documented rationale",
+        "Post the solicitation first, then document market research only if questions arise.",
+        "Adopt the incumbent's approach without validating current commercial capabilities."
+      ],
+      "revertedVersion": [
+        "Delay acquisition planning until after solicitation",
+        "Apply FAR 10 procedures with documented rationale",
+        "Use sole-source automatically without justification",
+        "Skip documentation to accelerate award"
+      ],
+      "notes": "Restored regular Learn bank choices to pre-distractor-pass version from previous commit."
+    },
+    {
+      "id": "Q034",
+      "oldDistractorEditedVersion": [
+        "Restrict competition to known vendors before documenting a valid exclusion rationale.",
+        "Apply FAR 6 procedures with documented rationale",
+        "Issue a brand-name requirement and complete the justification after award.",
+        "Prioritize schedule urgency and reduce competition without obtaining required approvals."
+      ],
+      "revertedVersion": [
+        "Skip documentation to accelerate award",
+        "Apply FAR 6 procedures with documented rationale",
+        "Delay acquisition planning until after solicitation",
+        "Use sole-source automatically without justification"
+      ],
+      "notes": "Restored regular Learn bank choices to pre-distractor-pass version from previous commit."
+    },
+    {
+      "id": "Q035",
+      "oldDistractorEditedVersion": [
+        "Use simplified procedures above threshold limits because administrative speed is critical.",
+        "Solicit only one local source and document price reasonableness after award.",
+        "Apply FAR 13 procedures with documented rationale",
+        "Combine unrelated needs into one buy to stay within a preferred buying method."
+      ],
+      "revertedVersion": [
+        "Delay acquisition planning until after solicitation",
+        "Skip documentation to accelerate award",
+        "Apply FAR 13 procedures with documented rationale",
+        "Use sole-source automatically without justification"
+      ],
+      "notes": "Restored regular Learn bank choices to pre-distractor-pass version from previous commit."
+    },
+    {
+      "id": "Q036",
+      "oldDistractorEditedVersion": [
+        "Begin negotiations before establishing evaluation factors and competitive range strategy.",
+        "Award on lowest price alone when tradeoff criteria were announced in the solicitation.",
+        "Apply FAR 15 procedures with documented rationale",
+        "Disclose one offeror's pricing details to accelerate final proposal revisions."
+      ],
+      "revertedVersion": [
+        "Skip documentation to accelerate award",
+        "Delay acquisition planning until after solicitation",
+        "Apply FAR 15 procedures with documented rationale",
+        "Use sole-source automatically without justification"
+      ],
+      "notes": "Restored regular Learn bank choices to pre-distractor-pass version from previous commit."
+    },
+    {
+      "id": "Q037",
+      "oldDistractorEditedVersion": [
+        "Direct the contractor to perform new scope first and negotiate pricing later.",
+        "Use unilateral administrative authority for substantive scope changes outside the contract.",
+        "Treat every change as within scope when mission urgency supports continuity.",
+        "Apply FAR 43 procedures with documented rationale"
+      ],
+      "revertedVersion": [
+        "Skip documentation to accelerate award",
+        "Delay acquisition planning until after solicitation",
+        "Use sole-source automatically without justification",
+        "Apply FAR 43 procedures with documented rationale"
+      ],
+      "notes": "Restored regular Learn bank choices to pre-distractor-pass version from previous commit."
+    },
+    {
+      "id": "Q038",
+      "oldDistractorEditedVersion": [
+        "Adjust evaluation weights during discussions to align with evolving preferences.",
+        "Apply FAR 15.3 procedures with documented rationale",
+        "Allow evaluators to rely on undocumented impressions instead of the source selection plan.",
+        "Limit tradeoff documentation to final ratings without comparing proposal strengths and risks."
+      ],
+      "revertedVersion": [
+        "Use sole-source automatically without justification",
+        "Apply FAR 15.3 procedures with documented rationale",
+        "Skip documentation to accelerate award",
+        "Delay acquisition planning until after solicitation"
+      ],
+      "notes": "Restored regular Learn bank choices to pre-distractor-pass version from previous commit."
+    },
+    {
+      "id": "Q039",
+      "oldDistractorEditedVersion": [
+        "Apply FAR 12 procedures with documented rationale",
+        "Require noncommercial clauses by default without determining market customary practice.",
+        "Use commercial procedures while demanding unique government-only technical redesigns.",
+        "Skip market comparability analysis and rely solely on internal cost estimates."
+      ],
+      "revertedVersion": [
+        "Apply FAR 12 procedures with documented rationale",
+        "Use sole-source automatically without justification",
+        "Delay acquisition planning until after solicitation",
+        "Skip documentation to accelerate award"
+      ],
+      "notes": "Restored regular Learn bank choices to pre-distractor-pass version from previous commit."
+    },
+    {
+      "id": "Q040",
+      "oldDistractorEditedVersion": [
+        "Select firm-fixed-price when requirements remain unstable and technical risk is high.",
+        "Apply FAR 16 procedures with documented rationale",
+        "Use cost-reimbursement without documenting adequate surveillance and accounting capability.",
+        "Choose contract type based on historical preference rather than current risk allocation."
+      ],
+      "revertedVersion": [
+        "Skip documentation to accelerate award",
+        "Apply FAR 16 procedures with documented rationale",
+        "Use sole-source automatically without justification",
+        "Delay acquisition planning until after solicitation"
+      ],
+      "notes": "Restored regular Learn bank choices to pre-distractor-pass version from previous commit."
+    },
+    {
+      "id": "Q041",
+      "oldDistractorEditedVersion": [
+        "Rely on prior contract files and skip current vendor outreach for this requirement.",
+        "Apply FAR 10 procedures with documented rationale",
+        "Post the solicitation first, then document market research only if questions arise.",
+        "Adopt the incumbent's approach without validating current commercial capabilities."
+      ],
+      "revertedVersion": [
+        "Use sole-source automatically without justification",
+        "Apply FAR 10 procedures with documented rationale",
+        "Skip documentation to accelerate award",
+        "Delay acquisition planning until after solicitation"
+      ],
+      "notes": "Restored regular Learn bank choices to pre-distractor-pass version from previous commit."
+    },
+    {
+      "id": "Q042",
+      "oldDistractorEditedVersion": [
+        "Restrict competition to known vendors before documenting a valid exclusion rationale.",
+        "Issue a brand-name requirement and complete the justification after award.",
+        "Prioritize schedule urgency and reduce competition without obtaining required approvals.",
+        "Apply FAR 6 procedures with documented rationale"
+      ],
+      "revertedVersion": [
+        "Use sole-source automatically without justification",
+        "Skip documentation to accelerate award",
+        "Delay acquisition planning until after solicitation",
+        "Apply FAR 6 procedures with documented rationale"
+      ],
+      "notes": "Restored regular Learn bank choices to pre-distractor-pass version from previous commit."
+    },
+    {
+      "id": "Q043",
+      "oldDistractorEditedVersion": [
+        "Use simplified procedures above threshold limits because administrative speed is critical.",
+        "Solicit only one local source and document price reasonableness after award.",
+        "Combine unrelated needs into one buy to stay within a preferred buying method.",
+        "Apply FAR 13 procedures with documented rationale"
+      ],
+      "revertedVersion": [
+        "Use sole-source automatically without justification",
+        "Delay acquisition planning until after solicitation",
+        "Skip documentation to accelerate award",
+        "Apply FAR 13 procedures with documented rationale"
+      ],
+      "notes": "Restored regular Learn bank choices to pre-distractor-pass version from previous commit."
+    },
+    {
+      "id": "Q044",
+      "oldDistractorEditedVersion": [
+        "Begin negotiations before establishing evaluation factors and competitive range strategy.",
+        "Apply FAR 15 procedures with documented rationale",
+        "Award on lowest price alone when tradeoff criteria were announced in the solicitation.",
+        "Disclose one offeror's pricing details to accelerate final proposal revisions."
+      ],
+      "revertedVersion": [
+        "Skip documentation to accelerate award",
+        "Apply FAR 15 procedures with documented rationale",
+        "Use sole-source automatically without justification",
+        "Delay acquisition planning until after solicitation"
+      ],
+      "notes": "Restored regular Learn bank choices to pre-distractor-pass version from previous commit."
+    },
+    {
+      "id": "Q045",
+      "oldDistractorEditedVersion": [
+        "Apply FAR 43 procedures with documented rationale",
+        "Direct the contractor to perform new scope first and negotiate pricing later.",
+        "Use unilateral administrative authority for substantive scope changes outside the contract.",
+        "Treat every change as within scope when mission urgency supports continuity."
+      ],
+      "revertedVersion": [
+        "Apply FAR 43 procedures with documented rationale",
+        "Delay acquisition planning until after solicitation",
+        "Skip documentation to accelerate award",
+        "Use sole-source automatically without justification"
+      ],
+      "notes": "Restored regular Learn bank choices to pre-distractor-pass version from previous commit."
+    },
+    {
+      "id": "Q046",
+      "oldDistractorEditedVersion": [
+        "Adjust evaluation weights during discussions to align with evolving preferences.",
+        "Allow evaluators to rely on undocumented impressions instead of the source selection plan.",
+        "Limit tradeoff documentation to final ratings without comparing proposal strengths and risks.",
+        "Apply FAR 15.3 procedures with documented rationale"
+      ],
+      "revertedVersion": [
+        "Use sole-source automatically without justification",
+        "Delay acquisition planning until after solicitation",
+        "Skip documentation to accelerate award",
+        "Apply FAR 15.3 procedures with documented rationale"
+      ],
+      "notes": "Restored regular Learn bank choices to pre-distractor-pass version from previous commit."
+    },
+    {
+      "id": "Q047",
+      "oldDistractorEditedVersion": [
+        "Require noncommercial clauses by default without determining market customary practice.",
+        "Use commercial procedures while demanding unique government-only technical redesigns.",
+        "Apply FAR 12 procedures with documented rationale",
+        "Skip market comparability analysis and rely solely on internal cost estimates."
+      ],
+      "revertedVersion": [
+        "Delay acquisition planning until after solicitation",
+        "Skip documentation to accelerate award",
+        "Apply FAR 12 procedures with documented rationale",
+        "Use sole-source automatically without justification"
+      ],
+      "notes": "Restored regular Learn bank choices to pre-distractor-pass version from previous commit."
+    },
+    {
+      "id": "Q048",
+      "oldDistractorEditedVersion": [
+        "Select firm-fixed-price when requirements remain unstable and technical risk is high.",
+        "Use cost-reimbursement without documenting adequate surveillance and accounting capability.",
+        "Apply FAR 16 procedures with documented rationale",
+        "Choose contract type based on historical preference rather than current risk allocation."
+      ],
+      "revertedVersion": [
+        "Delay acquisition planning until after solicitation",
+        "Skip documentation to accelerate award",
+        "Apply FAR 16 procedures with documented rationale",
+        "Use sole-source automatically without justification"
+      ],
+      "notes": "Restored regular Learn bank choices to pre-distractor-pass version from previous commit."
+    },
+    {
+      "id": "Q049",
+      "oldDistractorEditedVersion": [
+        "Rely on prior contract files and skip current vendor outreach for this requirement.",
+        "Post the solicitation first, then document market research only if questions arise.",
+        "Adopt the incumbent's approach without validating current commercial capabilities.",
+        "Apply FAR 10 procedures with documented rationale"
+      ],
+      "revertedVersion": [
+        "Delay acquisition planning until after solicitation",
+        "Use sole-source automatically without justification",
+        "Skip documentation to accelerate award",
+        "Apply FAR 10 procedures with documented rationale"
+      ],
+      "notes": "Restored regular Learn bank choices to pre-distractor-pass version from previous commit."
+    },
+    {
+      "id": "Q050",
+      "oldDistractorEditedVersion": [
+        "Apply FAR 6 procedures with documented rationale",
+        "Restrict competition to known vendors before documenting a valid exclusion rationale.",
+        "Issue a brand-name requirement and complete the justification after award.",
+        "Prioritize schedule urgency and reduce competition without obtaining required approvals."
+      ],
+      "revertedVersion": [
+        "Apply FAR 6 procedures with documented rationale",
+        "Use sole-source automatically without justification",
+        "Skip documentation to accelerate award",
+        "Delay acquisition planning until after solicitation"
+      ],
+      "notes": "Restored regular Learn bank choices to pre-distractor-pass version from previous commit."
+    },
+    {
+      "id": "Q051",
+      "oldDistractorEditedVersion": [
+        "Use simplified procedures above threshold limits because administrative speed is critical.",
+        "Apply FAR 13 procedures with documented rationale",
+        "Solicit only one local source and document price reasonableness after award.",
+        "Combine unrelated needs into one buy to stay within a preferred buying method."
+      ],
+      "revertedVersion": [
+        "Delay acquisition planning until after solicitation",
+        "Apply FAR 13 procedures with documented rationale",
+        "Use sole-source automatically without justification",
+        "Skip documentation to accelerate award"
+      ],
+      "notes": "Restored regular Learn bank choices to pre-distractor-pass version from previous commit."
+    },
+    {
+      "id": "Q052",
+      "oldDistractorEditedVersion": [
+        "Begin negotiations before establishing evaluation factors and competitive range strategy.",
+        "Award on lowest price alone when tradeoff criteria were announced in the solicitation.",
+        "Apply FAR 15 procedures with documented rationale",
+        "Disclose one offeror's pricing details to accelerate final proposal revisions."
+      ],
+      "revertedVersion": [
+        "Delay acquisition planning until after solicitation",
+        "Skip documentation to accelerate award",
+        "Apply FAR 15 procedures with documented rationale",
+        "Use sole-source automatically without justification"
+      ],
+      "notes": "Restored regular Learn bank choices to pre-distractor-pass version from previous commit."
+    },
+    {
+      "id": "Q053",
+      "oldDistractorEditedVersion": [
+        "Apply FAR 43 procedures with documented rationale",
+        "Direct the contractor to perform new scope first and negotiate pricing later.",
+        "Use unilateral administrative authority for substantive scope changes outside the contract.",
+        "Treat every change as within scope when mission urgency supports continuity."
+      ],
+      "revertedVersion": [
+        "Apply FAR 43 procedures with documented rationale",
+        "Use sole-source automatically without justification",
+        "Delay acquisition planning until after solicitation",
+        "Skip documentation to accelerate award"
+      ],
+      "notes": "Restored regular Learn bank choices to pre-distractor-pass version from previous commit."
+    },
+    {
+      "id": "Q054",
+      "oldDistractorEditedVersion": [
+        "Apply FAR 15.3 procedures with documented rationale",
+        "Adjust evaluation weights during discussions to align with evolving preferences.",
+        "Allow evaluators to rely on undocumented impressions instead of the source selection plan.",
+        "Limit tradeoff documentation to final ratings without comparing proposal strengths and risks."
+      ],
+      "revertedVersion": [
+        "Apply FAR 15.3 procedures with documented rationale",
+        "Use sole-source automatically without justification",
+        "Delay acquisition planning until after solicitation",
+        "Skip documentation to accelerate award"
+      ],
+      "notes": "Restored regular Learn bank choices to pre-distractor-pass version from previous commit."
+    },
+    {
+      "id": "Q055",
+      "oldDistractorEditedVersion": [
+        "Require noncommercial clauses by default without determining market customary practice.",
+        "Use commercial procedures while demanding unique government-only technical redesigns.",
+        "Skip market comparability analysis and rely solely on internal cost estimates.",
+        "Apply FAR 12 procedures with documented rationale"
+      ],
+      "revertedVersion": [
+        "Skip documentation to accelerate award",
+        "Use sole-source automatically without justification",
+        "Delay acquisition planning until after solicitation",
+        "Apply FAR 12 procedures with documented rationale"
+      ],
+      "notes": "Restored regular Learn bank choices to pre-distractor-pass version from previous commit."
+    },
+    {
+      "id": "Q056",
+      "oldDistractorEditedVersion": [
+        "Select firm-fixed-price when requirements remain unstable and technical risk is high.",
+        "Use cost-reimbursement without documenting adequate surveillance and accounting capability.",
+        "Choose contract type based on historical preference rather than current risk allocation.",
+        "Apply FAR 16 procedures with documented rationale"
+      ],
+      "revertedVersion": [
+        "Delay acquisition planning until after solicitation",
+        "Use sole-source automatically without justification",
+        "Skip documentation to accelerate award",
+        "Apply FAR 16 procedures with documented rationale"
+      ],
+      "notes": "Restored regular Learn bank choices to pre-distractor-pass version from previous commit."
+    },
+    {
+      "id": "Q057",
+      "oldDistractorEditedVersion": [
+        "Rely on prior contract files and skip current vendor outreach for this requirement.",
+        "Post the solicitation first, then document market research only if questions arise.",
+        "Adopt the incumbent's approach without validating current commercial capabilities.",
+        "Apply FAR 10 procedures with documented rationale"
+      ],
+      "revertedVersion": [
+        "Use sole-source automatically without justification",
+        "Delay acquisition planning until after solicitation",
+        "Skip documentation to accelerate award",
+        "Apply FAR 10 procedures with documented rationale"
+      ],
+      "notes": "Restored regular Learn bank choices to pre-distractor-pass version from previous commit."
+    },
+    {
+      "id": "Q058",
+      "oldDistractorEditedVersion": [
+        "Restrict competition to known vendors before documenting a valid exclusion rationale.",
+        "Issue a brand-name requirement and complete the justification after award.",
+        "Apply FAR 6 procedures with documented rationale",
+        "Prioritize schedule urgency and reduce competition without obtaining required approvals."
+      ],
+      "revertedVersion": [
+        "Delay acquisition planning until after solicitation",
+        "Use sole-source automatically without justification",
+        "Apply FAR 6 procedures with documented rationale",
+        "Skip documentation to accelerate award"
+      ],
+      "notes": "Restored regular Learn bank choices to pre-distractor-pass version from previous commit."
+    },
+    {
+      "id": "Q059",
+      "oldDistractorEditedVersion": [
+        "Use simplified procedures above threshold limits because administrative speed is critical.",
+        "Solicit only one local source and document price reasonableness after award.",
+        "Apply FAR 13 procedures with documented rationale",
+        "Combine unrelated needs into one buy to stay within a preferred buying method."
+      ],
+      "revertedVersion": [
+        "Use sole-source automatically without justification",
+        "Delay acquisition planning until after solicitation",
+        "Apply FAR 13 procedures with documented rationale",
+        "Skip documentation to accelerate award"
+      ],
+      "notes": "Restored regular Learn bank choices to pre-distractor-pass version from previous commit."
+    },
+    {
+      "id": "Q060",
+      "oldDistractorEditedVersion": [
+        "Begin negotiations before establishing evaluation factors and competitive range strategy.",
+        "Apply FAR 15 procedures with documented rationale",
+        "Award on lowest price alone when tradeoff criteria were announced in the solicitation.",
+        "Disclose one offeror's pricing details to accelerate final proposal revisions."
+      ],
+      "revertedVersion": [
+        "Delay acquisition planning until after solicitation",
+        "Apply FAR 15 procedures with documented rationale",
+        "Skip documentation to accelerate award",
+        "Use sole-source automatically without justification"
+      ],
+      "notes": "Restored regular Learn bank choices to pre-distractor-pass version from previous commit."
+    },
+    {
+      "id": "Q061",
+      "oldDistractorEditedVersion": [
+        "Direct the contractor to perform new scope first and negotiate pricing later.",
+        "Use unilateral administrative authority for substantive scope changes outside the contract.",
+        "Apply FAR 43 procedures with documented rationale",
+        "Treat every change as within scope when mission urgency supports continuity."
+      ],
+      "revertedVersion": [
+        "Skip documentation to accelerate award",
+        "Use sole-source automatically without justification",
+        "Apply FAR 43 procedures with documented rationale",
+        "Delay acquisition planning until after solicitation"
+      ],
+      "notes": "Restored regular Learn bank choices to pre-distractor-pass version from previous commit."
+    },
+    {
+      "id": "Q062",
+      "oldDistractorEditedVersion": [
+        "Adjust evaluation weights during discussions to align with evolving preferences.",
+        "Allow evaluators to rely on undocumented impressions instead of the source selection plan.",
+        "Apply FAR 15.3 procedures with documented rationale",
+        "Limit tradeoff documentation to final ratings without comparing proposal strengths and risks."
+      ],
+      "revertedVersion": [
+        "Delay acquisition planning until after solicitation",
+        "Use sole-source automatically without justification",
+        "Apply FAR 15.3 procedures with documented rationale",
+        "Skip documentation to accelerate award"
+      ],
+      "notes": "Restored regular Learn bank choices to pre-distractor-pass version from previous commit."
+    },
+    {
+      "id": "Q063",
+      "oldDistractorEditedVersion": [
+        "Apply FAR 12 procedures with documented rationale",
+        "Require noncommercial clauses by default without determining market customary practice.",
+        "Use commercial procedures while demanding unique government-only technical redesigns.",
+        "Skip market comparability analysis and rely solely on internal cost estimates."
+      ],
+      "revertedVersion": [
+        "Apply FAR 12 procedures with documented rationale",
+        "Use sole-source automatically without justification",
+        "Skip documentation to accelerate award",
+        "Delay acquisition planning until after solicitation"
+      ],
+      "notes": "Restored regular Learn bank choices to pre-distractor-pass version from previous commit."
+    },
+    {
+      "id": "Q064",
+      "oldDistractorEditedVersion": [
+        "Select firm-fixed-price when requirements remain unstable and technical risk is high.",
+        "Use cost-reimbursement without documenting adequate surveillance and accounting capability.",
+        "Apply FAR 16 procedures with documented rationale",
+        "Choose contract type based on historical preference rather than current risk allocation."
+      ],
+      "revertedVersion": [
+        "Use sole-source automatically without justification",
+        "Skip documentation to accelerate award",
+        "Apply FAR 16 procedures with documented rationale",
+        "Delay acquisition planning until after solicitation"
+      ],
+      "notes": "Restored regular Learn bank choices to pre-distractor-pass version from previous commit."
+    },
+    {
+      "id": "Q065",
+      "oldDistractorEditedVersion": [
+        "Apply FAR 10 procedures with documented rationale",
+        "Rely on prior contract files and skip current vendor outreach for this requirement.",
+        "Post the solicitation first, then document market research only if questions arise.",
+        "Adopt the incumbent's approach without validating current commercial capabilities."
+      ],
+      "revertedVersion": [
+        "Apply FAR 10 procedures with documented rationale",
+        "Use sole-source automatically without justification",
+        "Skip documentation to accelerate award",
+        "Delay acquisition planning until after solicitation"
+      ],
+      "notes": "Restored regular Learn bank choices to pre-distractor-pass version from previous commit."
+    },
+    {
+      "id": "Q066",
+      "oldDistractorEditedVersion": [
+        "Restrict competition to known vendors before documenting a valid exclusion rationale.",
+        "Issue a brand-name requirement and complete the justification after award.",
+        "Prioritize schedule urgency and reduce competition without obtaining required approvals.",
+        "Apply FAR 6 procedures with documented rationale"
+      ],
+      "revertedVersion": [
+        "Delay acquisition planning until after solicitation",
+        "Use sole-source automatically without justification",
+        "Skip documentation to accelerate award",
+        "Apply FAR 6 procedures with documented rationale"
+      ],
+      "notes": "Restored regular Learn bank choices to pre-distractor-pass version from previous commit."
+    },
+    {
+      "id": "Q067",
+      "oldDistractorEditedVersion": [
+        "Use simplified procedures above threshold limits because administrative speed is critical.",
+        "Solicit only one local source and document price reasonableness after award.",
+        "Combine unrelated needs into one buy to stay within a preferred buying method.",
+        "Apply FAR 13 procedures with documented rationale"
+      ],
+      "revertedVersion": [
+        "Use sole-source automatically without justification",
+        "Skip documentation to accelerate award",
+        "Delay acquisition planning until after solicitation",
+        "Apply FAR 13 procedures with documented rationale"
+      ],
+      "notes": "Restored regular Learn bank choices to pre-distractor-pass version from previous commit."
+    },
+    {
+      "id": "Q068",
+      "oldDistractorEditedVersion": [
+        "Begin negotiations before establishing evaluation factors and competitive range strategy.",
+        "Apply FAR 15 procedures with documented rationale",
+        "Award on lowest price alone when tradeoff criteria were announced in the solicitation.",
+        "Disclose one offeror's pricing details to accelerate final proposal revisions."
+      ],
+      "revertedVersion": [
+        "Skip documentation to accelerate award",
+        "Apply FAR 15 procedures with documented rationale",
+        "Use sole-source automatically without justification",
+        "Delay acquisition planning until after solicitation"
+      ],
+      "notes": "Restored regular Learn bank choices to pre-distractor-pass version from previous commit."
+    },
+    {
+      "id": "Q069",
+      "oldDistractorEditedVersion": [
+        "Direct the contractor to perform new scope first and negotiate pricing later.",
+        "Use unilateral administrative authority for substantive scope changes outside the contract.",
+        "Treat every change as within scope when mission urgency supports continuity.",
+        "Apply FAR 43 procedures with documented rationale"
+      ],
+      "revertedVersion": [
+        "Skip documentation to accelerate award",
+        "Use sole-source automatically without justification",
+        "Delay acquisition planning until after solicitation",
+        "Apply FAR 43 procedures with documented rationale"
+      ],
+      "notes": "Restored regular Learn bank choices to pre-distractor-pass version from previous commit."
+    },
+    {
+      "id": "Q070",
+      "oldDistractorEditedVersion": [
+        "Adjust evaluation weights during discussions to align with evolving preferences.",
+        "Allow evaluators to rely on undocumented impressions instead of the source selection plan.",
+        "Limit tradeoff documentation to final ratings without comparing proposal strengths and risks.",
+        "Apply FAR 15.3 procedures with documented rationale"
+      ],
+      "revertedVersion": [
+        "Delay acquisition planning until after solicitation",
+        "Use sole-source automatically without justification",
+        "Skip documentation to accelerate award",
+        "Apply FAR 15.3 procedures with documented rationale"
+      ],
+      "notes": "Restored regular Learn bank choices to pre-distractor-pass version from previous commit."
+    },
+    {
+      "id": "Q071",
+      "oldDistractorEditedVersion": [
+        "Require noncommercial clauses by default without determining market customary practice.",
+        "Apply FAR 12 procedures with documented rationale",
+        "Use commercial procedures while demanding unique government-only technical redesigns.",
+        "Skip market comparability analysis and rely solely on internal cost estimates."
+      ],
+      "revertedVersion": [
+        "Skip documentation to accelerate award",
+        "Apply FAR 12 procedures with documented rationale",
+        "Delay acquisition planning until after solicitation",
+        "Use sole-source automatically without justification"
+      ],
+      "notes": "Restored regular Learn bank choices to pre-distractor-pass version from previous commit."
+    },
+    {
+      "id": "Q072",
+      "oldDistractorEditedVersion": [
+        "Select firm-fixed-price when requirements remain unstable and technical risk is high.",
+        "Use cost-reimbursement without documenting adequate surveillance and accounting capability.",
+        "Choose contract type based on historical preference rather than current risk allocation.",
+        "Apply FAR 16 procedures with documented rationale"
+      ],
+      "revertedVersion": [
+        "Skip documentation to accelerate award",
+        "Delay acquisition planning until after solicitation",
+        "Use sole-source automatically without justification",
+        "Apply FAR 16 procedures with documented rationale"
+      ],
+      "notes": "Restored regular Learn bank choices to pre-distractor-pass version from previous commit."
+    },
+    {
+      "id": "Q073",
+      "oldDistractorEditedVersion": [
+        "Rely on prior contract files and skip current vendor outreach for this requirement.",
+        "Post the solicitation first, then document market research only if questions arise.",
+        "Apply FAR 10 procedures with documented rationale",
+        "Adopt the incumbent's approach without validating current commercial capabilities."
+      ],
+      "revertedVersion": [
+        "Delay acquisition planning until after solicitation",
+        "Skip documentation to accelerate award",
+        "Apply FAR 10 procedures with documented rationale",
+        "Use sole-source automatically without justification"
+      ],
+      "notes": "Restored regular Learn bank choices to pre-distractor-pass version from previous commit."
+    },
+    {
+      "id": "Q074",
+      "oldDistractorEditedVersion": [
+        "Restrict competition to known vendors before documenting a valid exclusion rationale.",
+        "Issue a brand-name requirement and complete the justification after award.",
+        "Prioritize schedule urgency and reduce competition without obtaining required approvals.",
+        "Apply FAR 6 procedures with documented rationale"
+      ],
+      "revertedVersion": [
+        "Use sole-source automatically without justification",
+        "Delay acquisition planning until after solicitation",
+        "Skip documentation to accelerate award",
+        "Apply FAR 6 procedures with documented rationale"
+      ],
+      "notes": "Restored regular Learn bank choices to pre-distractor-pass version from previous commit."
+    },
+    {
+      "id": "Q075",
+      "oldDistractorEditedVersion": [
+        "Apply FAR 13 procedures with documented rationale",
+        "Use simplified procedures above threshold limits because administrative speed is critical.",
+        "Solicit only one local source and document price reasonableness after award.",
+        "Combine unrelated needs into one buy to stay within a preferred buying method."
+      ],
+      "revertedVersion": [
+        "Apply FAR 13 procedures with documented rationale",
+        "Skip documentation to accelerate award",
+        "Use sole-source automatically without justification",
+        "Delay acquisition planning until after solicitation"
+      ],
+      "notes": "Restored regular Learn bank choices to pre-distractor-pass version from previous commit."
+    },
+    {
+      "id": "Q076",
+      "oldDistractorEditedVersion": [
+        "Apply FAR 15 procedures with documented rationale",
+        "Begin negotiations before establishing evaluation factors and competitive range strategy.",
+        "Award on lowest price alone when tradeoff criteria were announced in the solicitation.",
+        "Disclose one offeror's pricing details to accelerate final proposal revisions."
+      ],
+      "revertedVersion": [
+        "Apply FAR 15 procedures with documented rationale",
+        "Delay acquisition planning until after solicitation",
+        "Skip documentation to accelerate award",
+        "Use sole-source automatically without justification"
+      ],
+      "notes": "Restored regular Learn bank choices to pre-distractor-pass version from previous commit."
+    },
+    {
+      "id": "Q077",
+      "oldDistractorEditedVersion": [
+        "Direct the contractor to perform new scope first and negotiate pricing later.",
+        "Apply FAR 43 procedures with documented rationale",
+        "Use unilateral administrative authority for substantive scope changes outside the contract.",
+        "Treat every change as within scope when mission urgency supports continuity."
+      ],
+      "revertedVersion": [
+        "Delay acquisition planning until after solicitation",
+        "Apply FAR 43 procedures with documented rationale",
+        "Skip documentation to accelerate award",
+        "Use sole-source automatically without justification"
+      ],
+      "notes": "Restored regular Learn bank choices to pre-distractor-pass version from previous commit."
+    },
+    {
+      "id": "Q078",
+      "oldDistractorEditedVersion": [
+        "Adjust evaluation weights during discussions to align with evolving preferences.",
+        "Allow evaluators to rely on undocumented impressions instead of the source selection plan.",
+        "Apply FAR 15.3 procedures with documented rationale",
+        "Limit tradeoff documentation to final ratings without comparing proposal strengths and risks."
+      ],
+      "revertedVersion": [
+        "Use sole-source automatically without justification",
+        "Delay acquisition planning until after solicitation",
+        "Apply FAR 15.3 procedures with documented rationale",
+        "Skip documentation to accelerate award"
+      ],
+      "notes": "Restored regular Learn bank choices to pre-distractor-pass version from previous commit."
+    },
+    {
+      "id": "Q079",
+      "oldDistractorEditedVersion": [
+        "Apply FAR 12 procedures with documented rationale",
+        "Require noncommercial clauses by default without determining market customary practice.",
+        "Use commercial procedures while demanding unique government-only technical redesigns.",
+        "Skip market comparability analysis and rely solely on internal cost estimates."
+      ],
+      "revertedVersion": [
+        "Apply FAR 12 procedures with documented rationale",
+        "Use sole-source automatically without justification",
+        "Delay acquisition planning until after solicitation",
+        "Skip documentation to accelerate award"
+      ],
+      "notes": "Restored regular Learn bank choices to pre-distractor-pass version from previous commit."
+    },
+    {
+      "id": "Q080",
+      "oldDistractorEditedVersion": [
+        "Apply FAR 16 procedures with documented rationale",
+        "Select firm-fixed-price when requirements remain unstable and technical risk is high.",
+        "Use cost-reimbursement without documenting adequate surveillance and accounting capability.",
+        "Choose contract type based on historical preference rather than current risk allocation."
+      ],
+      "revertedVersion": [
+        "Apply FAR 16 procedures with documented rationale",
+        "Delay acquisition planning until after solicitation",
+        "Skip documentation to accelerate award",
+        "Use sole-source automatically without justification"
+      ],
+      "notes": "Restored regular Learn bank choices to pre-distractor-pass version from previous commit."
+    },
+    {
+      "id": "Q081",
+      "oldDistractorEditedVersion": [
+        "Apply FAR 10 procedures with documented rationale",
+        "Rely on prior contract files and skip current vendor outreach for this requirement.",
+        "Post the solicitation first, then document market research only if questions arise.",
+        "Adopt the incumbent's approach without validating current commercial capabilities."
+      ],
+      "revertedVersion": [
+        "Apply FAR 10 procedures with documented rationale",
+        "Use sole-source automatically without justification",
+        "Skip documentation to accelerate award",
+        "Delay acquisition planning until after solicitation"
+      ],
+      "notes": "Restored regular Learn bank choices to pre-distractor-pass version from previous commit."
+    },
+    {
+      "id": "Q082",
+      "oldDistractorEditedVersion": [
+        "Apply FAR 6 procedures with documented rationale",
+        "Restrict competition to known vendors before documenting a valid exclusion rationale.",
+        "Issue a brand-name requirement and complete the justification after award.",
+        "Prioritize schedule urgency and reduce competition without obtaining required approvals."
+      ],
+      "revertedVersion": [
+        "Apply FAR 6 procedures with documented rationale",
+        "Use sole-source automatically without justification",
+        "Delay acquisition planning until after solicitation",
+        "Skip documentation to accelerate award"
+      ],
+      "notes": "Restored regular Learn bank choices to pre-distractor-pass version from previous commit."
+    },
+    {
+      "id": "Q083",
+      "oldDistractorEditedVersion": [
+        "Use simplified procedures above threshold limits because administrative speed is critical.",
+        "Apply FAR 13 procedures with documented rationale",
+        "Solicit only one local source and document price reasonableness after award.",
+        "Combine unrelated needs into one buy to stay within a preferred buying method."
+      ],
+      "revertedVersion": [
+        "Use sole-source automatically without justification",
+        "Apply FAR 13 procedures with documented rationale",
+        "Skip documentation to accelerate award",
+        "Delay acquisition planning until after solicitation"
+      ],
+      "notes": "Restored regular Learn bank choices to pre-distractor-pass version from previous commit."
+    },
+    {
+      "id": "Q084",
+      "oldDistractorEditedVersion": [
+        "Begin negotiations before establishing evaluation factors and competitive range strategy.",
+        "Award on lowest price alone when tradeoff criteria were announced in the solicitation.",
+        "Apply FAR 15 procedures with documented rationale",
+        "Disclose one offeror's pricing details to accelerate final proposal revisions."
+      ],
+      "revertedVersion": [
+        "Delay acquisition planning until after solicitation",
+        "Skip documentation to accelerate award",
+        "Apply FAR 15 procedures with documented rationale",
+        "Use sole-source automatically without justification"
+      ],
+      "notes": "Restored regular Learn bank choices to pre-distractor-pass version from previous commit."
+    },
+    {
+      "id": "Q085",
+      "oldDistractorEditedVersion": [
+        "Direct the contractor to perform new scope first and negotiate pricing later.",
+        "Apply FAR 43 procedures with documented rationale",
+        "Use unilateral administrative authority for substantive scope changes outside the contract.",
+        "Treat every change as within scope when mission urgency supports continuity."
+      ],
+      "revertedVersion": [
+        "Delay acquisition planning until after solicitation",
+        "Apply FAR 43 procedures with documented rationale",
+        "Use sole-source automatically without justification",
+        "Skip documentation to accelerate award"
+      ],
+      "notes": "Restored regular Learn bank choices to pre-distractor-pass version from previous commit."
+    },
+    {
+      "id": "Q086",
+      "oldDistractorEditedVersion": [
+        "Adjust evaluation weights during discussions to align with evolving preferences.",
+        "Allow evaluators to rely on undocumented impressions instead of the source selection plan.",
+        "Limit tradeoff documentation to final ratings without comparing proposal strengths and risks.",
+        "Apply FAR 15.3 procedures with documented rationale"
+      ],
+      "revertedVersion": [
+        "Delay acquisition planning until after solicitation",
+        "Skip documentation to accelerate award",
+        "Use sole-source automatically without justification",
+        "Apply FAR 15.3 procedures with documented rationale"
+      ],
+      "notes": "Restored regular Learn bank choices to pre-distractor-pass version from previous commit."
+    },
+    {
+      "id": "Q087",
+      "oldDistractorEditedVersion": [
+        "Require noncommercial clauses by default without determining market customary practice.",
+        "Apply FAR 12 procedures with documented rationale",
+        "Use commercial procedures while demanding unique government-only technical redesigns.",
+        "Skip market comparability analysis and rely solely on internal cost estimates."
+      ],
+      "revertedVersion": [
+        "Delay acquisition planning until after solicitation",
+        "Apply FAR 12 procedures with documented rationale",
+        "Use sole-source automatically without justification",
+        "Skip documentation to accelerate award"
+      ],
+      "notes": "Restored regular Learn bank choices to pre-distractor-pass version from previous commit."
+    },
+    {
+      "id": "Q088",
+      "oldDistractorEditedVersion": [
+        "Select firm-fixed-price when requirements remain unstable and technical risk is high.",
+        "Use cost-reimbursement without documenting adequate surveillance and accounting capability.",
+        "Apply FAR 16 procedures with documented rationale",
+        "Choose contract type based on historical preference rather than current risk allocation."
+      ],
+      "revertedVersion": [
+        "Use sole-source automatically without justification",
+        "Skip documentation to accelerate award",
+        "Apply FAR 16 procedures with documented rationale",
+        "Delay acquisition planning until after solicitation"
+      ],
+      "notes": "Restored regular Learn bank choices to pre-distractor-pass version from previous commit."
+    },
+    {
+      "id": "Q089",
+      "oldDistractorEditedVersion": [
+        "Rely on prior contract files and skip current vendor outreach for this requirement.",
+        "Post the solicitation first, then document market research only if questions arise.",
+        "Adopt the incumbent's approach without validating current commercial capabilities.",
+        "Apply FAR 10 procedures with documented rationale"
+      ],
+      "revertedVersion": [
+        "Delay acquisition planning until after solicitation",
+        "Skip documentation to accelerate award",
+        "Use sole-source automatically without justification",
+        "Apply FAR 10 procedures with documented rationale"
+      ],
+      "notes": "Restored regular Learn bank choices to pre-distractor-pass version from previous commit."
+    },
+    {
+      "id": "Q090",
+      "oldDistractorEditedVersion": [
+        "Restrict competition to known vendors before documenting a valid exclusion rationale.",
+        "Apply FAR 6 procedures with documented rationale",
+        "Issue a brand-name requirement and complete the justification after award.",
+        "Prioritize schedule urgency and reduce competition without obtaining required approvals."
+      ],
+      "revertedVersion": [
+        "Delay acquisition planning until after solicitation",
+        "Apply FAR 6 procedures with documented rationale",
+        "Use sole-source automatically without justification",
+        "Skip documentation to accelerate award"
+      ],
+      "notes": "Restored regular Learn bank choices to pre-distractor-pass version from previous commit."
+    },
+    {
+      "id": "Q091",
+      "oldDistractorEditedVersion": [
+        "Use simplified procedures above threshold limits because administrative speed is critical.",
+        "Solicit only one local source and document price reasonableness after award.",
+        "Combine unrelated needs into one buy to stay within a preferred buying method.",
+        "Apply FAR 13 procedures with documented rationale"
+      ],
+      "revertedVersion": [
+        "Skip documentation to accelerate award",
+        "Delay acquisition planning until after solicitation",
+        "Use sole-source automatically without justification",
+        "Apply FAR 13 procedures with documented rationale"
+      ],
+      "notes": "Restored regular Learn bank choices to pre-distractor-pass version from previous commit."
+    },
+    {
+      "id": "Q092",
+      "oldDistractorEditedVersion": [
+        "Apply FAR 15 procedures with documented rationale",
+        "Begin negotiations before establishing evaluation factors and competitive range strategy.",
+        "Award on lowest price alone when tradeoff criteria were announced in the solicitation.",
+        "Disclose one offeror's pricing details to accelerate final proposal revisions."
+      ],
+      "revertedVersion": [
+        "Apply FAR 15 procedures with documented rationale",
+        "Skip documentation to accelerate award",
+        "Use sole-source automatically without justification",
+        "Delay acquisition planning until after solicitation"
+      ],
+      "notes": "Restored regular Learn bank choices to pre-distractor-pass version from previous commit."
+    },
+    {
+      "id": "Q093",
+      "oldDistractorEditedVersion": [
+        "Apply FAR 43 procedures with documented rationale",
+        "Direct the contractor to perform new scope first and negotiate pricing later.",
+        "Use unilateral administrative authority for substantive scope changes outside the contract.",
+        "Treat every change as within scope when mission urgency supports continuity."
+      ],
+      "revertedVersion": [
+        "Apply FAR 43 procedures with documented rationale",
+        "Skip documentation to accelerate award",
+        "Use sole-source automatically without justification",
+        "Delay acquisition planning until after solicitation"
+      ],
+      "notes": "Restored regular Learn bank choices to pre-distractor-pass version from previous commit."
+    },
+    {
+      "id": "Q094",
+      "oldDistractorEditedVersion": [
+        "Adjust evaluation weights during discussions to align with evolving preferences.",
+        "Allow evaluators to rely on undocumented impressions instead of the source selection plan.",
+        "Apply FAR 15.3 procedures with documented rationale",
+        "Limit tradeoff documentation to final ratings without comparing proposal strengths and risks."
+      ],
+      "revertedVersion": [
+        "Use sole-source automatically without justification",
+        "Delay acquisition planning until after solicitation",
+        "Apply FAR 15.3 procedures with documented rationale",
+        "Skip documentation to accelerate award"
+      ],
+      "notes": "Restored regular Learn bank choices to pre-distractor-pass version from previous commit."
+    },
+    {
+      "id": "Q095",
+      "oldDistractorEditedVersion": [
+        "Require noncommercial clauses by default without determining market customary practice.",
+        "Apply FAR 12 procedures with documented rationale",
+        "Use commercial procedures while demanding unique government-only technical redesigns.",
+        "Skip market comparability analysis and rely solely on internal cost estimates."
+      ],
+      "revertedVersion": [
+        "Use sole-source automatically without justification",
+        "Apply FAR 12 procedures with documented rationale",
+        "Delay acquisition planning until after solicitation",
+        "Skip documentation to accelerate award"
+      ],
+      "notes": "Restored regular Learn bank choices to pre-distractor-pass version from previous commit."
+    },
+    {
+      "id": "Q096",
+      "oldDistractorEditedVersion": [
+        "Apply FAR 16 procedures with documented rationale",
+        "Select firm-fixed-price when requirements remain unstable and technical risk is high.",
+        "Use cost-reimbursement without documenting adequate surveillance and accounting capability.",
+        "Choose contract type based on historical preference rather than current risk allocation."
+      ],
+      "revertedVersion": [
+        "Apply FAR 16 procedures with documented rationale",
+        "Delay acquisition planning until after solicitation",
+        "Skip documentation to accelerate award",
+        "Use sole-source automatically without justification"
+      ],
+      "notes": "Restored regular Learn bank choices to pre-distractor-pass version from previous commit."
+    },
+    {
+      "id": "Q097",
+      "oldDistractorEditedVersion": [
+        "Apply FAR 10 procedures with documented rationale",
+        "Rely on prior contract files and skip current vendor outreach for this requirement.",
+        "Post the solicitation first, then document market research only if questions arise.",
+        "Adopt the incumbent's approach without validating current commercial capabilities."
+      ],
+      "revertedVersion": [
+        "Apply FAR 10 procedures with documented rationale",
+        "Use sole-source automatically without justification",
+        "Delay acquisition planning until after solicitation",
+        "Skip documentation to accelerate award"
+      ],
+      "notes": "Restored regular Learn bank choices to pre-distractor-pass version from previous commit."
+    },
+    {
+      "id": "Q098",
+      "oldDistractorEditedVersion": [
+        "Restrict competition to known vendors before documenting a valid exclusion rationale.",
+        "Apply FAR 6 procedures with documented rationale",
+        "Issue a brand-name requirement and complete the justification after award.",
+        "Prioritize schedule urgency and reduce competition without obtaining required approvals."
+      ],
+      "revertedVersion": [
+        "Skip documentation to accelerate award",
+        "Apply FAR 6 procedures with documented rationale",
+        "Delay acquisition planning until after solicitation",
+        "Use sole-source automatically without justification"
+      ],
+      "notes": "Restored regular Learn bank choices to pre-distractor-pass version from previous commit."
+    },
+    {
+      "id": "Q099",
+      "oldDistractorEditedVersion": [
+        "Use simplified procedures above threshold limits because administrative speed is critical.",
+        "Apply FAR 13 procedures with documented rationale",
+        "Solicit only one local source and document price reasonableness after award.",
+        "Combine unrelated needs into one buy to stay within a preferred buying method."
+      ],
+      "revertedVersion": [
+        "Use sole-source automatically without justification",
+        "Apply FAR 13 procedures with documented rationale",
+        "Skip documentation to accelerate award",
+        "Delay acquisition planning until after solicitation"
+      ],
+      "notes": "Restored regular Learn bank choices to pre-distractor-pass version from previous commit."
+    },
+    {
+      "id": "Q100",
+      "oldDistractorEditedVersion": [
+        "Apply FAR 15 procedures with documented rationale",
+        "Begin negotiations before establishing evaluation factors and competitive range strategy.",
+        "Award on lowest price alone when tradeoff criteria were announced in the solicitation.",
+        "Disclose one offeror's pricing details to accelerate final proposal revisions."
+      ],
+      "revertedVersion": [
+        "Apply FAR 15 procedures with documented rationale",
+        "Use sole-source automatically without justification",
+        "Delay acquisition planning until after solicitation",
+        "Skip documentation to accelerate award"
+      ],
+      "notes": "Restored regular Learn bank choices to pre-distractor-pass version from previous commit."
+    },
+    {
+      "id": "Q101",
+      "oldDistractorEditedVersion": [
+        "Apply FAR 43 procedures with documented rationale",
+        "Direct the contractor to perform new scope first and negotiate pricing later.",
+        "Use unilateral administrative authority for substantive scope changes outside the contract.",
+        "Treat every change as within scope when mission urgency supports continuity."
+      ],
+      "revertedVersion": [
+        "Apply FAR 43 procedures with documented rationale",
+        "Delay acquisition planning until after solicitation",
+        "Use sole-source automatically without justification",
+        "Skip documentation to accelerate award"
+      ],
+      "notes": "Restored regular Learn bank choices to pre-distractor-pass version from previous commit."
+    },
+    {
+      "id": "Q102",
+      "oldDistractorEditedVersion": [
+        "Apply FAR 15.3 procedures with documented rationale",
+        "Adjust evaluation weights during discussions to align with evolving preferences.",
+        "Allow evaluators to rely on undocumented impressions instead of the source selection plan.",
+        "Limit tradeoff documentation to final ratings without comparing proposal strengths and risks."
+      ],
+      "revertedVersion": [
+        "Apply FAR 15.3 procedures with documented rationale",
+        "Delay acquisition planning until after solicitation",
+        "Use sole-source automatically without justification",
+        "Skip documentation to accelerate award"
+      ],
+      "notes": "Restored regular Learn bank choices to pre-distractor-pass version from previous commit."
+    },
+    {
+      "id": "Q103",
+      "oldDistractorEditedVersion": [
+        "Require noncommercial clauses by default without determining market customary practice.",
+        "Apply FAR 12 procedures with documented rationale",
+        "Use commercial procedures while demanding unique government-only technical redesigns.",
+        "Skip market comparability analysis and rely solely on internal cost estimates."
+      ],
+      "revertedVersion": [
+        "Skip documentation to accelerate award",
+        "Apply FAR 12 procedures with documented rationale",
+        "Use sole-source automatically without justification",
+        "Delay acquisition planning until after solicitation"
+      ],
+      "notes": "Restored regular Learn bank choices to pre-distractor-pass version from previous commit."
+    },
+    {
+      "id": "Q104",
+      "oldDistractorEditedVersion": [
+        "Select firm-fixed-price when requirements remain unstable and technical risk is high.",
+        "Use cost-reimbursement without documenting adequate surveillance and accounting capability.",
+        "Choose contract type based on historical preference rather than current risk allocation.",
+        "Apply FAR 16 procedures with documented rationale"
+      ],
+      "revertedVersion": [
+        "Skip documentation to accelerate award",
+        "Use sole-source automatically without justification",
+        "Delay acquisition planning until after solicitation",
+        "Apply FAR 16 procedures with documented rationale"
+      ],
+      "notes": "Restored regular Learn bank choices to pre-distractor-pass version from previous commit."
+    },
+    {
+      "id": "Q105",
+      "oldDistractorEditedVersion": [
+        "Rely on prior contract files and skip current vendor outreach for this requirement.",
+        "Apply FAR 10 procedures with documented rationale",
+        "Post the solicitation first, then document market research only if questions arise.",
+        "Adopt the incumbent's approach without validating current commercial capabilities."
+      ],
+      "revertedVersion": [
+        "Skip documentation to accelerate award",
+        "Apply FAR 10 procedures with documented rationale",
+        "Delay acquisition planning until after solicitation",
+        "Use sole-source automatically without justification"
+      ],
+      "notes": "Restored regular Learn bank choices to pre-distractor-pass version from previous commit."
+    },
+    {
+      "id": "Q106",
+      "oldDistractorEditedVersion": [
+        "Restrict competition to known vendors before documenting a valid exclusion rationale.",
+        "Issue a brand-name requirement and complete the justification after award.",
+        "Apply FAR 6 procedures with documented rationale",
+        "Prioritize schedule urgency and reduce competition without obtaining required approvals."
+      ],
+      "revertedVersion": [
+        "Use sole-source automatically without justification",
+        "Skip documentation to accelerate award",
+        "Apply FAR 6 procedures with documented rationale",
+        "Delay acquisition planning until after solicitation"
+      ],
+      "notes": "Restored regular Learn bank choices to pre-distractor-pass version from previous commit."
+    },
+    {
+      "id": "Q107",
+      "oldDistractorEditedVersion": [
+        "Apply FAR 13 procedures with documented rationale",
+        "Use simplified procedures above threshold limits because administrative speed is critical.",
+        "Solicit only one local source and document price reasonableness after award.",
+        "Combine unrelated needs into one buy to stay within a preferred buying method."
+      ],
+      "revertedVersion": [
+        "Apply FAR 13 procedures with documented rationale",
+        "Delay acquisition planning until after solicitation",
+        "Use sole-source automatically without justification",
+        "Skip documentation to accelerate award"
+      ],
+      "notes": "Restored regular Learn bank choices to pre-distractor-pass version from previous commit."
+    },
+    {
+      "id": "Q108",
+      "oldDistractorEditedVersion": [
+        "Begin negotiations before establishing evaluation factors and competitive range strategy.",
+        "Apply FAR 15 procedures with documented rationale",
+        "Award on lowest price alone when tradeoff criteria were announced in the solicitation.",
+        "Disclose one offeror's pricing details to accelerate final proposal revisions."
+      ],
+      "revertedVersion": [
+        "Delay acquisition planning until after solicitation",
+        "Apply FAR 15 procedures with documented rationale",
+        "Use sole-source automatically without justification",
+        "Skip documentation to accelerate award"
+      ],
+      "notes": "Restored regular Learn bank choices to pre-distractor-pass version from previous commit."
+    },
+    {
+      "id": "Q109",
+      "oldDistractorEditedVersion": [
+        "Direct the contractor to perform new scope first and negotiate pricing later.",
+        "Use unilateral administrative authority for substantive scope changes outside the contract.",
+        "Apply FAR 43 procedures with documented rationale",
+        "Treat every change as within scope when mission urgency supports continuity."
+      ],
+      "revertedVersion": [
+        "Delay acquisition planning until after solicitation",
+        "Skip documentation to accelerate award",
+        "Apply FAR 43 procedures with documented rationale",
+        "Use sole-source automatically without justification"
+      ],
+      "notes": "Restored regular Learn bank choices to pre-distractor-pass version from previous commit."
+    },
+    {
+      "id": "Q110",
+      "oldDistractorEditedVersion": [
+        "Adjust evaluation weights during discussions to align with evolving preferences.",
+        "Apply FAR 15.3 procedures with documented rationale",
+        "Allow evaluators to rely on undocumented impressions instead of the source selection plan.",
+        "Limit tradeoff documentation to final ratings without comparing proposal strengths and risks."
+      ],
+      "revertedVersion": [
+        "Skip documentation to accelerate award",
+        "Apply FAR 15.3 procedures with documented rationale",
+        "Use sole-source automatically without justification",
+        "Delay acquisition planning until after solicitation"
+      ],
+      "notes": "Restored regular Learn bank choices to pre-distractor-pass version from previous commit."
+    },
+    {
+      "id": "Q111",
+      "oldDistractorEditedVersion": [
+        "Apply FAR 12 procedures with documented rationale",
+        "Require noncommercial clauses by default without determining market customary practice.",
+        "Use commercial procedures while demanding unique government-only technical redesigns.",
+        "Skip market comparability analysis and rely solely on internal cost estimates."
+      ],
+      "revertedVersion": [
+        "Apply FAR 12 procedures with documented rationale",
+        "Use sole-source automatically without justification",
+        "Delay acquisition planning until after solicitation",
+        "Skip documentation to accelerate award"
+      ],
+      "notes": "Restored regular Learn bank choices to pre-distractor-pass version from previous commit."
+    },
+    {
+      "id": "Q112",
+      "oldDistractorEditedVersion": [
+        "Apply FAR 16 procedures with documented rationale",
+        "Select firm-fixed-price when requirements remain unstable and technical risk is high.",
+        "Use cost-reimbursement without documenting adequate surveillance and accounting capability.",
+        "Choose contract type based on historical preference rather than current risk allocation."
+      ],
+      "revertedVersion": [
+        "Apply FAR 16 procedures with documented rationale",
+        "Skip documentation to accelerate award",
+        "Use sole-source automatically without justification",
+        "Delay acquisition planning until after solicitation"
+      ],
+      "notes": "Restored regular Learn bank choices to pre-distractor-pass version from previous commit."
+    },
+    {
+      "id": "Q113",
+      "oldDistractorEditedVersion": [
+        "Rely on prior contract files and skip current vendor outreach for this requirement.",
+        "Post the solicitation first, then document market research only if questions arise.",
+        "Adopt the incumbent's approach without validating current commercial capabilities.",
+        "Apply FAR 10 procedures with documented rationale"
+      ],
+      "revertedVersion": [
+        "Delay acquisition planning until after solicitation",
+        "Skip documentation to accelerate award",
+        "Use sole-source automatically without justification",
+        "Apply FAR 10 procedures with documented rationale"
+      ],
+      "notes": "Restored regular Learn bank choices to pre-distractor-pass version from previous commit."
+    },
+    {
+      "id": "Q114",
+      "oldDistractorEditedVersion": [
+        "Restrict competition to known vendors before documenting a valid exclusion rationale.",
+        "Apply FAR 6 procedures with documented rationale",
+        "Issue a brand-name requirement and complete the justification after award.",
+        "Prioritize schedule urgency and reduce competition without obtaining required approvals."
+      ],
+      "revertedVersion": [
+        "Delay acquisition planning until after solicitation",
+        "Apply FAR 6 procedures with documented rationale",
+        "Use sole-source automatically without justification",
+        "Skip documentation to accelerate award"
+      ],
+      "notes": "Restored regular Learn bank choices to pre-distractor-pass version from previous commit."
+    },
+    {
+      "id": "Q115",
+      "oldDistractorEditedVersion": [
+        "Use simplified procedures above threshold limits because administrative speed is critical.",
+        "Solicit only one local source and document price reasonableness after award.",
+        "Apply FAR 13 procedures with documented rationale",
+        "Combine unrelated needs into one buy to stay within a preferred buying method."
+      ],
+      "revertedVersion": [
+        "Skip documentation to accelerate award",
+        "Delay acquisition planning until after solicitation",
+        "Apply FAR 13 procedures with documented rationale",
+        "Use sole-source automatically without justification"
+      ],
+      "notes": "Restored regular Learn bank choices to pre-distractor-pass version from previous commit."
+    },
+    {
+      "id": "Q116",
+      "oldDistractorEditedVersion": [
+        "Begin negotiations before establishing evaluation factors and competitive range strategy.",
+        "Award on lowest price alone when tradeoff criteria were announced in the solicitation.",
+        "Apply FAR 15 procedures with documented rationale",
+        "Disclose one offeror's pricing details to accelerate final proposal revisions."
+      ],
+      "revertedVersion": [
+        "Skip documentation to accelerate award",
+        "Delay acquisition planning until after solicitation",
+        "Apply FAR 15 procedures with documented rationale",
+        "Use sole-source automatically without justification"
+      ],
+      "notes": "Restored regular Learn bank choices to pre-distractor-pass version from previous commit."
+    },
+    {
+      "id": "Q117",
+      "oldDistractorEditedVersion": [
+        "Direct the contractor to perform new scope first and negotiate pricing later.",
+        "Use unilateral administrative authority for substantive scope changes outside the contract.",
+        "Apply FAR 43 procedures with documented rationale",
+        "Treat every change as within scope when mission urgency supports continuity."
+      ],
+      "revertedVersion": [
+        "Delay acquisition planning until after solicitation",
+        "Use sole-source automatically without justification",
+        "Apply FAR 43 procedures with documented rationale",
+        "Skip documentation to accelerate award"
+      ],
+      "notes": "Restored regular Learn bank choices to pre-distractor-pass version from previous commit."
+    },
+    {
+      "id": "Q118",
+      "oldDistractorEditedVersion": [
+        "Adjust evaluation weights during discussions to align with evolving preferences.",
+        "Apply FAR 15.3 procedures with documented rationale",
+        "Allow evaluators to rely on undocumented impressions instead of the source selection plan.",
+        "Limit tradeoff documentation to final ratings without comparing proposal strengths and risks."
+      ],
+      "revertedVersion": [
+        "Use sole-source automatically without justification",
+        "Apply FAR 15.3 procedures with documented rationale",
+        "Delay acquisition planning until after solicitation",
+        "Skip documentation to accelerate award"
+      ],
+      "notes": "Restored regular Learn bank choices to pre-distractor-pass version from previous commit."
+    },
+    {
+      "id": "Q119",
+      "oldDistractorEditedVersion": [
+        "Require noncommercial clauses by default without determining market customary practice.",
+        "Use commercial procedures while demanding unique government-only technical redesigns.",
+        "Apply FAR 12 procedures with documented rationale",
+        "Skip market comparability analysis and rely solely on internal cost estimates."
+      ],
+      "revertedVersion": [
+        "Delay acquisition planning until after solicitation",
+        "Skip documentation to accelerate award",
+        "Apply FAR 12 procedures with documented rationale",
+        "Use sole-source automatically without justification"
+      ],
+      "notes": "Restored regular Learn bank choices to pre-distractor-pass version from previous commit."
+    },
+    {
+      "id": "Q120",
+      "oldDistractorEditedVersion": [
+        "Select firm-fixed-price when requirements remain unstable and technical risk is high.",
+        "Use cost-reimbursement without documenting adequate surveillance and accounting capability.",
+        "Apply FAR 16 procedures with documented rationale",
+        "Choose contract type based on historical preference rather than current risk allocation."
+      ],
+      "revertedVersion": [
+        "Use sole-source automatically without justification",
+        "Delay acquisition planning until after solicitation",
+        "Apply FAR 16 procedures with documented rationale",
+        "Skip documentation to accelerate award"
+      ],
+      "notes": "Restored regular Learn bank choices to pre-distractor-pass version from previous commit."
+    },
+    {
+      "id": "Q121",
+      "oldDistractorEditedVersion": [
+        "Rely on prior contract files and skip current vendor outreach for this requirement.",
+        "Post the solicitation first, then document market research only if questions arise.",
+        "Adopt the incumbent's approach without validating current commercial capabilities.",
+        "Apply FAR 10 procedures with documented rationale"
+      ],
+      "revertedVersion": [
+        "Use sole-source automatically without justification",
+        "Skip documentation to accelerate award",
+        "Delay acquisition planning until after solicitation",
+        "Apply FAR 10 procedures with documented rationale"
+      ],
+      "notes": "Restored regular Learn bank choices to pre-distractor-pass version from previous commit."
+    },
+    {
+      "id": "Q122",
+      "oldDistractorEditedVersion": [
+        "Apply FAR 6 procedures with documented rationale",
+        "Restrict competition to known vendors before documenting a valid exclusion rationale.",
+        "Issue a brand-name requirement and complete the justification after award.",
+        "Prioritize schedule urgency and reduce competition without obtaining required approvals."
+      ],
+      "revertedVersion": [
+        "Apply FAR 6 procedures with documented rationale",
+        "Delay acquisition planning until after solicitation",
+        "Use sole-source automatically without justification",
+        "Skip documentation to accelerate award"
+      ],
+      "notes": "Restored regular Learn bank choices to pre-distractor-pass version from previous commit."
+    },
+    {
+      "id": "Q123",
+      "oldDistractorEditedVersion": [
+        "Use simplified procedures above threshold limits because administrative speed is critical.",
+        "Solicit only one local source and document price reasonableness after award.",
+        "Combine unrelated needs into one buy to stay within a preferred buying method.",
+        "Apply FAR 13 procedures with documented rationale"
+      ],
+      "revertedVersion": [
+        "Use sole-source automatically without justification",
+        "Delay acquisition planning until after solicitation",
+        "Skip documentation to accelerate award",
+        "Apply FAR 13 procedures with documented rationale"
+      ],
+      "notes": "Restored regular Learn bank choices to pre-distractor-pass version from previous commit."
+    },
+    {
+      "id": "Q124",
+      "oldDistractorEditedVersion": [
+        "Begin negotiations before establishing evaluation factors and competitive range strategy.",
+        "Apply FAR 15 procedures with documented rationale",
+        "Award on lowest price alone when tradeoff criteria were announced in the solicitation.",
+        "Disclose one offeror's pricing details to accelerate final proposal revisions."
+      ],
+      "revertedVersion": [
+        "Skip documentation to accelerate award",
+        "Apply FAR 15 procedures with documented rationale",
+        "Delay acquisition planning until after solicitation",
+        "Use sole-source automatically without justification"
+      ],
+      "notes": "Restored regular Learn bank choices to pre-distractor-pass version from previous commit."
+    },
+    {
+      "id": "Q125",
+      "oldDistractorEditedVersion": [
+        "Direct the contractor to perform new scope first and negotiate pricing later.",
+        "Use unilateral administrative authority for substantive scope changes outside the contract.",
+        "Apply FAR 43 procedures with documented rationale",
+        "Treat every change as within scope when mission urgency supports continuity."
+      ],
+      "revertedVersion": [
+        "Use sole-source automatically without justification",
+        "Delay acquisition planning until after solicitation",
+        "Apply FAR 43 procedures with documented rationale",
+        "Skip documentation to accelerate award"
+      ],
+      "notes": "Restored regular Learn bank choices to pre-distractor-pass version from previous commit."
+    },
+    {
+      "id": "Q126",
+      "oldDistractorEditedVersion": [
+        "Adjust evaluation weights during discussions to align with evolving preferences.",
+        "Allow evaluators to rely on undocumented impressions instead of the source selection plan.",
+        "Limit tradeoff documentation to final ratings without comparing proposal strengths and risks.",
+        "Apply FAR 15.3 procedures with documented rationale"
+      ],
+      "revertedVersion": [
+        "Delay acquisition planning until after solicitation",
+        "Skip documentation to accelerate award",
+        "Use sole-source automatically without justification",
+        "Apply FAR 15.3 procedures with documented rationale"
+      ],
+      "notes": "Restored regular Learn bank choices to pre-distractor-pass version from previous commit."
+    },
+    {
+      "id": "Q127",
+      "oldDistractorEditedVersion": [
+        "Require noncommercial clauses by default without determining market customary practice.",
+        "Use commercial procedures while demanding unique government-only technical redesigns.",
+        "Skip market comparability analysis and rely solely on internal cost estimates.",
+        "Apply FAR 12 procedures with documented rationale"
+      ],
+      "revertedVersion": [
+        "Skip documentation to accelerate award",
+        "Delay acquisition planning until after solicitation",
+        "Use sole-source automatically without justification",
+        "Apply FAR 12 procedures with documented rationale"
+      ],
+      "notes": "Restored regular Learn bank choices to pre-distractor-pass version from previous commit."
+    },
+    {
+      "id": "Q128",
+      "oldDistractorEditedVersion": [
+        "Apply FAR 16 procedures with documented rationale",
+        "Select firm-fixed-price when requirements remain unstable and technical risk is high.",
+        "Use cost-reimbursement without documenting adequate surveillance and accounting capability.",
+        "Choose contract type based on historical preference rather than current risk allocation."
+      ],
+      "revertedVersion": [
+        "Apply FAR 16 procedures with documented rationale",
+        "Use sole-source automatically without justification",
+        "Delay acquisition planning until after solicitation",
+        "Skip documentation to accelerate award"
+      ],
+      "notes": "Restored regular Learn bank choices to pre-distractor-pass version from previous commit."
+    },
+    {
+      "id": "Q129",
+      "oldDistractorEditedVersion": [
+        "Rely on prior contract files and skip current vendor outreach for this requirement.",
+        "Post the solicitation first, then document market research only if questions arise.",
+        "Apply FAR 10 procedures with documented rationale",
+        "Adopt the incumbent's approach without validating current commercial capabilities."
+      ],
+      "revertedVersion": [
+        "Delay acquisition planning until after solicitation",
+        "Skip documentation to accelerate award",
+        "Apply FAR 10 procedures with documented rationale",
+        "Use sole-source automatically without justification"
+      ],
+      "notes": "Restored regular Learn bank choices to pre-distractor-pass version from previous commit."
+    },
+    {
+      "id": "Q130",
+      "oldDistractorEditedVersion": [
+        "Apply FAR 6 procedures with documented rationale",
+        "Restrict competition to known vendors before documenting a valid exclusion rationale.",
+        "Issue a brand-name requirement and complete the justification after award.",
+        "Prioritize schedule urgency and reduce competition without obtaining required approvals."
+      ],
+      "revertedVersion": [
+        "Apply FAR 6 procedures with documented rationale",
+        "Use sole-source automatically without justification",
+        "Skip documentation to accelerate award",
+        "Delay acquisition planning until after solicitation"
+      ],
+      "notes": "Restored regular Learn bank choices to pre-distractor-pass version from previous commit."
+    },
+    {
+      "id": "Q131",
+      "oldDistractorEditedVersion": [
+        "Use simplified procedures above threshold limits because administrative speed is critical.",
+        "Apply FAR 13 procedures with documented rationale",
+        "Solicit only one local source and document price reasonableness after award.",
+        "Combine unrelated needs into one buy to stay within a preferred buying method."
+      ],
+      "revertedVersion": [
+        "Delay acquisition planning until after solicitation",
+        "Apply FAR 13 procedures with documented rationale",
+        "Skip documentation to accelerate award",
+        "Use sole-source automatically without justification"
+      ],
+      "notes": "Restored regular Learn bank choices to pre-distractor-pass version from previous commit."
+    },
+    {
+      "id": "Q132",
+      "oldDistractorEditedVersion": [
+        "Begin negotiations before establishing evaluation factors and competitive range strategy.",
+        "Award on lowest price alone when tradeoff criteria were announced in the solicitation.",
+        "Apply FAR 15 procedures with documented rationale",
+        "Disclose one offeror's pricing details to accelerate final proposal revisions."
+      ],
+      "revertedVersion": [
+        "Use sole-source automatically without justification",
+        "Skip documentation to accelerate award",
+        "Apply FAR 15 procedures with documented rationale",
+        "Delay acquisition planning until after solicitation"
+      ],
+      "notes": "Restored regular Learn bank choices to pre-distractor-pass version from previous commit."
+    },
+    {
+      "id": "Q133",
+      "oldDistractorEditedVersion": [
+        "Apply FAR 43 procedures with documented rationale",
+        "Direct the contractor to perform new scope first and negotiate pricing later.",
+        "Use unilateral administrative authority for substantive scope changes outside the contract.",
+        "Treat every change as within scope when mission urgency supports continuity."
+      ],
+      "revertedVersion": [
+        "Apply FAR 43 procedures with documented rationale",
+        "Use sole-source automatically without justification",
+        "Skip documentation to accelerate award",
+        "Delay acquisition planning until after solicitation"
+      ],
+      "notes": "Restored regular Learn bank choices to pre-distractor-pass version from previous commit."
+    },
+    {
+      "id": "Q134",
+      "oldDistractorEditedVersion": [
+        "Adjust evaluation weights during discussions to align with evolving preferences.",
+        "Apply FAR 15.3 procedures with documented rationale",
+        "Allow evaluators to rely on undocumented impressions instead of the source selection plan.",
+        "Limit tradeoff documentation to final ratings without comparing proposal strengths and risks."
+      ],
+      "revertedVersion": [
+        "Skip documentation to accelerate award",
+        "Apply FAR 15.3 procedures with documented rationale",
+        "Use sole-source automatically without justification",
+        "Delay acquisition planning until after solicitation"
+      ],
+      "notes": "Restored regular Learn bank choices to pre-distractor-pass version from previous commit."
+    },
+    {
+      "id": "Q135",
+      "oldDistractorEditedVersion": [
+        "Apply FAR 12 procedures with documented rationale",
+        "Require noncommercial clauses by default without determining market customary practice.",
+        "Use commercial procedures while demanding unique government-only technical redesigns.",
+        "Skip market comparability analysis and rely solely on internal cost estimates."
+      ],
+      "revertedVersion": [
+        "Apply FAR 12 procedures with documented rationale",
+        "Skip documentation to accelerate award",
+        "Delay acquisition planning until after solicitation",
+        "Use sole-source automatically without justification"
+      ],
+      "notes": "Restored regular Learn bank choices to pre-distractor-pass version from previous commit."
+    },
+    {
+      "id": "Q136",
+      "oldDistractorEditedVersion": [
+        "Select firm-fixed-price when requirements remain unstable and technical risk is high.",
+        "Apply FAR 16 procedures with documented rationale",
+        "Use cost-reimbursement without documenting adequate surveillance and accounting capability.",
+        "Choose contract type based on historical preference rather than current risk allocation."
+      ],
+      "revertedVersion": [
+        "Skip documentation to accelerate award",
+        "Apply FAR 16 procedures with documented rationale",
+        "Use sole-source automatically without justification",
+        "Delay acquisition planning until after solicitation"
+      ],
+      "notes": "Restored regular Learn bank choices to pre-distractor-pass version from previous commit."
+    },
+    {
+      "id": "Q137",
+      "oldDistractorEditedVersion": [
+        "Rely on prior contract files and skip current vendor outreach for this requirement.",
+        "Post the solicitation first, then document market research only if questions arise.",
+        "Adopt the incumbent's approach without validating current commercial capabilities.",
+        "Apply FAR 10 procedures with documented rationale"
+      ],
+      "revertedVersion": [
+        "Use sole-source automatically without justification",
+        "Skip documentation to accelerate award",
+        "Delay acquisition planning until after solicitation",
+        "Apply FAR 10 procedures with documented rationale"
+      ],
+      "notes": "Restored regular Learn bank choices to pre-distractor-pass version from previous commit."
+    },
+    {
+      "id": "Q138",
+      "oldDistractorEditedVersion": [
+        "Apply FAR 6 procedures with documented rationale",
+        "Restrict competition to known vendors before documenting a valid exclusion rationale.",
+        "Issue a brand-name requirement and complete the justification after award.",
+        "Prioritize schedule urgency and reduce competition without obtaining required approvals."
+      ],
+      "revertedVersion": [
+        "Apply FAR 6 procedures with documented rationale",
+        "Use sole-source automatically without justification",
+        "Delay acquisition planning until after solicitation",
+        "Skip documentation to accelerate award"
+      ],
+      "notes": "Restored regular Learn bank choices to pre-distractor-pass version from previous commit."
+    },
+    {
+      "id": "Q139",
+      "oldDistractorEditedVersion": [
+        "Use simplified procedures above threshold limits because administrative speed is critical.",
+        "Solicit only one local source and document price reasonableness after award.",
+        "Combine unrelated needs into one buy to stay within a preferred buying method.",
+        "Apply FAR 13 procedures with documented rationale"
+      ],
+      "revertedVersion": [
+        "Delay acquisition planning until after solicitation",
+        "Skip documentation to accelerate award",
+        "Use sole-source automatically without justification",
+        "Apply FAR 13 procedures with documented rationale"
+      ],
+      "notes": "Restored regular Learn bank choices to pre-distractor-pass version from previous commit."
+    },
+    {
+      "id": "Q140",
+      "oldDistractorEditedVersion": [
+        "Begin negotiations before establishing evaluation factors and competitive range strategy.",
+        "Award on lowest price alone when tradeoff criteria were announced in the solicitation.",
+        "Disclose one offeror's pricing details to accelerate final proposal revisions.",
+        "Apply FAR 15 procedures with documented rationale"
+      ],
+      "revertedVersion": [
+        "Use sole-source automatically without justification",
+        "Skip documentation to accelerate award",
+        "Delay acquisition planning until after solicitation",
+        "Apply FAR 15 procedures with documented rationale"
+      ],
+      "notes": "Restored regular Learn bank choices to pre-distractor-pass version from previous commit."
+    },
+    {
+      "id": "Q141",
+      "oldDistractorEditedVersion": [
+        "Direct the contractor to perform new scope first and negotiate pricing later.",
+        "Use unilateral administrative authority for substantive scope changes outside the contract.",
+        "Treat every change as within scope when mission urgency supports continuity.",
+        "Apply FAR 43 procedures with documented rationale"
+      ],
+      "revertedVersion": [
+        "Delay acquisition planning until after solicitation",
+        "Skip documentation to accelerate award",
+        "Use sole-source automatically without justification",
+        "Apply FAR 43 procedures with documented rationale"
+      ],
+      "notes": "Restored regular Learn bank choices to pre-distractor-pass version from previous commit."
+    },
+    {
+      "id": "Q142",
+      "oldDistractorEditedVersion": [
+        "Adjust evaluation weights during discussions to align with evolving preferences.",
+        "Allow evaluators to rely on undocumented impressions instead of the source selection plan.",
+        "Apply FAR 15.3 procedures with documented rationale",
+        "Limit tradeoff documentation to final ratings without comparing proposal strengths and risks."
+      ],
+      "revertedVersion": [
+        "Use sole-source automatically without justification",
+        "Skip documentation to accelerate award",
+        "Apply FAR 15.3 procedures with documented rationale",
+        "Delay acquisition planning until after solicitation"
+      ],
+      "notes": "Restored regular Learn bank choices to pre-distractor-pass version from previous commit."
+    },
+    {
+      "id": "Q143",
+      "oldDistractorEditedVersion": [
+        "Require noncommercial clauses by default without determining market customary practice.",
+        "Use commercial procedures while demanding unique government-only technical redesigns.",
+        "Apply FAR 12 procedures with documented rationale",
+        "Skip market comparability analysis and rely solely on internal cost estimates."
+      ],
+      "revertedVersion": [
+        "Delay acquisition planning until after solicitation",
+        "Use sole-source automatically without justification",
+        "Apply FAR 12 procedures with documented rationale",
+        "Skip documentation to accelerate award"
+      ],
+      "notes": "Restored regular Learn bank choices to pre-distractor-pass version from previous commit."
+    },
+    {
+      "id": "Q144",
+      "oldDistractorEditedVersion": [
+        "Select firm-fixed-price when requirements remain unstable and technical risk is high.",
+        "Use cost-reimbursement without documenting adequate surveillance and accounting capability.",
+        "Apply FAR 16 procedures with documented rationale",
+        "Choose contract type based on historical preference rather than current risk allocation."
+      ],
+      "revertedVersion": [
+        "Use sole-source automatically without justification",
+        "Skip documentation to accelerate award",
+        "Apply FAR 16 procedures with documented rationale",
+        "Delay acquisition planning until after solicitation"
+      ],
+      "notes": "Restored regular Learn bank choices to pre-distractor-pass version from previous commit."
+    },
+    {
+      "id": "Q145",
+      "oldDistractorEditedVersion": [
+        "Rely on prior contract files and skip current vendor outreach for this requirement.",
+        "Apply FAR 10 procedures with documented rationale",
+        "Post the solicitation first, then document market research only if questions arise.",
+        "Adopt the incumbent's approach without validating current commercial capabilities."
+      ],
+      "revertedVersion": [
+        "Skip documentation to accelerate award",
+        "Apply FAR 10 procedures with documented rationale",
+        "Use sole-source automatically without justification",
+        "Delay acquisition planning until after solicitation"
+      ],
+      "notes": "Restored regular Learn bank choices to pre-distractor-pass version from previous commit."
+    },
+    {
+      "id": "Q146",
+      "oldDistractorEditedVersion": [
+        "Restrict competition to known vendors before documenting a valid exclusion rationale.",
+        "Issue a brand-name requirement and complete the justification after award.",
+        "Apply FAR 6 procedures with documented rationale",
+        "Prioritize schedule urgency and reduce competition without obtaining required approvals."
+      ],
+      "revertedVersion": [
+        "Use sole-source automatically without justification",
+        "Delay acquisition planning until after solicitation",
+        "Apply FAR 6 procedures with documented rationale",
+        "Skip documentation to accelerate award"
+      ],
+      "notes": "Restored regular Learn bank choices to pre-distractor-pass version from previous commit."
+    },
+    {
+      "id": "Q147",
+      "oldDistractorEditedVersion": [
+        "Apply FAR 13 procedures with documented rationale",
+        "Use simplified procedures above threshold limits because administrative speed is critical.",
+        "Solicit only one local source and document price reasonableness after award.",
+        "Combine unrelated needs into one buy to stay within a preferred buying method."
+      ],
+      "revertedVersion": [
+        "Apply FAR 13 procedures with documented rationale",
+        "Use sole-source automatically without justification",
+        "Delay acquisition planning until after solicitation",
+        "Skip documentation to accelerate award"
+      ],
+      "notes": "Restored regular Learn bank choices to pre-distractor-pass version from previous commit."
+    },
+    {
+      "id": "Q148",
+      "oldDistractorEditedVersion": [
+        "Begin negotiations before establishing evaluation factors and competitive range strategy.",
+        "Apply FAR 15 procedures with documented rationale",
+        "Award on lowest price alone when tradeoff criteria were announced in the solicitation.",
+        "Disclose one offeror's pricing details to accelerate final proposal revisions."
+      ],
+      "revertedVersion": [
+        "Skip documentation to accelerate award",
+        "Apply FAR 15 procedures with documented rationale",
+        "Use sole-source automatically without justification",
+        "Delay acquisition planning until after solicitation"
+      ],
+      "notes": "Restored regular Learn bank choices to pre-distractor-pass version from previous commit."
+    },
+    {
+      "id": "Q149",
+      "oldDistractorEditedVersion": [
+        "Direct the contractor to perform new scope first and negotiate pricing later.",
+        "Use unilateral administrative authority for substantive scope changes outside the contract.",
+        "Treat every change as within scope when mission urgency supports continuity.",
+        "Apply FAR 43 procedures with documented rationale"
+      ],
+      "revertedVersion": [
+        "Use sole-source automatically without justification",
+        "Skip documentation to accelerate award",
+        "Delay acquisition planning until after solicitation",
+        "Apply FAR 43 procedures with documented rationale"
+      ],
+      "notes": "Restored regular Learn bank choices to pre-distractor-pass version from previous commit."
+    },
+    {
+      "id": "Q150",
+      "oldDistractorEditedVersion": [
+        "Adjust evaluation weights during discussions to align with evolving preferences.",
+        "Apply FAR 15.3 procedures with documented rationale",
+        "Allow evaluators to rely on undocumented impressions instead of the source selection plan.",
+        "Limit tradeoff documentation to final ratings without comparing proposal strengths and risks."
+      ],
+      "revertedVersion": [
+        "Delay acquisition planning until after solicitation",
+        "Apply FAR 15.3 procedures with documented rationale",
+        "Skip documentation to accelerate award",
+        "Use sole-source automatically without justification"
+      ],
+      "notes": "Restored regular Learn bank choices to pre-distractor-pass version from previous commit."
+    },
+    {
+      "id": "Q151",
+      "oldDistractorEditedVersion": [
+        "Require noncommercial clauses by default without determining market customary practice.",
+        "Apply FAR 12 procedures with documented rationale",
+        "Use commercial procedures while demanding unique government-only technical redesigns.",
+        "Skip market comparability analysis and rely solely on internal cost estimates."
+      ],
+      "revertedVersion": [
+        "Skip documentation to accelerate award",
+        "Apply FAR 12 procedures with documented rationale",
+        "Use sole-source automatically without justification",
+        "Delay acquisition planning until after solicitation"
+      ],
+      "notes": "Restored regular Learn bank choices to pre-distractor-pass version from previous commit."
+    },
+    {
+      "id": "Q152",
+      "oldDistractorEditedVersion": [
+        "Select firm-fixed-price when requirements remain unstable and technical risk is high.",
+        "Apply FAR 16 procedures with documented rationale",
+        "Use cost-reimbursement without documenting adequate surveillance and accounting capability.",
+        "Choose contract type based on historical preference rather than current risk allocation."
+      ],
+      "revertedVersion": [
+        "Skip documentation to accelerate award",
+        "Apply FAR 16 procedures with documented rationale",
+        "Use sole-source automatically without justification",
+        "Delay acquisition planning until after solicitation"
+      ],
+      "notes": "Restored regular Learn bank choices to pre-distractor-pass version from previous commit."
+    },
+    {
+      "id": "Q153",
+      "oldDistractorEditedVersion": [
+        "Rely on prior contract files and skip current vendor outreach for this requirement.",
+        "Post the solicitation first, then document market research only if questions arise.",
+        "Apply FAR 10 procedures with documented rationale",
+        "Adopt the incumbent's approach without validating current commercial capabilities."
+      ],
+      "revertedVersion": [
+        "Skip documentation to accelerate award",
+        "Use sole-source automatically without justification",
+        "Apply FAR 10 procedures with documented rationale",
+        "Delay acquisition planning until after solicitation"
+      ],
+      "notes": "Restored regular Learn bank choices to pre-distractor-pass version from previous commit."
+    },
+    {
+      "id": "Q154",
+      "oldDistractorEditedVersion": [
+        "Apply FAR 6 procedures with documented rationale",
+        "Restrict competition to known vendors before documenting a valid exclusion rationale.",
+        "Issue a brand-name requirement and complete the justification after award.",
+        "Prioritize schedule urgency and reduce competition without obtaining required approvals."
+      ],
+      "revertedVersion": [
+        "Apply FAR 6 procedures with documented rationale",
+        "Use sole-source automatically without justification",
+        "Delay acquisition planning until after solicitation",
+        "Skip documentation to accelerate award"
+      ],
+      "notes": "Restored regular Learn bank choices to pre-distractor-pass version from previous commit."
+    },
+    {
+      "id": "Q155",
+      "oldDistractorEditedVersion": [
+        "Apply FAR 13 procedures with documented rationale",
+        "Use simplified procedures above threshold limits because administrative speed is critical.",
+        "Solicit only one local source and document price reasonableness after award.",
+        "Combine unrelated needs into one buy to stay within a preferred buying method."
+      ],
+      "revertedVersion": [
+        "Apply FAR 13 procedures with documented rationale",
+        "Skip documentation to accelerate award",
+        "Delay acquisition planning until after solicitation",
+        "Use sole-source automatically without justification"
+      ],
+      "notes": "Restored regular Learn bank choices to pre-distractor-pass version from previous commit."
+    },
+    {
+      "id": "Q156",
+      "oldDistractorEditedVersion": [
+        "Begin negotiations before establishing evaluation factors and competitive range strategy.",
+        "Apply FAR 15 procedures with documented rationale",
+        "Award on lowest price alone when tradeoff criteria were announced in the solicitation.",
+        "Disclose one offeror's pricing details to accelerate final proposal revisions."
+      ],
+      "revertedVersion": [
+        "Use sole-source automatically without justification",
+        "Apply FAR 15 procedures with documented rationale",
+        "Skip documentation to accelerate award",
+        "Delay acquisition planning until after solicitation"
+      ],
+      "notes": "Restored regular Learn bank choices to pre-distractor-pass version from previous commit."
+    },
+    {
+      "id": "Q157",
+      "oldDistractorEditedVersion": [
+        "Direct the contractor to perform new scope first and negotiate pricing later.",
+        "Use unilateral administrative authority for substantive scope changes outside the contract.",
+        "Apply FAR 43 procedures with documented rationale",
+        "Treat every change as within scope when mission urgency supports continuity."
+      ],
+      "revertedVersion": [
+        "Skip documentation to accelerate award",
+        "Use sole-source automatically without justification",
+        "Apply FAR 43 procedures with documented rationale",
+        "Delay acquisition planning until after solicitation"
+      ],
+      "notes": "Restored regular Learn bank choices to pre-distractor-pass version from previous commit."
+    },
+    {
+      "id": "Q158",
+      "oldDistractorEditedVersion": [
+        "Adjust evaluation weights during discussions to align with evolving preferences.",
+        "Allow evaluators to rely on undocumented impressions instead of the source selection plan.",
+        "Apply FAR 15.3 procedures with documented rationale",
+        "Limit tradeoff documentation to final ratings without comparing proposal strengths and risks."
+      ],
+      "revertedVersion": [
+        "Delay acquisition planning until after solicitation",
+        "Use sole-source automatically without justification",
+        "Apply FAR 15.3 procedures with documented rationale",
+        "Skip documentation to accelerate award"
+      ],
+      "notes": "Restored regular Learn bank choices to pre-distractor-pass version from previous commit."
+    },
+    {
+      "id": "Q159",
+      "oldDistractorEditedVersion": [
+        "Require noncommercial clauses by default without determining market customary practice.",
+        "Use commercial procedures while demanding unique government-only technical redesigns.",
+        "Apply FAR 12 procedures with documented rationale",
+        "Skip market comparability analysis and rely solely on internal cost estimates."
+      ],
+      "revertedVersion": [
+        "Use sole-source automatically without justification",
+        "Skip documentation to accelerate award",
+        "Apply FAR 12 procedures with documented rationale",
+        "Delay acquisition planning until after solicitation"
+      ],
+      "notes": "Restored regular Learn bank choices to pre-distractor-pass version from previous commit."
+    },
+    {
+      "id": "Q160",
+      "oldDistractorEditedVersion": [
+        "Select firm-fixed-price when requirements remain unstable and technical risk is high.",
+        "Use cost-reimbursement without documenting adequate surveillance and accounting capability.",
+        "Choose contract type based on historical preference rather than current risk allocation.",
+        "Apply FAR 16 procedures with documented rationale"
+      ],
+      "revertedVersion": [
+        "Delay acquisition planning until after solicitation",
+        "Skip documentation to accelerate award",
+        "Use sole-source automatically without justification",
+        "Apply FAR 16 procedures with documented rationale"
+      ],
+      "notes": "Restored regular Learn bank choices to pre-distractor-pass version from previous commit."
+    },
+    {
+      "id": "Q161",
+      "oldDistractorEditedVersion": [
+        "Rely on prior contract files and skip current vendor outreach for this requirement.",
+        "Apply FAR 10 procedures with documented rationale",
+        "Post the solicitation first, then document market research only if questions arise.",
+        "Adopt the incumbent's approach without validating current commercial capabilities."
+      ],
+      "revertedVersion": [
+        "Delay acquisition planning until after solicitation",
+        "Apply FAR 10 procedures with documented rationale",
+        "Use sole-source automatically without justification",
+        "Skip documentation to accelerate award"
+      ],
+      "notes": "Restored regular Learn bank choices to pre-distractor-pass version from previous commit."
+    },
+    {
+      "id": "Q162",
+      "oldDistractorEditedVersion": [
+        "Restrict competition to known vendors before documenting a valid exclusion rationale.",
+        "Issue a brand-name requirement and complete the justification after award.",
+        "Prioritize schedule urgency and reduce competition without obtaining required approvals.",
+        "Apply FAR 6 procedures with documented rationale"
+      ],
+      "revertedVersion": [
+        "Skip documentation to accelerate award",
+        "Delay acquisition planning until after solicitation",
+        "Use sole-source automatically without justification",
+        "Apply FAR 6 procedures with documented rationale"
+      ],
+      "notes": "Restored regular Learn bank choices to pre-distractor-pass version from previous commit."
+    },
+    {
+      "id": "Q163",
+      "oldDistractorEditedVersion": [
+        "Use simplified procedures above threshold limits because administrative speed is critical.",
+        "Apply FAR 13 procedures with documented rationale",
+        "Solicit only one local source and document price reasonableness after award.",
+        "Combine unrelated needs into one buy to stay within a preferred buying method."
+      ],
+      "revertedVersion": [
+        "Skip documentation to accelerate award",
+        "Apply FAR 13 procedures with documented rationale",
+        "Use sole-source automatically without justification",
+        "Delay acquisition planning until after solicitation"
+      ],
+      "notes": "Restored regular Learn bank choices to pre-distractor-pass version from previous commit."
+    },
+    {
+      "id": "Q164",
+      "oldDistractorEditedVersion": [
+        "Begin negotiations before establishing evaluation factors and competitive range strategy.",
+        "Award on lowest price alone when tradeoff criteria were announced in the solicitation.",
+        "Disclose one offeror's pricing details to accelerate final proposal revisions.",
+        "Apply FAR 15 procedures with documented rationale"
+      ],
+      "revertedVersion": [
+        "Delay acquisition planning until after solicitation",
+        "Skip documentation to accelerate award",
+        "Use sole-source automatically without justification",
+        "Apply FAR 15 procedures with documented rationale"
+      ],
+      "notes": "Restored regular Learn bank choices to pre-distractor-pass version from previous commit."
+    },
+    {
+      "id": "Q165",
+      "oldDistractorEditedVersion": [
+        "Direct the contractor to perform new scope first and negotiate pricing later.",
+        "Use unilateral administrative authority for substantive scope changes outside the contract.",
+        "Treat every change as within scope when mission urgency supports continuity.",
+        "Apply FAR 43 procedures with documented rationale"
+      ],
+      "revertedVersion": [
+        "Use sole-source automatically without justification",
+        "Skip documentation to accelerate award",
+        "Delay acquisition planning until after solicitation",
+        "Apply FAR 43 procedures with documented rationale"
+      ],
+      "notes": "Restored regular Learn bank choices to pre-distractor-pass version from previous commit."
+    },
+    {
+      "id": "Q166",
+      "oldDistractorEditedVersion": [
+        "Apply FAR 15.3 procedures with documented rationale",
+        "Adjust evaluation weights during discussions to align with evolving preferences.",
+        "Allow evaluators to rely on undocumented impressions instead of the source selection plan.",
+        "Limit tradeoff documentation to final ratings without comparing proposal strengths and risks."
+      ],
+      "revertedVersion": [
+        "Apply FAR 15.3 procedures with documented rationale",
+        "Delay acquisition planning until after solicitation",
+        "Use sole-source automatically without justification",
+        "Skip documentation to accelerate award"
+      ],
+      "notes": "Restored regular Learn bank choices to pre-distractor-pass version from previous commit."
+    },
+    {
+      "id": "Q167",
+      "oldDistractorEditedVersion": [
+        "Require noncommercial clauses by default without determining market customary practice.",
+        "Use commercial procedures while demanding unique government-only technical redesigns.",
+        "Apply FAR 12 procedures with documented rationale",
+        "Skip market comparability analysis and rely solely on internal cost estimates."
+      ],
+      "revertedVersion": [
+        "Use sole-source automatically without justification",
+        "Delay acquisition planning until after solicitation",
+        "Apply FAR 12 procedures with documented rationale",
+        "Skip documentation to accelerate award"
+      ],
+      "notes": "Restored regular Learn bank choices to pre-distractor-pass version from previous commit."
+    },
+    {
+      "id": "Q168",
+      "oldDistractorEditedVersion": [
+        "Select firm-fixed-price when requirements remain unstable and technical risk is high.",
+        "Use cost-reimbursement without documenting adequate surveillance and accounting capability.",
+        "Choose contract type based on historical preference rather than current risk allocation.",
+        "Apply FAR 16 procedures with documented rationale"
+      ],
+      "revertedVersion": [
+        "Delay acquisition planning until after solicitation",
+        "Skip documentation to accelerate award",
+        "Use sole-source automatically without justification",
+        "Apply FAR 16 procedures with documented rationale"
+      ],
+      "notes": "Restored regular Learn bank choices to pre-distractor-pass version from previous commit."
+    },
+    {
+      "id": "Q169",
+      "oldDistractorEditedVersion": [
+        "Rely on prior contract files and skip current vendor outreach for this requirement.",
+        "Apply FAR 10 procedures with documented rationale",
+        "Post the solicitation first, then document market research only if questions arise.",
+        "Adopt the incumbent's approach without validating current commercial capabilities."
+      ],
+      "revertedVersion": [
+        "Skip documentation to accelerate award",
+        "Apply FAR 10 procedures with documented rationale",
+        "Delay acquisition planning until after solicitation",
+        "Use sole-source automatically without justification"
+      ],
+      "notes": "Restored regular Learn bank choices to pre-distractor-pass version from previous commit."
+    },
+    {
+      "id": "Q170",
+      "oldDistractorEditedVersion": [
+        "Apply FAR 6 procedures with documented rationale",
+        "Restrict competition to known vendors before documenting a valid exclusion rationale.",
+        "Issue a brand-name requirement and complete the justification after award.",
+        "Prioritize schedule urgency and reduce competition without obtaining required approvals."
+      ],
+      "revertedVersion": [
+        "Apply FAR 6 procedures with documented rationale",
+        "Skip documentation to accelerate award",
+        "Delay acquisition planning until after solicitation",
+        "Use sole-source automatically without justification"
+      ],
+      "notes": "Restored regular Learn bank choices to pre-distractor-pass version from previous commit."
+    },
+    {
+      "id": "Q171",
+      "oldDistractorEditedVersion": [
+        "Use simplified procedures above threshold limits because administrative speed is critical.",
+        "Apply FAR 13 procedures with documented rationale",
+        "Solicit only one local source and document price reasonableness after award.",
+        "Combine unrelated needs into one buy to stay within a preferred buying method."
+      ],
+      "revertedVersion": [
+        "Use sole-source automatically without justification",
+        "Apply FAR 13 procedures with documented rationale",
+        "Skip documentation to accelerate award",
+        "Delay acquisition planning until after solicitation"
+      ],
+      "notes": "Restored regular Learn bank choices to pre-distractor-pass version from previous commit."
+    },
+    {
+      "id": "Q172",
+      "oldDistractorEditedVersion": [
+        "Begin negotiations before establishing evaluation factors and competitive range strategy.",
+        "Award on lowest price alone when tradeoff criteria were announced in the solicitation.",
+        "Apply FAR 15 procedures with documented rationale",
+        "Disclose one offeror's pricing details to accelerate final proposal revisions."
+      ],
+      "revertedVersion": [
+        "Skip documentation to accelerate award",
+        "Delay acquisition planning until after solicitation",
+        "Apply FAR 15 procedures with documented rationale",
+        "Use sole-source automatically without justification"
+      ],
+      "notes": "Restored regular Learn bank choices to pre-distractor-pass version from previous commit."
+    },
+    {
+      "id": "Q173",
+      "oldDistractorEditedVersion": [
+        "Apply FAR 43 procedures with documented rationale",
+        "Direct the contractor to perform new scope first and negotiate pricing later.",
+        "Use unilateral administrative authority for substantive scope changes outside the contract.",
+        "Treat every change as within scope when mission urgency supports continuity."
+      ],
+      "revertedVersion": [
+        "Apply FAR 43 procedures with documented rationale",
+        "Delay acquisition planning until after solicitation",
+        "Skip documentation to accelerate award",
+        "Use sole-source automatically without justification"
+      ],
+      "notes": "Restored regular Learn bank choices to pre-distractor-pass version from previous commit."
+    },
+    {
+      "id": "Q174",
+      "oldDistractorEditedVersion": [
+        "Adjust evaluation weights during discussions to align with evolving preferences.",
+        "Allow evaluators to rely on undocumented impressions instead of the source selection plan.",
+        "Limit tradeoff documentation to final ratings without comparing proposal strengths and risks.",
+        "Apply FAR 15.3 procedures with documented rationale"
+      ],
+      "revertedVersion": [
+        "Use sole-source automatically without justification",
+        "Delay acquisition planning until after solicitation",
+        "Skip documentation to accelerate award",
+        "Apply FAR 15.3 procedures with documented rationale"
+      ],
+      "notes": "Restored regular Learn bank choices to pre-distractor-pass version from previous commit."
+    },
+    {
+      "id": "Q175",
+      "oldDistractorEditedVersion": [
+        "Require noncommercial clauses by default without determining market customary practice.",
+        "Use commercial procedures while demanding unique government-only technical redesigns.",
+        "Apply FAR 12 procedures with documented rationale",
+        "Skip market comparability analysis and rely solely on internal cost estimates."
+      ],
+      "revertedVersion": [
+        "Skip documentation to accelerate award",
+        "Use sole-source automatically without justification",
+        "Apply FAR 12 procedures with documented rationale",
+        "Delay acquisition planning until after solicitation"
+      ],
+      "notes": "Restored regular Learn bank choices to pre-distractor-pass version from previous commit."
+    },
+    {
+      "id": "Q176",
+      "oldDistractorEditedVersion": [
+        "Select firm-fixed-price when requirements remain unstable and technical risk is high.",
+        "Use cost-reimbursement without documenting adequate surveillance and accounting capability.",
+        "Choose contract type based on historical preference rather than current risk allocation.",
+        "Apply FAR 16 procedures with documented rationale"
+      ],
+      "revertedVersion": [
+        "Skip documentation to accelerate award",
+        "Use sole-source automatically without justification",
+        "Delay acquisition planning until after solicitation",
+        "Apply FAR 16 procedures with documented rationale"
+      ],
+      "notes": "Restored regular Learn bank choices to pre-distractor-pass version from previous commit."
+    },
+    {
+      "id": "Q177",
+      "oldDistractorEditedVersion": [
+        "Apply FAR 10 procedures with documented rationale",
+        "Rely on prior contract files and skip current vendor outreach for this requirement.",
+        "Post the solicitation first, then document market research only if questions arise.",
+        "Adopt the incumbent's approach without validating current commercial capabilities."
+      ],
+      "revertedVersion": [
+        "Apply FAR 10 procedures with documented rationale",
+        "Use sole-source automatically without justification",
+        "Delay acquisition planning until after solicitation",
+        "Skip documentation to accelerate award"
+      ],
+      "notes": "Restored regular Learn bank choices to pre-distractor-pass version from previous commit."
+    },
+    {
+      "id": "Q178",
+      "oldDistractorEditedVersion": [
+        "Restrict competition to known vendors before documenting a valid exclusion rationale.",
+        "Issue a brand-name requirement and complete the justification after award.",
+        "Prioritize schedule urgency and reduce competition without obtaining required approvals.",
+        "Apply FAR 6 procedures with documented rationale"
+      ],
+      "revertedVersion": [
+        "Delay acquisition planning until after solicitation",
+        "Skip documentation to accelerate award",
+        "Use sole-source automatically without justification",
+        "Apply FAR 6 procedures with documented rationale"
+      ],
+      "notes": "Restored regular Learn bank choices to pre-distractor-pass version from previous commit."
+    },
+    {
+      "id": "Q179",
+      "oldDistractorEditedVersion": [
+        "Use simplified procedures above threshold limits because administrative speed is critical.",
+        "Solicit only one local source and document price reasonableness after award.",
+        "Apply FAR 13 procedures with documented rationale",
+        "Combine unrelated needs into one buy to stay within a preferred buying method."
+      ],
+      "revertedVersion": [
+        "Delay acquisition planning until after solicitation",
+        "Use sole-source automatically without justification",
+        "Apply FAR 13 procedures with documented rationale",
+        "Skip documentation to accelerate award"
+      ],
+      "notes": "Restored regular Learn bank choices to pre-distractor-pass version from previous commit."
+    },
+    {
+      "id": "Q180",
+      "oldDistractorEditedVersion": [
+        "Begin negotiations before establishing evaluation factors and competitive range strategy.",
+        "Award on lowest price alone when tradeoff criteria were announced in the solicitation.",
+        "Apply FAR 15 procedures with documented rationale",
+        "Disclose one offeror's pricing details to accelerate final proposal revisions."
+      ],
+      "revertedVersion": [
+        "Delay acquisition planning until after solicitation",
+        "Use sole-source automatically without justification",
+        "Apply FAR 15 procedures with documented rationale",
+        "Skip documentation to accelerate award"
+      ],
+      "notes": "Restored regular Learn bank choices to pre-distractor-pass version from previous commit."
+    },
+    {
+      "id": "Q181",
+      "oldDistractorEditedVersion": [
+        "Direct the contractor to perform new scope first and negotiate pricing later.",
+        "Use unilateral administrative authority for substantive scope changes outside the contract.",
+        "Treat every change as within scope when mission urgency supports continuity.",
+        "Apply FAR 43 procedures with documented rationale"
+      ],
+      "revertedVersion": [
+        "Use sole-source automatically without justification",
+        "Skip documentation to accelerate award",
+        "Delay acquisition planning until after solicitation",
+        "Apply FAR 43 procedures with documented rationale"
+      ],
+      "notes": "Restored regular Learn bank choices to pre-distractor-pass version from previous commit."
+    },
+    {
+      "id": "Q182",
+      "oldDistractorEditedVersion": [
+        "Adjust evaluation weights during discussions to align with evolving preferences.",
+        "Apply FAR 15.3 procedures with documented rationale",
+        "Allow evaluators to rely on undocumented impressions instead of the source selection plan.",
+        "Limit tradeoff documentation to final ratings without comparing proposal strengths and risks."
+      ],
+      "revertedVersion": [
+        "Use sole-source automatically without justification",
+        "Apply FAR 15.3 procedures with documented rationale",
+        "Skip documentation to accelerate award",
+        "Delay acquisition planning until after solicitation"
+      ],
+      "notes": "Restored regular Learn bank choices to pre-distractor-pass version from previous commit."
+    },
+    {
+      "id": "Q183",
+      "oldDistractorEditedVersion": [
+        "Require noncommercial clauses by default without determining market customary practice.",
+        "Use commercial procedures while demanding unique government-only technical redesigns.",
+        "Skip market comparability analysis and rely solely on internal cost estimates.",
+        "Apply FAR 12 procedures with documented rationale"
+      ],
+      "revertedVersion": [
+        "Skip documentation to accelerate award",
+        "Use sole-source automatically without justification",
+        "Delay acquisition planning until after solicitation",
+        "Apply FAR 12 procedures with documented rationale"
+      ],
+      "notes": "Restored regular Learn bank choices to pre-distractor-pass version from previous commit."
+    },
+    {
+      "id": "Q184",
+      "oldDistractorEditedVersion": [
+        "Select firm-fixed-price when requirements remain unstable and technical risk is high.",
+        "Use cost-reimbursement without documenting adequate surveillance and accounting capability.",
+        "Apply FAR 16 procedures with documented rationale",
+        "Choose contract type based on historical preference rather than current risk allocation."
+      ],
+      "revertedVersion": [
+        "Skip documentation to accelerate award",
+        "Delay acquisition planning until after solicitation",
+        "Apply FAR 16 procedures with documented rationale",
+        "Use sole-source automatically without justification"
+      ],
+      "notes": "Restored regular Learn bank choices to pre-distractor-pass version from previous commit."
+    },
+    {
+      "id": "Q185",
+      "oldDistractorEditedVersion": [
+        "Rely on prior contract files and skip current vendor outreach for this requirement.",
+        "Post the solicitation first, then document market research only if questions arise.",
+        "Adopt the incumbent's approach without validating current commercial capabilities.",
+        "Apply FAR 10 procedures with documented rationale"
+      ],
+      "revertedVersion": [
+        "Skip documentation to accelerate award",
+        "Use sole-source automatically without justification",
+        "Delay acquisition planning until after solicitation",
+        "Apply FAR 10 procedures with documented rationale"
+      ],
+      "notes": "Restored regular Learn bank choices to pre-distractor-pass version from previous commit."
+    },
+    {
+      "id": "Q186",
+      "oldDistractorEditedVersion": [
+        "Apply FAR 6 procedures with documented rationale",
+        "Restrict competition to known vendors before documenting a valid exclusion rationale.",
+        "Issue a brand-name requirement and complete the justification after award.",
+        "Prioritize schedule urgency and reduce competition without obtaining required approvals."
+      ],
+      "revertedVersion": [
+        "Apply FAR 6 procedures with documented rationale",
+        "Skip documentation to accelerate award",
+        "Delay acquisition planning until after solicitation",
+        "Use sole-source automatically without justification"
+      ],
+      "notes": "Restored regular Learn bank choices to pre-distractor-pass version from previous commit."
+    },
+    {
+      "id": "Q187",
+      "oldDistractorEditedVersion": [
+        "Use simplified procedures above threshold limits because administrative speed is critical.",
+        "Apply FAR 13 procedures with documented rationale",
+        "Solicit only one local source and document price reasonableness after award.",
+        "Combine unrelated needs into one buy to stay within a preferred buying method."
+      ],
+      "revertedVersion": [
+        "Delay acquisition planning until after solicitation",
+        "Apply FAR 13 procedures with documented rationale",
+        "Skip documentation to accelerate award",
+        "Use sole-source automatically without justification"
+      ],
+      "notes": "Restored regular Learn bank choices to pre-distractor-pass version from previous commit."
+    },
+    {
+      "id": "Q188",
+      "oldDistractorEditedVersion": [
+        "Begin negotiations before establishing evaluation factors and competitive range strategy.",
+        "Apply FAR 15 procedures with documented rationale",
+        "Award on lowest price alone when tradeoff criteria were announced in the solicitation.",
+        "Disclose one offeror's pricing details to accelerate final proposal revisions."
+      ],
+      "revertedVersion": [
+        "Use sole-source automatically without justification",
+        "Apply FAR 15 procedures with documented rationale",
+        "Delay acquisition planning until after solicitation",
+        "Skip documentation to accelerate award"
+      ],
+      "notes": "Restored regular Learn bank choices to pre-distractor-pass version from previous commit."
+    },
+    {
+      "id": "Q189",
+      "oldDistractorEditedVersion": [
+        "Apply FAR 43 procedures with documented rationale",
+        "Direct the contractor to perform new scope first and negotiate pricing later.",
+        "Use unilateral administrative authority for substantive scope changes outside the contract.",
+        "Treat every change as within scope when mission urgency supports continuity."
+      ],
+      "revertedVersion": [
+        "Apply FAR 43 procedures with documented rationale",
+        "Skip documentation to accelerate award",
+        "Use sole-source automatically without justification",
+        "Delay acquisition planning until after solicitation"
+      ],
+      "notes": "Restored regular Learn bank choices to pre-distractor-pass version from previous commit."
+    },
+    {
+      "id": "Q190",
+      "oldDistractorEditedVersion": [
+        "Adjust evaluation weights during discussions to align with evolving preferences.",
+        "Allow evaluators to rely on undocumented impressions instead of the source selection plan.",
+        "Limit tradeoff documentation to final ratings without comparing proposal strengths and risks.",
+        "Apply FAR 15.3 procedures with documented rationale"
+      ],
+      "revertedVersion": [
+        "Use sole-source automatically without justification",
+        "Skip documentation to accelerate award",
+        "Delay acquisition planning until after solicitation",
+        "Apply FAR 15.3 procedures with documented rationale"
+      ],
+      "notes": "Restored regular Learn bank choices to pre-distractor-pass version from previous commit."
+    },
+    {
+      "id": "Q191",
+      "oldDistractorEditedVersion": [
+        "Apply FAR 12 procedures with documented rationale",
+        "Require noncommercial clauses by default without determining market customary practice.",
+        "Use commercial procedures while demanding unique government-only technical redesigns.",
+        "Skip market comparability analysis and rely solely on internal cost estimates."
+      ],
+      "revertedVersion": [
+        "Apply FAR 12 procedures with documented rationale",
+        "Use sole-source automatically without justification",
+        "Delay acquisition planning until after solicitation",
+        "Skip documentation to accelerate award"
+      ],
+      "notes": "Restored regular Learn bank choices to pre-distractor-pass version from previous commit."
+    },
+    {
+      "id": "Q192",
+      "oldDistractorEditedVersion": [
+        "Select firm-fixed-price when requirements remain unstable and technical risk is high.",
+        "Apply FAR 16 procedures with documented rationale",
+        "Use cost-reimbursement without documenting adequate surveillance and accounting capability.",
+        "Choose contract type based on historical preference rather than current risk allocation."
+      ],
+      "revertedVersion": [
+        "Delay acquisition planning until after solicitation",
+        "Apply FAR 16 procedures with documented rationale",
+        "Skip documentation to accelerate award",
+        "Use sole-source automatically without justification"
+      ],
+      "notes": "Restored regular Learn bank choices to pre-distractor-pass version from previous commit."
+    },
+    {
+      "id": "Q193",
+      "oldDistractorEditedVersion": [
+        "Rely on prior contract files and skip current vendor outreach for this requirement.",
+        "Post the solicitation first, then document market research only if questions arise.",
+        "Apply FAR 10 procedures with documented rationale",
+        "Adopt the incumbent's approach without validating current commercial capabilities."
+      ],
+      "revertedVersion": [
+        "Use sole-source automatically without justification",
+        "Skip documentation to accelerate award",
+        "Apply FAR 10 procedures with documented rationale",
+        "Delay acquisition planning until after solicitation"
+      ],
+      "notes": "Restored regular Learn bank choices to pre-distractor-pass version from previous commit."
+    },
+    {
+      "id": "Q194",
+      "oldDistractorEditedVersion": [
+        "Restrict competition to known vendors before documenting a valid exclusion rationale.",
+        "Issue a brand-name requirement and complete the justification after award.",
+        "Prioritize schedule urgency and reduce competition without obtaining required approvals.",
+        "Apply FAR 6 procedures with documented rationale"
+      ],
+      "revertedVersion": [
+        "Skip documentation to accelerate award",
+        "Delay acquisition planning until after solicitation",
+        "Use sole-source automatically without justification",
+        "Apply FAR 6 procedures with documented rationale"
+      ],
+      "notes": "Restored regular Learn bank choices to pre-distractor-pass version from previous commit."
+    },
+    {
+      "id": "Q195",
+      "oldDistractorEditedVersion": [
+        "Use simplified procedures above threshold limits because administrative speed is critical.",
+        "Solicit only one local source and document price reasonableness after award.",
+        "Apply FAR 13 procedures with documented rationale",
+        "Combine unrelated needs into one buy to stay within a preferred buying method."
+      ],
+      "revertedVersion": [
+        "Skip documentation to accelerate award",
+        "Use sole-source automatically without justification",
+        "Apply FAR 13 procedures with documented rationale",
+        "Delay acquisition planning until after solicitation"
+      ],
+      "notes": "Restored regular Learn bank choices to pre-distractor-pass version from previous commit."
+    },
+    {
+      "id": "Q196",
+      "oldDistractorEditedVersion": [
+        "Begin negotiations before establishing evaluation factors and competitive range strategy.",
+        "Award on lowest price alone when tradeoff criteria were announced in the solicitation.",
+        "Disclose one offeror's pricing details to accelerate final proposal revisions.",
+        "Apply FAR 15 procedures with documented rationale"
+      ],
+      "revertedVersion": [
+        "Use sole-source automatically without justification",
+        "Skip documentation to accelerate award",
+        "Delay acquisition planning until after solicitation",
+        "Apply FAR 15 procedures with documented rationale"
+      ],
+      "notes": "Restored regular Learn bank choices to pre-distractor-pass version from previous commit."
+    },
+    {
+      "id": "Q197",
+      "oldDistractorEditedVersion": [
+        "Direct the contractor to perform new scope first and negotiate pricing later.",
+        "Use unilateral administrative authority for substantive scope changes outside the contract.",
+        "Treat every change as within scope when mission urgency supports continuity.",
+        "Apply FAR 43 procedures with documented rationale"
+      ],
+      "revertedVersion": [
+        "Skip documentation to accelerate award",
+        "Use sole-source automatically without justification",
+        "Delay acquisition planning until after solicitation",
+        "Apply FAR 43 procedures with documented rationale"
+      ],
+      "notes": "Restored regular Learn bank choices to pre-distractor-pass version from previous commit."
+    },
+    {
+      "id": "Q198",
+      "oldDistractorEditedVersion": [
+        "Adjust evaluation weights during discussions to align with evolving preferences.",
+        "Allow evaluators to rely on undocumented impressions instead of the source selection plan.",
+        "Limit tradeoff documentation to final ratings without comparing proposal strengths and risks.",
+        "Apply FAR 15.3 procedures with documented rationale"
+      ],
+      "revertedVersion": [
+        "Delay acquisition planning until after solicitation",
+        "Skip documentation to accelerate award",
+        "Use sole-source automatically without justification",
+        "Apply FAR 15.3 procedures with documented rationale"
+      ],
+      "notes": "Restored regular Learn bank choices to pre-distractor-pass version from previous commit."
+    },
+    {
+      "id": "Q199",
+      "oldDistractorEditedVersion": [
+        "Apply FAR 12 procedures with documented rationale",
+        "Require noncommercial clauses by default without determining market customary practice.",
+        "Use commercial procedures while demanding unique government-only technical redesigns.",
+        "Skip market comparability analysis and rely solely on internal cost estimates."
+      ],
+      "revertedVersion": [
+        "Apply FAR 12 procedures with documented rationale",
+        "Skip documentation to accelerate award",
+        "Delay acquisition planning until after solicitation",
+        "Use sole-source automatically without justification"
+      ],
+      "notes": "Restored regular Learn bank choices to pre-distractor-pass version from previous commit."
+    },
+    {
+      "id": "Q200",
+      "oldDistractorEditedVersion": [
+        "Select firm-fixed-price when requirements remain unstable and technical risk is high.",
+        "Use cost-reimbursement without documenting adequate surveillance and accounting capability.",
+        "Choose contract type based on historical preference rather than current risk allocation.",
+        "Apply FAR 16 procedures with documented rationale"
+      ],
+      "revertedVersion": [
+        "Skip documentation to accelerate award",
+        "Use sole-source automatically without justification",
+        "Delay acquisition planning until after solicitation",
+        "Apply FAR 16 procedures with documented rationale"
+      ],
+      "notes": "Restored regular Learn bank choices to pre-distractor-pass version from previous commit."
+    }
+  ]
+}
