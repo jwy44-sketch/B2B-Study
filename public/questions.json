@@ -4462,7 +4462,7 @@
         "Eliminate choices that conflict with authority, timing, or documentation rules.",
         "Select the option that directly matches the cited FAR policy text."
       ],
-      "whyCorrect": "Choice B aligns with the FAR rule and the procedural requirement being tested.",
+      "whyCorrect": "This answer is correct because the synopsis threshold is tied to actions expected to exceed $25,000. The other dollar values either set the bar too low or too high and therefore do not match the publicizing rule.",
       "whyWrong": [
         {
           "choiceLabel": "A",
@@ -4489,7 +4489,7 @@
       }
     },
     "explanation": {
-      "whyCorrect": "Choice B aligns with the FAR rule and the procedural requirement being tested.",
+      "whyCorrect": "This answer is correct because the synopsis threshold is tied to actions expected to exceed $25,000. The other dollar values either set the bar too low or too high and therefore do not match the publicizing rule.",
       "keyTakeaway": "Applying FAR Part 5 rules to identify the compliant answer for this specific acquisition scenario.",
       "commonTrap": "Different deadlines by offeror violate equal treatment and can prejudice competition."
     },
@@ -4537,7 +4537,7 @@
         "Eliminate choices that conflict with authority, timing, or documentation rules.",
         "Select the option that directly matches the cited FAR policy text."
       ],
-      "whyCorrect": "Choice C aligns with the FAR rule and the procedural requirement being tested.",
+      "whyCorrect": "This answer is correct because \"Amend the solicitation, changing the contract line item\" is the option that directly matches the rule, role, form, or concept the stem is testing. The other choices are close enough to be tempting, but they either describe a different acquisition phase, the wrong authority/document, or a broader or narrower rule than the one this question actually asks about.",
       "whyWrong": [
         {
           "choiceLabel": "A",
@@ -4555,7 +4555,7 @@
       "fieldTip": "On exam items, first identify the FAR trigger (part/section), then test each distractor against that trigger."
     },
     "explanation": {
-      "whyCorrect": "Choice C aligns with the FAR rule and the procedural requirement being tested.",
+      "whyCorrect": "This answer is correct because \"Amend the solicitation, changing the contract line item\" is the option that directly matches the rule, role, form, or concept the stem is testing. The other choices are close enough to be tempting, but they either describe a different acquisition phase, the wrong authority/document, or a broader or narrower rule than the one this question actually asks about.",
       "keyTakeaway": "Applying FAR Part 15 rules to identify the compliant answer for this specific acquisition scenario.",
       "commonTrap": "Defects in the solicitation should be corrected before award, not deferred to postaward mods."
     },
@@ -4603,7 +4603,7 @@
         "Eliminate choices that conflict with authority, timing, or documentation rules.",
         "Select the option that directly matches the cited FAR policy text."
       ],
-      "whyCorrect": "Choice B aligns with the FAR rule and the procedural requirement being tested.",
+      "whyCorrect": "This answer is correct because FAR Part 6 is the principal FAR part on competition requirements. The other parts may touch acquisition planning or procedures, but they are not the primary source for competition policy.",
       "whyWrong": [
         {
           "choiceLabel": "A",
@@ -4630,7 +4630,7 @@
       }
     },
     "explanation": {
-      "whyCorrect": "Choice B aligns with the FAR rule and the procedural requirement being tested.",
+      "whyCorrect": "This answer is correct because FAR Part 6 is the principal FAR part on competition requirements. The other parts may touch acquisition planning or procedures, but they are not the primary source for competition policy.",
       "keyTakeaway": "Applying FAR Part 6 rules to identify the compliant answer for this specific acquisition scenario.",
       "commonTrap": "Part 1 provides system-wide principles, not detailed competition procedures."
     },
@@ -4678,7 +4678,7 @@
         "Eliminate choices that conflict with authority, timing, or documentation rules.",
         "Select the option that directly matches the cited FAR policy text."
       ],
-      "whyCorrect": "Choice C aligns with the FAR rule and the procedural requirement being tested.",
+      "whyCorrect": "This answer is correct because \"Firm-fixed-price\" is the option that directly matches the rule, role, form, or concept the stem is testing. The other choices are close enough to be tempting, but they either describe a different acquisition phase, the wrong authority/document, or a broader or narrower rule than the one this question actually asks about.",
       "whyWrong": [
         {
           "choiceLabel": "A",
@@ -4696,7 +4696,7 @@
       "fieldTip": "On exam items, first identify the FAR trigger (part/section), then test each distractor against that trigger."
     },
     "explanation": {
-      "whyCorrect": "Choice C aligns with the FAR rule and the procedural requirement being tested.",
+      "whyCorrect": "This answer is correct because \"Firm-fixed-price\" is the option that directly matches the rule, role, form, or concept the stem is testing. The other choices are close enough to be tempting, but they either describe a different acquisition phase, the wrong authority/document, or a broader or narrower rule than the one this question actually asks about.",
       "keyTakeaway": "Applying FAR Part 12 rules to identify the compliant answer for this specific acquisition scenario.",
       "commonTrap": "FAR 12 generally uses firm-fixed-price or fixed-price with EPA, not this type as listed."
     },
@@ -4744,7 +4744,7 @@
         "Eliminate choices that conflict with authority, timing, or documentation rules.",
         "Select the option that directly matches the cited FAR policy text."
       ],
-      "whyCorrect": "Choice A aligns with the FAR rule and the procedural requirement being tested.",
+      "whyCorrect": "This answer is correct because SAP is designed to promote competition to the maximum extent practicable, not to favor incumbents, ignore lateness rules, or balance every socioeconomic category equally in every buy. The question is testing the core SAP competition principle, and this choice states it directly.",
       "whyWrong": [
         {
           "choiceLabel": "B",
@@ -4762,7 +4762,7 @@
       "fieldTip": "On exam items, first identify the FAR trigger (part/section), then test each distractor against that trigger."
     },
     "explanation": {
-      "whyCorrect": "Choice A aligns with the FAR rule and the procedural requirement being tested.",
+      "whyCorrect": "This answer is correct because SAP is designed to promote competition to the maximum extent practicable, not to favor incumbents, ignore lateness rules, or balance every socioeconomic category equally in every buy. The question is testing the core SAP competition principle, and this choice states it directly.",
       "keyTakeaway": "Applying FAR Part 43 rules to identify the compliant answer for this specific acquisition scenario.",
       "commonTrap": "SF 1449 is primarily for solicitation/award/order creation, not the standard bilateral/unilateral mod instrument."
     },
@@ -4810,7 +4810,7 @@
         "Eliminate choices that conflict with authority, timing, or documentation rules.",
         "Select the option that directly matches the cited FAR policy text."
       ],
-      "whyCorrect": "Choice D aligns with the FAR rule and the procedural requirement being tested.",
+      "whyCorrect": "This answer is correct because once the Government publicizes a proposed contract action, offerors must be given a common response time measured from publication. The wrong answers either create unequal treatment or add content requirements that are not part of the publicizing rule.",
       "whyWrong": [
         {
           "choiceLabel": "A",
@@ -4828,7 +4828,7 @@
       "fieldTip": "On exam items, first identify the FAR trigger (part/section), then test each distractor against that trigger."
     },
     "explanation": {
-      "whyCorrect": "Choice D aligns with the FAR rule and the procedural requirement being tested.",
+      "whyCorrect": "This answer is correct because once the Government publicizes a proposed contract action, offerors must be given a common response time measured from publication. The wrong answers either create unequal treatment or add content requirements that are not part of the publicizing rule.",
       "keyTakeaway": "Applying FAR Part 15 rules to identify the compliant answer for this specific acquisition scenario.",
       "commonTrap": "Section A is solicitation/contract form information, not exhibit attachments."
     },
@@ -4876,7 +4876,7 @@
         "Eliminate choices that conflict with authority, timing, or documentation rules.",
         "Select the option that directly matches the cited FAR policy text."
       ],
-      "whyCorrect": "Choice A aligns with the FAR rule and the procedural requirement being tested.",
+      "whyCorrect": "This answer is correct because \"The Governmentwide Point of Entry (GPE)\" is the option that directly matches the rule, role, form, or concept the stem is testing. The other choices are close enough to be tempting, but they either describe a different acquisition phase, the wrong authority/document, or a broader or narrower rule than the one this question actually asks about.",
       "whyWrong": [
         {
           "choiceLabel": "B",
@@ -4894,7 +4894,7 @@
       "fieldTip": "On exam items, first identify the FAR trigger (part/section), then test each distractor against that trigger."
     },
     "explanation": {
-      "whyCorrect": "Choice A aligns with the FAR rule and the procedural requirement being tested.",
+      "whyCorrect": "This answer is correct because \"The Governmentwide Point of Entry (GPE)\" is the option that directly matches the rule, role, form, or concept the stem is testing. The other choices are close enough to be tempting, but they either describe a different acquisition phase, the wrong authority/document, or a broader or narrower rule than the one this question actually asks about.",
       "keyTakeaway": "Applying FAR Part 5 rules to identify the compliant answer for this specific acquisition scenario.",
       "commonTrap": "SBA offices counsel firms but are not the centralized Government opportunities posting site."
     },
@@ -4942,7 +4942,7 @@
         "Eliminate choices that conflict with authority, timing, or documentation rules.",
         "Select the option that directly matches the cited FAR policy text."
       ],
-      "whyCorrect": "Choice D aligns with the FAR rule and the procedural requirement being tested.",
+      "whyCorrect": "This answer is correct because \"Section M\" is the option that directly matches the rule, role, form, or concept the stem is testing. The other choices are close enough to be tempting, but they either describe a different acquisition phase, the wrong authority/document, or a broader or narrower rule than the one this question actually asks about.",
       "whyWrong": [
         {
           "choiceLabel": "A",
@@ -4960,7 +4960,7 @@
       "fieldTip": "On exam items, first identify the FAR trigger (part/section), then test each distractor against that trigger."
     },
     "explanation": {
-      "whyCorrect": "Choice D aligns with the FAR rule and the procedural requirement being tested.",
+      "whyCorrect": "This answer is correct because \"Section M\" is the option that directly matches the rule, role, form, or concept the stem is testing. The other choices are close enough to be tempting, but they either describe a different acquisition phase, the wrong authority/document, or a broader or narrower rule than the one this question actually asks about.",
       "keyTakeaway": "Applying FAR Part 15 rules to identify the compliant answer for this specific acquisition scenario.",
       "commonTrap": "Section A is basic form info, not evaluation factors."
     },
@@ -5008,7 +5008,7 @@
         "Eliminate choices that conflict with authority, timing, or documentation rules.",
         "Select the option that directly matches the cited FAR policy text."
       ],
-      "whyCorrect": "Choice C aligns with the FAR rule and the procedural requirement being tested.",
+      "whyCorrect": "This answer is correct because \"Consider extending the due date so offerors can respond meaningfully and fairly.\" is the option that directly matches the rule, role, form, or concept the stem is testing. The other choices are close enough to be tempting, but they either describe a different acquisition phase, the wrong authority/document, or a broader or narrower rule than the one this question actually asks about.",
       "whyWrong": [
         {
           "choiceLabel": "A",
@@ -5026,7 +5026,7 @@
       "fieldTip": "On exam items, first identify the FAR trigger (part/section), then test each distractor against that trigger."
     },
     "explanation": {
-      "whyCorrect": "Choice C aligns with the FAR rule and the procedural requirement being tested.",
+      "whyCorrect": "This answer is correct because \"Consider extending the due date so offerors can respond meaningfully and fairly.\" is the option that directly matches the rule, role, form, or concept the stem is testing. The other choices are close enough to be tempting, but they either describe a different acquisition phase, the wrong authority/document, or a broader or narrower rule than the one this question actually asks about.",
       "keyTakeaway": "Applying FAR Part 15 rules to identify the compliant answer for this specific acquisition scenario.",
       "commonTrap": "Section H contains special requirements, not proposal formatting/page-limit instructions."
     },
@@ -5074,7 +5074,7 @@
         "Eliminate choices that conflict with authority, timing, or documentation rules.",
         "Select the option that directly matches the cited FAR policy text."
       ],
-      "whyCorrect": "Choice B aligns with the FAR rule and the procedural requirement being tested.",
+      "whyCorrect": "This answer is correct because \"Buying-in\" is the option that directly matches the rule, role, form, or concept the stem is testing. The other choices are close enough to be tempting, but they either describe a different acquisition phase, the wrong authority/document, or a broader or narrower rule than the one this question actually asks about.",
       "whyWrong": [
         {
           "choiceLabel": "A",
@@ -5092,7 +5092,7 @@
       "fieldTip": "On exam items, first identify the FAR trigger (part/section), then test each distractor against that trigger."
     },
     "explanation": {
-      "whyCorrect": "Choice B aligns with the FAR rule and the procedural requirement being tested.",
+      "whyCorrect": "This answer is correct because \"Buying-in\" is the option that directly matches the rule, role, form, or concept the stem is testing. The other choices are close enough to be tempting, but they either describe a different acquisition phase, the wrong authority/document, or a broader or narrower rule than the one this question actually asks about.",
       "keyTakeaway": "Applying FAR Part 3 rules to identify the compliant answer for this specific acquisition scenario.",
       "commonTrap": "Unbalanced pricing concerns line-item price distortion, not below-cost strategy for follow-on recovery."
     },
@@ -5140,7 +5140,7 @@
         "Eliminate choices that conflict with authority, timing, or documentation rules.",
         "Select the option that directly matches the cited FAR policy text."
       ],
-      "whyCorrect": "Choice A aligns with the FAR rule and the procedural requirement being tested.",
+      "whyCorrect": "This answer is correct because \"Fixed-price with economic price adjustment\" is the option that directly matches the rule, role, form, or concept the stem is testing. The other choices are close enough to be tempting, but they either describe a different acquisition phase, the wrong authority/document, or a broader or narrower rule than the one this question actually asks about.",
       "whyWrong": [
         {
           "choiceLabel": "B",
@@ -5158,7 +5158,7 @@
       "fieldTip": "On exam items, first identify the FAR trigger (part/section), then test each distractor against that trigger."
     },
     "explanation": {
-      "whyCorrect": "Choice A aligns with the FAR rule and the procedural requirement being tested.",
+      "whyCorrect": "This answer is correct because \"Fixed-price with economic price adjustment\" is the option that directly matches the rule, role, form, or concept the stem is testing. The other choices are close enough to be tempting, but they either describe a different acquisition phase, the wrong authority/document, or a broader or narrower rule than the one this question actually asks about.",
       "keyTakeaway": "Applying FAR Part 16 rules to identify the compliant answer for this specific acquisition scenario.",
       "commonTrap": "FFP with performance-based payments does not directly address volatile commodity-price risk."
     },
@@ -5206,7 +5206,7 @@
         "Eliminate choices that conflict with authority, timing, or documentation rules.",
         "Select the option that directly matches the cited FAR policy text."
       ],
-      "whyCorrect": "Choice D aligns with the FAR rule and the procedural requirement being tested.",
+      "whyCorrect": "This answer is correct because \"Fixed-price with economic price adjustment\" is the option that directly matches the rule, role, form, or concept the stem is testing. The other choices are close enough to be tempting, but they either describe a different acquisition phase, the wrong authority/document, or a broader or narrower rule than the one this question actually asks about.",
       "whyWrong": [
         {
           "choiceLabel": "A",
@@ -5224,7 +5224,7 @@
       "fieldTip": "On exam items, first identify the FAR trigger (part/section), then test each distractor against that trigger."
     },
     "explanation": {
-      "whyCorrect": "Choice D aligns with the FAR rule and the procedural requirement being tested.",
+      "whyCorrect": "This answer is correct because \"Fixed-price with economic price adjustment\" is the option that directly matches the rule, role, form, or concept the stem is testing. The other choices are close enough to be tempting, but they either describe a different acquisition phase, the wrong authority/document, or a broader or narrower rule than the one this question actually asks about.",
       "keyTakeaway": "Applying FAR Part 31 rules to identify the compliant answer for this specific acquisition scenario.",
       "commonTrap": "Undefinitized is a contract action concept, not a cost allowability category."
     },
@@ -5272,7 +5272,7 @@
         "Eliminate choices that conflict with authority, timing, or documentation rules.",
         "Select the option that directly matches the cited FAR policy text."
       ],
-      "whyCorrect": "Choice B aligns with the FAR rule and the procedural requirement being tested.",
+      "whyCorrect": "This answer is correct because \"Responsible sources\" is the option that directly matches the rule, role, form, or concept the stem is testing. The other choices are close enough to be tempting, but they either describe a different acquisition phase, the wrong authority/document, or a broader or narrower rule than the one this question actually asks about.",
       "whyWrong": [
         {
           "choiceLabel": "A",
@@ -5290,7 +5290,7 @@
       "fieldTip": "On exam items, first identify the FAR trigger (part/section), then test each distractor against that trigger."
     },
     "explanation": {
-      "whyCorrect": "Choice B aligns with the FAR rule and the procedural requirement being tested.",
+      "whyCorrect": "This answer is correct because \"Responsible sources\" is the option that directly matches the rule, role, form, or concept the stem is testing. The other choices are close enough to be tempting, but they either describe a different acquisition phase, the wrong authority/document, or a broader or narrower rule than the one this question actually asks about.",
       "keyTakeaway": "Applying FAR Part 15 rules to identify the compliant answer for this specific acquisition scenario.",
       "commonTrap": "Responsiveness is a sealed-bidding concept; pricing policy here emphasizes responsible sources."
     },
@@ -5338,7 +5338,7 @@
         "Eliminate choices that conflict with authority, timing, or documentation rules.",
         "Select the option that directly matches the cited FAR policy text."
       ],
-      "whyCorrect": "Choice A aligns with the FAR rule and the procedural requirement being tested.",
+      "whyCorrect": "This answer is correct because \"Sole source and competitive\" is the option that directly matches the rule, role, form, or concept the stem is testing. The other choices are close enough to be tempting, but they either describe a different acquisition phase, the wrong authority/document, or a broader or narrower rule than the one this question actually asks about.",
       "whyWrong": [
         {
           "choiceLabel": "B",
@@ -5365,7 +5365,7 @@
       }
     },
     "explanation": {
-      "whyCorrect": "Choice A aligns with the FAR rule and the procedural requirement being tested.",
+      "whyCorrect": "This answer is correct because \"Sole source and competitive\" is the option that directly matches the rule, role, form, or concept the stem is testing. The other choices are close enough to be tempting, but they either describe a different acquisition phase, the wrong authority/document, or a broader or narrower rule than the one this question actually asks about.",
       "keyTakeaway": "Applying FAR Part 15 rules to identify the compliant answer for this specific acquisition scenario.",
       "commonTrap": "\"Sole source\" and \"single source\" are redundant, not two FAR categories."
     },
@@ -5413,7 +5413,7 @@
         "Eliminate choices that conflict with authority, timing, or documentation rules.",
         "Select the option that directly matches the cited FAR policy text."
       ],
-      "whyCorrect": "Choice C aligns with the FAR rule and the procedural requirement being tested.",
+      "whyCorrect": "This answer is correct because \"To select the proposal that represents the best value\" is the option that directly matches the rule, role, form, or concept the stem is testing. The other choices are close enough to be tempting, but they either describe a different acquisition phase, the wrong authority/document, or a broader or narrower rule than the one this question actually asks about.",
       "whyWrong": [
         {
           "choiceLabel": "A",
@@ -5431,7 +5431,7 @@
       "fieldTip": "On exam items, first identify the FAR trigger (part/section), then test each distractor against that trigger."
     },
     "explanation": {
-      "whyCorrect": "Choice C aligns with the FAR rule and the procedural requirement being tested.",
+      "whyCorrect": "This answer is correct because \"To select the proposal that represents the best value\" is the option that directly matches the rule, role, form, or concept the stem is testing. The other choices are close enough to be tempting, but they either describe a different acquisition phase, the wrong authority/document, or a broader or narrower rule than the one this question actually asks about.",
       "keyTakeaway": "Applying FAR Part 15 rules to identify the compliant answer for this specific acquisition scenario.",
       "commonTrap": "Lowest price alone is not the universal objective under negotiated source selection."
     },
@@ -5479,7 +5479,7 @@
         "Eliminate choices that conflict with authority, timing, or documentation rules.",
         "Select the option that directly matches the cited FAR policy text."
       ],
-      "whyCorrect": "Choice B aligns with the FAR rule and the procedural requirement being tested.",
+      "whyCorrect": "This answer is correct because \"Fixed-price\" is the option that directly matches the rule, role, form, or concept the stem is testing. The other choices are close enough to be tempting, but they either describe a different acquisition phase, the wrong authority/document, or a broader or narrower rule than the one this question actually asks about.",
       "whyWrong": [
         {
           "choiceLabel": "A",
@@ -5497,7 +5497,7 @@
       "fieldTip": "On exam items, first identify the FAR trigger (part/section), then test each distractor against that trigger."
     },
     "explanation": {
-      "whyCorrect": "Choice B aligns with the FAR rule and the procedural requirement being tested.",
+      "whyCorrect": "This answer is correct because \"Fixed-price\" is the option that directly matches the rule, role, form, or concept the stem is testing. The other choices are close enough to be tempting, but they either describe a different acquisition phase, the wrong authority/document, or a broader or narrower rule than the one this question actually asks about.",
       "keyTakeaway": "Applying FAR Part 16 rules to identify the compliant answer for this specific acquisition scenario.",
       "commonTrap": "Labor-hour keeps significant cost risk with Government because hours drive payment."
     },
@@ -5545,7 +5545,7 @@
         "Eliminate choices that conflict with authority, timing, or documentation rules.",
         "Select the option that directly matches the cited FAR policy text."
       ],
-      "whyCorrect": "Choice B aligns with the FAR rule and the procedural requirement being tested.",
+      "whyCorrect": "This answer is correct because \"To validate the Government requirement is met\" is the option that directly matches the rule, role, form, or concept the stem is testing. The other choices are close enough to be tempting, but they either describe a different acquisition phase, the wrong authority/document, or a broader or narrower rule than the one this question actually asks about.",
       "whyWrong": [
         {
           "choiceLabel": "A",
@@ -5563,7 +5563,7 @@
       "fieldTip": "On exam items, first identify the FAR trigger (part/section), then test each distractor against that trigger."
     },
     "explanation": {
-      "whyCorrect": "Choice B aligns with the FAR rule and the procedural requirement being tested.",
+      "whyCorrect": "This answer is correct because \"To validate the Government requirement is met\" is the option that directly matches the rule, role, form, or concept the stem is testing. The other choices are close enough to be tempting, but they either describe a different acquisition phase, the wrong authority/document, or a broader or narrower rule than the one this question actually asks about.",
       "keyTakeaway": "Applying FAR Part 15 rules to identify the compliant answer for this specific acquisition scenario.",
       "commonTrap": "Fair and reasonable price is an output of price analysis, not the broader purpose statement tested."
     },
@@ -5611,7 +5611,7 @@
         "Eliminate choices that conflict with authority, timing, or documentation rules.",
         "Select the option that directly matches the cited FAR policy text."
       ],
-      "whyCorrect": "Choice D aligns with the FAR rule and the procedural requirement being tested.",
+      "whyCorrect": "This answer is correct because \"Request for proposals\" is the option that directly matches the rule, role, form, or concept the stem is testing. The other choices are close enough to be tempting, but they either describe a different acquisition phase, the wrong authority/document, or a broader or narrower rule than the one this question actually asks about.",
       "whyWrong": [
         {
           "choiceLabel": "A",
@@ -5629,7 +5629,7 @@
       "fieldTip": "On exam items, first identify the FAR trigger (part/section), then test each distractor against that trigger."
     },
     "explanation": {
-      "whyCorrect": "Choice D aligns with the FAR rule and the procedural requirement being tested.",
+      "whyCorrect": "This answer is correct because \"Request for proposals\" is the option that directly matches the rule, role, form, or concept the stem is testing. The other choices are close enough to be tempting, but they either describe a different acquisition phase, the wrong authority/document, or a broader or narrower rule than the one this question actually asks about.",
       "keyTakeaway": "Applying FAR Part 15 rules to identify the compliant answer for this specific acquisition scenario.",
       "commonTrap": "Micropurchases do not require certified cost or pricing data."
     },
@@ -5677,7 +5677,7 @@
         "Eliminate choices that conflict with authority, timing, or documentation rules.",
         "Select the option that directly matches the cited FAR policy text."
       ],
-      "whyCorrect": "Choice D aligns with the FAR rule and the procedural requirement being tested.",
+      "whyCorrect": "This answer is correct because \"Quotations\" is the option that directly matches the rule, role, form, or concept the stem is testing. The other choices are close enough to be tempting, but they either describe a different acquisition phase, the wrong authority/document, or a broader or narrower rule than the one this question actually asks about.",
       "whyWrong": [
         {
           "choiceLabel": "A",
@@ -5695,7 +5695,7 @@
       "fieldTip": "On exam items, first identify the FAR trigger (part/section), then test each distractor against that trigger."
     },
     "explanation": {
-      "whyCorrect": "Choice D aligns with the FAR rule and the procedural requirement being tested.",
+      "whyCorrect": "This answer is correct because \"Quotations\" is the option that directly matches the rule, role, form, or concept the stem is testing. The other choices are close enough to be tempting, but they either describe a different acquisition phase, the wrong authority/document, or a broader or narrower rule than the one this question actually asks about.",
       "keyTakeaway": "Applying FAR Part 13 rules to identify the compliant answer for this specific acquisition scenario.",
       "commonTrap": "Proposals under Part 15 follow more structured evaluation procedures."
     },
@@ -5743,7 +5743,7 @@
         "Eliminate choices that conflict with authority, timing, or documentation rules.",
         "Select the option that directly matches the cited FAR policy text."
       ],
-      "whyCorrect": "Choice B aligns with the FAR rule and the procedural requirement being tested.",
+      "whyCorrect": "This answer is correct because \"Fixed-price\" is the option that directly matches the rule, role, form, or concept the stem is testing. The other choices are close enough to be tempting, but they either describe a different acquisition phase, the wrong authority/document, or a broader or narrower rule than the one this question actually asks about.",
       "whyWrong": [
         {
           "choiceLabel": "A",
@@ -5761,7 +5761,7 @@
       "fieldTip": "On exam items, first identify the FAR trigger (part/section), then test each distractor against that trigger."
     },
     "explanation": {
-      "whyCorrect": "Choice B aligns with the FAR rule and the procedural requirement being tested.",
+      "whyCorrect": "This answer is correct because \"Fixed-price\" is the option that directly matches the rule, role, form, or concept the stem is testing. The other choices are close enough to be tempting, but they either describe a different acquisition phase, the wrong authority/document, or a broader or narrower rule than the one this question actually asks about.",
       "keyTakeaway": "Applying FAR Part 15 rules to identify the compliant answer for this specific acquisition scenario.",
       "commonTrap": "Sole source usually increases likelihood of certified data unless another exception applies."
     },
@@ -5809,7 +5809,7 @@
         "Eliminate choices that conflict with authority, timing, or documentation rules.",
         "Select the option that directly matches the cited FAR policy text."
       ],
-      "whyCorrect": "Choice A aligns with the FAR rule and the procedural requirement being tested.",
+      "whyCorrect": "This answer is correct because \"The contractor provided its proposal at 2:15 p.m. on February 3, 2020\" is the option that directly matches the rule, role, form, or concept the stem is testing. The other choices are close enough to be tempting, but they either describe a different acquisition phase, the wrong authority/document, or a broader or narrower rule than the one this question actually asks about.",
       "whyWrong": [
         {
           "choiceLabel": "B",
@@ -5827,7 +5827,7 @@
       "fieldTip": "On exam items, first identify the FAR trigger (part/section), then test each distractor against that trigger."
     },
     "explanation": {
-      "whyCorrect": "Choice A aligns with the FAR rule and the procedural requirement being tested.",
+      "whyCorrect": "This answer is correct because \"The contractor provided its proposal at 2:15 p.m. on February 3, 2020\" is the option that directly matches the rule, role, form, or concept the stem is testing. The other choices are close enough to be tempting, but they either describe a different acquisition phase, the wrong authority/document, or a broader or narrower rule than the one this question actually asks about.",
       "keyTakeaway": "Applying FAR Part 52 rules to identify the compliant answer for this specific acquisition scenario.",
       "commonTrap": "This proposal was submitted before the deadline date/time, so it is not late."
     },
@@ -5875,7 +5875,7 @@
         "Eliminate choices that conflict with authority, timing, or documentation rules.",
         "Select the option that directly matches the cited FAR policy text."
       ],
-      "whyCorrect": "Choice C aligns with the FAR rule and the procedural requirement being tested.",
+      "whyCorrect": "This answer is correct because \"Request for proposals\" is the option that directly matches the rule, role, form, or concept the stem is testing. The other choices are close enough to be tempting, but they either describe a different acquisition phase, the wrong authority/document, or a broader or narrower rule than the one this question actually asks about.",
       "whyWrong": [
         {
           "choiceLabel": "A",
@@ -5893,7 +5893,7 @@
       "fieldTip": "On exam items, first identify the FAR trigger (part/section), then test each distractor against that trigger."
     },
     "explanation": {
-      "whyCorrect": "Choice C aligns with the FAR rule and the procedural requirement being tested.",
+      "whyCorrect": "This answer is correct because \"Request for proposals\" is the option that directly matches the rule, role, form, or concept the stem is testing. The other choices are close enough to be tempting, but they either describe a different acquisition phase, the wrong authority/document, or a broader or narrower rule than the one this question actually asks about.",
       "keyTakeaway": "Applying FAR Part 15 rules to identify the compliant answer for this specific acquisition scenario.",
       "commonTrap": "Data sweeps support process discipline but are not what the certificate legally certifies."
     },
@@ -5941,7 +5941,7 @@
         "Eliminate choices that conflict with authority, timing, or documentation rules.",
         "Select the option that directly matches the cited FAR policy text."
       ],
-      "whyCorrect": "Choice C aligns with the FAR rule and the procedural requirement being tested.",
+      "whyCorrect": "This answer is correct because \"Clarifications\" is the option that directly matches the rule, role, form, or concept the stem is testing. The other choices are close enough to be tempting, but they either describe a different acquisition phase, the wrong authority/document, or a broader or narrower rule than the one this question actually asks about.",
       "whyWrong": [
         {
           "choiceLabel": "A",
@@ -5959,7 +5959,7 @@
       "fieldTip": "On exam items, first identify the FAR trigger (part/section), then test each distractor against that trigger."
     },
     "explanation": {
-      "whyCorrect": "Choice C aligns with the FAR rule and the procedural requirement being tested.",
+      "whyCorrect": "This answer is correct because \"Clarifications\" is the option that directly matches the rule, role, form, or concept the stem is testing. The other choices are close enough to be tempting, but they either describe a different acquisition phase, the wrong authority/document, or a broader or narrower rule than the one this question actually asks about.",
       "keyTakeaway": "Applying FAR Part 15 rules to identify the compliant answer for this specific acquisition scenario.",
       "commonTrap": "Negotiations/discussions are broader exchanges, not the limited exchange type when no discussions are planned."
     },
@@ -6007,7 +6007,7 @@
         "Eliminate choices that conflict with authority, timing, or documentation rules.",
         "Select the option that directly matches the cited FAR policy text."
       ],
-      "whyCorrect": "Choice A aligns with the FAR rule and the procedural requirement being tested.",
+      "whyCorrect": "This answer is correct because \"Price or cost analysis\" is the option that directly matches the rule, role, form, or concept the stem is testing. The other choices are close enough to be tempting, but they either describe a different acquisition phase, the wrong authority/document, or a broader or narrower rule than the one this question actually asks about.",
       "whyWrong": [
         {
           "choiceLabel": "B",
@@ -6025,7 +6025,7 @@
       "fieldTip": "On exam items, first identify the FAR trigger (part/section), then test each distractor against that trigger."
     },
     "explanation": {
-      "whyCorrect": "Choice A aligns with the FAR rule and the procedural requirement being tested.",
+      "whyCorrect": "This answer is correct because \"Price or cost analysis\" is the option that directly matches the rule, role, form, or concept the stem is testing. The other choices are close enough to be tempting, but they either describe a different acquisition phase, the wrong authority/document, or a broader or narrower rule than the one this question actually asks about.",
       "keyTakeaway": "Applying FAR Part 15 rules to identify the compliant answer for this specific acquisition scenario.",
       "commonTrap": "IGCE informs the Government view but cannot replace full price/cost analysis."
     },
@@ -6073,7 +6073,7 @@
         "Eliminate choices that conflict with authority, timing, or documentation rules.",
         "Select the option that directly matches the cited FAR policy text."
       ],
-      "whyCorrect": "Choice A aligns with the FAR rule and the procedural requirement being tested.",
+      "whyCorrect": "This answer is correct because \"Price Negotiation Memorandum\" is the option that directly matches the rule, role, form, or concept the stem is testing. The other choices are close enough to be tempting, but they either describe a different acquisition phase, the wrong authority/document, or a broader or narrower rule than the one this question actually asks about.",
       "whyWrong": [
         {
           "choiceLabel": "B",
@@ -6091,7 +6091,7 @@
       "fieldTip": "On exam items, first identify the FAR trigger (part/section), then test each distractor against that trigger."
     },
     "explanation": {
-      "whyCorrect": "Choice A aligns with the FAR rule and the procedural requirement being tested.",
+      "whyCorrect": "This answer is correct because \"Price Negotiation Memorandum\" is the option that directly matches the rule, role, form, or concept the stem is testing. The other choices are close enough to be tempting, but they either describe a different acquisition phase, the wrong authority/document, or a broader or narrower rule than the one this question actually asks about.",
       "keyTakeaway": "Applying FAR Part 15 rules to identify the compliant answer for this specific acquisition scenario.",
       "commonTrap": "SF 1409 abstracts offers; it does not document negotiation purpose/outcomes."
     },
@@ -6139,7 +6139,7 @@
         "Eliminate choices that conflict with authority, timing, or documentation rules.",
         "Select the option that directly matches the cited FAR policy text."
       ],
-      "whyCorrect": "Choice D aligns with the FAR rule and the procedural requirement being tested.",
+      "whyCorrect": "This answer is correct because \"FAR part 15\" is the option that directly matches the rule, role, form, or concept the stem is testing. The other choices are close enough to be tempting, but they either describe a different acquisition phase, the wrong authority/document, or a broader or narrower rule than the one this question actually asks about.",
       "whyWrong": [
         {
           "choiceLabel": "A",
@@ -6166,7 +6166,7 @@
       }
     },
     "explanation": {
-      "whyCorrect": "Choice D aligns with the FAR rule and the procedural requirement being tested.",
+      "whyCorrect": "This answer is correct because \"FAR part 15\" is the option that directly matches the rule, role, form, or concept the stem is testing. The other choices are close enough to be tempting, but they either describe a different acquisition phase, the wrong authority/document, or a broader or narrower rule than the one this question actually asks about.",
       "keyTakeaway": "Applying FAR Part 15 rules to identify the compliant answer for this specific acquisition scenario.",
       "commonTrap": "Part 12 is commercial items, not general contracting by negotiation coverage."
     },
@@ -6214,7 +6214,7 @@
         "Eliminate choices that conflict with authority, timing, or documentation rules.",
         "Select the option that directly matches the cited FAR policy text."
       ],
-      "whyCorrect": "Choice A aligns with the FAR rule and the procedural requirement being tested.",
+      "whyCorrect": "This answer is correct because \"Should discuss aspects of an offeror's proposal if alterations or explanations would enhance the proposal's potential for award\" is the option that directly matches the rule, role, form, or concept the stem is testing. The other choices are close enough to be tempting, but they either describe a different acquisition phase, the wrong authority/document, or a broader or narrower rule than the one this question actually asks about.",
       "whyWrong": [
         {
           "choiceLabel": "B",
@@ -6232,7 +6232,7 @@
       "fieldTip": "On exam items, first identify the FAR trigger (part/section), then test each distractor against that trigger."
     },
     "explanation": {
-      "whyCorrect": "Choice A aligns with the FAR rule and the procedural requirement being tested.",
+      "whyCorrect": "This answer is correct because \"Should discuss aspects of an offeror's proposal if alterations or explanations would enhance the proposal's potential for award\" is the option that directly matches the rule, role, form, or concept the stem is testing. The other choices are close enough to be tempting, but they either describe a different acquisition phase, the wrong authority/document, or a broader or narrower rule than the one this question actually asks about.",
       "keyTakeaway": "Applying FAR Part 15 rules to identify the compliant answer for this specific acquisition scenario.",
       "commonTrap": "CO must stay within solicitation evaluation factors and cannot ignore them."
     },
@@ -6280,7 +6280,7 @@
         "Eliminate choices that conflict with authority, timing, or documentation rules.",
         "Select the option that directly matches the cited FAR policy text."
       ],
-      "whyCorrect": "Choice B aligns with the FAR rule and the procedural requirement being tested.",
+      "whyCorrect": "This answer is correct because effective briefing slides should make the negotiation position easy to follow, which means keeping them simple and concise. The other options would make the approval briefing harder to understand rather than more effective.",
       "whyWrong": [
         {
           "choiceLabel": "A",
@@ -6298,7 +6298,7 @@
       "fieldTip": "On exam items, first identify the FAR trigger (part/section), then test each distractor against that trigger."
     },
     "explanation": {
-      "whyCorrect": "Choice B aligns with the FAR rule and the procedural requirement being tested.",
+      "whyCorrect": "This answer is correct because effective briefing slides should make the negotiation position easy to follow, which means keeping them simple and concise. The other options would make the approval briefing harder to understand rather than more effective.",
       "keyTakeaway": "Applying FAR Part 15 rules to identify the compliant answer for this specific acquisition scenario.",
       "commonTrap": "PNM documents results after negotiation; prenegotiation objectives set starting position before talks."
     },
@@ -6346,7 +6346,7 @@
         "Eliminate choices that conflict with authority, timing, or documentation rules.",
         "Select the option that directly matches the cited FAR policy text."
       ],
-      "whyCorrect": "Choice D aligns with the FAR rule and the procedural requirement being tested.",
+      "whyCorrect": "This answer is correct because \"Prior to entering into discussions\" is the option that directly matches the rule, role, form, or concept the stem is testing. The other choices are close enough to be tempting, but they either describe a different acquisition phase, the wrong authority/document, or a broader or narrower rule than the one this question actually asks about.",
       "whyWrong": [
         {
           "choiceLabel": "A",
@@ -6364,7 +6364,7 @@
       "fieldTip": "On exam items, first identify the FAR trigger (part/section), then test each distractor against that trigger."
     },
     "explanation": {
-      "whyCorrect": "Choice D aligns with the FAR rule and the procedural requirement being tested.",
+      "whyCorrect": "This answer is correct because \"Prior to entering into discussions\" is the option that directly matches the rule, role, form, or concept the stem is testing. The other choices are close enough to be tempting, but they either describe a different acquisition phase, the wrong authority/document, or a broader or narrower rule than the one this question actually asks about.",
       "keyTakeaway": "Applying FAR Part 15 rules to identify the compliant answer for this specific acquisition scenario.",
       "commonTrap": "This repeats the stem and is not an actionable timing rule answer."
     },
@@ -6412,7 +6412,7 @@
         "Eliminate choices that conflict with authority, timing, or documentation rules.",
         "Select the option that directly matches the cited FAR policy text."
       ],
-      "whyCorrect": "Choice D aligns with the FAR rule and the procedural requirement being tested.",
+      "whyCorrect": "This answer is correct because \"Negotiations\" is the option that directly matches the rule, role, form, or concept the stem is testing. The other choices are close enough to be tempting, but they either describe a different acquisition phase, the wrong authority/document, or a broader or narrower rule than the one this question actually asks about.",
       "whyWrong": [
         {
           "choiceLabel": "A",
@@ -6439,7 +6439,7 @@
       }
     },
     "explanation": {
-      "whyCorrect": "Choice D aligns with the FAR rule and the procedural requirement being tested.",
+      "whyCorrect": "This answer is correct because \"Negotiations\" is the option that directly matches the rule, role, form, or concept the stem is testing. The other choices are close enough to be tempting, but they either describe a different acquisition phase, the wrong authority/document, or a broader or narrower rule than the one this question actually asks about.",
       "keyTakeaway": "Applying FAR Part 15 rules to identify the compliant answer for this specific acquisition scenario.",
       "commonTrap": "Banter is informal conversation, not FAR terminology."
     },
